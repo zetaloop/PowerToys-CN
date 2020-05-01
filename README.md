@@ -26,7 +26,7 @@ PowerToys 自制简体中文汉化包
 
 ✅ PowerRename 界面
 
-🔄 Shortcut Guide 的快捷键指示图（SVG 格式）
+✅ Shortcut Guide 的快捷键指示图（仅横屏）
 
 🅾 在线帮助页面
 
