@@ -2,7 +2,7 @@
 
 PowerToys 自制简体中文汉化包
 
-自制翻译，使用 Resource Hacker 修改 exe 与 dll 文件，使用 Notepad++ 修改 SVG 图片。
+自制翻译，使用 Resource Hacker 修改 exe 与 dll 文件，使用 Notepad++ 修改 SVG 图片，使用 Visual Studio 重编译。
 
 版本：v0.17.0
 
@@ -28,8 +28,8 @@ PowerToys 自制简体中文汉化包
 
 ✅ Shortcut Guide 的快捷键指示图（仅横屏）
 
+✅ FancyZones 布局编辑器【重新编译】
+
+✅ Window Walker 搜索框中的提示文字【重新编译】
+
 🅾 在线帮助页面
-
-🅾 FancyZones 布局编辑器
-
-🅾 Window Walker 搜索框中的提示文字
