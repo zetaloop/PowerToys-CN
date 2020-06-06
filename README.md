@@ -4,7 +4,7 @@ PowerToys 自制简体中文汉化包
 
 自制翻译，使用 Resource Hacker 修改 exe 与 dll 文件，使用 Notepad++ 修改 SVG 图片，使用 Visual Studio 重编译。
 
-版本：v0.17.0（v0.18.1 差不多做完了，还没检查，想试试的可以试试，不保证一定能用；还没传到储存库）
+版本：v0.18.2
 
 原版下载请移步：https://github.com/microsoft/PowerToys
 
@@ -18,18 +18,12 @@ PowerToys 自制简体中文汉化包
 
 # Tasks 任务进度
 
-✅ PowerToys 设置界面（FancyZones, Image Resizer, PowerPreview, PowerRename, Shortcut Guide, Window Walker）
+✅ PowerToys 设置界面
 
 ✅ PowerToys 应用程序运行提示和状态栏图标右键菜单
 
-✅ PowerPreview 预览界面（虽然汉化了，但我还没找到这个界面在哪）
+✅ 各插件界面
 
-✅ PowerRename 界面
-
-✅ Shortcut Guide 的快捷键指示图（仅横屏）
-
-✅ FancyZones 布局编辑器【重新编译】
-
-✅ Window Walker 搜索框中的提示文字【重新编译】
+🅾 Wox 插件
 
 🅾 在线帮助页面
