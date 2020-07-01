@@ -4,11 +4,11 @@ PowerToys 自制简体中文汉化包
 
 自制翻译，使用 Resource Hacker 修改 exe 与 dll 文件，使用 Notepad++ 修改 SVG 图片，使用 Visual Studio 重编译。
 
-版本：v0.18.2
+版本：v0.18.2（v0.19.0 在做了）
 
 原版下载请移步：https://github.com/microsoft/PowerToys
 
-初三学业繁忙，汉化不易，更新可能不及时，望谅解。
+放假，更新尽量跟上。
 
 新版本汉化催更可发邮件到 ideaploter@outlook.com
 
