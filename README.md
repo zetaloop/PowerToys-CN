@@ -6,13 +6,17 @@ PowerToys 自制简体中文汉化包
 
 版本：v0.19.1
 
+下载地址：https://github.com/IdeaPloter/PowerToys-Chinese-TransMOD/releases/latest
+
 原版下载请移步：https://github.com/microsoft/PowerToys
 
 发现缺陷、有新版本、催更，可发邮件到 ideaploter@outlook.com
 
 # Usage 使用方法
 
-覆盖安装目录下的同名文件
+下载 PCTMODxxx.7z 覆盖安装目录下的同名文件
+
+或者，下载 PCTMODerxxx.7z（含一键安装脚本），解压后运行“安装.CMD”，根据提示完成自动安装
 
 # Tasks 任务进度
 
