@@ -10,6 +10,10 @@ PowerToys 自制简体中文汉化包
 
 原版下载请移步：https://github.com/microsoft/PowerToys
 
+需要系统版本 Windows 10 1903 或更高，否则可能汉化失败。
+
+使用本汉化包失败的可以试试这个：https://www.52pojie.cn/thread-1158295-1-1.html
+
 发现缺陷、有新版本、催更，可发邮件到 ideaploter@outlook.com
 
 # Usage 使用方法
