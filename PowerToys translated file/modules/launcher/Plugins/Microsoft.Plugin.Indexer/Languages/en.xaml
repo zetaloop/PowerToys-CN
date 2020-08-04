@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    
+    <system:String x:Key="Microsoft_plugin_indexer_copy_path">复制路径(Ctrl+C)</system:String>
+    <system:String x:Key="Microsoft_plugin_indexer_open_containing_folder">打开所在文件夹(Ctrl+Shift+E)</system:String>
+    <system:String x:Key="Microsoft_plugin_indexer_run_as_administrator">以管理员身份运行(Ctrl+Shift+Enter)</system:String>
+    <system:String x:Key="Microsoft_plugin_indexer_open_in_console">在命令行打开路径(Ctrl+Shift+C)</system:String>
+    <system:String x:Key="Microsoft_plugin_indexer_name">名称</system:String>
+    <system:String x:Key="Microsoft_plugin_indexer_path">路径</system:String>
+    <system:String x:Key="Microsoft_plugin_indexer_drivedetectionwarning">警告：并非所有驱动器都已建立索引。</system:String>
+    <system:String x:Key="Microsoft_plugin_indexer_disable_warning_in_settings">单击转到 Windows 搜索设置进行修复。</system:String>
+    
+</ResourceDictionary>
