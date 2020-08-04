@@ -2,9 +2,9 @@
 
 PowerToys 自制简体中文汉化包
 
-自制翻译，使用 Resource Hacker 修改二进制文件，使用 Notepad++ 修改 SVG 图片，使用 Visual Studio 重编译。
+自制翻译，翻译源码使用 Visual Studio 编译，使用 Resource Hacker 修改二进制文件，使用 Notepad++ 修改 SVG 图片。
 
-版本：v0.20.0（正在整理文件，等会儿再上传）
+版本：v0.20.0
 
 下载地址：https://github.com/IdeaPloter/PowerToys-Chinese-TransMOD/releases/latest
 
@@ -32,7 +32,7 @@ PowerToys 运行提示、弹框消息、状态栏图标右键菜单
 
 FancyZones 操作界面
 
-Image Resizer 操作界面中文翻译优化
+Image Resizer 操作界面原中文翻译优化
 
 Keyboard Manager 操作界面
 
