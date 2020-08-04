@@ -4,7 +4,7 @@ PowerToys 自制简体中文汉化包
 
 自制翻译，使用 Resource Hacker 修改二进制文件，使用 Notepad++ 修改 SVG 图片，使用 Visual Studio 重编译。
 
-版本：v0.20.0
+版本：v0.20.0（正在整理文件，等会儿再上传）
 
 下载地址：https://github.com/IdeaPloter/PowerToys-Chinese-TransMOD/releases/latest
 
