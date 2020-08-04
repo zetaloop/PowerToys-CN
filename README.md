@@ -2,7 +2,7 @@
 
 PowerToys 自制简体中文汉化包
 
-自制翻译，翻译源码使用 Visual Studio 编译，使用 Resource Hacker 修改二进制文件，使用 Notepad++ 修改 SVG 图片。
+翻译源码使用 Visual Studio 编译，使用 Resource Hacker 修改二进制文件，使用 Notepad++ 修改 SVG 图片。
 
 版本：v0.20.0
 
