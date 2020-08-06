@@ -14,11 +14,11 @@ PowerToys 自制简体中文汉化包
 
 # Usage 使用方法
 
-· 前提是，你已经安装了 PowerToys v0.20.1
+——前提是，你已经安装了 PowerToys v0.20.1
 
 · 下载 PCTMODxxx.7z 覆盖安装目录下的同名文件
 
-· 或者，下载 PCTMODerxxx.7z（含一键安装脚本），解压后运行“安装.CMD”，根据提示完成自动安装
+· 或者，下载 PCTMODerxxx.7z（含一键汉化脚本），解压后运行“安装.CMD”，根据提示完成汉化
 
 需要系统版本 Windows 10 1903 或更高，否则可能汉化失败。
 
