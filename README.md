@@ -12,6 +12,8 @@ PowerToys 自制简体中文汉化包
 
 发现缺陷、有新版本、催更，可发邮件到 ideaploter@outlook.com
 
+__【Pause update until August 26th. 学校开学军训，持续到二十六号，期间暂时没法更新】__
+
 # Usage 使用方法
 
 ——前提是，你已经安装了 PowerToys v0.20.1
