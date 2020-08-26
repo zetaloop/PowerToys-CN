@@ -1,4 +1,4 @@
-# PowerToys Simplified Chinese Translated
+# PowerToys Unoffical Simplified Chinese Translation
 
 PowerToys 自制简体中文汉化包
 
@@ -10,17 +10,21 @@ PowerToys 自制简体中文汉化包
 
 备用下载地址（蓝奏云）：https://zeta.lanzous.com/b01hky1gf 密码：zeta 【包含安装包】
 
-发现缺陷、有新版本、催更，可发邮件到 ideaploter@outlook.com
+发现缺陷、有新版本，可发邮件到 ideaploter@outlook.com
 
-__【Pause update until August 26th. 学校开学军训，持续到二十六号，期间暂时没法更新】__
+高中学业繁忙，更新随缘，请见谅
 
 # Usage 使用方法
 
-——前提是，你已经安装了 PowerToys v0.20.1
+① 安装原版 PowerToys 软件：
 
-· 下载 PCTMODxxx.7z 覆盖安装目录下的同名文件
+　　下载 .exe 安装包，安装 PowerToys v0.20.1
 
-· 或者，下载 PCTMODerxxx.7z（含一键汉化脚本），解压后运行“安装.CMD”，根据提示完成汉化
+② 安装汉化包：
+
+　　方案一 · 一键汉化：下载 PCTMODer***.7z（带有自动安装程序），解压后运行“安装.CMD”，根据提示完成汉化
+
+　　方案二 · 手动汉化：下载 PCTMOD***.7z（只有汉化的文件），覆盖软件安装目录下的同名文件
 
 需要系统版本 Windows 10 1903 或更高，否则可能汉化失败。
 
@@ -48,18 +52,6 @@ Shortcut Guide 快捷键图片
 
 🅾
 
+软件安装包
+
 在线帮助页面
-
-# Thanks 感谢帮助
-
-使用 Visual Studio 翻译源码和编译
-
-使用 Resource Hacker 修改二进制文件进行二次汉化
-
-使用 Adobe Illustrator 制作中文版快捷键图片
-
-使用 Notepad++ 修改文本类文件
-
-使用 7-Zip 压缩减小了文件体积
-
-使用 UltraCompare 对比不同版本文件差异
