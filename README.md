@@ -1,4 +1,4 @@
-# PowerToys Unoffical Simplified Chinese Translation
+# PowerToys Unofficial Simplified Chinese Translation
 
 PowerToys 自制简体中文汉化包
 
