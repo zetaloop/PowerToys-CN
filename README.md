@@ -2,7 +2,7 @@
 
 PowerToys 自制简体中文汉化包
 
-版本：v0.20.1（新的 v0.21.1 在做啦在做啦）
+版本：v0.20.1（新的 v0.21.1 在做啦在做啦）（有空的话也会顺便完成实验性版本 v0.22.0）
 
 下载地址（Github）：https://github.com/IdeaPloter/PowerToys-Chinese-TransMOD/releases/latest
 
@@ -51,6 +51,8 @@ PowerToys Run（Wox）操作界面、插件
 Shortcut Guide 快捷键图片
 
 🅾
+
+把所有汉化都写到源代码里，以增加通用性
 
 软件安装包
 
