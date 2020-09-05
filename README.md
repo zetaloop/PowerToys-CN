@@ -2,7 +2,7 @@
 
 PowerToys 自制简体中文汉化包
 
-版本：v0.20.1
+版本：v0.20.1（新的 v0.21.1 在做啦在做啦）
 
 下载地址（Github）：https://github.com/IdeaPloter/PowerToys-Chinese-TransMOD/releases/latest
 
@@ -12,7 +12,7 @@ PowerToys 自制简体中文汉化包
 
 发现缺陷、有新版本，可发邮件到 ideaploter@outlook.com
 
-高中学业繁忙，更新随缘，请见谅
+高中学业繁忙，一周只回家一天，如果没有及时更新，请见谅
 
 # Usage 使用方法
 
