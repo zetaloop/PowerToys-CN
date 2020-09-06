@@ -10,7 +10,7 @@ PowerToys 自制简体中文汉化包
 
 下载官方安装包：https://github.com/microsoft/PowerToys
 
-备用下载地址（蓝奏云）：zeta.lanzous.com/b01hnmxpc 密码：zeta 【包含安装包】
+备用下载地址（蓝奏云）：https://zeta.lanzous.com/b01hnmxpc 密码：zeta 【包含安装包】
 
 发现缺陷、有新版本，可发邮件到 ideaploter@outlook.com
 
