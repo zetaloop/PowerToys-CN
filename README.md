@@ -2,13 +2,15 @@
 
 PowerToys 自制简体中文汉化包
 
-版本：v0.20.1（新的 v0.21.1 在做啦在做啦）（有空的话也会顺便完成实验性版本 v0.22.0）
+版本：v0.21.1（有空的话也会顺便完成实验性版本 v0.22.0）
+
+【还没整理好翻译的源代码，所以 Github 上先不发，要使用请蓝奏云下载！！】
 
 下载地址（Github）：https://github.com/IdeaPloter/PowerToys-Chinese-TransMOD/releases/latest
 
 下载官方安装包：https://github.com/microsoft/PowerToys
 
-备用下载地址（蓝奏云）：https://zeta.lanzous.com/b01hky1gf 密码：zeta 【包含安装包】
+备用下载地址（蓝奏云）：zeta.lanzous.com/b01hnmxpc 密码：zeta 【包含安装包】
 
 发现缺陷、有新版本，可发邮件到 ideaploter@outlook.com
 
@@ -50,9 +52,9 @@ PowerToys Run（Wox）操作界面、插件
 
 Shortcut Guide 快捷键图片
 
-🅾
-
 把所有汉化都写到源代码里，以增加通用性
+
+🅾
 
 软件安装包
 
