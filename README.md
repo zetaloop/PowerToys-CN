@@ -20,7 +20,7 @@ PowerToys 自制简体中文汉化包
 
 ① 安装原版 PowerToys 软件：
 
-　　下载 .exe 安装包，安装 PowerToys v0.20.1
+　　下载 .exe 安装包，安装 PowerToys v0.21.1
 
 ② 安装汉化包：
 
