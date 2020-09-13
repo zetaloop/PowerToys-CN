@@ -4,8 +4,6 @@ PowerToys 自制简体中文汉化包
 
 版本：v0.21.1（有空的话也会顺便完成实验性版本 v0.22.0）
 
-【还没整理好翻译的源代码，所以 Github 上先不发，要使用请蓝奏云下载！！】
-
 下载地址（Github）：https://github.com/IdeaPloter/PowerToys-Chinese-TransMOD/releases/latest
 
 下载官方安装包：https://github.com/microsoft/PowerToys
