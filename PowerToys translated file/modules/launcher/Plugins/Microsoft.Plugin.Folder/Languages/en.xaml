@@ -14,4 +14,7 @@
     <system:String x:Key="Microsoft_plugin_folder_copy_path">复制路径(Ctrl+C)</system:String>
     <system:String x:Key="Microsoft_plugin_folder_open_in_console">在命令行打开路径(Ctrl+Shift+C)</system:String>
     <system:String x:Key="Microsoft_plugin_folder_open_containing_folder">打开所在文件夹(Ctrl+Shift+E)</system:String>
+
+    <system:String x:Key="Microsoft_plugin_folder_truncation_warning_title">警告：文件夹插件的返回结果被截断。</system:String>
+    <system:String x:Key="Microsoft_plugin_folder_truncation_warning_subtitle">显示 {1} 个结果中的 {0} 个</system:String>
 </ResourceDictionary>
