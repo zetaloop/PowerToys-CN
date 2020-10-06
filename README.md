@@ -1,5 +1,7 @@
 # PowerToys Unofficial Simplified Chinese Translation
 
+<img src="./PCTMOD.topic.png"/>
+
 PowerToys 自制简体中文汉化包
 
 版本：v0.23.0
