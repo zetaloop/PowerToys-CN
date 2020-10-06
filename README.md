@@ -2,15 +2,13 @@
 
 PowerToys 自制简体中文汉化包
 
-版本：v0.21.1（v0.23.0 在做了）
-
-**由于我的误操作，已完成的 PT v0.23.0 汉化版项目文件损坏了，但是汉化对应文本位置我已有记录，正在紧张重建中，乐观预计六号早上可以发布新版汉化！！**
+版本：v0.23.0
 
 下载地址（Github）：https://github.com/IdeaPloter/PowerToys-Chinese-TransMOD/releases/latest
 
 下载官方安装包：https://github.com/microsoft/PowerToys
 
-备用下载地址（蓝奏云）：https://zeta.lanzous.com/b01hnmxpc 密码：zeta 【包含安装包】
+备用下载地址（蓝奏云）：https://zeta.lanzous.com/b01hpxeub 密码：zeta 【包含安装包】
 
 发现缺陷、有新版本，可发邮件到 ideaploter@outlook.com
 
@@ -20,7 +18,7 @@ PowerToys 自制简体中文汉化包
 
 ① 安装原版 PowerToys 软件：
 
-　　下载 .exe 安装包，安装 PowerToys v0.21.1
+　　下载 .exe 安装包，安装 PowerToys v0.23.0
 
 ② 安装汉化包：
 
@@ -46,7 +44,7 @@ Image Resizer 操作界面原中文翻译优化
 
 Keyboard Manager 操作界面
 
-PowerRename 操作界面
+PowerRename 操作界面、右键菜单
 
 PowerToys Run（Wox）操作界面、插件
 
