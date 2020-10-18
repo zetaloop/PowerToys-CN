@@ -30,7 +30,7 @@ PowerToys 自制简体中文汉化包
 
 需要系统版本 Windows 10 1903 或更高，否则可能汉化失败。
 
-使用本汉化包失败的可以试试这个：https://www.52pojie.cn/thread-1158295-1-1.html
+使用本汉化包失败的可以试试这个：https://www.52pojie.cn/thread-1286082-1-1.html
 
 # Tasks 任务进度
 
