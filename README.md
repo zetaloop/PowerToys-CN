@@ -4,13 +4,13 @@
 
 PowerToys 自制简体中文汉化包
 
-版本：v0.23.0（v0.24.0（实验版本）正在做了。由于时间紧张，暂时跳过 v0.23.2）
+版本：v0.24.0 实验性版本（跳过 v0.23.2，反正区别不大，新增了一个网上会议工具）
 
 下载地址（Github）：https://github.com/IdeaPloter/PowerToys-Chinese-TransMOD/releases/latest
 
 下载官方安装包：https://github.com/microsoft/PowerToys
 
-备用下载地址（蓝奏云）：https://zeta.lanzous.com/b01hpxeub 密码：zeta 【包含安装包】
+备用下载地址（蓝奏云）：https://zeta.lanzous.com/b01hqu9va 密码：zeta 【包含安装包】
 
 发现缺陷、有新版本，可发邮件到 ideaploter@outlook.com
 
@@ -20,7 +20,7 @@ PowerToys 自制简体中文汉化包
 
 ① 安装原版 PowerToys 软件：
 
-　　下载 .exe 安装包，安装 PowerToys v0.23.0
+　　下载 .exe 安装包，安装 PowerToys v0.24.0
 
 ② 安装汉化包：
 
@@ -51,6 +51,8 @@ PowerRename 操作界面、右键菜单
 PowerToys Run（Wox）操作界面、插件
 
 Shortcut Guide 快捷键图片
+
+Video Conference Mute 按键图片
 
 把所有汉化都写到源代码里，以增加通用性
 
