@@ -8,7 +8,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 反馈问题：Issue 或 ideaploter@outlook.com
 
-版本：v0.24.0 实验性版本（我等 0.26 出了再更新）
+版本：v0.24.0 实验性版本（20 多天过去了，微软还未更新 0.26 ...）
 
 下载官方安装包：https://github.com/microsoft/PowerToys
 
