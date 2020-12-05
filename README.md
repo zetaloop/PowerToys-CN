@@ -8,7 +8,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 反馈问题：Issue 或 ideaploter@outlook.com
 
-版本：v0.24.0 实验性版本（0.28 制作中）
+版本：v0.28.0 实验性版本
 
 _（备注：由于无法获取官方用于多语言本地化的组件，本第三方构建直接修改代码内容为中文，即仅支持中文。）_
 
@@ -16,13 +16,13 @@ _（备注：由于无法获取官方用于多语言本地化的组件，本第�
 
 下载地址（Github）：https://github.com/IdeaPloter/PowerToys-Chinese-TransMOD/releases/latest
 
-备用下载地址（蓝奏云）：https://zeta.lanzous.com/b01hqu9va 密码：zeta 【包含安装包】
+备用下载地址（蓝奏云）：https://zeta.lanzous.com/b01huzd8f 密码：zeta 【包含安装包】
 
 # Usage 使用方法
 
 ① 安装原版 PowerToys 软件：
 
-　　下载 .exe 安装包，安装 PowerToys v0.24.0
+　　下载 .exe 安装包，安装 PowerToys v0.28.0
 
 ② 一键安装优化补丁包：
 
@@ -40,6 +40,8 @@ PowerToys 通用设置界面、各插件预设及设置界面
 
 PowerToys 运行提示、弹框消息、状态栏图标右键菜单
 
+Color Picker 操作界面
+
 FancyZones 操作界面
 
 Image Resizer 操作界面
@@ -53,9 +55,3 @@ PowerToys Run（Wox）操作界面、插件
 Shortcut Guide 快捷键图片
 
 Video Conference Mute 按键图片
-
-🅾
-
-软件安装包
-
-在线帮助页面
