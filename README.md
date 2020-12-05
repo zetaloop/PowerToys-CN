@@ -1,6 +1,6 @@
 # PowerToys Custom Simplified Chinese Translation Patch
 
-<img src="./PCTMOD.topic.png"/>
+<img src="./PCTMODx.topic.png"/>
 
 PowerToys 自制简体中文翻译优化补丁
 
@@ -9,6 +9,8 @@ PowerToys 自制简体中文翻译优化补丁
 反馈问题：Issue 或 ideaploter@outlook.com
 
 版本：v0.24.0 实验性版本（0.28 制作中）
+
+_（备注：由于无法获取官方用于多语言本地化的组件，本第三方构建直接修改代码内容为中文，即仅支持中文。）_
 
 下载官方安装包：https://github.com/microsoft/PowerToys
 
