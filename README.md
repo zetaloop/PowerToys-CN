@@ -14,7 +14,7 @@ _（备注：由于无法获取官方用于多语言本地化的组件，本第�
 
 下载官方安装包：https://github.com/microsoft/PowerToys
 
-下载地址（Github）：https://github.com/IdeaPloter/PowerToys-Chinese-TransMOD/releases/latest
+下载地址（Github）：https://github.com/IdeaPloter/PowerToys-Chinese-TransMOD/releases/latest 这里尚未发布，因为我没整理完源码，下周吧
 
 备用下载地址（蓝奏云）：https://zeta.lanzous.com/b01huzd8f 密码：zeta 【包含安装包】
 
