@@ -10,21 +10,21 @@ PowerToys 自制简体中文翻译优化补丁
 
 反馈问题：Issue 或 ideaploter@outlook.com
 
-版本：v0.28.0 实验性版本（0.31.2 在做了。官方翻译已经很棒了噢！我稍微修一点误漏的。另外，这个版本没有 VideoConferMute）
+版本：v0.31.2
 
 _（备注：由于无法获取官方本地化组件，此第三方构建硬编码为中文，即默认中文且仅支持中文。）_
 
 下载官方安装包：https://github.com/microsoft/PowerToys
 
-下载地址（Github）：https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest 这里尚未发布，因为我没整理完源码，等放假。
+下载地址（Github）：https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest
 
-备用下载地址（蓝奏云）：https://zeta.lanzous.com/b01huzd8f 密码：zeta 【包含安装包】
+备用下载地址（蓝奏云）：https://zeta.lanzous.com/b01i22uze 密码：zeta 【包含安装包】
 
 # Usage 使用方法
 
 ① 安装原版 PowerToys 软件：
 
-　　下载 .exe 安装包，安装 PowerToys v0.28.0
+　　下载 .exe 安装包，安装 PowerToys v0.31.2
 
 ② 一键安装优化补丁包：
 
@@ -56,4 +56,4 @@ PowerToys Run（Wox）操作界面、插件
 
 Shortcut Guide 快捷键图片
 
-Video Conference Mute 按键图片
+Video Conference Mute 按键图片（仅限实验版，v0.31.2 无此模块）
