@@ -6,6 +6,8 @@ PowerToys 自制简体中文翻译优化补丁
 
 根据我自己的使用习惯，修改了程序界面文本等要素，**以界面简洁为目标，可能与原版文本上有出入**。
 
+当前版本所有模块名称已修改为中文。
+
 **汇报 bug 请用官方版本重现**。
 
 反馈问题：Issue 或 ideaploter@outlook.com
@@ -36,15 +38,19 @@ _（备注：由于无法获取官方本地化组件，硬编码为中文，默�
 
 ✅
 
-PowerToys 通用设置界面、各插件预设及设置界面
+PowerToys 模块名称
+
+PowerToys 通用设置界面、各模块预设及设置界面
 
 PowerToys “开箱即用”用户引导界面
 
 PowerToys 运行提示、弹框消息、状态栏图标右键菜单
 
-Color Picker 操作界面
+Color Picker 操作界面、右键菜单
 
 FancyZones 操作界面
+
+File Explorer Preview 操作界面
 
 Image Resizer 操作界面
 
@@ -52,8 +58,8 @@ Keyboard Manager 操作界面
 
 PowerRename 操作界面、右键菜单
 
-PowerToys Run（Wox）操作界面、插件
+PowerToys Run 操作界面、插件
 
-Shortcut Guide 快捷键图片
+Shortcut Guide 操作界面、快捷键图片
 
 Video Conference Mute 按键图片（仅限实验版，v0.33.1 无此模块）
