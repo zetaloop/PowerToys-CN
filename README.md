@@ -12,7 +12,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 反馈问题：Issue 或 ideaploter@outlook.com
 
-版本：v0.33.1（0.35.0 制作中）
+版本：v0.35.0
 
 _（备注：由于无法获取官方本地化组件，硬编码为中文，默认且仅支持中文。）_
 
@@ -20,13 +20,13 @@ _（备注：由于无法获取官方本地化组件，硬编码为中文，默�
 
 下载地址（Github）：https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest
 
-备用下载地址（蓝奏云）：https://zeta.lanzous.com/b01i4qeze 密码：zeta 【包含安装包】
+备用下载地址（蓝奏云）：https://zeta.lanzous.com/b01i7j86f 密码：zeta 【包含安装包】
 
 ## Usage 使用方法
 
 ① 安装原版 PowerToys 软件：
 
-　　下载 .exe 安装包，安装 PowerToys v0.33.1
+　　下载 .exe 安装包，安装 PowerToys v0.35.0
 
 ② 一键安装优化补丁包：
 
@@ -62,4 +62,4 @@ PowerToys Run 操作界面、插件
 
 Shortcut Guide 操作界面、快捷键图片
 
-Video Conference Mute 按键图片（仅限实验版，v0.33.1 无此模块）
+Video Conference Mute 按键图片（仅限实验版，v0.35.0 无此模块）
