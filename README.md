@@ -1,6 +1,6 @@
 # PowerToys Custom Simplified Chinese Translation Patch
 
-<img src=".//PCTMODx3.topic.png"/>
+<img src="./to.pic/PCTMODx2.topic.png"/>
 
 PowerToys 自制简体中文翻译优化补丁
 
