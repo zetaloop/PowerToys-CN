@@ -10,7 +10,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 反馈问题：Issue 或 ideaploter@outlook.com
 
-版本：v0.37.0（0.37.2 制作中）
+版本：v0.37.2
 
 _（备注：由于无法获取官方本地化组件，硬编码为中文，默认且仅支持中文。）_
 
@@ -18,13 +18,13 @@ _（备注：由于无法获取官方本地化组件，硬编码为中文，默�
 
 下载地址（Github）：https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest
 
-备用下载地址（蓝奏云）：https://zeta.lanzous.com/b01ia5cgd 密码：zeta 【包含安装包】
+备用下载地址（蓝奏云）：https://zeta.lanzoui.com/b01ibfo9e 密码：zeta 【包含安装包】
 
 ## Usage 使用方法
 
 ① 安装原版 PowerToys 软件：
 
-　　下载 .exe 安装包，安装 PowerToys v0.37.0
+　　下载 .exe 安装包，安装 PowerToys v0.37.2
 
 ② 一键安装优化补丁包：
 
