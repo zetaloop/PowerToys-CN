@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Shell_General.Content" xml:space="preserve">
+    <value>通用设置</value>
+    <comment>Navigation view item name for General</comment>
+  </data>
+  <data name="Shell_Awake.Content" xml:space="preserve">
+    <value>唤醒工具</value>
+    <comment>Product name: Navigation view item name for Awake</comment>
+  </data>
+  <data name="Shell_PowerLauncher.Content" xml:space="preserve">
+    <value>快速启动器</value>
+    <comment>Product name: Navigation view item name for PowerToys Run</comment>
+  </data>
+  <data name="Shell_PowerRename.Content" xml:space="preserve">
+    <value>批量重命名</value>
+    <comment>Product name: Navigation view item name for PowerRename</comment>
+  </data>
+  <data name="Shell_ShortcutGuide.Content" xml:space="preserve">
+    <value>快捷键指南</value>
+    <comment>Product name: Navigation view item name for Shortcut Guide</comment>
+  </data>
+  <data name="Shell_PowerPreview.Content" xml:space="preserve">
+    <value>文件增强</value>
+    <comment>Product name: Navigation view item name for File Explorer.  Please use File Explorer as in the context of File Explorer in Windows</comment>
+  </data>
+  <data name="Shell_FancyZones.Content" xml:space="preserve">
+    <value>窗口布局</value>
+    <comment>Product name: Navigation view item name for FancyZones</comment>
+  </data>
+  <data name="Shell_ImageResizer.Content" xml:space="preserve">
+    <value>图像裁剪器</value>
+    <comment>Product name: Navigation view item name for Image Resizer</comment>
+  </data>
+  <data name="Shell_ColorPicker.Content" xml:space="preserve">
+    <value>取色器</value>
+    <comment>Product name: Navigation view item name for Color Picker</comment>
+  </data>
+  <data name="Shell_KeyboardManager.Content" xml:space="preserve">
+    <value>键盘修改器</value>
+    <comment>Product name: Navigation view item name for Keyboard Manager</comment>
+  </data>
+  <data name="KeyboardManager_ConfigHeader.Text" xml:space="preserve">
+    <value>当前配置</value>
+    <comment>Keyboard Manager current configuration header</comment>
+  </data>
+  <data name="KeyboardManager_Description.Text" xml:space="preserve">
+    <value>修改按键与快捷键映射的功能，实现自定义键盘。</value>
+    <comment>Keyboard Manager page description</comment>
+  </data>
+  <data name="KeyboardManager_EnableToggle.Header" xml:space="preserve">
+    <value>启用键盘修改器</value>
+    <comment>
+      Keyboard Manager enable toggle header
+      do not loc the Product name.  Do you want this feature on / off
+    </comment>
+  </data>
+  <data name="KeyboardManager_ProfileDescription.Text" xml:space="preserve">
+    <value>选择配置文件以显示激活的重映射链</value>
+    <comment>Keyboard Manager configuration dropdown description</comment>
+  </data>
+  <data name="KeyboardManager_RemapKeyboardButton.Content" xml:space="preserve">
+    <value>重映射按键</value>
+    <comment>Keyboard Manager remap keyboard button content</comment>
+  </data>
+  <data name="KeyboardManager_RemapKeyboardHeader.Text" xml:space="preserve">
+    <value>按键重映射</value>
+    <comment>Keyboard Manager remap keyboard header</comment>
+  </data>
+  <data name="KeyboardManager_RemapShortcutsButton.Content" xml:space="preserve">
+    <value>重映射快捷键</value>
+    <comment>Keyboard Manager remap shortcuts button</comment>
+  </data>
+  <data name="KeyboardManager_RemapShortcutsHeader.Text" xml:space="preserve">
+    <value>快捷键重映射</value>
+    <comment>Keyboard Manager remap shortcuts header</comment>
+  </data>
+  <data name="RemapKeysList.AutomationProperties.Name" xml:space="preserve">
+    <value>当前按键重映射列表</value>
+  </data>
+  <data name="RemapShortcutsList.AutomationProperties.Name" xml:space="preserve">
+    <value>当前快捷键重映射列表</value>
+  </data>
+  <data name="KeyboardManager_RemappedKeysListItem.AutomationProperties.Name" xml:space="preserve">
+    <value>按键重映射列表项</value>
+    <comment>key as in keyboard key</comment>
+  </data>
+  <data name="KeyboardManager_RemappedShortcutsListItem.AutomationProperties.Name" xml:space="preserve">
+    <value>快捷键重映射列表项</value>
+  </data>
+  <data name="KeyboardManager_RemappedTo.AutomationProperties.Name" xml:space="preserve">
+    <value>映射功能</value>
+  </data>
+  <data name="KeyboardManager_ShortcutRemappedTo.AutomationProperties.Name" xml:space="preserve">
+    <value>映射功能</value>
+  </data>
+  <data name="KeyboardManager_TargetApp.AutomationProperties.Name" xml:space="preserve">
+    <value>目标程序</value>
+    <comment>What computer application would this be for</comment>
+  </data>
+  <data name="KeyboardManager_Image.AutomationProperties.Name" xml:space="preserve">
+    <value>键盘修改器</value>
+    <comment>do not loc, product name</comment>
+  </data>
+  <data name="ColorPicker_Description.Text" xml:space="preserve">
+    <value>简便的屏幕取色器。</value>
+  </data>
+  <data name="ColorPicker_EnableColorPicker.Header" xml:space="preserve">
+    <value>启用取色器</value>
+    <comment>do not loc the Product name.  Do you want this feature on / off</comment>
+  </data>
+  <data name="ColorPicker_ChangeCursor.Content" xml:space="preserve">
+    <value>取色时改变光标造型</value>
+  </data>
+  <data name="ColorPicker_ActivationShortcut.Header" xml:space="preserve">
+    <value>取色器快捷键</value>
+    <comment>do not loc product name</comment>
+  </data>
+  <data name="PowerLauncher_Description.Text" xml:space="preserve">
+    <value>一个便捷的启动器，具有更多功能但又不牺牲性能。</value>
+  </data>
+  <data name="PowerLauncher_EnablePowerLauncher.Header" xml:space="preserve">
+    <value>启用快速启动器</value>
+    <comment>do not loc the Product name.  Do you want this feature on / off</comment>
+  </data>
+  <data name="PowerLauncher_SearchResults.Text" xml:space="preserve">
+    <value>搜索结果</value>
+  </data>
+  <data name="PowerLauncher_SearchResultPreference.Header" xml:space="preserve">
+    <value>搜索结果设置</value>
+  </data>
+  <data name="PowerLauncher_SearchResultPreference_MostRecentlyUsed" xml:space="preserve">
+    <value>最近使用</value>
+  </data>
+  <data name="PowerLauncher_SearchResultPreference_AlphabeticalOrder" xml:space="preserve">
+    <value>按字母顺序</value>
+  </data>
+  <data name="PowerLauncher_SearchResultPreference_RunningProcessesOpenApplications" xml:space="preserve">
+    <value>运行中的进程／打开的应用</value>
+  </data>
+  <data name="PowerLauncher_SearchTypePreference.Header" xml:space="preserve">
+    <value>搜索类型设置</value>
+  </data>
+  <data name="PowerLauncher_SearchTypePreference_ApplicationName" xml:space="preserve">
+    <value>应用名</value>
+  </data>
+  <data name="PowerLauncher_SearchTypePreference_StringInApplication" xml:space="preserve">
+    <value>应用程序中包含的文字</value>
+  </data>
+  <data name="PowerLauncher_SearchTypePreference_ExecutableName" xml:space="preserve">
+    <value>可执行文件名</value>
+  </data>
+  <data name="PowerLauncher_MaximumNumberOfResults.Header" xml:space="preserve">
+    <value>最大结果数</value>
+  </data>
+  <data name="Shortcuts.Text" xml:space="preserve">
+    <value>快捷键</value>
+  </data>
+  <data name="PowerLauncher_OpenPowerLauncher.Header" xml:space="preserve">
+    <value>启动快捷键</value>
+  </data>
+  <data name="PowerLauncher_OpenFileLocation.Header" xml:space="preserve">
+    <value>打开所在文件夹</value>
+  </data>
+  <data name="PowerLauncher_CopyPathLocation.Header" xml:space="preserve">
+    <value>复制文件路径</value>
+  </data>
+  <data name="PowerLauncher_OpenConsole.Header" xml:space="preserve">
+    <value>打开命令行</value>
+    <comment>console refers to Windows command prompt</comment>
+  </data>
+  <data name="PowerLauncher_OverrideWinRKey.Content" xml:space="preserve">
+    <value>代替 Win+R</value>
+  </data>
+  <data name="PowerLauncher_OverrideWinSKey.Content" xml:space="preserve">
+    <value>代替 Win+S</value>
+  </data>
+  <data name="PowerLauncher_IgnoreHotkeysInFullScreen.Content" xml:space="preserve">
+    <value>全屏时不响应快捷键</value>
+  </data>
+  <data name="PowerLauncher_ClearInputOnLaunch.Content" xml:space="preserve">
+    <value>启动时清空上次搜索</value>
+  </data>
+  <data name="KeyboardManager_KeysMappingLayoutRightHeader.Text" xml:space="preserve">
+    <value>目标</value>
+    <comment>Keyboard Manager mapping keys view right header</comment>
+  </data>
+  <data name="About_This_Feature.Text" xml:space="preserve">
+    <value>关于这个功能</value>
+  </data>
+  <data name="Appearance_GroupSettings.Text" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="Fancyzones_Image.AutomationProperties.Name" xml:space="preserve">
+    <value>布局窗口</value>
+    <comment>do not loc the Product name</comment>
+  </data>
+  <data name="FancyZones_Description.Text" xml:space="preserve">
+    <value>创建窗口布局，便于多任务处理。</value>
+    <comment>windows refers to application windows</comment>
+  </data>
+  <data name="FancyZones_DisplayChangeMoveWindowsCheckBoxControl.Content" xml:space="preserve">
+    <value>当屏幕分辨率变化时，自动调整窗口以维持布局</value>
+    <comment>windows refers to application windows</comment>
+  </data>
+  <data name="FancyZones_EnableToggleControl_HeaderText.Header" xml:space="preserve">
+    <value>启用窗口布局</value>
+    <comment>do not loc the Product name.  Do you want this feature on / off</comment>
+  </data>
+  <data name="FancyZones_ExcludeApps.Text" xml:space="preserve">
+    <value>忽略应用</value>
+  </data>
+  <data name="FancyZones_ExcludeApps_TextBoxControl.Header" xml:space="preserve">
+    <value>若要让应用不受到布局管理，请在这里添加它的名称（每行一个）。 这些应用程序会忽略布局操作，适用系统本身的窗口管理器。</value>
+  </data>
+  <data name="FancyZones_HighlightOpacity.Header" xml:space="preserve">
+    <value>布局区不透明度</value>
+  </data>
+  <data name="FancyZones_HotkeyEditorControl.Header" xml:space="preserve">
+    <value>布局编辑器快捷键</value>
+    <comment>Shortcut to launch the FancyZones layout editor application</comment>
+  </data>
+  <data name="SettingsPage_SetShortcut.AutomationProperties.Name" xml:space="preserve">
+    <value>快捷键设置</value>
+  </data>
+  <data name="SettingsPage_SetShortcut_Glyph.AutomationProperties.Name" xml:space="preserve">
+    <value>信息符号</value>
+  </data>
+  <data name="FancyZones_LaunchEditorButtonControl.Text" xml:space="preserve">
+    <value>启动布局编辑器</value>
+    <comment>launches the FancyZones layout editor application</comment>
+  </data>
+  <data name="FancyZones_MakeDraggedWindowTransparentCheckBoxControl.Content" xml:space="preserve">
+    <value>拖动窗口时，使窗口半透明</value>
+  </data>
+  <data name="FancyZones_MouseDragCheckBoxControl_Header.Content" xml:space="preserve">
+    <value>左键拖动窗口，用其他鼠标键激活布局</value>
+  </data>
+  <data name="FancyZones_MoveWindowsAcrossAllMonitorsCheckBoxControl.Content" xml:space="preserve">
+    <value>跨显示器循环移动</value>
+  </data>
+  <data name="FancyZones_OverrideSnapHotkeysCheckBoxControl.Content" xml:space="preserve">
+    <value>替换系统快捷键（Win + 方向键）用于在布局中移动窗口</value>
+  </data>
+  <data name="FancyZones_ShiftDragCheckBoxControl_Header.Content" xml:space="preserve">
+    <value>左键拖动窗口，按住 Shift 激活布局</value>
+  </data>
+  <data name="FancyZones_ShowZonesOnAllMonitorsCheckBoxControl.Content" xml:space="preserve">
+    <value>拖动窗口时，在所有显示器上都显示布局区</value>
+  </data>
+  <data name="FancyZones_AppLastZoneMoveWindows.Content" xml:space="preserve">
+    <value>将新打开的窗口放入其常用布局</value>
+    <comment>windows refers to application windows</comment>
+  </data>
+  <data name="FancyZones_OpenWindowOnActiveMonitor.Content" xml:space="preserve">
+    <value>将新打开的窗口移至当前活动的显示器【实验性功能】</value>
+  </data>
+  <data name="FancyZones_UseCursorPosEditorStartupScreen.Content" xml:space="preserve">
+    <value>在多显示器中，跟随鼠标光标启动编辑器，而非窗口焦点</value>
+  </data>
+  <data name="FancyZones_ZoneBehavior_GroupSettings.Text" xml:space="preserve">
+    <value>布局功能</value>
+  </data>
+  <data name="FancyZones_ZoneHighlightColor.Text" xml:space="preserve">
+    <value>布局区激活颜色</value>
+  </data>
+  <data name="FancyZones_ZoneSetChangeMoveWindows.Content" xml:space="preserve">
+    <value>布局切换时，自动调整窗口适配新的布局</value>
+  </data>
+  <data name="Give_Feedback.Text" xml:space="preserve">
+    <value>提供反馈</value>
+  </data>
+  <data name="Module_overview.Text" xml:space="preserve">
+    <value>了解更多</value>
+    <comment>This label is there to point people to additional overview for how to use the product</comment>
+  </data>
+  <data name="AttributionTitle.Text" xml:space="preserve">
+    <value>贡献</value>
+    <comment>giving credit to the projects this utility was based on</comment>
+  </data>
+  <data name="GeneralPage_AboutPowerToysHeader.Text" xml:space="preserve">
+    <value>关于 PowerToys</value>
+  </data>
+  <data name="PowerToys_Icon.AutomationProperties.Name" xml:space="preserve">
+    <value>PowerToys 图标</value>
+  </data>
+  <data name="GeneralPage_CheckForUpdates.Content" xml:space="preserve">
+    <value>检查更新</value>
+  </data>
+  <data name="GeneralPage_UpdateNow.Content" xml:space="preserve">
+    <value>立即更新</value>
+  </data>
+  <data name="GeneralPage_PrivacyStatement_URL.Text" xml:space="preserve">
+    <value>隐私声明</value>
+  </data>
+  <data name="GeneralPage_ReportAbug.Text" xml:space="preserve">
+    <value>问题反馈</value>
+    <comment>Report an issue inside powertoys</comment>
+  </data>
+  <data name="GeneralPage_RequestAFeature_URL.Text" xml:space="preserve">
+    <value>功能建议</value>
+    <comment>Tell our team what we should build</comment>
+  </data>
+  <data name="GeneralPage_RestartAsAdmin_Button.Content" xml:space="preserve">
+    <value>以管理员身份重启</value>
+    <comment>running PowerToys as a higher level user, account is typically referred to as an admin / administrator</comment>
+  </data>
+  <data name="GeneralPage_ToggleSwitch_RunAtStartUp.Header" xml:space="preserve">
+    <value>开机自启</value>
+  </data>
+  <data name="PowerRename_Description.Text" xml:space="preserve">
+    <value>通过搜索、替换、正则表达式进行批量重命名。</value>
+  </data>
+  <data name="PowerRename_ShellIntegration.Text" xml:space="preserve">
+    <value>右键菜单集成</value>
+    <comment>This refers to directly integrating in with Windows</comment>
+  </data>
+  <data name="PowerRename_Toggle_Enable.Header" xml:space="preserve">
+    <value>启用批量重命名</value>
+    <comment>do not loc the Product name.  Do you want this feature on / off</comment>
+  </data>
+  <data name="RadioButtons_Name_Theme.Text" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="PowerRename_Toggle_EnableOnContextMenu.Header" xml:space="preserve">
+    <value>右键菜单显示图标</value>
+  </data>
+  <data name="PowerRename_Toggle_EnableOnExtendedContextMenu.Header" xml:space="preserve">
+    <value>仅在扩展的右键菜单（Shift + 右键）显示</value>
+  </data>
+  <data name="PowerRename_Toggle_MaxDispListNum.Header" xml:space="preserve">
+    <value>最大保留个数</value>
+  </data>
+  <data name="PowerRename_Toggle_RestoreFlagsOnLaunch.Content" xml:space="preserve">
+    <value>保留上次搜索内容</value>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Preview_MD.Header" xml:space="preserve">
+    <value>启用 Markdown (.md) 预览</value>
+    <comment>Do not loc "Markdown".  Do you want this feature on / off</comment>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Preview_SVG.Header" xml:space="preserve">
+    <value>启用 SVG (.svg) 预览</value>
+    <comment>Do you want this feature on / off</comment>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_SVG_Thumbnail.Header" xml:space="preserve">
+    <value>启用 SVG (.svg) 缩略图</value>
+    <comment>Do you want this feature on / off</comment>
+  </data>
+  <data name="FileExplorerPreview_Description.Text" xml:space="preserve">
+    <value>让 Windows 文件管理器支持更多格式的预览。</value>
+  </data>
+  <data name="PowerRename_AutoCompleteHeader.Text" xml:space="preserve">
+    <value>自动完成</value>
+  </data>
+  <data name="OpenSource_Notice.Text" xml:space="preserve">
+    <value>开源许可</value>
+  </data>
+  <data name="PowerRename_Toggle_AutoComplete.Content" xml:space="preserve">
+    <value>保留历史记录，启用自动补全</value>
+  </data>
+  <data name="FancyZones_BorderColor.Text" xml:space="preserve">
+    <value>布局区边框颜色</value>
+  </data>
+  <data name="FancyZones_InActiveColor.Text" xml:space="preserve">
+    <value>布局区闲置颜色</value>
+  </data>
+  <data name="ShortcutGuide_Description.Text" xml:space="preserve">
+    <value>显示一张 Windows 快捷键指示图覆盖屏幕。</value>
+  </data>
+  <data name="ShortcutGuide_PressTime.Header" xml:space="preserve">
+    <value>长按时间（毫秒）</value>
+    <comment>pressing a key in milliseconds</comment>
+  </data>
+  <data name="ShortcutGuide_Appearance_Behavior.Text" xml:space="preserve">
+    <value>界面与功能</value>
+  </data>
+  <data name="ShortcutGuide_Enable.Header" xml:space="preserve">
+    <value>启用快捷键指南</value>
+    <comment>do not loc the Product name.  Do you want this feature on / off</comment>
+  </data>
+  <data name="ShortcutGuide_OverlayOpacity.Header" xml:space="preserve">
+    <value>背景不透明度</value>
+  </data>
+  <data name="ShortcutGuide_DisabledApps.Text" xml:space="preserve">
+    <value>忽略应用</value>
+  </data>
+  <data name="ShortcutGuide_DisabledApps_TextBoxControl.Header" xml:space="preserve">
+    <value>在这里添加应用名称，每行一个。在这些应用程序中（程序窗口激活时），快捷键指示图不会出现。</value>
+  </data>
+  <data name="ShortcutGuide_DisabledApps_TextBoxControl.PlaceholderText" xml:space="preserve">
+    <value>比如这样: outlook.exe</value>
+    <comment>Don't translate outlook.exe</comment>
+  </data>
+  <data name="ImageResizer_CustomSizes.Text" xml:space="preserve">
+    <value>尺寸预设</value>
+  </data>
+  <data name="ImageResizer_Description.Text" xml:space="preserve">
+    <value>右键即可调整图像大小。</value>
+  </data>
+  <data name="ImageResizer_EnableToggle.Header" xml:space="preserve">
+    <value>启用图像裁剪器</value>
+    <comment>do not loc the Product name.  Do you want this feature on / off</comment>
+  </data>
+  <data name="ImagesSizesListView.AutomationProperties.Name" xml:space="preserve">
+    <value>图片尺寸预设列表</value>
+  </data>
+  <data name="ImageResizer_Configurations.AutomationProperties.Name" xml:space="preserve">
+    <value>尺寸预设配置</value>
+  </data>
+  <data name="ImageResizer_Name.AutomationProperties.Name" xml:space="preserve">
+    <value>预设名称</value>
+  </data>
+  <data name="ImageResizer_Fit_Property.AutomationProperties.Name" xml:space="preserve">
+    <value>操作配置</value>
+  </data>
+  <data name="ImageResizer_Width_Property.AutomationProperties.Name" xml:space="preserve">
+    <value>图片宽度</value>
+  </data>
+  <data name="ImageResizer_Height_Property.AutomationProperties.Name" xml:space="preserve">
+    <value>图片高度</value>
+  </data>
+  <data name="ImageResizer_Size_Property.AutomationProperties.Name" xml:space="preserve">
+    <value>尺寸配置</value>
+  </data>
+  <data name="ImageResizer_Times_Symbol.AutomationProperties.Name" xml:space="preserve">
+    <value>乘号</value>
+  </data>
+  <data name="RemoveButton.AutomationProperties.Name" xml:space="preserve">
+    <value>删除</value>
+    <comment>Removes a user defined setting group for Image Resizer</comment>
+  </data>
+  <data name="RemoveTooltip.Text" xml:space="preserve">
+    <value>移除</value>
+    <comment>Removes a user defined setting group for Image Resizer</comment>
+  </data>
+  <data name="ImageResizer_Image.AutomationProperties.Name" xml:space="preserve">
+    <value>图像裁剪器</value>
+  </data>
+  <data name="ImageResizer_AddSizeButton.Label" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="ImageResizer_SaveSizeButton.Label" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="ImageResizer_Encoding.Header" xml:space="preserve">
+    <value>JPEG 压缩质量</value>
+  </data>
+  <data name="ImageResizer_PNGInterlacing.Header" xml:space="preserve">
+    <value>PNG 隔行扫描</value>
+  </data>
+  <data name="ImageResizer_TIFFCompression.Header" xml:space="preserve">
+    <value>TIFF 压缩格式</value>
+  </data>
+  <data name="File.Text" xml:space="preserve">
+    <value>文件</value>
+    <comment>as in a computer file</comment>
+  </data>
+  <data name="Default.Content" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="ImageResizer_ENCODER_TIFF_CCITT3.Content" xml:space="preserve">
+    <value>CCITT3</value>
+    <comment>do not loc</comment>
+  </data>
+  <data name="ImageResizer_ENCODER_TIFF_CCITT4.Content" xml:space="preserve">
+    <value>CCITT4</value>
+    <comment>do not loc</comment>
+  </data>
+  <data name="ImageResizer_ENCODER_TIFF_Default.Content" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="ImageResizer_ENCODER_TIFF_LZW.Content" xml:space="preserve">
+    <value>LZW</value>
+    <comment>do not loc</comment>
+  </data>
+  <data name="ImageResizer_ENCODER_TIFF_None.Content" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="ImageResizer_ENCODER_TIFF_RLE.Content" xml:space="preserve">
+    <value>RLE</value>
+    <comment>do not loc</comment>
+  </data>
+  <data name="ImageResizer_ENCODER_TIFF_Zip.Content" xml:space="preserve">
+    <value>Zip</value>
+    <comment>do not loc</comment>
+  </data>
+  <data name="ImageResizer_FallbackEncoder_BMP.Content" xml:space="preserve">
+    <value>BMP 编码器</value>
+  </data>
+  <data name="ImageResizer_FallbackEncoder_GIF.Content" xml:space="preserve">
+    <value>GIF 编码器</value>
+  </data>
+  <data name="ImageResizer_FallbackEncoder_JPEG.Content" xml:space="preserve">
+    <value>JPEG 编码器</value>
+  </data>
+  <data name="ImageResizer_FallbackEncoder_PNG.Content" xml:space="preserve">
+    <value>PNG 编码器</value>
+  </data>
+  <data name="ImageResizer_FallbackEncoder_TIFF.Content" xml:space="preserve">
+    <value>TIFF 编码器</value>
+  </data>
+  <data name="ImageResizer_FallbackEncoder_WMPhoto.Content" xml:space="preserve">
+    <value>WMPhoto 编码器</value>
+  </data>
+  <data name="ImageResizer_Sizes_Fit_Fill.Content" xml:space="preserve">
+    <value>填充</value>
+    <comment>将图像填充为设定大小。可能会溢出</comment>
+  </data>
+  <data name="ImageResizer_Sizes_Fit_Fit.Content" xml:space="preserve">
+    <value>缩放</value>
+    <comment>将图像填充为设定大小。不会溢出</comment>
+  </data>
+  <data name="ImageResizer_Sizes_Fit_Stretch.Content" xml:space="preserve">
+    <value>拉伸</value>
+    <comment>将图像拉伸到设定大小。不会溢出，但是可能会变形</comment>
+  </data>
+  <data name="ImageResizer_Sizes_Units_CM.Content" xml:space="preserve">
+    <value>厘米</value>
+  </data>
+  <data name="ImageResizer_Sizes_Units_Inches.Content" xml:space="preserve">
+    <value>英寸</value>
+  </data>
+  <data name="ImageResizer_Sizes_Units_Percent.Content" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="ImageResizer_Sizes_Units_Pixels.Content" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="Off.Content" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="On.Content" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="GeneralPage_ToggleSwitch_AlwaysRunElevated_Link.Text" xml:space="preserve">
+    <value>详细了解管理员模式</value>
+  </data>
+  <data name="GeneralPage_ToggleSwitch_AutoDownloadUpdates.Header" xml:space="preserve">
+    <value>自动下载更新（除非处于按流量计费的网络）</value>
+  </data>
+  <data name="GeneralPage_ToggleSwitch_RunningAsAdminNote.Text" xml:space="preserve">
+    <value>当前正以管理员身份运行</value>
+  </data>
+  <data name="GeneralSettings_AlwaysRunAsAdminText.Header" xml:space="preserve">
+    <value>始终以管理员身份运行</value>
+  </data>
+  <data name="GeneralSettings_RunningAsUserText" xml:space="preserve">
+    <value>PowerToys 正在以用户身份运行</value>
+  </data>
+  <data name="GeneralSettings_RunningAsAdminText" xml:space="preserve">
+    <value>PowerToys 正在以管理员身份运行</value>
+  </data>
+  <data name="About_FancyZones.Text" xml:space="preserve">
+    <value>关于窗口布局</value>
+  </data>
+  <data name="About_FileExplorerPreview.Text" xml:space="preserve">
+    <value>关于文件增强</value>
+  </data>
+  <data name="FileExplorerPreview_Image.AutomationProperties.Name" xml:space="preserve">
+    <value>文件增强</value>
+    <comment>Use same translation as Windows does for File Explorer // 太长了，而且听着有些奇怪。</comment>
+  </data>
+  <data name="About_ImageResizer.Text" xml:space="preserve">
+    <value>关于图像裁剪器</value>
+  </data>
+  <data name="About_KeyboardManager.Text" xml:space="preserve">
+    <value>关于键盘修改器</value>
+  </data>
+  <data name="About_ColorPicker.Text" xml:space="preserve">
+    <value>关于取色器</value>
+  </data>
+  <data name="ColorPicker_Image.AutomationProperties.Name" xml:space="preserve">
+    <value>取色器</value>
+    <comment>do not loc the Product name.</comment>
+  </data>
+  <data name="About_PowerLauncher.Text" xml:space="preserve">
+    <value>关于快速启动器</value>
+  </data>
+  <data name="PowerToys_Run_Image.AutomationProperties.Name" xml:space="preserve">
+    <value>快速启动器</value>
+  </data>
+  <data name="About_PowerRename.Text" xml:space="preserve">
+    <value>关于批量重命名</value>
+    <comment>do not loc the product name</comment>
+  </data>
+  <data name="PowerRename_Image.AutomationProperties.Name" xml:space="preserve">
+    <value>批量重命名</value>
+    <comment>do not loc</comment>
+  </data>
+  <data name="About_ShortcutGuide.Text" xml:space="preserve">
+    <value>关于快捷键指南</value>
+  </data>
+  <data name="Shortcut_Guide_Image.AutomationProperties.Name" xml:space="preserve">
+    <value>快捷键指南</value>
+  </data>
+  <data name="General_Repository.Text" xml:space="preserve">
+    <value>GitHub 库</value>
+  </data>
+  <data name="General_Updates.Text" xml:space="preserve">
+    <value>版本更新</value>
+  </data>
+  <data name="General_Version.Text" xml:space="preserve">
+    <value>版本:</value>
+  </data>
+  <data name="General_VersionLastChecked.Text" xml:space="preserve">
+    <value>检查时间:</value>
+  </data>
+  <data name="General_Version.AutomationProperties.Name" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="Admin_mode.Text" xml:space="preserve">
+    <value>管理员模式</value>
+  </data>
+  <data name="General_RunAsAdminRequired.Text" xml:space="preserve">
+    <value>要修改此设置，请以管理员身份重新启动程序</value>
+  </data>
+  <data name="ShortcutWarningLabel.Text" xml:space="preserve">
+    <value>快捷键应含有以下修饰键：</value>
+    <comment>keyboard shortcuts and</comment>
+  </data>
+  <data name="FancyZones_RestoreSize.Content" xml:space="preserve">
+    <value>解除布局时，还原窗口的原始大小</value>
+  </data>
+  <data name="ImageResizer_FallBackEncoderText.Header" xml:space="preserve">
+    <value>备用编码器</value>
+  </data>
+  <data name="ImageResizer_FileFormatDescription.Text" xml:space="preserve">
+    <value>可以使用以下参数：</value>
+  </data>
+  <data name="ImageResizer_FilenameFormatHeader.Text" xml:space="preserve">
+    <value>文件名格式</value>
+  </data>
+  <data name="ImageResizer_UseOriginalDate.Content" xml:space="preserve">
+    <value>不变动文件的修改日期</value>
+  </data>
+  <data name="Encoding.Text" xml:space="preserve">
+    <value>编码</value>
+  </data>
+  <data name="KeyboardManager_RemapKeyboardSubtitle.Text" xml:space="preserve">
+    <value>修改按键对应的功能。</value>
+  </data>
+  <data name="KeyboardManager_RemapShortcutsSubtitle.Text" xml:space="preserve">
+    <value>修改快捷键对应的功能。可以限定程序。</value>
+  </data>
+  <data name="About_PowerToys.Text" xml:space="preserve">
+    <value>Microsoft PowerToys 是一个小工具集，可以精简并优化 Windows 操作，提高工作效率。</value>
+    <comment>Windows refers to the OS</comment>
+  </data>
+  <data name="FancyZones_SpanZonesAcrossMonitorsCheckBoxControl.Content" xml:space="preserve">
+    <value>允许布局跨显示器（显示器的缩放比例需相同）</value>
+  </data>
+  <data name="ImageResizer_Formatting_ActualHeight.Text" xml:space="preserve">
+    <value>实际高度</value>
+  </data>
+  <data name="ImageResizer_Formatting_ActualWidth.Text" xml:space="preserve">
+    <value>实际宽度</value>
+  </data>
+  <data name="ImageResizer_Formatting_Filename.Text" xml:space="preserve">
+    <value>原文件名</value>
+  </data>
+  <data name="ImageResizer_Formatting_SelectedHeight.Text" xml:space="preserve">
+    <value>设定高度</value>
+  </data>
+  <data name="ImageResizer_Formatting_SelectedWidth.Text" xml:space="preserve">
+    <value>设定宽度</value>
+  </data>
+  <data name="ImageResizer_Formatting_Sizename.Text" xml:space="preserve">
+    <value>尺寸名称</value>
+  </data>
+  <data name="FancyZones_MoveWindowsBasedOnPositionCheckBoxControl.Content" xml:space="preserve">
+    <value>根据窗口位置移动</value>
+    <comment>Windows refers to application windows</comment>
+  </data>
+  <data name="GeneralSettings_NewVersionIsAvailable" xml:space="preserve">
+    <value>有版本更新</value>
+  </data>
+  <data name="GeneralSettings_VersionIsLatest" xml:space="preserve">
+    <value>已是最新版本</value>
+  </data>
+  <data name="FileExplorerPreview_IconThumbnail_GroupSettings.Text" xml:space="preserve">
+    <value>文件缩略图</value>
+  </data>
+  <data name="FileExplorerPreview_PreviewPane_GroupSettings.Text" xml:space="preserve">
+    <value>预览窗格</value>
+  </data>
+  <data name="FileExplorerPreview_RunAsAdminRequired.Text" xml:space="preserve">
+    <value>要修改这些设置，请以管理员身份重新启动程序</value>
+  </data>
+  <data name="FileExplorerPreview_AffectsAllUsers.Text" xml:space="preserve">
+    <value>这些设置影响系统上的所有用户</value>
+  </data>
+  <data name="FileExplorerPreview_RebootRequired.Text" xml:space="preserve">
+    <value>为了使更改生效，可能需要重启电脑</value>
+  </data>
+  <data name="FancyZones_ExcludeApps_TextBoxControl.PlaceholderText" xml:space="preserve">
+    <value>比如这样: outlook.exe</value>
+    <comment>Don't translate outlook.exe</comment>
+  </data>
+  <data name="ImageResizer_FilenameFormatPlaceholder.PlaceholderText" xml:space="preserve">
+    <value>比如这样: %1 (%2)</value>
+  </data>
+  <data name="ColorModeHeader.Text" xml:space="preserve">
+    <value>主题模式</value>
+  </data>
+  <data name="Radio_Theme_Dark.Content" xml:space="preserve">
+    <value>暗</value>
+    <comment>Dark refers to color, not weight</comment>
+  </data>
+  <data name="Radio_Theme_Light.Content" xml:space="preserve">
+    <value>亮</value>
+    <comment>Light refers to color, not weight</comment>
+  </data>
+  <data name="Radio_Theme_Default.Content" xml:space="preserve">
+    <value>系统默认</value>
+    <comment>Windows refers to the Operating system</comment>
+  </data>
+  <data name="Windows_Color_Settings.Text" xml:space="preserve">
+    <value>Windows 颜色设置</value>
+    <comment>Windows refers to the Operating system</comment>
+  </data>
+  <data name="ColorPicker_CopiedColorRepresentation.Header" xml:space="preserve">
+    <value>复制到剪贴板的格式</value>
+  </data>
+  <data name="ColorPickerFirst.Text" xml:space="preserve">
+    <value>取色到拾色板</value>
+    <comment>do not loc the product name</comment>
+  </data>
+  <data name="ColorPickerFirst_Description.Text" xml:space="preserve">
+    <value>从屏幕上取色，复制颜色代码，然后添加到拾色板</value>
+    <comment>do not loc the product name</comment>
+  </data>
+  <data name="EditorFirst.Text" xml:space="preserve">
+    <value>打开拾色板</value>
+  </data>
+  <data name="ColorPicker_ActivationAction.Text" xml:space="preserve">
+    <value>激活方式</value>
+  </data>
+  <data name="ColorFormats.Text" xml:space="preserve">
+    <value>取色器</value>
+  </data>
+  <data name="KBM_KeysCannotBeRemapped.Text" xml:space="preserve">
+    <value>详细了解键盘修改的限制</value>
+    <comment>This is a link that will discuss what is and is not possible for Keyboard manager to remap</comment>
+  </data>
+  <data name="FancyZones_Editor_GroupSettings.Text" xml:space="preserve">
+    <value>编辑布局</value>
+    <comment>refers to the FancyZone editor</comment>
+  </data>
+  <data name="FancyZones_WindowBehavior_GroupSettings.Text" xml:space="preserve">
+    <value>窗口功能</value>
+  </data>
+  <data name="PowerRename_BehaviorHeader.Text" xml:space="preserve">
+    <value>附加功能</value>
+  </data>
+  <data name="PowerRename_Toggle_UseBoostLib.Content" xml:space="preserve">
+    <value>使用增强版引擎（Boost 正则库，提供更多功能，但语法有所不同）</value>
+    <comment>Boost is a product name, should not be translated</comment>
+  </data>
+  <data name="MadeWithOssLove.Text" xml:space="preserve">
+    <value>由微软与 PowerToys 社区共同创造，用💗成就。</value>
+  </data>
+  <data name="ColorPickerOnly.Text" xml:space="preserve">
+    <value>仅取色</value>
+    <comment>do not loc the product name</comment>
+  </data>
+  <data name="ColorPickerOnly_Description.Text" xml:space="preserve">
+    <value>从屏幕上取色，复制颜色代码到剪贴板</value>
+  </data>
+  <data name="EditorFirst_Description.Text" xml:space="preserve">
+    <value>直接打开拾色板界面</value>
+  </data>
+  <data name="ColorPicker_ColorFormatsDescription.Text" xml:space="preserve">
+    <value>颜色格式</value>
+  </data>
+  <data name="ColorPicker_ShowColorName.Content" xml:space="preserve">
+    <value>显示颜色名称</value>
+  </data>
+  <data name="ImageResizer_DefaultSize_Large" xml:space="preserve">
+    <value>大号</value>
+    <comment>The size of the image</comment>
+  </data>
+  <data name="ImageResizer_DefaultSize_Medium" xml:space="preserve">
+    <value>中号</value>
+    <comment>The size of the image</comment>
+  </data>
+  <data name="ImageResizer_DefaultSize_Phone" xml:space="preserve">
+    <value>流畅</value>
+    <comment>The size of the image referring to a Mobile Phone typical image size</comment>
+  </data>
+  <data name="ImageResizer_DefaultSize_Small" xml:space="preserve">
+    <value>小号</value>
+    <comment>The size of the image</comment>
+  </data>
+  <data name="ColorPicker_ImageHyperlinkToDocs.NavigateUri" xml:space="preserve">
+    <value>https://aka.ms/PowerToysOverview_ColorPicker</value>
+    <comment>URL. Do not loc</comment>
+  </data>
+  <data name="Awake_ImageHyperlinkToDocs.NavigateUri" xml:space="preserve">
+    <value>https://aka.ms/PowerToysOverview_Awake</value>
+    <comment>URL. Do not loc</comment>
+  </data>
+  <data name="FancyZones_ImageHyperlinkToDocs.NavigateUri" xml:space="preserve">
+    <value>https://aka.ms/PowerToysOverview_FancyZones</value>
+    <comment>URL. Do not loc</comment>
+  </data>
+  <data name="GeneralPage_ImageHyperlinkToDocs.NavigateUri" xml:space="preserve">
+    <value>https://aka.ms/powertoys</value>
+    <comment>URL. Do not loc</comment>
+  </data>
+  <data name="ImageResizer_ImageHyperlinkToDocs.NavigateUri" xml:space="preserve">
+    <value>https://aka.ms/PowerToysOverview_ImageResizer</value>
+    <comment>URL. Do not loc</comment>
+  </data>
+  <data name="FileExplorerPreview_ImageHyperlinkToDocs.NavigateUri" xml:space="preserve">
+    <value>https://aka.ms/PowerToysOverview_FileExplorerAddOns</value>
+    <comment>URL. Do not loc</comment>
+  </data>
+  <data name="KeyboardManager_ImageHyperlinkToDocs.NavigateUri" xml:space="preserve">
+    <value>https://aka.ms/PowerToysOverview_KeyboardManager</value>
+    <comment>URL. Do not loc</comment>
+  </data>
+  <data name="PowerRename_ImageHyperlinkToDocs.NavigateUri" xml:space="preserve">
+    <value>https://aka.ms/PowerToysOverview_PowerRename</value>
+    <comment>URL. Do not loc</comment>
+  </data>
+  <data name="PowerToys_Run_ImageHyperlinkToDocs.NavigateUri" xml:space="preserve">
+    <value>https://aka.ms/PowerToysOverview_PowerToysRun</value>
+    <comment>URL. Do not loc</comment>
+  </data>
+  <data name="ShortcutGuide_ImageHyperlinkToDocs.NavigateUri" xml:space="preserve">
+    <value>https://aka.ms/PowerToysOverview_ShortcutGuide</value>
+    <comment>URL. Do not loc</comment>
+  </data>
+  <data name="FancyZones_MoveWindowBasedOnRelativePosition.Content" xml:space="preserve">
+    <value>↑ ↓ ← → 按相对位置在布局内移动</value>
+  </data>
+  <data name="FancyZones_MoveWindowLeftRightBasedOnZoneIndex.Content" xml:space="preserve">
+    <value>← → 在布局内移动，↑ ↓ 全屏和最小化</value>
+  </data>
+  <data name="ColorPicker_Editor.Text" xml:space="preserve">
+    <value>拾色板</value>
+  </data>
+  <data name="FancyZones_OverlappingZonesClosestCenter.Content" xml:space="preserve">
+    <value>激活中心离鼠标最近的布局区</value>
+  </data>
+  <data name="FancyZones_OverlappingZonesLargest.Content" xml:space="preserve">
+    <value>激活最大的布局区</value>
+  </data>
+  <data name="FancyZones_OverlappingZonesPositional.Content" xml:space="preserve">
+    <value>划分重叠的部分</value>
+  </data>
+  <data name="FancyZones_OverlappingZonesSmallest.Content" xml:space="preserve">
+    <value>激活最小的布局区</value>
+  </data>
+  <data name="FancyZones_OverlappingZones.Header" xml:space="preserve">
+    <value>若布局区重叠：</value>
+  </data>
+  <data name="PowerLauncher_Plugins.Text" xml:space="preserve">
+    <value>插件</value>
+  </data>
+  <data name="PowerLauncher_ActionKeyword.Text" xml:space="preserve">
+    <value>触发关键字</value>
+  </data>
+  <data name="PowerLauncher_AuthoredBy.Text" xml:space="preserve">
+    <value>作者</value>
+    <comment>example: Authored by Microsoft</comment>
+  </data>
+  <data name="PowerLauncher_IncludeInGlobalResult.Content" xml:space="preserve">
+    <value>默认搜索（无任何关键字时）</value>
+  </data>
+  <data name="PowerLauncher_EnablePluginToggle.AutomationProperties.Name" xml:space="preserve">
+    <value>启用插件</value>
+  </data>
+  <data name="Run_AdditionalOptions.Text" xml:space="preserve">
+    <value>附加选项</value>
+  </data>
+  <data name="Run_NotAccessibleWarning.Text" xml:space="preserve">
+    <value>请定义触发关键字，或开启默认搜索，来获取此插件提供的结果</value>
+    <comment>//去掉句号</comment>
+  </data>
+  <data name="Run_AllPluginsDisabled.Text" xml:space="preserve">
+    <value>请启用至少一个插件，否则启动器无法给出任何结果</value>
+    <comment>//去掉句号</comment>
+  </data>
+  <data name="Run_NotAllowedActionKeyword.Text" xml:space="preserve">
+    <value>触发关键字冲突，请更换关键字</value>
+    <comment>//貌似不再需要，现已支持同关键字筛出多个插件结果。。。可能还有其他有问题的关键字吧</comment>
+  </data>
+  <data name="Run_PluginUseDescription.Text" xml:space="preserve">
+    <value>在搜索结果中启用各个插件，更改触发方式，调整附加选项。</value>
+  </data>
+  <data name="Run_PositionAppearance_GroupSettings.Text" xml:space="preserve">
+    <value>界面与功能</value>
+  </data>
+  <data name="Run_PositionHeader.Text" xml:space="preserve">
+    <value>显示位置</value>
+    <comment>as in Show PowerToys Run on primary monitor</comment>
+  </data>
+  <data name="Run_Radio_Position_Cursor.Content" xml:space="preserve">
+    <value>鼠标光标所在显示器</value>
+  </data>
+  <data name="Run_Radio_Position_Focus.Content" xml:space="preserve">
+    <value>窗口焦点所在显示器</value>
+  </data>
+  <data name="Run_Radio_Position_Primary_Monitor.Content" xml:space="preserve">
+    <value>主显示器</value>
+  </data>
+  <data name="Run_PluginsLoading.Text" xml:space="preserve">
+    <value>插件加载中...</value>
+  </data>
+  <data name="ColorPicker_ButtonDown.AutomationProperties.Name" xml:space="preserve">
+    <value>下移颜色</value>
+  </data>
+  <data name="ColorPicker_ButtonUp.AutomationProperties.Name" xml:space="preserve">
+    <value>上移颜色</value>
+  </data>
+  <data name="FancyZones_FlashZonesOnQuickSwitch.Content" xml:space="preserve">
+    <value>快速切换时显示布局</value>
+  </data>
+  <data name="FancyZones_QuickLayoutSwitch.Content" xml:space="preserve">
+    <value>启用快速布局切换（Ctrl + Win + Alt + 数字）</value>
+    <comment>//Ctrl + Win + Alt 因为我键盘上长这样</comment>
+  </data>
+  <data name="FancyZones_QuickLayoutSwitch_GroupSettings.Text" xml:space="preserve">
+    <value>快速布局切换</value>
+  </data>
+  <data name="ShortcutGuide_OpenShortcutGuide.Header" xml:space="preserve">
+    <value>显示快捷键</value>
+  </data>
+  <data name="Oobe_GetStarted.Text" xml:space="preserve">
+    <value>让我们开始吧！</value>
+  </data>
+  <data name="Oobe_PowerToysDescription.Text" xml:space="preserve">
+    <value>欢迎使用 PowerToys！这个入门指南可以帮助你快速了解各个功能。</value>
+  </data>
+  <data name="Oobe_GettingStarted.Text" xml:space="preserve">
+    <value>欢迎使用 PowerToys</value>
+  </data>
+  <data name="Oobe_Launch.Text" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="Oobe_LearnMore.Text" xml:space="preserve">
+    <value>详细了解</value>
+  </data>
+  <data name="Oobe_ColorPicker_Description" xml:space="preserve">
+    <value>一个简便的屏幕取色器，可以从任何程序上获取颜色，并以指定格式复制到剪贴板。</value>
+  </data>
+  <data name="Oobe_FancyZones_Description" xml:space="preserve">
+    <value>一个窗口管理器，可将窗口排列对齐到一定的布局中，便于多任务处理。</value>
+  </data>
+  <data name="Oobe_FileExplorer_Description" xml:space="preserve">
+    <value>Windows 文件资源管理器的增强组件，可以在预览窗格中查看 Markdown 文件 (.md) 和 SVG 图标 (.svg)。</value>
+  </data>
+  <data name="Oobe_ImageResizer_Description" xml:space="preserve">
+    <value>使用图像裁剪器，可以方便地批量调整图像大小。</value>
+  </data>
+  <data name="Oobe_KBM_Description" xml:space="preserve">
+    <value>键盘修改器让你重新定义键盘按键。</value>
+  </data>
+  <data name="Oobe_PowerRename_Description" xml:space="preserve">
+    <value>简单的文件重命名工具，可以搜索和替换文件名。</value>
+  </data>
+  <data name="Oobe_PowerRun_Description" xml:space="preserve">
+    <value>一个便捷的启动器，具有更多功能但又不牺牲性能。</value>
+  </data>
+  <data name="Oobe_ShortcutGuide_Description" xml:space="preserve">
+    <value>展示当前可用的快捷键列表。</value>
+  </data>
+  <data name="Oobe_VideoConference_Description" xml:space="preserve">
+    <value>视频会议静音功能使用户可以在远程会议中一键静音麦克风并关闭摄像头。</value>
+  </data>
+  <data name="Oobe_Overview_CheckoutLatestVersion.Text" xml:space="preserve">
+    <value>查看我们的</value>
+  </data>
+  <data name="Oobe_Overview_Description.Text" xml:space="preserve">
+    <value>Microsoft PowerToys 是一个小工具集，可以精简并优化 Windows 操作，提高工作效率。
+在此快速了解各个功能，或者阅读我们位于 Microsoft Docs 的</value>
+  </data>
+  <data name="Oobe_Overview_DescriptionLinkText.Text" xml:space="preserve">
+    <value>帮助文档</value>
+  </data>
+  <data name="Oobe_Overview_LatestVersionLink.Text" xml:space="preserve">
+    <value>版本发布说明</value>
+  </data>
+  <data name="Oobe_ColorPicker_HowToUse.Text" xml:space="preserve">
+    <value>{Win} + {Shift} + {C} 启动取色器。</value>
+  </data>
+  <data name="Oobe_ColorPicker_TipsAndTricks.Text" xml:space="preserve">
+    <value>可以 {滚动鼠标滚轮} 来放大，方便精细观察。</value>
+  </data>
+  <data name="Oobe_FancyZones_HowToUse.Text" xml:space="preserve">
+    <value>按住 {Shift} 同时 {拖动窗口} ，可将窗口贴靠到一个布局区。
+{Win} + {Shift} + {`} 打开布局编辑器。</value>
+  </data>
+  <data name="Oobe_FancyZones_TipsAndTricks.Text" xml:space="preserve">
+    <value>按住 {Shift} + {Ctrl} 拖动窗口，可将窗口贴靠到多个布局区拼接。</value>
+  </data>
+  <data name="Oobe_FileExplorer_HowToEnable.Text" xml:space="preserve">
+    <value>打开文件资源管理器，在顶部的工具栏中选择 {查看} 选项卡，然后选择 {预览窗格} 来启用预览功能。
+然后，试试选中 Markdown 文件或 SVG 图标，在预览窗格中直接显示了文件内容！</value>
+  </data>
+  <data name="Oobe_HowToCreateMappings.Text" xml:space="preserve">
+    <value>如何创建映射</value>
+  </data>
+  <data name="Oobe_HowToEnable.Text" xml:space="preserve">
+    <value>如何启用</value>
+  </data>
+  <data name="Oobe_HowToLaunch.Text" xml:space="preserve">
+    <value>如何启动</value>
+  </data>
+  <data name="Oobe_HowToUse.Text" xml:space="preserve">
+    <value>如何使用</value>
+  </data>
+  <data name="Oobe_ImageResizer_HowToLaunch.Text" xml:space="preserve">
+    <value>选中一个或几个图片，单击 {右键} ，然后在右键菜单中选择 {调整图片大小} 。</value>
+  </data>
+  <data name="Oobe_ImageResizer_TipsAndTricks.Text" xml:space="preserve">
+    <value>希望修改尺寸吗？你可以在 PowerToys 设置中添加自定义尺寸！</value>
+  </data>
+  <data name="Oobe_KBM_HowToCreateMappings.Text" xml:space="preserve">
+    <value>打开 {设置} ，在键盘修改器菜单中，选择 {重映射按键} 或 {重映射快捷键} 。</value>
+  </data>
+  <data name="Oobe_KBM_TipsAndTricks.Text" xml:space="preserve">
+    <value>想要只对某个应用生效的快捷键？创建快捷键重映射时，可以指定“目标程序”。</value>
+  </data>
+  <data name="Oobe_PowerRename_HowToUse.Text" xml:space="preserve">
+    <value>选中一个或几个文件，单击 {右键} ，然后在右键菜单中选择 {批量重命名} 。</value>
+  </data>
+  <data name="Oobe_PowerRename_TipsAndTricks.Text" xml:space="preserve">
+    <value>可以使用正则表达式，进行高级操作。</value>
+  </data>
+  <data name="Oobe_Run_HowToLaunch.Text" xml:space="preserve">
+    <value>{Alt} + {Space} 启动快速启动器，随意搜点什么吧~</value>
+  </data>
+  <data name="Oobe_Run_TipsAndTricks.Text" xml:space="preserve">
+    <value>快速启动器支持各种关键字，以搜索特定的结果。
+例如，输入 {&lt;} 搜索运行中的程序进程，输入 {?} 搜索文件，输入 {.} 搜索已安装的应用！
+关于所有可用的关键字，参见 PowerToys 文档。</value>
+  </data>
+  <data name="Oobe_ShortcutGuide_HowToLaunch.Text" xml:space="preserve">
+    <value>{Win} + {Shift} + {/} 显示快捷键指南，再按一次或按 {Esc} 关闭。</value>
+  </data>
+  <data name="Oobe_TipsAndTricks.Text" xml:space="preserve">
+    <value>小技巧</value>
+  </data>
+  <data name="Oobe_VideoConference_HowToLaunch.Text" xml:space="preserve">
+    <value>{Win} + {N} 同时切换麦克风和摄像头
+{Win} + {Shift} + {A} 切换麦克风
+{Win} + {Shift} + {O} 切换摄像头</value>
+  </data>
+  <data name="Oobe_ColorPicker" xml:space="preserve">
+    <value>取色器</value>
+    <comment>Do not localize this string</comment>
+  </data>
+  <data name="Oobe_FancyZones" xml:space="preserve">
+    <value>窗口布局</value>
+    <comment>Do not localize this string</comment>
+  </data>
+  <data name="Oobe_FileExplorer" xml:space="preserve">
+    <value>文件增强</value>
+    <comment>Do not localize this string</comment>
+  </data>
+  <data name="Oobe_ImageResizer" xml:space="preserve">
+    <value>图像裁剪器</value>
+    <comment>Do not localize this string</comment>
+  </data>
+  <data name="Oobe_KBM" xml:space="preserve">
+    <value>键盘修改器</value>
+    <comment>Do not localize this string</comment>
+  </data>
+  <data name="Oobe_Overview" xml:space="preserve">
+    <value>概述</value>
+  </data>
+  <data name="Oobe_PowerRename" xml:space="preserve">
+    <value>批量重命名</value>
+    <comment>Do not localize this string</comment>
+  </data>
+  <data name="Oobe_Run" xml:space="preserve">
+    <value>快速启动器</value>
+    <comment>Do not localize this string</comment>
+  </data>
+  <data name="Oobe_ShortcutGuide" xml:space="preserve">
+    <value>快捷键指南</value>
+    <comment>Do not localize this string</comment>
+  </data>
+  <data name="Oobe_VideoConference" xml:space="preserve">
+    <value>视频会议</value>
+    <comment>Do not localize this string</comment>
+  </data>
+  <data name="Oobe_Welcome" xml:space="preserve">
+    <value>初次见面</value>
+  </data>
+  <data name="OOBE_Settings.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="Oobe_Button.Text" xml:space="preserve">
+    <value>入门指南</value>
+  </data>
+  <data name="OobeWindow_Title" xml:space="preserve">
+    <value>PowerToys 入门指南</value>
+  </data>
+  <data name="SettingsWindow_Title" xml:space="preserve">
+    <value>PowerToys 设置</value>
+  </data>
+  <data name="About_Awake.Text" xml:space="preserve">
+    <value>关于唤醒工具</value>
+  </data>
+  <data name="Awake_Description.Text" xml:space="preserve">
+    <value>轻松地保持电脑唤醒。</value>
+  </data>
+  <data name="Awake_EnableAwake.Header" xml:space="preserve">
+    <value>启用唤醒工具</value>
+  </data>
+  <data name="Awake_NoKeepAwakeContent.Text" xml:space="preserve">
+    <value>禁用</value>
+    <comment>Off (Passive)</comment>
+  </data>
+  <data name="Awake_IndefiniteKeepAwakeContent.Text" xml:space="preserve">
+    <value>通宵达旦</value>
+  </data>
+  <data name="Awake_TemporaryKeepAwakeContent.Text" xml:space="preserve">
+    <value>清醒一刻</value>
+  </data>
+  <data name="Awake_NoKeepAwakeDescription.Text" xml:space="preserve">
+    <value>遵循系统的电源管理计划</value>
+  </data>
+  <data name="Awake_IndefiniteKeepAwakeDescription.Text" xml:space="preserve">
+    <value>使电脑一直保持唤醒，直到关闭该设置</value>
+  </data>
+  <data name="Awake_TemporaryKeepAwakeDescription.Text" xml:space="preserve">
+    <value>在设定的时间内保持电脑唤醒</value>
+  </data>
+  <data name="Awake_EnableDisplayKeepAwake.Content" xml:space="preserve">
+    <value>保持屏幕常亮</value>
+  </data>
+  <data name="Awake_Mode.Text" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="Awake_Behavior_GroupSettings.Text" xml:space="preserve">
+    <value>功能</value>
+  </data>
+  <data name="Awake_TemporaryKeepAwake_Hours.Header" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="Awake_TemporaryKeepAwake_Minutes.Header" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="Awake_ModuleAttributionLabel.Text" xml:space="preserve">
+    <value>Den Delimarsky 的唤醒工具</value>
+  </data>
+  <data name="Awake_ModuleAttributionHyperlink.NavigateUri" xml:space="preserve">
+    <value>https://Awake.den.dev</value>
+    <comment>URL. Do not loc</comment>
+  </data>
+  <data name="Oobe_Awake" xml:space="preserve">
+    <value>唤醒工具</value>
+    <comment>Module name, do not loc</comment>
+  </data>
+  <data name="Oobe_Awake_Description" xml:space="preserve">
+    <value>唤醒工具可以使电脑保持唤醒状态，免去修改电源设置的麻烦。当进行一些特别耗时的任务时，该工具可以确保电脑不会睡眠或锁屏。</value>
+  </data>
+  <data name="Oobe_Awake_HowToUse.Text" xml:space="preserve">
+    <value>打开 {设置} ，启用唤醒工具。</value>
+  </data>
+  <data name="Oobe_Awake_TipsAndTricks.Text" xml:space="preserve">
+    <value>你可以 {右键状态栏的蓝色杯子图标} 来切换模式。</value>
+  </data>
+  <data name="General_FailedToDownloadTheNewVersion.Text" xml:space="preserve">
+    <value>更新到版本</value>
+  </data>
+  <data name="General_InstallNow.Content" xml:space="preserve">
+    <value>立刻安装</value>
+  </data>
+  <data name="General_ReadMore.Text" xml:space="preserve">
+    <value>了解更多</value>
+  </data>
+  <data name="General_NewVersionAvailable.Text" xml:space="preserve">
+    <value>有版本更新: </value>
+  </data>
+  <data name="General_Downloading.Text" xml:space="preserve">
+    <value>下载中...</value>
+  </data>
+  <data name="General_TryAgainToDownloadAndInstall.Content" xml:space="preserve">
+    <value>请再次尝试下载并安装</value>
+  </data>
+  <data name="General_CheckingForUpdates.Text" xml:space="preserve">
+    <value>正在检查更新...</value>
+  </data>
+  <data name="General_NewVersionReadyToInstall.Text" xml:space="preserve">
+    <value>新版本已准备好安装:</value>
+  </data>
+  <data name="General_UpToDate.Text" xml:space="preserve">
+    <value>已是最新版本</value>
+  </data>
+  <data name="General_DownloadAndInstall.Content" xml:space="preserve">
+    <value>下载并安装</value>
+  </data>
+  <data name="General_FailedToDownloadTheNewVersion2.Text" xml:space="preserve">
+    <value>时出错</value>
+  </data>
+  <data name="Oobe_Overview_CheckoutLatestVersion2.Text" xml:space="preserve">
+    <value> 来了解 PowerToys 的新变化。</value>
+  </data>
+  <data name="Oobe_Overview_Description2.Text" xml:space="preserve">
+    <value> 。</value>
+  </data>
+</root>

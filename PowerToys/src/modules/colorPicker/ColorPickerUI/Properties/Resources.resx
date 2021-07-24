@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Blue_value" xml:space="preserve">
+    <value>蓝色值</value>
+    <comment>Tool tip that appears when hovering over a textbox that represents the blue HEX value</comment>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+    <comment>Cancel button content</comment>
+  </data>
+  <data name="Copied_to_clipboard" xml:space="preserve">
+    <value>复制成功</value>
+    <comment>Message that appears when a user clicked a button that copies the value to the user's clipboard</comment>
+  </data>
+  <data name="Copy_to_clipboard" xml:space="preserve">
+    <value>复制</value>
+    <comment>Tooltip that describes a button that will copy a value to the user's clipboard</comment>
+  </data>
+  <data name="cp_editor" xml:space="preserve">
+    <value>拾色盘</value>
+    <comment>Do not translate product name</comment>
+  </data>
+  <data name="Green_value" xml:space="preserve">
+    <value>绿色值</value>
+    <comment>Tool tip that appears when hovering over a textbox that represents the green HEX value</comment>
+  </data>
+  <data name="Hex_value" xml:space="preserve">
+    <value>十六进制值</value>
+    <comment>Tool tip that appears when hovering over a textbox that represents the HEX value</comment>
+  </data>
+  <data name="Hue_slider" xml:space="preserve">
+    <value>色相滑块</value>
+    <comment>Tool tip that appears when hovering over a slider that represents the color hue (from HSV)</comment>
+  </data>
+  <data name="No_colors_yet" xml:space="preserve">
+    <value>点击取色图标从屏幕上捕获颜色。</value>
+    <comment>Message that shows when the user launches the window for the first time or when no colors have been selected</comment>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>选择</value>
+    <comment>Select button content</comment>
+  </data>
+  <data name="Open_settings" xml:space="preserve">
+    <value>打开设置</value>
+    <comment>Tooltip that shows that the user can click this button to open PowerToys settings</comment>
+  </data>
+  <data name="Pick_color" xml:space="preserve">
+    <value>从屏幕上取色</value>
+    <comment>Tooltip that shows that the user can click this button to pick a new color</comment>
+  </data>
+  <data name="Red_value" xml:space="preserve">
+    <value>红色值</value>
+    <comment>Tool tip that appears when hovering over a textbox that represents the red HEX value</comment>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>删除</value>
+    <comment>Tooltip that shows that the user can remove an item from a list</comment>
+  </data>
+  <data name="Saturation_slider" xml:space="preserve">
+    <value>饱和度滑块</value>
+    <comment>Tool tip that appears when hovering over a slider that represents the color saturation (from HSV)</comment>
+  </data>
+  <data name="Selected_color" xml:space="preserve">
+    <value>已选颜色</value>
+    <comment>Tooltip that shows the user what the selected color is</comment>
+  </data>
+  <data name="Selected_color_helptext" xml:space="preserve">
+    <value>可以对颜色进行调节</value>
+    <comment>Narrator message that describes to the user that this color can be adjusted</comment>
+  </data>
+  <data name="Selected_color_tooltip" xml:space="preserve">
+    <value>调色</value>
+    <comment>Tooltip that shows that the user can adjust this color</comment>
+  </data>
+  <data name="Value_slider" xml:space="preserve">
+    <value>色值滑块</value>
+    <comment>Tool tip that appears when hovering over a slider that represents the color value (from HSV)</comment>
+  </data>
+  <data name="TEXT_COLOR_WHITE" xml:space="preserve">
+    <value>白色</value>
+    <comment>White color #FFFFFF</comment>
+  </data>
+  <data name="TEXT_COLOR_BLACK" xml:space="preserve">
+    <value>黑色</value>
+    <comment>Black color #000000</comment>
+  </data>
+  <data name="TEXT_COLOR_LIGHTGRAY" xml:space="preserve">
+    <value>浅灰</value>
+    <comment>Light gray color #C8C8C8</comment>
+  </data>
+  <data name="TEXT_COLOR_GRAY" xml:space="preserve">
+    <value>灰色</value>
+    <comment>Gray color #878787</comment>
+  </data>
+  <data name="TEXT_COLOR_DARKGRAY" xml:space="preserve">
+    <value>深灰</value>
+    <comment>Dark gray color #3C3C3C</comment>
+  </data>
+  <data name="TEXT_COLOR_CORAL" xml:space="preserve">
+    <value>米色</value>
+    <comment>Coral color #E1D1CE</comment>
+  </data>
+  <data name="TEXT_COLOR_ROSE" xml:space="preserve">
+    <value>玫红</value>
+    <comment>Rose color #FF6699</comment>
+  </data>
+  <data name="TEXT_COLOR_LIGHTORANGE" xml:space="preserve">
+    <value>浅橙</value>
+    <comment>Light orange color #FF9966</comment>
+  </data>
+  <data name="TEXT_COLOR_TAN" xml:space="preserve">
+    <value>茶色</value>
+    <comment>Tan color #996633</comment>
+  </data>
+  <data name="TEXT_COLOR_LIGHTYELLOW" xml:space="preserve">
+    <value>浅黄</value>
+    <comment>Light yellow color #FFFF66</comment>
+  </data>
+  <data name="TEXT_COLOR_LIGHTGREEN" xml:space="preserve">
+    <value>浅绿</value>
+    <comment>Light green color #66FF66</comment>
+  </data>
+  <data name="TEXT_COLOR_LIME" xml:space="preserve">
+    <value>青绿</value>
+    <comment>Lime color #CCFF33</comment>
+  </data>
+  <data name="TEXT_COLOR_AQUA" xml:space="preserve">
+    <value>水绿</value>
+    <comment>Aqua color #00FFFF 注：颜色参考官译、office内名称，一定程度修改结合日常通用名称。</comment>
+  </data>
+  <data name="TEXT_COLOR_SKYBLUE" xml:space="preserve">
+    <value>天蓝</value>
+    <comment>Sky blue color #66FFFF</comment>
+  </data>
+  <data name="TEXT_COLOR_LIGHTTURQUOISE" xml:space="preserve">
+    <value>浅青绿</value>
+    <comment>Light turquoise color #66CCFF</comment>
+  </data>
+  <data name="TEXT_COLOR_PALEBLUE" xml:space="preserve">
+    <value>淡蓝</value>
+    <comment>Pale blue color 代码中貌似根本取不到-ColorNameHelper.cs</comment>
+  </data>
+  <data name="TEXT_COLOR_LIGHTBLUE" xml:space="preserve">
+    <value>浅蓝</value>
+    <comment>Light blue color #CCECFF</comment>
+  </data>
+  <data name="TEXT_COLOR_ICEBLUE" xml:space="preserve">
+    <value>冰蓝</value>
+    <comment>Ice blue color #D8E3EC</comment>
+  </data>
+  <data name="TEXT_COLOR_PERIWINKLE" xml:space="preserve">
+    <value>粉蓝</value>
+    <comment>Periwinkle color #B1B0D1</comment>
+  </data>
+  <data name="TEXT_COLOR_LAVENDER" xml:space="preserve">
+    <value>淡紫</value>
+    <comment>Lavender color #9933FF</comment>
+  </data>
+  <data name="TEXT_COLOR_PINK" xml:space="preserve">
+    <value>粉红</value>
+    <comment>Pink color #FF66CC</comment>
+  </data>
+  <data name="TEXT_COLOR_RED" xml:space="preserve">
+    <value>红色</value>
+    <comment>Red color #FF0000</comment>
+  </data>
+  <data name="TEXT_COLOR_ORANGE" xml:space="preserve">
+    <value>橙色</value>
+    <comment>Orange color #ED8C12</comment>
+  </data>
+  <data name="TEXT_COLOR_BROWN" xml:space="preserve">
+    <value>棕色</value>
+    <comment>Brown color #AF804F</comment>
+  </data>
+  <data name="TEXT_COLOR_GOLD" xml:space="preserve">
+    <value>金色</value>
+    <comment>Gold color #CC9900</comment>
+  </data>
+  <data name="TEXT_COLOR_YELLOW" xml:space="preserve">
+    <value>黄色</value>
+    <comment>Yellow color #FFFF00</comment>
+  </data>
+  <data name="TEXT_COLOR_OLIVEGREEN" xml:space="preserve">
+    <value>橄榄绿</value>
+    <comment>Olive green color #7C8260</comment>
+  </data>
+  <data name="TEXT_COLOR_GREEN" xml:space="preserve">
+    <value>绿色</value>
+    <comment>Green color #33CC33</comment>
+  </data>
+  <data name="TEXT_COLOR_BRIGHTGREEN" xml:space="preserve">
+    <value>翠绿</value>
+    <comment>Bright green color #3CDBC0</comment>
+  </data>
+  <data name="TEXT_COLOR_TEAL" xml:space="preserve">
+    <value>青色</value>
+    <comment>Teal color #00FFCC</comment>
+  </data>
+  <data name="TEXT_COLOR_TURQUOISE" xml:space="preserve">
+    <value>青绿</value>
+    <comment>Turquoise color #33CCFF</comment>
+  </data>
+  <data name="TEXT_COLOR_BLUE" xml:space="preserve">
+    <value>蓝色</value>
+    <comment>Blue color #0000FF</comment>
+  </data>
+  <data name="TEXT_COLOR_BLUEGRAY" xml:space="preserve">
+    <value>蓝灰</value>
+    <comment>Blue gray color #597BA6</comment>
+  </data>
+  <data name="TEXT_COLOR_INDIGO" xml:space="preserve">
+    <value>靛蓝</value>
+    <comment>Indigo color #333399</comment>
+  </data>
+  <data name="TEXT_COLOR_PURPLE" xml:space="preserve">
+    <value>紫色</value>
+    <comment>Purple color #CC00CC</comment>
+  </data>
+  <data name="TEXT_COLOR_DARKRED" xml:space="preserve">
+    <value>深红</value>
+    <comment>Dark red color #A50021</comment>
+  </data>
+  <data name="TEXT_COLOR_DARKYELLOW" xml:space="preserve">
+    <value>深黄</value>
+    <comment>Dark yellow color #808000</comment>
+  </data>
+  <data name="TEXT_COLOR_DARKGREEN" xml:space="preserve">
+    <value>深绿</value>
+    <comment>Dark green color #006600</comment>
+  </data>
+  <data name="TEXT_COLOR_DARKTEAL" xml:space="preserve">
+    <value>深青</value>
+    <comment>Dark teal color #006666</comment>
+  </data>
+  <data name="TEXT_COLOR_DARKBLUE" xml:space="preserve">
+    <value>深蓝</value>
+    <comment>Dark blue color #000066</comment>
+  </data>
+  <data name="TEXT_COLOR_DARKPURPLE" xml:space="preserve">
+    <value>深紫</value>
+    <comment>Dark purple color #660066</comment>
+  </data>
+  <data name="TEXT_COLOR_PLUM" xml:space="preserve">
+    <value>梅红</value>
+    <comment>Plum color #660033</comment>
+  </data>
+  <data name="Select_color" xml:space="preserve">
+    <value>选择颜色</value>
+  </data>
+</root>
