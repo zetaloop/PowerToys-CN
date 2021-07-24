@@ -18,13 +18,13 @@ _（备注：由于无法获取官方本地化组件，硬编码为中文，默�
 
 下载地址（Github）：https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest
 
-备用下载地址（蓝奏云）：https://zeta.lanzoui.com/b01ibfo9e 密码：zeta 【包含安装包】
+备用下载地址（蓝奏云）：https://zeta.lanzoui.com/b01iialaj 密码：zeta 【包含安装包】
 
 ## Usage 使用方法
 
 ① 安装原版 PowerToys 软件：
 
-　　下载 .exe 安装包，安装 PowerToys v0.37.2
+　　下载 .exe 安装包，安装 PowerToys 软件
 
 ② 一键安装优化补丁包：
 
@@ -35,13 +35,15 @@ _（备注：由于无法获取官方本地化组件，硬编码为中文，默�
 ## Patchs 优化清单
 <details><summary></summary>
 
-PowerToys 模块名称：取色器 窗口布局 文件增强 图像裁剪器 键盘修改器 批量重命名 快速启动器 快捷键指南
+PowerToys 模块名称：唤醒工具 取色器 窗口布局 文件增强 图像裁剪器 键盘修改器 批量重命名 快速启动器 快捷键指南
 
 PowerToys 通用设置界面、各模块预设及设置界面
 
 PowerToys “开箱即用”用户引导界面
 
 PowerToys 运行提示、弹框消息、状态栏图标右键菜单
+
+Awake 操作界面、状态栏菜单
 
 Color Picker 操作界面、右键菜单
 
@@ -55,7 +57,7 @@ Keyboard Manager 操作界面
 
 PowerRename 操作界面、右键菜单
 
-PowerToys Run 操作界面、插件
+PowerToys Run 操作界面、一大堆插件
 
 Shortcut Guide 操作界面、快捷键图片
 
