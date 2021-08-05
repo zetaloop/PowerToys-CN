@@ -10,7 +10,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 反馈问题：Issue 或 ideaploter@outlook.com
 
-版本：v0.41.4
+版本：v0.41.4（0.43.0 Working）
 
 _（备注：由于无法获取官方本地化组件，硬编码为中文，默认且仅支持中文。）_
 
