@@ -210,7 +210,7 @@
   </data>
   <data name="Cant_Drag_Elevated" xml:space="preserve">
     <value>检测到一个以管理员身份运行的程序窗口，窗口布局无法对它进行操作。</value>
-    <comment>administrator is context of user account.</comment>
+    <comment>administrator is context of user account.</comment> 
   </data>
   <data name="Cant_Drag_Elevated_Learn_More" xml:space="preserve">
     <value>了解更多</value>

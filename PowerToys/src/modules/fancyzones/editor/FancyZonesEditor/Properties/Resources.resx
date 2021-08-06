@@ -120,6 +120,9 @@
   <data name="Add_zone" xml:space="preserve">
     <value>添加布局区</value>
   </data>
+  <data name="New_zone_added" xml:space="preserve">
+    <value>布局区已添加</value>
+  </data>
   <data name="Apply" xml:space="preserve">
     <value>应用</value>
   </data>
@@ -147,9 +150,6 @@
   <data name="Distance_adjacent_zones" xml:space="preserve">
     <value>激活距离</value>
     <comment>Distance of when an adjacent zone should light up when the window is close to it</comment>
-  </data>
-  <data name="Edit_Layout" xml:space="preserve">
-    <value>编辑布局</value>
   </data>
   <data name="Fancy_Zones_Editor_App_Title" xml:space="preserve">
     <value>布局编辑器</value>
@@ -366,5 +366,8 @@
   </data>
   <data name="QuickKey_Title" xml:space="preserve">
     <value>快速切换键</value>
+  </data>
+  <data name="Edit_Layout" xml:space="preserve">
+    <value>编辑布局</value>
   </data>
 </root>

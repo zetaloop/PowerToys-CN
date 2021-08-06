@@ -117,6 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="confirm_system_commands" xml:space="preserve">
+    <value>显示对话框以确认执行系统命令</value>
+  </data>
+  <data name="Microsoft_plugin_sys_confirmation" xml:space="preserve">
+    <value>请确认</value>
+    <comment>Request confirmation</comment>
+  </data>
   <data name="Microsoft_plugin_sys_emptyrecyclebin" xml:space="preserve">
     <value>Empty Recycle Bin 清空回收站</value>
     <comment>This should align to the action in Windows of emptying the recycle bin on your computer.</comment>
@@ -129,12 +136,20 @@
     <value>Hibernate 休眠</value>
     <comment>This should align to the action in Windows of a hibernating your computer.</comment>
   </data>
+  <data name="Microsoft_plugin_sys_hibernate_confirmation" xml:space="preserve">
+    <value>确定休眠？</value>
+    <comment>This should align to the action in Windows of a hibernating your computer.</comment>
+  </data>
   <data name="Microsoft_plugin_sys_hibernate_description" xml:space="preserve">
     <value>把运行状态保存在硬盘，然后关机，可以恢复所有状态</value>
     <comment>This should align to the action in Windows of a hibernating your computer.</comment>
   </data>
   <data name="Microsoft_plugin_sys_lock" xml:space="preserve">
     <value>Lock 锁定屏幕</value>
+    <comment>This should align to the action in Windows of a locking your computer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_lock_confirmation" xml:space="preserve">
+    <value>确定锁屏？</value>
     <comment>This should align to the action in Windows of a locking your computer.</comment>
   </data>
   <data name="Microsoft_plugin_sys_lock_description" xml:space="preserve">
@@ -153,12 +168,20 @@
     <value>Restart 重启</value>
     <comment>This should align to the action in Windows of a restarting your computer.</comment>
   </data>
+  <data name="Microsoft_plugin_sys_restart_computer_confirmation" xml:space="preserve">
+    <value>确定重启？</value>
+    <comment>This should align to the action in Windows of a restarting your computer.</comment>
+  </data>
   <data name="Microsoft_plugin_sys_restart_computer_description" xml:space="preserve">
     <value>关闭所有应用，关闭系统，然后重新启动系统</value>
     <comment>This should align to the action in Windows of a restarting your computer.</comment>
   </data>
   <data name="Microsoft_plugin_sys_shutdown_computer" xml:space="preserve">
     <value>Shutdown 关机</value>
+    <comment>This should align to the action in Windows of a shutting down your computer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_shutdown_computer_confirmation" xml:space="preserve">
+    <value>确定关机？</value>
     <comment>This should align to the action in Windows of a shutting down your computer.</comment>
   </data>
   <data name="Microsoft_plugin_sys_shutdown_computer_description" xml:space="preserve">
@@ -169,12 +192,20 @@
     <value>Sign out 注销</value>
     <comment>This should align to the action in windows of a signing out back to the lock screen.</comment>
   </data>
+  <data name="Microsoft_plugin_sys_sign_out_confirmation" xml:space="preserve">
+    <value>确定注销？</value>
+    <comment>This should align to the action in windows of a signing out back to the lock screen.</comment>
+  </data>
   <data name="Microsoft_plugin_sys_sign_out_description" xml:space="preserve">
     <value>关闭所有应用，注销账户，但不关闭系统</value>
     <comment>This should align to the action in windows of a signing out back to the lock screen.</comment>
   </data>
   <data name="Microsoft_plugin_sys_sleep" xml:space="preserve">
     <value>Sleep 睡眠</value>
+    <comment>This should align to the action in Windows of a making your computer go to sleep.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_sleep_confirmation" xml:space="preserve">
+    <value>确定睡眠？</value>
     <comment>This should align to the action in Windows of a making your computer go to sleep.</comment>
   </data>
   <data name="Microsoft_plugin_sys_sleep_description" xml:space="preserve">

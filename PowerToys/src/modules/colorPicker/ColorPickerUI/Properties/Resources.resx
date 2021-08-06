@@ -364,4 +364,28 @@
   <data name="Select_color" xml:space="preserve">
     <value>选择颜色</value>
   </data>
+  <data name="Color_Code" xml:space="preserve">
+    <value>颜色编码</value>
+  </data>
+  <data name="Color_History" xml:space="preserve">
+    <value>取色记录</value>
+  </data>
+  <data name="Color_Palette" xml:space="preserve">
+    <value>调色板</value>
+  </data>
+  <data name="Color_Picker_Control" xml:space="preserve">
+    <value>取色器控制</value>
+  </data>
+  <data name="Darker_color" xml:space="preserve">
+    <value>变暗 1</value>
+  </data>
+  <data name="Darkest_color" xml:space="preserve">
+    <value>变暗 2</value>
+  </data>
+  <data name="Lighter_color" xml:space="preserve">
+    <value>变亮 1</value>
+  </data>
+  <data name="Lightest color" xml:space="preserve">
+    <value>变亮 2</value>
+  </data>
 </root>
