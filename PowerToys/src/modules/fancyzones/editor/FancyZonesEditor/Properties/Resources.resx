@@ -370,4 +370,7 @@
   <data name="Edit_Layout" xml:space="preserve">
     <value>编辑布局</value>
   </data>
+    <data name="Layout_Creation_Announce" xml:space="preserve">
+    <value>自定义布局创建成功。</value>
+  </data>
 </root>

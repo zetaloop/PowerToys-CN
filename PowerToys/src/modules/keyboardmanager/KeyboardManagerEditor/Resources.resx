@@ -292,7 +292,10 @@
     <value>添加快捷键重映射</value>
   </data>
   <data name="Delete_Remapping_Button" xml:space="preserve">
-    <value>移除重映射</value>
+    <value>删除重映射</value>
+  </data>
+  <data name="Delete_Remapping_Event" xml:space="preserve">
+    <value>映射已删除</value>
   </data>
   <data name="AutomationProperties_Row" xml:space="preserve">
     <value>滚动行</value>

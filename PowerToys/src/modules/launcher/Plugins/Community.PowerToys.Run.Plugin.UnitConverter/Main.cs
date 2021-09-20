@@ -1,13 +1,16 @@
-﻿using System;
+﻿// Copyright (c) Microsoft Corporation
+// The Microsoft Corporation licenses this file to you under the MIT license.
+// See the LICENSE file in the project root for more information.
+
+#pragma warning disable SA1501 // FUCK U Statement should not be on a single line
+using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows;
 using System.Windows.Input;
 using ManagedCommon;
-using UnitsNet;
 using Wox.Plugin;
 
 namespace Community.PowerToys.Run.Plugin.UnitConverter
@@ -156,7 +159,7 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
             return Properties.Resources.plugin_description;
         }
 
-        private void OnThemeChanged(Theme _, Theme newTheme)
+        private void OnThemeChanged(Theme currentTheme, Theme newTheme)
         {
             UpdateIconPath(newTheme);
         }

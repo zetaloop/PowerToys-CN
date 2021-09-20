@@ -49,7 +49,7 @@
 namespace
 {
     const wchar_t PT_URI_PROTOCOL_SCHEME[] = L"powertoys://";
-    const wchar_t POWER_TOYS_MODULE_LOAD_FAIL[] = L"加载失败 "; // Module name will be appended on this message and it is not localized.
+    const wchar_t POWER_TOYS_MODULE_LOAD_FAIL[] = L"无法加载 "; // Module name will be appended on this message and it is not localized.
 }
 
 void chdir_current_executable()
@@ -145,12 +145,12 @@ int runner(bool isProcessElevated, bool openSettings, bool openOobe)
 
         };
         // TODO(yuyoyuppe): uncomment when VCM should be enabled
-        //const auto VCM_PATH = L"modules/VideoConference/VideoConferenceModule.dll";
-        //if (const auto mf = LoadLibraryA("mf.dll"))
-        //{
-        //    FreeLibrary(mf);
-        //    knownModules.emplace_back(VCM_PATH);
-        //}
+        const auto VCM_PATH = L"modules/VideoConference/VideoConferenceModule.dll";
+        if (const auto mf = LoadLibraryA("mf.dll"))
+        {
+            FreeLibrary(mf);
+            knownModules.emplace_back(VCM_PATH);
+        }
 
         for (const auto& moduleSubdir : knownModules)
         {

@@ -1,5 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿// Copyright (c) Microsoft Corporation
+// The Microsoft Corporation licenses this file to you under the MIT license.
+// See the LICENSE file in the project root for more information.
+
+#pragma warning disable SA1501 // FUCK U Statement should not be on a single line
 using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;

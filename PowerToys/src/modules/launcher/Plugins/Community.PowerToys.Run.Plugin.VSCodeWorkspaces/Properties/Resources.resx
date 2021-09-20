@@ -126,7 +126,6 @@
   </data>
   <data name="PluginDescription" xml:space="preserve">
     <value>打开在 VS Code 中打开过的工作区、远程计算机（SSH、Codespaces）和容器。</value>
-    <comment>Opens workspaces, remote machines (SSH or Codespaces) and containers, previously opened in VS Code.</comment>
   </data>
   <data name="SSHRemoteMachine" xml:space="preserve">
     <value>SSH 远程计算机</value>

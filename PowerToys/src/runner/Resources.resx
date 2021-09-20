@@ -109,12 +109,15 @@
   <data name="SETTINGS_MENU_TEXT" xml:space="preserve">
     <value>设置</value>
   </data>
+  <data name="DOCUMENTATION_MENU_TEXT" xml:space="preserve">
+    <value>帮助</value>
+  </data>
   <data name="EXIT_MENU_TEXT" xml:space="preserve">
     <value>退出</value>
     <comment>Exit as a verb, as in Exit the application</comment>
   </data>
   <data name="SUBMIT_BUG_TEXT" xml:space="preserve">
-    <value>创建问题报告</value>
+    <value>报告</value>
   </data>
   <data name="BUGREPORT_SUCCESS" xml:space="preserve">
     <value>问题报告已打包，Zip 文件位于桌面。</value>
