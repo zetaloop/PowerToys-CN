@@ -121,7 +121,7 @@
     <value>计算器</value>
   </data>
   <data name="wox_plugin_calculator_plugin_description" xml:space="preserve">
-    <value>进行数学计算 (例如 5*3-2).</value>
+    <value>进行数学计算（例如 5*3-2）</value>
   </data>
   <data name="wox_plugin_calculator_not_a_number" xml:space="preserve">
     <value>不是数字（NaN）</value>

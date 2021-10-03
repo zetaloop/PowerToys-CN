@@ -125,7 +125,7 @@
     <comment>Used to indicate the location where something is</comment>
   </data>
   <data name="PluginDescription" xml:space="preserve">
-    <value>打开在 VS Code 中打开过的工作区、远程计算机（SSH、Codespaces）和容器。</value>
+    <value>打开在 VS Code 中打开过的工作区、远程计算机（SSH、Codespaces）和容器</value>
   </data>
   <data name="SSHRemoteMachine" xml:space="preserve">
     <value>SSH 远程计算机</value>

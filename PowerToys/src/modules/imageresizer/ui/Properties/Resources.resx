@@ -134,7 +134,7 @@
     <value>（自动）</value>
   </data>
   <data name="Input_Content" xml:space="preserve">
-    <value>选择尺寸预设(_S)</value>
+    <value>选择尺寸预设</value>
   </data>
   <data name="Input_Custom" xml:space="preserve">
     <value>自定义</value>

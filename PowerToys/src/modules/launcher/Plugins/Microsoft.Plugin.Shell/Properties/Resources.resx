@@ -121,7 +121,7 @@
     <value>命令行</value>
   </data>
   <data name="wox_plugin_cmd_plugin_description" xml:space="preserve">
-    <value>执行命令 (比如 'ping', 'cmd').</value>
+    <value>执行命令（例如 “ping”、“cmd”）</value>
   </data>
   <data name="wox_plugin_cmd_cmd_has_been_executed_times" xml:space="preserve">
     <value>此命令已经执行了 {0} 次</value>

@@ -201,6 +201,10 @@
   <data name="AppColor" xml:space="preserve">
     <value>应用颜色</value>
   </data>
+  <data name="AppControlPanel" xml:space="preserve">
+    <value>控制面板</value>
+    <comment>Type of the setting is a "(legacy) Control Panel setting"</comment>
+  </data>
   <data name="AppDiagnostics" xml:space="preserve">
     <value>应用诊断</value>
     <comment>Area Privacy</comment>
@@ -252,9 +256,6 @@
   </data>
   <data name="AreaClockAndRegion" xml:space="preserve">
     <value>时钟和区域</value>
-  </data>
-  <data name="AreaControlPanel" xml:space="preserve">
-    <value>控制面板</value>
   </data>
   <data name="AreaCortana" xml:space="preserve">
     <value>Cortana</value>
@@ -466,10 +467,6 @@
   <data name="Contacts" xml:space="preserve">
     <value>联系人</value>
     <comment>Area Privacy</comment>
-  </data>
-  <data name="ControlPanel" xml:space="preserve">
-    <value>控制面板</value>
-    <comment>Type of the setting is a "(legacy) Control Panel setting"</comment>
   </data>
   <data name="CopyCommand" xml:space="preserve">
     <value>复制命令</value>
@@ -1469,10 +1466,6 @@
   <data name="StorageSense" xml:space="preserve">
     <value>存储感知</value>
     <comment>Area System</comment>
-  </data>
-  <data name="SubtitlePreposition" xml:space="preserve">
-    <value>，位于</value>
-    <comment>Example: Area "System" in System settings</comment>
   </data>
   <data name="SyncCenter" xml:space="preserve">
     <value>同步中心</value>

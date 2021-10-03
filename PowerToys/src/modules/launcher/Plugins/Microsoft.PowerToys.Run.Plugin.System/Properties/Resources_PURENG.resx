@@ -117,13 +117,103 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="wox_plugin_windowwalker_plugin_name" xml:space="preserve">
-    <value>窗口切换</value>
+  <data name="confirm_system_commands" xml:space="preserve">
+    <value>显示对话框以确认执行系统命令</value>
   </data>
-  <data name="wox_plugin_windowwalker_plugin_description" xml:space="preserve">
-    <value>通过搜索窗口标题来切换窗口</value>
+  <data name="Microsoft_plugin_sys_confirmation" xml:space="preserve">
+    <value>请确认</value>
+    <comment>Request confirmation</comment>
   </data>
-  <data name="wox_plugin_windowwalker_running" xml:space="preserve">
-    <value>进程</value>
+  <data name="Microsoft_plugin_sys_emptyrecyclebin" xml:space="preserve">
+    <value>Empty Recycle Bin</value>
+    <comment>This should align to the action in Windows of emptying the recycle bin on your computer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_emptyrecyclebin_description" xml:space="preserve">
+    <value>删除回收站中的所有内容</value>
+    <comment>This should align to the action in Windows of emptying the recycle bin on your computer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_hibernate" xml:space="preserve">
+    <value>Hibernate</value>
+    <comment>This should align to the action in Windows of a hibernating your computer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_hibernate_confirmation" xml:space="preserve">
+    <value>确定休眠？</value>
+    <comment>This should align to the action in Windows of a hibernating your computer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_hibernate_description" xml:space="preserve">
+    <value>把运行状态保存在硬盘，然后关机，可以恢复所有状态</value>
+    <comment>This should align to the action in Windows of a hibernating your computer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_lock" xml:space="preserve">
+    <value>Lock</value>
+    <comment>This should align to the action in Windows of a locking your computer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_lock_confirmation" xml:space="preserve">
+    <value>确定锁屏？</value>
+    <comment>This should align to the action in Windows of a locking your computer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_lock_description" xml:space="preserve">
+    <value>锁屏，登录以解锁</value>
+    <comment>This should align to the action in Windows of a locking your computer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_plugin_description" xml:space="preserve">
+    <value>执行系统命令（例如 “Shutdown”、“Lock”、“Sleep”）</value>
+    <comment>This should align to the actions in Windows relating to shutting down, signing out, locking, sleeping, restarting, emptying the recycle bin, and hibernating your computer. </comment>
+  </data>
+  <data name="Microsoft_plugin_sys_plugin_name" xml:space="preserve">
+    <value>系统命令</value>
+    <comment>Windows operating system commands.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_restart_computer" xml:space="preserve">
+    <value>Restart</value>
+    <comment>This should align to the action in Windows of a restarting your computer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_restart_computer_confirmation" xml:space="preserve">
+    <value>确定重启？</value>
+    <comment>This should align to the action in Windows of a restarting your computer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_restart_computer_description" xml:space="preserve">
+    <value>关闭所有应用，关闭系统，然后重新启动系统</value>
+    <comment>This should align to the action in Windows of a restarting your computer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_shutdown_computer" xml:space="preserve">
+    <value>Shutdown</value>
+    <comment>This should align to the action in Windows of a shutting down your computer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_shutdown_computer_confirmation" xml:space="preserve">
+    <value>确定关机？</value>
+    <comment>This should align to the action in Windows of a shutting down your computer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_shutdown_computer_description" xml:space="preserve">
+    <value>关闭所有应用，关闭系统，然后断开电源</value>
+    <comment>This should align to the action in Windows of a shutting down your computer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_sign_out" xml:space="preserve">
+    <value>Sign out</value>
+    <comment>This should align to the action in windows of a signing out back to the lock screen.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_sign_out_confirmation" xml:space="preserve">
+    <value>确定注销？</value>
+    <comment>This should align to the action in windows of a signing out back to the lock screen.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_sign_out_description" xml:space="preserve">
+    <value>关闭所有应用，注销账户，但不关闭系统</value>
+    <comment>This should align to the action in windows of a signing out back to the lock screen.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_sleep" xml:space="preserve">
+    <value>Sleep</value>
+    <comment>This should align to the action in Windows of a making your computer go to sleep.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_sleep_confirmation" xml:space="preserve">
+    <value>确定睡眠？</value>
+    <comment>This should align to the action in Windows of a making your computer go to sleep.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_sleep_description" xml:space="preserve">
+    <value>将运行中的应用冻结，关闭不必要的硬件并待机</value>
+    <comment>This should align to the action in Windows of a making your computer go to sleep.</comment>
+  </data>
+  <data name="Use_localized_system_commands" xml:space="preserve">
+    <value>使用英文版系统命令</value>
+    <comment>修改一份纯英文的，作为resource插到原汉化里，即可使用该功能</comment>
   </data>
 </root>

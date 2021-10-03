@@ -121,7 +121,7 @@
     <value>文件夹</value>
   </data>
   <data name="wox_plugin_folder_plugin_description" xml:space="preserve">
-    <value>浏览文件夹，从驱动器“C:\”或用户目录“~”开始。</value>
+    <value>浏览文件夹</value>
   </data>
   <data name="Microsoft_plugin_folder_copy_path" xml:space="preserve">
     <value>复制路径(Ctrl+C)</value>
@@ -146,7 +146,7 @@
     <value>无法打开文件</value>
   </data>
   <data name="wox_plugin_folder_select_folder_first_result_subtitle" xml:space="preserve">
-    <value>使用 &gt; 在文件夹内进行搜索，使用 * 作为通配符。</value>
+    <value>使用 &gt; 在文件夹内进行搜索，使用 * 作为通配符</value>
   </data>
   <data name="wox_plugin_folder_select_folder_first_result_title" xml:space="preserve">
     <value>打开</value>

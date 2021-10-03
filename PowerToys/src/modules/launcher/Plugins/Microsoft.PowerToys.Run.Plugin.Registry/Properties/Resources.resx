@@ -121,7 +121,7 @@
     <value>注册表</value>
   </data>
   <data name="PluginDescription" xml:space="preserve">
-    <value>在 Windows 注册表内导航。</value>
+    <value>在 Windows 注册表内导航</value>
     <comment>"this built into Windows the OS. translate accordingly, https://docs.microsoft.com/de-de/troubleshoot/windows-server/performance/windows-registry-advanced-users is an example of it translated in German"</comment>
   </data>
   <data name="CopyKeyNamePath" xml:space="preserve">

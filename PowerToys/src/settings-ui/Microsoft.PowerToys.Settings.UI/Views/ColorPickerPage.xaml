@@ -7,6 +7,7 @@
     xmlns:controls="using:Microsoft.PowerToys.Settings.UI.Controls"
     xmlns:models="using:Microsoft.PowerToys.Settings.UI.Library"
     mc:Ignorable="d"
+    x:Name="RootPage"
     AutomationProperties.LandmarkType="Main">
 
     <controls:SettingsPageControl x:Uid="ColorPicker"
@@ -27,14 +28,9 @@
 
                 <controls:SettingsGroup x:Uid="Shortcut" IsEnabled="{x:Bind Mode=OneWay, Path=ViewModel.IsEnabled}">
                     <controls:Setting x:Uid="Activation_Shortcut" Icon="&#xEDA7;">
-                        <controls:Setting.Description>
-                            <TextBlock>
-                            <Run x:Uid="ShortcutWarningLabel"/>
-                            <Run Text="Win, Ctrl, Alt, Shift"/>
-                            </TextBlock>
-                        </controls:Setting.Description>
                         <controls:Setting.ActionContent>
-                            <controls:HotkeySettingsControl MinWidth="{StaticResource SettingActionControlMinWidth}" HotkeySettings="{x:Bind Path=ViewModel.ActivationShortcut, Mode=TwoWay}" Keys="Win, Ctrl, Alt, Shift"/>
+                            <controls:ShortcutControl MinWidth="{StaticResource SettingActionControlMinWidth}"
+                                                      HotkeySettings="{x:Bind Path=ViewModel.ActivationShortcut, Mode=TwoWay}"/>
                         </controls:Setting.ActionContent>
                     </controls:Setting>
 
@@ -48,8 +44,11 @@
                                 <RadioButton.Content>
                                     <StackPanel>
                                         <TextBlock x:Uid="ColorPickerFirst"/>
-                                        <TextBlock x:Uid="ColorPickerFirst_Description" Style="{StaticResource SecondaryTextStyle}"/>
-                                    </StackPanel>
+                                            <controls:TextBlockControl x:Uid="ColorPickerFirst_Description" 
+                                                                       FontSize="{StaticResource SecondaryTextFontSize}"
+                                                                       EnabledForeground="{ThemeResource TextFillColorSecondaryBrush}"
+                                                                       DisabledForeground="{ThemeResource TextFillColorDisabledBrush}"/>
+                                        </StackPanel>
                                 </RadioButton.Content>
                             </RadioButton>
 
@@ -57,7 +56,10 @@
                                 <RadioButton.Content>
                                     <StackPanel>
                                         <TextBlock x:Uid="EditorFirst"/>
-                                        <TextBlock x:Uid="EditorFirst_Description" Style="{StaticResource SecondaryTextStyle}"/>
+                                            <controls:TextBlockControl x:Uid="EditorFirst_Description" 
+                                                                       FontSize="{StaticResource SecondaryTextFontSize}"
+                                                                       EnabledForeground="{ThemeResource TextFillColorSecondaryBrush}"
+                                                                       DisabledForeground="{ThemeResource TextFillColorDisabledBrush}"/>
                                     </StackPanel>
                                 </RadioButton.Content>
                             </RadioButton>
@@ -65,9 +67,12 @@
                             <RadioButton x:Uid="ColorPickerOnly_Accessible" IsChecked="{Binding ActivationOpensColorPickerOnly, Mode=TwoWay}" GroupName="ColorPickerActivationAction">
                                 <RadioButton.Content>
                                     <StackPanel>
-                                        <TextBlock x:Uid="ColorPickerOnly"/>
-                                        <TextBlock x:Uid="ColorPickerOnly_Description" Style="{StaticResource SecondaryTextStyle}"/>
-                                    </StackPanel>
+                                            <TextBlock x:Uid="ColorPickerOnly"/>
+                                            <controls:TextBlockControl x:Uid="ColorPickerOnly_Description" 
+                                                                       FontSize="{StaticResource SecondaryTextFontSize}"
+                                                                       EnabledForeground="{ThemeResource TextFillColorSecondaryBrush}"
+                                                                       DisabledForeground="{ThemeResource TextFillColorDisabledBrush}"/>
+                                        </StackPanel>
                                 </RadioButton.Content>
                             </RadioButton>
                         </StackPanel>
@@ -76,7 +81,7 @@
                 </controls:SettingsGroup>
 
                 <controls:SettingsGroup x:Uid="ColorFormats" IsEnabled="{x:Bind Mode=OneWay, Path=ViewModel.IsEnabled}">
-                    <controls:Setting x:Uid="ColorPicker_CopiedColorRepresentation" Icon="&#xEF3C;">
+                    <controls:Setting x:Uid="ColorPicker_CopiedColorRepresentation" Icon="&#xF0E3;">
                                 <controls:Setting.ActionContent>
                                     <ComboBox MinWidth="{StaticResource SettingActionControlMinWidth}"
                                               x:Name="ColorPicker_ComboBox"

@@ -130,7 +130,7 @@
     <value>正在暂停</value>
   </data>
   <data name="wox_plugin_service_plugin_description" xml:space="preserve">
-    <value>管理 Windows 服务。</value>
+    <value>管理 Windows 服务</value>
   </data>
   <data name="wox_plugin_service_plugin_name" xml:space="preserve">
     <value>服务</value>

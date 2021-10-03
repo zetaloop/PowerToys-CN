@@ -117,49 +117,64 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Microsoft_plugin_indexer_copy_path" xml:space="preserve">
-    <value>复制路径(Ctrl+C)</value>
+  <data name="General_Description" xml:space="preserve">
+    <value>PowerToys add-ons for Windows File Explorer.</value>
   </data>
-  <data name="Microsoft_plugin_indexer_open_containing_folder" xml:space="preserve">
-    <value>打开所在文件夹(Ctrl+Shift+E)</value>
+  <data name="Module_Name" xml:space="preserve">
+    <value>File Explorer</value>
   </data>
-  <data name="Microsoft_plugin_indexer_run_as_administrator" xml:space="preserve">
-    <value>以管理员身份打开(Ctrl+Shift+Enter)</value>
+  <data name="Icon_Key_Name" xml:space="preserve">
+    <value>pt-power-preview</value>
   </data>
-  <data name="Microsoft_plugin_indexer_open_in_console" xml:space="preserve">
-    <value>在命令行打开路径(Ctrl+Shift+C)</value>
+  <data name="Explr_Icons_Prev_Sttngs_Group_Desc" xml:space="preserve">
+    <value>Settings Group Header Text</value>
   </data>
-  <data name="Microsoft_plugin_indexer_name" xml:space="preserve">
-    <value>名称</value>
+  <data name="Explr_Icons_Prev_Sttngs_Group_Text" xml:space="preserve">
+    <value>Explorer Icons</value>
   </data>
-  <data name="Microsoft_plugin_indexer_path" xml:space="preserve">
-    <value>路径</value>
+  <data name="Prvpane_File_Prev_Sttngs_Group_Desc" xml:space="preserve">
+    <value>Settings Group Header Text</value>
   </data>
-  <data name="Microsoft_plugin_indexer_drivedetectionwarning" xml:space="preserve">
-    <value>警告：未完全建立索引，搜索结果可能不全。</value>
+  <data name="Prvpane_File_Prev_Sttngs_Group_Text" xml:space="preserve">
+    <value>Preview pane extensions</value>
   </data>
-  <data name="Microsoft_plugin_indexer_disable_warning_in_settings" xml:space="preserve">
-    <value>单击转到 Windows 搜索设置进行修复。</value>
+  <data name="Prevpane_Md_Settings_Description" xml:space="preserve">
+    <value>Markdown Previewer</value>
   </data>
-  <data name="Microsoft_plugin_indexer_clipboard_failed" xml:space="preserve">
-    <value>写入剪贴板失败</value>
+  <data name="Prevpane_Md_Settings_Displayname" xml:space="preserve">
+    <value>Markdown Previewer</value>
   </data>
-  <data name="Microsoft_plugin_indexer_file_open_failed" xml:space="preserve">
-    <value>无法打开文件</value>
+  <data name="Prevpane_Svg_Settings_Description" xml:space="preserve">
+    <value>Svg Previewer</value>
   </data>
-  <data name="Microsoft_plugin_indexer_folder_open_failed" xml:space="preserve">
-    <value>无法打开文件夹</value>
+  <data name="Prevpane_Svg_Settings_Displayname" xml:space="preserve">
+    <value>SVG Previewer</value>
   </data>
-  <data name="Microsoft_plugin_indexer_plugin_description" xml:space="preserve">
-    <value>搜索文件与文件夹</value>
+  <data name="Svg_Thumbnail_Provider_Settings_Description" xml:space="preserve">
+    <value>Svg Thumbnail Provider</value>
   </data>
-  <data name="Microsoft_plugin_indexer_plugin_name" xml:space="preserve">
-    <value>搜索</value>
+  <data name="Explr_Svg_Settings_Description" xml:space="preserve">
+    <value>Render SVG images</value>
   </data>
-  <data name="Microsoft_plugin_indexer_subtitle_header" xml:space="preserve">
-    <value>搜索</value>
+  <data name="FileExplorer_Admin_Restart_Warning_Description" xml:space="preserve">
+    <value>部分预览组件不支持直接开关，请以管理员身份重启软件以生效。</value>
   </data>
-  <data name="disable_drive_detection_warning" xml:space="preserve">
-    <value>禁用驱动器索引警告</value>
+  <data name="FileExplorer_Admin_Restart_Warning_Title" xml:space="preserve">
+    <value>文件增强组件更改</value>
+  </data>
+  <data name="FileExplorer_Admin_Restart_Warning_Open_Settings" xml:space="preserve">
+    <value>打开设置</value>
+  </data>
+  <data name="FileExplorer_Admin_Restart_Warning_Dont_Show_Again" xml:space="preserve">
+    <value>不再显示</value>
+  </data>
+  <data name="Prevpane_Pdf_Settings_Description" xml:space="preserve">
+    <value>PDF Previewer</value>
+  </data>
+  <data name="Prevpane_Pdf_Settings_Displayname" xml:space="preserve">
+    <value>PDF Previewer</value>
+  </data>
+  <data name="Pdf_Thumbnail_Provider_Settings_Description" xml:space="preserve">
+    <value>Pdf Thumbnail Provider</value>
   </data>
 </root>

@@ -127,7 +127,7 @@
     <value>无法打开网址</value>
   </data>
   <data name="Microsoft_plugin_uri_plugin_description" xml:space="preserve">
-    <value>打开网址和 UNC 网络共享。</value>
+    <value>打开网址和 UNC 网络共享</value>
   </data>
   <data name="Microsoft_plugin_uri_plugin_name" xml:space="preserve">
     <value>网址</value>

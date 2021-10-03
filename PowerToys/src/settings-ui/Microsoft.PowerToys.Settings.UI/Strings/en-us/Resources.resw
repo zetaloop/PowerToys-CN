@@ -379,6 +379,9 @@
   <data name="PowerLauncher_MaximumNumberOfResults.Header" xml:space="preserve">
     <value>最大结果数</value>
   </data>
+  <data name="PowerLauncher_OpenPowerLauncher.Header" xml:space="preserve">
+    <value>启动快速启动器</value>
+  </data>
   <data name="PowerLauncher_OpenFileLocation.Header" xml:space="preserve">
     <value>打开所在文件夹</value>
   </data>
@@ -432,6 +435,10 @@
   </data>
   <data name="FancyZones_HighlightOpacity.Header" xml:space="preserve">
     <value>布局区不透明度</value>
+  </data>
+  <data name="FancyZones_HotkeyEditorControl.Header" xml:space="preserve">
+    <value>启动布局编辑器</value>
+    <comment>Shortcut to launch the FancyZones layout editor application</comment>
   </data>
   <data name="SettingsPage_SetShortcut.AutomationProperties.Name" xml:space="preserve">
     <value>快捷键设置</value>
@@ -545,6 +552,9 @@
     <value>启用批量重命名</value>
     <comment>do not loc the Product name.  Do you want this feature on / off</comment>
   </data>
+  <data name="RadioButtons_Name_Theme.Text" xml:space="preserve">
+    <value>主题</value>
+  </data>
   <data name="PowerRename_Toggle_EnableOnContextMenu.Header" xml:space="preserve">
     <value>右键菜单显示图标</value>
   </data>
@@ -568,8 +578,16 @@
     <value>启用 SVG (.svg) 预览</value>
     <comment>Do you want this feature on / off</comment>
   </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Preview_PDF.Header" xml:space="preserve">
+    <value>启用 PDF (.pdf) 预览</value>
+    <comment>Do you want this feature on / off</comment>
+  </data>
   <data name="FileExplorerPreview_ToggleSwitch_SVG_Thumbnail.Header" xml:space="preserve">
     <value>启用 SVG (.svg) 缩略图</value>
+    <comment>Do you want this feature on / off</comment>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_PDF_Thumbnail.Header" xml:space="preserve">
+    <value>启用 PDF (.pdf) 缩略图</value>
     <comment>Do you want this feature on / off</comment>
   </data>
   <data name="FileExplorerPreview.ModuleDescription" xml:space="preserve">
@@ -597,6 +615,24 @@
     <value>长按时间（毫秒）</value>
     <comment>pressing a key in milliseconds</comment>
   </data>
+  <data name="ShortcutGuide_PressTime.Description" xml:space="preserve">
+    <value>长按 Win 键激活所需的持续时间</value>
+  </data>
+  <data name="ShortcutGuide_ActivationMethod.Header" xml:space="preserve">
+    <value>激活方式</value>
+  </data>
+  <data name="ShortcutGuide_ActivationMethod.Description" xml:space="preserve">
+    <value>打开快捷键图表的方式</value>
+  </data>
+  <data name="Radio_ShortcutGuide_ActivationMethod_CustomizedShortcut.Content" xml:space="preserve">
+    <value>快捷键</value>
+  </data>
+  <data name="Radio_ShortcutGuide_ActivationMethod_LongPressWindowsKey.Content" xml:space="preserve">
+    <value>长按 Win 键</value>
+  </data>
+  <data name="ShortcutGuide_PressWinKeyWarning.Title" xml:space="preserve">
+    <value>在一些特殊情况下，长按打开可能无效</value>
+  </data>
   <data name="ShortcutGuide_Appearance_Behavior.Header" xml:space="preserve">
     <value>外观</value>
   </data>
@@ -618,7 +654,16 @@
     <comment>Don't translate outlook.exe</comment>
   </data>
   <data name="ImageResizer_CustomSizes.Header" xml:space="preserve">
-    <value>尺寸预设</value>
+    <value>尺寸</value>
+  </data>
+  <data name="ImageResizer_Presets.Header" xml:space="preserve">
+    <value>预设</value>
+  </data>
+  <data name="ImageResizer_Presets.Description" xml:space="preserve">
+    <value>图像裁剪的尺寸预设</value>
+  </data>
+  <data name="ImageResizer_FilenameFormatHeader.Description" xml:space="preserve">
+    <value>图片裁剪完成后，保存的文件名格式</value>
   </data>
   <data name="ImageResizer.ModuleDescription" xml:space="preserve">
     <value>右键即可调整图像大小。</value>
@@ -637,7 +682,7 @@
     <value>名称</value>
   </data>
   <data name="ImageResizer_Fit.Header" xml:space="preserve">
-    <value>显示方式</value>
+    <value>操作</value>
   </data>
   <data name="ImageResizer_Width.Header" xml:space="preserve">
     <value>宽度</value>
@@ -725,6 +770,10 @@
     <value>填充</value>
     <comment>Refers to filling an image into a certain size. It could overflow</comment>
   </data>
+  <data name="ImageResizer_Sizes_Fit_Fill_ThirdPersonSingular.Text" xml:space="preserve">
+    <value>模式</value>
+    <comment>Refers to filling an image into a certain size. It could overflow</comment>
+  </data>
   <data name="ImageResizer_Sizes_Fit_Fit.Content" xml:space="preserve">
     <value>缩放</value>
     <comment>Refers to fitting an image into a certain size. It won't overflow</comment>
@@ -759,6 +808,9 @@
   </data>
   <data name="GeneralPage_ToggleSwitch_AutoDownloadUpdates.Description" xml:space="preserve">
     <value>除非处于按流量计费的网络</value>
+  </data>
+  <data name="GeneralPage_ToggleSwitch_RunningAsAdminNote.Text" xml:space="preserve">
+    <value>当前正以管理员身份运行</value>
   </data>
   <data name="GeneralSettings_AlwaysRunAsAdminText.Header" xml:space="preserve">
     <value>始终以管理员身份运行</value>
@@ -826,10 +878,6 @@
   <data name="General_RunAsAdminRequired.Title" xml:space="preserve">
     <value>要修改此设置，请以管理员身份重新启动程序</value>
   </data>
-  <data name="ShortcutWarningLabel.Text" xml:space="preserve">
-    <value>快捷键应含有以下修饰键:</value>
-    <comment>keyboard shortcuts and</comment>
-  </data>
   <data name="FancyZones_RestoreSize.Content" xml:space="preserve">
     <value>解除布局时，还原窗口的原始大小</value>
   </data>
@@ -842,8 +890,11 @@
   <data name="ImageResizer_FilenameFormatHeader.Header" xml:space="preserve">
     <value>文件名格式</value>
   </data>
-  <data name="ImageResizer_UseOriginalDate.Content" xml:space="preserve">
-    <value>保留文件修改日期不变</value>
+  <data name="ImageResizer_UseOriginalDate.Header" xml:space="preserve">
+    <value>保留文件修改日期</value>
+  </data>
+  <data name="ImageResizer_UseOriginalDate.Description" xml:space="preserve">
+    <value>保留文件的原修改日期不变，不设定为裁剪日期</value>
   </data>
   <data name="Encoding.Header" xml:space="preserve">
     <value>编码</value>
@@ -856,12 +907,11 @@
   </data>
   <data name="General.ModuleDescription" xml:space="preserve">
     <value>Microsoft PowerToys 是一个小工具集，可以精简并优化 Windows 操作，提高工作效率。
-
 由微软与 PowerToys 社区共同成就，用💗呈现。</value>
     <comment>Windows refers to the OS</comment>
   </data>
-  <data name="FancyZones_SpanZonesAcrossMonitorsCheckBoxControl.Content" xml:space="preserve">
-    <value>允许布局跨显示器（显示器的缩放比例需相同）</value>
+  <data name="FancyZones_SpanZonesAcrossMonitorsCheckBoxControl.Text" xml:space="preserve">
+    <value>允许布局跨显示器</value>
   </data>
   <data name="ImageResizer_Formatting_ActualHeight.Text" xml:space="preserve">
     <value>实际高度</value>
@@ -914,7 +964,7 @@
     <value>例如: %1 (%2)</value>
   </data>
   <data name="ColorModeHeader.Header" xml:space="preserve">
-    <value>主题模式</value>
+    <value>应用主题</value>
   </data>
   <data name="Radio_Theme_Dark.Content" xml:space="preserve">
     <value>暗</value>
@@ -933,7 +983,7 @@
     <comment>Windows refers to the Operating system</comment>
   </data>
   <data name="ColorPicker_CopiedColorRepresentation.Header" xml:space="preserve">
-    <value>简便的屏幕取色器。</value>
+    <value>颜色格式</value>
   </data>
   <data name="ColorPickerFirst.Text" xml:space="preserve">
     <value>取色到拾色板</value>
@@ -957,7 +1007,7 @@
     <value>启动模式</value>
   </data>
   <data name="ColorFormats.Header" xml:space="preserve">
-    <value>颜色格式</value>
+    <value>取色器</value>
   </data>
   <data name="ColorPicker_CopiedColorRepresentation.Description" xml:space="preserve">
     <value>复制到剪贴板的颜色格式</value>
@@ -1009,7 +1059,7 @@
     <value>直接打开拾色板界面</value>
   </data>
   <data name="ColorPicker_ColorFormats.Header" xml:space="preserve">
-    <value>颜色格式</value>
+    <value>颜色格式列表</value>
   </data>
   <data name="ColorPicker_ColorFormats.Description" xml:space="preserve">
     <value>拾色板中显示的颜色格式与顺序</value>
@@ -1076,8 +1126,11 @@
     <value>作者</value>
     <comment>example: Authored by Microsoft</comment>
   </data>
-  <data name="PowerLauncher_IncludeInGlobalResult.Content" xml:space="preserve">
-    <value>默认唤醒（无任何唤醒词时）</value>
+  <data name="PowerLauncher_IncludeInGlobalResultTitle.Text" xml:space="preserve">
+    <value>默认唤醒</value>
+  </data>
+  <data name="PowerLauncher_IncludeInGlobalResultDescription.Text" xml:space="preserve">
+    <value>没有任何唤醒词时也显示</value>
   </data>
   <data name="PowerLauncher_EnablePluginToggle.AutomationProperties.Name" xml:space="preserve">
     <value>启用插件</value>
@@ -1151,6 +1204,20 @@
   <data name="Activation_Shortcut.Header" xml:space="preserve">
     <value>启动快捷键</value>
   </data>
+  <data name="Activation_Shortcut.Description" xml:space="preserve">
+    <value>自定义启动本功能的快捷键</value>
+  </data>
+  <data name="Oobe_GetStarted.Text" xml:space="preserve">
+    <value>让我们开始吧！</value>
+  </data>
+  <data name="Oobe_PowerToysDescription.Text" xml:space="preserve">
+    <value>欢迎来到电动玩具！这里的概述可以帮助你很快学会我们所有公共工程的基本原理（x</value>
+    <comment>已弃用，整活专用</comment>
+  </data>
+  <data name="Oobe_GettingStarted.Text" xml:space="preserve">
+    <value>渐入佳境（x</value>
+    <comment>已弃用，整活专用</comment>
+  </data>
   <data name="Oobe_Launch.Text" xml:space="preserve">
     <value>启动</value>
   </data>
@@ -1167,7 +1234,7 @@
     <value>一个窗口管理器，可将窗口排列对齐到一定的布局中，便于多任务处理。</value>
   </data>
   <data name="Oobe_FileExplorer_Description" xml:space="preserve">
-    <value>Windows 文件资源管理器的增强组件，可以在预览窗格中查看 Markdown 文件 (.md) 和 SVG 图标 (.svg)。</value>
+    <value>Windows 文件资源管理器的增强组件，可以预览 Markdown 文档 (.md)、PDF 文档 (.pdf) 和 SVG 图像 (.svg)。</value>
   </data>
   <data name="Oobe_ImageResizer_Description" xml:space="preserve">
     <value>使用图像裁剪器，可以方便地批量调整图像大小。</value>
@@ -1202,21 +1269,23 @@
     <value>版本公告</value>
   </data>
   <data name="Oobe_ColorPicker_HowToUse.Text" xml:space="preserve">
-    <value>{Win} + {Shift} + {C} 启动取色器。</value>
+    <value>启动取色器。</value>
   </data>
   <data name="Oobe_ColorPicker_TipsAndTricks.Text" xml:space="preserve">
-    <value>可以 {滚动鼠标滚轮} 来放大，方便精细观察。</value>
+    <value>可以 **滚动鼠标滚轮** 来放大，方便精细观察。</value>
   </data>
   <data name="Oobe_FancyZones_HowToUse.Text" xml:space="preserve">
-    <value>按住 {Shift} 同时 {拖动窗口} ，可将窗口贴靠到一个布局区。
-{Win} + {Shift} + {`} 打开布局编辑器。</value>
+    <value>按住 **Shift** 同时 **拖动窗口** ，可将窗口贴靠到一个布局区。</value>
+  </data>
+  <data name="Oobe_FancyZones_HowToUse_Shortcut.Text" xml:space="preserve">
+    <value>打开布局编辑器。</value>
   </data>
   <data name="Oobe_FancyZones_TipsAndTricks.Text" xml:space="preserve">
-    <value>按住 {Shift} + {Ctrl} 拖动窗口，可将窗口贴靠到多个布局区拼接。</value>
+    <value>按住 **Shift** + **Ctrl** 拖动窗口，可将窗口贴靠到多个布局区拼接。</value>
   </data>
   <data name="Oobe_FileExplorer_HowToEnable.Text" xml:space="preserve">
-    <value>打开文件资源管理器，在顶部的工具栏中选择 {查看} 选项卡，然后选择 {预览窗格} 来启用预览功能。
-然后，试试选中 Markdown 文件或 SVG 图标，在预览窗格中直接显示了文件内容！</value>
+    <value>打开文件资源管理器，在顶部的工具栏中选择 **查看** 选项卡，然后选择 **预览窗格** 来启用预览功能。
+然后，试试选中 Markdown、PDF 文档或 SVG 图像，在预览窗格中直接显示了文件内容！</value>
   </data>
   <data name="Oobe_HowToCreateMappings.Text" xml:space="preserve">
     <value>如何创建映射</value>
@@ -1231,41 +1300,47 @@
     <value>如何使用</value>
   </data>
   <data name="Oobe_ImageResizer_HowToLaunch.Text" xml:space="preserve">
-    <value>选中一个或几个图片，单击 {右键} ，然后在右键菜单中选择 {调整图片大小} 。</value>
+    <value>选中一个或几个图片，单击 **右键** ，然后在右键菜单中选择 **调整图片大小** 。</value>
   </data>
   <data name="Oobe_ImageResizer_TipsAndTricks.Text" xml:space="preserve">
     <value>希望修改尺寸吗？你可以在 PowerToys 设置中添加自定义尺寸！</value>
   </data>
   <data name="Oobe_KBM_HowToCreateMappings.Text" xml:space="preserve">
-    <value>打开 {设置} ，在键盘修改器菜单中，选择 {重映射按键} 或 {重映射快捷键} 。</value>
+    <value>打开 **设置** ，在键盘修改器菜单中，选择 **重映射单键** 或 **重映射组合键** 。</value>
   </data>
   <data name="Oobe_KBM_TipsAndTricks.Text" xml:space="preserve">
     <value>想要只对某个应用生效的快捷键？创建快捷键重映射时，可以指定“目标程序”。</value>
   </data>
   <data name="Oobe_PowerRename_HowToUse.Text" xml:space="preserve">
-    <value>选中一个或几个文件，单击 {右键} ，然后在右键菜单中选择 {批量重命名} 。</value>
+    <value>选中一个或几个文件，单击 **右键** ，然后在右键菜单中选择 **批量重命名** 。</value>
   </data>
   <data name="Oobe_PowerRename_TipsAndTricks.Text" xml:space="preserve">
     <value>可以使用正则表达式，进行高级操作。</value>
   </data>
   <data name="Oobe_Run_HowToLaunch.Text" xml:space="preserve">
-    <value>{Alt} + {Space} 启动快速启动器，随意搜点什么吧~</value>
+    <value>启动快速启动器，随意搜点什么吧~</value>
   </data>
   <data name="Oobe_Run_TipsAndTricks.Text" xml:space="preserve">
-    <value>快速启动器支持各种关键字，以搜索特定的结果。
-例如，输入 {&lt;} 搜索运行中的程序进程，输入 {?} 搜索文件，输入 {.} 搜索已安装的应用！
+    <value>快速启动器支持各种唤醒词，以搜索特定的结果。
+
+例如，输入 **&lt;** 搜索运行中的程序进程，输入 **?** 搜索文件，输入 **.** 搜索已安装的应用！
+
 关于所有可用的关键字，参见 PowerToys 文档。</value>
   </data>
   <data name="Oobe_ShortcutGuide_HowToLaunch.Text" xml:space="preserve">
-    <value>{Win} + {Shift} + {/} 显示快捷键指南，再按一次或按 {Esc} 关闭。</value>
+    <value>显示快捷键指南，再按一次或按 **Esc** 关闭。（也可设置为长按 Win 键显示）</value>
   </data>
   <data name="Oobe_TipsAndTricks.Text" xml:space="preserve">
     <value>小技巧</value>
   </data>
-  <data name="Oobe_VideoConference_HowToLaunch.Text" xml:space="preserve">
-    <value>{Win} + {N} 同时切换麦克风和摄像头
-{Win} + {Shift} + {A} 切换麦克风
-{Win} + {Shift} + {O} 切换摄像头</value>
+  <data name="Oobe_VideoConference_ToggleMicVid.Text" xml:space="preserve">
+    <value>同时切换麦克风和摄像头</value>
+  </data>
+  <data name="Oobe_VideoConference_ToggleMic.Text" xml:space="preserve">
+    <value>切换麦克风</value>
+  </data>
+  <data name="Oobe_VideoConference_ToggleVid.Text" xml:space="preserve">
+    <value>切换摄像头</value>
   </data>
   <data name="Oobe_ColorPicker" xml:space="preserve">
     <value>取色器</value>
@@ -1282,6 +1357,10 @@
   <data name="Oobe_KBM" xml:space="preserve">
     <value>键盘修改器</value>
     <comment>Do not localize this string</comment>
+  </data>
+  <data name="Oobe_Overview" xml:space="preserve">
+    <value>我们荣幸地提供的对于总体性信息的统一分析综合与简明归纳整理的操作这一步骤所得到的有用结果参考</value>
+    <comment>已弃用，整活专用</comment>
   </data>
   <data name="Oobe_PowerRename" xml:space="preserve">
     <value>批量重命名</value>
@@ -1368,10 +1447,10 @@
     <value>唤醒工具可以使电脑保持唤醒状态，免去修改电源设置的麻烦。当进行一些特别耗时的任务时，该工具可以确保电脑不会睡眠或锁屏。</value>
   </data>
   <data name="Oobe_Awake_HowToUse.Text" xml:space="preserve">
-    <value>打开 {设置} ，启用唤醒工具。</value>
+    <value>打开 **设置** ，启用唤醒工具。</value>
   </data>
   <data name="Oobe_Awake_TipsAndTricks.Text" xml:space="preserve">
-    <value>你可以 {右键状态栏的蓝色杯子图标} 来切换模式。</value>
+    <value>你可以 **右键状态栏的蓝色杯子图标** 来切换模式。</value>
   </data>
   <data name="General_FailedToDownloadTheNewVersion.Title" xml:space="preserve">
     <value>版本更新出错:</value>
@@ -1545,5 +1624,30 @@
   </data>
   <data name="RemoveTooltip.Text" xml:space="preserve">
     <value>删除</value>
+  </data>
+  <data name="Activation_Shortcut_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Activation_Shortcut_Description.Text" xml:space="preserve">
+    <value>请按下你想要的快捷键</value>
+  </data>
+  <data name="Activation_Shortcut_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Activation_Shortcut_Title" xml:space="preserve">
+    <value>启动快捷键</value>
+  </data>
+  <data name="InvalidShortcut.Text" xml:space="preserve">
+    <value>快捷键无效</value>
+  </data>
+  <data name="InvalidShortcutWarningLabel.Text" xml:space="preserve">
+    <value>只有以 **Win**、**Ctrl**、**Alt**、**Shift** 开头的快捷键才有效</value>
+  </data>
+  <data name="FancyZones_SpanZonesAcrossMonitorsPrerequisites.Text" xml:space="preserve">
+    <value>显示器的缩放比例需相同，且将视作一整个长方形</value>
+  </data>
+  <data name="ImageResizer_DefaultSize_NewSizePrefix" xml:space="preserve">
+    <value>新建预设</value>
+    <comment>First part of the default name of new sizes that can be added in PT's settings ui.</comment>
   </data>
 </root>

@@ -32,7 +32,7 @@
 #include <Psapi.h>
 #include <RestartManager.h>
 #include "centralized_kb_hook.h"
-#include "CentralizedHotkeys.h"
+#include "centralized_hotkeys.h"
 
 #if _DEBUG && _WIN64
 #include "unhandled_exception_handler.h"
@@ -145,12 +145,12 @@ int runner(bool isProcessElevated, bool openSettings, bool openOobe)
 
         };
         // TODO(yuyoyuppe): uncomment when VCM should be enabled
-        const auto VCM_PATH = L"modules/VideoConference/VideoConferenceModule.dll";
-        if (const auto mf = LoadLibraryA("mf.dll"))
-        {
-            FreeLibrary(mf);
-            knownModules.emplace_back(VCM_PATH);
-        }
+        //const auto VCM_PATH = L"modules/VideoConference/VideoConferenceModule.dll";
+        //if (const auto mf = LoadLibraryA("mf.dll"))
+        //{
+        //    FreeLibrary(mf);
+        //    knownModules.emplace_back(VCM_PATH);
+        //}
 
         for (const auto& moduleSubdir : knownModules)
         {

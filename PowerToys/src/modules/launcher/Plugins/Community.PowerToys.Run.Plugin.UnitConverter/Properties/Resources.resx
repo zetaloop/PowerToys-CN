@@ -127,7 +127,7 @@
     <value>复制转换结果 ({0})</value>
   </data>
   <data name="plugin_description" xml:space="preserve">
-    <value>进行单位转换 (比如：10厘米 -&gt; 米)。</value>
+    <value>进行单位转换（例如 10厘米 -&gt; 米）</value>
   </data>
   <data name="plugin_name" xml:space="preserve">
     <value>单位转换</value>

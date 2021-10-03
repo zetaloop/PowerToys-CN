@@ -137,10 +137,10 @@
     <value>错误</value>
   </data>
   <data name="EditKeyboard_WindowName" xml:space="preserve">
-    <value>按键重映射</value>
+    <value>单键重映射</value>
   </data>
   <data name="EditShortcuts_WindowName" xml:space="preserve">
-    <value>快捷键重映射</value>
+    <value>组合键重映射</value>
   </data>
   <data name="Ok_Button" xml:space="preserve">
     <value>确定</value>
@@ -149,44 +149,45 @@
     <value>取消</value>
   </data>
   <data name="Continue_Button" xml:space="preserve">
-    <value>是的，继续</value>
+    <value>确定</value>
   </data>
   <data name="EditKeyboard_SourceHeader" xml:space="preserve">
     <value>按键</value>
     <comment>Key on a keyboard</comment>
   </data>
   <data name="EditKeyboard_TargetHeader" xml:space="preserve">
-    <value>映射功能</value>
+    <value>修改功能</value>
   </data>
   <data name="EditShortcuts_SourceHeader" xml:space="preserve">
     <value>按键组合</value>
   </data>
   <data name="EditShortcuts_TargetHeader" xml:space="preserve">
-    <value>映射功能</value>
+    <value>修改功能</value>
   </data>
   <data name="EditShortcuts_TargetAppHeader" xml:space="preserve">
     <value>目标程序</value>
   </data>
   <data name="EditKeyboard_OrphanedDialogTitle" xml:space="preserve">
-    <value>这些功能没有分配给任何按键，你将无法使用这些功能：</value>
+    <value>由于没有对应按键，以下功能将会消失：</value>
   </data>
   <data name="EditKeyboard_PartialConfirmationDialogTitle" xml:space="preserve">
-    <value>有些键无法被重映射。仍然要继续吗？</value>
+    <value>部分按键修改失败</value>
   </data>
   <data name="EditShortcuts_PartialConfirmationDialogTitle" xml:space="preserve">
-    <value>有些快捷键无法被重映射。仍然要继续吗？</value>
+    <value>部分组合键修改失败</value>
   </data>
   <data name="EditKeyboard_Info" xml:space="preserve">
-    <value>选择要修改的按键与调用的功能。</value>
+    <value>选择要修改的按键与目标功能</value>
   </data>
   <data name="EditKeyboard_InfoExample" xml:space="preserve">
-    <value>例如，如果你希望按下 A 复制，设置 A 为按键，Ctrl+C 为映射功能。如果你希望两个按键互换功能，那就为它们互相映射。</value>
+    <value>例如，若要按下 A 复制，把 A 修改成 Ctrl+C 即可。若要按键互换，可以互相修改映射。</value>
   </data>
   <data name="EditShortcuts_Info" xml:space="preserve">
-    <value>选择要修改的快捷键与调用的功能。</value>
+    <value>选择要修改的按键组合与目标功能</value>
   </data>
   <data name="EditShortcuts_InfoExample" xml:space="preserve">
-    <value>例如，如果你希望在 Edge 浏览器中把 Ctrl+C 变成 Alt 键，设置 Ctrl+C 为按键组合，Alt 为映射功能，msedge 为目标程序。请注意，目标程序是进程名称（如 msedge）而不是应用名（如 Microsoft Edge），不分大小写。如果不填写目标程序，则在所有程序都生效。</value>
+    <value>例如，若要在 Edge 浏览器中把 Ctrl+C 变成 Alt 键，请把 Ctrl+C 修改成 Alt，目标程序 msedge。
+目标程序是指进程名称（msedge）而非应用名（Edge 浏览器），不区分大小写。</value>
   </data>
   <data name="Type_Button" xml:space="preserve">
     <value>输入</value>
@@ -201,11 +202,11 @@
     <comment>Key on a keyboard</comment>
   </data>
   <data name="TypeKey_Header" xml:space="preserve">
-    <value>你按下了：</value>
+    <value>当前输入：</value>
     <comment>Key on a keyboard</comment>
   </data>
   <data name="TypeShortcut_Header" xml:space="preserve">
-    <value>你按下了：</value>
+    <value>当前输入：</value>
     <comment>Key on a keyboard</comment>
   </data>
   <data name="Type_HoldEnter" xml:space="preserve">
@@ -218,38 +219,38 @@
     <value>（全局生效）</value>
   </data>
   <data name="ErrorMessage_RemapSuccessful" xml:space="preserve">
-    <value>成功重映射</value>
+    <value>成功修改</value>
   </data>
   <data name="ErrorMessage_RemapUnsuccessful" xml:space="preserve">
-    <value>某些重映射没能成功应用</value>
+    <value>部分修改应用失败</value>
   </data>
   <data name="ErrorMessage_SameKeyPreviouslyMapped" xml:space="preserve">
-    <value>无法把一个按键同时映射成多个功能</value>
+    <value>一个按键不能同时修改成多个功能</value>
     <comment>Key on a keyboard</comment>
   </data>
   <data name="ErrorMessage_MappedToSameKey" xml:space="preserve">
-    <value>不支持重映射到自身，直接使用该按键即可</value>
+    <value>您这啥也没改</value>
     <comment>Key on a keyboard</comment>
   </data>
   <data name="ErrorMessage_ConflictingModifierKey" xml:space="preserve">
-    <value>做不到，这与另一个重映射产生了冲突</value>
+    <value>与另一修改冲突</value>
     <comment>Key on a keyboard</comment>
   </data>
   <data name="ErrorMessage_SameShortcutPreviouslyMapped" xml:space="preserve">
-    <value>无法把一个按键组合同时映射成多个功能</value>
+    <value>一个按键组合不能同时修改成多个功能</value>
   </data>
   <data name="ErrorMessage_MapToSameShortcut" xml:space="preserve">
-    <value>不支持重映射到自身，直接使用该快捷键即可</value>
+    <value>您这啥也没改</value>
   </data>
   <data name="ErrorMessage_ConflictingModifierShortcut" xml:space="preserve">
-    <value>做不到，这与另一个重映射产生了冲突</value>
+    <value>与另一修改冲突</value>
   </data>
   <data name="ErrorMessage_WinL" xml:space="preserve">
-    <value>不支持 Win+L</value>
+    <value>无法修改 Win+L</value>
     <comment>Win refers to Windows as in the OS</comment>
   </data>
   <data name="ErrorMessage_CtrlAltDel" xml:space="preserve">
-    <value>不支持 Ctrl+Alt+Del</value>
+    <value>无法修改 Ctrl+Alt+Del</value>
   </data>
   <data name="ErrorMessage_SaveFailed" xml:space="preserve">
     <value>保存重映射失败</value>
@@ -285,11 +286,11 @@
     <comment>Key on a keyboard</comment>
   </data>
   <data name="Add_Key_Remap_Button" xml:space="preserve">
-    <value>添加按键重映射</value>
+    <value>添加单键重映射</value>
     <comment>Key on a keyboard</comment>
   </data>
   <data name="Add_Shortcut_Button" xml:space="preserve">
-    <value>添加快捷键重映射</value>
+    <value>添加组合键重映射</value>
   </data>
   <data name="Delete_Remapping_Button" xml:space="preserve">
     <value>删除重映射</value>
@@ -301,7 +302,7 @@
     <value>滚动行</value>
   </data>
   <data name="ERRORMESSAGE_DISABLEASACTIONKEY" xml:space="preserve">
-    <value>“禁用”不是一个按键，它表示不映射到任何功能</value>
+    <value>“空白”不是按键，它表示一个空的功能</value>
     <comment>Key on a keyboard</comment>
   </data>
 </root>

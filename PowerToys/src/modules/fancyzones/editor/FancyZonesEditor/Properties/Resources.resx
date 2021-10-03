@@ -333,7 +333,7 @@
   </data>
   <data name="MergeDescription" xml:space="preserve">
     <value>
-拖动选择布局区，然后点击“合并”按钮合并。</value>
+     拖动选择布局区，然后点击“合并”按钮合并。</value>
     <comment>Click mouse, hold button down and drag across multiple zones in tool
 // 开头换行，否则最后断开不美观</comment>
   </data>
@@ -341,9 +341,20 @@
     <value>合并:</value>
     <comment>Title for concept behind Merging two zones together or removing an zone</comment>
   </data>
+  <data name="KeyboardControlsName" xml:space="preserve">
+    <value>快捷键:</value>
+  </data>
+  <data name="KeyboardControlsDescription" xml:space="preserve">
+    <value>
+     - Ctrl+Tab	开始选择。
+     - Tab		切换选择。
+     - Shift+S	切分布局区。
+     - Delete	合并分界线。
+     - 方向键	移动分界线。</value>
+  </data>
   <data name="SplitterDescription" xml:space="preserve">
     <value>
-单击切分布局区，按住 Shift 改变切分方向。</value>
+     单击切分布局区，按住 Shift 改变切分方向。</value>
     <comment>A segmenter visual for splitting one item into two.  This would be the vertical line. Shift key is referring to key on keyboard
 // 开头换行，否则最后断开不美观</comment>
   </data>
@@ -370,7 +381,7 @@
   <data name="Edit_Layout" xml:space="preserve">
     <value>编辑布局</value>
   </data>
-    <data name="Layout_Creation_Announce" xml:space="preserve">
+  <data name="Layout_Creation_Announce" xml:space="preserve">
     <value>自定义布局创建成功。</value>
   </data>
 </root>

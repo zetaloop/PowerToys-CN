@@ -157,11 +157,11 @@
     <comment>This should align to the action in Windows of a locking your computer.</comment>
   </data>
   <data name="Microsoft_plugin_sys_plugin_description" xml:space="preserve">
-    <value>执行系统命令 (比如 '关机', '锁屏', '睡眠').</value>
+    <value>执行系统命令（例如 “关机”、“锁屏”、“睡眠”）</value>
     <comment>This should align to the actions in Windows relating to shutting down, signing out, locking, sleeping, restarting, emptying the recycle bin, and hibernating your computer. </comment>
   </data>
   <data name="Microsoft_plugin_sys_plugin_name" xml:space="preserve">
-    <value>Windows 系统命令</value>
+    <value>系统命令</value>
     <comment>Windows operating system commands.</comment>
   </data>
   <data name="Microsoft_plugin_sys_restart_computer" xml:space="preserve">
@@ -211,5 +211,9 @@
   <data name="Microsoft_plugin_sys_sleep_description" xml:space="preserve">
     <value>将运行中的应用冻结，关闭不必要的硬件并待机</value>
     <comment>This should align to the action in Windows of a making your computer go to sleep.</comment>
+  </data>
+  <data name="Use_localized_system_commands" xml:space="preserve">
+    <value>使用英文版系统命令</value>
+    <comment>修改一份纯英文的，作为resource插到原汉化里，即可使用该功能</comment>
   </data>
 </root>

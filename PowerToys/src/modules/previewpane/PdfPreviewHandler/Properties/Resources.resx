@@ -117,49 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Microsoft_plugin_indexer_copy_path" xml:space="preserve">
-    <value>复制路径(Ctrl+C)</value>
+  <data name="PdfMorePagesMessage" xml:space="preserve">
+    <value>此 PDF 文档超过 10 页，剩余部分请打开浏览。</value>
+    <comment>This text is displayed if PDF has more than 10 pages.</comment>
   </data>
-  <data name="Microsoft_plugin_indexer_open_containing_folder" xml:space="preserve">
-    <value>打开所在文件夹(Ctrl+Shift+E)</value>
+  <data name="PdfNotPreviewedError" xml:space="preserve">
+    <value>由于 PowerToys PDF 预览器出现错误，无法预览此文件</value>
+    <comment>This text is displayed if PDF fails to preview</comment>
   </data>
-  <data name="Microsoft_plugin_indexer_run_as_administrator" xml:space="preserve">
-    <value>以管理员身份打开(Ctrl+Shift+Enter)</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_open_in_console" xml:space="preserve">
-    <value>在命令行打开路径(Ctrl+Shift+C)</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_name" xml:space="preserve">
-    <value>名称</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_path" xml:space="preserve">
-    <value>路径</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_drivedetectionwarning" xml:space="preserve">
-    <value>警告：未完全建立索引，搜索结果可能不全。</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_disable_warning_in_settings" xml:space="preserve">
-    <value>单击转到 Windows 搜索设置进行修复。</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_clipboard_failed" xml:space="preserve">
-    <value>写入剪贴板失败</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_file_open_failed" xml:space="preserve">
-    <value>无法打开文件</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_folder_open_failed" xml:space="preserve">
-    <value>无法打开文件夹</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_plugin_description" xml:space="preserve">
-    <value>搜索文件与文件夹</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_plugin_name" xml:space="preserve">
-    <value>搜索</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_subtitle_header" xml:space="preserve">
-    <value>搜索</value>
-  </data>
-  <data name="disable_drive_detection_warning" xml:space="preserve">
-    <value>禁用驱动器索引警告</value>
+  <data name="PdfPasswordProtectedError" xml:space="preserve">
+    <value>PDF 文档已加密。</value>
+    <comment>This text is displayed if PDF is password protected.</comment>
   </data>
 </root>

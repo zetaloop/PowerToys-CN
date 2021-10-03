@@ -219,7 +219,7 @@ void LayoutMap::LayoutMapImpl::UpdateLayout()
     keyboardLayoutMap[VK_NONCONVERT] = L"IME Non-Convert";
     keyboardLayoutMap[VK_ACCEPT] = L"IME Kana";
     keyboardLayoutMap[VK_MODECHANGE] = L"IME Mode Change";
-    keyboardLayoutMap[CommonSharedConstants::VK_DISABLED] = L"½ûÓÃ";
+    keyboardLayoutMap[CommonSharedConstants::VK_DISABLED] = L"¿Õ°×";
 }
 
 // Function to return the list of key codes in the order for the drop down. It creates it if it doesn't exist
