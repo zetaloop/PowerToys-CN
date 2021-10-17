@@ -401,6 +401,9 @@
   <data name="PowerLauncher_IgnoreHotkeysInFullScreen.Content" xml:space="preserve">
     <value>全屏时不响应快捷键</value>
   </data>
+  <data name="PowerLauncher_UseCentralizedKeyboardHook.Content" xml:space="preserve">
+    <value>使用独立的快捷键侦听器（全局快捷键无法使用的替代方案）</value>
+  </data>
   <data name="PowerLauncher_ClearInputOnLaunch.Content" xml:space="preserve">
     <value>启动时清空上次搜索</value>
   </data>
