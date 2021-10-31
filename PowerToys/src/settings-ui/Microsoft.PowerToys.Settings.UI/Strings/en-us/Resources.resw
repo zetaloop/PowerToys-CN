@@ -128,7 +128,7 @@
     <value>视频会议工具可以让你方便地控制麦克风与摄像头。禁用该工具或退出 PowerToys 将会取消静音并恢复摄像头。</value>
   </data>
   <data name="VideoConference_CameraAndMicrophoneMuteHotkeyControl_Header.Header" xml:space="preserve">
-    <value>同时关闭摄像头&amp;麦克风</value>
+    <value>关闭摄像头和麦克风</value>
   </data>
   <data name="VideoConference_MicrophoneMuteHotkeyControl_Header.Header" xml:space="preserve">
     <value>静音麦克风</value>
@@ -247,6 +247,10 @@
   <data name="Shell_KeyboardManager.Content" xml:space="preserve">
     <value>键盘修改器</value>
     <comment>Product name: Navigation view item name for Keyboard Manager</comment>
+  </data>
+  <data name="Shell_MouseUtilities.Content" xml:space="preserve">
+    <value>鼠标小工具</value>
+    <comment>Product name: Navigation view item name for Mouse utilities</comment>
   </data>
   <data name="Shell_NavigationMenu_Announce_Collapse" xml:space="preserve">
     <value>导航栏关闭</value>
@@ -401,8 +405,11 @@
   <data name="PowerLauncher_IgnoreHotkeysInFullScreen.Content" xml:space="preserve">
     <value>全屏时不响应快捷键</value>
   </data>
-  <data name="PowerLauncher_UseCentralizedKeyboardHook.Content" xml:space="preserve">
-    <value>使用独立的快捷键侦听器（全局快捷键无法使用的替代方案）</value>
+  <data name="PowerLauncher_UseCentralizedKeyboardHook.Header" xml:space="preserve">
+    <value>使用独立的快捷键侦听器</value>
+  </data>
+	<data name="PowerLauncher_UseCentralizedKeyboardHook.Description" xml:space="preserve">
+    <value>全局快捷键无法使用的替代方案</value>
   </data>
   <data name="PowerLauncher_ClearInputOnLaunch.Content" xml:space="preserve">
     <value>启动时清空上次搜索</value>
@@ -490,10 +497,16 @@
     <value>将新打开的窗口移至当前活动显示器【实验性功能】</value>
   </data>
   <data name="FancyZones_UseCursorPosEditorStartupScreen.Header" xml:space="preserve">
-    <value>在光标处启动</value>
+    <value>编辑器启动位置</value>
   </data>
   <data name="FancyZones_UseCursorPosEditorStartupScreen.Description" xml:space="preserve">
-    <value>使用多个显示器时，在鼠标光标所在位置启动编辑器，而非窗口焦点</value>
+    <value>使用多个显示器时</value>
+  </data>
+	<data name="FancyZones_LaunchPositionMouse.Content" xml:space="preserve">
+    <value>鼠标光标所在位置</value>
+  </data>
+	<data name="FancyZones_LaunchPositionScreen.Content" xml:space="preserve">
+    <value>窗口焦点所在位置</value>
   </data>
   <data name="FancyZones_ZoneBehavior_GroupSettings.Header" xml:space="preserve">
     <value>布局功能</value>
@@ -558,11 +571,20 @@
   <data name="RadioButtons_Name_Theme.Text" xml:space="preserve">
     <value>主题</value>
   </data>
-  <data name="PowerRename_Toggle_EnableOnContextMenu.Header" xml:space="preserve">
-    <value>右键菜单显示图标</value>
+  <data name="PowerRename_Toggle_HideIcon.Content" xml:space="preserve">
+    <value>右键菜单隐藏图标</value>
   </data>
-  <data name="PowerRename_Toggle_EnableOnExtendedContextMenu.Header" xml:space="preserve">
-    <value>仅在扩展右键菜单显示</value>
+  <data name="PowerRename_Toggle_ContextMenu.Header" xml:space="preserve">
+    <value>显示位置</value>
+  </data>
+	<data name="PowerRename_Toggle_ContextMenu.Description" xml:space="preserve">
+    <value>Shift + 右键即可打开扩展右键菜单</value>
+  </data>
+	<data name="PowerRename_Toggle_StandardContextMenu.Content" xml:space="preserve">
+    <value>右键菜单和扩展右键菜单</value>
+  </data>
+	<data name="PowerRename_Toggle_ExtendedContextMenu.Content" xml:space="preserve">
+    <value>仅扩展右键菜单</value>
   </data>
   <data name="PowerRename_Toggle_EnableOnExtendedContextMenu.Description" xml:space="preserve">
     <value>Shift + 右键即可打开扩展右键菜单</value>
@@ -893,11 +915,17 @@
   <data name="ImageResizer_FilenameFormatHeader.Header" xml:space="preserve">
     <value>文件名格式</value>
   </data>
-  <data name="ImageResizer_UseOriginalDate.Header" xml:space="preserve">
-    <value>保留文件修改日期</value>
+  <data name="ImageResizer_FileModifiedDate.Header" xml:space="preserve">
+    <value>文件时间戳</value>
   </data>
-  <data name="ImageResizer_UseOriginalDate.Description" xml:space="preserve">
-    <value>保留文件的原修改日期不变，不设定为裁剪日期</value>
+  <data name="ImageResizer_FileModifiedDate.Description" xml:space="preserve">
+    <value>裁剪后文件的“修改时间”属性</value>
+  </data>
+	<data name="ImageResizer_UseOriginalDate.Content" xml:space="preserve">
+    <value>原文件时间</value>
+  </data>
+	<data name="ImageResizer_UseResizeDate.Content" xml:space="preserve">
+    <value>裁剪时间</value>
   </data>
   <data name="Encoding.Header" xml:space="preserve">
     <value>编码</value>
@@ -913,7 +941,7 @@
 由微软与 PowerToys 社区共同成就，用💗呈现。</value>
     <comment>Windows refers to the OS</comment>
   </data>
-  <data name="FancyZones_SpanZonesAcrossMonitorsCheckBoxControl.Text" xml:space="preserve">
+  <data name="FancyZones_SpanZonesAcrossMonitors.Header" xml:space="preserve">
     <value>允许布局跨显示器</value>
   </data>
   <data name="ImageResizer_Formatting_ActualHeight.Text" xml:space="preserve">
@@ -966,6 +994,9 @@
   <data name="ImageResizer_FilenameFormatPlaceholder.PlaceholderText" xml:space="preserve">
     <value>例如: %1 (%2)</value>
   </data>
+  <data name="ImageResizer_FilenameParameters.AutomationProperties.Name" xml:space="preserve">
+    <value>文件名参数</value>
+  </data>
   <data name="ColorModeHeader.Header" xml:space="preserve">
     <value>应用主题</value>
   </data>
@@ -988,23 +1019,14 @@
   <data name="ColorPicker_CopiedColorRepresentation.Header" xml:space="preserve">
     <value>颜色格式</value>
   </data>
-  <data name="ColorPickerFirst.Text" xml:space="preserve">
+  <data name="ColorPickerFirst.Content" xml:space="preserve">
     <value>取色到拾色板</value>
-    <comment>do not loc the product name</comment>
   </data>
-  <data name="ColorPickerFirst_Accessible.AutomationProperties.Name" xml:space="preserve">
-    <value>取色到拾色板模式</value>
-    <comment>do not loc the product name</comment>
+  <data name="EditorFirst.Content" xml:space="preserve">
+    <value>打开拾色板</value>
   </data>
-  <data name="ColorPickerFirst_Description.Text" xml:space="preserve">
-    <value>从屏幕上取色，复制颜色代码，然后添加到拾色板</value>
-    <comment>do not loc the product name</comment>
-  </data>
-  <data name="EditorFirst.Text" xml:space="preserve">
-    <value>拾色板</value>
-  </data>
-  <data name="EditorFirst_Accessible.AutomationProperties.Name" xml:space="preserve">
-    <value>拾色板模式</value>
+  <data name="ColorPickerOnly.Content" xml:space="preserve">
+    <value>仅复制颜色</value>
   </data>
   <data name="ColorPicker_ActivationAction.Header" xml:space="preserve">
     <value>启动模式</value>
@@ -1047,20 +1069,6 @@
   <data name="MadeWithOssLove.Text" xml:space="preserve">
     <value>Made with 💗 by Microsoft and the PowerToys community.</value>
   </data>
-  <data name="ColorPickerOnly.Text" xml:space="preserve">
-    <value>仅取色</value>
-    <comment>do not loc the product name</comment>
-  </data>
-  <data name="ColorPickerOnly_Accessible.AutomationProperties.Name" xml:space="preserve">
-    <value>仅取色模式</value>
-    <comment>do not loc the product name</comment>
-  </data>
-  <data name="ColorPickerOnly_Description.Text" xml:space="preserve">
-    <value>从屏幕上取色，复制颜色代码到剪贴板</value>
-  </data>
-  <data name="EditorFirst_Description.Text" xml:space="preserve">
-    <value>直接打开拾色板界面</value>
-  </data>
   <data name="ColorPicker_ColorFormats.Header" xml:space="preserve">
     <value>颜色格式列表</value>
   </data>
@@ -1095,11 +1103,28 @@
     <value>小号</value>
     <comment>The size of the image</comment>
   </data>
-  <data name="FancyZones_MoveWindowBasedOnRelativePosition.Content" xml:space="preserve">
-    <value>↑ ↓ ← → 按相对位置在布局内移动</value>
+  <data name="FancyZones_MoveWindowBasedOnRelativePosition_Accessible.AutomationProperties.Name" xml:space="preserve">
+    <value>Win + ↑ ↓ ← → 按相对位置在布局内移动</value>
   </data>
-  <data name="FancyZones_MoveWindowLeftRightBasedOnZoneIndex.Content" xml:space="preserve">
-    <value>← → 在布局内移动，↑ ↓ 全屏和最小化</value>
+  <data name="FancyZones_MoveWindowLeftRightBasedOnZoneIndex_Accessible.AutomationProperties.Name" xml:space="preserve">
+    <value>Win + ← → 在布局内移动，↑ ↓ 全屏和最小化</value>
+  </data>
+  <data name="FancyZones_MoveWindowBasedOnRelativePosition_Description.Text" xml:space="preserve">
+    <value>Win +    </value>
+    <comment>Do not loc the icons (hex numbers)</comment>
+  </data>
+  <data name="FancyZones_MoveWindowLeftRightBasedOnZoneIndex_Description.Text" xml:space="preserve">
+    <value>Win +  </value>
+    <comment>Do not loc the icons (hex numbers)</comment>
+  </data>
+  <data name="FancyZones_MoveWindowBasedOnRelativePosition.Text" xml:space="preserve">
+    <value>相对位置</value>
+  </data>
+  <data name="FancyZones_MoveWindow.Header" xml:space="preserve">
+    <value>窗口移动方式</value>
+  </data>
+  <data name="FancyZones_MoveWindowLeftRightBasedOnZoneIndex.Text" xml:space="preserve">
+    <value>排列顺序</value>
   </data>
   <data name="ColorPicker_Editor.Header" xml:space="preserve">
     <value>拾色板</value>
@@ -1257,6 +1282,10 @@
   <data name="Oobe_VideoConference_Description" xml:space="preserve">
     <value>视频会议工具让用户可以在远程会议时一键静音麦克风和关闭摄像头。</value>
   </data>
+  <data name="Oobe_MouseUtils_Description" xml:space="preserve">
+    <value>一系列关于鼠标的小工具。</value>
+    <comment>Mouse as in the hardware peripheral</comment>
+  </data>
   <data name="Oobe_Overview_Description.Text" xml:space="preserve">
     <value>Microsoft PowerToys 是一个小工具集，可以精简并优化 Windows 操作，提高工作效率。
     
@@ -1408,24 +1437,16 @@
   </data>
   <data name="Awake_EnableAwake.Header" xml:space="preserve">
     <value>启用唤醒工具</value>
+    <comment>Awake is a product name, do not loc</comment>
   </data>
-  <data name="Awake_NoKeepAwakeContent.Text" xml:space="preserve">
-    <value>禁用</value>
+  <data name="Awake_NoKeepAwake.Content" xml:space="preserve">
+    <value>关闭</value>
   </data>
-  <data name="Awake_IndefiniteKeepAwakeContent.Text" xml:space="preserve">
-    <value>通宵达旦</value>
+  <data name="Awake_IndefiniteKeepAwake.Content" xml:space="preserve">
+    <value>持续唤醒</value>
   </data>
-  <data name="Awake_TemporaryKeepAwakeContent.Text" xml:space="preserve">
-    <value>清醒一刻</value>
-  </data>
-  <data name="Awake_NoKeepAwakeDescription.Text" xml:space="preserve">
-    <value>遵循系统的电源管理计划</value>
-  </data>
-  <data name="Awake_IndefiniteKeepAwakeDescription.Text" xml:space="preserve">
-    <value>使电脑一直保持唤醒，直到关闭该设置</value>
-  </data>
-  <data name="Awake_TemporaryKeepAwakeDescription.Text" xml:space="preserve">
-    <value>在设定的时间内保持电脑唤醒</value>
+  <data name="Awake_TemporaryKeepAwake.Content" xml:space="preserve">
+    <value>定时唤醒</value>
   </data>
   <data name="Awake_EnableDisplayKeepAwake.Header" xml:space="preserve">
     <value>保持屏幕常亮</value>
@@ -1562,6 +1583,10 @@
     <value>详细了解键盘修改器</value>
     <comment>Keyboard Manager is a product name, do not loc</comment>
   </data>
+  <data name="LearnMore_MouseUtils.Text" xml:space="preserve">
+    <value>详细了解鼠标小工具</value>
+    <comment>Mouse utilities is a product name, do not loc</comment>
+  </data>
   <data name="LearnMore_PowerPreview.Text" xml:space="preserve">
     <value>详细了解文件增强组件</value>
     <comment>File Explorer is a product name, do not loc</comment>
@@ -1585,6 +1610,18 @@
   <data name="Oobe_FileExplorer" xml:space="preserve">
     <value>文件增强</value>
     <comment>Do not localize this string</comment>
+  </data>
+  <data name="Oobe_MouseUtils" xml:space="preserve">
+    <value>鼠标小工具</value>
+    <comment>Mouse as in the hardware peripheral</comment>
+  </data>
+  <data name="Oobe_MouseUtils_FindMyMouse.Text" xml:space="preserve">
+    <value>查找我的鼠标</value>
+    <comment>Mouse as in the hardware peripheral</comment>
+  </data>
+  <data name="Oobe_MouseUtils_FindMyMouse_Description.Text" xml:space="preserve">
+    <value>双击左 Ctrl 键，为鼠标投下聚光灯，方便寻找</value>
+    <comment>Mouse as in the hardware peripheral. Key as in a keyboard key</comment>
   </data>
   <data name="Launch_Run.Content" xml:space="preserve">
     <value>启动快速启动器</value>
@@ -1614,6 +1651,9 @@
     <value>相关信息</value>
   </data>
   <data name="ImageResizer.SecondaryLinksHeader" xml:space="preserve">
+    <value>贡献</value>
+  </data>
+  <data name="MouseUtils.SecondaryLinksHeader" xml:space="preserve">
     <value>贡献</value>
   </data>
   <data name="PowerLauncher.SecondaryLinksHeader" xml:space="preserve">
@@ -1652,5 +1692,26 @@
   <data name="ImageResizer_DefaultSize_NewSizePrefix" xml:space="preserve">
     <value>新建预设</value>
     <comment>First part of the default name of new sizes that can be added in PT's settings ui.</comment>
+  </data>
+  <data name="Awake_TimeBeforeAwake.Header" xml:space="preserve">
+    <value>唤醒持续时间</value>
+  </data>
+  <data name="MouseUtils.ModuleTitle" xml:space="preserve">
+    <value>鼠标小工具</value>
+  </data>
+  <data name="MouseUtils.ModuleDescription" xml:space="preserve">
+    <value>一系列关于鼠标的小工具。</value>
+  </data>
+  <data name="MouseUtils_Enable_FindMyMouse.Header" xml:space="preserve">
+    <value>启用查找我的鼠标</value>
+    <comment>"Find My Mouse" is the name of the utility.</comment>
+  </data>
+  <data name="MouseUtils_Enable_FindMyMouse.Description" xml:space="preserve">
+    <value>双击左 Ctrl 键，为鼠标投下聚光灯，方便寻找</value>
+    <comment>"Left Control" is a keyboard key.</comment>
+  </data>
+  <data name="MouseUtils_Prevent_Activation_On_Game_Mode.Content" xml:space="preserve">
+    <value>游戏模式开启时禁用</value>
+    <comment>"Game mode" is the Windows feature to prevent notification when playing a game.</comment>
   </data>
 </root>

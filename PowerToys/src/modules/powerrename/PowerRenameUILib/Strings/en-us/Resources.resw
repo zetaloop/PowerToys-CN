@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SearchBox.PlaceholderText" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="RegExCheatSheet_Title.Text" xml:space="preserve">
+    <value>正则表达式用法</value>
+  </data>
+  <data name="RegExCheatSheet_MatchAny" xml:space="preserve">
+    <value>一个任意字符</value>
+  </data>
+  <data name="RegExCheatSheet_MatchDigit" xml:space="preserve">
+    <value>一个数字，相当于 [0-9]</value>
+  </data>
+  <data name="RegExCheatSheet_MatchNonDigit" xml:space="preserve">
+    <value>一个非数字，相当于 [^0-9]</value>
+  </data>
+  <data name="RegExCheatSheet_MatchNonWS" xml:space="preserve">
+    <value>一个非空白字符，相当于 [^\\s]</value>
+  </data>
+  <data name="RegExCheatSheet_MatchWordChar" xml:space="preserve">
+    <value>一个英文字符，相当于 [a-zA-Z_0-9]</value>
+  </data>
+  <data name="RegExCheatSheet_MatchSeveralWS" xml:space="preserve">
+    <value>一连串非空白字符</value>
+  </data>
+  <data name="RegExCheatSheet_MatchWordBoundary" xml:space="preserve">
+    <value>一个英文单词，每个字属于 [a-zA-Z0-9_]</value>
+  </data>
+  <data name="RegExCheatSheet_LearnMore.Text" xml:space="preserve">
+    <value>了解正则表达式</value>
+  </data>
+  <data name="ReplaceBox.PlaceholderText" xml:space="preserve">
+    <value>替换为</value>
+  </data>
+  <data name="DateTimeCheatSheet_Title.Text" xml:space="preserve">
+    <value>文件创建时间作为参数</value>
+  </data>
+  <data name="DateTimeCheatSheet_FullYear" xml:space="preserve">
+    <value>年份，2021</value>
+  </data>
+  <data name="DateTimeCheatSheet_YearLastTwoDigits" xml:space="preserve">
+    <value>年份 后两位，21</value>
+  </data>
+  <data name="DateTimeCheatSheet_YearLastDigit" xml:space="preserve">
+    <value>年份 后一位，1</value>
+  </data>
+  <data name="DateTimeCheatSheet_MonthName" xml:space="preserve">
+    <value>月份中文，一月</value>
+  </data>
+  <data name="DateTimeCheatSheet_MonthNameAbbr" xml:space="preserve">
+    <value>月份中文 缩写，1月</value>
+  </data>
+  <data name="DateTimeCheatSheet_MonthDigitLZero" xml:space="preserve">
+    <value>月份 补零，01-12</value>
+  </data>
+  <data name="DateTimeCheatSheet_MonthDigit" xml:space="preserve">
+    <value>月份，1-12</value>
+  </data>
+  <data name="DateTimeCheatSheet_DayName" xml:space="preserve">
+    <value>星期，星期一</value>
+  </data>
+  <data name="DateTimeCheatSheet_DayNameAbbr" xml:space="preserve">
+    <value>星期 缩写，周一</value>
+  </data>
+  <data name="DateTimeCheatSheet_DayDigitLZero" xml:space="preserve">
+    <value>日期 补零，01-31</value>
+  </data>
+  <data name="DateTimeCheatSheet_DayDigit" xml:space="preserve">
+    <value>日期，1-31</value>
+  </data>
+  <data name="DateTimeCheatSheet_HoursLZero" xml:space="preserve">
+    <value>小时 补零，00-23</value>
+  </data>
+  <data name="DateTimeCheatSheet_Hours" xml:space="preserve">
+    <value>小时，0-23</value>
+  </data>
+  <data name="DateTimeCheatSheet_MinutesLZero" xml:space="preserve">
+    <value>分钟 补零，00-59</value>
+  </data>
+  <data name="DateTimeCheatSheet_Minutes" xml:space="preserve">
+    <value>分钟，0-59</value>
+  </data>
+  <data name="DateTimeCheatSheet_SecondsLZero" xml:space="preserve">
+    <value>秒钟 补零，00-59</value>
+  </data>
+  <data name="DateTimeCheatSheet_Seconds" xml:space="preserve">
+    <value>秒钟，0-59</value>
+  </data>
+  <data name="DateTimeCheatSheet_MilliSeconds3D" xml:space="preserve">
+    <value>毫秒 全三位，123</value>
+  </data>
+  <data name="DateTimeCheatSheet_MilliSeconds2D" xml:space="preserve">
+    <value>毫秒 前两位，12</value>
+  </data>
+  <data name="DateTimeCheatSheet_MilliSeconds1D" xml:space="preserve">
+    <value>毫秒 前一位，1</value>
+  </data>
+  <data name="CheckBox_RegEx.Content" xml:space="preserve">
+    <value>正则表达式</value>
+  </data>
+  <data name="CheckBox_MatchAll.Content" xml:space="preserve">
+    <value>全部替换</value>
+  </data>
+  <data name="CheckBox_Case.Content" xml:space="preserve">
+    <value>区分大小写</value>
+  </data>
+  <data name="TextBox_ApplyTo.Text" xml:space="preserve">
+    <value>目标</value>
+  </data>
+  <data name="DocsButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>文档</value>
+  </data>
+  <data name="DocsButton.AutomationProperties.Name" xml:space="preserve">
+    <value>文档</value>
+  </data>
+  <data name="ToggleButton_IncludeFiles.ToolTipService.ToolTip" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="ToggleButton_IncludeFiles.AutomationProperties.Name" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="ToggleButton_IncludeFolders.ToolTipService.ToolTip" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="ToggleButton_IncludeFolders.AutomationProperties.Name" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="ToggleButton_IncludeSubFolders.ToolTipService.ToolTip" xml:space="preserve">
+    <value>文件夹内</value>
+  </data>
+  <data name="ToggleButton_IncludeSubFolders.AutomationProperties.Name" xml:space="preserve">
+    <value>文件夹内</value>
+  </data>
+  <data name="TextBlock_TextFormatting.Text" xml:space="preserve">
+    <value>文本格式</value>
+  </data>
+  <data name="ToggleButton_Lowercase.ToolTipService.ToolTip" xml:space="preserve">
+    <value>小写</value>
+  </data>
+  <data name="ToggleButton_Lowercase.AutomationProperties.Name" xml:space="preserve">
+    <value>小写</value>
+  </data>
+  <data name="ToggleButton_Uppercase.ToolTipService.ToolTip" xml:space="preserve">
+    <value>大写</value>
+  </data>
+  <data name="ToggleButton_Uppercase.AutomationProperties.Name" xml:space="preserve">
+    <value>大写</value>
+  </data>
+  <data name="ToggleButton_Titlecase.ToolTipService.ToolTip" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="ToggleButton_Titlecase.AutomationProperties.Name" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="ToggleButton_Capitalize.ToolTipService.ToolTip" xml:space="preserve">
+    <value>首字母大写</value>
+  </data>
+  <data name="ToggleButton_Capitalize.AutomationProperties.Name" xml:space="preserve">
+    <value>首字母大写</value>
+  </data>
+  <data name="ToggleButton_EnumItems.ToolTipService.ToolTip" xml:space="preserve">
+    <value>添加数字编号</value>
+  </data>
+  <data name="ToggleButton_EnumItems.AutomationProperties.Name" xml:space="preserve">
+    <value>添加数字编号</value>
+  </data>
+  <data name="SelectAllCheckBox.AutomationProperties.Name" xml:space="preserve">
+    <value>全选或取消全选</value>
+  </data>
+  <data name="FilterButton.AutomationProperties.Name" xml:space="preserve">
+    <value>过滤器</value>
+  </data>
+  <data name="FilterButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>过滤器</value>
+  </data>
+  <data name="ShowAll.Text" xml:space="preserve">
+    <value>所有文件</value>
+  </data>
+  <data name="ShowOnly.Text" xml:space="preserve">
+    <value>有匹配的文件</value>
+  </data>
+  <data name="TxtBlock_Original.Text" xml:space="preserve">
+    <value>原文件</value>
+  </data>
+  <data name="TxtBlock_Renamed.Text" xml:space="preserve">
+    <value>命名为</value>
+  </data>
+  <data name="TxtBlock_ButtonSettings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="TxtBlock_ButtonSettings.AutomationProperties.Name" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="TxtBlock_ButtonApply.Text" xml:space="preserve">
+    <value>执行</value>
+  </data>
+  <data name="ButtonApply.AutomationProperties.Name" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="TxtBlock_ButtonApplyAndClose.Text" xml:space="preserve">
+    <value>执行并关闭</value>
+  </data>
+  <data name="RegExButton.AutomationProperties.Name" xml:space="preserve">
+    <value>正则用法提示</value>
+  </data>
+  <data name="RegExButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>正则用法提示</value>
+  </data>
+  <data name="FileCreationButton.AutomationProperties.Name" xml:space="preserve">
+    <value>参数用法提示</value>
+  </data>
+  <data name="FileCreationButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>参数用法提示</value>
+  </data>
+</root>

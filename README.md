@@ -1,6 +1,6 @@
 # PowerToys Custom Simplified Chinese Translation Patch
 
-<img src="https://cdn.jsdelivr.net/gh/ZetaSp/PowerToys-Chinese-TransMOD@master/to.pic/PCTMODx3.topic.png"/>
+<img src="https://cdn.jsdelivr.net/gh/ZetaSp/PowerToys-Chinese-TransMOD@master/to.pic/PCTMODx4.topic.png"/>
 
 PowerToys 自制简体中文翻译优化补丁
 

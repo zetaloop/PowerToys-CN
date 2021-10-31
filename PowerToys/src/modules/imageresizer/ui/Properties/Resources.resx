@@ -277,4 +277,7 @@
   <data name="Width" xml:space="preserve">
     <value>图片宽度</value>
   </data>
+  <data name="Open_settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
 </root>

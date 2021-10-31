@@ -175,9 +175,9 @@ namespace Awake.Core
             };
 
             // No keep-awake menu item.
-            ToolStripMenuItem? passiveMenuItem = new ToolStripMenuItem
+            CheckButtonToolStripMenuItem? passiveMenuItem = new CheckButtonToolStripMenuItem
             {
-                Text = "禁用",
+                Text = "关闭",
             };
 
             passiveMenuItem.Checked = mode == AwakeMode.PASSIVE;
@@ -189,9 +189,9 @@ namespace Awake.Core
             };
 
             // Indefinite keep-awake menu item.
-            ToolStripMenuItem? indefiniteMenuItem = new ToolStripMenuItem
+            CheckButtonToolStripMenuItem? indefiniteMenuItem = new CheckButtonToolStripMenuItem
             {
-                Text = "通宵达旦",
+                Text = "持续唤醒",
             };
 
             indefiniteMenuItem.Checked = mode == AwakeMode.INDEFINITE;
@@ -202,7 +202,7 @@ namespace Awake.Core
                 indefiniteKeepAwakeCallback();
             };
 
-            ToolStripMenuItem? displayOnMenuItem = new ToolStripMenuItem
+            CheckButtonToolStripMenuItem? displayOnMenuItem = new CheckButtonToolStripMenuItem
             {
                 Text = "保持屏幕常亮",
             };
@@ -218,10 +218,11 @@ namespace Awake.Core
             // Timed keep-awake menu item
             ToolStripMenuItem? timedMenuItem = new ToolStripMenuItem
             {
-                Text = "清醒一刻",
+                Text = "定时唤醒",
             };
 
             timedMenuItem.Checked = mode == AwakeMode.TIMED;
+            timedMenuItem.AccessibleName = timedMenuItem.Text + (timedMenuItem.Checked ? ". Checked. " : ". UnChecked. ");
 
             ToolStripMenuItem? halfHourMenuItem = new ToolStripMenuItem
             {
@@ -283,6 +284,39 @@ namespace Awake.Core
 
             TrayIcon.Text = text;
             TrayIcon.ContextMenuStrip = contextMenuStrip;
+        }
+
+        private class CheckButtonToolStripMenuItemAccessibleObject : ToolStripItem.ToolStripItemAccessibleObject
+        {
+            private CheckButtonToolStripMenuItem _menuItem;
+
+            public CheckButtonToolStripMenuItemAccessibleObject(CheckButtonToolStripMenuItem menuItem)
+                : base(menuItem)
+            {
+                _menuItem = menuItem;
+            }
+
+            public override AccessibleRole Role
+            {
+                get
+                {
+                    return AccessibleRole.CheckButton;
+                }
+            }
+
+            public override string Name => _menuItem.Text + ", " + Role + ", " + (_menuItem.Checked ? "Checked" : "Unchecked");
+        }
+
+        private class CheckButtonToolStripMenuItem : ToolStripMenuItem
+        {
+            public CheckButtonToolStripMenuItem()
+            {
+            }
+
+            protected override AccessibleObject CreateAccessibilityInstance()
+            {
+                return new CheckButtonToolStripMenuItemAccessibleObject(this);
+            }
         }
     }
 }

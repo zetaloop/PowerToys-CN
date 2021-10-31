@@ -117,101 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="App_Title" xml:space="preserve">
-    <value>批量重命名</value>
+  <data name="open_new_tab" xml:space="preserve">
+    <value>在新标签页打开配置文件</value>
   </data>
-  <data name="Renamed" xml:space="preserve">
-    <value>命名为</value>
+  <data name="plugin_description" xml:space="preserve">
+    <value>打开 Windows Terminal 配置文件</value>
   </data>
-  <data name="Original" xml:space="preserve">
-    <value>原文件</value>
+  <data name="plugin_name" xml:space="preserve">
+    <value>Windows Terminal</value>
   </data>
-  <data name="Listview_Empty" xml:space="preserve">
-    <value>所有文件都被过滤掉了。
-请更改搜索设置和搜索词。</value>
+  <data name="run_as_administrator" xml:space="preserve">
+    <value>以管理员权限运行(Ctrl+Shift+Enter)</value>
   </data>
-  <data name="Entireitemname" xml:space="preserve">
-    <value>项目名称和扩展名</value>
+  <data name="run_terminal_failed" xml:space="preserve">
+    <value>无法打开 Windows Terminal</value>
   </data>
-  <data name="Countslabelselectedfmt" xml:space="preserve">
-    <value>已选择: %u 个</value>
-  </data>
-  <data name="Countslabelrenamingfmt" xml:space="preserve">
-    <value>重命名: %u 个</value>
-  </data>
-  <data name="Use_Regex" xml:space="preserve">
-    <value>正则表达式</value>
-  </data>
-  <data name="Case_Sensitive" xml:space="preserve">
-    <value>区分大小写</value>
-  </data>
-  <data name="Match_All" xml:space="preserve">
-    <value>正则中匹配所有匹配的项</value>
-  </data>
-  <data name="Make_Uppercase" xml:space="preserve">
-    <value>转换为大写</value>
-  </data>
-  <data name="Exclude_Files" xml:space="preserve">
-    <value>排除文件</value>
-  </data>
-  <data name="Exclude_Folders" xml:space="preserve">
-    <value>排除文件夹</value>
-  </data>
-  <data name="Exclude_Subfolder" xml:space="preserve">
-    <value>排除子文件夹项</value>
-  </data>
-  <data name="Make_Lowercase" xml:space="preserve">
-    <value>转换为小写</value>
-  </data>
-  <data name="Enumerate_Items" xml:space="preserve">
-    <value>添加数字编号</value>
-  </data>
-  <data name="Item_Name_Only" xml:space="preserve">
-    <value>仅文件名</value>
-  </data>
-  <data name="Item_Extension_Only" xml:space="preserve">
-    <value>仅扩展名</value>
-  </data>
-  <data name="Make_Titlecase" xml:space="preserve">
-    <value>转换为标题</value>
-  </data>
-  <data name="Make_Capitalized" xml:space="preserve">
-    <value>首字母大写</value>
-  </data>
-  <data name="Rename_Button" xml:space="preserve">
-    <value>执行(&amp;R)</value>
-  </data>
-  <data name="Help_Button" xml:space="preserve">
-    <value>帮助(&amp;H)</value>
-  </data>
-  <data name="Cancel_Button" xml:space="preserve">
-    <value>取消(&amp;C)</value>
-  </data>
-  <data name="Search_For" xml:space="preserve">
-    <value>搜索：</value>
-  </data>
-  <data name="Replace_With" xml:space="preserve">
-    <value>替换为：</value>
-  </data>
-  <data name="Items_Selected" xml:space="preserve">
-    <value>已选择: 0 个</value>
-  </data>
-  <data name="Items_Renaming" xml:space="preserve">
-    <value>重命名: 0 个</value>
-  </data>
-  <data name="Options" xml:space="preserve">
-    <value>选项</value>
-  </data>
-  <data name="Preview" xml:space="preserve">
-    <value>预览</value>
-  </data>
-  <data name="Rename_Criteria" xml:space="preserve">
-    <value>条件</value>
-  </data>
-  <data name="Loading" xml:space="preserve">
-    <value>加载中...</value>
-  </data>
-  <data name="Loading_Msg" xml:space="preserve">
-    <value>正在枚举文件，请稍候。</value>
+  <data name="show_hidden_profiles" xml:space="preserve">
+    <value>显示隐藏配置文件</value>
   </data>
 </root>

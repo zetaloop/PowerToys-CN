@@ -135,10 +135,7 @@
   <data name="Grid_Layout_Editor" xml:space="preserve">
     <value>网格布局编辑器</value>
   </data>
-  <data name="Crash_Report_Message_Box_Text_Part1" xml:space="preserve">
-    <value>错误信息已经记录在</value>
-  </data>
-  <data name="Crash_Report_Message_Box_Text_Part2" xml:space="preserve">
+  <data name="Crash_Report_Message_Box_Text" xml:space="preserve">
     <value>请将问题反馈到</value>
   </data>
   <data name="Custom" xml:space="preserve">
@@ -381,7 +378,13 @@
   <data name="Edit_Layout" xml:space="preserve">
     <value>编辑布局</value>
   </data>
+  <data name="Edit_Layout_Open_Announce" xml:space="preserve">
+    <value>已打开</value>
+  </data>
   <data name="Layout_Creation_Announce" xml:space="preserve">
     <value>自定义布局创建成功。</value>
+  </data>
+  <data name="OpenSettings" xml:space="preserve">
+    <value>设置</value>
   </data>
 </root>
