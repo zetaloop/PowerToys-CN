@@ -10,7 +10,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 反馈问题：Issue 或 ideaploter@outlook.com
 
-版本：v0.47.1 + v0.48.1
+版本：v0.49.1
 
 _（备注：由于无法获取官方本地化组件，硬编码为中文，默认且仅支持中文。）_
 
@@ -18,7 +18,7 @@ _（备注：由于无法获取官方本地化组件，硬编码为中文，默�
 
 下载地址（Github）：https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest
 
-备用下载地址（蓝奏云）：https://zeta.lanzoui.com/b01isgeyh 密码：zeta 【包含安装包】
+备用下载地址（蓝奏云）：https://zeta.lanzoui.com/b01it5dwj 密码：zeta 【包含安装包】
 
 ## Usage 使用方法
 
@@ -35,7 +35,7 @@ _（备注：由于无法获取官方本地化组件，硬编码为中文，默�
 ## Patchs 优化清单
 <details><summary></summary>
 
-PowerToys 模块名称：唤醒工具 取色器 窗口布局 文件增强 图像裁剪器 键盘修改器 批量重命名 快速启动器 快捷键指南 视频会议
+PowerToys 模块名称：唤醒工具 取色器 窗口布局 文件增强 图像裁剪器 键盘修改器 鼠标小工具 批量重命名 快速启动器 快捷键指南 视频会议
 
 PowerToys 通用设置界面、各模块预设及设置界面
 
@@ -61,5 +61,5 @@ PowerToys Run 操作界面、一大堆插件
 
 Shortcut Guide 操作界面、快捷键图片
 
-Video Conference Mute 按键图片（仅限实验版）
+Video Conference Mute 按键图片
 </details>
