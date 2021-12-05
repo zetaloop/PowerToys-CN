@@ -408,7 +408,7 @@
   <data name="PowerLauncher_UseCentralizedKeyboardHook.Header" xml:space="preserve">
     <value>使用独立的快捷键侦听器</value>
   </data>
-	<data name="PowerLauncher_UseCentralizedKeyboardHook.Description" xml:space="preserve">
+  <data name="PowerLauncher_UseCentralizedKeyboardHook.Description" xml:space="preserve">
     <value>全局快捷键无法使用的替代方案</value>
   </data>
   <data name="PowerLauncher_ClearInputOnLaunch.Content" xml:space="preserve">
@@ -449,6 +449,24 @@
   <data name="FancyZones_HotkeyEditorControl.Header" xml:space="preserve">
     <value>启动布局编辑器</value>
     <comment>Shortcut to launch the FancyZones layout editor application</comment>
+  </data>
+  <data name="FancyZones_WindowSwitching_GroupSettings.Header" xml:space="preserve">
+    <value>窗口切换</value>
+  </data>
+  <data name="FancyZones_WindowSwitching_GroupSettings.Description" xml:space="preserve">
+    <value>在当前一个布局区内，轮流切换窗口</value>
+  </data>
+  <data name="FancyZones_HotkeyNextTabControl.Header" xml:space="preserve">
+    <value>下一个</value>
+  </data>
+  <data name="FancyZones_HotkeyNextTabControl.Description" xml:space="preserve">
+    <value>切换到当前布局区下一个窗口</value>
+  </data>
+  <data name="FancyZones_HotkeyPrevTabControl.Header" xml:space="preserve">
+    <value>上一个</value>
+  </data>
+  <data name="FancyZones_HotkeyPrevTabControl.Description" xml:space="preserve">
+    <value>切换到当前布局区上一个窗口</value>
   </data>
   <data name="SettingsPage_SetShortcut.AutomationProperties.Name" xml:space="preserve">
     <value>快捷键设置</value>
@@ -502,10 +520,10 @@
   <data name="FancyZones_UseCursorPosEditorStartupScreen.Description" xml:space="preserve">
     <value>使用多个显示器时</value>
   </data>
-	<data name="FancyZones_LaunchPositionMouse.Content" xml:space="preserve">
+  <data name="FancyZones_LaunchPositionMouse.Content" xml:space="preserve">
     <value>鼠标光标所在位置</value>
   </data>
-	<data name="FancyZones_LaunchPositionScreen.Content" xml:space="preserve">
+  <data name="FancyZones_LaunchPositionScreen.Content" xml:space="preserve">
     <value>窗口焦点所在位置</value>
   </data>
   <data name="FancyZones_ZoneBehavior_GroupSettings.Header" xml:space="preserve">
@@ -577,13 +595,13 @@
   <data name="PowerRename_Toggle_ContextMenu.Header" xml:space="preserve">
     <value>显示位置</value>
   </data>
-	<data name="PowerRename_Toggle_ContextMenu.Description" xml:space="preserve">
+  <data name="PowerRename_Toggle_ContextMenu.Description" xml:space="preserve">
     <value>Shift + 右键即可打开扩展右键菜单</value>
   </data>
-	<data name="PowerRename_Toggle_StandardContextMenu.Content" xml:space="preserve">
+  <data name="PowerRename_Toggle_StandardContextMenu.Content" xml:space="preserve">
     <value>右键菜单和扩展右键菜单</value>
   </data>
-	<data name="PowerRename_Toggle_ExtendedContextMenu.Content" xml:space="preserve">
+  <data name="PowerRename_Toggle_ExtendedContextMenu.Content" xml:space="preserve">
     <value>仅扩展右键菜单</value>
   </data>
   <data name="PowerRename_Toggle_EnableOnExtendedContextMenu.Description" xml:space="preserve">
@@ -637,11 +655,11 @@
     <value>显示当前可用的系统快捷键图表。</value>
   </data>
   <data name="ShortcutGuide_PressTime.Header" xml:space="preserve">
-    <value>长按时间（毫秒）</value>
+    <value>长按时间</value>
     <comment>pressing a key in milliseconds</comment>
   </data>
   <data name="ShortcutGuide_PressTime.Description" xml:space="preserve">
-    <value>长按 Win 键激活所需的持续时间</value>
+    <value>长按 Win 键激活所需的持续时间（毫秒）</value>
   </data>
   <data name="ShortcutGuide_ActivationMethod.Header" xml:space="preserve">
     <value>激活方式</value>
@@ -921,10 +939,10 @@
   <data name="ImageResizer_FileModifiedDate.Description" xml:space="preserve">
     <value>裁剪后文件的“修改时间”属性</value>
   </data>
-	<data name="ImageResizer_UseOriginalDate.Content" xml:space="preserve">
+  <data name="ImageResizer_UseOriginalDate.Content" xml:space="preserve">
     <value>原文件时间</value>
   </data>
-	<data name="ImageResizer_UseResizeDate.Content" xml:space="preserve">
+  <data name="ImageResizer_UseResizeDate.Content" xml:space="preserve">
     <value>裁剪时间</value>
   </data>
   <data name="Encoding.Header" xml:space="preserve">
@@ -996,9 +1014,6 @@
   </data>
   <data name="ImageResizer_FilenameParameters.AutomationProperties.Name" xml:space="preserve">
     <value>文件名参数</value>
-  </data>
-  <data name="ColorModeHeader.Header" xml:space="preserve">
-    <value>应用主题</value>
   </data>
   <data name="Radio_Theme_Dark.Content" xml:space="preserve">
     <value>暗</value>
@@ -1616,12 +1631,20 @@
     <comment>Mouse as in the hardware peripheral</comment>
   </data>
   <data name="Oobe_MouseUtils_FindMyMouse.Text" xml:space="preserve">
-    <value>查找我的鼠标</value>
+    <value>鼠标聚光灯</value>
     <comment>Mouse as in the hardware peripheral</comment>
   </data>
   <data name="Oobe_MouseUtils_FindMyMouse_Description.Text" xml:space="preserve">
-    <value>双击左 Ctrl 键，为鼠标投下聚光灯，方便寻找</value>
+    <value>双击左 Ctrl 键，在鼠标光标所在位置投下聚光灯，方便寻找</value>
     <comment>Mouse as in the hardware peripheral. Key as in a keyboard key</comment>
+  </data>
+  <data name="Oobe_MouseUtils_MouseHighlighter.Text" xml:space="preserve">
+    <value>鼠标荧光笔</value>
+    <comment>Mouse as in the hardware peripheral.</comment>
+  </data>
+  <data name="Oobe_MouseUtils_MouseHighlighter_Description.Text" xml:space="preserve">
+    <value>通过快捷键启用，按下鼠标左键和右键，显示高亮标记</value>
+    <comment>Mouse as in the hardware peripheral.</comment>
   </data>
   <data name="Launch_Run.Content" xml:space="preserve">
     <value>启动快速启动器</value>
@@ -1702,16 +1725,102 @@
   <data name="MouseUtils.ModuleDescription" xml:space="preserve">
     <value>一系列关于鼠标的小工具。</value>
   </data>
+  <data name="MouseUtils_FindMyMouse.Header" xml:space="preserve">
+    <value>鼠标聚光灯</value>
+    <comment>Refers to the utility name</comment>
+  </data>
   <data name="MouseUtils_Enable_FindMyMouse.Header" xml:space="preserve">
-    <value>启用查找我的鼠标</value>
+    <value>启用鼠标聚光灯</value>
     <comment>"Find My Mouse" is the name of the utility.</comment>
   </data>
-  <data name="MouseUtils_Enable_FindMyMouse.Description" xml:space="preserve">
-    <value>双击左 Ctrl 键，为鼠标投下聚光灯，方便寻找</value>
-    <comment>"Left Control" is a keyboard key.</comment>
+	<data name="MouseUtils_FindMyMouse_Description.Text" xml:space="preserve">
+    <value>双击左 Ctrl，为鼠标光标投下聚光灯，方便寻找</value>
+    <comment>"Ctrl" is a keyboard key. "Find My Mouse" is the name of the utility</comment>
   </data>
   <data name="MouseUtils_Prevent_Activation_On_Game_Mode.Content" xml:space="preserve">
     <value>游戏模式开启时禁用</value>
     <comment>"Game mode" is the Windows feature to prevent notification when playing a game.</comment>
+  </data>
+  <data name="MouseUtils_FindMyMouse_BackgroundColor.Header" xml:space="preserve">
+    <value>背景颜色</value>
+  </data>
+  <data name="MouseUtils_FindMyMouse_SpotlightColor.Header" xml:space="preserve">
+    <value>聚光灯颜色</value>
+  </data>
+  <data name="MouseUtils_FindMyMouse_OverlayOpacity.Header" xml:space="preserve">
+    <value>不透明度</value>
+  </data>
+  <data name="MouseUtils_FindMyMouse_SpotlightRadius.Header" xml:space="preserve">
+    <value>聚光灯半径</value>
+  </data>
+  <data name="MouseUtils_FindMyMouse_SpotlightInitialZoom.Header" xml:space="preserve">
+    <value>聚光灯凝聚量</value>
+  </data>
+  <data name="MouseUtils_FindMyMouse_SpotlightInitialZoom.Description" xml:space="preserve">
+    <value>聚光灯汇聚、发散的大小</value>
+  </data>
+  <data name="MouseUtils_FindMyMouse_AnimationDurationMs.Header" xml:space="preserve">
+    <value>动画持续时间</value>
+  </data>
+  <data name="MouseUtils_FindMyMouse_AnimationDurationMs.Description" xml:space="preserve">
+    <value>聚光灯出现、消失的时长（毫秒）</value>
+  </data>
+  <data name="MouseUtils_MouseHighlighter.Header" xml:space="preserve">
+    <value>鼠标荧光笔</value>
+    <comment>Refers to the utility name</comment>
+  </data>
+  <data name="MouseUtils_Enable_MouseHighlighter.Header" xml:space="preserve">
+    <value>启用鼠标荧光笔</value>
+    <comment>"Find My Mouse" is the name of the utility.</comment>
+  </data>
+  <data name="MouseUtils_MouseHighlighter_Description.Text" xml:space="preserve">
+    <value>高亮突出鼠标动作</value>
+    <comment>"Mouse Highlighter" is the name of the utility. Mouse is the hardware mouse.</comment>
+  </data>
+	<data name="MouseUtils_MouseHighlighter_ActivationShortcut.Header" xml:space="preserve">
+    <value>启动快捷键</value>
+  </data>
+	<data name="MouseUtils_MouseHighlighter_ActivationShortcut.Description" xml:space="preserve">
+    <value>自定义启动快捷键</value>
+    <comment>"Mouse Highlighter" is the name of the utility. Mouse is the hardware mouse.</comment>
+  </data>
+	<data name="MouseUtils_MouseHighlighter_LeftButtonClickColor.Header" xml:space="preserve">
+    <value>左键颜色</value>
+  </data>
+  <data name="MouseUtils_MouseHighlighter_RightButtonClickColor.Header" xml:space="preserve">
+    <value>右键颜色</value>
+  </data>
+  <data name="MouseUtils_MouseHighlighter_HighlightOpacity.Header" xml:space="preserve">
+    <value>不透明度</value>
+  </data>
+  <data name="MouseUtils_MouseHighlighter_HighlightRadius.Header" xml:space="preserve">
+    <value>半径</value>
+  </data>
+  <data name="MouseUtils_MouseHighlighter_FadeDelayMs.Header" xml:space="preserve">
+    <value>消失延迟</value>
+  </data>
+  <data name="MouseUtils_MouseHighlighter_FadeDelayMs.Description" xml:space="preserve">
+    <value>高亮开始消失的时间（毫秒）</value>
+  </data>
+  <data name="MouseUtils_MouseHighlighter_FadeDurationMs.Header" xml:space="preserve">
+    <value>消失时长</value>
+  </data>
+  <data name="MouseUtils_MouseHighlighter_FadeDurationMs.Description" xml:space="preserve">
+    <value>高亮消失所用的时间（毫秒）</value>
+  </data>
+  <data name="FancyZones_Radio_Custom_Colors.Content" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="FancyZones_Radio_Default_Theme.Content" xml:space="preserve">
+    <value>跟随系统</value>
+  </data>
+  <data name="ColorModeHeader.Header" xml:space="preserve">
+    <value>应用主题</value>
+  </data>
+  <data name="FancyZones_Zone_Appearance.Description" xml:space="preserve">
+    <value>调整布局的外观</value>
+  </data>
+  <data name="FancyZones_Zone_Appearance.Header" xml:space="preserve">
+    <value>布局外观</value>
   </data>
 </root>

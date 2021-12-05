@@ -123,6 +123,9 @@
   <data name="Microsoft_plugin_uri_default_browser" xml:space="preserve">
     <value>打开默认浏览器</value>
   </data>
+  <data name="Microsoft_plugin_uri_open" xml:space="preserve">
+    <value>打开网址</value>
+  </data>
   <data name="Microsoft_plugin_uri_open_failed" xml:space="preserve">
     <value>无法打开网址</value>
   </data>

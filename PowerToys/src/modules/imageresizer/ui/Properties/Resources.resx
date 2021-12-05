@@ -280,4 +280,7 @@
   <data name="Open_settings" xml:space="preserve">
     <value>设置</value>
   </data>
+  <data name="Input_RemoveMetadata" xml:space="preserve">
+    <value>删除图片元数据</value>
+  </data>
 </root>

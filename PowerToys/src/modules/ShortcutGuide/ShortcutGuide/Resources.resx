@@ -142,7 +142,7 @@
     <value>无动作</value>
   </data>
   <data name="Restore" xml:space="preserve">
-    <value>恢复</value>
+    <value>还原</value>
   </data>
   <data name="Snap_Right" xml:space="preserve">
     <value>右贴靠</value>

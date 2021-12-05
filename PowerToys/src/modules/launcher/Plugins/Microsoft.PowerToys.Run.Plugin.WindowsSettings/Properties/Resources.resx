@@ -275,9 +275,6 @@
   <data name="AreaHardwareAndSound" xml:space="preserve">
     <value>硬件和声音</value>
   </data>
-  <data name="AreaHomePage" xml:space="preserve">
-    <value>主页</value>
-  </data>
   <data name="AreaMixedReality" xml:space="preserve">
     <value>混合现实</value>
   </data>
@@ -296,6 +293,10 @@
   <data name="AreaPrograms" xml:space="preserve">
     <value>程序</value>
   </data>
+  <data name="AreaSecurityAndMaintenance" xml:space="preserve">
+    <value>安全和维护</value>
+    <comment>Area Security and Maintenance in legacy Control Panel app.</comment>
+  </data>
   <data name="AreaSurfaceHub" xml:space="preserve">
     <value>SurfaceHub</value>
   </data>
@@ -304,6 +305,10 @@
   </data>
   <data name="AreaSystemAndSecurity" xml:space="preserve">
     <value>系统和安全</value>
+  </data>
+  <data name="AreaSystemPropertiesAdvanced" xml:space="preserve">
+    <value>系统属性</value>
+    <comment>System Properties dialog sysdm.cpl</comment>
   </data>
   <data name="AreaTimeAndLanguage" xml:space="preserve">
     <value>时间和语言</value>
@@ -427,6 +432,9 @@
   <data name="CellularAndSim" xml:space="preserve">
     <value>手机网络和 SIM</value>
     <comment>Area NetworkAndInternet</comment>
+  </data>
+  <data name="ChangeUACSettings" xml:space="preserve">
+    <value>更改用户帐户控制设置</value>
   </data>
   <data name="ChooseWhichFoldersAppearOnStart" xml:space="preserve">
     <value>选择“开始”菜单上显示的文件夹</value>
@@ -599,9 +607,19 @@
     <value>轻松使用设置中心</value>
     <comment>Area Control Panel (legacy settings)</comment>
   </data>
+  <data name="EditEnvironmentVariables" xml:space="preserve">
+    <value>编辑环境变量</value>
+    <comment>Used as AltName on EditSystemEnvironmentVars settings to make both entries available via 'Edit environment variables'.</comment>
+  </data>
   <data name="Edition" xml:space="preserve">
     <value>发行版</value>
     <comment>Means the "Windows Edition"</comment>
+  </data>
+  <data name="EditSystemEnvironmentVariables" xml:space="preserve">
+    <value>编辑系统环境变量</value>
+  </data>
+  <data name="EditUserEnvironmentVariables" xml:space="preserve">
+    <value>编辑帐户的环境变量</value>
   </data>
   <data name="Email" xml:space="preserve">
     <value>电子邮件</value>
@@ -618,6 +636,10 @@
   <data name="Environment" xml:space="preserve">
     <value>环境</value>
     <comment>Area MixedReality, only available if the Mixed Reality Portal app is installed.</comment>
+  </data>
+  <data name="EnvVars" xml:space="preserve">
+    <value>环境变量 (Env vars)</value>
+    <comment>Short english form. Don't translate!</comment>
   </data>
   <data name="Ethernet" xml:space="preserve">
     <value>以太网</value>
@@ -1016,6 +1038,9 @@
     <value>仅在支持高级显示选项的设备上可用。</value>
     <comment>//Only available on devices that support advanced display options.</comment>
   </data>
+  <data name="NoteEditingRequireAdminPrivileges" xml:space="preserve">
+    <value>编辑此设置需要管理员权限。</value>
+  </data>
   <data name="NoteEnrolledWIP" xml:space="preserve">
     <value>仅当用户注册 WIP 时出现。</value>
     <comment>//Only present if user is enrolled in WIP.</comment>
@@ -1114,6 +1139,14 @@
   </data>
   <data name="OnScreen" xml:space="preserve">
     <value>屏幕键盘</value>
+  </data>
+  <data name="OpenControlPanel" xml:space="preserve">
+    <value>控制面板主页</value>
+    <comment>'Control Panel' is here the name of the legacy settings app.</comment>
+  </data>
+  <data name="OpenSettingsApp" xml:space="preserve">
+    <value>设置主页</value>
+    <comment>'Settings' is here the name of the modern settings app.</comment>
   </data>
   <data name="Os" xml:space="preserve">
     <value>OS</value>
@@ -1394,9 +1427,8 @@
     <value>会话清理</value>
     <comment>Area SurfaceHub</comment>
   </data>
-  <data name="SettingsHomePage" xml:space="preserve">
-    <value>设置主页</value>
-    <comment>Area Home, Overview-page for all areas of settings </comment>
+  <data name="SettingsApp" xml:space="preserve">
+    <value>设置</value>
   </data>
   <data name="SetUpKiosk" xml:space="preserve">
     <value>设置展台</value>
@@ -1483,9 +1515,16 @@
     <value>系统</value>
     <comment>Area Control Panel (legacy settings)</comment>
   </data>
+  <data name="SystemEnvVars" xml:space="preserve">
+    <value>系统环境变量 (System env vars)</value>
+    <comment>Short english form. Don't translate!</comment>
+  </data>
   <data name="SystemPropertiesAndAddNewHardwareWizard" xml:space="preserve">
     <value>系统属性/添加新硬件向导</value>
     <comment>Area Control Panel (legacy settings)</comment>
+  </data>
+  <data name="SystemVariables" xml:space="preserve">
+    <value>系统变量</value>
   </data>
   <data name="Tab" xml:space="preserve">
     <value>Tab</value>
@@ -1573,6 +1612,10 @@
     <value>输入</value>
     <comment>Area Device</comment>
   </data>
+  <data name="UAC" xml:space="preserve">
+    <value>UAC</value>
+    <comment>Short version of 'User account control'</comment>
+  </data>
   <data name="Uninstall" xml:space="preserve">
     <value>卸载</value>
     <comment>Area MixedReality, only available if the Mixed Reality Portal app is installed.</comment>
@@ -1581,9 +1624,23 @@
     <value>USB</value>
     <comment>Area Device</comment>
   </data>
+  <data name="UserAccountControlSettings.exe" xml:space="preserve">
+    <value>UserAccountControlSettings.exe</value>
+    <comment>Name of the executable</comment>
+  </data>
   <data name="UserAccounts" xml:space="preserve">
     <value>用户帐户</value>
     <comment>Area Control Panel (legacy settings)</comment>
+  </data>
+  <data name="UserEnvironmentVariables" xml:space="preserve">
+    <value>帐户的环境变量</value>
+  </data>
+  <data name="UserEnvVars" xml:space="preserve">
+    <value>用户环境变量 (User env vars)</value>
+    <comment>Short english form. Don't translate!</comment>
+  </data>
+  <data name="UserVariables" xml:space="preserve">
+    <value>用户变量</value>
   </data>
   <data name="Version" xml:space="preserve">
     <value>版本</value>

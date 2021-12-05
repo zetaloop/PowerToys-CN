@@ -287,6 +287,9 @@
   <data name="Settings" xml:space="preserve">
     <value>模板设置</value>
   </data>
+  <data name="Delete_Layout_Dialog_Announce" xml:space="preserve">
+    <value>删除布局对话框。</value>
+  </data>
   <data name="Are_You_Sure" xml:space="preserve">
     <value>提示</value>
   </data>

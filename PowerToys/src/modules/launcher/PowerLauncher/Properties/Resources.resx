@@ -141,7 +141,7 @@
     <comment>reportWindow_file_bug + reportWindow_github_repo string</comment>
   </data>
   <data name="reportWindow_upload_log" xml:space="preserve">
-    <value>请确保上传日志文件和错误信息。</value>
+    <value>请上传日志文件和错误信息。</value>
   </data>
   <data name="reportWindow_period" xml:space="preserve">
     <value>.</value>
