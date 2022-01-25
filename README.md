@@ -10,7 +10,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 反馈问题：Issue 或 ideaploter@outlook.com
 
-版本：v0.51.1（0.53.3...喵的又更新了，待我回炉重造一下//暂时忙，七天后）
+版本：v0.53.3（代码请一定要做好备份，这是一个残忍的故事🥲）
 
 _（备注：由于无法获取官方本地化组件，硬编码为中文，默认且仅支持中文。）_
 
@@ -18,7 +18,7 @@ _（备注：由于无法获取官方本地化组件，硬编码为中文，默�
 
 下载地址（Github）：https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest
 
-备用下载地址（蓝奏云）：https://zeta.lanzouo.com/b01iwstze 密码：zeta 【包含安装包】
+备用下载地址（蓝奏云）：https://zeta.lanzoup.com/b01j35n7e 密码：zeta 【包含安装包】
 
 ## Usage 使用方法
 
@@ -35,23 +35,23 @@ _（备注：由于无法获取官方本地化组件，硬编码为中文，默�
 ## Patchs 优化清单
 <details><summary></summary>
 
-PowerToys 模块名称：唤醒工具 取色器 窗口布局 文件增强 图像裁剪器 键盘修改器 鼠标小工具 批量重命名 快速启动器 快捷键指南 视频会议
+PowerToys 模块名称：窗口置顶 唤醒工具 取色器 窗口布局 文件增强 图像裁剪器 键盘修改器 鼠标小工具 批量重命名 快速启动器 快捷键指南 录制工具
 
 PowerToys 通用设置界面、各模块预设及设置界面
 
 PowerToys 入门指南
 
-PowerToys 运行提示、弹框消息、状态栏图标右键菜单
+PowerToys 运行提示、弹框消息、状态栏菜单
 
 Awake 操作界面、状态栏菜单
 
-Color Picker 操作界面、右键菜单
+Color Picker 操作界面
 
 FancyZones 操作界面
 
 File Explorer Preview 操作界面
 
-Image Resizer 操作界面
+Image Resizer 操作界面、右键菜单
 
 Keyboard Manager 操作界面
 
@@ -61,5 +61,5 @@ PowerToys Run 操作界面、一大堆插件
 
 Shortcut Guide 操作界面、快捷键图片
 
-Video Conference Mute 按键图片
+Video Conference Mute 按键图片、摄像头设备名称
 </details>
