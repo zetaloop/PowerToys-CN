@@ -121,7 +121,7 @@
     <value>显示对话框以确认执行系统命令</value>
   </data>
   <data name="Microsoft_plugin_sys_confirmation" xml:space="preserve">
-    <value>请确认</value>
+    <value>请确认操作。</value>
     <comment>Request confirmation</comment>
   </data>
   <data name="Microsoft_plugin_sys_emptyrecyclebin" xml:space="preserve">
@@ -212,8 +212,19 @@
     <value>将运行中的应用冻结，关闭不必要的硬件并待机</value>
     <comment>This should align to the action in Windows of a making your computer go to sleep.</comment>
   </data>
+  <data name="Microsoft_plugin_sys_uefi" xml:space="preserve">
+    <value>UEFI 固件设置</value>
+    <comment>This should align to the action in Windows Recovery Environment that restart into uefi settings.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_uefi_confirmation" xml:space="preserve">
+    <value>你将在电脑重启后进入主板 UEFI 固件设置，是否确定？</value>
+    <comment>This should align to the action in Windows Recovery Environment that restart into uefi settings.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_uefi_description" xml:space="preserve">
+    <value>重启电脑，然后进入主板 UEFI 固件设置（需要管理员权限）</value>
+    <comment>This should align to the action in Windows Recovery Environment that restart into uefi settings.</comment>
+  </data>
   <data name="Use_localized_system_commands" xml:space="preserve">
-    <value>使用英文版系统命令</value>
-    <comment>修改一份纯英文的，作为resource插到原汉化里，即可使用该功能</comment>
+    <value>喵呜 (owo)/</value>
   </data>
 </root>

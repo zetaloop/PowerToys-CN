@@ -1,4 +1,4 @@
-ï»¿// Copyright (c) Microsoft Corporation
+// Copyright (c) Microsoft Corporation
 // The Microsoft Corporation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
@@ -23,8 +23,9 @@ namespace Microsoft.PowerToys.Run.Plugin.System
     {
         private PluginInitContext _context;
         private const string ConfirmSystemCommands = nameof(ConfirmSystemCommands);
-        private const string LocalizeSystemCommands = nameof(LocalizeSystemCommands);
 
+        // [PCTMOD]
+        // private const string LocalizeSystemCommands = nameof(LocalizeSystemCommands);
         internal const int EWXLOGOFF = 0x00000000;
         internal const int EWXSHUTDOWN = 0x00000001;
         internal const int EWXREBOOT = 0x00000002;
@@ -41,7 +42,10 @@ namespace Microsoft.PowerToys.Run.Plugin.System
         public string Description => Resources.Microsoft_plugin_sys_plugin_description;
 
         private bool _confirmSystemCommands;
-        private bool _localizeSystemCommands;
+
+        // [PCTMOD]
+        // private bool _localizeSystemCommands;
+        private bool isBootedInUefiMode = NativeMethods.GetSystemFirmwareType() == NativeMethods.FirmwareTypes.Uefi;
 
         public IEnumerable<PluginAdditionalOption> AdditionalOptions => new List<PluginAdditionalOption>()
         {
@@ -51,12 +55,16 @@ namespace Microsoft.PowerToys.Run.Plugin.System
                 DisplayLabel = Resources.confirm_system_commands,
                 Value = false,
             },
-            new PluginAdditionalOption()
-            {
-                Key = LocalizeSystemCommands,
-                DisplayLabel = Resources.Use_localized_system_commands,
-                Value = true,
-            },
+
+            // [PCTMOD]
+            // The original en-US resources are modified to Chinese.
+            // No need for an option to switch.
+            // new PluginAdditionalOption()
+            // {
+            //     Key = LocalizeSystemCommands,
+            //     DisplayLabel = Resources.Use_localized_system_commands,
+            //     Value = true,
+            // },
         };
 
         public void Init(PluginInitContext context)
@@ -64,6 +72,13 @@ namespace Microsoft.PowerToys.Run.Plugin.System
             _context = context;
             _context.API.ThemeChanged += OnThemeChanged;
             UpdateIconTheme(_context.API.GetCurrentTheme());
+
+            // Log info if the system hasn't boot in uefi mode.
+            // (Because this is only going into the log we can ignore the fact that normally UEFI and BIOS are written upper case. No need to convert the enumeration value to upper case.)
+            if (!isBootedInUefiMode)
+            {
+                Wox.Plugin.Logger.Log.Info($"The UEFI command will not show to the user. The system has not booted in UEFI mode or the system does not have an UEFI firmware! (Detected type: {NativeMethods.GetSystemFirmwareType()})", typeof(Main));
+            }
         }
 
         public List<Result> Query(Query query)
@@ -94,10 +109,12 @@ namespace Microsoft.PowerToys.Run.Plugin.System
         {
             CultureInfo culture = CultureInfo.CurrentUICulture;
 
-            if (!_localizeSystemCommands)
-            {
-                culture = new CultureInfo("en-US");
-            }
+            // [PCTMOD]
+            // if (!_localizeSystemCommands)
+            // {
+            //     culture = new CultureInfo("en-US");
+            // }
+            culture = new CultureInfo("en-US");
 
             var results = new List<Result>();
             results.AddRange(new[]
@@ -175,9 +192,9 @@ namespace Microsoft.PowerToys.Run.Plugin.System
                         var result = NativeMethods.SHEmptyRecycleBin(new WindowInteropHelper(Application.Current.MainWindow).Handle, 0);
                         if (result != (uint)NativeMethods.HRESULT.S_OK && result != 0x8000FFFF)
                         {
-                            var name = "æ’ä»¶: " + Resources.Microsoft_plugin_sys_plugin_name;
-                            var message = $"æ¸…ç©ºå›žæ”¶ç«™å¤±è´¥ï¼Œé”™è¯¯ä»£ç : {result}\n" +
-                                          "è¯·å‚è€ƒ https://msdn.microsoft.com/en-us/library/windows/desktop/aa378137";
+                            var name = "²å¼þ: " + Resources.Microsoft_plugin_sys_plugin_name;
+                            var message = $"Çå¿Õ»ØÊÕÕ¾Ê§°Ü£¬´íÎó´úÂë: {result}\n" +
+                                          "Çë²Î¿¼ https://msdn.microsoft.com/en-us/library/windows/desktop/aa378137";
                             _context.API.ShowMsg(name, message);
                         }
 
@@ -185,6 +202,22 @@ namespace Microsoft.PowerToys.Run.Plugin.System
                     },
                 },
             });
+
+            // UEFI command/result. It is only available on systems booted in UEFI mode.
+            if (isBootedInUefiMode)
+            {
+                results.Add(new Result
+                {
+                    Title = Resources.ResourceManager.GetString(nameof(Resources.Microsoft_plugin_sys_uefi), culture),
+                    SubTitle = Resources.ResourceManager.GetString(nameof(Resources.Microsoft_plugin_sys_uefi_description), culture),
+                    IcoPath = $"Images\\firmwareSettings.{IconTheme}.png",
+                    Action = c =>
+                    {
+                        return ExecuteCommand(Resources.Microsoft_plugin_sys_uefi_confirmation, () => Helper.OpenInShell("shutdown", "/r /fw /t 0", null, true));
+                    },
+                });
+            }
+
             return results;
         }
 
@@ -243,19 +276,23 @@ namespace Microsoft.PowerToys.Run.Plugin.System
         public void UpdateSettings(PowerLauncherPluginSettings settings)
         {
             var confirmSystemCommands = false;
-            var localizeSystemCommands = true;
 
+            // [PCTMOD]
+            // var localizeSystemCommands = true;
             if (settings != null && settings.AdditionalOptions != null)
             {
                 var optionConfirm = settings.AdditionalOptions.FirstOrDefault(x => x.Key == ConfirmSystemCommands);
                 confirmSystemCommands = optionConfirm?.Value ?? false;
 
-                var optionLocalize = settings.AdditionalOptions.FirstOrDefault(x => x.Key == LocalizeSystemCommands);
-                localizeSystemCommands = optionLocalize?.Value ?? true;
+                // [PCTMOD]
+                // var optionLocalize = settings.AdditionalOptions.FirstOrDefault(x => x.Key == LocalizeSystemCommands);
+                // localizeSystemCommands = optionLocalize?.Value ?? true;
             }
 
             _confirmSystemCommands = confirmSystemCommands;
-            _localizeSystemCommands = localizeSystemCommands;
+
+            // [PCTMOD]
+            // _localizeSystemCommands = localizeSystemCommands;
         }
     }
 }

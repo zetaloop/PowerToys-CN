@@ -2,7 +2,6 @@
 // The Microsoft Corporation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-#pragma warning disable SA1501 // FUCK U Statement should not be on a single line
 using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -105,6 +104,7 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
         /// <summary>
         /// Adds degree prefixes to degree units for shorthand notation. E.g. '10 c in fahrenheit' becomes '10 °c in DegreeFahrenheit'.
         /// </summary>
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("StyleCop.CSharp.LayoutRules", "SA1501:Statement should not be on a single line", Justification = "<挂起>")]
         public static void DegreePrefixer(ref string[] split)
         {
             switch (split[1].ToLower())

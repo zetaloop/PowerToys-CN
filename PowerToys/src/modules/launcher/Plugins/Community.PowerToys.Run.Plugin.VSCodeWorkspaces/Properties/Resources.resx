@@ -140,10 +140,14 @@
   </data>
   <data name="Workspace" xml:space="preserve">
     <value>工作区</value>
-    <comment>It refers to the "Visual Studio Code  workspace"</comment>
+    <comment>It refers to the Visual Studio Code .code-workspace</comment>
   </data>
   <data name="TypeWorkspaceDevContainer" xml:space="preserve">
     <value>开发容器</value>
     <comment>As in "Visual Studio Code Dev Container workspace "</comment>
+  </data>
+  <data name="ProjectFolder" xml:space="preserve">
+    <value>项目文件夹</value>
+    <comment>It refers to the Visual Studio Code Project Folders</comment>
   </data>
 </root>

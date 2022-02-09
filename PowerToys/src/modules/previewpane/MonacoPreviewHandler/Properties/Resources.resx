@@ -117,49 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Microsoft_plugin_indexer_copy_path" xml:space="preserve">
-    <value>复制路径(Ctrl+C)</value>
+  <data name="Max_File_Size_Error" xml:space="preserve">
+      <value>文件过大，无法预览。
+最大文件大小：50KB</value>
+      <comment>Error message which is shown when the file is too big.</comment>
   </data>
-  <data name="Microsoft_plugin_indexer_open_containing_folder" xml:space="preserve">
-    <value>打开所在文件夹(Ctrl+Shift+E)</value>
+  <data name="Exception_Occurred" xml:space="preserve">
+      <value>文件预览发生错误：
+      </value>
+      <comment>Will be shown when an exception occurred.</comment>
   </data>
-  <data name="Microsoft_plugin_indexer_run_as_administrator" xml:space="preserve">
-    <value>以管理员身份打开(Ctrl+Shift+Enter)</value>
+  <data name="Loading_Screen_Message" xml:space="preserve">
+      <value>加载中...</value>
   </data>
-  <data name="Microsoft_plugin_indexer_open_in_console" xml:space="preserve">
-    <value>在命令行打开路径(Ctrl+Shift+C)</value>
+  <data name="WebView2_Not_Installed_Message" xml:space="preserve">
+      <value>未安装 WebView2。</value>
   </data>
-  <data name="Microsoft_plugin_indexer_name" xml:space="preserve">
-    <value>名称</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_path" xml:space="preserve">
-    <value>路径</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_drivedetectionwarning" xml:space="preserve">
-    <value>警告：未完全建立索引，搜索结果可能不全。</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_disable_warning_in_settings" xml:space="preserve">
-    <value>单击转到 Windows 搜索设置进行修复。</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_clipboard_failed" xml:space="preserve">
-    <value>写入剪贴板失败</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_file_open_failed" xml:space="preserve">
-    <value>无法打开文件</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_folder_open_failed" xml:space="preserve">
-    <value>无法打开文件夹</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_plugin_description" xml:space="preserve">
-    <value>搜索文件与文件夹</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_plugin_name" xml:space="preserve">
-    <value>搜索</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_subtitle_header" xml:space="preserve">
-    <value>搜索</value>
-  </data>
-  <data name="disable_drive_detection_warning" xml:space="preserve">
-    <value>不显示未索引文件警告</value>
+  <data name="Download_WebView2" xml:space="preserve">
+      <value>下载 WebView2 即可预览该文件。</value>
   </data>
 </root>

@@ -122,7 +122,7 @@
     <comment>This text is displayed if PDF has more than 10 pages.</comment>
   </data>
   <data name="PdfNotPreviewedError" xml:space="preserve">
-    <value>由于 PowerToys PDF 预览器出现错误，无法预览此文件</value>
+    <value>由于 PowerToys PDF 预览器出现错误，无法预览此文件。</value>
     <comment>This text is displayed if PDF fails to preview</comment>
   </data>
   <data name="PdfPasswordProtectedError" xml:space="preserve">

@@ -162,7 +162,7 @@
     <comment>Area Control Panel (legacy settings)</comment>
   </data>
   <data name="AddRemovePrograms" xml:space="preserve">
-    <value>添加/删除程序</value>
+    <value>添加或删除程序</value>
     <comment>Area Control Panel (legacy settings)</comment>
   </data>
   <data name="AddYourPhone" xml:space="preserve">
@@ -432,6 +432,9 @@
   <data name="CellularAndSim" xml:space="preserve">
     <value>手机网络和 SIM</value>
     <comment>Area NetworkAndInternet</comment>
+  </data>
+  <data name="ChangePrograms" xml:space="preserve">
+    <value>更改程序</value>
   </data>
   <data name="ChangeUACSettings" xml:space="preserve">
     <value>更改用户帐户控制设置</value>
@@ -1012,90 +1015,69 @@
   </data>
   <data name="NoteAddYourPhone" xml:space="preserve">
     <value>仅当您将移动设备连接到您的设备时可用。</value>
-    <comment>//Only available when you have connected a mobile device to your device.</comment>
   </data>
   <data name="NoteAdvancedGraphics" xml:space="preserve">
     <value>仅在支持高级图形选项的设备上可用。</value>
-    <comment>//Only available on devices that support advanced graphics options.</comment>
   </data>
   <data name="NoteBattery" xml:space="preserve">
     <value>仅适用于配备电池的设备，例如平板电脑。</value>
-    <comment>//Only available on devices that have a battery, such as a tablet.</comment>
   </data>
   <data name="NoteDeprecated17763" xml:space="preserve">
     <value>在 Windows 10 版本 1809（内部版本 17763）及更高版本中已弃用。</value>
-    <comment>//Deprecated in Windows 10, version 1809 (build 17763) and later.</comment>
   </data>
   <data name="NoteDialPaired" xml:space="preserve">
     <value>仅当 Dial 已配对时可用。</value>
-    <comment>//Only available if Dial is paired.</comment>
   </data>
   <data name="NoteDirectAccess" xml:space="preserve">
     <value>仅当 DirectAccess 启用时可用。</value>
-    <comment>//Only available if DirectAccess is enabled.</comment>
   </data>
   <data name="NoteDisplayGraphics" xml:space="preserve">
     <value>仅在支持高级显示选项的设备上可用。</value>
-    <comment>//Only available on devices that support advanced display options.</comment>
   </data>
   <data name="NoteEditingRequireAdminPrivileges" xml:space="preserve">
     <value>编辑此设置需要管理员权限。</value>
   </data>
   <data name="NoteEnrolledWIP" xml:space="preserve">
     <value>仅当用户注册 WIP 时出现。</value>
-    <comment>//Only present if user is enrolled in WIP.</comment>
   </data>
   <data name="NoteEyetrackerHardware" xml:space="preserve">
     <value>需要目视跟踪设备。</value>
-    <comment>//Requires eyetracker hardware.</comment>
   </data>
   <data name="NoteImeJapan" xml:space="preserve">
     <value>仅在安装了微软日语输入法后可用。</value>
-    <comment>//Available if the Microsoft Japan input method editor is installed.</comment>
   </data>
   <data name="NoteImePinyin" xml:space="preserve">
     <value>仅在安装了微软拼音输入法后可用。</value>
-    <comment>//Available if the Microsoft Pinyin input method editor is installed.</comment>
   </data>
   <data name="NoteImeWubi" xml:space="preserve">
     <value>仅在安装了微软五笔输入法后可用。</value>
-    <comment>//Available if the Microsoft Wubi input method editor is installed.</comment>
   </data>
   <data name="NoteMixedReality" xml:space="preserve">
     <value>仅在安装了混合现实门户应用程序后可用。</value>
-    <comment>//Only available if the Mixed Reality Portal app is installed.</comment>
   </data>
   <data name="NoteMobileProvisioning" xml:space="preserve">
     <value>仅在企业已部署预配包的移动设备上可用。</value>
-    <comment>//Only available on mobile and if the enterprise has deployed a provisioning package.</comment>
   </data>
   <data name="NoteSince18362" xml:space="preserve">
     <value>在 Windows 10 版本 1903（内部版本 18362）中加入。</value>
-    <comment>//Added in Windows 10, version 1903 (build 18362).</comment>
   </data>
   <data name="NoteSince19041" xml:space="preserve">
     <value>在 Windows 10 版本 2004（内部版本 19041）中加入。</value>
-    <comment>//Added in Windows 10, version 2004 (build 19041).</comment>
   </data>
   <data name="NoteThirdParty" xml:space="preserve">
     <value>仅当安装了第三方设置应用时可用。</value>
-    <comment>//Only available if "settings apps" are installed, for example, by a 3rd party.</comment>
   </data>
   <data name="NoteTouchpad" xml:space="preserve">
     <value>仅当存在触摸板硬件时可用。</value>
-    <comment>//Only available if touchpad hardware is present.</comment>
   </data>
   <data name="NoteWiFiAdapter" xml:space="preserve">
     <value>仅当设备具有 Wi-Fi 适配器时可用。</value>
-    <comment>//Only available if the device has a Wi-Fi adapter.</comment>
   </data>
   <data name="NoteWindowsAnywhere" xml:space="preserve">
     <value>设备必须支持 Windows Anywhere。</value>
-    <comment>//Device must be Windows Anywhere-capable.</comment>
   </data>
   <data name="NoteWorkplaceProvisioning" xml:space="preserve">
     <value>仅在企业已部署预配包时可用。</value>
-    <comment>//Only available if enterprise has deployed a provisioning package.</comment>
   </data>
   <data name="Notifications" xml:space="preserve">
     <value>通知</value>
@@ -1378,6 +1360,12 @@
     <value>远程桌面</value>
     <comment>Area System</comment>
   </data>
+  <data name="RemovePrograms" xml:space="preserve">
+    <value>删除程序</value>
+  </data>
+  <data name="RepairPrograms" xml:space="preserve">
+    <value>修复程序</value>
+  </data>
   <data name="ScannersAndCameras" xml:space="preserve">
     <value>扫描仪和照相机</value>
     <comment>Area Control Panel (legacy settings)</comment>
@@ -1619,6 +1607,9 @@
   <data name="Uninstall" xml:space="preserve">
     <value>卸载</value>
     <comment>Area MixedReality, only available if the Mixed Reality Portal app is installed.</comment>
+  </data>
+  <data name="UninstallPrograms" xml:space="preserve">
+    <value>卸载程序</value>
   </data>
   <data name="Usb" xml:space="preserve">
     <value>USB</value>

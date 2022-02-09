@@ -118,14 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Shell_VideoConference.Content" xml:space="preserve">
-    <value>视频会议</value>
+    <value>录制工具</value>
     <comment>Navigation view item name for Video Conference</comment>
   </data>
   <data name="VideoConference_Enable.Header" xml:space="preserve">
-    <value>启用视频会议工具</value>
+    <value>启用录制工具</value>
   </data>
   <data name="VideoConference.ModuleDescription" xml:space="preserve">
-    <value>视频会议工具可以让你方便地控制麦克风与摄像头。禁用该工具或退出 PowerToys 将会取消静音并恢复摄像头。</value>
+    <value>录制工具可以让你方便地控制麦克风与摄像头。</value>
   </data>
   <data name="VideoConference_CameraAndMicrophoneMuteHotkeyControl_Header.Header" xml:space="preserve">
     <value>关闭摄像头和麦克风</value>
@@ -182,13 +182,16 @@
     <value>所有显示器</value>
   </data>
   <data name="VideoConference_HideToolbarWhenUnmuted.Content" xml:space="preserve">
-    <value>摄像头、麦克风均未关闭时隐藏工具栏</value>
+    <value>摄像头、麦克风均开启时隐藏工具栏</value>
   </data>
   <data name="VideoConference.ModuleTitle" xml:space="preserve">
-    <value>视频会议工具</value>
+    <value>录制工具</value>
   </data>
   <data name="VideoConference_Camera.Header" xml:space="preserve">
     <value>摄像头</value>
+  </data>
+  <data name="VideoConference_Camera.Description" xml:space="preserve">
+    <value>为了让功能生效，请在视频软件里把“录制工具虚拟摄像”选作摄像头</value>
   </data>
   <data name="VideoConference_Microphone.Header" xml:space="preserve">
     <value>麦克风</value>
@@ -381,7 +384,7 @@
     <value>可执行文件名</value>
   </data>
   <data name="PowerLauncher_MaximumNumberOfResults.Header" xml:space="preserve">
-    <value>最大结果数</value>
+    <value>每页显示结果数</value>
   </data>
   <data name="PowerLauncher_OpenPowerLauncher.Header" xml:space="preserve">
     <value>启动快速启动器</value>
@@ -444,7 +447,7 @@
     <value>填写忽略应用的名称，每行一个，这些应用程序不受到布局管理</value>
   </data>
   <data name="FancyZones_HighlightOpacity.Header" xml:space="preserve">
-    <value>布局区不透明度</value>
+    <value>不透明度（%）</value>
   </data>
   <data name="FancyZones_HotkeyEditorControl.Header" xml:space="preserve">
     <value>启动布局编辑器</value>
@@ -454,19 +457,19 @@
     <value>窗口切换</value>
   </data>
   <data name="FancyZones_WindowSwitching_GroupSettings.Description" xml:space="preserve">
-    <value>在当前一个布局区内，轮流切换窗口</value>
+    <value>在当前布局区内，用快捷键切换窗口</value>
   </data>
   <data name="FancyZones_HotkeyNextTabControl.Header" xml:space="preserve">
     <value>下一个</value>
   </data>
   <data name="FancyZones_HotkeyNextTabControl.Description" xml:space="preserve">
-    <value>切换到当前布局区下一个窗口</value>
+    <value>切换到当前布局区下一个窗口的快捷键</value>
   </data>
   <data name="FancyZones_HotkeyPrevTabControl.Header" xml:space="preserve">
     <value>上一个</value>
   </data>
   <data name="FancyZones_HotkeyPrevTabControl.Description" xml:space="preserve">
-    <value>切换到当前布局区上一个窗口</value>
+    <value>切换到当前布局区上一个窗口的快捷键</value>
   </data>
   <data name="SettingsPage_SetShortcut.AutomationProperties.Name" xml:space="preserve">
     <value>快捷键设置</value>
@@ -483,7 +486,7 @@
     <comment>launches the FancyZones layout editor application</comment>
   </data>
   <data name="FancyZones_LaunchEditorButtonControl.Description" xml:space="preserve">
-    <value>配置和管理你的窗口布局</value>
+    <value>配置和管理窗口布局</value>
     <comment>launches the FancyZones layout editor application</comment>
   </data>
   <data name="FancyZones_MakeDraggedWindowTransparentCheckBoxControl.Content" xml:space="preserve">
@@ -530,13 +533,13 @@
     <value>布局功能</value>
   </data>
   <data name="FancyZones_ZoneBehavior_GroupSettings.Description" xml:space="preserve">
-    <value>管理布局的行为表现</value>
+    <value>管理布局的功能</value>
   </data>
   <data name="FancyZones_Zones.Header" xml:space="preserve">
     <value>布局</value>
   </data>
   <data name="FancyZones_ZoneHighlightColor.Header" xml:space="preserve">
-    <value>布局区激活颜色</value>
+    <value>激活颜色</value>
   </data>
   <data name="FancyZones_ZoneSetChangeMoveWindows.Content" xml:space="preserve">
     <value>布局切换时，自动调整窗口适配新的布局</value>
@@ -617,6 +620,10 @@
     <value>启用 Markdown (.md) 预览</value>
     <comment>Do not loc "Markdown".  Do you want this feature on / off</comment>
   </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Preview_Monaco.Header" xml:space="preserve">
+    <value>启用开发文件 (.cpp .py 等) 预览</value>
+    <comment>Do you want this feature on / off</comment>
+  </data>
   <data name="FileExplorerPreview_ToggleSwitch_Preview_SVG.Header" xml:space="preserve">
     <value>启用 SVG (.svg) 预览</value>
     <comment>Do you want this feature on / off</comment>
@@ -627,6 +634,10 @@
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_SVG_Thumbnail.Header" xml:space="preserve">
     <value>启用 SVG (.svg) 缩略图</value>
+    <comment>Do you want this feature on / off</comment>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_STL_Thumbnail.Header" xml:space="preserve">
+    <value>启用 STL (.stl) 缩略图</value>
     <comment>Do you want this feature on / off</comment>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_PDF_Thumbnail.Header" xml:space="preserve">
@@ -646,20 +657,20 @@
     <value>保留历史记录，启用自动补全</value>
   </data>
   <data name="FancyZones_BorderColor.Header" xml:space="preserve">
-    <value>布局区边框颜色</value>
+    <value>边框颜色</value>
   </data>
   <data name="FancyZones_InActiveColor.Header" xml:space="preserve">
-    <value>布局区闲置颜色</value>
+    <value>闲置颜色</value>
   </data>
   <data name="ShortcutGuide.ModuleDescription" xml:space="preserve">
     <value>显示当前可用的系统快捷键图表。</value>
   </data>
   <data name="ShortcutGuide_PressTime.Header" xml:space="preserve">
-    <value>长按时间</value>
-    <comment>pressing a key in milliseconds</comment>
+    <value>长按时间（毫秒）</value>
+    <comment>ms = milliseconds</comment>
   </data>
   <data name="ShortcutGuide_PressTime.Description" xml:space="preserve">
-    <value>长按 Win 键激活所需的持续时间（毫秒）</value>
+    <value>长按 Win 键激活图表所需的持续时间</value>
   </data>
   <data name="ShortcutGuide_ActivationMethod.Header" xml:space="preserve">
     <value>激活方式</value>
@@ -684,7 +695,7 @@
     <comment>do not loc the Product name.  Do you want this feature on / off</comment>
   </data>
   <data name="ShortcutGuide_OverlayOpacity.Header" xml:space="preserve">
-    <value>背景不透明度</value>
+    <value>背景不透明度（%）</value>
   </data>
   <data name="ShortcutGuide_DisabledApps.Header" xml:space="preserve">
     <value>忽略应用列表</value>
@@ -750,7 +761,7 @@
     <value>保存</value>
   </data>
   <data name="ImageResizer_Encoding.Header" xml:space="preserve">
-    <value>JPEG 压缩质量</value>
+    <value>JPEG 压缩质量（%）</value>
   </data>
   <data name="ImageResizer_PNGInterlacing.Header" xml:space="preserve">
     <value>PNG 隔行扫描</value>
@@ -993,14 +1004,15 @@
   <data name="FileExplorerPreview_IconThumbnail_GroupSettings.Header" xml:space="preserve">
     <value>文件缩略图</value>
   </data>
-  <data name="FileExplorerPreview_PreviewPane_GroupSettings.Header" xml:space="preserve">
+  <data name="FileExplorerPreview_PreviewPane.Header" xml:space="preserve">
     <value>预览窗格</value>
   </data>
-  <data name="FileExplorerPreview_RunAsAdminRequired.Title" xml:space="preserve">
-    <value>要修改这些设置，请以管理员身份重新启动程序</value>
+  <data name="FileExplorerPreview_PreviewPane.Description" xml:space="preserve">
+    <value>在文件夹中按 Alt + P 即可打开预览窗格。</value>
+    <comment>Preview Pane and File Explorer are app/feature names in Windows. 'Alt + P' is a shortcut</comment>
   </data>
-  <data name="FileExplorerPreview_AffectsAllUsers.Title" xml:space="preserve">
-    <value>这些设置影响系统上的所有用户</value>
+  <data name="FileExplorerPreview_RunAsAdminRequired.Title" xml:space="preserve">
+    <value>要修改此设置，请以管理员身份重新启动程序</value>
   </data>
   <data name="FileExplorerPreview_RebootRequired.Title" xml:space="preserve">
     <value>为了使更改生效，可能需要重启电脑</value>
@@ -1064,7 +1076,7 @@
     <value>窗口功能</value>
   </data>
   <data name="FancyZones_WindowBehavior_GroupSettings.Description" xml:space="preserve">
-    <value>管理窗口的行为表现</value>
+    <value>管理窗口的功能</value>
   </data>
   <data name="FancyZones_Windows.Header" xml:space="preserve">
     <value>窗口</value>
@@ -1136,7 +1148,7 @@
     <value>相对位置</value>
   </data>
   <data name="FancyZones_MoveWindow.Header" xml:space="preserve">
-    <value>窗口移动方式</value>
+    <value>控制模式</value>
   </data>
   <data name="FancyZones_MoveWindowLeftRightBasedOnZoneIndex.Text" xml:space="preserve">
     <value>排列顺序</value>
@@ -1176,7 +1188,13 @@
     <value>没有任何唤醒词时也显示</value>
   </data>
   <data name="PowerLauncher_EnablePluginToggle.AutomationProperties.Name" xml:space="preserve">
-    <value>启用插件</value>
+    <value>Enable plugin</value>
+  </data>
+  <data name="PowerLauncher_EnablePluginToggle.OnContent" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="PowerLauncher_EnablePluginToggle.OffContent" xml:space="preserve">
+    <value>关</value>
   </data>
   <data name="Run_AdditionalOptions.Text" xml:space="preserve">
     <value>附加选项</value>
@@ -1201,7 +1219,7 @@
     <value>在搜索结果中启用各个插件，更改触发方式，调整附加选项</value>
   </data>
   <data name="Run_PositionAppearance_GroupSettings.Header" xml:space="preserve">
-    <value>界面与功能</value>
+    <value>外观</value>
   </data>
   <data name="Run_PositionHeader.Header" xml:space="preserve">
     <value>显示位置</value>
@@ -1248,7 +1266,7 @@
     <value>启动快捷键</value>
   </data>
   <data name="Activation_Shortcut.Description" xml:space="preserve">
-    <value>自定义启动本功能的快捷键</value>
+    <value>自定义启动功能的快捷键</value>
   </data>
   <data name="Oobe_GetStarted.Text" xml:space="preserve">
     <value>让我们开始吧！</value>
@@ -1277,7 +1295,7 @@
     <value>一个窗口管理器，可将窗口排列对齐到一定的布局中，便于多任务处理。</value>
   </data>
   <data name="Oobe_FileExplorer_Description" xml:space="preserve">
-    <value>Windows 文件资源管理器的增强组件，可以预览 Markdown 文档 (.md)、PDF 文档 (.pdf) 和 SVG 图像 (.svg)。</value>
+    <value>Windows 文件资源管理器的增强组件，支持预览 Markdown 文档 (.md)、PDF 文档 (.pdf)、SVG 图像 (.svg)、G-code 模型 (.gcode)、STL 模型 (.stl) 和一些常用的开发文件 (.cpp .py 等)。</value>
   </data>
   <data name="Oobe_ImageResizer_Description" xml:space="preserve">
     <value>使用图像裁剪器，可以方便地批量调整图像大小。</value>
@@ -1295,7 +1313,7 @@
     <value>显示当前可用的系统快捷键图表。</value>
   </data>
   <data name="Oobe_VideoConference_Description" xml:space="preserve">
-    <value>视频会议工具让用户可以在远程会议时一键静音麦克风和关闭摄像头。</value>
+    <value>录制工具让用户可以在远程会议时一键静音麦克风和关闭摄像头。</value>
   </data>
   <data name="Oobe_MouseUtils_Description" xml:space="preserve">
     <value>一系列关于鼠标的小工具。</value>
@@ -1332,7 +1350,7 @@
   </data>
   <data name="Oobe_FileExplorer_HowToEnable.Text" xml:space="preserve">
     <value>打开文件资源管理器，在顶部的工具栏中选择 **查看** 选项卡，然后选择 **预览窗格** 来启用预览功能。
-然后，试试选中 Markdown、PDF 文档或 SVG 图像，在预览窗格中直接显示了文件内容！</value>
+然后，试试选中一个文档或图像，在预览窗格中直接显示了文件内容！</value>
   </data>
   <data name="Oobe_HowToCreateMappings.Text" xml:space="preserve">
     <value>如何创建映射</value>
@@ -1422,7 +1440,7 @@
     <comment>Do not localize this string</comment>
   </data>
   <data name="Oobe_VideoConference" xml:space="preserve">
-    <value>视频会议</value>
+    <value>录制工具</value>
     <comment>Do not localize this string</comment>
   </data>
   <data name="Oobe_Welcome" xml:space="preserve">
@@ -1545,6 +1563,9 @@
   <data name="EditButton.AutomationProperties.Name" xml:space="preserve">
     <value>编辑</value>
   </data>
+  <data name="ImageResizer_EditSize.AutomationProperties.Name" xml:space="preserve">
+    <value>编辑</value>
+  </data>
   <data name="No" xml:space="preserve">
     <value>否</value>
     <comment>Label of a cancel button</comment>
@@ -1619,7 +1640,7 @@
     <comment>Shortcut Guide is a product name, do not loc</comment>
   </data>
   <data name="LearnMore_VCM.Text" xml:space="preserve">
-    <value>详细了解视频会议工具</value>
+    <value>详细了解录制工具</value>
     <comment>Video Conference Mute is a product name, do not loc</comment>
   </data>
   <data name="Oobe_FileExplorer" xml:space="preserve">
@@ -1635,7 +1656,7 @@
     <comment>Mouse as in the hardware peripheral</comment>
   </data>
   <data name="Oobe_MouseUtils_FindMyMouse_Description.Text" xml:space="preserve">
-    <value>双击左 Ctrl 键，在鼠标光标所在位置投下聚光灯，方便寻找</value>
+    <value>双击左 Ctrl 键，在鼠标光标所在位置投下聚光灯，方便寻找。</value>
     <comment>Mouse as in the hardware peripheral. Key as in a keyboard key</comment>
   </data>
   <data name="Oobe_MouseUtils_MouseHighlighter.Text" xml:space="preserve">
@@ -1643,7 +1664,15 @@
     <comment>Mouse as in the hardware peripheral.</comment>
   </data>
   <data name="Oobe_MouseUtils_MouseHighlighter_Description.Text" xml:space="preserve">
-    <value>通过快捷键启用，按下鼠标左键和右键，显示高亮标记</value>
+    <value>通过快捷键启用，按下鼠标左键和右键，显示高亮标记。</value>
+    <comment>Mouse as in the hardware peripheral.</comment>
+  </data>
+  <data name="Oobe_MouseUtils_MousePointerCrosshairs.Text" xml:space="preserve">
+    <value>鼠标十字线</value>
+    <comment>Mouse as in the hardware peripheral.</comment>
+  </data>
+  <data name="Oobe_MouseUtils_MousePointerCrosshairs_Description.Text" xml:space="preserve">
+    <value>以鼠标光标为中心显示十字准线，显示鼠标位置。</value>
     <comment>Mouse as in the hardware peripheral.</comment>
   </data>
   <data name="Launch_Run.Content" xml:space="preserve">
@@ -1709,7 +1738,7 @@
   <data name="InvalidShortcutWarningLabel.Text" xml:space="preserve">
     <value>只有以 **Win**、**Ctrl**、**Alt**、**Shift** 开头的快捷键才有效</value>
   </data>
-  <data name="FancyZones_SpanZonesAcrossMonitorsPrerequisites.Text" xml:space="preserve">
+  <data name="FancyZones_SpanZonesAcrossMonitors.Description" xml:space="preserve">
     <value>显示器的缩放比例需相同，且将视作一整个长方形</value>
   </data>
   <data name="ImageResizer_DefaultSize_NewSizePrefix" xml:space="preserve">
@@ -1729,16 +1758,16 @@
     <value>鼠标聚光灯</value>
     <comment>Refers to the utility name</comment>
   </data>
+  <data name="MouseUtils_FindMyMouse.Description" xml:space="preserve">
+    <value>双击左 Ctrl，为鼠标光标投下聚光灯，方便寻找</value>
+    <comment>"Ctrl" is a keyboard key. "Find My Mouse" is the name of the utility</comment>
+  </data>
   <data name="MouseUtils_Enable_FindMyMouse.Header" xml:space="preserve">
     <value>启用鼠标聚光灯</value>
     <comment>"Find My Mouse" is the name of the utility.</comment>
   </data>
-	<data name="MouseUtils_FindMyMouse_Description.Text" xml:space="preserve">
-    <value>双击左 Ctrl，为鼠标光标投下聚光灯，方便寻找</value>
-    <comment>"Ctrl" is a keyboard key. "Find My Mouse" is the name of the utility</comment>
-  </data>
   <data name="MouseUtils_Prevent_Activation_On_Game_Mode.Content" xml:space="preserve">
-    <value>游戏模式开启时禁用</value>
+    <value>游戏模式中禁用</value>
     <comment>"Game mode" is the Windows feature to prevent notification when playing a game.</comment>
   </data>
   <data name="MouseUtils_FindMyMouse_BackgroundColor.Header" xml:space="preserve">
@@ -1748,10 +1777,11 @@
     <value>聚光灯颜色</value>
   </data>
   <data name="MouseUtils_FindMyMouse_OverlayOpacity.Header" xml:space="preserve">
-    <value>不透明度</value>
+    <value>不透明度（%）</value>
   </data>
   <data name="MouseUtils_FindMyMouse_SpotlightRadius.Header" xml:space="preserve">
-    <value>聚光灯半径</value>
+    <value>聚光灯半径（像素）</value>
+    <comment>px = pixels</comment>
   </data>
   <data name="MouseUtils_FindMyMouse_SpotlightInitialZoom.Header" xml:space="preserve">
     <value>聚光灯凝聚量</value>
@@ -1760,53 +1790,98 @@
     <value>聚光灯汇聚、发散的大小</value>
   </data>
   <data name="MouseUtils_FindMyMouse_AnimationDurationMs.Header" xml:space="preserve">
-    <value>动画持续时间</value>
+    <value>动画持续时间（毫秒）</value>
+    <comment>ms = milliseconds</comment>
   </data>
   <data name="MouseUtils_FindMyMouse_AnimationDurationMs.Description" xml:space="preserve">
-    <value>聚光灯出现、消失的时长（毫秒）</value>
+    <value>聚光灯出现、消失的时长</value>
   </data>
   <data name="MouseUtils_MouseHighlighter.Header" xml:space="preserve">
     <value>鼠标荧光笔</value>
     <comment>Refers to the utility name</comment>
   </data>
+  <data name="MouseUtils_MouseHighlighter.Description" xml:space="preserve">
+    <value>高亮突出鼠标动作</value>
+    <comment>"Mouse Highlighter" is the name of the utility. Mouse is the hardware mouse.</comment>
+  </data>
   <data name="MouseUtils_Enable_MouseHighlighter.Header" xml:space="preserve">
     <value>启用鼠标荧光笔</value>
     <comment>"Find My Mouse" is the name of the utility.</comment>
   </data>
-  <data name="MouseUtils_MouseHighlighter_Description.Text" xml:space="preserve">
-    <value>高亮突出鼠标动作</value>
-    <comment>"Mouse Highlighter" is the name of the utility. Mouse is the hardware mouse.</comment>
-  </data>
-	<data name="MouseUtils_MouseHighlighter_ActivationShortcut.Header" xml:space="preserve">
+  <data name="MouseUtils_MouseHighlighter_ActivationShortcut.Header" xml:space="preserve">
     <value>启动快捷键</value>
   </data>
-	<data name="MouseUtils_MouseHighlighter_ActivationShortcut.Description" xml:space="preserve">
-    <value>自定义启动快捷键</value>
+  <data name="MouseUtils_MouseHighlighter_ActivationShortcut.Description" xml:space="preserve">
+    <value>自定义打开荧光笔的快捷键</value>
     <comment>"Mouse Highlighter" is the name of the utility. Mouse is the hardware mouse.</comment>
   </data>
-	<data name="MouseUtils_MouseHighlighter_LeftButtonClickColor.Header" xml:space="preserve">
+  <data name="MouseUtils_MouseHighlighter_LeftButtonClickColor.Header" xml:space="preserve">
     <value>左键颜色</value>
   </data>
   <data name="MouseUtils_MouseHighlighter_RightButtonClickColor.Header" xml:space="preserve">
     <value>右键颜色</value>
   </data>
   <data name="MouseUtils_MouseHighlighter_HighlightOpacity.Header" xml:space="preserve">
-    <value>不透明度</value>
+    <value>不透明度（%）</value>
   </data>
   <data name="MouseUtils_MouseHighlighter_HighlightRadius.Header" xml:space="preserve">
-    <value>半径</value>
+    <value>半径（像素）</value>
+    <comment>px = pixels</comment>
   </data>
   <data name="MouseUtils_MouseHighlighter_FadeDelayMs.Header" xml:space="preserve">
-    <value>消失延迟</value>
+    <value>消失延迟（毫秒）</value>
+    <comment>ms = milliseconds</comment>
   </data>
   <data name="MouseUtils_MouseHighlighter_FadeDelayMs.Description" xml:space="preserve">
-    <value>高亮开始消失的时间（毫秒）</value>
+    <value>高亮开始消失的时间</value>
+    <comment>ms = milliseconds</comment>
   </data>
   <data name="MouseUtils_MouseHighlighter_FadeDurationMs.Header" xml:space="preserve">
-    <value>消失时长</value>
+    <value>消失时长（毫秒）</value>
+    <comment>ms = milliseconds</comment>
   </data>
   <data name="MouseUtils_MouseHighlighter_FadeDurationMs.Description" xml:space="preserve">
-    <value>高亮消失所用的时间（毫秒）</value>
+    <value>高亮消失所用的时间</value>
+    <comment>ms = milliseconds</comment>
+  </data>
+  <data name="MouseUtils_MousePointerCrosshairs.Header" xml:space="preserve">
+    <value>鼠标十字线</value>
+    <comment>Refers to the utility name</comment>
+  </data>
+  <data name="MouseUtils_MousePointerCrosshairs.Description" xml:space="preserve">
+    <value>以鼠标光标为中心显示十字准线</value>
+    <comment>"Mouse Pointer Crosshairs" is the name of the utility. Mouse is the hardware mouse.</comment>
+  </data>
+  <data name="MouseUtils_Enable_MousePointerCrosshairs.Header" xml:space="preserve">
+    <value>启用鼠标十字线</value>
+    <comment>"Mouse Pointer Crosshairs" is the name of the utility.</comment>
+  </data>
+  <data name="MouseUtils_MousePointerCrosshairs_ActivationShortcut.Header" xml:space="preserve">
+    <value>启动快捷键</value>
+  </data>
+  <data name="MouseUtils_MousePointerCrosshairs_ActivationShortcut.Description" xml:space="preserve">
+    <value>自定义打开十字线的快捷键</value>
+  </data>
+  <data name="MouseUtils_MousePointerCrosshairs_CrosshairsColor.Header" xml:space="preserve">
+    <value>线条颜色</value>
+  </data>
+  <data name="MouseUtils_MousePointerCrosshairs_CrosshairsOpacity.Header" xml:space="preserve">
+    <value>不透明度（%）</value>
+  </data>
+  <data name="MouseUtils_MousePointerCrosshairs_CrosshairsRadius.Header" xml:space="preserve">
+    <value>中心半径（像素）</value>
+    <comment>px = pixels</comment>
+  </data>
+  <data name="MouseUtils_MousePointerCrosshairs_CrosshairsThickness.Header" xml:space="preserve">
+    <value>线条厚度（像素）</value>
+    <comment>px = pixels</comment>
+  </data>
+  <data name="MouseUtils_MousePointerCrosshairs_CrosshairsBorderColor.Header" xml:space="preserve">
+    <value>边框颜色</value>
+  </data>
+  <data name="MouseUtils_MousePointerCrosshairs_CrosshairsBorderSize.Header" xml:space="preserve">
+    <value>边框厚度（像素）</value>
+    <comment>px = pixels</comment>
   </data>
   <data name="FancyZones_Radio_Custom_Colors.Content" xml:space="preserve">
     <value>自定义</value>
@@ -1822,5 +1897,124 @@
   </data>
   <data name="FancyZones_Zone_Appearance.Header" xml:space="preserve">
     <value>布局外观</value>
+  </data>
+  <data name="VideoConference_RunAsAdminRequired.Title" xml:space="preserve">
+    <value>要修改此设置，请以管理员身份重新启动程序。</value>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_GCODE_Thumbnail.Header" xml:space="preserve">
+    <value>启用 G-code (.gcode) 缩略图</value>
+    <comment>Do you want this feature on / off</comment>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_GCODE_Thumbnail.Description" xml:space="preserve">
+    <value>仅支持嵌入缩略图的 G-code 文件</value>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Preview_GCODE.Description" xml:space="preserve">
+    <value>仅支持嵌入缩略图的 G-code 文件</value>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Preview_GCODE.Header" xml:space="preserve">
+    <value>启用 G-code (.gcode) 预览</value>
+    <comment>Do you want this feature on / off</comment>
+  </data>
+  <data name="FancyZones_NumberColor.Header" xml:space="preserve">
+    <value>编号颜色</value>
+  </data>
+  <data name="FancyZones_ShowZoneNumberCheckBoxControl.Content" xml:space="preserve">
+    <value>显示布局区编号</value>
+  </data>
+  <data name="ToggleSwitch.OffContent" xml:space="preserve">
+    <value>关</value>
+    <comment>The state of a ToggleSwitch when it's off</comment>
+  </data>
+  <data name="ToggleSwitch.OnContent" xml:space="preserve">
+    <value>开</value>
+    <comment>The state of a ToggleSwitch when it's on</comment>
+  </data>
+  <data name="AlwaysOnTop.ModuleDescription" xml:space="preserve">
+    <value>一键置顶当前窗口。</value>
+    <comment>"Always On Top" is the name of the utility</comment>
+  </data>
+  <data name="AlwaysOnTop.ModuleTitle" xml:space="preserve">
+    <value>窗口置顶</value>
+    <comment>"Always On Top" is the name of the utility</comment>
+  </data>
+  <data name="AlwaysOnTop_Activation_GroupSettings.Header" xml:space="preserve">
+    <value>快捷键</value>
+  </data>
+  <data name="AlwaysOnTop_EnableToggleControl_HeaderText.Header" xml:space="preserve">
+    <value>启用窗口置顶</value>
+    <comment>"Always On Top" is the name of the utility</comment>
+  </data>
+  <data name="AlwaysOnTop_ExcludedApps.Description" xml:space="preserve">
+    <value>填写忽略应用的名称，每行一个，这些应用程序将不会被置顶</value>
+  </data>
+  <data name="AlwaysOnTop_ExcludedApps.Header" xml:space="preserve">
+    <value>忽略应用列表</value>
+  </data>
+  <data name="AlwaysOnTop_ExcludedApps_TextBoxControl.PlaceholderText" xml:space="preserve">
+    <value>例如: outlook.exe</value>
+  </data>
+  <data name="AlwaysOnTop_FrameColor.Header" xml:space="preserve">
+    <value>自定义颜色</value>
+  </data>
+  <data name="AlwaysOnTop_FrameEnabled.Header" xml:space="preserve">
+    <value>窗口轮廓线</value>
+  </data>
+  <data name="AlwaysOnTop_FrameThickness.Header" xml:space="preserve">
+    <value>厚度（像素）</value>
+    <comment>px = pixels</comment>
+  </data>
+  <data name="AlwaysOnTop_Behavior_GroupSettings.Header" xml:space="preserve">
+    <value>功能</value>
+  </data>
+  <data name="Shell_AlwaysOnTop.Content" xml:space="preserve">
+    <value>窗口置顶</value>
+    <comment>"Always On Top" is the name of the utility</comment>
+  </data>
+  <data name="AlwaysOnTop_GameMode.Content" xml:space="preserve">
+    <value>游戏模式中禁用</value>
+    <comment>Game Mode is a Windows feature</comment>
+  </data>
+  <data name="AlwaysOnTop_SoundTitle.Header" xml:space="preserve">
+    <value>提示音</value>
+  </data>
+  <data name="AlwaysOnTop_Sound.Content" xml:space="preserve">
+    <value>播放操作提示音</value>
+  </data>
+  <data name="AlwaysOnTop_Behavior.Header" xml:space="preserve">
+    <value>功能</value>
+  </data>
+  <data name="LearnMore_AlwaysOnTop.Text" xml:space="preserve">
+    <value>详细了解窗口置顶</value>
+    <comment>"Always On Top" is the name of the utility</comment>
+  </data>
+  <data name="AlwaysOnTop_ActivationShortcut.Header" xml:space="preserve">
+    <value>启动快捷键</value>
+  </data>
+  <data name="AlwaysOnTop_ActivationShortcut.Description" xml:space="preserve">
+    <value>自定义置顶窗口的快捷键</value>
+    <comment>"Always On Top" is the name of the utility</comment>
+  </data>
+  <data name="Oobe_AlwaysOnTop" xml:space="preserve">
+    <value>窗口置顶</value>
+    <comment>"Always On Top" is the name of the utility</comment>
+  </data>
+  <data name="Oobe_AlwaysOnTop_Description" xml:space="preserve">
+    <value>窗口置顶工具可以一键固定窗口到顶层，优化你的多任务工作流程。</value>
+    <comment>"Always On Top" is the name of the utility</comment>
+  </data>
+  <data name="Oobe_AlwaysOnTop_HowToUse.Text" xml:space="preserve">
+    <value>置顶（或取消置顶）当前窗口，将其置于其他窗口上层。</value>
+  </data>
+  <data name="Oobe_AlwaysOnTop_TipsAndTricks.Text" xml:space="preserve">
+    <value>在设置里可以更改置顶窗口的轮廓线。</value>
+  </data>
+  <data name="AlwaysOnTop_FrameColor_Mode.Header" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="AlwaysOnTop_Radio_Custom_Color.Content" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="AlwaysOnTop_Radio_Windows_Default.Content" xml:space="preserve">
+    <value>系统主题色</value>
   </data>
 </root>

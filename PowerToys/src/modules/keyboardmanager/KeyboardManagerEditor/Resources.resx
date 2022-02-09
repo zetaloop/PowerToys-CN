@@ -160,6 +160,7 @@
   </data>
   <data name="EditShortcuts_SourceHeader" xml:space="preserve">
     <value>按键组合</value>
+    <comment>key sequence on a keyboard, example Control+C to copy a string</comment>
   </data>
   <data name="EditShortcuts_TargetHeader" xml:space="preserve">
     <value>修改功能</value>
@@ -186,8 +187,9 @@
     <value>选择要修改的按键组合与目标功能</value>
   </data>
   <data name="EditShortcuts_InfoExample" xml:space="preserve">
-    <value>例如，若要在 Edge 浏览器中把 Ctrl+C 变成 Alt 键，请把 Ctrl+C 修改成 Alt，目标程序 msedge。
-目标程序是指进程名称（msedge）而非应用名（Edge 浏览器），不区分大小写。</value>
+    <value>例如，若要在 Edge 浏览器中把 Alt+T 变成 Ctrl+T，请把 Alt+T 修改成 Ctrl+T，目标程序 msedge。
+目标程序是指进程名称（msedge）而非应用名（Edge 浏览器），不区分大小写。
+重映射单键会影响组合键。</value>
   </data>
   <data name="Type_Button" xml:space="preserve">
     <value>输入</value>

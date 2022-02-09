@@ -117,49 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Microsoft_plugin_indexer_copy_path" xml:space="preserve">
-    <value>复制路径(Ctrl+C)</value>
+  <data name="GcodeNotPreviewedError" xml:space="preserve">
+    <value>由于 PowerToys G-code 预览器出现错误，无法预览此文件。</value>
+    <comment>This text is displayed if G-code fails to preview</comment>
   </data>
-  <data name="Microsoft_plugin_indexer_open_containing_folder" xml:space="preserve">
-    <value>打开所在文件夹(Ctrl+Shift+E)</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_run_as_administrator" xml:space="preserve">
-    <value>以管理员身份打开(Ctrl+Shift+Enter)</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_open_in_console" xml:space="preserve">
-    <value>在命令行打开路径(Ctrl+Shift+C)</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_name" xml:space="preserve">
-    <value>名称</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_path" xml:space="preserve">
-    <value>路径</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_drivedetectionwarning" xml:space="preserve">
-    <value>警告：未完全建立索引，搜索结果可能不全。</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_disable_warning_in_settings" xml:space="preserve">
-    <value>单击转到 Windows 搜索设置进行修复。</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_clipboard_failed" xml:space="preserve">
-    <value>写入剪贴板失败</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_file_open_failed" xml:space="preserve">
-    <value>无法打开文件</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_folder_open_failed" xml:space="preserve">
-    <value>无法打开文件夹</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_plugin_description" xml:space="preserve">
-    <value>搜索文件与文件夹</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_plugin_name" xml:space="preserve">
-    <value>搜索</value>
-  </data>
-  <data name="Microsoft_plugin_indexer_subtitle_header" xml:space="preserve">
-    <value>搜索</value>
-  </data>
-  <data name="disable_drive_detection_warning" xml:space="preserve">
-    <value>不显示未索引文件警告</value>
+  <data name="GcodeWithoutEmbeddedThumbnails" xml:space="preserve">
+    <value>此 G-code 文件没有内置缩略图。</value>
   </data>
 </root>

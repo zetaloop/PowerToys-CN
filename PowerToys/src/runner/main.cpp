@@ -139,20 +139,21 @@ int runner(bool isProcessElevated, bool openSettings, std::string settingsWindow
         // Load Powertoys DLLs
 
         std::vector<std::wstring_view> knownModules = {
-            L"modules/FancyZones/FancyZonesModuleInterface.dll",
-            L"modules/FileExplorerPreview/powerpreview.dll",
-            L"modules/ImageResizer/ImageResizerExt.dll",
-            L"modules/KeyboardManager/KeyboardManager.dll",
-            L"modules/Launcher/Microsoft.Launcher.dll",
-            L"modules/PowerRename/PowerRenameExt.dll",
-            L"modules/ShortcutGuide/ShortcutGuideModuleInterface/ShortcutGuideModuleInterface.dll",
-            L"modules/ColorPicker/ColorPicker.dll",
-            L"modules/Awake/AwakeModuleInterface.dll",
-            L"modules/MouseUtils/FindMyMouse.dll" ,
-            L"modules/MouseUtils/MouseHighlighter.dll"
-
+            L"modules/FancyZones/PowerToys.FancyZonesModuleInterface.dll",
+            L"modules/FileExplorerPreview/PowerToys.powerpreview.dll",
+            L"modules/ImageResizer/PowerToys.ImageResizerExt.dll",
+            L"modules/KeyboardManager/PowerToys.KeyboardManager.dll",
+            L"modules/Launcher/PowerToys.Launcher.dll",
+            L"modules/PowerRename/PowerToys.PowerRenameExt.dll",
+            L"modules/ShortcutGuide/ShortcutGuideModuleInterface/PowerToys.ShortcutGuideModuleInterface.dll",
+            L"modules/ColorPicker/PowerToys.ColorPicker.dll",
+            L"modules/Awake/PowerToys.AwakeModuleInterface.dll",
+            L"modules/MouseUtils/PowerToys.FindMyMouse.dll" ,
+            L"modules/MouseUtils/PowerToys.MouseHighlighter.dll",
+            L"modules/AlwaysOnTop/PowerToys.AlwaysOnTopModuleInterface.dll",
+            L"modules/MouseUtils/PowerToys.MousePointerCrosshairs.dll",
         };
-        const auto VCM_PATH = L"modules/VideoConference/VideoConferenceModule.dll";
+        const auto VCM_PATH = L"modules/VideoConference/PowerToys.VideoConferenceModule.dll";
         if (const auto mf = LoadLibraryA("mf.dll"))
         {
             FreeLibrary(mf);
@@ -177,7 +178,7 @@ int runner(bool isProcessElevated, bool openSettings, std::string settingsWindow
             }
         }
         // Start initial powertoys
-        start_initial_powertoys();
+        start_enabled_powertoys();
 
         Trace::EventLaunch(get_product_version(), isProcessElevated);
 
@@ -385,11 +386,21 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         apply_general_settings(general_settings, false);
         int rvalue = 0;
         const bool elevated = is_process_elevated();
-        if ((elevated ||
+
+        if (elevated && cmdLine.find("--dont-elevate") != std::string::npos &&
+            general_settings.GetNamedBoolean(L"run_elevated", false) == false) {
+            schedule_restart_as_non_elevated();
+            result = 0;
+        }
+        else if ((elevated ||
              general_settings.GetNamedBoolean(L"run_elevated", false) == false ||
              cmdLine.find("--dont-elevate") != std::string::npos))
         {
             result = runner(elevated, open_settings, settings_window, openOobe);
+
+            // Save settings on closing
+            auto general_settings = get_general_settings();
+            PTSettingsHelper::save_general_settings(general_settings.to_json());
         }
         else
         {

@@ -2,7 +2,6 @@
 // The Microsoft Corporation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-#pragma warning disable SA1501 // FUCK U Statement should not be on a single line
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -57,6 +56,7 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
                 .ToList();
         }
 
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("StyleCop.CSharp.LayoutRules", "SA1501:Statement should not be on a single line", Justification = "<挂起>")]
         private Result GetResult(UnitConversionResult result)
         {
             string hack = string.Format("{0}", result.QuantityType);

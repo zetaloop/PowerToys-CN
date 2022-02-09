@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -306,11 +306,11 @@
     <value>删除布局区</value>
     <comment>A tooltip on a button that allows the user to delete a zone</comment>
   </data>
-  <data name="Error_Parsing_Zones_Settings_Title" xml:space="preserve">
-    <value>解析编辑器设置时出错。</value>
+  <data name="Error_Parsing_Data_Title" xml:space="preserve">
+    <value>编辑器数据解析错误。</value>
   </data>
-  <data name="Error_Parsing_Zones_Settings_Message" xml:space="preserve">
-    <value>包含无效数据的布局已被删除。</value>
+  <data name="Error_Parsing_Applied_Layouts_Message" xml:space="preserve">
+    <value>解析应用的布局时出错。</value>
   </data>
   <data name="Apply_Layout" xml:space="preserve">
     <value>应用布局</value>
@@ -378,8 +378,8 @@
   <data name="QuickKey_Title" xml:space="preserve">
     <value>快速切换键</value>
   </data>
-  <data name="Edit_Layout" xml:space="preserve">
-    <value>编辑布局</value>
+  <data name="Edit_Template" xml:space="preserve">
+    <value>编辑 “{0}”</value>
   </data>
   <data name="Edit_Layout_Open_Announce" xml:space="preserve">
     <value>已打开</value>
@@ -389,5 +389,14 @@
   </data>
   <data name="OpenSettings" xml:space="preserve">
     <value>设置</value>
+  </data>
+  <data name="Error_Parsing_Layout_Hotkeys_Message" xml:space="preserve">
+    <value>解析布局快捷键时出错。</value>
+  </data>
+  <data name="Error_Parsing_Layout_Templates_Message" xml:space="preserve">
+    <value>解析模板布局时出错。</value>
+  </data>
+  <data name="Error_Parsing_Custom_Layouts_Message" xml:space="preserve">
+    <value>解析自定义布局时出错。</value>
   </data>
 </root>
