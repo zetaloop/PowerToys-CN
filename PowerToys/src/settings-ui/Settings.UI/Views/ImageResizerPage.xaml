@@ -276,7 +276,7 @@
             <controls:PageLink x:Uid="LearnMore_ImageResizer" Link="https://aka.ms/PowerToysOverview_ImageResizer"/>
         </controls:SettingsPageControl.PrimaryLinks>
         <controls:SettingsPageControl.SecondaryLinks>
-            <controls:PageLink Text="Brice Lambson 的 ImageResizer" Link="https://github.com/bricelam/ImageResizer/"/>
+            <controls:PageLink Text="Brice Lambson 的作品 ImageResizer" Link="https://github.com/bricelam/ImageResizer/"/>
         </controls:SettingsPageControl.SecondaryLinks>
     </controls:SettingsPageControl>
 </Page>

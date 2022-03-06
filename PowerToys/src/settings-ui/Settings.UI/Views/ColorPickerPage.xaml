@@ -151,7 +151,7 @@
             <controls:PageLink x:Uid="LearnMore_ColorPicker" Link="https://aka.ms/PowerToysOverview_ColorPicker"/>
         </controls:SettingsPageControl.PrimaryLinks>
 <controls:SettingsPageControl.SecondaryLinks>
-            <controls:PageLink Text="Martin Chrzan 的 Color Picker" Link="https://github.com/martinchrzan/ColorPicker/"/>
+            <controls:PageLink Text="Martin Chrzan 的作品 Color Picker" Link="https://github.com/martinchrzan/ColorPicker/"/>
             <controls:PageLink Text="Niels Laute 的 UX 设计" Link="https://medium.com/@Niels9001/a-fluent-color-meter-for-powertoys-20407ededf0c"/>
 </controls:SettingsPageControl.SecondaryLinks>
 </controls:SettingsPageControl>

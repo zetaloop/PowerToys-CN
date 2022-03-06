@@ -121,7 +121,7 @@
     <value>默认浏览器</value>
   </data>
   <data name="plugin_description" xml:space="preserve">
-    <value>使用默认浏览器在线搜索</value>
+    <value>使用默认搜索引擎在线搜索</value>
   </data>
   <data name="plugin_global_if_uri" xml:space="preserve">
     <value>默认唤醒时输入网址，不显示在线搜索</value>

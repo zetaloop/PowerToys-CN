@@ -286,7 +286,7 @@
         </controls:SettingsPageControl.PrimaryLinks>
         <controls:SettingsPageControl.SecondaryLinks>
             <controls:PageLink Text="Wox" Link="https://github.com/Wox-launcher/Wox/"/>
-            <controls:PageLink Text="Beta Tadele 的 Window Walker" Link="https://github.com/betsegaw/windowwalker/"/>
+            <controls:PageLink Text="Beta Tadele 的作品 Window Walker" Link="https://github.com/betsegaw/windowwalker/"/>
         </controls:SettingsPageControl.SecondaryLinks>
     </controls:SettingsPageControl>
 </Page>

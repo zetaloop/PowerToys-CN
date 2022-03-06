@@ -138,8 +138,8 @@
   <data name="RegExCheatSheet_MatchWordChar" xml:space="preserve">
     <value>一个英文字符，相当于 [a-zA-Z_0-9]</value>
   </data>
-  <data name="RegExCheatSheet_MatchSeveralWS" xml:space="preserve">
-    <value>一连串非空白字符</value>
+  <data name="RegExCheatSheet_MatchOneOrMoreWS" xml:space="preserve">
+    <value>一个及以上非空白字符</value>
   </data>
   <data name="RegExCheatSheet_MatchWordBoundary" xml:space="preserve">
     <value>一个英文单词，每个字属于 [a-zA-Z0-9_]</value>

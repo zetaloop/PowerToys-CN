@@ -673,7 +673,7 @@
     <value>长按 Win 键激活图表所需的持续时间</value>
   </data>
   <data name="ShortcutGuide_ActivationMethod.Header" xml:space="preserve">
-    <value>激活方式</value>
+    <value>启动方式</value>
   </data>
   <data name="ShortcutGuide_ActivationMethod.Description" xml:space="preserve">
     <value>打开快捷键图表的方式</value>
@@ -701,7 +701,7 @@
     <value>忽略应用列表</value>
   </data>
   <data name="ShortcutGuide_DisabledApps.Description" xml:space="preserve">
-    <value>填写忽略应用的名称，每行一个，防止误触而显示指示图</value>
+    <value>填写忽略应用的名称，每行一个，防止在应用中误触而显示指示图</value>
   </data>
   <data name="ShortcutGuide_DisabledApps_TextBoxControl.PlaceholderText" xml:space="preserve">
     <value>例如: outlook.exe</value>
@@ -1295,7 +1295,7 @@
     <value>一个窗口管理器，可将窗口排列对齐到一定的布局中，便于多任务处理。</value>
   </data>
   <data name="Oobe_FileExplorer_Description" xml:space="preserve">
-    <value>Windows 文件资源管理器的增强组件，支持预览 Markdown 文档 (.md)、PDF 文档 (.pdf)、SVG 图像 (.svg)、G-code 模型 (.gcode)、STL 模型 (.stl) 和一些常用的开发文件 (.cpp .py 等)。</value>
+    <value>Windows 文件资源管理器的增强组件，支持预览 Markdown 文档 (.md)、PDF 文档 (.pdf)、SVG 图像 (.svg)、G-code 模型 (.gcode)、STL 模型 (.stl) 和常用的开发文件，也为一些文件增加了缩略图的支持。</value>
   </data>
   <data name="Oobe_ImageResizer_Description" xml:space="preserve">
     <value>使用图像裁剪器，可以方便地批量调整图像大小。</value>
@@ -1445,6 +1445,16 @@
   </data>
   <data name="Oobe_Welcome" xml:space="preserve">
     <value>概述</value>
+  </data>
+  <data name="Oobe_WhatsNew" xml:space="preserve">
+    <value>更新日志</value>
+  </data>
+  <data name="Oobe_WhatsNew_LoadingError.Title" xml:space="preserve">
+    <value>无法加载更新日志。请检查网络连接。</value>
+  </data>
+  <data name="Oobe_WhatsNew_DetailedReleaseNotesLink.Text" xml:space="preserve">
+    <value>访问我们的 GitHub 储存库以查看详细记录</value>
+    <comment>Don't loc "GitHub", it's the name of a product</comment>
   </data>
   <data name="OOBE_Settings.Content" xml:space="preserve">
     <value>设置</value>
@@ -1656,7 +1666,7 @@
     <comment>Mouse as in the hardware peripheral</comment>
   </data>
   <data name="Oobe_MouseUtils_FindMyMouse_Description.Text" xml:space="preserve">
-    <value>双击左 Ctrl 键，在鼠标光标所在位置投下聚光灯，方便寻找。</value>
+    <value>晃动鼠标或双击左 Ctrl 键，在鼠标光标所在位置投下聚光灯，便于寻找光标。</value>
     <comment>Mouse as in the hardware peripheral. Key as in a keyboard key</comment>
   </data>
   <data name="Oobe_MouseUtils_MouseHighlighter.Text" xml:space="preserve">
@@ -1695,24 +1705,30 @@
   </data>
   <data name="Awake.SecondaryLinksHeader" xml:space="preserve">
     <value>贡献</value>
+    <comment>giving credit to the projects this utility was based on</comment>
   </data>
   <data name="ColorPicker.SecondaryLinksHeader" xml:space="preserve">
     <value>贡献</value>
+    <comment>giving credit to the projects this utility was based on</comment>
   </data>
   <data name="General.SecondaryLinksHeader" xml:space="preserve">
     <value>相关信息</value>
   </data>
   <data name="ImageResizer.SecondaryLinksHeader" xml:space="preserve">
     <value>贡献</value>
+    <comment>giving credit to the projects this utility was based on</comment>
   </data>
   <data name="MouseUtils.SecondaryLinksHeader" xml:space="preserve">
     <value>贡献</value>
+    <comment>giving credit to the projects this utility was based on</comment>
   </data>
   <data name="PowerLauncher.SecondaryLinksHeader" xml:space="preserve">
     <value>贡献</value>
+    <comment>giving credit to the projects this utility was based on</comment>
   </data>
   <data name="PowerRename.SecondaryLinksHeader" xml:space="preserve">
     <value>贡献</value>
+    <comment>giving credit to the projects this utility was based on</comment>
   </data>
   <data name="EditTooltip.Text" xml:space="preserve">
     <value>编辑</value>
@@ -1759,12 +1775,32 @@
     <comment>Refers to the utility name</comment>
   </data>
   <data name="MouseUtils_FindMyMouse.Description" xml:space="preserve">
-    <value>双击左 Ctrl，为鼠标光标投下聚光灯，方便寻找</value>
+    <value>晃动鼠标或双击左 Ctrl，为鼠标光标投下聚光灯，便于寻找光标</value>
     <comment>"Ctrl" is a keyboard key. "Find My Mouse" is the name of the utility</comment>
   </data>
   <data name="MouseUtils_Enable_FindMyMouse.Header" xml:space="preserve">
     <value>启用鼠标聚光灯</value>
     <comment>"Find My Mouse" is the name of the utility.</comment>
+  </data>
+  <data name="MouseUtils_FindMyMouse_ActivationMethod.Header" xml:space="preserve">
+    <value>启动方式</value>
+  </data>
+  <data name="MouseUtils_FindMyMouse_ActivationDoubleControlPress.Content" xml:space="preserve">
+    <value>双击左 Ctrl 键</value>
+    <comment>Left control is the physical key on the keyboard.</comment>
+  </data>
+  <data name="MouseUtils_FindMyMouse_ActivationShakeMouse.Content" xml:space="preserve">
+    <value>晃动鼠标</value>
+    <comment>Mouse is the hardware peripheral.</comment>
+  </data>
+  <data name="MouseUtils_FindMyMouse_ExcludedApps.Description" xml:space="preserve">
+    <value>填写忽略应用的名称，每行一个，防止在应用中误触而显示聚光灯</value>
+  </data>
+  <data name="MouseUtils_FindMyMouse_ExcludedApps.Header" xml:space="preserve">
+    <value>忽略应用</value>
+  </data>
+  <data name="MouseUtils_FindMyMouse_ExcludedApps_TextBoxControl.PlaceholderText" xml:space="preserve">
+    <value>例如: outlook.exe</value>
   </data>
   <data name="MouseUtils_Prevent_Activation_On_Game_Mode.Content" xml:space="preserve">
     <value>游戏模式中禁用</value>
@@ -2016,5 +2052,18 @@
   </data>
   <data name="AlwaysOnTop_Radio_Windows_Default.Content" xml:space="preserve">
     <value>系统主题色</value>
+  </data>
+  <data name="PowerPreviewPage.SecondaryLinksHeader" xml:space="preserve">
+    <value>贡献</value>
+    <comment>giving credit to the projects this utility was based on</comment>
+  </data>
+  <data name="FancyZones_AllowPopupWindowSnap.Description" xml:space="preserve">
+    <value>对所有弹窗生效，包括系统通知</value>
+  </data>
+  <data name="FancyZones_AllowPopupWindowSnap.Header" xml:space="preserve">
+    <value>将弹窗纳入布局</value>
+  </data>
+  <data name="FancyZones_AllowChildWindowSnap.Content" xml:space="preserve">
+    <value>将子窗口纳入布局</value>
   </data>
 </root>

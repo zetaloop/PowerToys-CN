@@ -22,6 +22,14 @@
                             <ToggleSwitch IsOn="{x:Bind ViewModel.IsFindMyMouseEnabled, Mode=TwoWay}" x:Uid="ToggleSwitch"/>
                         </controls:Setting.ActionContent>
                     </controls:Setting>
+                    <controls:Setting x:Uid="MouseUtils_FindMyMouse_ActivationMethod" IsEnabled="{x:Bind Mode=OneWay, Path=ViewModel.IsFindMyMouseEnabled}">
+                        <controls:Setting.ActionContent>
+                            <ComboBox SelectedIndex="{x:Bind Path=ViewModel.FindMyMouseActivationMethod, Mode=TwoWay}" MinWidth="{StaticResource SettingActionControlMinWidth}">
+                                <ComboBoxItem x:Uid="MouseUtils_FindMyMouse_ActivationDoubleControlPress" />
+                                <ComboBoxItem x:Uid="MouseUtils_FindMyMouse_ActivationShakeMouse" />
+                            </ComboBox>
+                        </controls:Setting.ActionContent>
+                    </controls:Setting>
                     <controls:SettingExpander IsEnabled="{x:Bind ViewModel.IsFindMyMouseEnabled, Mode=OneWay}" IsExpanded="False" >
                         <controls:SettingExpander.Header>
                             <controls:Setting Header="功能" Icon="&#xE790;" />
@@ -83,6 +91,23 @@
                                     </controls:Setting.ActionContent>
                                 </controls:Setting>
                             </StackPanel>
+                        </controls:SettingExpander.Content>
+                    </controls:SettingExpander>
+                    <controls:SettingExpander IsExpanded="False">
+                        <controls:SettingExpander.Header>
+                            <controls:Setting x:Uid="MouseUtils_FindMyMouse_ExcludedApps" Icon="&#xECE4;" Style="{StaticResource ExpanderHeaderSettingStyle}"/>
+                        </controls:SettingExpander.Header>
+                        <controls:SettingExpander.Content>
+                            <TextBox x:Uid="MouseUtils_FindMyMouse_ExcludedApps_TextBoxControl"
+                                    Margin="{StaticResource ExpanderSettingMargin}"
+                                    Text="{x:Bind Mode=TwoWay, Path=ViewModel.FindMyMouseExcludedApps, UpdateSourceTrigger=PropertyChanged}"
+                                    ScrollViewer.VerticalScrollBarVisibility ="Visible"
+                                    ScrollViewer.VerticalScrollMode="Enabled"
+                                    ScrollViewer.IsVerticalRailEnabled="True"
+                                    TextWrapping="Wrap"
+                                    AcceptsReturn="True"
+                                    MinWidth="240"
+                                    MinHeight="160" />
                         </controls:SettingExpander.Content>
                     </controls:SettingExpander>
                 </controls:SettingsGroup>
@@ -262,7 +287,7 @@
             <controls:PageLink x:Uid="LearnMore_MouseUtils" Link="https://aka.ms/PowerToysOverview_MouseUtilities"/>
         </controls:SettingsPageControl.PrimaryLinks>
         <controls:SettingsPageControl.SecondaryLinks>
-            <controls:PageLink Text="Raymond Chen 的 Find My Mouse" Link="https://devblogs.microsoft.com/oldnewthing/author/oldnewthing"/>
+            <controls:PageLink Text="Raymond Chen 的作品 Find My Mouse" Link="https://devblogs.microsoft.com/oldnewthing/author/oldnewthing"/>
         </controls:SettingsPageControl.SecondaryLinks>
     </controls:SettingsPageControl>
 </Page>
