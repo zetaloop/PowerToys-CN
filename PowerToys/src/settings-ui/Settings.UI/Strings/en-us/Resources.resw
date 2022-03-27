@@ -1832,6 +1832,12 @@
   <data name="MouseUtils_FindMyMouse_AnimationDurationMs.Description" xml:space="preserve">
     <value>聚光灯出现、消失的时长</value>
   </data>
+  <data name="MouseUtils_FindMyMouse_ShakingMinimumDistance.Header" xml:space="preserve">
+    <value>晃动距离</value>
+  </data>
+  <data name="MouseUtils_FindMyMouse_ShakingMinimumDistance.Description" xml:space="preserve">
+    <value>晃动鼠标的激活距离</value>
+  </data>
   <data name="MouseUtils_MouseHighlighter.Header" xml:space="preserve">
     <value>鼠标荧光笔</value>
     <comment>Refers to the utility name</comment>
