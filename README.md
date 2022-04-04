@@ -1,6 +1,6 @@
 # PowerToys Custom Simplified Chinese Translation Patch
 
-<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/PCTMODx5.topic.png"/>
+<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/PCTMODx6.topic.png"/>
 
 PowerToys 自制简体中文翻译优化补丁
 
@@ -10,7 +10,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 反馈问题：Issue 或 ideaploter@outlook.com
 
-版本：v0.56.2
+版本：v0.57.0
 
 _（备注：由于无法获取官方本地化组件，硬编码为中文，默认且仅支持中文。）_
 
@@ -18,7 +18,7 @@ _（备注：由于无法获取官方本地化组件，硬编码为中文，默�
 
 下载地址（Github）：https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest
 
-备用下载地址（蓝奏云）：https://zeta.lanzouf.com/b01jabdaf 密码：zeta 【包含安装包】
+备用下载地址（蓝奏云）：https://zeta.lanzouf.com/b01jbi1xe 密码：zeta 【包含安装包】
 
 ## Usage 使用方法
 
@@ -63,3 +63,8 @@ Shortcut Guide 操作界面、快捷键图片
 
 Video Conference Mute 按键图片、摄像头设备名称
 </details>
+
+
+## Stargazers 星标趋势
+
+[![Stargazers over time](https://starchart.cc/ZetaSp/PowerToys-Chinese-TransMOD.svg)](https://starchart.cc/ZetaSp/PowerToys-Chinese-TransMOD)
