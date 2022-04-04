@@ -436,6 +436,9 @@
   <data name="ChangePrograms" xml:space="preserve">
     <value>更改程序</value>
   </data>
+  <data name="ChangeScreenSaver" xml:space="preserve">
+    <value>更改屏幕保护程序</value>
+  </data>
   <data name="ChangeUACSettings" xml:space="preserve">
     <value>更改用户帐户控制设置</value>
   </data>
@@ -471,9 +474,21 @@
     <value>命令</value>
     <comment>The command to direct start a setting</comment>
   </data>
+  <data name="ConnectableDevices" xml:space="preserve">
+    <value>可连接的设备</value>
+  </data>
   <data name="ConnectedDevices" xml:space="preserve">
-    <value>已连接设备</value>
+    <value>已连接的设备</value>
     <comment>Area Device</comment>
+  </data>
+  <data name="ConnectPanel" xml:space="preserve">
+    <value>连接面板</value>
+  </data>
+  <data name="ConnectWirelessAudio" xml:space="preserve">
+    <value>连接到无线音频设备</value>
+  </data>
+  <data name="ConnectWirelessDisplay" xml:space="preserve">
+    <value>连接到无线显示器</value>
   </data>
   <data name="Contacts" xml:space="preserve">
     <value>联系人</value>
@@ -557,6 +572,9 @@
   <data name="deuteranopia" xml:space="preserve">
     <value>绿色盲</value>
     <comment>Medical: Mean you don't can see red colors</comment>
+  </data>
+  <data name="DeviceDiscovery" xml:space="preserve">
+    <value>发现设备</value>
   </data>
   <data name="DeviceManager" xml:space="preserve">
     <value>设备管理器</value>
@@ -1385,6 +1403,9 @@
     <value>屏幕旋转</value>
     <comment>Area System</comment>
   </data>
+  <data name="ScreenSaver" xml:space="preserve">
+    <value>屏幕保护程序</value>
+  </data>
   <data name="ScrollBars" xml:space="preserve">
     <value>滚动条</value>
   </data>
@@ -1571,6 +1592,9 @@
   <data name="Timeline" xml:space="preserve">
     <value>时间线</value>
   </data>
+  <data name="Timeout" xml:space="preserve">
+    <value>超时</value>
+  </data>
   <data name="Touch" xml:space="preserve">
     <value>触摸</value>
   </data>
@@ -1595,6 +1619,9 @@
   <data name="TruePlay" xml:space="preserve">
     <value>TruePlay</value>
     <comment>Area Gaming</comment>
+  </data>
+  <data name="TurnScreenSaverOnOff" xml:space="preserve">
+    <value>开启或关闭屏保</value>
   </data>
   <data name="Typing" xml:space="preserve">
     <value>输入</value>

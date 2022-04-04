@@ -118,12 +118,88 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="wox_plugin_windowwalker_plugin_name" xml:space="preserve">
-    <value>窗口切换</value>
+    <value>窗口操作</value>
   </data>
   <data name="wox_plugin_windowwalker_plugin_description" xml:space="preserve">
-    <value>通过搜索窗口标题来切换窗口</value>
+    <value>通过搜索窗口标题来操作窗口</value>
   </data>
-  <data name="wox_plugin_windowwalker_running" xml:space="preserve">
+  <data name="wox_plugin_windowwalker_Running" xml:space="preserve">
     <value>进程</value>
+  </data>
+  <data name="wox_plugin_windowwalker_SettingConfirmKillProcess" xml:space="preserve">
+    <value>结束进程时弹窗确认</value>
+  </data>
+  <data name="wox_plugin_windowwalker_SettingExplorerSettingInfo" xml:space="preserve">
+    <value>隐藏资源管理器进程</value>
+    <comment>Explorer is here the program File Explorer</comment>
+  </data>
+  <data name="wox_plugin_windowwalker_SettingHideKillProcess" xml:space="preserve">
+    <value>需要管理员权限才能结束进程时，隐藏“结束进程”按钮</value>
+  </data>
+  <data name="wox_plugin_windowwalker_SettingResultsVisibleDesktop" xml:space="preserve">
+    <value>仅显示在桌面可见的进程</value>
+  </data>
+  <data name="wox_plugin_windowwalker_SettingSubtitleDesktopName" xml:space="preserve">
+    <value>在结果中显示进程所在的虚拟桌面</value>
+  </data>
+  <data name="wox_plugin_windowwalker_SettingSubtitlePid" xml:space="preserve">
+    <value>在结果中显示进程 ID</value>
+  </data>
+  <data name="wox_plugin_windowwalker_SettingOpenAfterKillAndClose" xml:space="preserve">
+    <value>使用操作后不关闭启动器</value>
+  </data>
+  <data name="wox_plugin_windowwalker_Desktop" xml:space="preserve">
+    <value>虚拟桌面</value>
+  </data>
+  <data name="wox_plugin_windowwalker_Number" xml:space="preserve">
+    <value>No.</value>
+    <comment>Short version of "Number"</comment>
+  </data>
+  <data name="wox_plugin_windowwalker_Process" xml:space="preserve">
+    <value>进程名称</value>
+  </data>
+  <data name="wox_plugin_windowwalker_ProcessId" xml:space="preserve">
+    <value>进程 ID </value>
+  </data>
+  <data name="wox_plugin_windowwalker_ExplorerInfoSubTitle" xml:space="preserve">
+    <value>文件夹窗口需要是独立的进程，点击修改资源管理器设置</value>
+    <comment>Explorer is here the program File Explorer</comment>
+  </data>
+  <data name="wox_plugin_windowwalker_ExplorerInfoTitle" xml:space="preserve">
+    <value>提示：无法结束资源管理器进程</value>
+    <comment>Explorer is here the program File Explorer</comment>
+  </data>
+  <data name="wox_plugin_windowwalker_Close" xml:space="preserve">
+    <value>关闭窗口</value>
+  </data>
+  <data name="wox_plugin_windowwalker_Kill" xml:space="preserve">
+    <value>结束进程</value>
+  </data>
+  <data name="wox_plugin_windowwalker_KillMessage" xml:space="preserve">
+    <value>你即将结束以下进程:</value>
+  </data>
+  <data name="wox_plugin_windowwalker_KillMessageQuestion" xml:space="preserve">
+    <value>确定执行?</value>
+  </data>
+  <data name="wox_plugin_windowwalker_KillMessageTitle" xml:space="preserve">
+    <value>结束进程确认</value>
+  </data>
+  <data name="wox_plugin_windowwalker_KillMessageUwp" xml:space="preserve">
+    <value>由于这是一个 UWP 进程，所有的实例都将被结束。确定执行?</value>
+  </data>
+  <data name="wox_plugin_windowwalker_SettingKillProcessTree" xml:space="preserve">
+    <value>结束进程，同时结束其子进程</value>
+  </data>
+  <data name="wox_plugin_windowwalker_SettingExplorerSettingInfo_Description" xml:space="preserve">
+    <value>其仅在使用唤醒词进行搜索时显示</value>
+  </data>
+  <data name="wox_plugin_windowwalker_SettingKillProcessTree_Description" xml:space="preserve">
+    <value>使用该功能须谨慎，结束整个进程树可能导致特定应用程序崩溃</value>
+  </data>
+  <data name="wox_plugin_windowwalker_SettingOpenAfterKillAndClose_Description" xml:space="preserve">
+    <value>如果启用了弹窗确认，则此功能无法生效</value>
+  </data>
+  <data name="wox_plugin_windowwalker_SettingSubtitleDesktopName_Description" xml:space="preserve">
+    <value>若有多个虚拟桌面，程序在哪个虚拟桌面的信息</value>
   </data>
 </root>

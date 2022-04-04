@@ -8,5 +8,6 @@ namespace Awake.Core
     {
         internal const string AppName = "Awake";
         internal const string FullAppName = "唤醒工具"; // 这个 FullAppName 好像也只有悬停显示才用上... //internal const string FullAppName = "PowerToys " + AppName;
+        internal const string TrayWindowId = "WindowsForms10.Window.0.app.0.";
     }
 }

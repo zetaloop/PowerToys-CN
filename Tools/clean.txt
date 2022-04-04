@@ -1,0 +1,21 @@
+首先 Visual Studio 内项目清理！
+
+DelDeps.cmd :
+	/.vs
+	/packages
+	/x64
+	/deps/*/*（所有里面的文件夹内的东西，比如cxxopts内的）
+
+*/bin/
+*/obj/
+*/x64/
+*/Generated Files/
+*/*.user
+
+然后用 UltraCompare 扫汉前汉后的文件夹，找漏掉的
+比如：
+[ALWAYS GENERATED FILE] ImageResizerExt_i.c/.h
+
+（其实剩下也没了）
+
+记得安装 everything

@@ -4,6 +4,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Threading;
@@ -59,7 +60,7 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
         [System.Diagnostics.CodeAnalysis.SuppressMessage("StyleCop.CSharp.LayoutRules", "SA1501:Statement should not be on a single line", Justification = "<挂起>")]
         private Result GetResult(UnitConversionResult result)
         {
-            string hack = string.Format("{0}", result.QuantityType);
+            string hack = $"{result.QuantityType}";
             if (hack == "Acceleration") { hack = "加速度"; }
             else if (hack == "Angle") { hack = "角度"; }
             else if (hack == "Area") { hack = "面积"; }
@@ -76,10 +77,10 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
             return new Result
             {
                 ContextData = result,
-                Title = string.Format("{0} {1}", result.ConvertedValue, result.UnitName),
+                Title = $"{result.ConvertedValue} {result.UnitName}",
                 IcoPath = _icon_path,
                 Score = 300,
-                SubTitle = string.Format(Properties.Resources.copy_to_clipboard, hack),
+                SubTitle = string.Format(CultureInfo.CurrentCulture, Properties.Resources.copy_to_clipboard, hack),
                 Action = c =>
                 {
                     var ret = false;
@@ -87,7 +88,7 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
                     {
                         try
                         {
-                            Clipboard.SetText(result.ConvertedValue.ToString());
+                            Clipboard.SetText(result.ConvertedValue.ToString(CultureInfo.CurrentCulture));
                             ret = true;
                         }
                         catch (ExternalException)
@@ -119,7 +120,7 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
                     {
                         try
                         {
-                            Clipboard.SetText(result.ConvertedValue.ToString());
+                            Clipboard.SetText(result.ConvertedValue.ToString(CultureInfo.CurrentCulture));
                             ret = true;
                         }
                         catch (ExternalException)

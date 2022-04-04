@@ -179,10 +179,10 @@
   <data name="Title" xml:space="preserve">
     <value>标题</value>
   </data>
-  <data name="deseralization_error_title" xml:space="preserve">
+  <data name="deserialization_error_title" xml:space="preserve">
     <value>PowerToys 启动器反序列化错误</value>
   </data>
-  <data name="deseralization_error_message" xml:space="preserve">
+  <data name="deserialization_error_message" xml:space="preserve">
     <value>重置设置为默认值，程序将继续运行。</value>
   </data>
   <data name="FailedToInitializePluginsDescription" xml:space="preserve">

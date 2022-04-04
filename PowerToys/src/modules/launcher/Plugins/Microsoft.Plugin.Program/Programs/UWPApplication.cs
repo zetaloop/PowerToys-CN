@@ -214,8 +214,9 @@ namespace Microsoft.Plugin.Program.Programs
                 {
                     appManager.ActivateApplication(UserModelId, queryArguments, noFlags, out var unusedPid);
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
+                    ProgramLogger.Exception($"Unable to launch UWP {DisplayName}", ex, MethodBase.GetCurrentMethod().DeclaringType, queryArguments);
                     var name = "插件: " + Properties.Resources.wox_plugin_program_plugin_name;
                     var message = $"{Properties.Resources.powertoys_run_plugin_program_uwp_failed}: {DisplayName}";
                     api.ShowMsg(name, message, string.Empty);
@@ -350,7 +351,7 @@ namespace Microsoft.Plugin.Program.Programs
                             }
                             else
                             {
-                                ProgramLogger.Exception($"Can't load null or empty result pri {sourceFallback} in uwp location {Package.Location}", new NullReferenceException(), GetType(), Package.Location);
+                                ProgramLogger.Exception($"Can't load null or empty result pri {sourceFallback} in uwp location {Package.Location}", new ArgumentNullException(null), GetType(), Package.Location);
 
                                 return string.Empty;
                             }
@@ -377,7 +378,7 @@ namespace Microsoft.Plugin.Program.Programs
                     }
                     else
                     {
-                        ProgramLogger.Exception($"Can't load null or empty result pri {source} in uwp location {Package.Location}", new NullReferenceException(), GetType(), Package.Location);
+                        ProgramLogger.Exception($"Can't load null or empty result pri {source} in uwp location {Package.Location}", new ArgumentNullException(null), GetType(), Package.Location);
 
                         return string.Empty;
                     }
@@ -595,7 +596,7 @@ namespace Microsoft.Plugin.Program.Programs
             bool isLogoUriSet;
 
             // Using Ordinal since this is used internally with uri
-            if (uri.Contains("\\", StringComparison.Ordinal))
+            if (uri.Contains('\\', StringComparison.Ordinal))
             {
                 path = Path.Combine(Package.Location, uri);
             }

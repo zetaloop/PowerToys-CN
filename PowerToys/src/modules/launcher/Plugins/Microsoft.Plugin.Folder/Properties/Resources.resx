@@ -146,11 +146,11 @@
     <value>无法打开文件</value>
   </data>
   <data name="wox_plugin_folder_select_folder_first_result_subtitle" xml:space="preserve">
-    <value>使用 &gt; 在文件夹内进行搜索，使用 * 作为通配符</value>
+    <value>提示: 使用 &gt; 在文件夹内进行搜索，使用 * 作为通配符</value>
   </data>
   <data name="wox_plugin_folder_select_folder_first_result_title" xml:space="preserve">
-    <value>打开</value>
-    <comment>Open as a verb.  Open this folder.</comment>
+    <value>打开: {0}</value>
+    <comment>Open as a verb.  Open this folder. Do not translate the placeholder '{0}'.</comment>
   </data>
   <data name="wox_plugin_folder_select_folder_OpenFileOrFolder_error_message" xml:space="preserve">
     <value>无法打开</value>

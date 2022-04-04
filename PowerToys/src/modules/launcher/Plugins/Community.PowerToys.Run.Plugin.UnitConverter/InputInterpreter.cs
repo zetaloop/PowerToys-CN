@@ -2,6 +2,7 @@
 // The Microsoft Corporation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
+using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -107,7 +108,7 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
         [System.Diagnostics.CodeAnalysis.SuppressMessage("StyleCop.CSharp.LayoutRules", "SA1501:Statement should not be on a single line", Justification = "<挂起>")]
         public static void DegreePrefixer(ref string[] split)
         {
-            switch (split[1].ToLower())
+            switch (split[1].ToLower(CultureInfo.CurrentCulture))
             {
                 case "celsius":
                     split[1] = "DegreeCelsius";
@@ -129,7 +130,7 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
                     break;
             }
 
-            switch (split[3].ToLower())
+            switch (split[3].ToLower(CultureInfo.CurrentCulture))
             {
                 case "celsius":
                     split[3] = "DegreeCelsius";
@@ -174,7 +175,7 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
             // Temperature 温度    在体积前（标 修补器 冲突 温标），在角度后（度 冲突 度 修补器）
             if (split[1].Contains("温标")) { split[1] = "°" + split[1].Replace("温标", string.Empty); }
             if (split[1].Contains("温度")) { split[1] = "°" + split[1].Replace("温度", string.Empty); }
-            if (split[1].Contains("度")) { split[1] = "°" + split[1].Replace("度", string.Empty); }
+            if (split[1].Contains('度')) { split[1] = "°" + split[1].Replace("度", string.Empty); }
             split[1] = split[1].Replace("开尔文", "K").Replace("开", "K").Replace("°K", "K").Replace("摄尔修斯", "C").Replace("摄氏", "C").Replace("℃", "°C").Replace("德利尔", "De").Replace("德氏", "De").Replace("华伦海特", "F").Replace("华氏", "F").Replace("℉", "°F").Replace("牛顿", "N").Replace("牛", "N").Replace("兰金", "R").Replace("兰氏", "R").Replace("列奥缪尔", "Ré").Replace("列氏", "Ré").Replace("罗默", "Rø").Replace("罗氏", "Rø").Replace("氏", string.Empty).Replace("°太阳", "T⊙");
 
             // Pressure 压强    在能量后（磅力 修补器 依赖），在能量、功率后（力 冲突 马力、马力时，帕斯卡 修补器 依赖 卡），在体积前（标准大气压 冲突 标 修补器）（质量 千克公斤吨+力 合成）（长度 毫米+汞柱 合成）（温度 牛+每+米+方 合成）
@@ -204,7 +205,7 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
             if (split[1].Contains("二次方")) { split[1] = split[1].Replace("二次方", string.Empty) + "²"; }
             if (split[1].Contains("立方")) { split[1] = split[1].Replace("立方", string.Empty) + "³"; }
             if (split[1].Contains("三次方")) { split[1] = split[1].Replace("三次方", string.Empty) + "³"; }
-            if (split[1].Contains("方")) { split[1] = split[1].Replace("方", string.Empty) + "²"; }
+            if (split[1].Contains('方')) { split[1] = split[1].Replace("方", string.Empty) + "²"; }
             split[1] = split[1].Replace("艾", "E").Replace("拍", "P").Replace("太", "T").Replace("吉", "G").Replace("兆", "M").Replace("千", "k").Replace("百", "h").Replace("分", "d").Replace("厘", "c").Replace("毫", "m").Replace("微", "μ").Replace("纳", "n");
             split[1] = split[1].Replace("的", string.Empty).Replace("个", string.Empty).Replace("每", "/");
 
@@ -230,7 +231,7 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
             // Temperature 温度    在体积前（标 修补器 冲突 温标），在角度后（度 冲突 度 修补器）
             if (split[3].Contains("温标")) { split[3] = "°" + split[3].Replace("温标", string.Empty); }
             if (split[3].Contains("温度")) { split[3] = "°" + split[3].Replace("温度", string.Empty); }
-            if (split[3].Contains("度")) { split[3] = "°" + split[3].Replace("度", string.Empty); }
+            if (split[3].Contains('度')) { split[3] = "°" + split[3].Replace("度", string.Empty); }
             split[3] = split[3].Replace("开尔文", "K").Replace("开", "K").Replace("°K", "K").Replace("摄尔修斯", "C").Replace("摄氏", "C").Replace("℃", "°C").Replace("德利尔", "De").Replace("德氏", "De").Replace("华伦海特", "F").Replace("华氏", "F").Replace("℉", "°F").Replace("牛顿", "N").Replace("牛", "N").Replace("兰金", "R").Replace("兰氏", "R").Replace("列奥缪尔", "Ré").Replace("列氏", "Ré").Replace("罗默", "Rø").Replace("罗氏", "Rø").Replace("氏", string.Empty).Replace("°太阳", "T⊙");
 
             // Pressure 压强    在能量后（磅力 修补器 依赖），在能量、功率后（力 冲突 马力、马力时，帕斯卡 修补器 依赖 卡），在体积前（标准大气压 冲突 标 修补器）（质量 千克公斤吨+力 合成）（长度 毫米+汞柱 合成）（温度 牛+每+米+方 合成）
@@ -260,7 +261,7 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
             if (split[3].Contains("二次方")) { split[3] = split[3].Replace("二次方", string.Empty) + "²"; }
             if (split[3].Contains("立方")) { split[3] = split[3].Replace("立方", string.Empty) + "³"; }
             if (split[3].Contains("三次方")) { split[3] = split[3].Replace("三次方", string.Empty) + "³"; }
-            if (split[3].Contains("方")) { split[3] = split[3].Replace("方", string.Empty) + "²"; }
+            if (split[3].Contains('方')) { split[3] = split[3].Replace("方", string.Empty) + "²"; }
             split[3] = split[3].Replace("艾", "E").Replace("拍", "P").Replace("太", "T").Replace("吉", "G").Replace("兆", "M").Replace("千", "k").Replace("百", "h").Replace("分", "d").Replace("厘", "c").Replace("毫", "m").Replace("微", "μ").Replace("纳", "n");
             split[3] = split[3].Replace("的", string.Empty).Replace("个", string.Empty).Replace("每", "/");
 
@@ -272,6 +273,69 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
             // info.CreateNoWindow = true;
             // System.Diagnostics.Process proc;
             // proc = System.Diagnostics.Process.Start(info);
+        }
+
+        /// <summary>
+        /// The plural form "feet" is not recognized by UniteNets. Replace it with "ft".
+        /// </summary>
+        public static void FeetToFt(ref string[] split)
+        {
+            if (split[1].ToLowerInvariant() == "feet")
+            {
+                split[1] = "ft";
+            }
+
+            if (split[3].ToLowerInvariant() == "feet")
+            {
+                split[3] = "ft";
+            }
+        }
+
+        /// <summary>
+        /// Converts spelling "metre" to "meter"
+        /// </summary>
+        public static void MetreToMeter(ref string[] split)
+        {
+            if (split[1].ToLowerInvariant() == "metre")
+            {
+                split[1] = "meter";
+            }
+
+            if (split[3].ToLowerInvariant() == "metre")
+            {
+                split[3] = "meter";
+            }
+        }
+
+        /// <summary>
+        /// Choose "UsGallon" or "ImperialGallon" according to current culture when the input contains "gal" or "gallon".
+        /// </summary>
+        public static void GallonHandler(ref string[] split, CultureInfo culture)
+        {
+            HashSet<string> britishCultureNames = new HashSet<string>() { "en-AI", "en-VG", "en-GB", "en-KY", "en-MS", "en-AG", "en-DM", "en-GD", "en-KN", "en-LC", "en-VC", "en-IE", "en-GY", "en-AE" };
+            if (split[1].ToLowerInvariant() == "gal" || split[1].ToLowerInvariant() == "gallon")
+            {
+                if (britishCultureNames.Contains(culture.Name))
+                {
+                    split[1] = "ImperialGallon";
+                }
+                else
+                {
+                    split[1] = "UsGallon";
+                }
+            }
+
+            if (split[3].ToLowerInvariant() == "gal" || split[3].ToLowerInvariant() == "gallon")
+            {
+                if (britishCultureNames.Contains(culture.Name))
+                {
+                    split[3] = "ImperialGallon";
+                }
+                else
+                {
+                    split[3] = "UsGallon";
+                }
+            }
         }
 
         public static ConvertModel Parse(Query query)
@@ -290,6 +354,9 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
             }
 
             InputInterpreter.DegreePrefixer(ref split);
+            InputInterpreter.MetreToMeter(ref split);
+            InputInterpreter.FeetToFt(ref split);
+            InputInterpreter.GallonHandler(ref split, CultureInfo.CurrentCulture);
             if (!double.TryParse(split[0], out double value))
             {
                 return null;

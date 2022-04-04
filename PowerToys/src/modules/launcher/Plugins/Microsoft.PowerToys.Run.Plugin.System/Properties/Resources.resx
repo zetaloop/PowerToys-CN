@@ -118,11 +118,42 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="confirm_system_commands" xml:space="preserve">
-    <value>显示对话框以确认执行系统命令</value>
+    <value>执行系统命令时弹窗确认</value>
+  </data>
+  <data name="Microsoft_plugin_sys_AdapterDetails" xml:space="preserve">
+    <value>详细信息</value>
+  </data>
+  <data name="Microsoft_plugin_sys_AdapterName" xml:space="preserve">
+    <value>适配器名称</value>
+  </data>
+  <data name="Microsoft_plugin_sys_Cable" xml:space="preserve">
+    <value>网线</value>
   </data>
   <data name="Microsoft_plugin_sys_confirmation" xml:space="preserve">
     <value>请确认操作。</value>
     <comment>Request confirmation</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_Connected" xml:space="preserve">
+    <value>已连接</value>
+  </data>
+  <data name="Microsoft_plugin_sys_ConnectionDetails" xml:space="preserve">
+    <value>详细信息</value>
+  </data>
+  <data name="Microsoft_plugin_sys_ConnectionName" xml:space="preserve">
+    <value>连接名称</value>
+  </data>
+  <data name="Microsoft_plugin_sys_CopyDetails" xml:space="preserve">
+    <value>复制详细信息 (Ctrl+C)</value>
+    <comment>'Ctrl+C' is a shortcut</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_Dhcp" xml:space="preserve">
+    <value>DHCP 服务器</value>
+  </data>
+  <data name="Microsoft_plugin_sys_Disconnected" xml:space="preserve">
+    <value>已断开</value>
+  </data>
+  <data name="Microsoft_plugin_sys_Dns" xml:space="preserve">
+    <value>DNS 服务器</value>
   </data>
   <data name="Microsoft_plugin_sys_emptyrecyclebin" xml:space="preserve">
     <value>Empty Recycle Bin 清空回收站</value>
@@ -131,6 +162,13 @@
   <data name="Microsoft_plugin_sys_emptyrecyclebin_description" xml:space="preserve">
     <value>删除回收站中的所有内容</value>
     <comment>This should align to the action in Windows of emptying the recycle bin on your computer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_Gateways" xml:space="preserve">
+    <value>默认网关</value>
+  </data>
+  <data name="Microsoft_plugin_sys_Gbps" xml:space="preserve">
+    <value>{0} Gbps</value>
+    <comment>Abbreviation of 'Gbits per seconds'. Don't translate the placeholder '{0}' as it is replaced in code.</comment>
   </data>
   <data name="Microsoft_plugin_sys_hibernate" xml:space="preserve">
     <value>Hibernate 休眠</value>
@@ -144,6 +182,35 @@
     <value>把运行状态保存在硬盘，然后关机，可以恢复所有状态</value>
     <comment>This should align to the action in Windows of a hibernating your computer.</comment>
   </data>
+  <data name="Microsoft_plugin_sys_Ip4Address" xml:space="preserve">
+    <value>IPv4 地址</value>
+  </data>
+  <data name="Microsoft_plugin_sys_Ip4SubnetMask" xml:space="preserve">
+    <value>IPv4 子网掩码</value>
+  </data>
+  <data name="Microsoft_plugin_sys_ip4_description" xml:space="preserve">
+    <value>{0} 的 IPv4 地址</value>
+    <comment>Don't translate the placeholder '{0}' as it is replaced in code.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_Ip6Address" xml:space="preserve">
+    <value>IPv6 地址</value>
+  </data>
+  <data name="Microsoft_plugin_sys_Ip6Link" xml:space="preserve">
+    <value>IPv6 本地链路地址</value>
+  </data>
+  <data name="Microsoft_plugin_sys_Ip6Site" xml:space="preserve">
+    <value>IPv6 本地站点地址</value>
+  </data>
+  <data name="Microsoft_plugin_sys_Ip6Temp" xml:space="preserve">
+    <value>IPv6 临时地址</value>
+  </data>
+  <data name="Microsoft_plugin_sys_Ip6Unique" xml:space="preserve">
+    <value>IPv6 唯一本地地址</value>
+  </data>
+  <data name="Microsoft_plugin_sys_ip6_description" xml:space="preserve">
+    <value>{0} 的 IPv6 地址</value>
+    <comment>Don't translate the placeholder '{0}' as it is replaced in code.</comment>
+  </data>
   <data name="Microsoft_plugin_sys_lock" xml:space="preserve">
     <value>Lock 锁定屏幕</value>
     <comment>This should align to the action in Windows of a locking your computer.</comment>
@@ -155,6 +222,23 @@
   <data name="Microsoft_plugin_sys_lock_description" xml:space="preserve">
     <value>锁屏，登录以解锁</value>
     <comment>This should align to the action in Windows of a locking your computer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_Loopback" xml:space="preserve">
+    <value>回环</value>
+  </data>
+  <data name="Microsoft_plugin_sys_mac_description" xml:space="preserve">
+    <value>{0} ({1}) 的 MAC 地址</value>
+    <comment>Don't translate the placeholders '{0}' and '{1}' as they are replaced in code.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_Mbps" xml:space="preserve">
+    <value>{0} Mbps</value>
+    <comment>Abbreviation of 'Mbits per seconds'. Don't translate the placeholder '{0}' as it is replaced in code.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_MobileBroadband" xml:space="preserve">
+    <value>移动数据</value>
+  </data>
+  <data name="Microsoft_plugin_sys_PhysicalAddress" xml:space="preserve">
+    <value>网卡地址 (MAC)</value>
   </data>
   <data name="Microsoft_plugin_sys_plugin_description" xml:space="preserve">
     <value>执行系统命令（例如 “关机”、“锁屏”、“睡眠”）</value>
@@ -175,6 +259,10 @@
   <data name="Microsoft_plugin_sys_restart_computer_description" xml:space="preserve">
     <value>关闭所有应用，关闭系统，然后重新启动系统</value>
     <comment>This should align to the action in Windows of a restarting your computer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_Search_NetworkKeywordList" xml:space="preserve">
+    <value>ip; mac; 地址</value>
+    <comment>Translate 'ip' as 'ip' and not as 'ip address'. Same for 'mac'.)</comment>
   </data>
   <data name="Microsoft_plugin_sys_shutdown_computer" xml:space="preserve">
     <value>Shutdown 关机</value>
@@ -212,6 +300,24 @@
     <value>将运行中的应用冻结，关闭不必要的硬件并待机</value>
     <comment>This should align to the action in Windows of a making your computer go to sleep.</comment>
   </data>
+  <data name="Microsoft_plugin_sys_Speed" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="Microsoft_plugin_sys_State" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Microsoft_plugin_sys_SubTitle_CopyHint" xml:space="preserve">
+    <value>点击复制</value>
+  </data>
+  <data name="Microsoft_plugin_sys_Suffix" xml:space="preserve">
+    <value>DNS 后缀</value>
+  </data>
+  <data name="Microsoft_plugin_sys_TunnelConnection" xml:space="preserve">
+    <value>隧道</value>
+  </data>
+  <data name="Microsoft_plugin_sys_Type" xml:space="preserve">
+    <value>类型</value>
+  </data>
   <data name="Microsoft_plugin_sys_uefi" xml:space="preserve">
     <value>UEFI 固件设置</value>
     <comment>This should align to the action in Windows Recovery Environment that restart into uefi settings.</comment>
@@ -223,6 +329,21 @@
   <data name="Microsoft_plugin_sys_uefi_description" xml:space="preserve">
     <value>重启电脑，然后进入主板 UEFI 固件设置（需要管理员权限）</value>
     <comment>This should align to the action in Windows Recovery Environment that restart into uefi settings.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_Unknown" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="Microsoft_plugin_sys_Wins" xml:space="preserve">
+    <value>WINS 服务器</value>
+  </data>
+  <data name="Microsoft_plugin_sys_WirelessLan" xml:space="preserve">
+    <value>Wifi</value>
+  </data>
+  <data name="Reduce_Network_Result_Score" xml:space="preserve">
+    <value>降低 “IP” “MAC” 的搜索优先级</value>
+  </data>
+  <data name="Reduce_Network_Result_Score_Description" xml:space="preserve">
+    <value>优化搜索结果显示顺序（放在更后面），但是更难搜到</value>
   </data>
   <data name="Use_localized_system_commands" xml:space="preserve">
     <value>喵呜 (owo)/</value>
