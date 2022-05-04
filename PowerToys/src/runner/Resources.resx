@@ -77,7 +77,7 @@
     <value>旧版本的 PowerToys 正在运行。</value>
   </data>
   <data name="DOWNLOAD_UPDATE_ERROR" xml:space="preserve">
-    <value>无法下载 PowerToys 更新！请在 Github 上报告该问题。</value>
+    <value>无法下载 PowerToys 更新！请在 GitHub 上报告该问题。</value>
   </data>
   <data name="OLDER_MSIX_UNINSTALLED" xml:space="preserve">
     <value>已经卸载了旧的 MSIX 版本 PowerToys。</value>

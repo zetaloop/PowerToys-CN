@@ -139,4 +139,7 @@
   <data name="wox_plugin_cmd_command_not_found" xml:space="preserve">
     <value>命令不存在</value>
   </data>
+  <data name="wox_plugin_cmd_run_as_user" xml:space="preserve">
+    <value>以管理员身份打开/执行(Ctrl+Shift+U)</value>
+  </data>
 </root>
