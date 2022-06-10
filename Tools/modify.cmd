@@ -26,7 +26,11 @@ mkdir %pt%-%ver%\x64\Release\modules\launcher\Plugins\VSCodeWorkspace\ 2>nul
 copy /y %pt%-%ver%\x64\Release\modules\launcher\Plugins\VSCodeWorkspaces %pt%-%ver%\x64\Release\modules\launcher\Plugins\VSCodeWorkspace\
 
 @echo off
-for /f "delims=" %%a in (zhcn_modify_list.txt) do set zhcn=%%a&call :zhcn 
+for /f "delims=" %%a in (zhcn_modify_list.txt) do set zhcn=%%a&call :zhcn
+@echo on
+
+@echo off
+for /f "delims=" %%a in (zhcn_modify_list2.txt) do set zhcn=%%a&call :zhcn2
 @echo on
 
 @echo off
@@ -41,9 +45,9 @@ set a=%i%
 goto :EOF
 
 :title
-title PT Source Cleaner - %ver%
-if test"%ver%"==test"%a%" title PT Source Cleaner - %ver% [Newest]
-if not exist "%pt%-%ver%" title PT Source Cleaner - %ver% [Not exist!]
+title PT Source Patcher - %ver%
+if test"%ver%"==test"%a%" title PT Source Patcher - %ver% [Newest]
+if not exist "%pt%-%ver%" title PT Source Patcher - %ver% [Not exist!]
 goto :EOF
 
 :zhcn
@@ -52,5 +56,14 @@ for /f "delims=" %%a in ('echo %zhcn%') do set zhcnd=%%~dpa&set zhcnn=%%~na&set 
 mkdir %zhcnd%zh-CN 2>nul
 @echo on
 copy /y blank %zhcnd%zh-CN\%zhcnn%.resources%zhcnx%
+@echo off
+goto :EOF
+
+:zhcn2
+set zhcn=%pt%-%ver%\x64\Release\%zhcn%
+for /f "delims=" %%a in ('echo %zhcn%') do set zhcnd=%%~dpa&set zhcnn=%%~na&set zhcnx=%%~xa
+mkdir %zhcnd%zh-CN 2>nul
+@echo on
+copy /y %zhcnn%.resources%zhcnx% %zhcnd%zh-CN\%zhcnn%.resources%zhcnx%
 @echo off
 goto :EOF

@@ -44,6 +44,7 @@ for /f "delims=" %%a in ('%~dp0bin\es -path %pt%-%ver% ext:user') do del /f /q "
 
 del /f /q "%pt%-%ver%\src\modules\imageresizer\dll\ImageResizerExt_i.c"
 del /f /q "%pt%-%ver%\src\modules\imageresizer\dll\ImageResizerExt_i.h"
+del /f /q "%pt%-%ver%\src\modules\imageresizer\dll\RCa11568"
 rmdir /s /q %pt%-%ver%\src\modules\videoconference\VideoConferenceProxyFilter\Win32
 
 @echo off
@@ -54,6 +55,9 @@ pause
 echo ¡¤%i%
 set i=%i:~15%
 if "%i:~-9%"=="-ORIGINAL" goto :eof
+if "%i:~-11%"=="-FULLBACKUP" goto :eof
+if "%i:~-8%"=="-FULLBAK" goto :eof
+if "%i:~-6%"=="-PATCH" goto :eof
 set a=%i%
 goto :EOF
 

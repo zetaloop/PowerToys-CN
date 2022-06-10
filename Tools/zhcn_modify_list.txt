@@ -14,14 +14,6 @@ modules\launcher\Plugins\System\Microsoft.PowerToys.Run.Plugin.System.dll
 modules\launcher\Plugins\TimeDate\Microsoft.PowerToys.Run.Plugin.TimeDate.dll
 modules\launcher\Plugins\WindowsSettings\Microsoft.PowerToys.Run.Plugin.WindowsSettings.dll
 modules\launcher\Plugins\WindowsTerminal\Microsoft.PowerToys.Run.Plugin.WindowsTerminal.dll
-modules\ColorPicker\ModernWpf.Controls.dll
-modules\FancyZones\ModernWpf.Controls.dll
-modules\ImageResizer\ModernWpf.Controls.dll
-modules\launcher\ModernWpf.Controls.dll
-modules\ColorPicker\ModernWpf.dll
-modules\FancyZones\ModernWpf.dll
-modules\ImageResizer\ModernWpf.dll
-modules\launcher\ModernWpf.dll
 modules\ColorPicker\PowerToys.ColorPickerUI.dll
 modules\FancyZones\PowerToys.FancyZonesEditor.dll
 modules\FileExplorerPreview\PowerToys.GcodePreviewHandler.dll
