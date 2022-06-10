@@ -256,7 +256,7 @@
     <value>全局搜索时隐藏 “数字输入无效” 结果</value>
   </data>
   <data name="Microsoft_plugin_timedate_SettingOnlyDateTimeNowGlobal" xml:space="preserve">
-    <value>全局搜索只显示 “时间” “日期” “现在”</value>
+    <value>全局搜索只显示当前 “时间” “日期” “现在”</value>
   </data>
   <data name="Microsoft_plugin_timedate_SettingOnlyDateTimeNowGlobal_Description" xml:space="preserve">
     <value>无论如何，搜索的第一个字必须对上才能搜到</value>

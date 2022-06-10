@@ -124,7 +124,7 @@
     <value>进行数学计算（例如 5*3-2）</value>
   </data>
   <data name="wox_plugin_calculator_not_a_number" xml:space="preserve">
-    <value>不是数字（NaN）</value>
+    <value>结果不是数字（NaN 错误）</value>
   </data>
   <data name="wox_plugin_calculator_expression_not_complete" xml:space="preserve">
     <value>表达式错误或不完整（是否忘记加上括号？）</value>
@@ -134,5 +134,26 @@
   </data>
   <data name="wox_plugin_calculator_copy_failed" xml:space="preserve">
     <value>复制失败，请稍后再试</value>
+  </data>
+  <data name="wox_plugin_calculator_calculation_failed" xml:space="preserve">
+    <value>计算错误</value>
+  </data>
+  <data name="wox_plugin_calculator_double_array_returned" xml:space="preserve">
+    <value>暂不支持使用方括号</value>
+  </data>
+  <data name="wox_plugin_calculator_not_covert_to_decimal" xml:space="preserve">
+    <value>结果超过十进制数字范围</value>
+  </data>
+  <data name="wox_plugin_calculator_in_en_format" xml:space="preserve">
+    <value>输入英语格式数字</value>
+  </data>
+  <data name="wox_plugin_calculator_in_en_format_description" xml:space="preserve">
+    <value>强制输入英语格式的数字，例如 '1,000.50'</value>
+  </data>
+  <data name="wox_plugin_calculator_out_en_format" xml:space="preserve">
+    <value>输出英语格式数字</value>
+  </data>
+  <data name="wox_plugin_calculator_out_en_format_description" xml:space="preserve">
+    <value>强制输出英语格式的数字，例如 '1000.50'</value>
   </data>
 </root>

@@ -273,10 +273,7 @@
   </data>
   <data name="KeyboardManager_EnableToggle.Header" xml:space="preserve">
     <value>启用键盘修改器</value>
-    <comment>
-      Keyboard Manager enable toggle header
-      do not loc the Product name.  Do you want this feature on / off
-    </comment>
+    <comment>Keyboard Manager enable toggle header. Do not loc the Product name. Do you want this feature on / off</comment>
   </data>
   <data name="KeyboardManager_ProfileDescription.Text" xml:space="preserve">
     <value>选择配置文件以显示激活的重映射链</value>
@@ -617,32 +614,60 @@
     <value>保留上次搜索内容</value>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Preview_MD.Header" xml:space="preserve">
-    <value>启用 Markdown (.md .markdown .mdown .mkdn .mkd .mdwn .mdtxt .mdtext) 预览</value>
-    <comment>Do not loc "Markdown".  Do you want this feature on / off</comment>
+    <value>Markdown 文档</value>
+    <comment>File type, do not translate</comment>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Preview_MD.Description" xml:space="preserve">
+    <value>.md, .markdown, .mdown, .mkdn, .mkd, .mdwn, .mdtxt, .mdtext</value>
+    <comment>File extensions, should not be altered</comment>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Preview_Monaco.Header" xml:space="preserve">
-    <value>启用开发文件 (.cpp .py 等) 预览</value>
-    <comment>Do you want this feature on / off</comment>
+    <value>程序代码</value>
+    <comment>File type, do not translate</comment>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Preview_Monaco.Description" xml:space="preserve">
+    <value>.cpp, .py, .json, .xml, .csproj 等，由 Monaco 编辑器提供支持</value>
+    <comment>File extensions should not be altered</comment>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Preview_SVG.Header" xml:space="preserve">
-    <value>启用 SVG (.svg) 预览</value>
-    <comment>Do you want this feature on / off</comment>
+    <value>矢量图</value>
+    <comment>File type, do not translate</comment>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Preview_SVG.Description" xml:space="preserve">
+    <value>.svg</value>
+    <comment>File extension, should not be altered</comment>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Preview_PDF.Header" xml:space="preserve">
-    <value>启用 PDF (.pdf) 预览</value>
-    <comment>Do you want this feature on / off</comment>
+    <value>PDF 文档</value>
+    <comment>File type, do not translate</comment>
   </data>
-  <data name="FileExplorerPreview_ToggleSwitch_SVG_Thumbnail.Header" xml:space="preserve">
-    <value>启用 SVG (.svg) 缩略图</value>
-    <comment>Do you want this feature on / off</comment>
+  <data name="FileExplorerPreview_ToggleSwitch_Preview_PDF.Description" xml:space="preserve">
+    <value>.pdf</value>
+    <comment>File extension, should not be altered</comment>
   </data>
-  <data name="FileExplorerPreview_ToggleSwitch_STL_Thumbnail.Header" xml:space="preserve">
-    <value>启用 STL (.stl) 缩略图</value>
-    <comment>Do you want this feature on / off</comment>
+  <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_SVG.Header" xml:space="preserve">
+    <value>矢量图</value>
+    <comment>File type, do not translate</comment>
   </data>
-  <data name="FileExplorerPreview_ToggleSwitch_PDF_Thumbnail.Header" xml:space="preserve">
-    <value>启用 PDF (.pdf) 缩略图</value>
-    <comment>Do you want this feature on / off</comment>
+  <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_SVG.Description" xml:space="preserve">
+    <value>.svg</value>
+    <comment>File extension, should not be altered</comment>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_STL.Header" xml:space="preserve">
+    <value>3D 模型</value>
+    <comment>File type, do not translate</comment>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_STL.Description" xml:space="preserve">
+    <value>.stl</value>
+    <comment>File extension, should not be altered</comment>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_PDF.Header" xml:space="preserve">
+    <value>PDF 文档</value>
+    <comment>File type, do not translate</comment>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_PDF.Description" xml:space="preserve">
+    <value>.pdf</value>
+    <comment>File extension, should not be altered</comment>
   </data>
   <data name="FileExplorerPreview.ModuleDescription" xml:space="preserve">
     <value>让文件管理器支持更多预览格式。</value>
@@ -1004,11 +1029,14 @@
   <data name="FileExplorerPreview_IconThumbnail_GroupSettings.Header" xml:space="preserve">
     <value>文件缩略图</value>
   </data>
+  <data name="FileExplorerPreview_IconThumbnail_GroupSettings.Description" xml:space="preserve">
+    <value>选择启用增强缩略图的文件格式。</value>
+  </data>
   <data name="FileExplorerPreview_PreviewPane.Header" xml:space="preserve">
     <value>预览窗格</value>
   </data>
   <data name="FileExplorerPreview_PreviewPane.Description" xml:space="preserve">
-    <value>在文件夹中按 Alt + P 即可打开预览窗格。</value>
+    <value>选择启用增强预览的文件格式。在文件夹中按 Alt + P 即可打开预览窗格。</value>
     <comment>Preview Pane and File Explorer are app/feature names in Windows. 'Alt + P' is a shortcut</comment>
   </data>
   <data name="FileExplorerPreview_RunAsAdminRequired.Title" xml:space="preserve">
@@ -1300,7 +1328,7 @@
     <value>一个窗口管理器，可将窗口排列对齐到一定的布局中，便于多任务处理。</value>
   </data>
   <data name="Oobe_FileExplorer.Description" xml:space="preserve">
-    <value>Windows 文件资源管理器的增强组件，支持预览 Markdown 文档 (.md)、PDF 文档 (.pdf)、SVG 图像 (.svg)、G-code 模型 (.gcode)、STL 模型 (.stl) 和常用的开发文件，也为一些文件增加了缩略图的支持。</value>
+    <value>Windows 文件资源管理器的增强组件，支持预览文档 (.md .pdf)、矢量图 (.svg)、3D 模型 (.stl .gcode) 和程序代码文件，也为一些文件增加了缩略图的支持。</value>
   </data>
   <data name="Oobe_ImageResizer.Description" xml:space="preserve">
     <value>使用图像裁剪器，可以方便地批量调整图像大小。</value>
@@ -1328,7 +1356,7 @@
     <value>Microsoft PowerToys 是一个小工具集，可以精简并优化 Windows 操作，提高工作效率。
 
 在此快速了解各个功能，或者阅读我们的帮助文档，位于微软文档网站。</value>
-  </data>    
+  </data>
   <data name="Oobe_Overview_DescriptionLinkText.Text" xml:space="preserve">
     <value>帮助文档</value>
   </data>
@@ -1450,7 +1478,7 @@
   <data name="Oobe_WhatsNew_LoadingError.Title" xml:space="preserve">
     <value>无法加载更新日志。</value>
   </data>
-	  <data name="Oobe_WhatsNew_LoadingError.Message" xml:space="preserve">
+  <data name="Oobe_WhatsNew_LoadingError.Message" xml:space="preserve">
     <value>请检查网络连接。</value>
   </data>
   <data name="Oobe_WhatsNew_DetailedReleaseNotesLink.Text" xml:space="preserve">
@@ -1636,7 +1664,7 @@
   </data>
   <data name="LearnMore_PowerPreview.Text" xml:space="preserve">
     <value>详细了解文件增强组件</value>
-    <comment>File Explorer is a product name, do not loc</comment>
+    <comment>File Explorer is a product name, localize as Windows does</comment>
   </data>
   <data name="LearnMore_PowerRename.Text" xml:space="preserve">
     <value>详细了解批量重命名</value>
@@ -1832,6 +1860,7 @@
   </data>
   <data name="MouseUtils_FindMyMouse_AnimationDurationMs.Description" xml:space="preserve">
     <value>聚光灯出现、消失的时长</value>
+    <comment>ms = milliseconds</comment>
   </data>
   <data name="MouseUtils_FindMyMouse_ShakingMinimumDistance.Header" xml:space="preserve">
     <value>晃动距离</value>
@@ -1944,19 +1973,19 @@
   <data name="VideoConference_RunAsAdminRequired.Title" xml:space="preserve">
     <value>要修改此设置，请以管理员身份重新启动程序。</value>
   </data>
-  <data name="FileExplorerPreview_ToggleSwitch_GCODE_Thumbnail.Header" xml:space="preserve">
-    <value>启用 G-code (.gcode) 缩略图</value>
-    <comment>Do you want this feature on / off</comment>
+  <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_GCODE.Header" xml:space="preserve">
+    <value>数控指令</value>
+    <comment>File type, do not translate</comment>
   </data>
-  <data name="FileExplorerPreview_ToggleSwitch_GCODE_Thumbnail.Description" xml:space="preserve">
-    <value>仅支持嵌入缩略图的 G-code 文件</value>
-  </data>
-  <data name="FileExplorerPreview_ToggleSwitch_Preview_GCODE.Description" xml:space="preserve">
-    <value>仅支持嵌入缩略图的 G-code 文件</value>
+  <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_GCODE.Description" xml:space="preserve">
+    <value>自带缩略图的 .gcode</value>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Preview_GCODE.Header" xml:space="preserve">
-    <value>启用 G-code (.gcode) 预览</value>
-    <comment>Do you want this feature on / off</comment>
+    <value>数控指令</value>
+    <comment>File type, do not translate</comment>
+    </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Preview_GCODE.Description" xml:space="preserve">
+    <value>自带缩略图的 .gcode</value>
   </data>
   <data name="FancyZones_NumberColor.Header" xml:space="preserve">
     <value>编号颜色</value>
@@ -2060,14 +2089,14 @@
   <data name="AlwaysOnTop_Radio_Windows_Default.Content" xml:space="preserve">
     <value>系统主题色</value>
   </data>
-  <data name="PowerPreviewPage.SecondaryLinksHeader" xml:space="preserve">
+  <data name="FileExplorerPreview.SecondaryLinksHeader" xml:space="preserve">
     <value>贡献</value>
     <comment>giving credit to the projects this utility was based on</comment>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Monaco_Wrap_Text.Content" xml:space="preserve">
     <value>自动换行</value>
     <comment>Feature on or off</comment>
- </data>
+  </data>
   <data name="FancyZones_AllowPopupWindowSnap.Description" xml:space="preserve">
     <value>对所有弹窗生效，包括系统通知</value>
   </data>
@@ -2080,10 +2109,7 @@
   <data name="Shell_WhatsNew.Content" xml:space="preserve">
     <value>更新内容</value>
   </data>
-  <data name="FancyZones_DisableRoundCornersOnWindowSnap.Description" xml:space="preserve">
-    <value>可显示窗口直角边，针对 Win11</value>
-  </data>
-  <data name="FancyZones_DisableRoundCornersOnWindowSnap.Header" xml:space="preserve">
-    <value>纳入布局时取消窗口圆角</value>
+  <data name="FancyZones_DisableRoundCornersOnWindowSnap.Content" xml:space="preserve">
+    <value>纳入布局时删除窗口圆角（Win11）</value>
   </data>
 </root>

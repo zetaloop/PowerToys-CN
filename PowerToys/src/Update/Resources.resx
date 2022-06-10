@@ -68,7 +68,7 @@
     <value>PowerToys 有版本更新。</value>
   </data>
   <data name="GITHUB_NEW_VERSION_UPDATE_NOW" xml:space="preserve">
-    <value>现在更新</value>
+    <value>立刻更新</value>
   </data>
   <data name="GITHUB_NEW_VERSION_AVAILABLE_OFFER_VISIT" xml:space="preserve">
     <value>PowerToys 有版本更新。请访问 GitHub 页面下载。</value>

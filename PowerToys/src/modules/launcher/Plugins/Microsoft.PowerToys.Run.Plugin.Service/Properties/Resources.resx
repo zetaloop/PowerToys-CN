@@ -120,6 +120,9 @@
   <data name="wox_plugin_service_continue_pending" xml:space="preserve">
     <value>正在恢复</value>
   </data>
+  <data name="wox_plugin_service_name" xml:space="preserve">
+    <value>名称</value>
+  </data>
   <data name="wox_plugin_service_open_services" xml:space="preserve">
     <value>管理服务(Ctrl+O)</value>
   </data>
@@ -164,6 +167,9 @@
   </data>
   <data name="wox_plugin_service_start_mode_automatic" xml:space="preserve">
     <value>自动</value>
+  </data>
+  <data name="wox_plugin_service_start_mode_automaticDelayed" xml:space="preserve">
+    <value>自动(延迟启动)</value>
   </data>
   <data name="wox_plugin_service_start_mode_boot" xml:space="preserve">
     <value>开机启动</value>
