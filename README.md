@@ -8,9 +8,9 @@ PowerToys 自制简体中文翻译优化补丁
 
 **汇报 bug 请用官方版本重现**。
 
-反馈问题：Issue 或 ideaploter@outlook.com
+反馈问题：Issue 或 zetaspace@outlook.com
 
-版本：v0.59.0
+版本：v0.59.1（github未更新，暂见网盘）
 
 _（备注：由于无法获取官方本地化组件，硬编码为中文，默认且仅支持中文。）_
 
@@ -18,7 +18,7 @@ _（备注：由于无法获取官方本地化组件，硬编码为中文，默�
 
 下载地址（Github）：[https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest](https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest)
 
-备用下载地址（蓝奏云）：[https://zeta.lanzouf.com/b01jkrkad](https://zeta.lanzouf.com/b01jkrkad) 密码：zeta 【包含安装包】
+备用下载地址（蓝奏云）：[https://zeta.lanzouf.com/b01jmjode](https://zeta.lanzouf.com/b01jmjode) 密码：zeta 【包含安装包】
 
 ## Usage 使用方法
 
@@ -31,6 +31,8 @@ _（备注：由于无法获取官方本地化组件，硬编码为中文，默�
 　　下载 PCTMODx***.7z（带有自动安装程序），解压后运行“安装.CMD”，根据提示完成安装
 
 需要系统版本 Windows 10 1903 或更高，否则可能安装失败。
+
+暂不支持 arm64，因为我没 arm64 的电脑。
 
 ## Patchs 优化清单
 <details><summary></summary>
