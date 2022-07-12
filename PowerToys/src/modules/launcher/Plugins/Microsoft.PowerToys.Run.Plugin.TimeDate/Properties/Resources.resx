@@ -198,8 +198,17 @@
     <comment>'UTC' means here 'Universal Time Convention'</comment>
   </data>
   <data name="Microsoft_plugin_timedate_plugin_description" xml:space="preserve">
-    <value>获取时间与日期，支持自定义时间戳（比如：“当前” “月份” “时间::{1}” “星期::{0}”）</value>
-    <comment>The character sequence '::' is a fixed delimiter in plugin code. Do not translate the placeholders '{0}' and '{1}' because it will be replaced in code.</comment>
+    <value>获取时间与日期，支持自定义时间戳（比如：“{0}” “{1}” “{2}” “{3}”）</value>
+    <comment>Do not translate the placeholders like '{0}' because it will be replaced in code.</comment>
+  </data>
+  <data name="Microsoft_plugin_timedate_plugin_description_example_calendarWeek" xml:space="preserve">
+    <value>星期</value>
+  </data>
+  <data name="Microsoft_plugin_timedate_plugin_description_example_day" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="Microsoft_plugin_timedate_plugin_description_example_time" xml:space="preserve">
+    <value>时间</value>
   </data>
   <data name="Microsoft_plugin_timedate_plugin_name" xml:space="preserve">
     <value>时间</value>

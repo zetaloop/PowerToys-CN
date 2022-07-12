@@ -127,22 +127,22 @@
     <value>一个任意字符</value>
   </data>
   <data name="RegExCheatSheet_MatchDigit" xml:space="preserve">
-    <value>一个数字，相当于 [0-9]</value>
+    <value>一个数字，[0-9]</value>
   </data>
   <data name="RegExCheatSheet_MatchNonDigit" xml:space="preserve">
-    <value>一个非数字，相当于 [^0-9]</value>
+    <value>一个非数字，[^0-9]</value>
   </data>
   <data name="RegExCheatSheet_MatchNonWS" xml:space="preserve">
-    <value>一个非空白字符，相当于 [^\\s]</value>
+    <value>一个非空白字符，[^\\s]</value>
   </data>
   <data name="RegExCheatSheet_MatchWordChar" xml:space="preserve">
-    <value>一个英文字符，相当于 [a-zA-Z_0-9]</value>
+    <value>一个英文字符，[a-zA-Z_0-9]</value>
   </data>
   <data name="RegExCheatSheet_MatchOneOrMoreWS" xml:space="preserve">
     <value>一个及以上非空白字符</value>
   </data>
   <data name="RegExCheatSheet_MatchWordBoundary" xml:space="preserve">
-    <value>一个英文单词，每个字属于 [a-zA-Z0-9_]</value>
+    <value>一个英文单词，[a-zA-Z0-9_]</value>
   </data>
   <data name="RegExCheatSheet_LearnMore.Text" xml:space="preserve">
     <value>了解正则表达式</value>
@@ -151,7 +151,7 @@
     <value>替换为</value>
   </data>
   <data name="DateTimeCheatSheet_Title.Text" xml:space="preserve">
-    <value>文件创建时间作为参数</value>
+    <value>文件名参数</value>
   </data>
   <data name="DateTimeCheatSheet_FullYear" xml:space="preserve">
     <value>年份，2021</value>
@@ -163,10 +163,10 @@
     <value>年份 后一位，1</value>
   </data>
   <data name="DateTimeCheatSheet_MonthName" xml:space="preserve">
-    <value>月份中文，一月</value>
+    <value>月份 中文，一月</value>
   </data>
   <data name="DateTimeCheatSheet_MonthNameAbbr" xml:space="preserve">
-    <value>月份中文 缩写，1月</value>
+    <value>月份 中文 缩写，1月</value>
   </data>
   <data name="DateTimeCheatSheet_MonthDigitLZero" xml:space="preserve">
     <value>月份 补零，01-12</value>

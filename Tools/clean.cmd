@@ -25,6 +25,7 @@ rmdir /s /q %pt%-%ver%\.vs
 rmdir /s /q %pt%-%ver%\packages
 rmdir /s /q %pt%-%ver%\x64
 rmdir /s /q %pt%-%ver%\x86
+rmdir /s /q %pt%-%ver%\ARM64
 rmdir /s /q %pt%-%ver%\deps\cxxopts
 rmdir /s /q %pt%-%ver%\deps\cziplib
 rmdir /s /q %pt%-%ver%\deps\expected-lite
@@ -42,9 +43,9 @@ for /f "delims=" %%a in ('%~dp0bin\es -path %pt%-%ver% wfn:folder:x64') do rmdir
 for /f "delims=" %%a in ('%~dp0bin\es -path %pt%-%ver% wfn:folder:"Generated Files"') do rmdir /s /q "%%a"
 for /f "delims=" %%a in ('%~dp0bin\es -path %pt%-%ver% ext:user') do del /f /q "%%a"
 
-del /f /q "%pt%-%ver%\src\modules\imageresizer\dll\ImageResizerExt_i.c"
-del /f /q "%pt%-%ver%\src\modules\imageresizer\dll\ImageResizerExt_i.h"
-del /f /q "%pt%-%ver%\src\modules\imageresizer\dll\RCa11568"
+::del /f /q "%pt%-%ver%\src\modules\imageresizer\dll\ImageResizerExt_i.c"
+::del /f /q "%pt%-%ver%\src\modules\imageresizer\dll\ImageResizerExt_i.h"
+::del /f /q "%pt%-%ver%\src\modules\imageresizer\dll\RCa11568"
 rmdir /s /q %pt%-%ver%\src\modules\videoconference\VideoConferenceProxyFilter\Win32
 
 @echo off

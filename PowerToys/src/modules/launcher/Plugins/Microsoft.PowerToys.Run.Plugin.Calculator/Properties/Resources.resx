@@ -148,12 +148,14 @@
     <value>输入英语格式数字</value>
   </data>
   <data name="wox_plugin_calculator_in_en_format_description" xml:space="preserve">
-    <value>强制输入英语格式的数字，例如 '1,000.50'</value>
+    <value>强制输入英语格式的数字，例如 '{0}'</value>
+    <comment>{0} is a placeholder and will be replaced in code.</comment>
   </data>
   <data name="wox_plugin_calculator_out_en_format" xml:space="preserve">
     <value>输出英语格式数字</value>
   </data>
   <data name="wox_plugin_calculator_out_en_format_description" xml:space="preserve">
-    <value>强制输出英语格式的数字，例如 '1000.50'</value>
+    <value>强制输出英语格式的数字，例如 '{0}'</value>
+    <comment>{0} is a placeholder and will be replaced in code.</comment>
   </data>
 </root>

@@ -414,6 +414,17 @@
   <data name="PowerLauncher_ClearInputOnLaunch.Content" xml:space="preserve">
     <value>启动时清空上次搜索</value>
   </data>
+  <data name="PowerLauncher_SearchQueryResultsWithDelay.Header" xml:space="preserve">
+    <value>搜索延迟</value>
+    <comment>This is about adding a delay to wait for more input before executing a search</comment>
+  </data>
+  <data name="PowerLauncher_SearchQueryResultsWithDelay.Description" xml:space="preserve">
+    <value>输入结束后再开始搜索</value>
+  </data>
+  <data name="PowerLauncher_SearchInputDelayMs.Header" xml:space="preserve">
+    <value>延迟（毫秒）</value>
+    <comment>ms = milliseconds</comment>
+  </data>
   <data name="KeyboardManager_KeysMappingLayoutRightHeader.Text" xml:space="preserve">
     <value>目标</value>
     <comment>Keyboard Manager mapping keys view right header</comment>
@@ -1481,6 +1492,12 @@
   <data name="Oobe_WhatsNew_LoadingError.Message" xml:space="preserve">
     <value>请检查网络连接。</value>
   </data>
+  <data name="Oobe_WhatsNew_ProxyAuthenticationWarning.Title" xml:space="preserve">
+    <value>无法加载更新日志。</value>
+  </data>
+  <data name="Oobe_WhatsNew_ProxyAuthenticationWarning.Message" xml:space="preserve">
+    <value>您的代理服务器需要身份验证。</value>
+  </data>
   <data name="Oobe_WhatsNew_DetailedReleaseNotesLink.Text" xml:space="preserve">
     <value>访问我们的 GitHub 储存库以查看详细记录</value>
     <comment>Don't loc "GitHub", it's the name of a product</comment>
@@ -1983,7 +2000,7 @@
   <data name="FileExplorerPreview_ToggleSwitch_Preview_GCODE.Header" xml:space="preserve">
     <value>数控指令</value>
     <comment>File type, do not translate</comment>
-    </data>
+  </data>
   <data name="FileExplorerPreview_ToggleSwitch_Preview_GCODE.Description" xml:space="preserve">
     <value>自带缩略图的 .gcode</value>
   </data>
@@ -2110,6 +2127,33 @@
     <value>更新内容</value>
   </data>
   <data name="FancyZones_DisableRoundCornersOnWindowSnap.Content" xml:space="preserve">
-    <value>纳入布局时删除窗口圆角（Win11）</value>
+    <value>纳入布局时消除窗口圆角（Win11）</value>
+  </data>
+  <data name="PowerLauncher_SearchQueryTuningEnabled.Description" xml:space="preserve">
+    <value>结果排序</value>
+  </data>
+  <data name="PowerLauncher_SearchQueryTuningEnabled.Header" xml:space="preserve">
+    <value>搜索结果顺序优化</value>
+  </data>
+  <data name="PowerLauncher_SearchClickedItemWeight.Description" xml:space="preserve">
+    <value>权重越大，搜索后选中的结果下次越容易搜到。默认为 5，禁用为 0</value>
+  </data>
+  <data name="PowerLauncher_SearchClickedItemWeight.Header" xml:space="preserve">
+    <value>选定提升权重</value>
+  </data>
+  <data name="PowerLauncher_WaitForSlowResults.Description" xml:space="preserve">
+    <value>加载时开始排序，有助于选出最相关的结果，可能存在排序跳动不定的问题</value>
+  </data>
+  <data name="PowerLauncher_WaitForSlowResults.Header" xml:space="preserve">
+    <value>动态排序</value>
+  </data>
+  <data name="PowerLauncher_PluginWeightBoost.Description" xml:space="preserve">
+    <value>权重越大，结果排在越前面。默认为 0</value>
+  </data>
+  <data name="PowerLauncher_PluginWeightBoost.Header" xml:space="preserve">
+    <value>全局排序权重</value>
+  </data>
+  <data name="AlwaysOnTop_RoundCorners.Content" xml:space="preserve">
+    <value>圆角</value>
   </data>
 </root>
