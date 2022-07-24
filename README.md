@@ -1,6 +1,6 @@
 # PowerToys Custom Simplified Chinese Translation Patch
 
-<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/PCTMODx7.topic.png"/>
+<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/PCTMODx8.topic.png"/>
 
 PowerToys 自制简体中文翻译优化补丁
 
@@ -10,7 +10,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 反馈问题：Issue 或 zetaspace@outlook.com
 
-版本：v0.60.0
+版本：v0.60.1
 
 现已支持 x64 & ARM64
 
@@ -20,7 +20,7 @@ _（备注：由于无法获取官方本地化组件，硬编码为中文，默�
 
 下载地址（Github）：[https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest](https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest)
 
-备用下载地址（蓝奏云）：[https://zeta.lanzouf.com/b01jof11c](https://zeta.lanzouf.com/b01jof11c) 密码：zeta 【包含安装包】
+备用下载地址（蓝奏云）：[https://zeta.lanzouf.com/b01jpteji](https://zeta.lanzouf.com/b01jpteji) 密码：zeta 【包含安装包】
 
 ## Usage 使用方法
 
