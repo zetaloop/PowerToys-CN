@@ -70,7 +70,7 @@ namespace Microsoft.PowerToys.Run.Plugin.WindowsTerminal
 
                 // Action keyword only or search query match
                 int score = StringMatcher.FuzzySearch(search, profile.Name).Score;
-                if ((!string.IsNullOrWhiteSpace(query.ActionKeyword) && string.IsNullOrWhiteSpace(search)) || score > 0)
+                if (string.IsNullOrWhiteSpace(search) || score > 0)
                 {
                     result.Add(new Result
                     {

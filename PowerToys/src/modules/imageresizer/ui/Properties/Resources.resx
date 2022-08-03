@@ -248,7 +248,7 @@
     <value>像素</value>
   </data>
   <data name="Resize_Tooltip" xml:space="preserve">
-    <value>调整图片大小</value>
+    <value>图像裁剪器</value>
   </data>
   <data name="Resize_Type" xml:space="preserve">
     <value>操作</value>
@@ -266,7 +266,7 @@
     <value>乘号</value>
   </data>
   <data name="Unit" xml:space="preserve">
-    <value>单元</value>
+    <value>单位</value>
   </data>
   <data name="ValueMustBeBetween" xml:space="preserve">
     <value>数值必须介于 '{0}' 和 '{1}' 之间。</value>

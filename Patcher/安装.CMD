@@ -54,7 +54,8 @@ set modver=%modver% ARM64
 
 :install
 echo 开始安装！
-if exist "%tmp%\PowerRenameExt.dll_*" del "%tmp%\PowerRenameExt.dll_*"
+if exist "%tmp%\PowerToys.PowerRenameExt.dll_*" del "%tmp%\PowerToys.PowerRenameExt.dll_*"
+if exist "%tmp%\PowerToys.ImageResizerExt.dll_*" del "%tmp%\PowerToys.ImageResizerExt.dll_*"
 :chcp 936>nul
 call :killpt
 xcopy ".\%softname% %modver%\*" "%installpath%" /e /y
@@ -73,8 +74,10 @@ echo 这些文件放到了系统临时文件夹。
 ::
 echo 你可能需要重启电脑来使汉化生效。
 ::
-if exist "%tmp%\PowerRenameExt.dll_*" del "%tmp%\PowerRenameExt.dll_*"
-if exist "%installpath%modules\PowerRename\PowerRenameExt.dll" move "%installpath%modules\PowerRename\PowerRenameExt.dll" "%tmp%\PowerRenameExt.dll_%random%.tmp"
+if exist "%tmp%\PowerToys.PowerRenameExt.dll_*" del "%tmp%\PowerToys.PowerRenameExt.dll_*"
+if exist "%installpath%modules\PowerRename\PowerToys.PowerRenameExt.dll" move "%installpath%modules\PowerRename\PowerToys.PowerRenameExt.dll" "%tmp%\PowerToys.PowerRenameExt.dll_%random%.tmp"
+if exist "%tmp%\PowerToys.ImageResizerExt.dll_*" del "%tmp%\PowerToys.ImageResizerExt.dll_*"
+if exist "%installpath%modules\PowerRename\PowerToys.ImageResizerExt.dll" move "%installpath%modules\PowerRename\PowerToys.ImageResizerExt.dll" "%tmp%\PowerToys.ImageResizerExt.dll_%random%.tmp"
 echo 再试一次...
 echo.
 echo.
@@ -97,7 +100,7 @@ set /p =请按任意键退出. . . &exit
 goto :eof
 
 :success
-echo 重启文件资源管理器以加载汉化批量重命名
+echo 重启文件资源管理器以加载汉化右键菜单
 ::
 taskkill /f /im explorer.exe>nul
 start explorer

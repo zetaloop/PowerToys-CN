@@ -286,10 +286,10 @@
     <value>全选或取消全选</value>
   </data>
   <data name="FilterButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>过滤器</value>
+    <value>筛选</value>
   </data>
   <data name="FilterButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
-    <value>过滤器</value>
+    <value>筛选</value>
   </data>
   <data name="ShowAll.Text" xml:space="preserve">
     <value>所有文件</value>
@@ -330,6 +330,4 @@
   <data name="FileCreationButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>参数用法提示</value>
   </data>
-
-
 </root>
