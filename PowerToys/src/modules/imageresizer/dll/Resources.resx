@@ -117,10 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Resize_Pictures_Title" xml:space="preserve">
+  <data name="Resize_Pictures" xml:space="preserve">
     <value>图像裁剪器</value>
   </data>
-  <data name="ImageResizer_App_Name" xml:space="preserve">
+  <data name="Resize_Pictures_Here" xml:space="preserve">
+    <value>Resize pictures here</value>
+  </data>
+  <data name="ImageResizer" xml:space="preserve">
     <value>Image Resizer</value>
+  </data>
+  <data name="Settings_Description" xml:space="preserve">
+    <value>A Windows Shell extension for bulk image resizing.</value>
+  </data>
+  <data name="Settings_Header" xml:space="preserve">
+    <value>Settings can be accessed from within Image Resizer.</value>
+  </data>
+  <data name="Settings_Header_Description" xml:space="preserve">
+    <value>Settings header for Image Resizer</value>
   </data>
 </root>
