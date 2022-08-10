@@ -14,6 +14,8 @@ PowerToys 自制简体中文翻译优化补丁
 
 现已支持 x64 & ARM64
 
+#### _根据蓝奏云下载记录，基本没人用 ARM64 版，接下去将不再提供 ARM64 汉化包，如有需要请自行编译项目使用_ ####
+
 _（备注：由于无法获取官方本地化组件，硬编码为中文，默认且仅支持中文。）_
 
 下载官方安装包：[https://github.com/microsoft/PowerToys](https://github.com/microsoft/PowerToys)
