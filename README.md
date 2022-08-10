@@ -16,13 +16,11 @@ PowerToys 自制简体中文翻译优化补丁
 
 #### _根据蓝奏云下载记录，基本没人用 ARM64 版，接下去将不再提供 ARM64 汉化包，如有需要请自行编译项目使用_ ####
 
-_（备注：由于无法获取官方本地化组件，硬编码为中文，默认且仅支持中文。）_
-
 下载官方安装包：[https://github.com/microsoft/PowerToys](https://github.com/microsoft/PowerToys)
 
-下载地址（Github）：[https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest](https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest)
+下载汉化包（Github）：[https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest](https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest)
 
-备用下载地址（蓝奏云）：[https://zeta.lanzoue.com/b01jqzgtc](https://zeta.lanzoue.com/b01jqzgtc) 密码：zeta 【包含安装包】
+备用下载安装包和汉化（蓝奏云）：[https://zeta.lanzoue.com/b01jqzgtc](https://zeta.lanzoue.com/b01jqzgtc) 密码：zeta
 
 ## Usage 使用方法
 
@@ -32,7 +30,7 @@ _（备注：由于无法获取官方本地化组件，硬编码为中文，默�
 
 ② 一键安装优化补丁包：
 
-　　下载 PCTMODx***.7z（带有自动安装程序），解压后运行“安装.CMD”，根据提示完成安装
+　　下载 PCTMODx***.7z（带有自动安装程序），解压后运行“安装.CMD”，根据提示确定安装
 
 ## Patchs 优化清单
 <details><summary></summary>
