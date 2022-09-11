@@ -10,11 +10,9 @@ PowerToys 自制简体中文翻译优化补丁
 
 反馈问题：Issue 或 zetaspace@outlook.com
 
-版本：v0.61.1
+版本：v0.61.1（0.62 源码翻译已经完成，程序赶制中，或许这次来不及了，那就等我两周后回来）
 
-现已支持 x64 & ARM64
-
-#### _根据蓝奏云下载记录，基本没人用 ARM64 版，接下去将不再提供 ARM64 汉化包，如有需要请自行编译项目使用_ ####
+现已支持 x64 & ARM64（ARM64 自行编译）
 
 下载官方安装包：[https://github.com/microsoft/PowerToys](https://github.com/microsoft/PowerToys)
 
