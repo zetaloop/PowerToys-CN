@@ -125,7 +125,8 @@
     <comment>Used to indicate the location where something is</comment>
   </data>
   <data name="PluginDescription" xml:space="preserve">
-    <value>打开在 VS Code 中打开过的工作区、远程计算机（SSH、Codespaces）和容器</value>
+    <value>打开 VS Code 的常用工作区、远程计算机（SSH、Codespaces）和容器，VS Code 路径须在 PATH 环境变量中</value>
+    <comment>VS Code is the name of a product. PATH is the name of an environment variable. Don't translate it.</comment>
   </data>
   <data name="SSHRemoteMachine" xml:space="preserve">
     <value>SSH 远程计算机</value>

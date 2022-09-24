@@ -1,4 +1,4 @@
-﻿// Copyright (c) Microsoft Corporation
+// Copyright (c) Microsoft Corporation
 // The Microsoft Corporation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
@@ -292,19 +292,12 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
         }
 
         /// <summary>
-        /// Converts spelling "metre" to "meter"
+        /// Converts spelling "metre" to "meter", also for centimetre and other variants
         /// </summary>
         public static void MetreToMeter(ref string[] split)
         {
-            if (split[1].ToLowerInvariant() == "metre")
-            {
-                split[1] = "meter";
-            }
-
-            if (split[3].ToLowerInvariant() == "metre")
-            {
-                split[3] = "meter";
-            }
+            split[1] = split[1].Replace("metre", "meter", System.StringComparison.CurrentCultureIgnoreCase);
+            split[3] = split[3].Replace("metre", "meter", System.StringComparison.CurrentCultureIgnoreCase);
         }
 
         /// <summary>

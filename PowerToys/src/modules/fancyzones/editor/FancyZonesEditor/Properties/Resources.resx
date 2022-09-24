@@ -415,4 +415,10 @@
   <data name="Error_Parsing_Custom_Layouts_Message" xml:space="preserve">
     <value>解析自定义布局时出错。</value>
   </data>
+  <data name="Distance_adjacent_zones_slider_announce" xml:space="preserve">
+    <value>激活距离滑块，取值范围从 {0} 到 {1}，当前为 {2}。</value>
+  </data>
+  <data name="Slider_Value" xml:space="preserve">
+    <value>{0} 像素</value>
+  </data>
 </root>

@@ -119,13 +119,13 @@
   </resheader>
   <data name="Max_File_Size_Error" xml:space="preserve">
       <value>文件过大，无法预览。
-最大文件大小：50KB</value>
-      <comment>Error message which is shown when the file is too big.</comment>
+最大文件大小：%1KB</value>
+    <comment>Error message which is shown when the file is too big. %1 gets replaced by a value. Leave KB (means Kilobyte)</comment>
   </data>
   <data name="Exception_Occurred" xml:space="preserve">
       <value>文件预览发生错误：
       </value>
-      <comment>Will be shown when an exception occurred.</comment>
+    <comment>Will be shown when an exception occurred.</comment>
   </data>
   <data name="Loading_Screen_Message" xml:space="preserve">
       <value>加载中...</value>

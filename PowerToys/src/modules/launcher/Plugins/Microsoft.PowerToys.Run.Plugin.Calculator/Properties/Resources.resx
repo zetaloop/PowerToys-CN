@@ -121,13 +121,13 @@
     <value>计算器</value>
   </data>
   <data name="wox_plugin_calculator_plugin_description" xml:space="preserve">
-    <value>进行数学计算（例如 5*3-2）</value>
+    <value>进行数学计算，例如 5*3-2</value>
   </data>
   <data name="wox_plugin_calculator_not_a_number" xml:space="preserve">
-    <value>结果不是数字（NaN 错误）</value>
+    <value>发生 NaN 错误，结果不是数字</value>
   </data>
   <data name="wox_plugin_calculator_expression_not_complete" xml:space="preserve">
-    <value>表达式错误或不完整（是否忘记加上括号？）</value>
+    <value>表达式错误或不完整，可能缺少括号</value>
   </data>
   <data name="wox_plugin_calculator_copy_number_to_clipboard" xml:space="preserve">
     <value>复制计算结果</value>
@@ -157,5 +157,8 @@
   <data name="wox_plugin_calculator_out_en_format_description" xml:space="preserve">
     <value>强制输出英语格式的数字，例如 '{0}'</value>
     <comment>{0} is a placeholder and will be replaced in code.</comment>
+  </data>
+  <data name="wox_plugin_calculator_division_by_zero" xml:space="preserve">
+    <value>零不可以作为除数</value>
   </data>
 </root>

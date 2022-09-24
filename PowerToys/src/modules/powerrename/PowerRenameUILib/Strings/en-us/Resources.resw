@@ -330,4 +330,12 @@
   <data name="FileCreationButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>参数用法提示</value>
   </data>
+  <data name="ErrorMessage_FileNameTooLong" xml:space="preserve">
+    <value>文件名过长</value>
+  </data>
+  <data name="ErrorMessage_InvalidChar" xml:space="preserve">
+    <value>文件名不能包含以下字符：&#xD;&#xA; &gt; &lt; | " : ? * \ /</value>
+  </data>
+
+
 </root>

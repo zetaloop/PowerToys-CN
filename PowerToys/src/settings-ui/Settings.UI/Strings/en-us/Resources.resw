@@ -117,9 +117,83 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Attribution_Rooler.Text" xml:space="preserve">
+    <value>灵感来自 Rooler</value>
+    <comment>Rooler is a name of the tool.</comment>
+  </data>
   <data name="Shell_VideoConference.Content" xml:space="preserve">
     <value>录制工具</value>
     <comment>Navigation view item name for Video Conference</comment>
+  </data>
+  <data name="Shell_MeasureTool.Content" xml:space="preserve">
+    <value>屏幕标尺</value>
+    <comment>Product name: Navigation view item name for Screen Ruler</comment>
+  </data>
+  <data name="MeasureTool.SecondaryLinksHeader" xml:space="preserve">
+    <value>贡献</value>
+    <comment>giving credit to the projects this utility was based on</comment>
+  </data>
+  <data name="MeasureTool.ModuleDescription" xml:space="preserve">
+    <value>用于像素测量，帮助设计师进行布局分析。</value>
+    <comment>"Screen Ruler" is the name of the utility</comment>
+  </data>
+  <data name="MeasureTool.ModuleTitle" xml:space="preserve">
+    <value>屏幕标尺</value>
+    <comment>"Screen Ruler" is the name of the utility</comment>
+  </data>
+  <data name="MeasureTool_ActivationSettings.Header" xml:space="preserve">
+    <value>快捷键</value>
+  </data>
+  <data name="MeasureTool_Settings.Header" xml:space="preserve">
+    <value>功能</value>
+    <comment>"Screen Ruler" is the name of the utility</comment>
+  </data>
+  <data name="MeasureTool_ActivationShortcut.Header" xml:space="preserve">
+    <value>启动快捷键</value>
+  </data>
+  <data name="MeasureTool_ActivationShortcut.Description" xml:space="preserve">
+    <value>自定义打开标尺栏的快捷键</value>
+    <comment>"Screen Ruler" is the name of the utility</comment>
+  </data>
+  <data name="MeasureTool_UnitsOfMeasure.Header" xml:space="preserve">
+    <value>测量单位</value>
+  </data>
+  <data name="MeasureTool_UnitsOfMeasure_Pixels.Content" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="MeasureTool_UnitsOfMeasure_Inches.Content" xml:space="preserve">
+    <value>英寸</value>
+  </data>
+  <data name="MeasureTool_UnitsOfMeasure_Centimeters.Content" xml:space="preserve">
+    <value>厘米</value>
+  </data>
+  <data name="MeasureTool_PixelTolerance.Header" xml:space="preserve">
+    <value>边缘像素检测容差</value>
+  </data>
+  <data name="MeasureTool_MeasureCrossColor.Header" xml:space="preserve">
+    <value>线条颜色</value>
+  </data>
+  <data name="MeasureTool_ContinuousCapture.Header" xml:space="preserve">
+    <value>实时测量</value>
+  </data>
+  <data name="MeasureTool_ContinuousCapture.Description" xml:space="preserve">
+    <value>每一帧都重新测量，而非冻结屏幕</value>
+  </data>
+  <data name="MeasureTool_PerColorChannelEdgeDetection.Header" xml:space="preserve">
+    <value>通道检测</value>
+  </data>
+  <data name="MeasureTool_PerColorChannelEdgeDetection.Description" xml:space="preserve">
+    <value>检测每个颜色通道的色差，反之则检测色差总和</value>
+  </data>
+  <data name="MeasureTool_DrawFeetOnCross.Header" xml:space="preserve">
+    <value>显示线脚</value>
+  </data>
+  <data name="MeasureTool_DrawFeetOnCross.Description" xml:space="preserve">
+    <value>在测量线末端加一条短横线</value>
+  </data>
+  <data name="MeasureTool_EnableMeasureTool.Header" xml:space="preserve">
+    <value>启用屏幕标尺</value>
+    <comment>"Screen Ruler" is the name of the utility</comment>
   </data>
   <data name="VideoConference_Enable.Header" xml:space="preserve">
     <value>启用录制工具</value>
@@ -149,7 +223,7 @@
     <value>工具栏位置</value>
   </data>
   <data name="VideoConference_ToolbarPosition_TopCenter.Content" xml:space="preserve">
-    <value>顶部居中</value>
+    <value>顶部中央</value>
   </data>
   <data name="VideoConference_ToolbarPosition_TopLeftCorner.Content" xml:space="preserve">
     <value>左上角</value>
@@ -161,7 +235,7 @@
     <value>左下角</value>
   </data>
   <data name="VideoConference_ToolbarPosition_BottomCenter.Content" xml:space="preserve">
-    <value>底部居中</value>
+    <value>底部中央</value>
   </data>
   <data name="VideoConference_ToolbarPosition_BottomRightCorner.Content" xml:space="preserve">
     <value>右下角</value>
@@ -415,14 +489,26 @@
     <value>启动时清空上次搜索</value>
   </data>
   <data name="PowerLauncher_SearchQueryResultsWithDelay.Header" xml:space="preserve">
-    <value>搜索延迟</value>
+    <value>输入缓冲</value>
     <comment>This is about adding a delay to wait for more input before executing a search</comment>
   </data>
   <data name="PowerLauncher_SearchQueryResultsWithDelay.Description" xml:space="preserve">
-    <value>输入结束后再开始搜索</value>
+    <value>等待输入结束后再开始搜索，减少系统开销</value>
+  </data>
+  <data name="PowerLauncher_FastSearchInputDelayMs.Header" xml:space="preserve">
+    <value>即时显示</value>
+  </data>
+  <data name="PowerLauncher_FastSearchInputDelayMs.Description" xml:space="preserve">
+    <value>立刻显示结果的插件，推荐缓冲 30-50 毫秒</value>
+  </data>
+  <data name="PowerLauncher_SlowSearchInputDelayMs.Header" xml:space="preserve">
+    <value>后台运算</value>
+  </data>
+  <data name="PowerLauncher_SlowSearchInputDelayMs.Description" xml:space="preserve">
+    <value>运算结束再呈现结果的插件，推荐缓冲 100-150 毫秒</value>
   </data>
   <data name="PowerLauncher_SearchInputDelayMs.Header" xml:space="preserve">
-    <value>延迟（毫秒）</value>
+    <value>缓冲时间（毫秒）</value>
     <comment>ms = milliseconds</comment>
   </data>
   <data name="KeyboardManager_KeysMappingLayoutRightHeader.Text" xml:space="preserve">
@@ -671,6 +757,9 @@
   <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_STL.Description" xml:space="preserve">
     <value>.stl</value>
     <comment>File extension, should not be altered</comment>
+  </data>
+  <data name="FileExplorerPreview_Color_Thumbnail_STL.Header" xml:space="preserve">
+    <value>模型颜色</value>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_PDF.Header" xml:space="preserve">
     <value>PDF 文档</value>
@@ -1255,9 +1344,6 @@
   <data name="Run_AllPluginsDisabled.Message" xml:space="preserve">
     <value>试试启用一个插件</value>
   </data>
-  <data name="Run_NotAllowedActionKeyword.Title" xml:space="preserve">
-    <value>触发关键字冲突，请更换关键字</value>
-  </data>
   <data name="Run_PluginUseDescription.Header" xml:space="preserve">
     <value>插件列表</value>
   </data>
@@ -1353,6 +1439,9 @@
   <data name="Oobe_Run.Description" xml:space="preserve">
     <value>一个便捷的启动器，具有更多功能但又不牺牲性能。</value>
   </data>
+  <data name="Oobe_MeasureTool.Description" xml:space="preserve">
+    <value>像素测量小工具，帮助设计师进行屏幕布局分析。</value>
+  </data>
   <data name="Oobe_ShortcutGuide.Description" xml:space="preserve">
     <value>显示当前可用的系统快捷键图表。</value>
   </data>
@@ -1440,13 +1529,27 @@
     <value>小技巧</value>
   </data>
   <data name="Oobe_VideoConference_ToggleMicVid.Text" xml:space="preserve">
-    <value>同时切换麦克风和摄像头</value>
+    <value>同时切换麦克风和摄像头开关</value>
   </data>
   <data name="Oobe_VideoConference_ToggleMic.Text" xml:space="preserve">
-    <value>切换麦克风</value>
+    <value>切换麦克风开关</value>
   </data>
   <data name="Oobe_VideoConference_ToggleVid.Text" xml:space="preserve">
-    <value>切换摄像头</value>
+    <value>切换摄像头开关</value>
+  </data>
+  <data name="Oobe_MeasureTool_Activation.Text" xml:space="preserve">
+    <value>打开标尺栏。</value>
+  </data>
+  <data name="Oobe_MeasureTool_HowToLaunch.Text" xml:space="preserve">
+    <value>在标尺栏中选择所需模式。
+
+框选模式：拖动选中一块测量选区，按住 **Shift** 保留选区，**右键** 清空。
+
+间距模式：轴向测量颜色相近像素长度，容差可在设置里设定。</value>
+  </data>
+  <data name="Oobe_MeasureTool.Title" xml:space="preserve">
+    <value>屏幕标尺</value>
+    <comment>Do not localize this string</comment>
   </data>
   <data name="Oobe_ColorPicker.Title" xml:space="preserve">
     <value>取色器</value>
@@ -1581,7 +1684,7 @@
     <value>下载中...</value>
   </data>
   <data name="General_TryAgainToDownloadAndInstall.Content" xml:space="preserve">
-    <value>请尝试再次下载并安装</value>
+    <value>重新下载并安装</value>
   </data>
   <data name="General_CheckingForUpdates.Text" xml:space="preserve">
     <value>正在检查更新...</value>
@@ -1690,6 +1793,10 @@
   <data name="LearnMore_Run.Text" xml:space="preserve">
     <value>详细了解启动器</value>
     <comment>PowerToys Run is a product name, do not loc</comment>
+  </data>
+  <data name="LearnMore_MeasureTool.Text" xml:space="preserve">
+    <value>详细了解屏幕标尺</value>
+    <comment>Screen Ruler is a product name, do not loc</comment>
   </data>
   <data name="LearnMore_ShortcutGuide.Text" xml:space="preserve">
     <value>详细了解快捷键指南</value>
@@ -2155,5 +2262,151 @@
   </data>
   <data name="AlwaysOnTop_RoundCorners.Content" xml:space="preserve">
     <value>圆角</value>
+  </data>
+  <data name="LearnMore_QuickAccent.Text" xml:space="preserve">
+    <value>详细了解字母助手</value>
+    <comment>Quick Accent is a product name, do not loc</comment>
+  </data>
+  <data name="QuickAccent_EnableQuickAccent.Header" xml:space="preserve">
+    <value>启用字母助手</value>
+  </data>
+  <data name="Shell_QuickAccent.Content" xml:space="preserve">
+    <value>字母助手</value>
+  </data>
+  <data name="QuickAccent.ModuleDescription" xml:space="preserve">
+    <value>助您顺利打出带标记的特殊字母，特别是键盘不支持的时候。
+
+按住字母，按启动键，即可选择多种标记字母！</value>
+    <comment>key refers to a physical key on a keyboard</comment>
+  </data>
+  <data name="QuickAccent.ModuleTitle" xml:space="preserve">
+    <value>字母助手</value>
+  </data>
+  <data name="QuickAccent.SecondaryLinksHeader" xml:space="preserve">
+    <value>贡献</value>
+  </data>
+  <data name="Oobe_QuickAccent.Description" xml:space="preserve">
+    <value>字母助手助您顺利打出带标记的特殊字母。</value>
+  </data>
+  <data name="Oobe_QuickAccent.Title" xml:space="preserve">
+    <value>字母助手</value>
+  </data>
+  <data name="Oobe_QuickAccent_HowToUse.Text" xml:space="preserve">
+    <value>打开 **设置**，启用字母助手。
+
+按住字母（比如 a），按一下启动快捷键（左右方向键或者空格），即可选择带标记的字母（à â á ä ã å æ）</value>
+    <comment>key refers to a physical key on a keyboard</comment>
+  </data>
+  <data name="QuickAccent_Activation_GroupSettings.Header" xml:space="preserve">
+    <value>快捷键</value>
+  </data>
+  <data name="QuickAccent_Activation_Shortcut.Header" xml:space="preserve">
+    <value>启动快捷键</value>
+  </data>
+  <data name="QuickAccent_Activation_Shortcut.Description" xml:space="preserve">
+    <value>按住字母后，按此键显示字母助手工具栏</value>
+  </data>
+  <data name="QuickAccent_Activation_Key_Arrows.Content" xml:space="preserve">
+    <value>左右方向键</value>
+    <comment>Left/Right arrow keyboard keys.</comment>
+  </data>
+  <data name="QuickAccent_Activation_Key_Space.Content" xml:space="preserve">
+    <value>空格</value>
+    <comment>Space is the space keyboard key.</comment>
+  </data>
+  <data name="QuickAccent_Activation_Key_Both.Content" xml:space="preserve">
+    <value>方向键和空格</value>
+  </data>
+  <data name="QuickAccent_Toolbar.Header" xml:space="preserve">
+    <value>工具栏</value>
+  </data>
+  <data name="QuickAccent_ToolbarPosition.Header" xml:space="preserve">
+    <value>工具栏位置</value>
+  </data>
+  <data name="QuickAccent_ToolbarPosition_TopCenter.Content" xml:space="preserve">
+    <value>顶部中央</value>
+  </data>
+  <data name="QuickAccent_ToolbarPosition_TopLeftCorner.Content" xml:space="preserve">
+    <value>左上角</value>
+  </data>
+  <data name="QuickAccent_ToolbarPosition_TopRightCorner.Content" xml:space="preserve">
+    <value>右上角</value>
+  </data>
+  <data name="QuickAccent_ToolbarPosition_BottomLeftCorner.Content" xml:space="preserve">
+    <value>左下角</value>
+  </data>
+  <data name="QuickAccent_ToolbarPosition_BottomCenter.Content" xml:space="preserve">
+    <value>底部中央</value>
+  </data>
+  <data name="QuickAccent_ToolbarPosition_BottomRightCorner.Content" xml:space="preserve">
+    <value>右下角</value>
+  </data>
+  <data name="QuickAccent_ToolbarPosition_Center.Content" xml:space="preserve">
+    <value>正中央</value>
+  </data>
+  <data name="QuickAccent_ToolbarPosition_Left.Content" xml:space="preserve">
+    <value>中央左侧</value>
+  </data>
+  <data name="QuickAccent_ToolbarPosition_Right.Content" xml:space="preserve">
+    <value>中央右侧</value>
+  </data>
+  <data name="QuickAccent_Behavior.Header" xml:space="preserve">
+    <value>功能</value>
+  </data>
+  <data name="QuickAccent_InputTimeMs.Header" xml:space="preserve">
+    <value>长按时间（毫秒）</value>
+    <comment>ms = milliseconds</comment>
+  </data>
+  <data name="QuickAccent_InputTimeMs.Description" xml:space="preserve">
+    <value>按住快捷键启动工具栏所需的持续时间</value>
+    <comment>ms = milliseconds</comment>
+  </data>  <data name="LearnMore_TextExtractor.Text" xml:space="preserve">
+    <value>详细了解文本提取器</value>
+  </data>
+  <data name="TextExtractor.ModuleDescription" xml:space="preserve">
+    <value>框选屏幕，一键复制文本。</value>
+  </data>
+  <data name="TextExtractor.ModuleTitle" xml:space="preserve">
+    <value>文本提取器</value>
+  </data>
+  <data name="TextExtractor_EnableToggleControl_HeaderText.Header" xml:space="preserve">
+    <value>启用文本提取器</value>
+  </data>
+  <data name="Shell_TextExtractor.Content" xml:space="preserve">
+    <value>文本提取器</value>
+  </data>
+  <data name="Launch_TextExtractor.Content" xml:space="preserve">
+    <value>启动快捷键</value>
+  </data>
+  <data name="Oobe_TextExtractor.Title" xml:space="preserve">
+    <value>文本提取器</value>
+  </data>
+  <data name="Oobe_TextExtractor_HowToUse.Text" xml:space="preserve">
+    <value>启动文本提取器，拖动框选一块文字内容，松手，文字已经复制到剪贴板了。</value>
+  </data>
+  <data name="Oobe_TextExtractor_TipsAndTricks.Text" xml:space="preserve">
+    <value>按住 Shift 移动选区。</value>
+  </data>
+  <data name="TextExtractor.SecondaryLinksHeader" xml:space="preserve">
+    <value>贡献</value>
+  </data>
+  <data name="Oobe_TextExtractor.Description" xml:space="preserve">
+    <value>类似于截图，文本提取器从屏幕上获取一块内容，然后通过文字识别技术复制出其中的文字。</value>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Monaco_Try_Format.Description" xml:space="preserve">
+    <value>针对 json 和 xml，原文件不会被改动。</value>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Monaco_Try_Format.Header" xml:space="preserve">
+    <value>格式化代码文件</value>
+  </data>
+  <data name="Run_ConflictingKeywordInfo.Title" xml:space="preserve">
+    <value>部分插件唤醒词与默认唤醒的插件有冲突</value>
+  </data>
+  <data name="Run_ConflictingKeywordInfo_Link.Content" xml:space="preserve">
+    <value>详细了解唤醒词冲突</value>
+  </data>
+  <data name="MeasureTool_ContinuousCapture_Information.Title" xml:space="preserve">
+    <value>实时测量会增加系统开销</value>
+    <comment>pointer as in mouse pointer. Resources refer to things like CPU, GPU, RAM</comment>
   </data>
 </root>

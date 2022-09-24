@@ -60,7 +60,7 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
         [System.Diagnostics.CodeAnalysis.SuppressMessage("StyleCop.CSharp.LayoutRules", "SA1501:Statement should not be on a single line", Justification = "<挂起>")]
         private Result GetResult(UnitConversionResult result)
         {
-            string hack = $"{result.QuantityType}";
+            string hack = $"{result.QuantityInfo.Name}";
             if (hack == "Acceleration") { hack = "加速度"; }
             else if (hack == "Angle") { hack = "角度"; }
             else if (hack == "Area") { hack = "面积"; }

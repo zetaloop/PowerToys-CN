@@ -117,12 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BlockedImageInfoText" xml:space="preserve">
-    <value>一些图片已被屏蔽，防止电脑访问未知网址引起危险。启用此选项允许查看图片。</value>
-    <comment>This text is displayed if image is blocked from being displayed.</comment>
+  <data name="wox_plugin_history_plugin_name" xml:space="preserve">
+    <value>历史记录</value>
   </data>
-  <data name="MarkdownNotPreviewedError" xml:space="preserve">
-    <value>由于 PowerToys Markdown 预览器出现错误，无法预览此文件。</value>
-    <comment>This text is displayed if markdown fails to preview</comment>
+  <data name="wox_plugin_history_plugin_description" xml:space="preserve">
+    <value>快速访问搜索记录</value>
+  </data>
+  <data name="wox_plugin_history_processing_failed" xml:space="preserve">
+    <value>无法处理该输入</value>
   </data>
 </root>

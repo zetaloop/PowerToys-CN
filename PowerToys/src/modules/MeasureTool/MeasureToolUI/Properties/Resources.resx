@@ -117,12 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BlockedImageInfoText" xml:space="preserve">
-    <value>一些图片已被屏蔽，防止电脑访问未知网址引起危险。启用此选项允许查看图片。</value>
-    <comment>This text is displayed if image is blocked from being displayed.</comment>
+  <data name="Bounds" xml:space="preserve">
+    <value>框选</value>
   </data>
-  <data name="MarkdownNotPreviewedError" xml:space="preserve">
-    <value>由于 PowerToys Markdown 预览器出现错误，无法预览此文件。</value>
-    <comment>This text is displayed if markdown fails to preview</comment>
+  <data name="Spacing" xml:space="preserve">
+    <value>间距</value>
+  </data>
+  <data name="HorizontalSpacing" xml:space="preserve">
+    <value>水平间距</value>
+  </data>
+  <data name="VerticalSpacing" xml:space="preserve">
+    <value>垂直间距</value>
   </data>
 </root>

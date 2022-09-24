@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BlockedElementInfoText" xml:space="preserve">
-    <value>一些元素已被屏蔽，防止电脑访问未知网址引起危险。打开此项以查看所有元素。</value>
+    <value>一些元素已被屏蔽，防止电脑访问未知网址引起危险。启用此选项允许查看所有元素。</value>
   </data>
   <data name="SvgNotPreviewedError" xml:space="preserve">
     <value>由于 PowerToys SVG 预览器出现错误，无法预览此文件。</value>
