@@ -42,9 +42,9 @@ echo ·复制汉化文件到软件目录
 echo.
 echo 为解除文件占用，将会重启 Windows 资源管理器
 echo ---------------------------------------------------
-choice /c thequickbrownfxjmpsvlazydg /n /m "确认无误后，按下 Y 开始，按下 A 安装 ARM64 版本："
+choice /c thequickbrownfxjmpsvlazydg /n /m "确认无误后，按下 Y 开始："
 if %errorlevel%==24 goto install
-if %errorlevel%==22 goto installarm64
+::if %errorlevel%==22 goto installarm64
 echo 取消安装。退出安装器...
 choice /t 1 /d n >nul
 exit
@@ -102,7 +102,11 @@ goto :eof
 :success
 echo 重启文件资源管理器以加载汉化右键菜单
 ::
-taskkill /f /im explorer.exe>nul
+powershell exit
+taskkill /f /im explorer.exe>nul 2>nul
+taskkill /f /im explorer.exe>nul 2>nul
+taskkill /f /im explorer.exe>nul 2>nul
+powershell exit
 start explorer
 powershell exit
 echo 启动 PowerToys
