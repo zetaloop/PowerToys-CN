@@ -10,7 +10,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 反馈问题：Issue 或 zetaspace@outlook.com
 
-版本：v0.62.0 **暂时只提供蓝奏云，GitHub 将在两周后源码整理完毕再发出，现在太忙了**
+版本：v0.62.1
 
 现已支持 x64 & ARM64（ARM64 自行编译）
 
@@ -18,7 +18,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 下载汉化包（Github）：[https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest](https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest)
 
-备用下载安装包和汉化（蓝奏云）：[https://zeta.lanzoue.com/b01jvwjeh](https://zeta.lanzoue.com/b01jvwjeh) 密码：zeta
+备用下载安装包和汉化（蓝奏云）：[https://zeta.lanzouy.com/b01jxfpze](https://zeta.lanzouy.com/b01jxfpze) 密码：zeta
 
 ## Usage 使用方法
 
@@ -33,7 +33,7 @@ PowerToys 自制简体中文翻译优化补丁
 ## Patchs 优化清单
 <details><summary></summary>
 
-PowerToys 模块名称：窗口置顶 唤醒工具 取色器 窗口布局 文件增强 图像裁剪器 键盘修改器 鼠标小工具 批量重命名 快速启动器 快捷键指南 录制工具
+PowerToys 模块名称：窗口置顶 唤醒工具 取色器 窗口布局 文件增强 图像裁剪器 键盘修改器 鼠标小工具 批量重命名 快速启动器 字母助手 屏幕标尺 快捷键指南 文本提取器 录制工具
 
 PowerToys 通用设置界面、各模块预设及设置界面
 
@@ -52,6 +52,8 @@ File Explorer Preview 操作界面、预览器错误提示
 Image Resizer 操作界面、右键菜单
 
 Keyboard Manager 操作界面
+
+Measure Tool 操作界面
 
 PowerRename 操作界面、右键菜单
 
