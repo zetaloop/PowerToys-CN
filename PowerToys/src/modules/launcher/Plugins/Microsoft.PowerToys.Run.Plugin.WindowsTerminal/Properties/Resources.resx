@@ -120,6 +120,14 @@
   <data name="open_new_tab" xml:space="preserve">
     <value>在新标签页打开配置文件</value>
   </data>
+  <data name="open_quake" xml:space="preserve">
+    <value>在下拉栏中打开配置文件</value>
+    <comment>Quake is a well-known computer game. Don't localize. See https://en.wikipedia.org/wiki/Quake_(video_game)</comment>
+  </data>
+  <data name="open_quake_description" xml:space="preserve">
+    <value>下拉栏，又名 Quake 模式，即上半屏分屏显示控制台窗口，可以按快捷键打开</value>
+    <comment>Quake is a well-known computer game. Don't localize. See https://en.wikipedia.org/wiki/Quake_(video_game)；；Zetaspace：Not at my country.</comment>
+  </data>
   <data name="plugin_description" xml:space="preserve">
     <value>打开 Windows Terminal 配置文件</value>
   </data>

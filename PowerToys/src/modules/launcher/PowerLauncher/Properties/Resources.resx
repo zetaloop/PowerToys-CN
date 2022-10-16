@@ -191,4 +191,7 @@
   <data name="FailedToInitializePluginsTitle" xml:space="preserve">
     <value>插件初始化失败</value>
   </data>
+  <data name="ContextMenuItemsAvailable" xml:space="preserve">
+    <value>控制按钮可用</value>
+  </data>
 </root>

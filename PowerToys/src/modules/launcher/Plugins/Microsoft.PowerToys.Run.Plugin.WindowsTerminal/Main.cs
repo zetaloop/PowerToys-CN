@@ -1,4 +1,4 @@
-ï»¿// Copyright (c) Microsoft Corporation
+// Copyright (c) Microsoft Corporation
 // The Microsoft Corporation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
@@ -21,10 +21,12 @@ namespace Microsoft.PowerToys.Run.Plugin.WindowsTerminal
     public class Main : IPlugin, IContextMenu, IPluginI18n, ISettingProvider
     {
         private const string OpenNewTab = nameof(OpenNewTab);
+        private const string OpenQuake = nameof(OpenQuake);
         private const string ShowHiddenProfiles = nameof(ShowHiddenProfiles);
         private readonly ITerminalQuery _terminalQuery = new TerminalQuery();
         private PluginInitContext _context;
         private bool _openNewTab;
+        private bool _openQuake;
         private bool _showHiddenProfiles;
         private Dictionary<string, BitmapImage> _logoCache = new Dictionary<string, BitmapImage>();
 
@@ -38,6 +40,14 @@ namespace Microsoft.PowerToys.Run.Plugin.WindowsTerminal
             {
                 Key = OpenNewTab,
                 DisplayLabel = Resources.open_new_tab,
+                Value = false,
+            },
+
+            new PluginAdditionalOption()
+            {
+                Key = OpenQuake,
+                DisplayLabel = Resources.open_quake,
+                DisplayDescription = Resources.open_quake_description,
                 Value = false,
             },
 
@@ -134,14 +144,14 @@ namespace Microsoft.PowerToys.Run.Plugin.WindowsTerminal
         {
             var appManager = new ApplicationActivationManager();
             const ActivateOptions noFlags = ActivateOptions.None;
-            var queryArguments = TerminalHelper.GetArguments(profile, _openNewTab);
+            var queryArguments = TerminalHelper.GetArguments(profile, _openNewTab, _openQuake);
             try
             {
                 appManager.ActivateApplication(id, queryArguments, noFlags, out var unusedPid);
             }
             catch (Exception ex)
             {
-                var name = "æ’ä»¶: " + Resources.plugin_name;
+                var name = "²å¼þ: " + Resources.plugin_name;
                 var message = Resources.run_terminal_failed;
                 Log.Exception("Failed to open Windows Terminal", ex, GetType());
                 _context.API.ShowMsg(name, message, string.Empty);
@@ -153,11 +163,11 @@ namespace Microsoft.PowerToys.Run.Plugin.WindowsTerminal
             try
             {
                 string path = "shell:AppsFolder\\" + id;
-                Helper.OpenInShell(path, TerminalHelper.GetArguments(profile, _openNewTab), runAs: Helper.ShellRunAsType.Administrator);
+                Helper.OpenInShell(path, TerminalHelper.GetArguments(profile, _openNewTab, _openQuake), runAs: Helper.ShellRunAsType.Administrator);
             }
             catch (Exception ex)
             {
-                var name = "æ’ä»¶: " + Resources.plugin_name;
+                var name = "²å¼þ: " + Resources.plugin_name;
                 var message = Resources.run_terminal_failed;
                 Log.Exception("Failed to open Windows Terminal", ex, GetType());
                 _context.API.ShowMsg(name, message, string.Empty);
@@ -172,15 +182,18 @@ namespace Microsoft.PowerToys.Run.Plugin.WindowsTerminal
         public void UpdateSettings(PowerLauncherPluginSettings settings)
         {
             var openNewTab = false;
+            var openQuake = false;
             var showHiddenProfiles = false;
 
             if (settings != null && settings.AdditionalOptions != null)
             {
                 openNewTab = settings.AdditionalOptions.FirstOrDefault(x => x.Key == OpenNewTab)?.Value ?? false;
+                openQuake = settings.AdditionalOptions.FirstOrDefault(x => x.Key == OpenQuake)?.Value ?? false;
                 showHiddenProfiles = settings.AdditionalOptions.FirstOrDefault(x => x.Key == ShowHiddenProfiles)?.Value ?? false;
             }
 
             _openNewTab = openNewTab;
+            _openQuake = openQuake;
             _showHiddenProfiles = showHiddenProfiles;
         }
 

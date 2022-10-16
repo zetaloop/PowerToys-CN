@@ -692,9 +692,6 @@
   <data name="PowerRename_Toggle_ContextMenu.Header" xml:space="preserve">
     <value>显示位置</value>
   </data>
-  <data name="PowerRename_Toggle_ContextMenu.Description" xml:space="preserve">
-    <value>Shift + 右键即可打开扩展右键菜单</value>
-  </data>
   <data name="PowerRename_Toggle_StandardContextMenu.Content" xml:space="preserve">
     <value>右键菜单和扩展右键菜单</value>
   </data>
@@ -1216,7 +1213,7 @@
   </data>
   <data name="FancyZones_Windows.Header" xml:space="preserve">
     <value>窗口</value>
-    <comment>refers to a set of windows, not the product name</comment>
+    <comment>Do translate: refers to a set of application windows, not the product name</comment>
   </data>
   <data name="PowerRename_BehaviorHeader.Header" xml:space="preserve">
     <value>附加功能</value>
@@ -2011,10 +2008,10 @@
     <value>自定义打开荧光笔的快捷键</value>
     <comment>"Mouse Highlighter" is the name of the utility. Mouse is the hardware mouse.</comment>
   </data>
-  <data name="MouseUtils_MouseHighlighter_LeftButtonClickColor.Header" xml:space="preserve">
+  <data name="MouseUtils_MouseHighlighter_PrimaryButtonClickColor.Header" xml:space="preserve">
     <value>左键颜色</value>
   </data>
-  <data name="MouseUtils_MouseHighlighter_RightButtonClickColor.Header" xml:space="preserve">
+  <data name="MouseUtils_MouseHighlighter_SecondaryButtonClickColor.Header" xml:space="preserve">
     <value>右键颜色</value>
   </data>
   <data name="MouseUtils_MouseHighlighter_HighlightOpacity.Header" xml:space="preserve">
@@ -2302,9 +2299,11 @@
   </data>
   <data name="QuickAccent_Activation_Shortcut.Header" xml:space="preserve">
     <value>启动快捷键</value>
+    <comment>key refers to a physical key on a keyboard</comment>
   </data>
   <data name="QuickAccent_Activation_Shortcut.Description" xml:space="preserve">
     <value>按住字母后，按此键显示字母助手工具栏</value>
+    <comment>key refers to a physical key on a keyboard</comment>
   </data>
   <data name="QuickAccent_Activation_Key_Arrows.Content" xml:space="preserve">
     <value>左右方向键</value>
@@ -2314,8 +2313,9 @@
     <value>空格</value>
     <comment>Space is the space keyboard key.</comment>
   </data>
-  <data name="QuickAccent_Activation_Key_Both.Content" xml:space="preserve">
+  <data name="QuickAccent_Activation_Key_Either.Content" xml:space="preserve">
     <value>方向键和空格</value>
+    <comment>All are keys on a keyboard</comment>
   </data>
   <data name="QuickAccent_Toolbar.Header" xml:space="preserve">
     <value>工具栏</value>
@@ -2407,7 +2407,64 @@
     <value>详细了解唤醒词冲突</value>
   </data>
   <data name="MeasureTool_ContinuousCapture_Information.Title" xml:space="preserve">
-    <value>实时测量会增加系统开销</value>
+    <value>实时测量会增加系统开销，并且不支持录屏和截屏</value>
     <comment>pointer as in mouse pointer. Resources refer to things like CPU, GPU, RAM</comment>
+  </data>
+  <data name="QuickAccent_DisableFullscreen.Header" xml:space="preserve">
+    <value>游戏模式中禁用n</value>
+  </data>
+  <data name="QuickAccent_Language.Header" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage.Header" xml:space="preserve">
+    <value>指定语言</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage.Description" xml:space="preserve">
+    <value>显示所选语言的标记字母</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_All.Content" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Currency.Content" xml:space="preserve">
+    <value>货币符号</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Czech.Content" xml:space="preserve">
+    <value>捷克语</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Dutch.Content" xml:space="preserve">
+    <value>荷兰语</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_French.Content" xml:space="preserve">
+    <value>法语</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Maori.Content" xml:space="preserve">
+    <value>毛利语</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Pinyin.Content" xml:space="preserve">
+    <value>汉语拼音</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Polish.Content" xml:space="preserve">
+    <value>波兰语</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Slovakian.Content" xml:space="preserve">
+    <value>斯洛伐克语</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Spanish.Content" xml:space="preserve">
+    <value>西班牙语</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Turkish.Content" xml:space="preserve">
+    <value>土耳其语</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Icelandic.Content" xml:space="preserve">
+    <value>冰岛语</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Romanian.Content" xml:space="preserve">
+    <value>罗马尼亚语</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Hungarian.Content" xml:space="preserve">
+    <value>匈牙利语</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Italian.Content" xml:space="preserve">
+    <value>意大利语</value>
   </data>
 </root>
