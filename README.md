@@ -10,7 +10,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 反馈问题：Issue 或 zetaspace@outlook.com
 
-版本：v0.63.0
+版本：v0.64.1（github稍后更新，见蓝奏云）
 
 现已支持 x64 & ARM64（ARM64 自行编译）
 
@@ -18,7 +18,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 下载汉化包（Github）：[https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest](https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest)
 
-备用下载安装包和汉化（蓝奏云）：[https://zeta.lanzouy.com/b01k07w1c](https://zeta.lanzouy.com/b01k07w1c) 密码：zeta
+备用下载安装包和汉化（蓝奏云）：[https://zeta.lanzoue.com/b01k3u1yf](https://zeta.lanzoue.com/b01k3u1yf) 密码：zeta
 
 ## Usage 使用方法
 
