@@ -10,7 +10,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 反馈问题：Issue 或 zetaspace@outlook.com
 
-版本：v0.64.1（github稍后更新，见蓝奏云）
+版本：v0.64.1（github稍后更新，下载请看蓝奏云）
 
 现已支持 x64 & ARM64（ARM64 自行编译）
 
