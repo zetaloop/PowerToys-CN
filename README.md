@@ -1,6 +1,6 @@
 # PowerToys Custom Simplified Chinese Translation Patch
 
-<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/PCTMODx8.topic.png"/>
+<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/PCTMODx9.topic.png"/>
 
 PowerToys 自制简体中文翻译优化补丁
 
@@ -10,7 +10,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 反馈问题：Issue 或 zetaspace@outlook.com
 
-版本：v0.64.1（github稍后更新，下载请看蓝奏云）
+版本：v0.64.1（之前下载蓝奏云的麻烦再下载一次，翻译内容有更新）
 
 现已支持 x64 & ARM64（ARM64 自行编译）
 
@@ -33,31 +33,35 @@ PowerToys 自制简体中文翻译优化补丁
 ## Patchs 优化清单
 <details><summary></summary>
 
-PowerToys 模块名称：窗口置顶 唤醒工具 取色器 窗口布局 文件增强 图像裁剪器 键盘修改器 鼠标小工具 批量重命名 快速启动器 字母助手 屏幕标尺 快捷键指南 文本提取器 录制工具
+PowerToys 模块名称：窗口置顶 唤醒工具 取色器 窗口布局 文件师傅 预览增强 域名编辑器 图像裁剪器 键盘修改器 鼠标小工具 批量重命名 快速启动器 字母助手 屏幕标尺 快捷键指南 文本提取器 录制工具
 
 PowerToys 通用设置界面、各模块预设及设置界面
 
 PowerToys 入门指南
 
-PowerToys 运行提示、弹框消息、状态栏菜单
+PowerToys 运行信息、提示消息、状态栏菜单
 
-Awake 操作界面、状态栏菜单
+PowerToys Awake 操作界面、状态栏菜单
 
 Color Picker 操作界面
 
 FancyZones 操作界面
 
-File Explorer Preview 操作界面、预览器错误提示
+File Explorer Add-ons 操作界面、预览器错误提示
+
+File Locksmith 操作界面、右键菜单
+
+Hosts File Editor 操作界面
 
 Image Resizer 操作界面、右键菜单
 
 Keyboard Manager 操作界面
 
-Measure Tool 操作界面
-
 PowerRename 操作界面、右键菜单
 
 PowerToys Run 操作界面、一大堆插件（除时区插件）
+
+Screen Ruler 操作界面
 
 Shortcut Guide 操作界面、快捷键图片
 
