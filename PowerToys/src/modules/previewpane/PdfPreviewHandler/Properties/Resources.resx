@@ -129,4 +129,8 @@
     <value>PDF 文档已加密。</value>
     <comment>This text is displayed if PDF is password protected.</comment>
   </data>
+  <data name="GpoDisabledErrorText" xml:space="preserve">
+    <value>组策略已禁止该功能。请联系你的电脑管理员。</value>
+    <comment>GPO stands for the Windows Group Policy Object feature.</comment>
+  </data>
 </root>

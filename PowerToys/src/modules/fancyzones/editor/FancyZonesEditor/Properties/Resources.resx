@@ -415,10 +415,31 @@
   <data name="Error_Parsing_Custom_Layouts_Message" xml:space="preserve">
     <value>解析自定义布局时出错。</value>
   </data>
-  <data name="Distance_adjacent_zones_slider_announce" xml:space="preserve">
-    <value>激活距离滑块，取值范围从 {0} 到 {1}，当前为 {2}。</value>
+  <data name="Custom_slider_announce" xml:space="preserve">
+    <value>{0} 滑块，取值范围从 {1} 到 {2} 当前为 {3}。</value>
   </data>
-  <data name="Slider_Value" xml:space="preserve">
-    <value>{0} 像素</value>
+  <data name="Pixel_Value" xml:space="preserve">
+    <value>{0} px</value>
+  </data>
+  <data name="Template_Zone_Count_Value" xml:space="preserve">
+    <value>{0} 块</value>
+  </data>
+  <data name="Zones" xml:space="preserve">
+    <value>块</value>
+  </data>
+  <data name="Default_Layout_Horizontal" xml:space="preserve">
+    <value>横屏默认布局</value>
+  </data>
+  <data name="Set_Layout_As_Horizontal_Default" xml:space="preserve">
+    <value>设置为横屏下的默认布局方式</value>
+  </data>
+  <data name="Error_Parsing_Default_Layouts_Message" xml:space="preserve">
+    <value>无法解析默认布局。</value>
+  </data>
+  <data name="Default_Layout_Vertical" xml:space="preserve">
+    <value>竖屏默认布局</value>
+  </data>
+  <data name="Set_Layout_As_Vertical_Default" xml:space="preserve">
+    <value>设置为竖屏下的默认布局方式</value>
   </data>
 </root>

@@ -125,4 +125,8 @@
     <value>由于 PowerToys Markdown 预览器出现错误，无法预览此文件。</value>
     <comment>This text is displayed if markdown fails to preview</comment>
   </data>
+  <data name="GpoDisabledErrorText" xml:space="preserve">
+    <value>组策略已禁止该功能。请联系你的电脑管理员。</value>
+    <comment>GPO stands for the Windows Group Policy Object feature.</comment>
+  </data>
 </root>

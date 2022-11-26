@@ -117,15 +117,49 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="GcodeNotPreviewedError" xml:space="preserve">
-    <value>由于 PowerToys G-code 预览器出现错误，无法预览此文件。</value>
-    <comment>This text is displayed if G-code fails to preview</comment>
+  <data name="AppTitle.Title" xml:space="preserve">
+    <value>文件师傅</value>
   </data>
-  <data name="GcodeWithoutEmbeddedThumbnails" xml:space="preserve">
-    <value>此 G-code 文件没有内置缩略图。</value>
+  <data name="AppTitleText.Text" xml:space="preserve">
+    <value>文件师傅</value>
   </data>
-  <data name="GpoDisabledErrorText" xml:space="preserve">
-    <value>组策略已禁止该功能。请联系你的电脑管理员。</value>
-    <comment>GPO stands for the Windows Group Policy Object feature.</comment>
+  <data name="EmptyListDescription.Text" xml:space="preserve">
+    <value>无占用</value>
+  </data>
+  <data name="EndTask.Text" xml:space="preserve">
+    <value>结束任务</value>
+  </data>
+  <data name="Files.Text" xml:space="preserve">
+    <value>占用文件</value>
+  </data>
+  <data name="PathsTooltipDescription.Text" xml:space="preserve">
+    <value>点击查看所有选中文件</value>
+    <comment>Paths as in file paths that were selected for the utility to check.</comment>
+  </data>
+  <data name="ProcessIsSystemUserWarning.Text" xml:space="preserve">
+    <value>此为系统程序，结束它可能导致系统故障。</value>
+  </data>
+  <data name="SelectedFilesListDialog.Title" xml:space="preserve">
+    <value>选中文件列表</value>
+    <comment>Paths as in file paths that were selected for the utility to check.</comment>
+  </data>
+  <data name="SelectedFilesListDialog.CloseButtonText" xml:space="preserve">
+    <value>关闭</value>
+    <comment>As in, close a dialog prompt.</comment>
+  </data>
+  <data name="NoFilesSelected.Text" xml:space="preserve">
+    <value>未选择文件</value>
+  </data>
+  <data name="ProcessID.Header" xml:space="preserve">
+    <value>进程 ID</value>
+  </data>
+  <data name="Reload.Text" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="RestartAsAdmin.Text" xml:space="preserve">
+    <value>以管理员身份重启</value>
+  </data>
+  <data name="User.Header" xml:space="preserve">
+    <value>用户</value>
   </data>
 </root>

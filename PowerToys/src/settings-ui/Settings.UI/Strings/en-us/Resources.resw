@@ -241,7 +241,7 @@
     <value>右下角</value>
   </data>
   <data name="VideoConference_ToolbarMonitor.Header" xml:space="preserve">
-    <value>工具栏显示</value>
+    <value>工具栏位置</value>
   </data>
   <data name="VideoConference_ToolbarMonitor_Main.Content" xml:space="preserve">
     <value>主显示器</value>
@@ -255,8 +255,17 @@
   <data name="VideoConference_ToolbarMonitor_All.Content" xml:space="preserve">
     <value>所有显示器</value>
   </data>
-  <data name="VideoConference_HideToolbarWhenUnmuted.Content" xml:space="preserve">
-    <value>摄像头、麦克风均开启时隐藏工具栏</value>
+  <data name="VideoConference_ToolbarHide.Header" xml:space="preserve">
+    <value>工具栏显示</value>
+  </data>
+  <data name="VideoConference_ToolbarHideMuted.Content" xml:space="preserve">
+    <value>摄像头、麦克风均关闭时隐藏</value>
+  </data>
+  <data name="VideoConference_ToolbarHideNever.Content" xml:space="preserve">
+    <value>保持显示</value>
+  </data>
+  <data name="VideoConference_ToolbarHideUnmuted.Content" xml:space="preserve">
+    <value>摄像头、麦克风均开启时隐藏</value>
   </data>
   <data name="VideoConference.ModuleTitle" xml:space="preserve">
     <value>录制工具</value>
@@ -306,7 +315,7 @@
     <comment>Product name: Navigation view item name for Shortcut Guide</comment>
   </data>
   <data name="Shell_PowerPreview.Content" xml:space="preserve">
-    <value>文件增强</value>
+    <value>预览增强</value>
     <comment>Product name: Navigation view item name for File Explorer.  Please use File Explorer as in the context of File Explorer in Windows</comment>
   </data>
   <data name="Shell_FancyZones.Content" xml:space="preserve">
@@ -648,6 +657,24 @@
   <data name="GeneralPage_CheckForUpdates.Content" xml:space="preserve">
     <value>检查更新</value>
   </data>
+  <data name="General_SettingsBackupAndRestoreLocationText.Header" xml:space="preserve">
+    <value>备份位置</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore_ButtonBackup.Content" xml:space="preserve">
+    <value>备份</value>
+  </data>
+  <data name="General_SettingsBackupInfo_FileNameHeader.Text" xml:space="preserve">
+    <value>文件:</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore_LinkRefresh.Text" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore_ButtonRestore.Content" xml:space="preserve">
+    <value>还原</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore_ButtonSelectLocation.Content" xml:space="preserve">
+    <value>选择</value>
+  </data>
   <data name="GeneralPage_UpdateNow.Content" xml:space="preserve">
     <value>立即更新</value>
   </data>
@@ -811,6 +838,12 @@
   </data>
   <data name="ShortcutGuide_Appearance_Behavior.Header" xml:space="preserve">
     <value>外观</value>
+  </data>
+  <data name="General_SettingsBackupAndRestoreTitle.Header" xml:space="preserve">
+    <value>备份</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore.Header" xml:space="preserve">
+    <value>设置备份</value>
   </data>
   <data name="ShortcutGuide_Enable.Header" xml:space="preserve">
     <value>启用快捷键指南</value>
@@ -1001,10 +1034,10 @@
     <value>窗口布局</value>
   </data>
   <data name="FileExplorerPreview.ModuleTitle" xml:space="preserve">
-    <value>文件增强</value>
+    <value>预览增强</value>
   </data>
   <data name="FileExplorerPreview_Image.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>文件增强</value>
+    <value>预览增强</value>
     <comment>Use same translation as Windows does for File Explorer</comment>
   </data>
   <data name="ImageResizer.ModuleTitle" xml:space="preserve">
@@ -1043,7 +1076,22 @@
     <value>版本</value>
   </data>
   <data name="General_VersionLastChecked.Text" xml:space="preserve">
-    <value>检查时间:</value>
+    <value>检查时间: </value>
+  </data>
+  <data name="General_SettingsBackupInfo_DateHeader.Text" xml:space="preserve">
+    <value>时间:</value>
+  </data>
+  <data name="General_SettingsBackupAndRestoreDescription.Text" xml:space="preserve">
+    <value>备份 PowerToys 设置，还原设置需要自动重启软件</value>
+  </data>
+  <data name="General_SettingsBackupAndRestoreStatusInfo.Header" xml:space="preserve">
+    <value>详细信息</value>
+  </data>
+  <data name="General_SettingsBackupInfo_SourceHeader.Text" xml:space="preserve">
+    <value>来源:</value>
+  </data>
+  <data name="General_SettingsBackupInfo_StatusHeader.Text" xml:space="preserve">
+    <value>状态:</value>
   </data>
   <data name="General_Version.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>版本</value>
@@ -1421,6 +1469,9 @@
   <data name="Oobe_FancyZones.Description" xml:space="preserve">
     <value>一个窗口管理器，可将窗口排列对齐到一定的布局中，便于多任务处理。</value>
   </data>
+  <data name="Oobe_FileLocksmith.Description" xml:space="preserve">
+    <value>寻找文件被哪些程序占用，一键关闭占用文件的程序。</value>
+  </data>
   <data name="Oobe_FileExplorer.Description" xml:space="preserve">
     <value>Windows 文件资源管理器的增强组件，支持预览文档 (.md .pdf)、矢量图 (.svg)、3D 模型 (.stl .gcode) 和程序代码文件等，也为一些文件增加了缩略图的支持。</value>
   </data>
@@ -1475,6 +1526,12 @@
   <data name="Oobe_FancyZones_TipsAndTricks.Text" xml:space="preserve">
     <value>按住 **Shift** + **Ctrl** 拖动窗口，可将窗口贴靠到多个布局区拼接。</value>
   </data>
+  <data name="Oobe_FileLocksmith_HowToUse.Text" xml:space="preserve">
+    <value>选中要解除占用的文件，单击 **右键**，然后在右键菜单中选择 **查看文件占用** 。</value>
+  </data>
+  <data name="Oobe_FileLocksmith_TipsAndTricks.Text" xml:space="preserve">
+    <value>点击右上角管理员权限按钮，获取更高权限来查看高权限程序的文件占用。</value>
+  </data>
   <data name="Oobe_FileExplorer_HowToEnable.Text" xml:space="preserve">
     <value>打开文件资源管理器，在顶部的工具栏中选择 **查看** 选项卡，然后选择 **预览窗格** 来启用预览功能。
 然后，试试选中一个文档或图像，在预览窗格中直接显示了文件内容！</value>
@@ -1492,7 +1549,7 @@
     <value>如何使用</value>
   </data>
   <data name="Oobe_ImageResizer_HowToLaunch.Text" xml:space="preserve">
-    <value>选中一个或几个图片，单击 **右键** ，然后在右键菜单中选择 **调整图片大小** 。</value>
+    <value>选中几个图片，单击 **右键** ，然后在右键菜单中选择 **调整图片大小** 。</value>
   </data>
   <data name="Oobe_ImageResizer_TipsAndTricks.Text" xml:space="preserve">
     <value>希望修改尺寸吗？你可以在 PowerToys 设置中添加自定义尺寸！</value>
@@ -1504,7 +1561,7 @@
     <value>想要只对某个应用生效的快捷键？创建快捷键重映射时，可以指定“目标程序”。</value>
   </data>
   <data name="Oobe_PowerRename_HowToUse.Text" xml:space="preserve">
-    <value>选中一个或几个文件，单击 **右键** ，然后在右键菜单中选择 **批量重命名** 。</value>
+    <value>选中几个文件，单击 **右键** ，然后在右键菜单中选择 **批量重命名** 。</value>
   </data>
   <data name="Oobe_PowerRename_TipsAndTricks.Text" xml:space="preserve">
     <value>可以使用正则表达式，进行高级操作。</value>
@@ -1555,6 +1612,9 @@
   <data name="Oobe_FancyZones.Title" xml:space="preserve">
     <value>窗口布局</value>
     <comment>Do not localize this string</comment>
+  </data>
+  <data name="Oobe_FileLocksmith.Title" xml:space="preserve">
+    <value>文件师傅</value>
   </data>
   <data name="Oobe_ImageResizer.Title" xml:space="preserve">
     <value>图像裁剪器</value>
@@ -1767,6 +1827,9 @@
     <value>详细了解窗口布局</value>
     <comment>FancyZones is a product name, do not loc</comment>
   </data>
+  <data name="LearnMore_FileLocksmith.Text" xml:space="preserve">
+    <value>详细了解文件师傅</value>
+  </data>
   <data name="LearnMore_ImageResizer.Text" xml:space="preserve">
     <value>详细了解图像裁剪器</value>
     <comment>Image Resizer is a product name, do not loc</comment>
@@ -1780,7 +1843,7 @@
     <comment>Mouse utilities is a product name, do not loc</comment>
   </data>
   <data name="LearnMore_PowerPreview.Text" xml:space="preserve">
-    <value>详细了解文件增强组件</value>
+    <value>详细了解预览增强组件</value>
     <comment>File Explorer is a product name, localize as Windows does</comment>
   </data>
   <data name="LearnMore_PowerRename.Text" xml:space="preserve">
@@ -1804,7 +1867,7 @@
     <comment>Video Conference Mute is a product name, do not loc</comment>
   </data>
   <data name="Oobe_FileExplorer.Title" xml:space="preserve">
-    <value>文件增强</value>
+    <value>预览增强</value>
     <comment>Do not localize this string</comment>
   </data>
   <data name="Oobe_MouseUtils.Title" xml:space="preserve">
@@ -2091,6 +2154,12 @@
   <data name="FancyZones_Zone_Appearance.Header" xml:space="preserve">
     <value>布局外观</value>
   </data>
+  <data name="VideoConference_DeprecationWarning.Title" xml:space="preserve">
+    <value>此工具即将移入稳定模式，不再接受功能更新</value>
+  </data>
+  <data name="VideoConference_DeprecationWarningButton.Content" xml:space="preserve">
+    <value>了解更多</value>
+  </data>
   <data name="VideoConference_RunAsAdminRequired.Title" xml:space="preserve">
     <value>要修改此设置，请以管理员身份重新启动程序。</value>
   </data>
@@ -2364,6 +2433,64 @@
   <data name="LearnMore_TextExtractor.Text" xml:space="preserve">
     <value>详细了解文本提取器</value>
   </data>
+  <data name="General_SettingsBackupAndRestore_NothingToBackup" xml:space="preserve">
+    <value>设置无变化，无需创建备份</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore_NoBackupFound" xml:space="preserve">
+    <value>无备份</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore_FailedToParseTime" xml:space="preserve">
+    <value>无法解析时间</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore_UnknownBackupTime" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore_UnknownBackupSource" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore_ThisMachine" xml:space="preserve">
+    <value>此电脑</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore_CurrentSettingsMatch" xml:space="preserve">
+    <value>设置无变化</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore_CurrentSettingsStatusAt" xml:space="preserve">
+    <value>当前时间</value>
+    <comment>E.g., Food was served 'at' noon.</comment>
+  </data>
+  <data name="General_SettingsBackupAndRestore_CurrentSettingsDiffer" xml:space="preserve">
+    <value>设置有变化</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore_CurrentSettingsNoChecked" xml:space="preserve">
+    <value>检查中...</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore_CurrentSettingsUnknown" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore_NeverRestored" xml:space="preserve">
+    <value>从未还原</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore_NothingToRestore" xml:space="preserve">
+    <value>设置无变化，无需还原</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore_NoSettingsFilesFound" xml:space="preserve">
+    <value>找不到设置文件</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore_BackupError" xml:space="preserve">
+    <value>备份失败，试试换一个备份位置</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore_BackupComplete" xml:space="preserve">
+    <value>备份成功</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore_NoBackupSyncPath" xml:space="preserve">
+    <value>未选择备份位置</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore_NoBackupsFound" xml:space="preserve">
+    <value>无法还原，没有备份</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore_InvalidBackupLocation" xml:space="preserve">
+    <value>备份路径无效</value>
+  </data>
   <data name="TextExtractor.ModuleDescription" xml:space="preserve">
     <value>框选截图，一键复制文本。</value>
   </data>
@@ -2372,6 +2499,12 @@
   </data>
   <data name="TextExtractor_EnableToggleControl_HeaderText.Header" xml:space="preserve">
     <value>启用文本提取器</value>
+  </data>
+  <data name="TextExtractor_SupportedLanguages.Title" xml:space="preserve">
+    <value>文本提取器功能由系统 OCR 识别包提供，可按需安装更多语言</value>
+  </data>
+  <data name="TextExtractor_SupportedLanguages_Link.Content" xml:space="preserve">
+    <value>详细了解语言支持</value>
   </data>
   <data name="Shell_TextExtractor.Content" xml:space="preserve">
     <value>文本提取器</value>
@@ -2431,8 +2564,8 @@
   <data name="QuickAccent_SelectedLanguage_Czech.Content" xml:space="preserve">
     <value>捷克语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Dutch.Content" xml:space="preserve">
-    <value>荷兰语</value>
+  <data name="QuickAccent_SelectedLanguage_German.Content" xml:space="preserve">
+    <value>德语</value>
   </data>
   <data name="QuickAccent_SelectedLanguage_French.Content" xml:space="preserve">
     <value>法语</value>
@@ -2445,6 +2578,9 @@
   </data>
   <data name="QuickAccent_SelectedLanguage_Polish.Content" xml:space="preserve">
     <value>波兰语</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Portuguese.Content" xml:space="preserve">
+    <value>葡萄牙语</value>
   </data>
   <data name="QuickAccent_SelectedLanguage_Slovakian.Content" xml:space="preserve">
     <value>斯洛伐克语</value>
@@ -2466,5 +2602,90 @@
   </data>
   <data name="QuickAccent_SelectedLanguage_Italian.Content" xml:space="preserve">
     <value>意大利语</value>
+  </data>
+  <data name="Hosts.ModuleDescription" xml:space="preserve">
+    <value>轻松编辑 Hosts 域名文件。</value>
+    <comment>"Hosts" refers to the system hosts file, do not loc</comment>
+  </data>
+  <data name="Hosts.ModuleTitle" xml:space="preserve">
+    <value>域名编辑器</value>
+    <comment>"Hosts" refers to the system hosts file, do not loc</comment>
+  </data>
+  <data name="Shell_Hosts.Content" xml:space="preserve">
+    <value>域名编辑器</value>
+    <comment>Products name: Navigation view item name for Hosts File Editor</comment>
+  </data>
+  <data name="Hosts_EnableToggleControl_HeaderText.Header" xml:space="preserve">
+    <value>启用域名编辑器</value>
+    <comment>"Hosts File Editor" is the name of the utility</comment>
+  </data>
+  <data name="Hosts_Toggle_ShowStartupWarning.Header" xml:space="preserve">
+    <value>显示启动警告</value>
+  </data>
+  <data name="Hosts_Activation_GroupSettings.Header" xml:space="preserve">
+    <value>功能</value>
+  </data>
+  <data name="Hosts_LaunchButtonControl.Description" xml:space="preserve">
+    <value>管理域名解析列表</value>
+    <comment>"Hosts" refers to the system hosts file, do not loc</comment>
+  </data>
+  <data name="Hosts_LaunchButtonControl.Header" xml:space="preserve">
+    <value>启动编辑器</value>
+	<comment>"Host File Editor" is a product name</comment>
+  </data>
+  <data name="Hosts_LaunchButton_Accessible.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>启动编辑器</value>
+	<comment>"Host File Editor" is a product name</comment>
+  </data>
+  <data name="Hosts_AdditionalLinesPosition.Header" xml:space="preserve">
+    <value>注释段位置</value>
+  </data>
+  <data name="Hosts_AdditionalLinesPosition_Bottom.Content" xml:space="preserve">
+    <value>文件底端</value>
+  </data>
+  <data name="Hosts_AdditionalLinesPosition_Top.Content" xml:space="preserve">
+    <value>文件顶端</value>
+  </data>
+  <data name="Hosts_File_GroupSettings.Header" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="Launch_Hosts.Content" xml:space="preserve">
+    <value>启动编辑器</value>
+    <comment>"Hosts File Editor" is the name of the utility</comment>
+  </data>
+  <data name="LearnMore_Hosts.Text" xml:space="preserve">
+    <value>详细了解域名编辑器</value>
+    <comment>"Hosts File Editor" is the name of the utility</comment>
+  </data>
+  <data name="Oobe_Hosts.Description" xml:space="preserve">
+    <value>便捷的 Hosts 域名文件编辑器，快速修改域名解析设置。</value>
+    <comment>"Hosts File Editor" is the name of the utility</comment>
+  </data>
+  <data name="Oobe_Hosts.Title" xml:space="preserve">
+    <value>域名编辑器</value>
+    <comment>"Hosts File Editor" is the name of the utility</comment>
+  </data>
+  <data name="Hosts_Toggle_LaunchAdministrator.Description" xml:space="preserve">
+    <value>需要管理员权限才可以修改 Hosts 文件</value>
+  </data>
+  <data name="Hosts_Toggle_LaunchAdministrator.Header" xml:space="preserve">
+    <value>以管理员身份运行</value>
+  </data>
+  <data name="FileLocksmith.ModuleDescription" xml:space="preserve">
+    <value>查看、解除文件占用的小工具。</value>
+  </data>
+  <data name="FileLocksmith.ModuleTitle" xml:space="preserve">
+    <value>文件师傅</value>
+  </data>
+  <data name="Shell_FileLocksmith.Content" xml:space="preserve">
+    <value>文件师傅</value>
+    <comment>Product name: Navigation view item name for FileLocksmith</comment>
+  </data>
+  <data name="FileLocksmith_Enable_FileLocksmith.Header" xml:space="preserve">
+    <value>启用文件师傅</value>
+    <comment>File Locksmith is the name of the utility</comment>
+  </data>
+  <data name="GPO_IsSettingForced.Title" xml:space="preserve">
+    <value>组策略已控制此设置</value>
   </data>
 </root>

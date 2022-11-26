@@ -136,4 +136,8 @@
   <data name="Download_WebView2" xml:space="preserve">
       <value>下载 WebView2 即可预览该文件。</value>
   </data>
+  <data name="GpoDisabledErrorText" xml:space="preserve">
+    <value>组策略已禁止该功能。请联系你的电脑管理员。</value>
+    <comment>GPO stands for the Windows Group Policy Object feature.</comment>
+  </data>
 </root>

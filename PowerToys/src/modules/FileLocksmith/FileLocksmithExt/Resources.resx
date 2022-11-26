@@ -117,15 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="GcodeNotPreviewedError" xml:space="preserve">
-    <value>由于 PowerToys G-code 预览器出现错误，无法预览此文件。</value>
-    <comment>This text is displayed if G-code fails to preview</comment>
+  <data name="FileLocksmith_CommandTitle" xml:space="preserve">
+    <value>查看文件占用</value>
+    <comment>This text will be shown when the user opens the context menu (right clicks) a file.</comment>
   </data>
-  <data name="GcodeWithoutEmbeddedThumbnails" xml:space="preserve">
-    <value>此 G-code 文件没有内置缩略图。</value>
-  </data>
-  <data name="GpoDisabledErrorText" xml:space="preserve">
-    <value>组策略已禁止该功能。请联系你的电脑管理员。</value>
-    <comment>GPO stands for the Windows Group Policy Object feature.</comment>
+  <data name="FileLocksmith_PowerToyName" xml:space="preserve">
+    <value>文件师傅</value>
+    <comment>Localized name of the PowerToy.</comment>
   </data>
 </root>
