@@ -366,10 +366,6 @@
     <value>重映射单键</value>
     <comment>Keyboard Manager remap keyboard button content</comment>
   </data>
-  <data name="KeyboardManager_RemapKeyboardButton_Accessible.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>重映射单键</value>
-    <comment>Keyboard Manager remap keyboard button content</comment>
-  </data>
   <data name="KeyboardManager_Keys.Header" xml:space="preserve">
     <value>单键</value>
     <comment>Keyboard Manager remap keyboard header</comment>
@@ -378,13 +374,13 @@
     <value>重映射组合键</value>
     <comment>Keyboard Manager remap shortcuts button</comment>
   </data>
-  <data name="KeyboardManager_RemapShortcutsButton_Accessible.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>重映射组合键</value>
-    <comment>Keyboard Manager remap shortcuts button</comment>
-  </data>
   <data name="KeyboardManager_Shortcuts.Header" xml:space="preserve">
     <value>组合键</value>
     <comment>Keyboard Manager remap keyboard header</comment>
+  </data>
+  <data name="KeyboardManager_All_Apps_Description" xml:space="preserve">
+    <value>全局生效</value>
+    <comment>Should be the same as EditShortcuts_AllApps from keyboard manager editor</comment>
   </data>
   <data name="Shortcuts.Header" xml:space="preserve">
     <value>快捷键</value>
@@ -492,7 +488,7 @@
     <value>使用独立的快捷键侦听器</value>
   </data>
   <data name="PowerLauncher_UseCentralizedKeyboardHook.Description" xml:space="preserve">
-    <value>全局快捷键无法使用的替代方案</value>
+    <value>全局快捷键失效的备用方案</value>
   </data>
   <data name="PowerLauncher_ClearInputOnLaunch.Content" xml:space="preserve">
     <value>启动时清空上次搜索</value>
@@ -557,22 +553,13 @@
     <comment>Shortcut to launch the FancyZones layout editor application</comment>
   </data>
   <data name="FancyZones_WindowSwitching_GroupSettings.Header" xml:space="preserve">
-    <value>窗口切换</value>
-  </data>
-  <data name="FancyZones_WindowSwitching_GroupSettings.Description" xml:space="preserve">
-    <value>在当前布局区内，用快捷键切换窗口</value>
+    <value>快捷窗口切换</value>
   </data>
   <data name="FancyZones_HotkeyNextTabControl.Header" xml:space="preserve">
-    <value>下一个</value>
-  </data>
-  <data name="FancyZones_HotkeyNextTabControl.Description" xml:space="preserve">
-    <value>切换到当前布局区下一个窗口的快捷键</value>
+    <value>下一个窗口</value>
   </data>
   <data name="FancyZones_HotkeyPrevTabControl.Header" xml:space="preserve">
-    <value>上一个</value>
-  </data>
-  <data name="FancyZones_HotkeyPrevTabControl.Description" xml:space="preserve">
-    <value>切换到当前布局区上一个窗口的快捷键</value>
+    <value>上一个窗口</value>
   </data>
   <data name="SettingsPage_SetShortcut.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>快捷键设置</value>
@@ -581,10 +568,6 @@
     <value>信息符号</value>
   </data>
   <data name="FancyZones_LaunchEditorButtonControl.Header" xml:space="preserve">
-    <value>启动布局编辑器</value>
-    <comment>launches the FancyZones layout editor application</comment>
-  </data>
-  <data name="FancyZones_LaunchEditorButton_Accessible.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>启动布局编辑器</value>
     <comment>launches the FancyZones layout editor application</comment>
   </data>
@@ -672,7 +655,7 @@
   <data name="General_SettingsBackupAndRestore_ButtonRestore.Content" xml:space="preserve">
     <value>还原</value>
   </data>
-  <data name="General_SettingsBackupAndRestore_ButtonSelectLocation.Content" xml:space="preserve">
+  <data name="General_SettingsBackupAndRestore_ButtonSelectLocation.Text" xml:space="preserve">
     <value>选择</value>
   </data>
   <data name="GeneralPage_UpdateNow.Content" xml:space="preserve">
@@ -814,12 +797,9 @@
   <data name="ShortcutGuide.ModuleDescription" xml:space="preserve">
     <value>显示当前可用的系统快捷键图表。</value>
   </data>
-  <data name="ShortcutGuide_PressTime.Header" xml:space="preserve">
-    <value>长按时间（毫秒）</value>
+  <data name="ShortcutGuide_PressTimeForGlobalWindowsShortcuts.Header" xml:space="preserve">
+    <value>显示快捷键图表长按时间（毫秒）</value>
     <comment>ms = milliseconds</comment>
-  </data>
-  <data name="ShortcutGuide_PressTime.Description" xml:space="preserve">
-    <value>长按 Win 键激活图表所需的持续时间</value>
   </data>
   <data name="ShortcutGuide_ActivationMethod.Header" xml:space="preserve">
     <value>启动方式</value>
@@ -836,7 +816,7 @@
   <data name="ShortcutGuide_PressWinKeyWarning.Title" xml:space="preserve">
     <value>在一些特殊情况下，长按打开可能无效</value>
   </data>
-  <data name="ShortcutGuide_Appearance_Behavior.Header" xml:space="preserve">
+  <data name="Appearance_Behavior.Header" xml:space="preserve">
     <value>外观</value>
   </data>
   <data name="General_SettingsBackupAndRestoreTitle.Header" xml:space="preserve">
@@ -845,9 +825,12 @@
   <data name="General_SettingsBackupAndRestore.Header" xml:space="preserve">
     <value>设置备份</value>
   </data>
+	<data name="General_SettingsBackupAndRestore.Description" xml:space="preserve">
+    <value>还原设置需要自动重启软件</value>
+  </data>
   <data name="ShortcutGuide_Enable.Header" xml:space="preserve">
     <value>启用快捷键指南</value>
-    <comment>do not loc the Product name.  Do you want this feature on / off</comment>
+    <comment>do not loc the Product name. Do you want this feature on / off</comment>
   </data>
   <data name="ShortcutGuide_OverlayOpacity.Header" xml:space="preserve">
     <value>背景不透明度（%）</value>
@@ -1024,6 +1007,9 @@
   <data name="GeneralSettings_AlwaysRunAsAdminText.Header" xml:space="preserve">
     <value>始终以管理员身份运行</value>
   </data>
+	<data name="GeneralSettings_AlwaysRunAsAdminText.Description" xml:space="preserve">
+    <value>要更改此设置，请以管理员身份重新启动程序</value>
+  </data>
   <data name="GeneralSettings_RunningAsUserText" xml:space="preserve">
     <value>当前正以用户身份运行</value>
   </data>
@@ -1081,9 +1067,6 @@
   <data name="General_SettingsBackupInfo_DateHeader.Text" xml:space="preserve">
     <value>时间:</value>
   </data>
-  <data name="General_SettingsBackupAndRestoreDescription.Text" xml:space="preserve">
-    <value>备份 PowerToys 设置，还原设置需要自动重启软件</value>
-  </data>
   <data name="General_SettingsBackupAndRestoreStatusInfo.Header" xml:space="preserve">
     <value>详细信息</value>
   </data>
@@ -1098,9 +1081,6 @@
   </data>
   <data name="Admin_mode.Header" xml:space="preserve">
     <value>管理员模式</value>
-  </data>
-  <data name="General_RunAsAdminRequired.Title" xml:space="preserve">
-    <value>要修改此设置，请以管理员身份重新启动程序</value>
   </data>
   <data name="FancyZones_RestoreSize.Content" xml:space="preserve">
     <value>解除布局时，还原窗口的原始大小</value>
@@ -1175,17 +1155,17 @@
     <value>文件缩略图</value>
   </data>
   <data name="FileExplorerPreview_IconThumbnail_GroupSettings.Description" xml:space="preserve">
-    <value>选择启用增强缩略图的文件格式。</value>
+    <value>选择启用增强缩略图的文件格式</value>
   </data>
   <data name="FileExplorerPreview_PreviewPane.Header" xml:space="preserve">
     <value>预览窗格</value>
   </data>
   <data name="FileExplorerPreview_PreviewPane.Description" xml:space="preserve">
-    <value>选择启用增强预览的文件格式。在文件夹中按 Alt + P 即可打开预览窗格。</value>
+    <value>选择启用增强预览的文件格式，在文件夹中按 Alt + P 即可打开预览窗格</value>
     <comment>Preview Pane and File Explorer are app/feature names in Windows. 'Alt + P' is a shortcut</comment>
   </data>
   <data name="FileExplorerPreview_RunAsAdminRequired.Title" xml:space="preserve">
-    <value>要修改此设置，请以管理员身份重新启动程序</value>
+    <value>要更改此设置，请以管理员身份重新启动程序</value>
   </data>
   <data name="FileExplorerPreview_RebootRequired.Title" xml:space="preserve">
     <value>为了使更改生效，可能需要重启电脑</value>
@@ -1278,16 +1258,154 @@
     <value>由微软和 PowerToys 社区用 💗 制作。</value>
   </data>
   <data name="ColorPicker_ColorFormats.Header" xml:space="preserve">
-    <value>颜色格式列表</value>
+    <value>颜色格式</value>
   </data>
   <data name="ColorPicker_ColorFormats.Description" xml:space="preserve">
-    <value>拾色板中显示的颜色格式与顺序</value>
+    <value>配置拾色板中显示的颜色格式</value>
   </data>
   <data name="MoveUp.Text" xml:space="preserve">
     <value>上移</value>
   </data>
-  <data name="MoveDown.Text" xml:space="preserve">
+	<data name="MoveDown.Text" xml:space="preserve">
     <value>下移</value>
+  </data>
+  <data name="ColorPickerAddNewFormat.Content" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="NewColorFormat.Header" xml:space="preserve">
+    <value>格式</value>
+  </data>
+  <data name="NewColorName.Header" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="AddCustomColorFormat" xml:space="preserve">
+    <value>添加颜色格式</value>
+  </data>
+  <data name="ColorFormatSave" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="EditCustomColorFormat" xml:space="preserve">
+    <value>编辑颜色格式</value>
+  </data>
+  <data name="ColorFormatUpdate" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="CustomColorFormatDefaultName" xml:space="preserve">
+    <value>自定义格式</value>
+  </data>
+  <data name="ColorFormatDialog.SecondaryButtonText" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="HelpLine1.Text" xml:space="preserve">
+    <value>可以使用以下参数：</value>
+  </data>
+  <data name="Help_red.Text" xml:space="preserve">
+    <value>RGB 红色</value>
+  </data>
+  <data name="Help_green.Text" xml:space="preserve">
+    <value>RGB 绿色</value>
+  </data>
+  <data name="Help_blue.Text" xml:space="preserve">
+    <value>RGB 蓝色</value>
+  </data>
+  <data name="Help_alpha.Text" xml:space="preserve">
+    <value>透明度</value>
+  </data>
+  <data name="Help_cyan.Text" xml:space="preserve">
+    <value>CMYK 青色</value>
+  </data>
+  <data name="Help_magenta.Text" xml:space="preserve">
+    <value>CMYK 洋红</value>
+  </data>
+  <data name="Help_yellow.Text" xml:space="preserve">
+    <value>CMYK 黄色</value>
+  </data>
+  <data name="Help_black_key.Text" xml:space="preserve">
+    <value>CMYK 黑色</value>
+  </data>
+  <data name="Help_hue.Text" xml:space="preserve">
+    <value>色调</value>
+  </data>
+  <data name="Help_hueNat.Text" xml:space="preserve">
+    <value>视觉色调</value>
+  </data>
+  <data name="Help_saturationI.Text" xml:space="preserve">
+    <value>HSI 饱和度</value>
+  </data>
+  <data name="Help_saturationL.Text" xml:space="preserve">
+    <value>HSL 饱和度</value>
+  </data>
+  <data name="Help_saturationB.Text" xml:space="preserve">
+    <value>HSB 饱和度</value>
+  </data>
+  <data name="Help_brightness.Text" xml:space="preserve">
+    <value>HSB 亮度</value>
+  </data>
+  <data name="Help_intensity.Text" xml:space="preserve">
+    <value>HSI 纯度</value>
+  </data>
+  <data name="Help_lightnessNat.Text" xml:space="preserve">
+    <value>视觉亮度</value>
+  </data>
+  <data name="Help_lightnessCIE.Text" xml:space="preserve">
+    <value>CIE 亮度</value>
+  </data>
+  <data name="Help_value.Text" xml:space="preserve">
+    <value>HSV 明度</value>
+  </data>
+  <data name="Help_whiteness.Text" xml:space="preserve">
+    <value>HWB 白度</value>
+  </data>
+  <data name="Help_blackness.Text" xml:space="preserve">
+    <value>HWB 黑度</value>
+  </data>
+  <data name="Help_chromaticityA.Text" xml:space="preserve">
+    <value>CIELAB 色度 A</value>
+  </data>
+  <data name="Help_chromaticityB.Text" xml:space="preserve">
+    <value>CIELAB 色度 B</value>
+  </data>
+  <data name="Help_X_value.Text" xml:space="preserve">
+    <value>CIEXYZ X 值</value>
+  </data>
+  <data name="Help_Y_value.Text" xml:space="preserve">
+    <value>CIEXYZ Y 值</value>
+  </data>
+  <data name="Help_Z_value.Text" xml:space="preserve">
+    <value>CIEXYZ Z 值</value>
+  </data>
+  <data name="Help_decimal_value.Text" xml:space="preserve">
+    <value>十进制数字</value>
+  </data>
+  <data name="Help_color_name.Text" xml:space="preserve">
+    <value>颜色名称</value>
+  </data>
+  <data name="HelpLine2.Text" xml:space="preserve">
+    <value>红色、绿色、蓝色、透明度可以使用以下后缀改变格式：</value>
+  </data>
+  <data name="Help_byte.Text" xml:space="preserve">
+    <value>整数 0~255（默认）</value>
+  </data>
+  <data name="Help_hexL1.Text" xml:space="preserve">
+    <value>十六进制一位小写</value>
+  </data>
+  <data name="Help_hexU1.Text" xml:space="preserve">
+    <value>十六进制一位大写</value>
+  </data>
+  <data name="Help_hexL2.Text" xml:space="preserve">
+    <value>十六进制两位小写</value>
+  </data>
+  <data name="Help_hexU2.Text" xml:space="preserve">
+    <value>十六进制两位大写</value>
+  </data>
+  <data name="Help_floatWith.Text" xml:space="preserve">
+    <value>小数</value>
+  </data>
+  <data name="Help_floatWithout.Text" xml:space="preserve">
+    <value>小数前面去掉零</value>
+  </data>
+  <data name="HelpLine3.Text" xml:space="preserve">
+    <value>例如：%ReX 表示一个十六进制两位大写的 RGB 红色值</value>
   </data>
   <data name="ColorPicker_ShowColorName.Header" xml:space="preserve">
     <value>显示颜色名称</value>
@@ -1572,7 +1690,7 @@
   <data name="Oobe_Run_TipsAndTricks.Text" xml:space="preserve">
     <value>快速启动器支持各种唤醒词，以搜索特定的结果。
 
-例如，输入 **&lt;** 搜索运行中的程序进程，输入 **?** 搜索文件，输入 **.** 搜索已安装的应用！
+例如，输入 `&lt;` 搜索运行中的程序进程，输入 `?` 搜索文件，输入 `.` 搜索已安装的应用！
 
 关于所有可用的关键字，参见 PowerToys 文档。</value>
   </data>
@@ -1751,6 +1869,9 @@
   </data>
   <data name="General_UpToDate.Title" xml:space="preserve">
     <value>已是最新版本</value>
+  </data>
+  <data name="General_CantCheck.Title" xml:space="preserve">
+    <value>网络错误，请稍后再试</value>
   </data>
   <data name="General_DownloadAndInstall.Content" xml:space="preserve">
     <value>下载并安装</value>
@@ -2155,13 +2276,13 @@
     <value>布局外观</value>
   </data>
   <data name="VideoConference_DeprecationWarning.Title" xml:space="preserve">
-    <value>此工具即将移入稳定模式，不再接受功能更新</value>
+    <value>此模块即将进入稳定开发环节，不再开发新的功能</value>
   </data>
   <data name="VideoConference_DeprecationWarningButton.Content" xml:space="preserve">
     <value>了解更多</value>
   </data>
   <data name="VideoConference_RunAsAdminRequired.Title" xml:space="preserve">
-    <value>要修改此设置，请以管理员身份重新启动程序。</value>
+    <value>要启用此功能，请以管理员身份重新启动程序</value>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_GCODE.Header" xml:space="preserve">
     <value>数控指令</value>
@@ -2303,25 +2424,25 @@
     <value>纳入布局时消除窗口圆角（Win11）</value>
   </data>
   <data name="PowerLauncher_SearchQueryTuningEnabled.Description" xml:space="preserve">
-    <value>结果排序</value>
+    <value>按权重排序搜索结果</value>
   </data>
   <data name="PowerLauncher_SearchQueryTuningEnabled.Header" xml:space="preserve">
-    <value>搜索结果顺序优化</value>
+    <value>优化排序</value>
   </data>
   <data name="PowerLauncher_SearchClickedItemWeight.Description" xml:space="preserve">
-    <value>权重越大，搜索后选中的结果下次越容易搜到。默认为 5，禁用为 0</value>
+    <value>权重越大，搜索后选中的结果下次越容易搜到，默认为 5，禁用为 0</value>
   </data>
   <data name="PowerLauncher_SearchClickedItemWeight.Header" xml:space="preserve">
-    <value>选定提升权重</value>
+    <value>选中提升权重</value>
   </data>
   <data name="PowerLauncher_WaitForSlowResults.Description" xml:space="preserve">
-    <value>加载时开始排序，有助于选出最相关的结果，可能存在排序跳动不定的问题</value>
+    <value>加载时开始排序，有助于选出最相关的结果，可能出现排序跳动不定</value>
   </data>
   <data name="PowerLauncher_WaitForSlowResults.Header" xml:space="preserve">
     <value>动态排序</value>
   </data>
   <data name="PowerLauncher_PluginWeightBoost.Description" xml:space="preserve">
-    <value>权重越大，结果排在越前面。默认为 0</value>
+    <value>权重越大，结果排在越前面，默认为 0</value>
   </data>
   <data name="PowerLauncher_PluginWeightBoost.Header" xml:space="preserve">
     <value>全局排序权重</value>
@@ -2376,11 +2497,11 @@
   </data>
   <data name="QuickAccent_Activation_Key_Arrows.Content" xml:space="preserve">
     <value>左右方向键</value>
-    <comment>Left/Right arrow keyboard keys.</comment>
+    <comment>Left/Right arrow keyboard keys</comment>
   </data>
   <data name="QuickAccent_Activation_Key_Space.Content" xml:space="preserve">
     <value>空格</value>
-    <comment>Space is the space keyboard key.</comment>
+    <comment>Space is the space keyboard key</comment>
   </data>
   <data name="QuickAccent_Activation_Key_Either.Content" xml:space="preserve">
     <value>方向键和空格</value>
@@ -2429,6 +2550,15 @@
   <data name="QuickAccent_InputTimeMs.Description" xml:space="preserve">
     <value>按住快捷键启动工具栏所需的持续时间</value>
     <comment>ms = milliseconds</comment>
+  </data>
+  <data name="QuickAccent_ExcludedApps.Description" xml:space="preserve">
+    <value>填写忽略应用的名称，每行一个，防止在应用中误触而弹出字母助手</value>
+  </data>
+  <data name="QuickAccent_ExcludedApps.Header" xml:space="preserve">
+    <value>忽略应用列表</value>
+  </data>
+  <data name="QuickAccent_ExcludedApps_TextBoxControl.PlaceholderText" xml:space="preserve">
+    <value>例如: Teams.exe</value>
   </data>
   <data name="LearnMore_TextExtractor.Text" xml:space="preserve">
     <value>详细了解文本提取器</value>
@@ -2486,7 +2616,7 @@
     <value>未选择备份位置</value>
   </data>
   <data name="General_SettingsBackupAndRestore_NoBackupsFound" xml:space="preserve">
-    <value>无法还原，没有备份</value>
+    <value>备份不存在，无法还原</value>
   </data>
   <data name="General_SettingsBackupAndRestore_InvalidBackupLocation" xml:space="preserve">
     <value>备份路径无效</value>
@@ -2516,7 +2646,7 @@
     <value>文本提取器</value>
   </data>
   <data name="Oobe_TextExtractor_HowToUse.Text" xml:space="preserve">
-    <value>启动文本提取器，拖动框选一块文字内容，松手，文字即刻复制到了剪贴板。</value>
+    <value>启动文本提取器，拖动框选一块文字内容，松手，文字即刻复制到剪贴板中。</value>
   </data>
   <data name="Oobe_TextExtractor_TipsAndTricks.Text" xml:space="preserve">
     <value>按住 Shift 移动选区。</value>
@@ -2528,7 +2658,7 @@
     <value>文本提取器从屏幕上抓取一块截图，然后通过文字识别技术复制出其中的文字。</value>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Monaco_Try_Format.Description" xml:space="preserve">
-    <value>针对 json 和 xml，原文件不会被改动。</value>
+    <value>针对 json 和 xml，原文件不会被改动</value>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Monaco_Try_Format.Header" xml:space="preserve">
     <value>格式化代码文件</value>
@@ -2542,6 +2672,9 @@
   <data name="MeasureTool_ContinuousCapture_Information.Title" xml:space="preserve">
     <value>实时测量会增加系统开销，并且不支持录屏和截屏</value>
     <comment>pointer as in mouse pointer. Resources refer to things like CPU, GPU, RAM</comment>
+  </data>
+  <data name="QuickAccent_Description_Indicator.Header" xml:space="preserve">
+    <value>显示选中字符的 Unicode 编码和名称</value>
   </data>
   <data name="QuickAccent_DisableFullscreen.Header" xml:space="preserve">
     <value>游戏模式中禁用n</value>
@@ -2558,11 +2691,25 @@
   <data name="QuickAccent_SelectedLanguage_All.Content" xml:space="preserve">
     <value>全部</value>
   </data>
+  <data name="QuickAccent_SelectedLanguage_Catalan.Content" xml:space="preserve">
+    <value>加泰罗尼亚语</value>
+  </data>
   <data name="QuickAccent_SelectedLanguage_Currency.Content" xml:space="preserve">
     <value>货币符号</value>
   </data>
+  <data name="QuickAccent_SelectedLanguage_Croatian.Content" xml:space="preserve">
+    <value>克罗地亚语</value>
+  </data>
   <data name="QuickAccent_SelectedLanguage_Czech.Content" xml:space="preserve">
     <value>捷克语</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Gaeilge.Content" xml:space="preserve">
+    <value>爱尔兰盖尔语</value>
+    <comment>Irish Gaelic</comment>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Gaidhlig.Content" xml:space="preserve">
+    <value>苏格兰盖尔语</value>
+    <comment>Scottish Gaelic</comment>
   </data>
   <data name="QuickAccent_SelectedLanguage_German.Content" xml:space="preserve">
     <value>德语</value>
@@ -2572,6 +2719,9 @@
   </data>
   <data name="QuickAccent_SelectedLanguage_Maori.Content" xml:space="preserve">
     <value>毛利语</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Dutch.Content" xml:space="preserve">
+    <value>荷兰语</value>
   </data>
   <data name="QuickAccent_SelectedLanguage_Pinyin.Content" xml:space="preserve">
     <value>汉语拼音</value>
@@ -2588,6 +2738,9 @@
   <data name="QuickAccent_SelectedLanguage_Spanish.Content" xml:space="preserve">
     <value>西班牙语</value>
   </data>
+  <data name="QuickAccent_SelectedLanguage_Swedish.Content" xml:space="preserve">
+    <value>瑞典语</value>
+  </data>
   <data name="QuickAccent_SelectedLanguage_Turkish.Content" xml:space="preserve">
     <value>土耳其语</value>
   </data>
@@ -2597,11 +2750,20 @@
   <data name="QuickAccent_SelectedLanguage_Romanian.Content" xml:space="preserve">
     <value>罗马尼亚语</value>
   </data>
+  <data name="QuickAccent_SelectedLanguage_Serbian.Content" xml:space="preserve">
+    <value>塞尔维亚语</value>
+  </data>
   <data name="QuickAccent_SelectedLanguage_Hungarian.Content" xml:space="preserve">
     <value>匈牙利语</value>
   </data>
   <data name="QuickAccent_SelectedLanguage_Italian.Content" xml:space="preserve">
     <value>意大利语</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Kurdish.Content" xml:space="preserve">
+    <value>库尔德语</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Welsh.Content" xml:space="preserve">
+    <value>威尔士语</value>
   </data>
   <data name="Hosts.ModuleDescription" xml:space="preserve">
     <value>轻松编辑 Hosts 域名文件。</value>
@@ -2631,11 +2793,7 @@
   </data>
   <data name="Hosts_LaunchButtonControl.Header" xml:space="preserve">
     <value>启动编辑器</value>
-	<comment>"Host File Editor" is a product name</comment>
-  </data>
-  <data name="Hosts_LaunchButton_Accessible.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>启动编辑器</value>
-	<comment>"Host File Editor" is a product name</comment>
+    <comment>"Host File Editor" is a product name</comment>
   </data>
   <data name="Hosts_AdditionalLinesPosition.Header" xml:space="preserve">
     <value>注释段位置</value>
@@ -2671,6 +2829,10 @@
   <data name="Hosts_Toggle_LaunchAdministrator.Header" xml:space="preserve">
     <value>以管理员身份运行</value>
   </data>
+  <data name="ShortcutGuide_PressTimeForTaskbarIconShortcuts.Header" xml:space="preserve">
+    <value>显示任务栏指示长按时间（毫秒）</value>
+    <comment>ms = milliseconds</comment>
+  </data>
   <data name="FileLocksmith.ModuleDescription" xml:space="preserve">
     <value>查看、解除文件占用的小工具。</value>
   </data>
@@ -2687,5 +2849,8 @@
   </data>
   <data name="GPO_IsSettingForced.Title" xml:space="preserve">
     <value>组策略已控制此设置</value>
+  </data>
+  <data name="Hosts_AdditionalLinesPosition.Description" xml:space="preserve">
+    <value>包括注释和无法解析的内容</value>
   </data>
 </root>

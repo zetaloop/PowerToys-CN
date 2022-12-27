@@ -26,11 +26,11 @@ rmdir /s /q %pt%-%ver%\packages
 rmdir /s /q %pt%-%ver%\x64
 rmdir /s /q %pt%-%ver%\x86
 rmdir /s /q %pt%-%ver%\ARM64
-rmdir /s /q %pt%-%ver%\deps\cxxopts
+REM rmdir /s /q %pt%-%ver%\deps\cxxopts
 rmdir /s /q %pt%-%ver%\deps\cziplib
 rmdir /s /q %pt%-%ver%\deps\expected-lite
 rmdir /s /q %pt%-%ver%\deps\spdlog
-mkdir %pt%-%ver%\deps\cxxopts
+REM mkdir %pt%-%ver%\deps\cxxopts
 mkdir %pt%-%ver%\deps\cziplib
 mkdir %pt%-%ver%\deps\expected-lite
 mkdir %pt%-%ver%\deps\spdlog
@@ -55,11 +55,17 @@ pause
 :finddir
 echo ¡¤%i%
 set i=%i:~15%
-if "%i:~-9%"=="-ORIGINAL" goto :eof
-if "%i:~-11%"=="-FULLBACKUP" goto :eof
-if "%i:~-8%"=="-FULLBAK" goto :eof
-if "%i:~-6%"=="-PATCH" goto :eof
+if "%i:~17,1%"=="-" goto :eof
+REM if "%i:~-5%"=="-orig" goto :eof
+REM if "%i:~-9%"=="-ORIGINAL" goto :eof
+REM if "%i:~-8%"=="-fullbak" goto :eof
+REM if "%i:~-11%"=="-FULLBACKUP" goto :eof
+REM if "%i:~-8%"=="-FULLBAK" goto :eof
+REM if "%i:~-6%"=="-patch" goto :eof
+REM if "%i:~-6%"=="-PATCH" goto :eof
+set i=%i:~11%
 set a=%i%
+echo [NEW] -- %a%
 goto :EOF
 
 :title

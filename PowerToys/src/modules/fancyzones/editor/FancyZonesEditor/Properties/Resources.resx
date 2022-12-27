@@ -388,7 +388,7 @@
     <value>布局区数量</value>
   </data>
   <data name="Pixels" xml:space="preserve">
-    <value>px</value>
+    <value>像素</value>
     <comment>Abbreviation of pixels</comment>
   </data>
   <data name="QuickKey_Title" xml:space="preserve">

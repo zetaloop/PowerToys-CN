@@ -1,7 +1,7 @@
 @echo off
 chcp 65001>nul
 color f0
-if not exist "%~dp0regpath.txt" echo 检测到文件缺失，请解压后运行！&pause&exit
+if not exist "%~dp0IObitUnlocker\IObitUnlocker.exe" echo 检测到文件缺失，请解压后运行！&pause&exit
 echo 请允许管理员权限以便安装，谢谢。
 %1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",1)(window.close)&&exit
 cd /d %~dp0
@@ -9,7 +9,6 @@ mode con cols=20 lines=10
 
 for /f "tokens=2 delims= " %%i in ('dir /b^|findstr PowerToys') do set modver=%%i
 set modfulver=%modver%
-for /f "delims=" %%i in (regpath.txt) do set regpath=%%i
 set softname=PowerToys
 
 title 修改 %softname%
@@ -20,19 +19,19 @@ color f0
 msg %username% /time:1 /v /w 欢迎使用 Zetaspace 的 %softname% 修改！>nul
 color 07
 
-reg query HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\%regpath% >nul & cls
-if %errorlevel%==1 echo 警告：找不到注册表信息！你可能未安装对应版本的 %softname%&set /p =请按任意键退出. . . &exit
-for /f "tokens=3-28" %%a in ('reg query HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\%regpath% ^| findstr InstallLocation') do set I=%%a %%b %%c %%d %%e %%f %%g %%h %%i %%j %%k %%l %%m %%n %%o %%p %%q %%r %%s %%t %%u %%v %%w %%x %%y %%z
-for /f "delims=" %%a in ('echo %I%') do set installpath=%%~dpa
-for /f "tokens=3" %%a in ('reg query HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\%regpath% ^| findstr DisplayVersion') do set installver=%%a
-for /f "tokens=3" %%a in ('reg query HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\%regpath% ^| findstr InstallDate') do set installdate=%%a
+for /f "skip=2 tokens=2,*" %%a in ('reg query "HKCR\powertoys\shell\open\command"') do set ptpath=%%b
+if %errorlevel%==1 echo 警告：找不到注册表信息！你可能未安装 %softname%&set /p =请按任意键退出. . . &exit
+set ptpath=%ptpath:~1,-6%
+for /f "delims=" %%a in ('echo %ptpath%') do set installpath=%%~dpa
+for /f "usebackq delims=" %%a in (`mshta vbscript:CreateObject("Scripting.FileSystemObject"^).GetStandardStream(1^).WriteLine(CStr(CreateObject("Scripting.FileSystemObject"^).GetFileVersion("%ptpath%"^)^)^)(window.close^)`) do set installver=%%a
+for /f "tokens=1,2,3 delims=." %%a in ('echo %installver%') do set installver=%%a.%%b.%%c
 echo.
 echo 修改包版本 %modfulver%
 echo %softname% 版本 %installver%
+if not "%modfulver%"=="%installver%" echo ·警告：汉化包版本不对应！&msg %username% /v /w 警告：汉化包版本不对应，强行安装可能导致报错闪退！>nul
 echo.
 echo 安装目录 %installpath%
 if not exist "%installpath%PowerToys.exe" echo 警告：安装目录检测失败！ %&set /p =请按任意键退出. . . &exi
-echo 安装日期 %installdate%
 echo.
 echo 安装过程：
 ::

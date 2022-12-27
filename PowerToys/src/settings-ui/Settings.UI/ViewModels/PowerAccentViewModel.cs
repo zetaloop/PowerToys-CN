@@ -30,15 +30,24 @@ namespace Microsoft.PowerToys.Settings.UI.ViewModels
             "PL",
             "DE",
             "FR",
+            "NL",
             "CZ",
+            "CA",
+            "HR",
+            "KU",
             "RO",
             "MI",
             "PT",
+            "SV",
+            "SR",
             "SK",
+            "GD",
             "TK",
-            "SP",
+            "CY",
             "HU",
+            "SP",
             "IT",
+            "GA",
         };
 
         private readonly string[] _toolbarOptions =
@@ -89,6 +98,8 @@ namespace Microsoft.PowerToys.Settings.UI.ViewModels
             }
 
             _inputTimeMs = _powerAccentSettings.Properties.InputTime.Value;
+
+            _excludedApps = _powerAccentSettings.Properties.ExcludedApps.Value;
 
             _selectedLangIndex = Array.IndexOf(_languageOptions, _powerAccentSettings.Properties.SelectedLang.Value);
 
@@ -165,6 +176,27 @@ namespace Microsoft.PowerToys.Settings.UI.ViewModels
             }
         }
 
+        private string _excludedApps;
+
+        public string ExcludedApps
+        {
+            get
+            {
+                return _excludedApps;
+            }
+
+            set
+            {
+                if (value != _excludedApps)
+                {
+                    _excludedApps = value;
+                    _powerAccentSettings.Properties.ExcludedApps.Value = value;
+                    OnPropertyChanged(nameof(ExcludedApps));
+                    RaisePropertyChanged();
+                }
+            }
+        }
+
         private int _toolbarPositionIndex;
 
         public int ToolbarPositionIndex
@@ -201,6 +233,24 @@ namespace Microsoft.PowerToys.Settings.UI.ViewModels
                     _selectedLangIndex = value;
                     _powerAccentSettings.Properties.SelectedLang.Value = _languageOptions[value];
                     RaisePropertyChanged(nameof(SelectedLangIndex));
+                }
+            }
+        }
+
+        public bool ShowUnicodeDescription
+        {
+            get
+            {
+                return _powerAccentSettings.Properties.ShowUnicodeDescription;
+            }
+
+            set
+            {
+                if (value != _powerAccentSettings.Properties.ShowUnicodeDescription)
+                {
+                    _powerAccentSettings.Properties.ShowUnicodeDescription = value;
+                    OnPropertyChanged(nameof(ShowUnicodeDescription));
+                    RaisePropertyChanged();
                 }
             }
         }

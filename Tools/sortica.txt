@@ -1,0 +1,138 @@
+            "ALL",
+            "CA",
+            "CUR",
+            "HR",
+            "CZ",
+            "GA",
+            "GD",
+            "NL",
+            "FR",
+            "DE",
+            "HU",
+            "IS",
+            "IT",
+            "KU",
+            "MI",
+            "PI",
+            "PL",
+            "PT",
+            "RO",
+            "SK",
+            "SP",
+            "SR",
+            "SV",
+            "TK",
+            "CY",
+
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_All" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Catalan"/>
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Currency" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Croatian" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Czech" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Gaeilge" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Gaidhlig" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Dutch" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_French" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_German" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Hungarian" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Icelandic" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Italian" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Kurdish" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Maori" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Pinyin" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Polish" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Portuguese" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Romanian" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Slovakian" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Spanish" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Serbian" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Swedish" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Turkish" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Welsh" />
+
+All
+Catalan
+Currency
+Croatian
+Czech
+Gaeilge
+Gaidhlig
+Dutch
+French
+German
+Hungarian
+Icelandic
+Italian
+Kurdish
+Maori
+Pinyin
+Polish
+Portuguese
+Romanian
+Slovakian
+Spanish
+Serbian
+Swedish
+Turkish
+Welsh
+
+All
+Catalan
+Currency
+Croatian
+Czech
+Gaeilge
+Gaidhlig
+German
+French
+Maori
+Dutch
+Pinyin
+Polish
+Portuguese
+Slovakian
+Spanish
+Swedish
+Turkish
+Icelandic
+Romanian
+Serbian
+Hungarian
+Italian
+Kurdish
+Welsh
+
+全部
+加泰罗尼亚语
+货币符号
+克罗地亚语
+捷克语
+爱尔兰盖尔语
+苏格兰盖尔语
+德语
+法语
+毛利语
+荷兰语
+汉语拼音
+波兰语
+葡萄牙语
+斯洛伐克语
+西班牙语
+瑞典语
+土耳其语
+冰岛语
+罗马尼亚语
+塞尔维亚语
+匈牙利语
+意大利语
+库尔德语
+威尔士语
+
+['All', 'Catalan', 'Currency', 'Croatian', 'Czech', 'Gaeilge', 'Gaidhlig', 'Dutch', 'French', 'German', 'Hungarian', 'Icelandic', 'Italian', 'Kurdish', 'Maori', 'Pinyin', 'Polish', 'Portuguese', 'Romanian', 'Slovakian', 'Spanish', 'Serbian', 'Swedish', 'Turkish', 'Welsh']
+
+['All', 'Catalan', 'Currency', 'Croatian', 'Czech', 'Gaeilge', 'Gaidhlig', 'German', 'French', 'Maori', 'Dutch', 'Pinyin', 'Polish', 'Portuguese', 'Slovakian', 'Spanish', 'Swedish', 'Turkish', 'Icelandic', 'Romanian', 'Serbian', 'Hungarian', 'Italian', 'Kurdish', 'Welsh']
+
+a=set(...)
+b=set(...)
+a==b
+>>> True

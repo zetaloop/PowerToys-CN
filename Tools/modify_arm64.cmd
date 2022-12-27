@@ -40,7 +40,12 @@ pause
 echo ¡¤%i%
 set i=%i:~15%
 if "%i:~-9%"=="-ORIGINAL" goto :eof
+if "%i:~-5%"=="-orig" goto :eof
+if "%i:~-6%"=="-patch" goto :eof
+if "%i:~-4%"=="-bak" goto :eof
+set i=%i:~11%
 set a=%i%
+echo [NEW] -- %a%
 goto :EOF
 
 :title

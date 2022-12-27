@@ -82,23 +82,29 @@ namespace Awake.Core
             }
         }
 
-        internal static void SetTray(string text, AwakeSettings settings)
+        internal static void SetTray(string text, AwakeSettings settings, bool startedFromPowerToys)
         {
             SetTray(
                 text,
                 settings.Properties.KeepDisplayOn,
                 settings.Properties.Mode,
-                settings.Properties.TrayTimeShortcuts);
+                settings.Properties.TrayTimeShortcuts,
+                startedFromPowerToys);
         }
 
-        public static void SetTray(string text, bool keepDisplayOn, AwakeMode mode, Dictionary<string, int> trayTimeShortcuts)
+        public static void SetTray(string text, bool keepDisplayOn, AwakeMode mode, Dictionary<string, int> trayTimeShortcuts, bool startedFromPowerToys)
         {
             TrayMenu = new DestroyMenuSafeHandle(PInvoke.CreatePopupMenu());
 
             if (!TrayMenu.IsInvalid)
             {
-                PInvoke.InsertMenu(TrayMenu, 0, MENU_ITEM_FLAGS.MF_BYPOSITION | MENU_ITEM_FLAGS.MF_STRING, (uint)TrayCommands.TC_EXIT, "退出");
-                PInvoke.InsertMenu(TrayMenu, 0, MENU_ITEM_FLAGS.MF_BYPOSITION | MENU_ITEM_FLAGS.MF_SEPARATOR, 0, string.Empty);
+                if (!startedFromPowerToys)
+                {
+                    // If Awake is started from PowerToys, the correct way to exit it is disabling it from Settings.
+                    PInvoke.InsertMenu(TrayMenu, 0, MENU_ITEM_FLAGS.MF_BYPOSITION | MENU_ITEM_FLAGS.MF_STRING, (uint)TrayCommands.TC_EXIT, "退出");
+                    PInvoke.InsertMenu(TrayMenu, 0, MENU_ITEM_FLAGS.MF_BYPOSITION | MENU_ITEM_FLAGS.MF_SEPARATOR, 0, string.Empty);
+                }
+
                 PInvoke.InsertMenu(TrayMenu, 0, MENU_ITEM_FLAGS.MF_BYPOSITION | MENU_ITEM_FLAGS.MF_STRING | (keepDisplayOn ? MENU_ITEM_FLAGS.MF_CHECKED : MENU_ITEM_FLAGS.MF_UNCHECKED), (uint)TrayCommands.TC_DISPLAY_SETTING, "保持屏幕常亮");
             }
 
@@ -126,7 +132,7 @@ namespace Awake.Core
             TrayIcon.Text = text;
         }
 
-        private class CheckButtonToolStripMenuItemAccessibleObject : ToolStripItem.ToolStripItemAccessibleObject
+        private sealed class CheckButtonToolStripMenuItemAccessibleObject : ToolStripItem.ToolStripItemAccessibleObject
         {
             private CheckButtonToolStripMenuItem _menuItem;
 
@@ -147,7 +153,7 @@ namespace Awake.Core
             public override string Name => _menuItem.Text + ", " + Role + ", " + (_menuItem.Checked ? "Checked" : "Unchecked");
         }
 
-        private class CheckButtonToolStripMenuItem : ToolStripMenuItem
+        private sealed class CheckButtonToolStripMenuItem : ToolStripMenuItem
         {
             public CheckButtonToolStripMenuItem()
             {
