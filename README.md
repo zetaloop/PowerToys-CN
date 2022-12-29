@@ -32,12 +32,12 @@ PowerToys 自制简体中文翻译优化补丁
 
 ## Patchs 优化清单
 
-<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/0000.png"/>
-<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/0001.png"/>
-<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/0002.png"/>
-<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/0003.png"/>
-<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/0004.png"/>
-<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/0005.png"/>
+<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/000.png"/>
+<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/001.png"/>
+<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/002.png"/>
+<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/003.png"/>
+<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/004.png"/>
+<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/005.png"/>
 
 PowerToys 模块名称：窗口置顶 唤醒工具 取色器 窗口布局 文件师傅 预览增强 域名编辑器 图像裁剪器 键盘修改器 鼠标小工具 批量重命名 快速启动器 字母助手 屏幕标尺 快捷键指南 文本提取器 录制工具
 
