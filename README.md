@@ -31,7 +31,13 @@ PowerToys 自制简体中文翻译优化补丁
 　　下载 PCTMODx***.7z（带有自动安装程序），解压后运行“安装.CMD”，根据提示确定安装
 
 ## Patchs 优化清单
-<details><summary></summary>
+
+<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/0000.png"/>
+<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/0001.png"/>
+<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/0002.png"/>
+<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/0003.png"/>
+<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/0004.png"/>
+<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/0005.png"/>
 
 PowerToys 模块名称：窗口置顶 唤醒工具 取色器 窗口布局 文件师傅 预览增强 域名编辑器 图像裁剪器 键盘修改器 鼠标小工具 批量重命名 快速启动器 字母助手 屏幕标尺 快捷键指南 文本提取器 录制工具
 
@@ -66,8 +72,6 @@ Screen Ruler 操作界面
 Shortcut Guide 操作界面、快捷键图片
 
 Video Conference Mute 按键图片、摄像头设备名称
-</details>
-
 
 ## Stargazers 星标趋势
 
