@@ -184,6 +184,9 @@
   <data name="DeleteDialogAreYouSure.Text" xml:space="preserve">
     <value>确定删除此条目？</value>
   </data>
+  <data name="DuplicateEntryIcon.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>重复条目</value>
+  </data>
   <data name="Entries.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>条目</value>
   </data>
@@ -234,6 +237,10 @@
     <value>Ping 测试</value>
     <comment>"Ping" refers to the command-line utility, do not loc</comment>
   </data>
+  <data name="PingIcon.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ping 结果</value>
+    <comment>"Ping" refers to the command-line utility, do not loc</comment>
+  </data>
   <data name="Reload.Content" xml:space="preserve">
     <value>刷新</value>
   </data>
@@ -242,6 +249,9 @@
   </data>
   <data name="SettingsBtn.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>设置</value>
+  </data>
+  <data name="ShowOnlyDuplicates.Header" xml:space="preserve">
+    <value>仅显示重复条目</value>
   </data>
   <data name="UpdateBtn" xml:space="preserve">
     <value>更新</value>

@@ -2,13 +2,13 @@
 // The Brice Lambson licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.  Code forked from Brice Lambson's https://github.com/bricelam/ImageResizer/
 
+using System;
+using System.ComponentModel;
+using System.Globalization;
+using System.Reflection;
+
 namespace ImageResizer.Models
 {
-    using System;
-    using System.ComponentModel;
-    using System.Globalization;
-    using System.Reflection;
-
     [TypeConverter(typeof(ResizeUnitTranslator))]
     public enum ResizeUnit
     {

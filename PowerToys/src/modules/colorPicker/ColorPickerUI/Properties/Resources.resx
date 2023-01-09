@@ -232,4 +232,172 @@
   <data name="Lightest color" xml:space="preserve">
     <value>变亮 2</value>
   </data>
+  <data name="TEXT_COLOR_WHITE" xml:space="preserve">
+    <value>白色</value>
+    <comment>White color #FFFFFF</comment>
+  </data>
+  <data name="TEXT_COLOR_BLACK" xml:space="preserve">
+    <value>黑色</value>
+    <comment>Black color #000000</comment>
+  </data>
+  <data name="TEXT_COLOR_LIGHTGRAY" xml:space="preserve">
+    <value>浅灰</value>
+    <comment>Light gray color #C8C8C8</comment>
+  </data>
+  <data name="TEXT_COLOR_GRAY" xml:space="preserve">
+    <value>灰色</value>
+    <comment>Gray color #878787</comment>
+  </data>
+  <data name="TEXT_COLOR_DARKGRAY" xml:space="preserve">
+    <value>深灰</value>
+    <comment>Dark gray color #3C3C3C</comment>
+  </data>
+  <data name="TEXT_COLOR_CORAL" xml:space="preserve">
+    <value>米色</value>
+    <comment>Coral color #E1D1CE</comment>
+  </data>
+  <data name="TEXT_COLOR_ROSE" xml:space="preserve">
+    <value>玫红</value>
+    <comment>Rose color #FF6699</comment>
+  </data>
+  <data name="TEXT_COLOR_LIGHTORANGE" xml:space="preserve">
+    <value>浅橙</value>
+    <comment>Light orange color #FF9966</comment>
+  </data>
+  <data name="TEXT_COLOR_TAN" xml:space="preserve">
+    <value>茶色</value>
+    <comment>Tan color #996633</comment>
+  </data>
+  <data name="TEXT_COLOR_LIGHTYELLOW" xml:space="preserve">
+    <value>浅黄</value>
+    <comment>Light yellow color #FFFF66</comment>
+  </data>
+  <data name="TEXT_COLOR_LIGHTGREEN" xml:space="preserve">
+    <value>浅绿</value>
+    <comment>Light green color #66FF66</comment>
+  </data>
+  <data name="TEXT_COLOR_LIME" xml:space="preserve">
+    <value>青绿</value>
+    <comment>Lime color #CCFF33</comment>
+  </data>
+  <data name="TEXT_COLOR_AQUA" xml:space="preserve">
+    <value>水绿</value>
+    <comment>Aqua color #00FFFF 注：颜色参考官译、office内名称，一定程度修改结合日常通用名称。</comment>
+  </data>
+  <data name="TEXT_COLOR_SKYBLUE" xml:space="preserve">
+    <value>天蓝</value>
+    <comment>Sky blue color #66FFFF</comment>
+  </data>
+  <data name="TEXT_COLOR_LIGHTTURQUOISE" xml:space="preserve">
+    <value>浅青绿</value>
+    <comment>Light turquoise color #66CCFF</comment>
+  </data>
+  <data name="TEXT_COLOR_PALEBLUE" xml:space="preserve">
+    <value>淡蓝</value>
+    <comment>Pale blue color 代码中貌似根本取不到-ColorNameHelper.cs</comment>
+  </data>
+  <data name="TEXT_COLOR_LIGHTBLUE" xml:space="preserve">
+    <value>浅蓝</value>
+    <comment>Light blue color #CCECFF</comment>
+  </data>
+  <data name="TEXT_COLOR_ICEBLUE" xml:space="preserve">
+    <value>冰蓝</value>
+    <comment>Ice blue color #D8E3EC</comment>
+  </data>
+  <data name="TEXT_COLOR_PERIWINKLE" xml:space="preserve">
+    <value>粉蓝</value>
+    <comment>Periwinkle color #B1B0D1</comment>
+  </data>
+  <data name="TEXT_COLOR_LAVENDER" xml:space="preserve">
+    <value>淡紫</value>
+    <comment>Lavender color #9933FF</comment>
+  </data>
+  <data name="TEXT_COLOR_PINK" xml:space="preserve">
+    <value>粉红</value>
+    <comment>Pink color #FF66CC</comment>
+  </data>
+  <data name="TEXT_COLOR_RED" xml:space="preserve">
+    <value>红色</value>
+    <comment>Red color #FF0000</comment>
+  </data>
+  <data name="TEXT_COLOR_ORANGE" xml:space="preserve">
+    <value>橙色</value>
+    <comment>Orange color #ED8C12</comment>
+  </data>
+  <data name="TEXT_COLOR_BROWN" xml:space="preserve">
+    <value>棕色</value>
+    <comment>Brown color #AF804F</comment>
+  </data>
+  <data name="TEXT_COLOR_GOLD" xml:space="preserve">
+    <value>金色</value>
+    <comment>Gold color #CC9900</comment>
+  </data>
+  <data name="TEXT_COLOR_YELLOW" xml:space="preserve">
+    <value>黄色</value>
+    <comment>Yellow color #FFFF00</comment>
+  </data>
+  <data name="TEXT_COLOR_OLIVEGREEN" xml:space="preserve">
+    <value>橄榄绿</value>
+    <comment>Olive green color #7C8260</comment>
+  </data>
+  <data name="TEXT_COLOR_GREEN" xml:space="preserve">
+    <value>绿色</value>
+    <comment>Green color #33CC33</comment>
+  </data>
+  <data name="TEXT_COLOR_BRIGHTGREEN" xml:space="preserve">
+    <value>翠绿</value>
+    <comment>Bright green color #3CDBC0</comment>
+  </data>
+  <data name="TEXT_COLOR_TEAL" xml:space="preserve">
+    <value>青色</value>
+    <comment>Teal color #00FFCC</comment>
+  </data>
+  <data name="TEXT_COLOR_TURQUOISE" xml:space="preserve">
+    <value>青绿</value>
+    <comment>Turquoise color #33CCFF</comment>
+  </data>
+  <data name="TEXT_COLOR_BLUE" xml:space="preserve">
+    <value>蓝色</value>
+    <comment>Blue color #0000FF</comment>
+  </data>
+  <data name="TEXT_COLOR_BLUEGRAY" xml:space="preserve">
+    <value>蓝灰</value>
+    <comment>Blue gray color #597BA6</comment>
+  </data>
+  <data name="TEXT_COLOR_INDIGO" xml:space="preserve">
+    <value>靛蓝</value>
+    <comment>Indigo color #333399</comment>
+  </data>
+  <data name="TEXT_COLOR_PURPLE" xml:space="preserve">
+    <value>紫色</value>
+    <comment>Purple color #CC00CC</comment>
+  </data>
+  <data name="TEXT_COLOR_DARKRED" xml:space="preserve">
+    <value>深红</value>
+    <comment>Dark red color #A50021</comment>
+  </data>
+  <data name="TEXT_COLOR_DARKYELLOW" xml:space="preserve">
+    <value>深黄</value>
+    <comment>Dark yellow color #808000</comment>
+  </data>
+  <data name="TEXT_COLOR_DARKGREEN" xml:space="preserve">
+    <value>深绿</value>
+    <comment>Dark green color #006600</comment>
+  </data>
+  <data name="TEXT_COLOR_DARKTEAL" xml:space="preserve">
+    <value>深青</value>
+    <comment>Dark teal color #006666</comment>
+  </data>
+  <data name="TEXT_COLOR_DARKBLUE" xml:space="preserve">
+    <value>深蓝</value>
+    <comment>Dark blue color #000066</comment>
+  </data>
+  <data name="TEXT_COLOR_DARKPURPLE" xml:space="preserve">
+    <value>深紫</value>
+    <comment>Dark purple color #660066</comment>
+  </data>
+  <data name="TEXT_COLOR_PLUM" xml:space="preserve">
+    <value>梅红</value>
+    <comment>Plum color #660033</comment>
+  </data>
 </root>
