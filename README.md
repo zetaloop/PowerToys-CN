@@ -18,7 +18,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 下载汉化包（Github）：[https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest](https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest)
 
-备用下载安装包和汉化（蓝奏云）：[https://zeta.lanzoue.com/b01kbt3lg](https://zeta.lanzoue.com/b01kbt3lg) 密码：zeta
+备用下载安装包和汉化（蓝奏云）：###（链接放错了，稍等几天回家后改） 密码：zeta
 
 ## Usage 使用方法
 
