@@ -15,7 +15,7 @@
         IsTabStop="False"
         ModuleImageSource="ms-appx:///Assets/Modules/PowerAccent.png">
         <controls:SettingsPageControl.ModuleContent>
-            <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Vertical" ChildrenTransitions="{StaticResource SettingsCardsAnimations}">
                 <labs:SettingsCard
                     x:Uid="QuickAccent_EnableQuickAccent"
                     HeaderIcon="{ui:BitmapIcon Source=/Assets/FluentIcons/FluentIconsPowerAccent.png}"
@@ -63,18 +63,21 @@
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_All" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Currency" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Pinyin" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Gaeilge" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Estonian" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Icelandic" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Polish" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_German" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_French" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Dutch" />
-                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Czech" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Catalan"/>
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Czech" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Croatian" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Kurdish" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Romanian" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Maori" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Macedonian" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Norwegian" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Portuguese" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Swedish" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Serbian" />
@@ -82,10 +85,10 @@
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Gaidhlig" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Turkish" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Welsh" />
-                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Hungarian" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Spanish" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Hebrew" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Hungarian" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Italian" />
-                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Gaeilge" />
                         </ComboBox>
                     </labs:SettingsCard>
                 </controls:SettingsGroup>

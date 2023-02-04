@@ -493,6 +493,12 @@
   <data name="PowerLauncher_ClearInputOnLaunch.Content" xml:space="preserve">
     <value>启动时清空上次搜索</value>
   </data>
+  <data name="PowerLauncher_TabSelectsContextButtons.Header" xml:space="preserve">
+    <value>按 Tab 键选中操作</value>
+  </data>
+  <data name="PowerLauncher_TabSelectsContextButtons.Description" xml:space="preserve">
+    <value>按 Tab 键可选中当前结果项的各个操作按钮，直到跳转下一项</value>
+  </data>
   <data name="PowerLauncher_SearchQueryResultsWithDelay.Header" xml:space="preserve">
     <value>输入缓冲</value>
     <comment>This is about adding a delay to wait for more input before executing a search</comment>
@@ -889,7 +895,7 @@
     <value>删除</value>
     <comment>Removes a user defined setting group for Image Resizer</comment>
   </data>
-	<data name="RemoveItem.Text" xml:space="preserve">
+  <data name="RemoveItem.Text" xml:space="preserve">
     <value>删除</value>
   </data>
   <data name="ImageResizer_Image.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
@@ -1824,6 +1830,9 @@
   <data name="Awake_EnableDisplayKeepAwake.Header" xml:space="preserve">
     <value>保持屏幕常亮</value>
   </data>
+  <data name="Awake_EnableDisplayKeepAwake.Description" xml:space="preserve">
+    <value>唤醒时保持显示屏不熄屏</value>
+  </data>
   <data name="Awake_Mode.Header" xml:space="preserve">
     <value>模式</value>
   </data>
@@ -2694,7 +2703,7 @@
   <data name="QuickAccent_StartSelectionFromTheLeft_Indicator.Header" xml:space="preserve">
     <value>从左端开始选择</value>
   </data>
-	<data name="QuickAccent_StartSelectionFromTheLeft_Indicator.Description" xml:space="preserve">
+  <data name="QuickAccent_StartSelectionFromTheLeft_Indicator.Description" xml:space="preserve">
     <value>使用方向键的默认从中间开始选择，改为从左边第一项开始选择</value>
   </data>
   <data name="QuickAccent_DisableFullscreen.Header" xml:space="preserve">
@@ -2735,8 +2744,14 @@
   <data name="QuickAccent_SelectedLanguage_German.Content" xml:space="preserve">
     <value>德语</value>
   </data>
+  <data name="QuickAccent_SelectedLanguage_Hebrew.Content" xml:space="preserve">
+    <value>希伯来语</value>
+  </data>
   <data name="QuickAccent_SelectedLanguage_French.Content" xml:space="preserve">
     <value>法语</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Estonian.Content" xml:space="preserve">
+    <value>爱沙尼亚语</value>
   </data>
   <data name="QuickAccent_SelectedLanguage_Macedonian.Content" xml:space="preserve">
     <value>马其顿语</value>
@@ -2746,6 +2761,9 @@
   </data>
   <data name="QuickAccent_SelectedLanguage_Dutch.Content" xml:space="preserve">
     <value>荷兰语</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Norwegian.Content" xml:space="preserve">
+    <value>挪威语</value>
   </data>
   <data name="QuickAccent_SelectedLanguage_Pinyin.Content" xml:space="preserve">
     <value>汉语拼音</value>
@@ -2879,5 +2897,48 @@
   </data>
   <data name="TextExtractor_Languages.Header" xml:space="preserve">
     <value>首选语言</value>
+  </data>
+  <data name="AllAppsTxt.Text" xml:space="preserve">
+    <value>所有应用</value>
+  </data>
+  <data name="BackBtn.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="BackLabel.Text" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="BugReportBtn.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>反馈问题</value>
+  </data>
+  <data name="BugReportTooltip.Text" xml:space="preserve">
+    <value>反馈问题</value>
+  </data>
+  <data name="DocsBtn.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>文档</value>
+  </data>
+  <data name="DocsTooltip.Text" xml:space="preserve">
+    <value>文档</value>
+  </data>
+  <data name="FZEditorString" xml:space="preserve">
+    <value>布局编辑器</value>
+    <comment>Do not localize this string</comment>
+  </data>
+  <data name="MoreBtn.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>更多</value>
+  </data>
+  <data name="MoreLabel.Text" xml:space="preserve">
+    <value>更多</value>
+  </data>
+  <data name="SettingsBtn.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="SettingsTooltip.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="ShortcutsTxt.Text" xml:space="preserve">
+    <value>快捷键</value>
+  </data>
+  <data name="UpdateAvailable.Title" xml:space="preserve">
+    <value>有可用更新</value>
   </data>
 </root>

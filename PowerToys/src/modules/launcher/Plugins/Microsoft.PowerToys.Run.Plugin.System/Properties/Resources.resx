@@ -155,14 +155,6 @@
   <data name="Microsoft_plugin_sys_Dns" xml:space="preserve">
     <value>DNS 服务器</value>
   </data>
-  <data name="Microsoft_plugin_sys_emptyrecyclebin" xml:space="preserve">
-    <value>Empty Recycle Bin 清空回收站</value>
-    <comment>This should align to the action in Windows of emptying the recycle bin on your computer.</comment>
-  </data>
-  <data name="Microsoft_plugin_sys_emptyrecyclebin_description" xml:space="preserve">
-    <value>删除回收站中的所有内容</value>
-    <comment>This should align to the action in Windows of emptying the recycle bin on your computer.</comment>
-  </data>
   <data name="Microsoft_plugin_sys_Gateways" xml:space="preserve">
     <value>默认网关</value>
   </data>
@@ -247,6 +239,41 @@
   <data name="Microsoft_plugin_sys_plugin_name" xml:space="preserve">
     <value>系统命令</value>
     <comment>Windows operating system commands.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_RecycleBin" xml:space="preserve">
+    <value>Recycle Bin 回收站</value>
+    <comment>Means the recycle bin folder in Explorer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_RecycleBin_contextMenu" xml:space="preserve">
+    <value>清空回收站 (Shift+Delete)</value>
+    <comment>This should align to the action in Windows of emptying the recycle bin on your computer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_RecycleBin_description" xml:space="preserve">
+    <value>打开回收站</value>
+    <comment>This should align to the action in Windows of emptying the recycle bin on your computer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_RecycleBin_EmptySuccessMessage" xml:space="preserve">
+    <value>回收站已清空。</value>
+    <comment>Means the recycle bin folder in Explorer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_RecycleBin_EmptyTaskRunning" xml:space="preserve">
+    <value>正在清空回收站。</value>
+    <comment>Means the recycle bin folder in Explorer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_RecycleBin_ErrorMsg" xml:space="preserve">
+    <value>回收站清空失败:</value>
+  </data>
+  <data name="Microsoft_plugin_sys_RecycleBin_IsEmpty" xml:space="preserve">
+    <value>回收站已空。</value>
+    <comment>Means the recycle bin folder in Explorer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_RecycleBin_searchTag" xml:space="preserve">
+    <value>Empty Recycle Bin 清空回收站</value>
+    <comment>This should align to the action in Windows of emptying the recycle bin on your computer.</comment>
+  </data>
+  <data name="Microsoft_plugin_sys_RecycleBin_ShowEmptySuccessMessage" xml:space="preserve">
+    <value>清空回收站后提示成功</value>
+    <comment>Means the recycle bin folder in Explorer and "emptying" refers to "Empty Recycle Bin" command.</comment>
   </data>
   <data name="Microsoft_plugin_sys_restart_computer" xml:space="preserve">
     <value>Restart 重启</value>
