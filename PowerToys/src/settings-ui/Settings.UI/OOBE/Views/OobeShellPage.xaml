@@ -25,7 +25,7 @@
             SelectionChanged="NavigationView_SelectionChanged">
             <NavigationView.MenuItems>
                 <NavigationViewItem
-                    Content="概述"
+                    x:Uid="简介"
                     Icon="{ui:BitmapIcon Source=/Assets/FluentIcons/FluentIconsPowerToys.png}"
                     Tag="Overview" />
                 <NavigationViewItem
@@ -68,6 +68,10 @@
                     x:Uid="Shell_MouseUtilities"
                     Icon="{ui:BitmapIcon Source=/Assets/FluentIcons/FluentIconsMouseUtils.png}"
                     Tag="MouseUtils" />
+                <NavigationViewItem
+                    x:Uid="Shell_PastePlain"
+                    Icon="{ui:BitmapIcon Source=/Assets/FluentIcons/FluentIconsPastePlain.png}"
+                    Tag="PastePlain" />
                 <NavigationViewItem
                     x:Uid="Shell_PowerRename"
                     Icon="{ui:BitmapIcon Source=/Assets/FluentIcons/FluentIconsPowerRename.png}"

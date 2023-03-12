@@ -37,6 +37,7 @@ namespace Microsoft.PowerToys.Settings.UI.ViewModels
             "CZ",
             "HR",
             "KU",
+            "LT",
             "RO",
             "MI",
             "MK",

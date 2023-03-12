@@ -140,4 +140,7 @@
     <value>组策略已禁止该功能。请联系你的电脑管理员。</value>
     <comment>GPO stands for the Windows Group Policy Object feature.</comment>
   </data>
+  <data name="Access_Denied_Exception_Message" xml:space="preserve">
+    <value>拒绝访问: 您当前无权打开该文件。请联系文件所有者或电脑管理员以获得许可。</value>
+  </data>
 </root>

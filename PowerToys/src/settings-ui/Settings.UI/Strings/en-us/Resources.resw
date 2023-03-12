@@ -499,6 +499,12 @@
   <data name="PowerLauncher_TabSelectsContextButtons.Description" xml:space="preserve">
     <value>按 Tab 键可选中当前结果项的各个操作按钮，直到跳转下一项</value>
   </data>
+  <data name="PowerLauncher_GenerateThumbnailsFromFiles.Header" xml:space="preserve">
+    <value>显示文件缩略图</value>
+  </data>
+  <data name="PowerLauncher_GenerateThumbnailsFromFiles.Description" xml:space="preserve">
+    <value>关闭可以提高速度和稳定性</value>
+  </data>
   <data name="PowerLauncher_SearchQueryResultsWithDelay.Header" xml:space="preserve">
     <value>输入缓冲</value>
     <comment>This is about adding a delay to wait for more input before executing a search</comment>
@@ -1978,6 +1984,10 @@
     <value>详细了解鼠标小工具</value>
     <comment>Mouse utilities is a product name, do not loc</comment>
   </data>
+  <data name="LearnMore_PastePlain.Text" xml:space="preserve">
+    <value>详细了解纯文本粘贴</value>
+    <comment> Paste as Plain Text is the name of the module. </comment>
+  </data>
   <data name="LearnMore_PowerPreview.Text" xml:space="preserve">
     <value>详细了解预览增强组件</value>
     <comment>File Explorer is a product name, localize as Windows does</comment>
@@ -2032,6 +2042,14 @@
   </data>
   <data name="Oobe_MouseUtils_MousePointerCrosshairs_Description.Text" xml:space="preserve">
     <value>以鼠标光标为中心显示十字准线，显示鼠标位置。</value>
+    <comment>Mouse as in the hardware peripheral.</comment>
+  </data>
+  <data name="Oobe_MouseUtils_MouseJump.Text" xml:space="preserve">
+    <value>鼠标瞬移术</value>
+    <comment>Mouse as in the hardware peripheral.</comment>
+  </data>
+  <data name="Oobe_MouseUtils_MouseJump_Description.Text" xml:space="preserve">
+    <value>方便地远距离移动鼠标光标。</value>
     <comment>Mouse as in the hardware peripheral.</comment>
   </data>
   <data name="Launch_Run.Content" xml:space="preserve">
@@ -2735,7 +2753,7 @@
   </data>
   <data name="QuickAccent_SelectedLanguage_Gaeilge.Content" xml:space="preserve">
     <value>爱尔兰盖尔语</value>
-    <comment>Irish Gaelic</comment>
+    <comment>Gaelic language spoken in Ireland</comment>
   </data>
   <data name="QuickAccent_SelectedLanguage_Gaidhlig.Content" xml:space="preserve">
     <value>苏格兰盖尔语</value>
@@ -2752,6 +2770,9 @@
   </data>
   <data name="QuickAccent_SelectedLanguage_Estonian.Content" xml:space="preserve">
     <value>爱沙尼亚语</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Lithuanian.Content" xml:space="preserve">
+    <value>立陶宛语</value>
   </data>
   <data name="QuickAccent_SelectedLanguage_Macedonian.Content" xml:space="preserve">
     <value>马其顿语</value>
@@ -2837,6 +2858,10 @@
     <value>启动编辑器</value>
     <comment>"Host File Editor" is a product name</comment>
   </data>
+  <data name="Hosts_LaunchButton_Accessible.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>启动编辑器</value>
+    <comment>"Host File Editor" is a product name</comment>
+  </data>
   <data name="Hosts_AdditionalLinesPosition.Header" xml:space="preserve">
     <value>注释段位置</value>
   </data>
@@ -2846,8 +2871,8 @@
   <data name="Hosts_AdditionalLinesPosition_Top.Content" xml:space="preserve">
     <value>文件顶端</value>
   </data>
-  <data name="Hosts_File_GroupSettings.Header" xml:space="preserve">
-    <value>文件</value>
+  <data name="Hosts_Behavior_GroupSettings.Header" xml:space="preserve">
+    <value>行为</value>
   </data>
   <data name="Launch_Hosts.Content" xml:space="preserve">
     <value>启动编辑器</value>
@@ -2898,8 +2923,72 @@
   <data name="TextExtractor_Languages.Header" xml:space="preserve">
     <value>首选语言</value>
   </data>
+  <data name="Alternate_OOBE_AlwaysOnTop_Description.Text" xml:space="preserve">
+    <value>一键置顶窗口</value>
+  </data>
+  <data name="Alternate_OOBE_AlwaysOnTop_Title.Text" xml:space="preserve">
+    <value>窗口置顶</value>
+  </data>
+  <data name="Alternate_OOBE_ColorPicker_Description.Text" xml:space="preserve">
+    <value>抓取屏幕颜色</value>
+  </data>
+  <data name="Alternate_OOBE_ColorPicker_Title.Text" xml:space="preserve">
+    <value>取色器</value>
+  </data>
+  <data name="Alternate_OOBE_Description.Text" xml:space="preserve">
+    <value>欢迎尝试以下功能</value>
+  </data>
+  <data name="Alternate_OOBE_FancyZones_Description.Text" xml:space="preserve">
+    <value>快速排列窗口</value>
+  </data>
+  <data name="Alternate_OOBE_FancyZones_Title.Text" xml:space="preserve">
+    <value>窗口布局</value>
+  </data>
+  <data name="Alternate_OOBE_Run_Description.Text" xml:space="preserve">
+    <value>搜索文件与信息</value>
+  </data>
+  <data name="Alternate_OOBE_Run_Title.Text" xml:space="preserve">
+    <value>快速启动器</value>
+  </data>
+  <data name="General_Experimentation.Header" xml:space="preserve">
+    <value>功能测试</value>
+  </data>
+  <data name="GeneralPage_EnableExperimentation.Description" xml:space="preserve">
+    <value>无需加入测试组，现在打开即可享用新功能</value>
+  </data>
+  <data name="GeneralPage_EnableExperimentation.Header" xml:space="preserve">
+    <value>开启新功能测试</value>
+  </data>
+  <data name="GPO_ExperimentationIsDisallowed.Title" xml:space="preserve">
+    <value>组策略已禁止参与功能测试</value>
+  </data>
+  <data name="Shell_PastePlain.Content" xml:space="preserve">
+    <value>纯文本粘贴</value>
+    <comment>Product name: Navigation view item name for Paste as Plain Text</comment>
+  </data>
+  <data name="PastePlain.ModuleDescription" xml:space="preserve">
+    <value>一键粘贴纯文本，去除复制的文本中的格式。</value>
+  </data>
+  <data name="PastePlain.ModuleTitle" xml:space="preserve">
+    <value>纯文本粘贴</value>
+  </data>
+  <data name="PastePlain_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="PastePlain_EnableToggleControl_HeaderText.Header" xml:space="preserve">
+    <value>启用纯文本粘贴</value>
+  </data>
+  <data name="Oobe_PastePlain.Description" xml:space="preserve">
+    <value>一键把复制的带格式文本转换为纯文本进行粘贴。</value>
+  </data>
+  <data name="Oobe_PastePlain.Title" xml:space="preserve">
+    <value>纯文本粘贴</value>
+  </data>
+  <data name="Oobe_PastePlain_HowToUse.Text" xml:space="preserve">
+    <value>以纯文本粘贴。注意：已经保存在剪贴板中的文字格式会被丢弃。</value>
+  </data>
   <data name="AllAppsTxt.Text" xml:space="preserve">
-    <value>所有应用</value>
+    <value>所有工具</value>
   </data>
   <data name="BackBtn.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>返回</value>
@@ -2908,10 +2997,10 @@
     <value>返回</value>
   </data>
   <data name="BugReportBtn.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>反馈问题</value>
+    <value>反馈</value>
   </data>
   <data name="BugReportTooltip.Text" xml:space="preserve">
-    <value>反馈问题</value>
+    <value>反馈</value>
   </data>
   <data name="DocsBtn.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>文档</value>
@@ -2936,9 +3025,45 @@
     <value>设置</value>
   </data>
   <data name="ShortcutsTxt.Text" xml:space="preserve">
-    <value>快捷键</value>
+    <value>快捷面板</value>
   </data>
   <data name="UpdateAvailable.Title" xml:space="preserve">
     <value>有可用更新</value>
+  </data>
+  <data name="FileExplorerPreview_Toggle_Monaco_Max_File_Size.Header" xml:space="preserve">
+    <value>允许文件大小</value>
+    <comment>Size refers to the disk space used by a file</comment>
+  </data>
+  <data name="FileExplorerPreview_Toggle_Monaco_Max_File_Size.Description" xml:space="preserve">
+    <value>限制预览文件的最大允许大小（KB），防止占用过多内存</value>
+    <comment>"RAM" refers to random access memory; "size" refers to disk space; "bytes" refer to the measurement unit</comment>
+  </data>
+  <data name="MouseUtils_MouseJump.Description" xml:space="preserve">
+    <value>方便地远距离移动鼠标光标。</value>
+    <comment>"Mouse Jump" is the name of the utility. Mouse is the hardware mouse.</comment>
+  </data>
+  <data name="MouseUtils_MouseJump.Header" xml:space="preserve">
+    <value>鼠标瞬移术</value>
+    <comment>Refers to the utility name</comment>
+  </data>
+  <data name="MouseUtils_MouseJump_ActivationShortcut.Description" xml:space="preserve">
+    <value>自定义打开瞬移术的快捷键</value>
+  </data>
+  <data name="MouseUtils_MouseJump_ActivationShortcut.Header" xml:space="preserve">
+    <value>启动快捷键</value>
+  </data>
+  <data name="MouseUtils_Enable_MouseJump.Header" xml:space="preserve">
+    <value>启用鼠标瞬移术</value>
+    <comment>"Mouse Jump" is the name of the utility.</comment>
+  </data>
+  <data name="GPO_AutoDownloadUpdatesIsDisabled.Title" xml:space="preserve">
+    <value>组策略已禁止自动下载更新</value>
+  </data>
+  <data name="Hosts_Toggle_LoopbackDuplicates.Description" xml:space="preserve">
+    <value>127.0.0.1、::1 等</value>
+    <comment>"127.0.0.1 and ::1" are well known loopback addresses, do not loc</comment>
+  </data>
+  <data name="Hosts_Toggle_LoopbackDuplicates.Header" xml:space="preserve">
+    <value>将本地回环地址视作重复</value>
   </data>
 </root>

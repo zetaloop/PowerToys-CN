@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) Microsoft Corporation.
+     Licensed under the MIT License. -->
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.1" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
+  <displayName>PowerToys</displayName>
+  <description>PowerToys</description>
+  <resources>
+    <stringTable>
+      <string id="PowerToys">Microsoft PowerToys</string>
+	  <string id="InstallerUpdates">安装与更新</string>
+
+      <string id="SUPPORTED_POWERTOYS_0_64_0">PowerToys 版本 0.64.0 或更新</string>
+      <string id="SUPPORTED_POWERTOYS_0_68_0">PowerToys 版本 0.68.0 或更新</string>
+
+      <string id="ConfigureEnabledUtilityDescription">此策略控制 PowerToys 功能的启用状态。
+
+如果策略设置为“已启用”，该功能将始终启用，用户不可以禁用这个功能。
+
+如果策略设置为“已禁用”，该功能将始终禁用，用户不可以启用这个功能。
+
+如果策略设置为“未配置”，用户可以自由地启用和禁用这个功能。
+</string>
+      <string id="ConfigureEnabledUtilityDescriptionPDFPreviewHandler">（注意：有用户反馈 PDF 预览与 Outlook 不兼容）
+
+此策略控制 PowerToys 功能的启用状态。
+
+如果策略设置为“已启用”，该功能将始终启用，用户不可以禁用这个功能。
+
+如果策略设置为“已禁用”，该功能将始终禁用，用户不可以启用这个功能。
+
+如果策略设置为“未配置”，用户可以自由地启用和禁用这个功能。
+</string>
+      <string id="DisableAutomaticUpdateDownloadDescription">此策略控制是否禁用自动下载更新。（不过，在按流量计费的网络上，永远不会自动下载更新。）
+
+如果策略设置为“已启用”，禁用自动下载更新。
+
+如果策略设置为“已禁用”或“未配置”，用户可以控制是否自动下载更新。
+</string>
+      <string id="SuspendNewUpdateToastDescription">此策略控制是否在两次小版本更新内，不显示更新通知。（示例：如果安装的版本为 v0.60.0，则下一次显示更新提示将会是版本 v0.63.*）
+
+如果策略设置为“已启用”，减少更新通知。
+
+如果策略设置为“已禁用”或“未配置”，正常显示所有更新通知。
+
+注意：大版本更新通知始终会显示。
+</string>
+      <string id="DisablePeriodicUpdateCheckDescription">此策略可以禁用后台自动检查更新。（PowerToys 设置中的手动检查更新按钮不受此策略控制）
+
+如果策略设置为“已启用”，禁止自动检查更新。
+
+如果策略设置为“已禁用”或“未配置”，启用自动检查更新。
+</string>
+      <string id="AllowExperimentationDescription">此策略控制是否允许进行 PowerToys 功能测试。如果允许测试，当用户被选中为测试组时，可以用到实验性的新功能。（功能测试只会在 Windows Insider 版本上进行。）
+
+如果策略设置为“已启用”，用户可以在 PowerToys 设置里选择是否参与功能测试。
+
+如果策略设置为“已禁用”或“未配置”，不允许参与功能测试。
+</string>
+      <string id="ConfigureEnabledUtilityAlwaysOnTop">窗口置顶: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityAwake">唤醒工具: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityColorPicker">取色器: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityFancyZones">窗口布局: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityFileLocksmith">文件师傅: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityFileExplorerSVGPreview">预览增强 - SVG 文件预览: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityFileExplorerMarkdownPreview">预览增强 - Markdown 文件预览: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityFileExplorerMonacoPreview">预览增强 - 代码文件预览: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityFileExplorerPDFPreview">预览增强 - PDF 文件预览: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityFileExplorerGcodePreview">预览增强 - Gcode 文件预览: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityFileExplorerSVGThumbnails">预览增强 - SVG 文件缩略图: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityFileExplorerPDFThumbnails">预览增强 - PDF 文件缩略图: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityFileExplorerGcodeThumbnails">预览增强 - Gcode 文件缩略图: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityFileExplorerSTLThumbnails">预览增强 - STL 文件缩略图: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityHostsFileEditor">域名编辑器: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityImageResizer">图像裁剪器: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityKeyboardManager">键盘修改器: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityFindMyMouse">鼠标聚光灯: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityMouseHighlighter">鼠标荧光笔: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityMouseJump">鼠标瞬移术: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityMousePointerCrosshairs">鼠标十字线: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityPastePlain">纯文本粘贴: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityPowerRename">批量重命名: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityPowerLauncher">快速启动其: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityQuickAccent">字母助手: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityScreenRuler">屏幕标尺: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityShortcutGuide">快捷键指南: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityTextExtractor">文本提取器: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityVideoConferenceMute">录制工具: 启用该功能</string>
+	  <string id="DisableAutomaticUpdateDownload">禁用自动下载更新</string>
+	  <string id="SuspendNewUpdateToast">减少新版本更新推送</string>
+	  <string id="DisablePeriodicUpdateCheck">禁用自动检查更新</string>
+      <string id="AllowExperimentation">允许功能测试</string>
+    </stringTable>
+  </resources>
+</policyDefinitionResources>
+
