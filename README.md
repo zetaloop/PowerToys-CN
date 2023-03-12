@@ -10,7 +10,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 反馈问题：Issue 或 zetaspace@outlook.com
 
-版本：v0.67.1
+版本：v0.68.1
 
 现已支持 x64 & ARM64（ARM64 自行编译）
 
@@ -18,7 +18,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 下载汉化包（Github）：[https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest](https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest)
 
-备用下载安装包和汉化（蓝奏云）：[https://zeta.lanzoue.com/b01kgkcaf](https://zeta.lanzoue.com/b01kgkcaf) 密码：zeta
+备用下载安装包和汉化（蓝奏云）：[https://zeta.lanzoue.com/b01kkm1te](https://zeta.lanzoue.com/b01kkm1te) 密码：zeta
 
 ## Usage 使用方法
 
@@ -39,9 +39,9 @@ PowerToys 自制简体中文翻译优化补丁
 <img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/004.png"/>
 <img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/005.png"/>
 
-PowerToys 模块名称：窗口置顶 唤醒工具 取色器 窗口布局 文件师傅 预览增强 域名编辑器 图像裁剪器 键盘修改器 鼠标小工具 批量重命名 快速启动器 字母助手 屏幕标尺 快捷键指南 文本提取器 录制工具
+PowerToys 模块名称：窗口置顶 唤醒工具 取色器 窗口布局 文件师傅 预览增强 域名编辑器 图像裁剪器 键盘修改器 鼠标小工具 纯文本粘贴 批量重命名 快速启动器 字母助手 屏幕标尺 快捷键指南 文本提取器 录制工具
 
-PowerToys 通用设置界面、各模块预设及设置界面
+PowerToys 通用设置界面、快捷面板、各模块预设及设置界面
 
 PowerToys 入门指南
 
@@ -72,6 +72,8 @@ Screen Ruler 操作界面
 Shortcut Guide 操作界面、快捷键图片
 
 Video Conference Mute 按键图片、摄像头设备名称
+
+实验功能已修改，移除测试组限制，打开即用
 
 ## Stargazers 星标趋势
 
