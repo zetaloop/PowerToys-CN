@@ -1,6 +1,6 @@
 # PowerToys Custom Simplified Chinese Translation Patch
 
-<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/PCTMODx9.topic.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/PCTMODx9.topic.png"/>
 
 PowerToys 自制简体中文翻译优化补丁
 
@@ -8,7 +8,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 **汇报 bug 请用官方版本重现**。
 
-反馈问题：Issue 或 zetaspace@outlook.com
+反馈问题：Issue 或 zetaloop@outlook.com
 
 版本：v0.68.1（由于学业繁忙以及最近正在重构汉化流程，0.69.1更新预计将在五一假期放出）（GitHub Desktop 居然可以稳定导致 win11 崩溃诶，太神奇了）
 
@@ -16,7 +16,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 下载官方安装包：[https://github.com/microsoft/PowerToys](https://github.com/microsoft/PowerToys)
 
-下载汉化包（Github）：[https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest](https://github.com/ZetaSp/PowerToys-Chinese-TransMOD/releases/latest)
+下载汉化包（Github）：[https://github.com/zetaloop/PowerToys-Chinese-TransMOD/releases/latest](https://github.com/zetaloop/PowerToys-Chinese-TransMOD/releases/latest)
 
 备用下载安装包和汉化（蓝奏云）：[https://zeta.lanzoue.com/b01kkm1te](https://zeta.lanzoue.com/b01kkm1te) 密码：zeta
 
@@ -32,12 +32,12 @@ PowerToys 自制简体中文翻译优化补丁
 
 ## Patchs 优化清单
 
-<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/000.png"/>
-<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/001.png"/>
-<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/002.png"/>
-<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/003.png"/>
-<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/004.png"/>
-<img src="https://cdn.staticaly.com/gh/ZetaSp/PowerToys-Chinese-TransMOD/master/to.pic/005.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/000.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/001.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/002.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/003.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/004.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/005.png"/>
 
 PowerToys 模块名称：窗口置顶 唤醒工具 取色器 窗口布局 文件师傅 预览增强 域名编辑器 图像裁剪器 键盘修改器 鼠标小工具 纯文本粘贴 批量重命名 快速启动器 字母助手 屏幕标尺 快捷键指南 文本提取器 录制工具
 
@@ -77,4 +77,4 @@ Video Conference Mute 按键图片、摄像头设备名称
 
 ## Stargazers 星标趋势
 
-[![Stargazers over time](https://starchart.cc/ZetaSp/PowerToys-Chinese-TransMOD.svg)](https://starchart.cc/ZetaSp/PowerToys-Chinese-TransMOD)
+[![Stargazers over time](https://starchart.cc/zetaloop/PowerToys-Chinese-TransMOD.svg)](https://starchart.cc/zetaloop/PowerToys-Chinese-TransMOD)
