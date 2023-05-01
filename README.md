@@ -10,7 +10,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 反馈问题：Issue 或 zetaloop@outlook.com
 
-版本：v0.68.1（由于学业繁忙以及最近正在重构汉化流程，0.69.1更新预计将在五一假期放出）（GitHub Desktop 居然可以稳定导致 win11 崩溃诶，太神奇了）
+版本：v0.69.1
 
 现已支持 x64 & ARM64（ARM64 自行编译）
 
@@ -18,7 +18,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 下载汉化包（Github）：[https://github.com/zetaloop/PowerToys-Chinese-TransMOD/releases/latest](https://github.com/zetaloop/PowerToys-Chinese-TransMOD/releases/latest)
 
-备用下载安装包和汉化（蓝奏云）：[https://zeta.lanzoue.com/b01kkm1te](https://zeta.lanzoue.com/b01kkm1te) 密码：zeta
+备用下载安装包和汉化（蓝奏云）：[https://zeta.lanzoum.com/b01krgu4j](https://zeta.lanzoum.com/b01krgu4j) 密码：zeta
 
 ## Usage 使用方法
 
@@ -39,7 +39,7 @@ PowerToys 自制简体中文翻译优化补丁
 <img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/004.png"/>
 <img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/005.png"/>
 
-PowerToys 模块名称：窗口置顶 唤醒工具 取色器 窗口布局 文件师傅 预览增强 域名编辑器 图像裁剪器 键盘修改器 鼠标小工具 纯文本粘贴 批量重命名 快速启动器 字母助手 屏幕标尺 快捷键指南 文本提取器 录制工具
+PowerToys 模块名称：窗口置顶 唤醒工具 取色器 窗口布局 文件师傅 预览增强 域名表编辑器 图像裁剪器 键盘修改器 鼠标小工具 纯文本粘贴 批量重命名 快速启动器 字母助手 注册表预览 屏幕标尺 快捷键指南 文本提取器 录制工具
 
 PowerToys 通用设置界面、快捷面板、各模块预设及设置界面
 
@@ -66,6 +66,8 @@ Keyboard Manager 操作界面
 PowerRename 操作界面、右键菜单
 
 PowerToys Run 操作界面、一大堆插件（除时区插件）
+
+Registry Preview 操作界面
 
 Screen Ruler 操作界面
 
