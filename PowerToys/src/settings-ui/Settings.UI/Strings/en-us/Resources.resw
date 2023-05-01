@@ -207,6 +207,9 @@
   <data name="VideoConference_MicrophoneMuteHotkeyControl_Header.Header" xml:space="preserve">
     <value>静音麦克风</value>
   </data>
+  <data name="VideoConference_MicrophonePushToTalkHotkeyControl_Header.Header" xml:space="preserve">
+    <value>按住发言</value>
+  </data>
   <data name="VideoConference_CameraMuteHotkeyControl_Header.Header" xml:space="preserve">
     <value>关闭摄像头</value>
   </data>
@@ -215,6 +218,12 @@
   </data>
   <data name="VideoConference_SelectedMicrophone.Header" xml:space="preserve">
     <value>指定麦克风</value>
+  </data>
+  <data name="VideoConference_PushToReverse.Header" xml:space="preserve">
+    <value>按住发言改为按住切换</value>
+  </data>
+  <data name="VideoConference_PushToReverse.Description" xml:space="preserve">
+    <value>开启后，按住打开麦克风改为按住变为相反状态</value>
   </data>
   <data name="VideoConference_CameraOverlayImagePathHeader.Header" xml:space="preserve">
     <value>摄像头遮挡图像</value>
@@ -488,7 +497,7 @@
     <value>使用独立的快捷键侦听器</value>
   </data>
   <data name="PowerLauncher_UseCentralizedKeyboardHook.Description" xml:space="preserve">
-    <value>全局快捷键失效的备用方案</value>
+    <value>全局快捷键失效的备用方案（从管理员权限窗口唤起时启动器可能得不到焦点）</value>
   </data>
   <data name="PowerLauncher_ClearInputOnLaunch.Content" xml:space="preserve">
     <value>启动时清空上次搜索</value>
@@ -1724,6 +1733,9 @@
   <data name="Oobe_VideoConference_ToggleMic.Text" xml:space="preserve">
     <value>切换麦克风开关</value>
   </data>
+  <data name="Oobe_VideoConference_PushToTalkMic.Text" xml:space="preserve">
+    <value>按住打开麦克风，松开关闭</value>
+  </data>
   <data name="Oobe_VideoConference_ToggleVid.Text" xml:space="preserve">
     <value>切换摄像头开关</value>
   </data>
@@ -1818,45 +1830,57 @@
     <value>唤醒工具</value>
   </data>
   <data name="Awake.ModuleDescription" xml:space="preserve">
-    <value>轻松地保持电脑唤醒。</value>
+    <value>轻松地保持电脑活动状态。</value>
   </data>
-  <data name="Awake_EnableAwake.Header" xml:space="preserve">
+  <data name="Awake_EnableSettingsCard.Header" xml:space="preserve">
     <value>启用唤醒工具</value>
     <comment>Awake is a product name, do not loc</comment>
   </data>
-  <data name="Awake_NoKeepAwake.Content" xml:space="preserve">
+  <data name="Awake_NoKeepAwakeSelector.Content" xml:space="preserve">
     <value>关闭</value>
   </data>
-  <data name="Awake_IndefiniteKeepAwake.Content" xml:space="preserve">
-    <value>持续唤醒</value>
+  <data name="Awake_IndefiniteKeepAwakeSelector.Content" xml:space="preserve">
+    <value>保持活动</value>
   </data>
-  <data name="Awake_TemporaryKeepAwake.Content" xml:space="preserve">
-    <value>定时唤醒</value>
+  <data name="Awake_TemporaryKeepAwakeSelector.Content" xml:space="preserve">
+    <value>设定持续时长</value>
   </data>
-  <data name="Awake_EnableDisplayKeepAwake.Header" xml:space="preserve">
+  <data name="Awake_ExpirableKeepAwakeSelector.Content" xml:space="preserve">
+    <value>设定结束时间</value>
+  </data>
+  <data name="Awake_DisplaySettingsCard.Header" xml:space="preserve">
     <value>保持屏幕常亮</value>
   </data>
-  <data name="Awake_EnableDisplayKeepAwake.Description" xml:space="preserve">
-    <value>唤醒时保持显示屏不熄屏</value>
+  <data name="Awake_DisplaySettingsCard.Description" xml:space="preserve">
+    <value>需要打开唤醒功能</value>
   </data>
-  <data name="Awake_Mode.Header" xml:space="preserve">
+  <data name="Awake_ExpirationSettingsExpander.Description" xml:space="preserve">
+    <value>保持活动状态，直到所设定的结束时间</value>
+  </data>
+  <data name="Awake_ModeSettingsCard.Header" xml:space="preserve">
     <value>模式</value>
   </data>
-  <data name="Awake_Behavior_GroupSettings.Header" xml:space="preserve">
+  <data name="Awake_BehaviorSettingsGroup.Header" xml:space="preserve">
     <value>功能</value>
   </data>
-  <data name="Awake_TemporaryKeepAwake_Hours.Header" xml:space="preserve">
+  <data name="Awake_IntervalHoursInput.Header" xml:space="preserve">
     <value>小时</value>
   </data>
-  <data name="Awake_TemporaryKeepAwake_Minutes.Header" xml:space="preserve">
+  <data name="Awake_IntervalMinutesInput.Header" xml:space="preserve">
     <value>分钟</value>
+  </data>
+  <data name="Awake_ExpirationSettingsExpander_Date.Header" xml:space="preserve">
+    <value>结束日期</value>
+  </data>
+  <data name="Awake_ExpirationSettingsExpander_Time.Header" xml:space="preserve">
+    <value>结束时间</value>
   </data>
   <data name="Oobe_Awake.Title" xml:space="preserve">
     <value>唤醒工具</value>
     <comment>Module name, do not loc</comment>
   </data>
   <data name="Oobe_Awake.Description" xml:space="preserve">
-    <value>唤醒工具可以使电脑保持唤醒状态，免去修改电源设置的麻烦。当进行一些特别耗时的任务时，该工具可以确保电脑不会睡眠或锁屏。</value>
+    <value>唤醒工具可以使电脑保持活动状态，免去修改电源设置的麻烦。当进行一些特别耗时的任务时，该工具可以确保电脑不会睡眠或锁屏。</value>
   </data>
   <data name="Oobe_Awake_HowToUse.Text" xml:space="preserve">
     <value>打开 **设置** ，启用唤醒工具。</value>
@@ -1938,7 +1962,7 @@
   <data name="SeeWhatsNew.Content" xml:space="preserve">
     <value>更新日志</value>
   </data>
-  <data name="Awake_Mode.Description" xml:space="preserve">
+  <data name="Awake_ModeSettingsCard.Description" xml:space="preserve">
     <value>设置唤醒模式</value>
   </data>
   <data name="ExcludedApps.Header" xml:space="preserve">
@@ -2115,11 +2139,12 @@
   <data name="Activation_Shortcut_Title" xml:space="preserve">
     <value>启动快捷键</value>
   </data>
-  <data name="InvalidShortcut.Text" xml:space="preserve">
+  <data name="InvalidShortcut.Title" xml:space="preserve">
     <value>快捷键无效</value>
   </data>
   <data name="InvalidShortcutWarningLabel.Text" xml:space="preserve">
     <value>只有以 **Win**、**Ctrl**、**Alt**、**Shift** 开头的快捷键才有效</value>
+    <comment>The ** sequences are used for text formatting of the key names. Don't remove them on translation.</comment>
   </data>
   <data name="FancyZones_SpanZonesAcrossMonitors.Description" xml:space="preserve">
     <value>显示器的缩放比例需相同，且将视作一整个长方形</value>
@@ -2128,8 +2153,11 @@
     <value>新建预设</value>
     <comment>First part of the default name of new sizes that can be added in PT's settings ui.</comment>
   </data>
-  <data name="Awake_TimeBeforeAwake.Header" xml:space="preserve">
-    <value>唤醒持续时间</value>
+  <data name="Awake_IntervalSettingsCard.Header" xml:space="preserve">
+    <value>持续时间</value>
+  </data>
+  <data name="Awake_ExpirationSettingsExpander.Header" xml:space="preserve">
+    <value>结束时间</value>
   </data>
   <data name="MouseUtils.ModuleTitle" xml:space="preserve">
     <value>鼠标小工具</value>
@@ -2833,15 +2861,15 @@
     <comment>"Hosts" refers to the system hosts file, do not loc</comment>
   </data>
   <data name="Hosts.ModuleTitle" xml:space="preserve">
-    <value>域名编辑器</value>
+    <value>域名表编辑器</value>
     <comment>"Hosts" refers to the system hosts file, do not loc</comment>
   </data>
   <data name="Shell_Hosts.Content" xml:space="preserve">
-    <value>域名编辑器</value>
+    <value>域名表编辑器</value>
     <comment>Products name: Navigation view item name for Hosts File Editor</comment>
   </data>
   <data name="Hosts_EnableToggleControl_HeaderText.Header" xml:space="preserve">
-    <value>启用域名编辑器</value>
+    <value>启用域名表编辑器</value>
     <comment>"Hosts File Editor" is the name of the utility</comment>
   </data>
   <data name="Hosts_Toggle_ShowStartupWarning.Header" xml:space="preserve">
@@ -2879,15 +2907,15 @@
     <comment>"Hosts File Editor" is the name of the utility</comment>
   </data>
   <data name="LearnMore_Hosts.Text" xml:space="preserve">
-    <value>详细了解域名编辑器</value>
+    <value>详细了解域名表编辑器</value>
     <comment>"Hosts File Editor" is the name of the utility</comment>
   </data>
   <data name="Oobe_Hosts.Description" xml:space="preserve">
-    <value>便捷的 Hosts 域名文件编辑器，快速修改域名解析设置。</value>
+    <value>便捷的 Hosts 域名表文件（或称主机文件）编辑器，快速修改本机域名解析设置。</value>
     <comment>"Hosts File Editor" is the name of the utility</comment>
   </data>
   <data name="Oobe_Hosts.Title" xml:space="preserve">
-    <value>域名编辑器</value>
+    <value>域名表编辑器</value>
     <comment>"Hosts File Editor" is the name of the utility</comment>
   </data>
   <data name="Hosts_Toggle_LaunchAdministrator.Description" xml:space="preserve">
@@ -3038,6 +3066,41 @@
     <value>限制预览文件的最大允许大小（KB），防止占用过多内存</value>
     <comment>"RAM" refers to random access memory; "size" refers to disk space; "bytes" refer to the measurement unit</comment>
   </data>
+  <data name="RegistryPreview.ModuleDescription" xml:space="preserve">
+    <value>可视化查看、编辑注册表文件。</value>
+  </data>
+  <data name="RegistryPreview.ModuleTitle" xml:space="preserve">
+    <value>注册表预览</value>
+  </data>
+  <data name="Shell_RegistryPreview.Content" xml:space="preserve">
+    <value>注册表预览</value>
+    <comment>Product name: Navigation view item name for Registry Preview</comment>
+  </data>
+  <data name="RegistryPreview_Enable_RegistryPreview.Header" xml:space="preserve">
+    <value>启用注册表预览</value>
+    <comment>Registry Preview is the name of the utility</comment>
+  </data>
+  <data name="Oobe_RegistryPreview_HowToUse.Text" xml:space="preserve">
+    <value>选中一个 .reg 注册表文件，单击 **右键**，选择 **预览**。</value>
+  </data>
+  <data name="Oobe_RegistryPreview_TipsAndTricks.Text" xml:space="preserve">
+    <value>在文件管理器和 PowerToys 界面中都可以打开预览工具。</value>
+  </data>
+  <data name="Oobe_RegistryPreview.Description" xml:space="preserve">
+    <value>一个可视化的注册表文件编辑器。</value>
+  </data>
+  <data name="Oobe_RegistryPreview.Title" xml:space="preserve">
+    <value>注册表预览</value>
+    <comment>Do not localize this string</comment>
+  </data>
+  <data name="LearnMore_RegistryPreview.Text" xml:space="preserve">
+    <value>详细了解注册表预览</value>
+    <comment>Registry Preview is a product name, do not loc</comment>
+  </data>
+  <data name="Launch_RegistryPreview.Content" xml:space="preserve">
+    <value>启动注册表预览工具</value>
+    <comment>"Registry Preview" is the name of the utility</comment>
+  </data>
   <data name="MouseUtils_MouseJump.Description" xml:space="preserve">
     <value>方便地远距离移动鼠标光标。</value>
     <comment>"Mouse Jump" is the name of the utility. Mouse is the hardware mouse.</comment>
@@ -3065,5 +3128,17 @@
   </data>
   <data name="Hosts_Toggle_LoopbackDuplicates.Header" xml:space="preserve">
     <value>将本地回环地址视作重复</value>
+  </data>
+  <data name="RegistryPreview_Launch_GroupSettings.Header" xml:space="preserve">
+    <value>功能</value>
+  </data>
+  <data name="RegistryPreview_LaunchButton_Accessible.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>启动注册表预览工具</value>
+  </data>
+  <data name="RegistryPreview_LaunchButtonControl.Header" xml:space="preserve">
+    <value>启动注册表预览工具</value>
+  </data>
+  <data name="PastePlain_ShortcutWarning.Title" xml:space="preserve">
+    <value>覆盖 Ctrl+V 快捷键可能会导致图片、文件等无法粘贴</value>
   </data>
 </root>

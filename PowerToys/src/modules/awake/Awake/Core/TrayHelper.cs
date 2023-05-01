@@ -20,6 +20,13 @@ using Windows.Win32.UI.WindowsAndMessaging;
 
 namespace Awake.Core
 {
+    /// <summary>
+    /// Helper class used to manage the system tray.
+    /// </summary>
+    /// <remarks>
+    /// Because Awake is a console application, there is no built-in
+    /// way to embed UI components so we have to heavily rely on the native Windows API.
+    /// </remarks>
     internal static class TrayHelper
     {
         private static readonly Logger _log;
@@ -89,7 +96,7 @@ namespace Awake.Core
                 text,
                 settings.Properties.KeepDisplayOn,
                 settings.Properties.Mode,
-                settings.Properties.TrayTimeShortcuts,
+                settings.Properties.CustomTrayTimes,
                 startedFromPowerToys);
         }
 
@@ -116,19 +123,18 @@ namespace Awake.Core
                 trayTimeShortcuts.AddRange(APIHelper.GetDefaultTrayOptions());
             }
 
-            // TODO: Make sure that this loads from JSON instead of being hard-coded.
             var awakeTimeMenu = new DestroyMenuSafeHandle(PInvoke.CreatePopupMenu(), false);
             for (int i = 0; i < trayTimeShortcuts.Count; i++)
             {
                 PInvoke.InsertMenu(awakeTimeMenu, (uint)i, MENU_ITEM_FLAGS.MF_BYPOSITION | MENU_ITEM_FLAGS.MF_STRING, (uint)TrayCommands.TC_TIME + (uint)i, trayTimeShortcuts.ElementAt(i).Key);
             }
 
-            var modeMenu = new DestroyMenuSafeHandle(PInvoke.CreatePopupMenu(), false);
-            PInvoke.InsertMenu(modeMenu, 0, MENU_ITEM_FLAGS.MF_BYPOSITION | MENU_ITEM_FLAGS.MF_STRING | (mode == AwakeMode.PASSIVE ? MENU_ITEM_FLAGS.MF_CHECKED : MENU_ITEM_FLAGS.MF_UNCHECKED), (uint)TrayCommands.TC_MODE_PASSIVE, "关闭");
-            PInvoke.InsertMenu(modeMenu, 1, MENU_ITEM_FLAGS.MF_BYPOSITION | MENU_ITEM_FLAGS.MF_STRING | (mode == AwakeMode.INDEFINITE ? MENU_ITEM_FLAGS.MF_CHECKED : MENU_ITEM_FLAGS.MF_UNCHECKED), (uint)TrayCommands.TC_MODE_INDEFINITE, "持续唤醒");
+            PInvoke.InsertMenu(TrayMenu, 0, MENU_ITEM_FLAGS.MF_BYPOSITION | MENU_ITEM_FLAGS.MF_SEPARATOR, 0, string.Empty);
 
-            PInvoke.InsertMenu(modeMenu, 2, MENU_ITEM_FLAGS.MF_BYPOSITION | MENU_ITEM_FLAGS.MF_POPUP | (mode == AwakeMode.TIMED ? MENU_ITEM_FLAGS.MF_CHECKED : MENU_ITEM_FLAGS.MF_UNCHECKED), (uint)awakeTimeMenu.DangerousGetHandle(), "定时唤醒");
-            PInvoke.InsertMenu(TrayMenu, 0, MENU_ITEM_FLAGS.MF_BYPOSITION | MENU_ITEM_FLAGS.MF_POPUP, (uint)modeMenu.DangerousGetHandle(), "模式");
+            PInvoke.InsertMenu(TrayMenu, 0, MENU_ITEM_FLAGS.MF_BYPOSITION | MENU_ITEM_FLAGS.MF_STRING | (mode == AwakeMode.PASSIVE ? MENU_ITEM_FLAGS.MF_CHECKED : MENU_ITEM_FLAGS.MF_UNCHECKED), (uint)TrayCommands.TC_MODE_PASSIVE, "关闭");
+            PInvoke.InsertMenu(TrayMenu, 0, MENU_ITEM_FLAGS.MF_BYPOSITION | MENU_ITEM_FLAGS.MF_STRING | (mode == AwakeMode.INDEFINITE ? MENU_ITEM_FLAGS.MF_CHECKED : MENU_ITEM_FLAGS.MF_UNCHECKED), (uint)TrayCommands.TC_MODE_INDEFINITE, "保持活动");
+            PInvoke.InsertMenu(TrayMenu, 0, MENU_ITEM_FLAGS.MF_BYPOSITION | MENU_ITEM_FLAGS.MF_POPUP | (mode == AwakeMode.TIMED ? MENU_ITEM_FLAGS.MF_CHECKED : MENU_ITEM_FLAGS.MF_UNCHECKED), (uint)awakeTimeMenu.DangerousGetHandle(), "持续时长");
+            PInvoke.InsertMenu(TrayMenu, 0, MENU_ITEM_FLAGS.MF_BYPOSITION | MENU_ITEM_FLAGS.MF_STRING | MENU_ITEM_FLAGS.MF_DISABLED | (mode == AwakeMode.EXPIRABLE ? MENU_ITEM_FLAGS.MF_CHECKED : MENU_ITEM_FLAGS.MF_UNCHECKED), (uint)TrayCommands.TC_MODE_EXPIRABLE, "结束时间");
 
             TrayIcon.Text = text;
         }
