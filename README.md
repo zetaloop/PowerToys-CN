@@ -39,7 +39,7 @@ PowerToys 自制简体中文翻译优化补丁
 <img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/004.png"/>
 <img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/005.png"/>
 
-PowerToys 模块名称：窗口置顶 阻止睡眠 取色器 窗口布局 文件师傅 预览增强 域名表编辑 图像裁剪器 键盘修改器 鼠标工具箱 无界鼠标 纯文本粘贴 快速查看 批量重命名 快捷启动器 字母助手 注册表预览 屏幕标尺 快捷键指南 文本提取器 录制工具
+PowerToys 模块名称：窗口置顶 阻止睡眠 取色器 窗口布局 文件师傅 预览增强 域名表编辑 图像裁剪器 键盘修改器 鼠标工具箱 无界鼠标 纯文本粘贴 快速查看 批量重命名 快捷启动器 字母助手 注册表预览 屏幕标尺 快捷键指南 文本提取 直播工具
 
 PowerToys 通用设置界面、快捷面板、各模块预设及设置界面
 
