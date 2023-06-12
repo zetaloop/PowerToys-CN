@@ -1,4 +1,4 @@
-# PowerToys Custom Simplified Chinese Translation Patch
+z# PowerToys Custom Simplified Chinese Translation Patch
 
 <img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/PCTMODx10.topic.png"/>
 
@@ -10,7 +10,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 反馈问题：Issue 或 zetaloop@outlook.com
 
-版本：v0.69.1（0.70 等我高考考完再说）
+版本：v0.69.1 ==> **v0.70.1 新版汉化正在全面重制中，敬请期待**
 
 现已支持 x64 & ARM64（ARM64 自行编译）
 
@@ -39,7 +39,7 @@ PowerToys 自制简体中文翻译优化补丁
 <img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/004.png"/>
 <img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/005.png"/>
 
-PowerToys 模块名称：窗口置顶 唤醒工具 取色器 窗口布局 文件师傅 预览增强 域名表编辑器 图像裁剪器 键盘修改器 鼠标小工具 纯文本粘贴 批量重命名 快速启动器 字母助手 注册表预览 屏幕标尺 快捷键指南 文本提取器 录制工具
+PowerToys 模块名称：窗口置顶 阻止睡眠 取色器 窗口布局 文件师傅 预览增强 域名表编辑 图像裁剪器 键盘修改器 鼠标工具箱 无界鼠标 纯文本粘贴 快速查看 批量重命名 快捷启动器 字母助手 注册表预览 屏幕标尺 快捷键指南 文本提取器 录制工具
 
 PowerToys 通用设置界面、快捷面板、各模块预设及设置界面
 
