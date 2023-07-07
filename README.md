@@ -4,15 +4,13 @@
 
 PowerToys 自制简体中文翻译优化补丁
 
-根据使用习惯精修，做说人话的翻译。
+根据使用习惯精修，做说人话的翻译。  **汇报 bug 请用官方版本重现**。
 
-**汇报 bug 请用官方版本重现**。
+--- 反馈问题：Issue 或 zetaloop@outlook.com
 
-反馈问题：Issue 或 zetaloop@outlook.com
+--- 版本：v0.70.1 已重制 ==> 0.71.0 制作中
 
-版本：v0.70.1 已重制 ==> 0.71.0 制作中
-
-现已支持 x64 & ARM64（ARM64 请自行编译）
+--- 现已支持 x64 & ARM64（ARM64 请自行编译）
 
 下载官方安装包：[https://github.com/microsoft/PowerToys](https://github.com/microsoft/PowerToys)
 
@@ -20,7 +18,9 @@ PowerToys 自制简体中文翻译优化补丁
 
 下载汉化包（蓝奏云）：[https://zeta.lanzoum.com/b01krgu4j](https://zeta.lanzoum.com/b01krgu4j) 密码：zeta
 
-## Usage 使用方法
+_（图片使用 Bing Image Creator + Adobe Firefly 调整制作，不保留任何权利）_
+
+## 使用方法
 
 ① 安装原版 PowerToys 软件：
 
@@ -30,7 +30,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 　　下载 PCTMODx***.7z（带有自动安装程序），解压后运行“安装.CMD”，根据提示确定安装
 
-## Patchs 优化清单
+## 优化清单
 
 <img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/000.png"/>
 <img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/001.png"/>
@@ -81,6 +81,6 @@ Video Conference Mute 按键图片、摄像头设备名称
 
 实验功能已修改，移除测试组限制，打开即用
 
-## Stargazers 星标趋势
+## 星标趋势
 
 [![Stargazers over time](https://starchart.cc/zetaloop/PowerToys-Chinese-TransMOD.svg)](https://starchart.cc/zetaloop/PowerToys-Chinese-TransMOD)
