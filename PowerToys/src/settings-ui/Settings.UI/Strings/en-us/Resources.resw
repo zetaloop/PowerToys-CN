@@ -595,7 +595,7 @@
     <value>清除</value>
   </data>
   <data name="Shell_General.Content" xml:space="preserve">
-    <value>常规</value>
+    <value>常规设置</value>
     <comment>Navigation view item name for General</comment>
   </data>
   <data name="Shell_Awake.Content" xml:space="preserve">
@@ -2003,7 +2003,7 @@
     <value>点击右上角管理员权限按钮，获取更高权限来查看更多程序的占用情况。</value>
   </data>
   <data name="Oobe_FileExplorer_HowToEnable.Text" xml:space="preserve">
-    <value>打开文件资源管理器，在顶部的工具栏中选择 **查看** 选项卡，然后选择 **预览窗格** 来启用预览功能。
+    <value>打开文件资源管理器，在顶部的工具栏中选择 **查看** 选项卡，然后选择 **查看** 中的 **预览窗格** 来启用预览功能。
 然后，试试选中一个 PDF 文档或程序代码，在预览窗格中成功查看了文件内容！</value>
   </data>
   <data name="Oobe_HowToCreateMappings.Text" xml:space="preserve">
@@ -2163,6 +2163,9 @@
     <value>问题反馈</value>
   </data>
   <data name="OobeWindow_Title" xml:space="preserve">
+    <value>PowerToys 入门指南</value>
+  </data>
+  <data name="OobeWindow_TitleTxt.Text" xml:space="preserve">
     <value>PowerToys 入门指南</value>
   </data>
   <data name="SettingsWindow_Title" xml:space="preserve">
@@ -2482,6 +2485,9 @@
   </data>
   <data name="Activation_Shortcut_Description.Text" xml:space="preserve">
     <value>请按下你想要的快捷键</value>
+  </data>
+  <data name="Activation_Shortcut_Reset" xml:space="preserve">
+	<value>重置</value>
   </data>
   <data name="Activation_Shortcut_Save" xml:space="preserve">
     <value>保存</value>
@@ -3054,6 +3060,9 @@
   <data name="General_SettingsBackupAndRestore_BackupError" xml:space="preserve">
     <value>备份失败，试试换一个备份位置</value>
   </data>
+  <data name="General_SettingsBackupAndRestore_SettingsFormatError" xml:space="preserve">
+    <value>备份文件格式错误，请检查这份备份文件:</value>
+  </data>
   <data name="General_SettingsBackupAndRestore_BackupComplete" xml:space="preserve">
     <value>备份成功</value>
   </data>
@@ -3323,6 +3332,19 @@
     <value>启用文件师傅</value>
     <comment>File Locksmith is the name of the utility</comment>
   </data>
+  <data name="FileLocksmith_Toggle_StandardContextMenu.Content" xml:space="preserve">
+    <value>右键菜单和扩展右键菜单</value>
+  </data>
+	<data name="FileLocksmith_Toggle_ExtendedContextMenu.Content" xml:space="preserve">
+    <value>仅扩展右键菜单</value>
+  </data>
+  <data name="FileLocksmith_Toggle_ContextMenu.Header" xml:space="preserve">
+    <value>显示位置</value>
+  </data>
+  <data name="FileLocksmith_ShellIntegration.Header" xml:space="preserve">
+    <value>右键菜单集成</value>
+    <comment>This refers to directly integrating in with Windows</comment>
+  </data>
   <data name="GPO_IsSettingForced.Title" xml:space="preserve">
     <value>组策略已控制此设置</value>
   </data>
@@ -3519,6 +3541,13 @@
   <data name="RegistryPreview_LaunchButtonControl.Header" xml:space="preserve">
     <value>启动注册表预览工具</value>
   </data>
+  <data name="RegistryPreview_DefaultRegApp.Header" xml:space="preserve">
+    <value>作为默认打开方式</value>
+  </data>
+  <data name="RegistryPreview_DefaultRegApp.Description" xml:space="preserve">
+    <value>双击打开 .reg 注册表文件时，使用注册表预览工具来打开</value>
+    <comment>Registry Preview is app name. Do not localize.</comment>
+  </data>
   <data name="PastePlain_ShortcutWarning.Title" xml:space="preserve">
     <value>覆盖 Ctrl+V 快捷键可能会导致图片、文件等无法粘贴</value>
   </data>
@@ -3539,6 +3568,9 @@
     <value>最大宽度（像素）</value>
     <comment>px = pixels</comment>
   </data>
+  <data name="SettingsWindow_TitleTxt.Text" xml:space="preserve">
+    <value>PowerToys 设置</value>
+  </data>
   <data name="Oobe_Peek.Description" xml:space="preserve">
     <value>为 Windows 系统带来了雷雳般速度的文件快速查看功能。</value>
   </data>
@@ -3553,5 +3585,18 @@
   </data>
   <data name="MWB_SecurityKeyLabel.PlaceholderText" xml:space="preserve">
     <value>连接密码</value>
+  </data>
+  <data name="Hosts_Encoding.Description" xml:space="preserve">
+    <value>保存 Hosts 文件的编码</value>
+    <comment>"Hosts" refers to the system hosts file, do not loc</comment>
+  </data>
+  <data name="Hosts_Encoding.Header" xml:space="preserve">
+    <value>文件编码</value>
+  </data>
+  <data name="Hosts_Encoding_Utf8.Content" xml:space="preserve">
+    <value>UTF-8</value>
+  </data>
+  <data name="Hosts_Encoding_Utf8Bom.Content" xml:space="preserve">
+    <value>UTF-8 包含 BOM 标记</value>
   </data>
 </root>

@@ -132,6 +132,12 @@
   <data name="AddEntryBtn.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>添加条目</value>
   </data>
+  <data name="AddEntryBtn.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>添加条目 (CTRL+N)</value>
+  </data>
+  <data name="AddEntryLink.Content" xml:space="preserve">
+    <value>添加一个条目</value>
+  </data>
   <data name="AdditionalLinesBtn.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>注释</value>
   </data>
@@ -164,6 +170,9 @@
   <data name="ClearFiltersBtn.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>清除筛选</value>
   </data>
+  <data name="ClearFiltersLink.Content" xml:space="preserve">
+    <value>清除筛选</value>
+  </data>
   <data name="Comment.Header" xml:space="preserve">
     <value>备注</value>
     <comment>"Comment" refers to the comment of the entry</comment>
@@ -186,6 +195,16 @@
   </data>
   <data name="DuplicateEntryIcon.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>重复条目</value>
+  </data>
+  <data name="Edit.Text" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="EmptyFilterResults.Text" xml:space="preserve">
+    <value>无筛选结果</value>
+  </data>
+  <data name="EmptyHosts.Text" xml:space="preserve">
+    <value>未储存任何条目</value>
+    <comment>"Hosts" refers to the system hosts file, do not loc</comment>
   </data>
   <data name="Entries.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>条目</value>
@@ -212,7 +231,7 @@
     <comment>"Hosts" refers to the system hosts file, do not loc // 并不是</comment>
   </data>
   <data name="Hosts.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
-    <value>空格分隔多个域名（比如：server server.local）</value>
+    <value>空格分隔多个域名（比如：server server.local），一次最多九个</value>
     <comment>Do not localize "server" and "server.local"</comment>
   </data>
   <data name="HostsFilter.Header" xml:space="preserve">
@@ -252,6 +271,17 @@
   </data>
   <data name="ShowOnlyDuplicates.Header" xml:space="preserve">
     <value>仅显示重复条目</value>
+  </data>
+  <data name="TooManyHostsTeachingTip.Subtitle" xml:space="preserve">
+    <value>每条最多填写九个域名</value>
+    <comment>"Hosts" refers to the system hosts file, do not loc</comment>
+  </data>
+  <data name="TooManyHostsTeachingTip.Title" xml:space="preserve">
+    <value>域名数量过多</value>
+    <comment>"Hosts" refers to the system hosts file, do not loc</comment>
+  </data>
+  <data name="TooManyHostsTeachingTipContent.Text" xml:space="preserve">
+    <value>相关条目已被拆分，将会在下次更改时生效。</value>
   </data>
   <data name="UpdateBtn" xml:space="preserve">
     <value>更新</value>
