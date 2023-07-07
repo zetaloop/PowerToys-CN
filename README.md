@@ -18,7 +18,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 下载汉化包（蓝奏云）：[https://zeta.lanzoum.com/b01krgu4j](https://zeta.lanzoum.com/b01krgu4j) 密码：zeta
 
-_（图片使用 Bing Image Creator + Adobe Firefly 调整制作，不保留任何权利）_
+_（上面的图片使用 Bing Image Creator + Adobe Firefly 调整制作，不保留任何权利）_
 
 ## 使用方法
 
