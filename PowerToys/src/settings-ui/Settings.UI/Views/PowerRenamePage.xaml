@@ -104,7 +104,7 @@
         <controls:SettingsPageControl.SecondaryLinks>
             <controls:PageLink
                 Link="https://github.com/chrdavis/SmartRename"
-                Text="Chris Davis 的作品 SmartRenamer" />
+                Text="Chris Davis 的软件 SmartRenamer" />
         </controls:SettingsPageControl.SecondaryLinks>
     </controls:SettingsPageControl>
 </Page>

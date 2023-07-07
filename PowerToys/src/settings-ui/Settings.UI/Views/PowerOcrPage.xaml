@@ -78,7 +78,7 @@
         <controls:SettingsPageControl.SecondaryLinks>
             <controls:PageLink
                 Link="https://github.com/TheJoeFin/Text-Grab"
-                Text="基于 Joseph Finney 的作品 Text Grab" />
+                Text="Joseph Finney 的软件 Text Grab" />
         </controls:SettingsPageControl.SecondaryLinks>
     </controls:SettingsPageControl>
 </Page>

@@ -175,7 +175,7 @@
         <controls:SettingsPageControl.SecondaryLinks>
             <controls:PageLink
                 Link="https://github.com/damienleroy/PowerAccent"
-                Text="Damien Leroy 的作品 PowerAccent" />
+                Text="Damien Leroy 的软件 PowerAccent" />
         </controls:SettingsPageControl.SecondaryLinks>
     </controls:SettingsPageControl>
 </Page>

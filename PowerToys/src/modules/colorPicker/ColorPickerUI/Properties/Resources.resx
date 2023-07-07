@@ -150,7 +150,7 @@
     <comment>Tool tip that appears when hovering over a slider that represents the color hue (from HSV)</comment>
   </data>
   <data name="No_colors_yet" xml:space="preserve">
-    <value>点击取色图标抓取颜色。</value>
+    <value>点击取色图标抓取颜色</value>
     <comment>Message that shows when the user launches the window for the first time or when no colors have been selected</comment>
   </data>
   <data name="Select" xml:space="preserve">
@@ -158,11 +158,11 @@
     <comment>Select button content</comment>
   </data>
   <data name="Open_settings" xml:space="preserve">
-    <value>打开设置</value>
+    <value>设置</value>
     <comment>Tooltip that shows that the user can click this button to open PowerToys settings</comment>
   </data>
   <data name="Pick_color" xml:space="preserve">
-    <value>抓取颜色</value>
+    <value>取色</value>
     <comment>Tooltip that shows that the user can click this button to pick a new color</comment>
   </data>
   <data name="Red_value" xml:space="preserve">
@@ -221,20 +221,20 @@
     <value>取色器控制</value>
   </data>
   <data name="Darker_color" xml:space="preserve">
-    <value>变暗 1</value>
+    <value>变暗一点</value>
   </data>
   <data name="Darkest_color" xml:space="preserve">
-    <value>变暗 2</value>
+    <value>再变暗一点</value>
   </data>
   <data name="Lighter_color" xml:space="preserve">
-    <value>变亮 1</value>
+    <value>变亮一点</value>
   </data>
   <data name="Lightest color" xml:space="preserve">
-    <value>变亮 2</value>
+    <value>再变亮一点</value>
   </data>
   <data name="TEXT_COLOR_WHITE" xml:space="preserve">
     <value>白色</value>
-    <comment>White color #FFFFFF</comment>
+    <comment>White color #FFFFFF 注：颜色参考官译、office内名称，一定程度修改结合日常通用名称。</comment>
   </data>
   <data name="TEXT_COLOR_BLACK" xml:space="preserve">
     <value>黑色</value>
@@ -282,7 +282,7 @@
   </data>
   <data name="TEXT_COLOR_AQUA" xml:space="preserve">
     <value>水绿</value>
-    <comment>Aqua color #00FFFF 注：颜色参考官译、office内名称，一定程度修改结合日常通用名称。</comment>
+    <comment>Aqua color #00FFFF</comment>
   </data>
   <data name="TEXT_COLOR_SKYBLUE" xml:space="preserve">
     <value>天蓝</value>
@@ -294,7 +294,7 @@
   </data>
   <data name="TEXT_COLOR_PALEBLUE" xml:space="preserve">
     <value>淡蓝</value>
-    <comment>Pale blue color 代码中貌似根本取不到-ColorNameHelper.cs</comment>
+    <comment>Pale blue color 不可见？ColorNameHelper.cs</comment>
   </data>
   <data name="TEXT_COLOR_LIGHTBLUE" xml:space="preserve">
     <value>浅蓝</value>

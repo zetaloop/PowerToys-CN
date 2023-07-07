@@ -160,7 +160,7 @@
     <value>Render SVG images</value>
   </data>
   <data name="FileExplorer_Admin_Restart_Warning_Description" xml:space="preserve">
-    <value>部分预览组件不支持直接开关，请以管理员身份重启软件以生效。</value>
+    <value>一些预览组件的更改不支持立即生效，请以管理员身份重启软件以生效。</value>
   </data>
   <data name="FileExplorer_Admin_Restart_Warning_Title" xml:space="preserve">
     <value>预览增强组件更改</value>

@@ -295,7 +295,7 @@
     <value>所有文件</value>
   </data>
   <data name="ShowOnly.Text" xml:space="preserve">
-    <value>存在匹配的文件</value>
+    <value>符合搜索的文件</value>
   </data>
   <data name="TxtBlock_Original.Text" xml:space="preserve">
     <value>原文件</value>

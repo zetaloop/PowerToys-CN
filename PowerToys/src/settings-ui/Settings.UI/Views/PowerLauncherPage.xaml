@@ -482,7 +482,7 @@
                 Text="Wox" />
             <controls:PageLink
                 Link="https://github.com/betsegaw/windowwalker/"
-                Text="Beta Tadele 的作品 Window Walker" />
+                Text="Beta Tadele 的软件 Window Walker" />
         </controls:SettingsPageControl.SecondaryLinks>
     </controls:SettingsPageControl>
 </Page>

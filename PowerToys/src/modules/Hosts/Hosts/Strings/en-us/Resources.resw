@@ -194,11 +194,11 @@
     <value>取消</value>
   </data>
   <data name="FileChanged.Message" xml:space="preserve">
-    <value>域名文件被改动，是否刷新？</value>
+    <value>域名表文件被改动，是否刷新？</value>
     <comment>"Hosts" refers to the system hosts file, do not loc</comment>
   </data>
   <data name="FileSaveError.Message" xml:space="preserve">
-    <value>无法保存域名文件。</value>
+    <value>无法保存域名表文件。</value>
     <comment>"Hosts" refers to the system hosts file, do not loc</comment>
   </data>
   <data name="FilterBtn.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
@@ -266,14 +266,15 @@
     <value>退出</value>
   </data>
   <data name="WarningDialog_Text" xml:space="preserve">
-    <value>修改 Hosts 文件（域名文件）可能导致无法解析域名、访问网站。</value>
+    <value>这是 Host 域名表文件编辑器。
+错误修改域名表可能会导致无法解析域名、访问网站，因此请谨慎使用。</value>
     <comment>"Hosts" refers to the system hosts file, do not loc</comment>
   </data>
   <data name="WarningDialog_Title" xml:space="preserve">
     <value>警告</value>
   </data>
   <data name="Window.Title" xml:space="preserve">
-    <value>域名编辑器</value>
+    <value>域名表编辑器</value>
     <comment>"Hosts File Editor" is the name of the utility. "Hosts" refers to the system hosts file, do not loc</comment>
   </data>
 </root>

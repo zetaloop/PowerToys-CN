@@ -140,25 +140,25 @@
     <value>自定义</value>
   </data>
   <data name="Input_IgnoreOrientation" xml:space="preserve">
-    <value>忽略图片方向(_O)</value>
+    <value>自动适应图像长宽方向(_O)</value>
   </data>
   <data name="Input_GifWarning" xml:space="preserve">
     <value>GIF 动画可能无法裁剪。</value>
   </data>
   <data name="Input_Replace" xml:space="preserve">
-    <value>直接覆写原图(_E)</value>
+    <value>覆盖原图(_E)</value>
   </data>
   <data name="Input_Resize" xml:space="preserve">
     <value>执行(_R)</value>
   </data>
   <data name="Input_ShrinkOnly" xml:space="preserve">
-    <value>仅缩小图片(_M)</value>
+    <value>图像小于目标时不操作(_M)</value>
   </data>
   <data name="Large" xml:space="preserve">
-    <value>大</value>
+    <value>大号</value>
   </data>
   <data name="Medium" xml:space="preserve">
-    <value>中</value>
+    <value>中号</value>
   </data>
   <data name="OK" xml:space="preserve">
     <value>确定</value>
@@ -167,7 +167,7 @@
     <value>应用设置</value>
   </data>
   <data name="Phone" xml:space="preserve">
-    <value>流畅</value>
+    <value>省流</value>
   </data>
   <data name="PictureFilter" xml:space="preserve">
     <value>所有图片文件</value>
@@ -260,7 +260,7 @@
     <value>图片调整大小失败</value>
   </data>
   <data name="Small" xml:space="preserve">
-    <value>小</value>
+    <value>小号</value>
   </data>
   <data name="Times_Symbol" xml:space="preserve">
     <value>乘号</value>

@@ -419,7 +419,7 @@
     <value>{0} 滑块，取值范围从 {1} 到 {2} 当前为 {3}。</value>
   </data>
   <data name="Pixel_Value" xml:space="preserve">
-    <value>{0} px</value>
+    <value>{0} 像素</value>
   </data>
   <data name="Template_Zone_Count_Value" xml:space="preserve">
     <value>{0} 块</value>
@@ -428,7 +428,7 @@
     <value>块</value>
   </data>
   <data name="Default_Layout_Horizontal" xml:space="preserve">
-    <value>横屏默认布局</value>
+    <value>设为横屏默认布局</value>
   </data>
   <data name="Set_Layout_As_Horizontal_Default" xml:space="preserve">
     <value>设置为横屏下的默认布局方式</value>
@@ -437,7 +437,7 @@
     <value>无法解析默认布局。</value>
   </data>
   <data name="Default_Layout_Vertical" xml:space="preserve">
-    <value>竖屏默认布局</value>
+    <value>设为竖屏默认布局</value>
   </data>
   <data name="Set_Layout_As_Vertical_Default" xml:space="preserve">
     <value>设置为竖屏下的默认布局方式</value>

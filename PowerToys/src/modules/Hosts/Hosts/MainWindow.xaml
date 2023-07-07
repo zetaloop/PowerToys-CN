@@ -30,7 +30,7 @@
                     Margin="12,0,0,0"
                     FontSize="12"
                     Style="{StaticResource CaptionTextBlockStyle}"
-                    Text="域名编辑器" />
+                    Text="域名表编辑器" />
             </StackPanel>
         </Grid>
         <views:MainPage Grid.Row="1" />

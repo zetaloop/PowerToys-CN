@@ -133,7 +133,7 @@
     <value>出现了一些问题。</value>
   </data>
   <data name="reportWindow_file_bug" xml:space="preserve">
-    <value>请提交一个错误报告于</value>
+    <value>请汇报这个问题，发送到</value>
     <comment>reportWindow_file_bug + reportWindow_github_repo string</comment>
   </data>
   <data name="reportWindow_github_repo" xml:space="preserve">

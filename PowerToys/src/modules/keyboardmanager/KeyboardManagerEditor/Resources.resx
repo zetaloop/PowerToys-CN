@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Settings_Description" xml:space="preserve">
-    <value>这个功能需要 Win 10 版本 1903 或更高</value>
+    <value>这个功能需要 Win 10 版本 1903 及以上</value>
   </data>
   <data name="KeyboardManager" xml:space="preserve">
     <value>键盘修改器</value>
@@ -190,7 +190,7 @@
   <data name="EditShortcuts_InfoExample" xml:space="preserve">
     <value>例如，若要在 Edge 浏览器中把 Alt+T 变成 Ctrl+T，请把 Alt+T 修改成 Ctrl+T，目标程序 msedge。
 目标程序是指进程名称（msedge）而非应用名（Edge 浏览器），不区分大小写。
-重映射单键会影响组合键。</value>
+设置好的重映射单键优先于组合键。</value>
   </data>
   <data name="Type_Button" xml:space="preserve">
     <value>输入</value>

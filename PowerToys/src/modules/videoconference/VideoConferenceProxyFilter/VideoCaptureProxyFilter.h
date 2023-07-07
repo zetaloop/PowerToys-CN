@@ -22,7 +22,7 @@ struct VideoCaptureProxyPin;
 struct IMFSample;
 struct IMFMediaType;
 
-inline const wchar_t CAMERA_NAME[] = L"录制工具虚拟摄像";
+inline const wchar_t CAMERA_NAME[] = L"直播工具虚拟摄像";
 
 struct VideoCaptureProxyFilter : winrt::implements<VideoCaptureProxyFilter, IBaseFilter, IAMFilterMiscFlags>
 {

@@ -119,7 +119,7 @@
         <controls:SettingsPageControl.SecondaryLinks>
             <controls:PageLink
                 Link="https://awake.den.dev"
-                Text="Den Delimarsky 开发的 Awake" />
+                Text="Den Delimarsky 开发了该功能" />
         </controls:SettingsPageControl.SecondaryLinks>
     </controls:SettingsPageControl>
 </Page>

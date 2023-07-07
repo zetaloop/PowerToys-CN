@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (c) Microsoft Corporation.
      Licensed under the MIT License. -->
-<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.1" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.2" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
   <displayName>PowerToys</displayName>
   <description>PowerToys</description>
   <resources>
@@ -12,6 +12,7 @@
       <string id="SUPPORTED_POWERTOYS_0_64_0">PowerToys 版本 0.64.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_68_0">PowerToys 版本 0.68.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_69_0">PowerToys 版本 0.69.0 或更高版本</string>
+      <string id="SUPPORTED_POWERTOYS_0_70_0">PowerToys 版本 0.70.0 或更高版本</string>
 
       <string id="ConfigureEnabledUtilityDescription">此策略控制 PowerToys 功能的启用状态。
 
@@ -64,7 +65,7 @@
 如果策略设置为“已禁用”或“未配置”，不允许参与功能测试。
 </string>
       <string id="ConfigureEnabledUtilityAlwaysOnTop">窗口置顶: 启用该功能</string>
-      <string id="ConfigureEnabledUtilityAwake">唤醒工具: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityAwake">阻止睡眠: 启用该功能</string>
       <string id="ConfigureEnabledUtilityColorPicker">取色器: 启用该功能</string>
       <string id="ConfigureEnabledUtilityFancyZones">窗口布局: 启用该功能</string>
       <string id="ConfigureEnabledUtilityFileLocksmith">文件师傅: 启用该功能</string>
@@ -77,22 +78,24 @@
       <string id="ConfigureEnabledUtilityFileExplorerPDFThumbnails">预览增强 - PDF 文件缩略图: 启用该功能</string>
       <string id="ConfigureEnabledUtilityFileExplorerGcodeThumbnails">预览增强 - Gcode 文件缩略图: 启用该功能</string>
       <string id="ConfigureEnabledUtilityFileExplorerSTLThumbnails">预览增强 - STL 文件缩略图: 启用该功能</string>
-      <string id="ConfigureEnabledUtilityHostsFileEditor">域名表编辑器: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityHostsFileEditor">域名表编辑: 启用该功能</string>
       <string id="ConfigureEnabledUtilityImageResizer">图像裁剪器: 启用该功能</string>
       <string id="ConfigureEnabledUtilityKeyboardManager">键盘修改器: 启用该功能</string>
-      <string id="ConfigureEnabledUtilityFindMyMouse">鼠标聚光灯: 启用该功能</string>
-      <string id="ConfigureEnabledUtilityMouseHighlighter">鼠标荧光笔: 启用该功能</string>
-      <string id="ConfigureEnabledUtilityMouseJump">鼠标瞬移术: 启用该功能</string>
-      <string id="ConfigureEnabledUtilityMousePointerCrosshairs">鼠标十字线: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityFindMyMouse">鼠标工具箱 - 鼠标定位: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityMouseHighlighter">鼠标工具箱 - 鼠标高亮: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityMouseJump">鼠标工具箱 - 鼠标跳转: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityMousePointerCrosshairs">鼠标工具箱 - 鼠标准心: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityMouseWithoutBorders">无界鼠标: 启用该功能</string>
       <string id="ConfigureEnabledUtilityPastePlain">纯文本粘贴: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityPeek">快速查看: 启用该功能</string>
       <string id="ConfigureEnabledUtilityPowerRename">批量重命名: 启用该功能</string>
-      <string id="ConfigureEnabledUtilityPowerLauncher">快速启动器: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityPowerLauncher">快捷启动器: 启用该功能</string>
       <string id="ConfigureEnabledUtilityQuickAccent">字母助手: 启用该功能</string>
       <string id="ConfigureEnabledUtilityRegistryPreview">注册表预览: 启用该功能</string>
       <string id="ConfigureEnabledUtilityScreenRuler">屏幕标尺: 启用该功能</string>
       <string id="ConfigureEnabledUtilityShortcutGuide">快捷键指南: 启用该功能</string>
-      <string id="ConfigureEnabledUtilityTextExtractor">文本提取器: 启用该功能</string>
-      <string id="ConfigureEnabledUtilityVideoConferenceMute">录制工具: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityTextExtractor">文本提取: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityVideoConferenceMute">直播工具: 启用该功能</string>
       <string id="DisablePerUserInstallation">禁用单用户安装</string>
       <string id="DisableAutomaticUpdateDownload">禁用自动下载更新</string>
       <string id="SuspendNewUpdateToast">减少新版本更新推送</string>

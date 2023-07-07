@@ -74,13 +74,13 @@
     <value>PowerToys 已成功更新！</value>
   </data>
   <data name="MSI_VERSION_IS_ALREADY_RUNNING" xml:space="preserve">
-    <value>旧版本的 PowerToys 正在运行。</value>
+    <value>旧版 MSI 安装包的 PowerToys 正在运行。</value>
   </data>
   <data name="DOWNLOAD_UPDATE_ERROR" xml:space="preserve">
     <value>无法下载 PowerToys 更新！请在 GitHub 上报告该问题。</value>
   </data>
   <data name="OLDER_MSIX_UNINSTALLED" xml:space="preserve">
-    <value>已经卸载了旧的 MSIX 版本 PowerToys。</value>
+    <value>已经卸载了旧版 MSIX 安装包的 PowerToys。</value>
   </data>
   <data name="PT_UPDATE_MESSAGE_BOX_TEXT" xml:space="preserve">
     <value>PowerToys 已成功更新！</value>
