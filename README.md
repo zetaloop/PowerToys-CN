@@ -1,24 +1,24 @@
-z# PowerToys Custom Simplified Chinese Translation Patch
+# PowerToys Custom Simplified Chinese Translation Patch
 
-<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/PCTMODx10.topic.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/PCTMODx11.topic.png"/>
 
 PowerToys 自制简体中文翻译优化补丁
 
-根据使用习惯精制翻译，修复错漏。
+根据使用习惯精修，做说人话的翻译。
 
 **汇报 bug 请用官方版本重现**。
 
 反馈问题：Issue 或 zetaloop@outlook.com
 
-版本：v0.69.1 ==> **v0.71.0 新版汉化正在全面重制中，敬请期待（部分组件汉化遇到困难，也有可能是缓存之类的... 最近在鼓捣服务器的事）**
+版本：v0.70.1 已重制 ==> 0.71.0 制作中
 
-现已支持 x64 & ARM64（ARM64 自行编译）
+现已支持 x64 & ARM64（ARM64 请自行编译）
 
 下载官方安装包：[https://github.com/microsoft/PowerToys](https://github.com/microsoft/PowerToys)
 
 下载汉化包（Github）：[https://github.com/zetaloop/PowerToys-Chinese-TransMOD/releases/latest](https://github.com/zetaloop/PowerToys-Chinese-TransMOD/releases/latest)
 
-备用下载安装包和汉化（蓝奏云）：[https://zeta.lanzoum.com/b01krgu4j](https://zeta.lanzoum.com/b01krgu4j) 密码：zeta
+下载汉化包（蓝奏云）：[https://zeta.lanzoum.com/b01krgu4j](https://zeta.lanzoum.com/b01krgu4j) 密码：zeta
 
 ## Usage 使用方法
 
@@ -53,15 +53,19 @@ Color Picker 操作界面
 
 FancyZones 操作界面
 
-File Explorer Add-ons 操作界面、预览器错误提示
-
 File Locksmith 操作界面、右键菜单
+
+File Explorer Add-ons 操作界面、预览器错误提示
 
 Hosts File Editor 操作界面
 
 Image Resizer 操作界面、右键菜单
 
 Keyboard Manager 操作界面
+
+Mouse Without Borders 原版软件界面、通知消息、执行脚本
+
+Peek 操作界面
 
 PowerRename 操作界面、右键菜单
 
