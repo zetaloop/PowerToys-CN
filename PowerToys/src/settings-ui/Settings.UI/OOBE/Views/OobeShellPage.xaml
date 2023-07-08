@@ -76,7 +76,7 @@
             SelectionChanged="NavigationView_SelectionChanged">
             <NavigationView.MenuItems>
                 <NavigationViewItem
-                    Content="¼ò½é"
+                    Content="ç®€ä»‹"
                     Icon="{ui:BitmapIcon Source=/Assets/FluentIcons/FluentIconsPowerToys.png}"
                     Tag="Overview" />
                 <NavigationViewItem
