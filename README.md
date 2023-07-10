@@ -32,14 +32,14 @@ _（上面的图片使用 Bing Image Creator + Adobe Firefly 调整制作，不�
 
 ## 优化清单
 
-<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/01.png"/>
-<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/02.png"/>
-<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/03.png"/>
-<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/04.png"/>
-<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/05.png"/>
-<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/06.png"/>
-<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/07.png"/>
-<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/08.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/1.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/2.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/3.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/4.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/5.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/6.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/7.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/8.png"/>
 
 PowerToys 模块名称：窗口置顶 阻止睡眠 取色器 窗口布局 文件师傅 预览增强 域名表编辑 图像裁剪器 键盘修改器 鼠标工具箱 无界鼠标 纯文本粘贴 快速查看 批量重命名 快捷启动器 字母助手 注册表预览 屏幕标尺 快捷键指南 文本提取 直播工具
 
