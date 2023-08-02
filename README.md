@@ -8,7 +8,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 --- 反馈问题：Issue 或 zetaloop@outlook.com
 
---- 版本：v0.71.0
+--- 版本：v0.71.0（0.72.0 即将完成，等我上午考个科目二先）
 
 --- 现已支持 x64 & ARM64（ARM64 请自行编译）
 
@@ -71,7 +71,7 @@ Peek 操作界面
 
 PowerRename 操作界面、右键菜单
 
-PowerToys Run 操作界面、一大堆插件（除时区插件）
+PowerToys Run 操作界面、一大堆插件
 
 Registry Preview 操作界面
 
