@@ -8,7 +8,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 --- 反馈问题：Issue 或 zetaloop@outlook.com
 
---- 版本：v0.71.0（0.72.0 即将完成，等我上午考个科目二先）
+--- 版本：v0.72.0
 
 --- 现已支持 x64 & ARM64（ARM64 请自行编译）
 
@@ -16,7 +16,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 下载汉化包（Github）：[https://github.com/zetaloop/PowerToys-Chinese-TransMOD/releases/latest](https://github.com/zetaloop/PowerToys-Chinese-TransMOD/releases/latest)
 
-下载汉化包（蓝奏云）：[https://zeta.lanzoum.com/b01kzyorc](https://zeta.lanzoum.com/b01kzyorc) 密码：zeta
+下载汉化包（蓝奏云）：[https://zeta.lanzouq.com/b01l3qmaj](https://zeta.lanzouq.com/b01l3qmaj) 密码：zeta
 
 _（上面的图片使用 Bing Image Creator + Adobe Firefly 调整制作，不保留任何权利）_
 
