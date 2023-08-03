@@ -403,7 +403,7 @@
     <value>易动模式</value>
   </data>
   <data name="MouseWithoutBorders_EasyMouseOption.Description" xml:space="preserve">
-    <value>移动鼠标跨过屏幕边缘直接跨电脑移动</value>
+    <value>移动鼠标跨过屏幕边缘，直接跨电脑移动</value>
     <comment>Shift and Ctrl are the keyboard keys</comment>
   </data>
   <data name="MouseWithoutBorders_EasyMouseOption_Disabled.Content" xml:space="preserve">
@@ -420,8 +420,14 @@
     <value>按住 Shift</value>
     <comment>This is the Shift keyboard key</comment>
   </data>
+  <data name="MouseWithoutBorders_LockMachinesShortcut.Header" xml:space="preserve">
+    <value>全部锁屏</value>
+  </data>
+  <data name="MouseWithoutBorders_LockMachinesShortcut.Description" xml:space="preserve">
+    <value>双击快捷键，锁定所有设置了相同锁屏快捷键的电脑</value>
+  </data>
   <data name="MouseWithoutBorders_ToggleEasyMouseShortcut.Header" xml:space="preserve">
-    <value>切换易动（Ctrl + Alt）</value>
+    <value>切换易动</value>
     <comment>Ctrl and Alt are the keyboard keys</comment>
   </data>
   <data name="MouseWithoutBorders_ToggleEasyMouseShortcut.Description" xml:space="preserve">
@@ -431,7 +437,7 @@
     <value>禁用</value>
   </data>
   <data name="MouseWithoutBorders_SwitchBetweenMachineShortcut.Header" xml:space="preserve">
-    <value>切换设备（Ctrl + Alt）</value>
+    <value>切换设备</value>
     <comment>Ctrl and Alt are the keyboard keys</comment>
   </data>
   <data name="MouseWithoutBorders_SwitchBetweenMachineShortcut.Description" xml:space="preserve">
@@ -449,35 +455,23 @@
   <data name="MouseWithoutBorders_SwitchBetweenMachineShortcut_Disabled.Content" xml:space="preserve">
     <value>禁用</value>
   </data>
-  <data name="MouseWithoutBorders_LockMachinesShortcut.Header" xml:space="preserve">
-    <value>全部锁屏（Ctrl + Alt）</value>
-    <comment>Ctrl and Alt are the keyboard keys</comment>
-  </data>
-  <data name="MouseWithoutBorders_LockMachinesShortcut.Description" xml:space="preserve">
-    <value>双击 Ctrl + Alt + 指定按键，锁定所有相同快捷键的电脑</value>
-    <comment>Ctrl and Alt are the keyboard keys</comment>
-  </data>
   <data name="MouseWithoutBorders_LockMachinesShortcut_Disabled.Content" xml:space="preserve">
     <value>禁用</value>
   </data>
   <data name="MouseWithoutBorders_ReconnectShortcut.Header" xml:space="preserve">
-    <value>刷新连接（Ctrl + Alt）</value>
-    <comment>Ctrl and Alt are the keyboard keys</comment>
+    <value>刷新连接</value>
   </data>
   <data name="MouseWithoutBorders_ReconnectShortcut.Description" xml:space="preserve">
-    <value>点击 Ctrl + Alt + 指定按键，重新连接其他电脑</value>
-    <comment>Ctrl and Alt are the keyboard keys</comment>
+    <value>重新连接其他电脑</value>
   </data>
   <data name="MouseWithoutBorders_ReconnectShortcut_Disabled.Content" xml:space="preserve">
     <value>禁用</value>
   </data>
   <data name="MouseWithoutBorders_Switch2AllPcShortcut.Header" xml:space="preserve">
-    <value>同步模式（Ctrl + Alt）</value>
-    <comment>Ctrl and Alt are the keyboard keys</comment>
+    <value>同步模式</value>
   </data>
   <data name="MouseWithoutBorders_Switch2AllPcShortcut.Description" xml:space="preserve">
-    <value>点击 Ctrl + Alt + 指定按键或者按三下 Ctrl，同时控制所有电脑</value>
-    <comment>This is the Ctrl keyboard key</comment>
+    <value>同时控制所有电脑</value>
   </data>
   <data name="MouseWithoutBorders_Switch2AllPcShortcut_Disabled.Content" xml:space="preserve">
     <value>禁用</value>
@@ -897,6 +891,9 @@
   <data name="FancyZones_MouseDragCheckBoxControl_Header.Content" xml:space="preserve">
     <value>左键拖动窗口，用其他鼠标键激活布局</value>
   </data>
+  <data name="FancyZones_MouseMiddleClickSpanningMultipleZonesCheckBoxControl_Header.Content" xml:space="preserve">
+    <value>中键切换窗口跨区开关</value>
+  </data>
   <data name="FancyZones_MoveWindowsAcrossAllMonitorsCheckBoxControl.Content" xml:space="preserve">
     <value>跨显示器循环移动</value>
   </data>
@@ -1024,7 +1021,7 @@
   <data name="PowerRename_Toggle_ExtendedContextMenu.Content" xml:space="preserve">
     <value>仅扩展右键菜单</value>
   </data>
-  <data name="PowerRename_Toggle_EnableOnExtendedContextMenu.Description" xml:space="preserve">
+  <data name="ExtendedContextMenuInfo.Title" xml:space="preserve">
     <value>Shift + 右键即可打开扩展右键菜单</value>
   </data>
   <data name="PowerRename_Toggle_MaxDispListNum.Header" xml:space="preserve">
@@ -2483,11 +2480,15 @@
   <data name="Activation_Shortcut_Cancel" xml:space="preserve">
     <value>取消</value>
   </data>
-  <data name="Activation_Shortcut_Description.Text" xml:space="preserve">
+  <data name="Activation_Shortcut_Description" xml:space="preserve">
     <value>请按下你想要的快捷键</value>
   </data>
+  <data name="Activation_Shortcut_With_Disable_Description" xml:space="preserve">
+	<value>请按下你想要的快捷键
+点击右键清除快捷键，清除后关闭该功能</value>
+  </data>
   <data name="Activation_Shortcut_Reset" xml:space="preserve">
-	<value>重置</value>
+    <value>重置</value>
   </data>
   <data name="Activation_Shortcut_Save" xml:space="preserve">
     <value>保存</value>
@@ -2615,9 +2616,6 @@
   <data name="MouseUtils_MouseHighlighter_SecondaryButtonClickColor.Header" xml:space="preserve">
     <value>右键颜色</value>
   </data>
-  <data name="MouseUtils_MouseHighlighter_HighlightOpacity.Header" xml:space="preserve">
-    <value>不透明度（%）</value>
-  </data>
   <data name="MouseUtils_MouseHighlighter_HighlightRadius.Header" xml:space="preserve">
     <value>半径（像素）</value>
     <comment>px = pixels</comment>
@@ -2675,6 +2673,13 @@
   </data>
   <data name="MouseUtils_MousePointerCrosshairs_CrosshairsBorderSize.Header" xml:space="preserve">
     <value>边框厚度（像素）</value>
+    <comment>px = pixels</comment>
+  </data>
+  <data name="MouseUtils_MousePointerCrosshairs_IsCrosshairsFixedLengthEnabled.Header" xml:space="preserve">
+    <value>线条长度有限</value>
+  </data>
+  <data name="MouseUtils_MousePointerCrosshairs_CrosshairsFixedLength.Header" xml:space="preserve">
+    <value>线条长度（像素）</value>
     <comment>px = pixels</comment>
   </data>
   <data name="FancyZones_Radio_Custom_Colors.Content" xml:space="preserve">
@@ -3335,7 +3340,7 @@
   <data name="FileLocksmith_Toggle_StandardContextMenu.Content" xml:space="preserve">
     <value>右键菜单和扩展右键菜单</value>
   </data>
-	<data name="FileLocksmith_Toggle_ExtendedContextMenu.Content" xml:space="preserve">
+  <data name="FileLocksmith_Toggle_ExtendedContextMenu.Content" xml:space="preserve">
     <value>仅扩展右键菜单</value>
   </data>
   <data name="FileLocksmith_Toggle_ContextMenu.Header" xml:space="preserve">
@@ -3598,5 +3603,11 @@
   </data>
   <data name="Hosts_Encoding_Utf8Bom.Content" xml:space="preserve">
     <value>UTF-8 包含 BOM 标记</value>
+  </data>
+  <data name="MouseUtils_MouseHighlighter_AlwaysColor.Header" xml:space="preserve">
+    <value>松手颜色</value>
+  </data>
+  <data name="MouseUtils_MousePointerCrosshairs_CrosshairsAutoHide.Content" xml:space="preserve">
+    <value>隐藏鼠标指针时自动关闭准心</value>
   </data>
 </root>

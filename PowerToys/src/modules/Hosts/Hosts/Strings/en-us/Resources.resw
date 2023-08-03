@@ -133,7 +133,7 @@
     <value>添加条目</value>
   </data>
   <data name="AddEntryBtn.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
-    <value>添加条目 (CTRL+N)</value>
+    <value>添加条目 (Ctrl+N)</value>
   </data>
   <data name="AddEntryLink.Content" xml:space="preserve">
     <value>添加一个条目</value>
@@ -213,7 +213,7 @@
     <value>取消</value>
   </data>
   <data name="FileChanged.Message" xml:space="preserve">
-    <value>域名表文件被改动，是否刷新？</value>
+    <value>域名表文件被其他软件改动。</value>
     <comment>"Hosts" refers to the system hosts file, do not loc</comment>
   </data>
   <data name="FileSaveError.Message" xml:space="preserve">
@@ -261,7 +261,7 @@
     <comment>"Ping" refers to the command-line utility, do not loc</comment>
   </data>
   <data name="Reload.Content" xml:space="preserve">
-    <value>刷新</value>
+    <value>重新加载</value>
   </data>
   <data name="SettingsBtn.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>设置</value>
@@ -273,15 +273,12 @@
     <value>仅显示重复条目</value>
   </data>
   <data name="TooManyHostsTeachingTip.Subtitle" xml:space="preserve">
-    <value>每条最多填写九个域名</value>
+    <value>每条最多填写九个域名，太长的条目已被拆分，保存后生效。</value>
     <comment>"Hosts" refers to the system hosts file, do not loc</comment>
   </data>
   <data name="TooManyHostsTeachingTip.Title" xml:space="preserve">
     <value>域名数量过多</value>
     <comment>"Hosts" refers to the system hosts file, do not loc</comment>
-  </data>
-  <data name="TooManyHostsTeachingTipContent.Text" xml:space="preserve">
-    <value>相关条目已被拆分，将会在下次更改时生效。</value>
   </data>
   <data name="UpdateBtn" xml:space="preserve">
     <value>更新</value>
@@ -303,7 +300,7 @@
   <data name="WarningDialog_Title" xml:space="preserve">
     <value>警告</value>
   </data>
-  <data name="Window.Title" xml:space="preserve">
+  <data name="WindowTitle" xml:space="preserve">
     <value>域名表编辑器</value>
     <comment>"Hosts File Editor" is the name of the utility. "Hosts" refers to the system hosts file, do not loc</comment>
   </data>

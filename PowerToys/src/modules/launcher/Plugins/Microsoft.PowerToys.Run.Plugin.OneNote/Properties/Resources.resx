@@ -121,6 +121,6 @@
     <value>OneNote 笔记</value>
   </data>
   <data name="PluginDescription" xml:space="preserve">
-    <value>搜索 OneNone 笔记（仅支持 Office 套装中的桌面版 OneNote 应用）</value>
+    <value>搜索桌面版 OneNone 笔记</value>
   </data>
 </root>

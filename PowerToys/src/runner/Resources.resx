@@ -122,4 +122,8 @@
   <data name="BUGREPORT_SUCCESS" xml:space="preserve">
     <value>问题报告已打包，Zip 文件位于桌面。</value>
   </data>
+  <data name="PT_VERSION_CHANGE_ASK_FOR_COMPUTER_RESTART" xml:space="preserve">
+    <value>PowerToys 新版本安装完成，由于程序文件路径变更，需要重启电脑，来重新加载系统集成功能。</value>
+    <comment>File Explorer refers to the Windows File Explorer application.</comment>
+  </data>
 </root>

@@ -1,7 +1,7 @@
 @echo off
 chcp 65001>nul
 color f0
-if not exist "%~dp0IObitUnlocker\IObitUnlocker.exe" echo 检测到文件缺失，请解压后运行！&pause&exit
+if not exist "%~dp0组策略文件\安装组策略.cmd" echo 检测到文件缺失，请解压后运行！&pause&exit
 echo 请允许管理员权限以便安装，谢谢。
 %1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",1)(window.close)&&exit
 cd /d %~dp0
@@ -53,17 +53,15 @@ set modver=%modver% ARM64
 
 :install
 echo 开始安装！
+if exist "%tmp%\PowerToys.FileLocksmithExt.dll_*" del "%tmp%\PowerToys.FileLocksmithExt.dll_*"
 if exist "%tmp%\PowerToys.PowerRenameExt.dll_*" del "%tmp%\PowerToys.PowerRenameExt.dll_*"
+if exist "%tmp%\PowerToys.RegistryPreviewExt.dll_*" del "%tmp%\PowerToys.RegistryPreviewExt.dll_*"
 if exist "%tmp%\PowerToys.ImageResizerExt.dll_*" del "%tmp%\PowerToys.ImageResizerExt.dll_*"
 :chcp 936>nul
 call :killpt
 xcopy ".\%softname% %modver%\*" "%installpath%" /e /y
 if %errorlevel%==0 goto success
 echo 尝试解锁...
-echo 点击确认以继续安装...
-.\IObitUnlocker\IObitUnlocker.exe /None /Advanced "%installpath%"
-xcopy ".\%softname% %modver%\*" "%installpath%" /e /y
-if %errorlevel%==0 goto success
 taskkill /f /im explorer.exe
 xcopy ".\%softname% %modver%\*" "%installpath%" /e /y
 if %errorlevel%==0 start explorer&goto success
@@ -73,10 +71,14 @@ echo 这些文件放到了系统临时文件夹。
 ::
 echo 你可能需要重启电脑来使汉化生效。
 ::
+if exist "%tmp%\PowerToys.FileLocksmithExt.dll_*" del "%tmp%\PowerToys.FileLocksmithExt.dll_*"
+if exist "%installpath%WinUI3Apps\PowerToys.FileLocksmithExt.dll" move "%installpath%WinUI3Apps\PowerToys.FileLocksmithExt.dll" "%tmp%\PowerToys.FileLocksmithExt.dll_%random%.tmp"
 if exist "%tmp%\PowerToys.PowerRenameExt.dll_*" del "%tmp%\PowerToys.PowerRenameExt.dll_*"
-if exist "%installpath%modules\PowerRename\PowerToys.PowerRenameExt.dll" move "%installpath%modules\PowerRename\PowerToys.PowerRenameExt.dll" "%tmp%\PowerToys.PowerRenameExt.dll_%random%.tmp"
+if exist "%installpath%WinUI3Apps\PowerToys.PowerRenameExt.dll" move "%installpath%WinUI3Apps\PowerToys.PowerRenameExt.dll" "%tmp%\PowerToys.PowerRenameExt.dll_%random%.tmp"
+if exist "%tmp%\PowerToys.RegistryPreviewExt.dll_*" del "%tmp%\PowerToys.RegistryPreviewExt.dll_*"
+if exist "%installpath%WinUI3Apps\PowerToys.RegistryPreviewExt.dll" move "%installpath%WinUI3Apps\PowerToys.RegistryPreviewExt.dll" "%tmp%\PowerToys.RegistryPreviewExt.dll_%random%.tmp"
 if exist "%tmp%\PowerToys.ImageResizerExt.dll_*" del "%tmp%\PowerToys.ImageResizerExt.dll_*"
-if exist "%installpath%modules\PowerRename\PowerToys.ImageResizerExt.dll" move "%installpath%modules\PowerRename\PowerToys.ImageResizerExt.dll" "%tmp%\PowerToys.ImageResizerExt.dll_%random%.tmp"
+if exist "%installpath%PowerToys.ImageResizerExt.dll" move "%installpath%PowerToys.ImageResizerExt.dll" "%tmp%\PowerToys.ImageResizerExt.dll_%random%.tmp"
 echo 再试一次...
 echo.
 echo.
@@ -84,10 +86,6 @@ call :killpt
 xcopy ".\%softname% %modver%\*" "%installpath%" /e /y
 if %errorlevel%==0 goto success
 echo 尝试解锁...
-echo 点击确认以继续安装...
-.\IObitUnlocker\IObitUnlocker.exe /None /Advanced "%installpath%"
-xcopy ".\%softname% %modver%\*" "%installpath%" /e /y
-if %errorlevel%==0 goto success
 taskkill /f /im explorer.exe
 xcopy ".\%softname% %modver%\*" "%installpath%" /e /y
 if %errorlevel%==0 start explorer&goto success
@@ -121,8 +119,6 @@ msg %username% /time:2 /v /w 安装完成！>nul
 goto :eof
 
 :killpt
-tasklist /fi "IMAGENAME eq PowerToys.exe" | findstr PowerToys.exe
-if %errorlevel%==0 taskkill /f /im PowerToys.exe
-tasklist /fi "IMAGENAME eq PowerToys.Awake.exe" | findstr PowerToys.Awake.exe
-if %errorlevel%==0 taskkill /f /im PowerToys.Awake.exe
+taskkill /F /IM "PowerToys*"
+taskkill /F /IM "PowerToys*"
 goto :eof

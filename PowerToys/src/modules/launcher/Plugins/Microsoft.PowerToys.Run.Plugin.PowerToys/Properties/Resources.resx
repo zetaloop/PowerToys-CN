@@ -117,66 +117,47 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="PluginTitle" xml:space="preserve">
-    <value>注册表</value>
+  <data name="Action_Open_Settings" xml:space="preserve">
+    <value>打开设置 (Ctrl+Shift+S)</value>
   </data>
-  <data name="PluginDescription" xml:space="preserve">
-    <value>浏览 Windows 注册表</value>
-    <comment>"this built into Windows the OS. translate accordingly, https://learn.microsoft.com/troubleshoot/windows-server/performance/windows-registry-advanced-users is an example of it translated in German"</comment>
+  <data name="Action_Run_As_Administrator" xml:space="preserve">
+    <value>管理员权限运行 (Ctrl+Shift+Enter)</value>
   </data>
-  <data name="CopyKeyNamePath" xml:space="preserve">
-    <value>复制路径</value>
-    <comment>'The maximum size of a key name is 255 characters.'</comment>
+  <data name="Color_Picker" xml:space="preserve">
+    <value>取色器</value>
+    <comment>"Color Picker" is the name of the utility</comment>
   </data>
-  <data name="KeyName" xml:space="preserve">
-    <value>路径:</value>
-    <comment>'The maximum size of a key name is 255 characters.'</comment>
+  <data name="FancyZones_Editor" xml:space="preserve">
+    <value>窗口布局编辑器</value>
+    <comment>"FancyZones" is the name of the utility</comment>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>名称:</value>
+  <data name="Hosts_File_Editor" xml:space="preserve">
+    <value>域名表编辑器</value>
+    <comment>"Hosts File Editor" is the name of the utility</comment>
   </data>
-  <data name="CopyValueName" xml:space="preserve">
-    <value>复制值名称</value>
+  <data name="Plugin_Description" xml:space="preserve">
+    <value>打开 PowerToys 功能</value>
   </data>
-  <data name="OpenKeyInRegistryEditor" xml:space="preserve">
-    <value>在注册表编辑器中打开</value>
-    <comment>"registry editor" is the name of the OS built-in application</comment>
+  <data name="Plugin_Name" xml:space="preserve">
+    <value>PowerToys</value>
   </data>
-  <data name="OpenInRegistryEditorAccessExceptionText" xml:space="preserve">
-    <value>没有权限打开 Windows 注册表编辑器</value>
-    <comment>"registry editor" is the name of the OS built-in application </comment>
+  <data name="Registry_Preview" xml:space="preserve">
+    <value>注册表预览工具</value>
+    <comment>"Registry Preview" is the name of the utility</comment>
   </data>
-  <data name="OpenInRegistryEditorAccessExceptionTitle" xml:space="preserve">
-    <value>注册表编辑器打开失败</value>
-    <comment>"registry editor" is the name of the OS built-in application</comment>
+  <data name="Screen_Ruler" xml:space="preserve">
+    <value>屏幕标尺</value>
+    <comment>"Screen Ruler" is the name of the utility</comment>
   </data>
-  <data name="SubKeys" xml:space="preserve">
-    <value>子项:</value>
+  <data name="Shortcut_Guide" xml:space="preserve">
+    <value>快捷键指南</value>
+    <comment>"Shortcut Guide" is the name of the utility</comment>
   </data>
-  <data name="Values" xml:space="preserve">
-    <value>值:</value>
+  <data name="Subtitle_Powertoys_Utility" xml:space="preserve">
+    <value>PowerToys 功能</value>
   </data>
-  <data name="RegistryKey" xml:space="preserve">
-    <value>注册表项</value>
-  </data>
-  <data name="RegistryValue" xml:space="preserve">
-    <value>注册表值</value>
-  </data>
-  <data name="Type" xml:space="preserve">
-    <value>类型:</value>
-    <comment>See https://learn.microsoft.com/windows/win32/sysinfo/registry-value-types for proper context of how to translate 'type'</comment>
-  </data>
-  <data name="Value" xml:space="preserve">
-    <value>数据:</value>
-    <comment>See https://learn.microsoft.com/windows/win32/sysinfo/registry-value-types for proper context of how to translate 'value'</comment>
-  </data>
-  <data name="RegistryValueKindNone" xml:space="preserve">
-    <value>无类型</value>
-  </data>
-  <data name="RegistryValueKindUnknown" xml:space="preserve">
-    <value>未知类型</value>
-  </data>
-  <data name="CopyValueData" xml:space="preserve">
-    <value>复制值数据</value>
+  <data name="Text_Extractor" xml:space="preserve">
+    <value>文本提取器</value>
+    <comment>"Text Extractor" is the name of the utility</comment>
   </data>
 </root>

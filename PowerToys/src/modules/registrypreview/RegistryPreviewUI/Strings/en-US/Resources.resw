@@ -161,6 +161,7 @@
   </data>
   <data name="OkButtonText" xml:space="preserve">
     <value>好的</value>
+    <comment>as on the OK button</comment>
   </data>
   <data name="OpenButton.Label" xml:space="preserve">
     <value>打开</value>
@@ -181,9 +182,6 @@
     <value>另存为</value>
   </data>
   <data name="SaveButton.Label" xml:space="preserve">
-    <value>保存</value>
-  </data>
-  <data name="SaveButtonText" xml:space="preserve">
     <value>保存</value>
   </data>
   <data name="SuggestFileName" xml:space="preserve">
@@ -218,6 +216,7 @@
   </data>
   <data name="TypeColumn.Header" xml:space="preserve">
     <value>类型</value>
+    <comment>noun, as in "a type of..."</comment>
   </data>
   <data name="UACDialogError" xml:space="preserve">
     <value>打开和写入系统注册表需要管理员权限，在刚才的弹窗中请点击允许。</value>
@@ -235,7 +234,7 @@
     <value>取消</value>
   </data>
   <data name="YesNoCancelDialogContent" xml:space="preserve">
-    <value>文件已更改。是否需要保存？</value>
+    <value>文件有改动，现在保存吗？</value>
   </data>
   <data name="YesNoCancelDialogPrimaryButtonText" xml:space="preserve">
     <value>保存</value>

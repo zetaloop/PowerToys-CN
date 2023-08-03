@@ -118,15 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Bounds" xml:space="preserve">
-    <value>框选</value>
+    <value>框选 (Ctrl+1)</value>
   </data>
   <data name="Spacing" xml:space="preserve">
-    <value>间距</value>
+    <value>间距 (Ctrl+2)</value>
   </data>
   <data name="HorizontalSpacing" xml:space="preserve">
-    <value>水平间距</value>
+    <value>水平间距 (Ctrl+3)</value>
   </data>
   <data name="VerticalSpacing" xml:space="preserve">
-    <value>垂直间距</value>
+    <value>垂直间距 (Ctrl+4)</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>关闭 (Esc)</value>
   </data>
 </root>

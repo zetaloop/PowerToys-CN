@@ -1,5 +1,6 @@
 ﻿using System.Windows.Forms;
 using System.Collections.Generic;
+using System.Drawing;
 
 namespace MouseWithoutBorders
 {
@@ -700,6 +701,16 @@ namespace MouseWithoutBorders
             this.groupBoxShortcuts.TabIndex = 200;
             this.groupBoxShortcuts.TabStop = false;
             this.groupBoxShortcuts.Text = " 快捷键(&K) ";
+
+
+            ToolTip groupBoxToolTip = new ToolTip();
+            groupBoxToolTip.SetToolTip(this.groupBoxShortcuts, "以下设置由 PowerToys 设置界面控制.");
+
+            foreach (Control control in this.groupBoxShortcuts.Controls)
+            {
+                control.Enabled = false;
+            }
+
             // 
             // labelScreenCapture
             // 

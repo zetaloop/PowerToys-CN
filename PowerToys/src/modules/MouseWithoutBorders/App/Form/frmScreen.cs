@@ -893,11 +893,23 @@ namespace MouseWithoutBorders
             }
         }
 
-        internal void ShowToolTip(string txt, int timeOutInMilliseconds, ToolTipIcon icon = ToolTipIcon.Info)
+        internal void ShowToolTip(string txt, int timeOutInMilliseconds, ToolTipIcon icon = ToolTipIcon.Info, bool forceEvenIfHidingOldUI = false)
         {
             if (!Common.RunOnLogonDesktop && !Common.RunOnScrSaverDesktop)
             {
+                var oldNotifyVisibility = NotifyIcon.Visible;
+
+                // In order to show tooltips, the icon needs to be shown.
+                if (forceEvenIfHidingOldUI)
+                {
+                    NotifyIcon.Visible = true;
+                }
+
                 NotifyIcon.ShowBalloonTip(timeOutInMilliseconds, Application.ProductName, txt, icon);
+                if (forceEvenIfHidingOldUI)
+                {
+                    NotifyIcon.Visible = oldNotifyVisibility;
+                }
             }
         }
 
@@ -938,6 +950,11 @@ namespace MouseWithoutBorders
             {
                 NotifyIcon.Visible = false;
                 NotifyIcon.Visible = Setting.Values.ShowOriginalUI;
+            }
+
+            if (Program.ShowServiceModeErrorTooltip)
+            {
+                Common.ShowToolTip("服务启动失败，将以一般模式继续运行，请在设置中重新打开服务模式.", 10000, forceEvenIfHidingOldUI: true);
             }
         }
 
