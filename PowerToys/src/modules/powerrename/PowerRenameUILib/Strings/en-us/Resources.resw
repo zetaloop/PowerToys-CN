@@ -142,7 +142,7 @@
     <value>一个及以上非空白字符</value>
   </data>
   <data name="RegExCheatSheet_MatchWordBoundary" xml:space="preserve">
-    <value>一个英文单词，[a-zA-Z0-9_]</value>
+    <value>一个英文单词的边界，[a-zA-Z0-9_]</value>
   </data>
   <data name="RegExCheatSheet_LearnMore.Text" xml:space="preserve">
     <value>了解正则表达式</value>
@@ -150,68 +150,86 @@
   <data name="ReplaceBox.PlaceholderText" xml:space="preserve">
     <value>替换为</value>
   </data>
+  <data name="CounterCheatSheet_Title.Text" xml:space="preserve">
+    <value>数字编号器用法</value>
+  </data>
+  <data name="CounterCheatSheet_Simple" xml:space="preserve">
+    <value>简单的递增</value>
+  </data>
+  <data name="CounterCheatSheet_Start" xml:space="preserve">
+    <value>自定义起始值</value>
+  </data>
+  <data name="CounterCheatSheet_Increment" xml:space="preserve">
+    <value>自定义增量</value>
+  </data>
+  <data name="CounterCheatSheet_Padding" xml:space="preserve">
+    <value>自定义前导零</value>
+  </data>
+  <data name="CounterCheatSheet_Complex" xml:space="preserve">
+    <value>更复杂的自定义</value>
+  </data>
   <data name="DateTimeCheatSheet_Title.Text" xml:space="preserve">
     <value>文件名参数</value>
   </data>
   <data name="DateTimeCheatSheet_FullYear" xml:space="preserve">
-    <value>年份，2021</value>
+    <value>年份，2023</value>
   </data>
   <data name="DateTimeCheatSheet_YearLastTwoDigits" xml:space="preserve">
-    <value>年份 后两位，21</value>
+    <value>年份后两位，23</value>
   </data>
   <data name="DateTimeCheatSheet_YearLastDigit" xml:space="preserve">
-    <value>年份 后一位，1</value>
+    <value>年份后一位，3</value>
   </data>
   <data name="DateTimeCheatSheet_MonthName" xml:space="preserve">
-    <value>月份 中文，一月</value>
+    <value>月份名，一月</value>
   </data>
   <data name="DateTimeCheatSheet_MonthNameAbbr" xml:space="preserve">
-    <value>月份 中文 缩写，1月</value>
+    <value>月份缩写，1月</value>
   </data>
   <data name="DateTimeCheatSheet_MonthDigitLZero" xml:space="preserve">
-    <value>月份 补零，01-12</value>
+    <value>月份补零，01-12</value>
   </data>
   <data name="DateTimeCheatSheet_MonthDigit" xml:space="preserve">
     <value>月份，1-12</value>
   </data>
   <data name="DateTimeCheatSheet_DayName" xml:space="preserve">
-    <value>星期，星期一</value>
+    <value>星期名，星期一</value>
   </data>
   <data name="DateTimeCheatSheet_DayNameAbbr" xml:space="preserve">
-    <value>星期 缩写，周一</value>
+    <value>星期缩写，周一</value>
   </data>
   <data name="DateTimeCheatSheet_DayDigitLZero" xml:space="preserve">
-    <value>日期 补零，01-31</value>
+    <value>日期补零，01-31</value>
   </data>
   <data name="DateTimeCheatSheet_DayDigit" xml:space="preserve">
     <value>日期，1-31</value>
   </data>
   <data name="DateTimeCheatSheet_HoursLZero" xml:space="preserve">
-    <value>小时 补零，00-23</value>
+    <value>小时补零，00-23</value>
   </data>
   <data name="DateTimeCheatSheet_Hours" xml:space="preserve">
     <value>小时，0-23</value>
   </data>
   <data name="DateTimeCheatSheet_MinutesLZero" xml:space="preserve">
-    <value>分钟 补零，00-59</value>
+    <value>分钟补零，00-59</value>
   </data>
   <data name="DateTimeCheatSheet_Minutes" xml:space="preserve">
     <value>分钟，0-59</value>
   </data>
   <data name="DateTimeCheatSheet_SecondsLZero" xml:space="preserve">
-    <value>秒钟 补零，00-59</value>
+    <value>秒钟补零，00-59</value>
   </data>
   <data name="DateTimeCheatSheet_Seconds" xml:space="preserve">
     <value>秒钟，0-59</value>
   </data>
   <data name="DateTimeCheatSheet_MilliSeconds3D" xml:space="preserve">
-    <value>毫秒 全三位，123</value>
+    <value>毫秒，123</value>
   </data>
   <data name="DateTimeCheatSheet_MilliSeconds2D" xml:space="preserve">
-    <value>毫秒 前两位，12</value>
+    <value>毫秒前两位，12</value>
   </data>
   <data name="DateTimeCheatSheet_MilliSeconds1D" xml:space="preserve">
-    <value>毫秒 前一位，1</value>
+    <value>毫秒前一位，1</value>
   </data>
   <data name="CheckBox_RegEx.Content" xml:space="preserve">
     <value>正则表达式</value>
@@ -336,6 +354,13 @@
   <data name="ErrorMessage_InvalidChar" xml:space="preserve">
     <value>文件名不能包含以下字符：&#xD;&#xA; &gt; &lt; | " : ? * \ /</value>
   </data>
-
-
+  <data name="RenameParts_FilenameAndExtension.Content" xml:space="preserve">
+    <value>文件名 + 扩展名</value>
+  </data>
+  <data name="RenameParts_FilenameOnly.Content" xml:space="preserve">
+    <value>仅文件名</value>
+  </data>
+  <data name="RenameParts_ExtensionOnly.Content" xml:space="preserve">
+    <value>仅扩展名</value>
+  </data>
 </root>

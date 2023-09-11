@@ -118,7 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Settings_Description" xml:space="preserve">
-    <value>这个功能需要 Win 10 版本 1903 及以上</value>
+    <value>本功能需要系统版本至少为 Win 10 1903</value>
+    <comment>Windows = the OS</comment>
   </data>
   <data name="KeyboardManager" xml:space="preserve">
     <value>键盘修改器</value>
@@ -138,6 +139,7 @@
   </data>
   <data name="EditKeyboard_WindowName" xml:space="preserve">
     <value>单键重映射</value>
+    <comment>keys on a keyboard</comment>
   </data>
   <data name="EditShortcuts_WindowName" xml:space="preserve">
     <value>组合键重映射</value>
@@ -152,18 +154,14 @@
     <value>确定</value>
   </data>
   <data name="EditKeyboard_SourceHeader" xml:space="preserve">
-    <value>按键</value>
-    <comment>Key on a keyboard</comment>
+    <value>按下</value>
+    <comment>verb, alternative to "type a key on a keyboard"</comment>
   </data>
   <data name="EditKeyboard_TargetHeader" xml:space="preserve">
-    <value>修改功能</value>
-  </data>
-  <data name="EditShortcuts_SourceHeader" xml:space="preserve">
-    <value>按键组合</value>
-    <comment>key sequence on a keyboard, example Control+C to copy a string</comment>
+    <value>发送</value>
   </data>
   <data name="EditShortcuts_TargetHeader" xml:space="preserve">
-    <value>修改功能</value>
+    <value>发送</value>
   </data>
   <data name="EditShortcuts_TargetAppHeader" xml:space="preserve">
     <value>目标程序</value>
@@ -173,28 +171,31 @@
     <comment>Key on a keyboard</comment>
   </data>
   <data name="EditKeyboard_PartialConfirmationDialogTitle" xml:space="preserve">
-    <value>部分按键修改失败</value>
+    <value>部分按键映射失败</value>
   </data>
   <data name="EditShortcuts_PartialConfirmationDialogTitle" xml:space="preserve">
-    <value>部分组合键修改失败</value>
+    <value>部分组合键映射失败</value>
   </data>
   <data name="EditKeyboard_Info" xml:space="preserve">
-    <value>选择要修改的按键与目标功能</value>
+    <value>选择要修改的按键和按下后发送的功能</value>
   </data>
   <data name="EditKeyboard_InfoExample" xml:space="preserve">
-    <value>例如，若要按下 A 复制，把 A 修改成 Ctrl+C 即可。若要按键互换，可以互相修改映射。</value>
+    <value>例如，若要按下 A 来复制，把 A 映射为发送 Ctrl+C 即可。若要按键互换，可以互相映射。</value>
+    <comment>Key on a keyboard</comment>
   </data>
   <data name="EditShortcuts_Info" xml:space="preserve">
-    <value>选择要修改的按键组合与目标功能</value>
+    <value>选择要修改的按键组合和按下后发送的功能</value>
+    <comment>Key on a keyboard</comment>
   </data>
   <data name="EditShortcuts_InfoExample" xml:space="preserve">
-    <value>例如，若要在 Edge 浏览器中把 Alt+T 变成 Ctrl+T，请把 Alt+T 修改成 Ctrl+T，目标程序 msedge。
+    <value>例如，若要在 Edge 浏览器中把 Alt+T 变成 Ctrl+T，请把 Alt+T 映射为发送 Ctrl+T，目标程序 msedge。
 目标程序是指进程名称（msedge）而非应用名（Edge 浏览器），不区分大小写。
 设置好的重映射单键优先于组合键。</value>
+    <comment>Key on a keyboard</comment>
   </data>
   <data name="Type_Button" xml:space="preserve">
-    <value>输入</value>
-    <comment>As in type a key on a keyboard</comment>
+    <value>选择</value>
+    <comment>verb, alternative to "type a key on a keyboard"</comment>
   </data>
   <data name="TypeKey_Title" xml:space="preserve">
     <value>请按下按键</value>
@@ -202,15 +203,15 @@
   </data>
   <data name="TypeShortcut_Title" xml:space="preserve">
     <value>请按下按键（组合）</value>
-    <comment>Key on a keyboard</comment>
+    <comment>Keys on a keyboard</comment>
   </data>
   <data name="TypeKey_Header" xml:space="preserve">
-    <value>当前输入：</value>
+    <value>当前选择了：</value>
     <comment>Key on a keyboard</comment>
   </data>
   <data name="TypeShortcut_Header" xml:space="preserve">
-    <value>当前输入：</value>
-    <comment>Key on a keyboard</comment>
+    <value>当前选择了：</value>
+    <comment>Keys on a keyboard</comment>
   </data>
   <data name="Type_HoldEnter" xml:space="preserve">
     <value>长按回车确定</value>
@@ -222,13 +223,13 @@
     <value>（全局生效）</value>
   </data>
   <data name="ErrorMessage_RemapSuccessful" xml:space="preserve">
-    <value>成功修改</value>
+    <value>成功映射</value>
   </data>
   <data name="ErrorMessage_RemapUnsuccessful" xml:space="preserve">
-    <value>部分修改应用失败</value>
+    <value>部分映射设置失败</value>
   </data>
   <data name="ErrorMessage_SameKeyPreviouslyMapped" xml:space="preserve">
-    <value>一个按键不能同时修改成多个功能</value>
+    <value>一个按键不能同时发送多个功能</value>
     <comment>Key on a keyboard</comment>
   </data>
   <data name="ErrorMessage_MappedToSameKey" xml:space="preserve">
@@ -236,27 +237,27 @@
     <comment>Key on a keyboard</comment>
   </data>
   <data name="ErrorMessage_ConflictingModifierKey" xml:space="preserve">
-    <value>与另一修改冲突</value>
+    <value>与另一映射冲突</value>
     <comment>Key on a keyboard</comment>
   </data>
   <data name="ErrorMessage_SameShortcutPreviouslyMapped" xml:space="preserve">
-    <value>一个按键组合不能同时修改成多个功能</value>
+    <value>一个按键组合不能同时发送多个功能</value>
   </data>
   <data name="ErrorMessage_MapToSameShortcut" xml:space="preserve">
     <value>您这啥也没改</value>
   </data>
   <data name="ErrorMessage_ConflictingModifierShortcut" xml:space="preserve">
-    <value>与另一修改冲突</value>
+    <value>与另一映射冲突</value>
   </data>
   <data name="ErrorMessage_WinL" xml:space="preserve">
     <value>无法修改 Win+L</value>
-    <comment>Win refers to Windows as in the OS</comment>
+    <comment>Win refers to the key on a keyboard</comment>
   </data>
   <data name="ErrorMessage_CtrlAltDel" xml:space="preserve">
     <value>无法修改 Ctrl+Alt+Del</value>
   </data>
   <data name="ErrorMessage_SaveFailed" xml:space="preserve">
-    <value>保存重映射失败</value>
+    <value>映射保存失败</value>
   </data>
   <data name="ErrorMessage_ShortcutStartWithModifier" xml:space="preserve">
     <value>必须以修饰键开头</value>
@@ -296,7 +297,7 @@
     <value>添加组合键重映射</value>
   </data>
   <data name="Delete_Remapping_Button" xml:space="preserve">
-    <value>删除重映射</value>
+    <value>删除映射</value>
   </data>
   <data name="Delete_Remapping_Event" xml:space="preserve">
     <value>映射已删除</value>
@@ -308,5 +309,9 @@
   <data name="ERRORMESSAGE_DISABLEASACTIONKEY" xml:space="preserve">
     <value>“空白”不能作为按键</value>
     <comment>Key on a keyboard</comment>
+  </data>
+  <data name="EditShortcuts_SourceHeader" xml:space="preserve">
+    <value>选择</value>
+    <comment>key sequence on a keyboard, example: Ctrl+C to copy a string</comment>
   </data>
 </root>

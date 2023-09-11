@@ -1833,7 +1833,7 @@
     <value>没有任何唤醒词时也显示</value>
   </data>
   <data name="PowerLauncher_EnablePluginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Enable plugin</value>
+    <value>启用插件</value>
   </data>
   <data name="PowerLauncher_EnablePluginToggle.OnContent" xml:space="preserve">
     <value>开</value>
@@ -1853,10 +1853,10 @@
   <data name="Run_AllPluginsDisabled.Message" xml:space="preserve">
     <value>试试开启一个插件</value>
   </data>
-  <data name="Run_PluginUseDescription.Header" xml:space="preserve">
+  <data name="Run_PluginUse.Header" xml:space="preserve">
     <value>插件列表</value>
   </data>
-  <data name="Run_PluginUseDescription.Description" xml:space="preserve">
+  <data name="Run_PluginUseDescription.Text" xml:space="preserve">
     <value>在搜索结果中开启各种插件，更改触发方式，调整附加选项</value>
   </data>
   <data name="Run_PositionAppearance_GroupSettings.Header" xml:space="preserve">
@@ -2484,7 +2484,7 @@
     <value>请按下你想要的快捷键</value>
   </data>
   <data name="Activation_Shortcut_With_Disable_Description" xml:space="preserve">
-	<value>请按下你想要的快捷键
+    <value>请按下你想要的快捷键
 点击右键清除快捷键，清除后关闭该功能</value>
   </data>
   <data name="Activation_Shortcut_Reset" xml:space="preserve">
@@ -2733,6 +2733,59 @@
   <data name="ToggleSwitch.OnContent" xml:space="preserve">
     <value>开</value>
     <comment>The state of a ToggleSwitch when it's on</comment>
+  </data>
+  <data name="CropAndLock.ModuleDescription" xml:space="preserve">
+    <value>实时截取所选窗口的一小块</value>
+    <comment>"Crop And Lock" is the name of the utility</comment>
+  </data>
+  <data name="CropAndLock.ModuleTitle" xml:space="preserve">
+    <value>窗口镜像</value>
+    <comment>"Crop And Lock" is the name of the utility</comment>
+  </data>
+  <data name="CropAndLock_Activation_GroupSettings.Header" xml:space="preserve">
+    <value>快捷键</value>
+  </data>
+  <data name="CropAndLock_EnableToggleControl_HeaderText.Header" xml:space="preserve">
+    <value>启用窗口镜像</value>
+    <comment>"Crop And Lock" is the name of the utility</comment>
+  </data>
+  <data name="Shell_CropAndLock.Content" xml:space="preserve">
+    <value>窗口镜像</value>
+    <comment>"Crop And Lock" is the name of the utility</comment>
+  </data>
+  <data name="LearnMore_CropAndLock.Text" xml:space="preserve">
+    <value>进一步学习窗口镜像</value>
+    <comment>"Crop And Lock" is the name of the utility</comment>
+  </data>
+  <data name="CropAndLock_ReparentActivation_Shortcut.Header" xml:space="preserve">
+    <value>重定向窗口</value>
+  </data>
+  <data name="CropAndLock_ReparentActivation_Shortcut.Description" xml:space="preserve">
+    <value>通过重定向来截取窗口的一部分，可以控制窗口，可能造成窗口出错</value>
+  </data>
+  <data name="CropAndLock_ThumbnailActivation_Shortcut.Header" xml:space="preserve">
+    <value>投影窗口</value>
+  </data>
+  <data name="CropAndLock_ThumbnailActivation_Shortcut.Description" xml:space="preserve">
+    <value>弹出新窗口，实时投影所选窗口的一部分画面，不可控制但兼容性更好</value>
+  </data>
+  <data name="CropAndLock.SecondaryLinksHeader" xml:space="preserve">
+    <value>贡献</value>
+    <comment>giving credit to the projects this utility was based on</comment>
+  </data>
+  <data name="Oobe_CropAndLock.Title" xml:space="preserve">
+    <value>窗口镜像</value>
+    <comment>"Crop And Lock" is the name of the utility</comment>
+  </data>
+  <data name="Oobe_CropAndLock.Description" xml:space="preserve">
+    <value>从当前窗口截取一小块，创建镜像显示窗口</value>
+    <comment>"Crop And Lock" is the name of the utility</comment>
+  </data>
+  <data name="Oobe_CropAndLock_HowToUse_Thumbnail.Text" xml:space="preserve">
+    <value>弹出新窗口，实时投影所选窗口的一部分，镜像只能显示不能交互，兼容性更好</value>
+  </data>
+  <data name="Oobe_CropAndLock_HowToUse_Reparent.Text" xml:space="preserve">
+    <value>修改原窗口，通过重定向父级窗口截取窗口的一部分，可以交互但兼容性差</value>
   </data>
   <data name="AlwaysOnTop.ModuleDescription" xml:space="preserve">
     <value>一键置顶当前窗口。</value>
@@ -3609,5 +3662,17 @@
   </data>
   <data name="MouseUtils_MousePointerCrosshairs_CrosshairsAutoHide.Content" xml:space="preserve">
     <value>隐藏鼠标指针时自动关闭准心</value>
+  </data>
+  <data name="MouseUtils_AutoActivate.Content" xml:space="preserve">
+    <value>启动后自动打开</value>
+  </data>
+  <data name="Run_FindMorePlugins.Text" xml:space="preserve">
+    <value>获取更多插件</value>
+  </data>
+  <data name="Run_PluginUseFindMorePlugins.Content" xml:space="preserve">
+    <value>获取更多插件</value>
+  </data>
+  <data name="AlwaysOnTop_FrameOpacity.Header" xml:space="preserve">
+    <value>不透明度（%）</value>
   </data>
 </root>

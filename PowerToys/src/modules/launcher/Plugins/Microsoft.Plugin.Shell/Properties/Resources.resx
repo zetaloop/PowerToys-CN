@@ -131,7 +131,6 @@
   </data>
   <data name="wox_plugin_cmd_run_as_administrator" xml:space="preserve">
     <value>以管理员身份打开/执行(Ctrl+Shift+Enter)</value>
-    <comment>&gt;cmd  &gt;C:  共用此标志</comment>
   </data>
   <data name="wox_plugin_cmd_command_failed" xml:space="preserve">
     <value>命令执行错误</value>
@@ -141,5 +140,8 @@
   </data>
   <data name="wox_plugin_cmd_run_as_user" xml:space="preserve">
     <value>以管理员身份打开/执行(Ctrl+Shift+U)</value>
+  </data>
+  <data name="wox_leave_shell_open" xml:space="preserve">
+    <value>保持终端窗口打开</value>
   </data>
 </root>

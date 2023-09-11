@@ -127,6 +127,14 @@
     <value>取色器</value>
     <comment>"Color Picker" is the name of the utility</comment>
   </data>
+  <data name="Crop_And_Lock_Reparent" xml:space="preserve">
+    <value>窗口镜像（重定向）</value>
+    <comment>"Crop And Lock" is the name of the utility, "Reparent" is the activation mode</comment>
+  </data>
+  <data name="Crop_And_Lock_Thumbnail" xml:space="preserve">
+    <value>窗口镜像（投影）</value>
+    <comment>"Crop And Lock" is the name of the utility, "Thumbnail" is the activation mode</comment>
+  </data>
   <data name="FancyZones_Editor" xml:space="preserve">
     <value>窗口布局编辑器</value>
     <comment>"FancyZones" is the name of the utility</comment>

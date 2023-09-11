@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (c) Microsoft Corporation.
      Licensed under the MIT License. -->
-<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.2" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.3" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
   <displayName>PowerToys</displayName>
   <description>PowerToys</description>
   <resources>
@@ -13,6 +13,7 @@
       <string id="SUPPORTED_POWERTOYS_0_68_0">PowerToys 版本 0.68.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_69_0">PowerToys 版本 0.69.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_70_0">PowerToys 版本 0.70.0 或更高版本</string>
+      <string id="SUPPORTED_POWERTOYS_0_73_0">PowerToys 版本 0.73.0 或更高版本</string>
 
       <string id="ConfigureEnabledUtilityDescription">此策略控制 PowerToys 功能的启用状态。
 
@@ -67,6 +68,7 @@
       <string id="ConfigureEnabledUtilityAlwaysOnTop">窗口置顶: 启用该功能</string>
       <string id="ConfigureEnabledUtilityAwake">阻止睡眠: 启用该功能</string>
       <string id="ConfigureEnabledUtilityColorPicker">取色器: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityCropAndLock">窗口镜像: 启用该功能</string>
       <string id="ConfigureEnabledUtilityFancyZones">窗口布局: 启用该功能</string>
       <string id="ConfigureEnabledUtilityFileLocksmith">文件师傅: 启用该功能</string>
       <string id="ConfigureEnabledUtilityFileExplorerSVGPreview">预览增强 - SVG 文件预览: 启用该功能</string>

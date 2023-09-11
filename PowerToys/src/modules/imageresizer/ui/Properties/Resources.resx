@@ -149,7 +149,7 @@
     <value>覆盖原图(_E)</value>
   </data>
   <data name="Input_Resize" xml:space="preserve">
-    <value>执行(_R)</value>
+    <value>执行</value>
   </data>
   <data name="Input_ShrinkOnly" xml:space="preserve">
     <value>图像小于目标时不操作(_M)</value>
@@ -185,7 +185,7 @@
     <value>操作中……</value>
   </data>
   <data name="Progress_Stop" xml:space="preserve">
-    <value>停止(_S)</value>
+    <value>停止</value>
   </data>
   <data name="Progress_TimeRemaining_HourMinute" xml:space="preserve">
     <value>剩余 {0} 小时 {1} 分。</value>
@@ -282,5 +282,13 @@
   </data>
   <data name="Input_RemoveMetadata" xml:space="preserve">
     <value>删除图片元数据</value>
+  </data>
+  <data name="HeightChar" xml:space="preserve">
+    <value>高</value>
+    <comment>First character of 'Height'</comment>
+  </data>
+  <data name="WidthChar" xml:space="preserve">
+    <value>宽</value>
+    <comment>First character of 'Width'</comment>
   </data>
 </root>

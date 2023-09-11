@@ -5,6 +5,8 @@
 #include "keyboard_layout_impl.h"
 #include "shared_constants.h"
 
+constexpr DWORD numpadOriginBit = 1ull << 31;
+
 LayoutMap::LayoutMap() :
     impl(new LayoutMap::LayoutMapImpl())
 {
@@ -110,7 +112,6 @@ void LayoutMap::LayoutMapImpl::UpdateLayout()
     keyboardLayoutMap[VK_BACK] = L"Backspace";
     keyboardLayoutMap[VK_TAB] = L"Tab";
     keyboardLayoutMap[VK_CLEAR] = L"Clear";
-    keyboardLayoutMap[VK_RETURN] = L"Enter";
     keyboardLayoutMap[VK_SHIFT] = L"Shift";
     keyboardLayoutMap[VK_CONTROL] = L"Ctrl";
     keyboardLayoutMap[VK_MENU] = L"Alt";
@@ -118,23 +119,39 @@ void LayoutMap::LayoutMapImpl::UpdateLayout()
     keyboardLayoutMap[VK_CAPITAL] = L"Caps Lock";
     keyboardLayoutMap[VK_ESCAPE] = L"Esc";
     keyboardLayoutMap[VK_SPACE] = L"Space";
+
+    keyboardLayoutMap[VK_LEFT] = L"Left";
+    keyboardLayoutMap[VK_RIGHT] = L"Right";
+    keyboardLayoutMap[VK_UP] = L"Up";
+    keyboardLayoutMap[VK_DOWN] = L"Down";
+    keyboardLayoutMap[VK_INSERT] = L"Insert";
+    keyboardLayoutMap[VK_DELETE] = L"Delete";
     keyboardLayoutMap[VK_PRIOR] = L"PgUp";
     keyboardLayoutMap[VK_NEXT] = L"PgDn";
-    keyboardLayoutMap[VK_END] = L"End";
     keyboardLayoutMap[VK_HOME] = L"Home";
-    keyboardLayoutMap[VK_LEFT] = L"Left";
-    keyboardLayoutMap[VK_UP] = L"Up";
-    keyboardLayoutMap[VK_RIGHT] = L"Right";
-    keyboardLayoutMap[VK_DOWN] = L"Down";
+    keyboardLayoutMap[VK_END] = L"End";
+    keyboardLayoutMap[VK_RETURN] = L"Enter";
+
+    keyboardLayoutMap[VK_LEFT | numpadOriginBit] = L"Left (Ð¡¼üÅÌ)";
+    keyboardLayoutMap[VK_RIGHT | numpadOriginBit] = L"Right (Ð¡¼üÅÌ)";
+    keyboardLayoutMap[VK_UP | numpadOriginBit] = L"Up (Ð¡¼üÅÌ)";
+    keyboardLayoutMap[VK_DOWN | numpadOriginBit] = L"Down (Ð¡¼üÅÌ)";
+    keyboardLayoutMap[VK_INSERT | numpadOriginBit] = L"Insert (Ð¡¼üÅÌ)";
+    keyboardLayoutMap[VK_DELETE | numpadOriginBit] = L"Delete (Ð¡¼üÅÌ)";
+    keyboardLayoutMap[VK_PRIOR | numpadOriginBit] = L"PgUp (Ð¡¼üÅÌ)";
+    keyboardLayoutMap[VK_NEXT | numpadOriginBit] = L"PgDn (Ð¡¼üÅÌ)";
+    keyboardLayoutMap[VK_HOME | numpadOriginBit] = L"Home (Ð¡¼üÅÌ)";
+    keyboardLayoutMap[VK_END | numpadOriginBit] = L"End (Ð¡¼üÅÌ)";
+    keyboardLayoutMap[VK_RETURN | numpadOriginBit] = L"Enter (Ð¡¼üÅÌ)";
+    keyboardLayoutMap[VK_DIVIDE | numpadOriginBit] = L"/ (Ð¡¼üÅÌ)";
+
     keyboardLayoutMap[VK_SELECT] = L"Select";
     keyboardLayoutMap[VK_PRINT] = L"Print";
     keyboardLayoutMap[VK_EXECUTE] = L"Execute";
     keyboardLayoutMap[VK_SNAPSHOT] = L"Print Screen";
-    keyboardLayoutMap[VK_INSERT] = L"Insert";
-    keyboardLayoutMap[VK_DELETE] = L"Delete";
     keyboardLayoutMap[VK_HELP] = L"Help";
-    keyboardLayoutMap[VK_LWIN] = L"Win£¨×ó£©";
-    keyboardLayoutMap[VK_RWIN] = L"Win£¨ÓÒ£©";
+    keyboardLayoutMap[VK_LWIN] = L"Win (×ó)";
+    keyboardLayoutMap[VK_RWIN] = L"Win (ÓÒ)";
     keyboardLayoutMap[VK_APPS] = L"Apps/Menu";
     keyboardLayoutMap[VK_SLEEP] = L"Sleep";
     keyboardLayoutMap[VK_NUMPAD0] = L"Ð¡¼üÅÌ 0";
@@ -174,12 +191,12 @@ void LayoutMap::LayoutMapImpl::UpdateLayout()
     keyboardLayoutMap[VK_F24] = L"F24";
     keyboardLayoutMap[VK_NUMLOCK] = L"Num Lock";
     keyboardLayoutMap[VK_SCROLL] = L"Scroll Lock";
-    keyboardLayoutMap[VK_LSHIFT] = L"Shift£¨×ó£©";
-    keyboardLayoutMap[VK_RSHIFT] = L"Shift£¨ÓÒ£©";
-    keyboardLayoutMap[VK_LCONTROL] = L"Ctrl£¨×ó£©";
-    keyboardLayoutMap[VK_RCONTROL] = L"Ctrl£¨ÓÒ£©";
-    keyboardLayoutMap[VK_LMENU] = L"Alt£¨×ó£©";
-    keyboardLayoutMap[VK_RMENU] = L"Alt£¨ÓÒ£©";
+    keyboardLayoutMap[VK_LSHIFT] = L"Shift (×ó)";
+    keyboardLayoutMap[VK_RSHIFT] = L"Shift (ÓÒ)";
+    keyboardLayoutMap[VK_LCONTROL] = L"Ctrl (×ó)";
+    keyboardLayoutMap[VK_RCONTROL] = L"Ctrl (ÓÒ)";
+    keyboardLayoutMap[VK_LMENU] = L"Alt (×ó)";
+    keyboardLayoutMap[VK_RMENU] = L"Alt (ÓÒ)";
     keyboardLayoutMap[VK_BROWSER_BACK] = L"Browser Back";
     keyboardLayoutMap[VK_BROWSER_FORWARD] = L"Browser Forward";
     keyboardLayoutMap[VK_BROWSER_REFRESH] = L"Browser Refresh";
@@ -273,6 +290,12 @@ std::vector<DWORD> LayoutMap::LayoutMapImpl::GetKeyCodeList(const bool isShortcu
                     specialKeys.push_back(i);
                 }
             }
+        }
+
+        // Add numpad keys
+        for (auto it = keyboardLayoutMap.rbegin(); it->first & numpadOriginBit; ++it)
+        {
+            keyCodes.push_back(it->first);
         }
 
         // Sort the special keys in alphabetical order
