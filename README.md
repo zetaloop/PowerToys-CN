@@ -8,7 +8,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 --- 反馈问题：Issue 或 zetaloop@outlook.com
 
---- 版本：v0.72.0
+--- 版本：v0.73.0
 
 --- 现已支持 x64 & ARM64（ARM64 请自行编译）
 
@@ -16,7 +16,7 @@ PowerToys 自制简体中文翻译优化补丁
 
 下载汉化包（Github）：[https://github.com/zetaloop/PowerToys-Chinese-TransMOD/releases/latest](https://github.com/zetaloop/PowerToys-Chinese-TransMOD/releases/latest)
 
-下载汉化包（蓝奏云）：[https://zeta.lanzouq.com/b01l3qmaj](https://zeta.lanzouq.com/b01l3qmaj) 密码：zeta
+下载汉化包（蓝奏云）：[https://zeta.lanzouq.com/b01lfcw3a](https://zeta.lanzouq.com/b01lfcw3a) 密码：zeta
 
 _（上面的图片使用 Bing Image Creator + Adobe Firefly 调整制作，不保留任何权利）_
 
@@ -41,7 +41,7 @@ _（上面的图片使用 Bing Image Creator + Adobe Firefly 调整制作，不�
 <img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/7.png"/>
 <img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/8.png"/>
 
-PowerToys 模块名称：窗口置顶 阻止睡眠 取色器 窗口布局 文件师傅 预览增强 域名表编辑 图像裁剪器 键盘修改器 鼠标工具箱 无界鼠标 纯文本粘贴 快速查看 批量重命名 快捷启动器 字母助手 注册表预览 屏幕标尺 快捷键指南 文本提取 直播工具
+PowerToys 模块名称：窗口置顶 阻止睡眠 取色器 窗口镜像 窗口布局 文件师傅 预览增强 域名表编辑 图像裁剪器 键盘修改器 鼠标工具箱 无界鼠标 纯文本粘贴 快速查看 批量重命名 快捷启动器 字母助手 注册表预览 屏幕标尺 快捷键指南 文本提取 直播工具
 
 PowerToys 通用设置界面、快捷面板、各模块预设及设置界面
 
@@ -52,6 +52,8 @@ PowerToys 运行信息、提示消息、状态栏菜单
 PowerToys Awake 操作界面、状态栏菜单
 
 Color Picker 操作界面
+
+Crop And Lock 窗口标题
 
 FancyZones 操作界面
 
