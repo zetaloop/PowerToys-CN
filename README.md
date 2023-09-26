@@ -1,24 +1,22 @@
-# PowerToys Custom Simplified Chinese Translation Patch
+# PowerToys Simplified Chinese Translation
 
-<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/PCTMODx11.topic.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-CN/master/to.pic/PCTMODx12.topic.png"/>
 
-PowerToys 自制简体中文翻译优化补丁
+PowerToys 简体中文翻译优化补丁
 
 根据使用习惯精修，做说人话的翻译。  **汇报 bug 请用官方版本重现**。
 
---- 反馈问题：Issue 或 zetaloop@outlook.com
+- 反馈问题：Issue 或 zetaloop@outlook.com
 
---- 版本：v0.73.0
+- 版本：v0.73.0
 
---- 现已支持 x64 & ARM64（ARM64 请自行编译）
+- 现已支持 x64 & ARM64（ARM64 请自行编译）
 
-下载官方安装包：[https://github.com/microsoft/PowerToys](https://github.com/microsoft/PowerToys)
+下载 原版安装包：[https://github.com/microsoft/PowerToys](https://github.com/microsoft/PowerToys)
 
-下载汉化包（Github）：[https://github.com/zetaloop/PowerToys-Chinese-TransMOD/releases/latest](https://github.com/zetaloop/PowerToys-Chinese-TransMOD/releases/latest)
+下载 汉化包（Github）：[https://github.com/zetaloop/PowerToys-CN/releases/latest](https://github.com/zetaloop/PowerToys-CN/releases/latest)
 
-下载汉化包（蓝奏云）：[https://zeta.lanzouq.com/b01lfcw3a](https://zeta.lanzouq.com/b01lfcw3a) 密码：zeta
-
-_（上面的图片使用 Bing Image Creator + Adobe Firefly 调整制作，不保留任何权利）_
+下载 汉化包（蓝奏云）：[https://zeta.lanzouq.com/b01lfcw3a](https://zeta.lanzouq.com/b01lfcw3a) 密码：zeta
 
 ## 使用方法
 
@@ -32,14 +30,14 @@ _（上面的图片使用 Bing Image Creator + Adobe Firefly 调整制作，不�
 
 ## 优化清单
 
-<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/1.png"/>
-<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/2.png"/>
-<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/3.png"/>
-<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/4.png"/>
-<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/5.png"/>
-<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/6.png"/>
-<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/7.png"/>
-<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-Chinese-TransMOD/master/to.pic/8.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-CN/master/to.pic/1.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-CN/master/to.pic/2.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-CN/master/to.pic/3.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-CN/master/to.pic/4.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-CN/master/to.pic/5.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-CN/master/to.pic/6.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-CN/master/to.pic/7.png"/>
+<img src="https://cdn.staticaly.com/gh/zetaloop/PowerToys-CN/master/to.pic/8.png"/>
 
 PowerToys 模块名称：窗口置顶 阻止睡眠 取色器 窗口镜像 窗口布局 文件师傅 预览增强 域名表编辑 图像裁剪器 键盘修改器 鼠标工具箱 无界鼠标 纯文本粘贴 快速查看 批量重命名 快捷启动器 字母助手 注册表预览 屏幕标尺 快捷键指南 文本提取 直播工具
 
@@ -87,4 +85,4 @@ Video Conference Mute 按键图片、摄像头设备名称
 
 ## 星标趋势
 
-[![Stargazers over time](https://starchart.cc/zetaloop/PowerToys-Chinese-TransMOD.svg)](https://starchart.cc/zetaloop/PowerToys-Chinese-TransMOD)
+[![Stargazers over time](https://starchart.cc/zetaloop/PowerToys-CN.svg)](https://starchart.cc/zetaloop/PowerToys-CN)
