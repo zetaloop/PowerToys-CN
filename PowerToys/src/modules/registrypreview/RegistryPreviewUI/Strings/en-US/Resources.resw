@@ -138,6 +138,12 @@
   <data name="FilterRegistryName" xml:space="preserve">
     <value>注册表文件 (*.reg)</value>
   </data>
+  <data name="InvalidBinary" xml:space="preserve">
+    <value>(无效二进制值)</value>
+  </data>
+  <data name="InvalidDword" xml:space="preserve">
+    <value>(无效 DWORD (32 位) 值)</value>
+  </data>
   <data name="InvalidQword" xml:space="preserve">
     <value>(无效 QWORD (64 位) 值)</value>
   </data>
@@ -146,6 +152,9 @@
   </data>
   <data name="InvalidRegistryFileTitle" xml:space="preserve">
     <value>非注册表文件</value>
+  </data>
+  <data name="InvalidString" xml:space="preserve">
+    <value>(无效字符串值)</value>
   </data>
   <data name="LargeRegistryFile" xml:space="preserve">
     <value> 大于 10MB，注册表预览工具无法打开该文件。</value>

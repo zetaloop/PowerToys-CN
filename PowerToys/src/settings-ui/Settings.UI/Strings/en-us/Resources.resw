@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -735,6 +735,12 @@
   </data>
   <data name="PowerLauncher_SearchResultPreference.Header" xml:space="preserve">
     <value>搜索结果设置</value>
+  </data>
+  <data name="PowerLauncher_UsePinyin.Header" xml:space="preserve">
+    <value>拼音搜索</value>
+  </data>
+  <data name="PowerLauncher_UsePinyin.Description" xml:space="preserve">
+    <value>支持用拼音搜索，这是实验性的新功能，不一定支持所有插件</value>
   </data>
   <data name="PowerLauncher_SearchResultPreference_MostRecentlyUsed" xml:space="preserve">
     <value>最近使用</value>
@@ -2167,6 +2173,7 @@
   </data>
   <data name="SettingsWindow_Title" xml:space="preserve">
     <value>PowerToys 设置</value>
+    <comment>Title of the settings window when running as user</comment>
   </data>
   <data name="Awake.ModuleTitle" xml:space="preserve">
     <value>阻止睡眠</value>
@@ -2399,7 +2406,7 @@
     <comment>Mouse as in the hardware peripheral</comment>
   </data>
   <data name="Oobe_MouseUtils_FindMyMouse_Description.Text" xml:space="preserve">
-    <value>晃动鼠标或双击左 Ctrl 键，在鼠标光标所在位置投下聚光灯，便于寻找光标。</value>
+    <value>晃动鼠标或按下快捷键，在鼠标光标所在位置投下聚光灯，便于寻找光标。</value>
     <comment>Mouse as in the hardware peripheral. Key as in a keyboard key</comment>
   </data>
   <data name="Oobe_MouseUtils_MouseHighlighter.Text" xml:space="preserve">
@@ -2584,6 +2591,9 @@
   <data name="MouseUtils_FindMyMouse_AnimationDurationMs.Description" xml:space="preserve">
     <value>聚光灯出现、消失的时长</value>
     <comment>ms = milliseconds</comment>
+  </data>
+  <data name="MouseUtils_FindMyMouse_AnimationDurationMs_Disabled.Message" xml:space="preserve">
+    <value>动画效果已被系统禁用，选项位于设置 &gt; 辅助功能 &gt; 视觉效果</value>
   </data>
   <data name="MouseUtils_FindMyMouse_ShakingMinimumDistance.Header" xml:space="preserve">
     <value>晃动距离</value>
@@ -3626,11 +3636,8 @@
     <value>最大宽度（像素）</value>
     <comment>px = pixels</comment>
   </data>
-  <data name="SettingsWindow_TitleTxt.Text" xml:space="preserve">
-    <value>PowerToys 设置</value>
-  </data>
   <data name="Oobe_Peek.Description" xml:space="preserve">
-    <value>为 Windows 系统带来了雷雳般速度的文件快速查看功能。</value>
+    <value>给 Windows 系统也带来了雷雳般迅速的文件快速查看功能。</value>
   </data>
   <data name="Oobe_Peek.Title" xml:space="preserve">
     <value>快速查看</value>
@@ -3674,5 +3681,22 @@
   </data>
   <data name="AlwaysOnTop_FrameOpacity.Header" xml:space="preserve">
     <value>不透明度（%）</value>
+  </data>
+  <data name="MouseUtils_FindMyMouse_ActivationCustomizedShortcut.Content" xml:space="preserve">
+    <value>自定义快捷键</value>
+  </data>
+  <data name="MouseUtils_FindMyMouse_ActivationDoubleRightControlPress.Content" xml:space="preserve">
+    <value>双击右 Ctrl 键</value>
+    <comment>Right control is the physical key on the keyboard.</comment>
+  </data>
+  <data name="MouseUtils_FindMyMouse_ActivationShortcut.Description" xml:space="preserve">
+    <value>按一下打开，再按一下关掉</value>
+  </data>
+  <data name="MouseUtils_FindMyMouse_ActivationShortcut.Header" xml:space="preserve">
+    <value>激活快捷键</value>
+  </data>
+  <data name="SettingsWindow_AdminTitle" xml:space="preserve">
+    <value>管理员权限: PowerToys 设置</value>
+    <comment>Title of the settings window when running as administrator</comment>
   </data>
 </root>

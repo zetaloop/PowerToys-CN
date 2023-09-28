@@ -117,11 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AppTitle.Title" xml:space="preserve">
+  <data name="AppTitle" xml:space="preserve">
     <value>文件师傅</value>
-  </data>
-  <data name="AppTitleText.Text" xml:space="preserve">
-    <value>文件师傅</value>
+    <comment>Title of the window when running as user.</comment>
   </data>
   <data name="EmptyListDescription.Text" xml:space="preserve">
     <value>无占用</value>
@@ -161,5 +159,9 @@
   </data>
   <data name="User.Header" xml:space="preserve">
     <value>用户</value>
+  </data>
+  <data name="AppAdminTitle" xml:space="preserve">
+    <value>管理员权限: 文件师傅</value>
+    <comment>Title of the window when running as administrator.</comment>
   </data>
 </root>
