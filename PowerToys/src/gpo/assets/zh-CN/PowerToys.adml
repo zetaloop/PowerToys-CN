@@ -1,37 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (c) Microsoft Corporation.
      Licensed under the MIT License. -->
-<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.3" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.4" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
   <displayName>PowerToys</displayName>
   <description>PowerToys</description>
   <resources>
     <stringTable>
       <string id="PowerToys">Microsoft PowerToys</string>
 	  <string id="InstallerUpdates">安装与更新</string>
+	  <string id="PowerToysRun">快捷启动器</string>
 
       <string id="SUPPORTED_POWERTOYS_0_64_0">PowerToys 版本 0.64.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_68_0">PowerToys 版本 0.68.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_69_0">PowerToys 版本 0.69.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_70_0">PowerToys 版本 0.70.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_73_0">PowerToys 版本 0.73.0 或更高版本</string>
+      <string id="SUPPORTED_POWERTOYS_0_75_0">PowerToys 版本 0.75.0 或更高版本</string>
 
-      <string id="ConfigureEnabledUtilityDescription">此策略控制 PowerToys 功能的启用状态。
+            <string id="ConfigureGlobalUtilityEnabledStateDescription">此策略控制所有 PowerToys 功能的启用状态。
+
+如果策略设置为“已启用”，所有功能将始终启用，用户不可以禁用任何功能。
+
+如果策略设置为“已禁用”，所有功能将始终禁用，用户不可以启用任何功能。
+
+如果策略设置为“未配置”，用户可以自由地启用和禁用功能。
+
+特定某个功能的启用状态策略将会覆盖此策略。
+</string>
+
+	  <string id="ConfigureEnabledUtilityDescription">此策略控制一个 PowerToys 功能的启用状态。
 
 如果策略设置为“已启用”，该功能将始终启用，用户不可以禁用这个功能。
 
 如果策略设置为“已禁用”，该功能将始终禁用，用户不可以启用这个功能。
 
 如果策略设置为“未配置”，用户可以自由地启用和禁用这个功能。
+
+该策略比“配置所有功能的启用状态”策略优先级更高，将会覆盖其设置。
 </string>
       <string id="ConfigureEnabledUtilityDescriptionPDFPreviewHandler">（注意：有用户反馈 PDF 预览与 Outlook 不兼容）
 
-此策略控制 PowerToys 功能的启用状态。
+此策略控制一个 PowerToys 功能的启用状态。
 
 如果策略设置为“已启用”，该功能将始终启用，用户不可以禁用这个功能。
 
 如果策略设置为“已禁用”，该功能将始终禁用，用户不可以启用这个功能。
 
 如果策略设置为“未配置”，用户可以自由地启用和禁用这个功能。
+
+该策略比“配置所有功能的启用状态”策略优先级更高，将会覆盖其设置。
 </string>
       <string id="DisablePerUserInstallationDescription">此策略控制是否允许单用户安装。
 
@@ -65,6 +82,32 @@
 
 如果策略设置为“已禁用”或“未配置”，不允许参与功能测试。
 </string>
+      <string id="PowerToysRunAllPluginsEnabledStateDescription">此策略控制所有快捷启动器插件的启用状态。所有插件将会拥有相同的启用状态。
+
+如果策略设置为“已启用”，所有插件将始终启用，用户不可以禁用任何插件。
+
+如果策略设置为“已禁用”，所有插件将始终禁用，用户不可以启用任何插件。
+
+如果策略设置为“未配置”，用户可以自由地启用和禁用插件。
+
+可以通过“配置特定插件的启用状态”策略来为特定插件配置启用状态覆盖此设置。特定某个功能的启用状态策略将会覆盖此策略。
+
+注意：更改需要重新启动快捷启动器才能应用。
+</string>
+      <string id="PowerToysRunIndividualPluginEnabledStateDescription">此策略控制列表中每个快捷启动器插件的启用状态。
+
+如果策略设置为“已启用”，你可以在列表中定义某个插件和其启用状态：
+  - 值名称（第一列）填入插件 ID，可以在插件文件夹内 plugin.json 文件中找到对应 ID。
+  - 值（第二列）填入数字，0 代表禁用，1 代表启用，2 代表由用户控制。
+  - 这是禁用“应用程序”插件的例子: 791FC278BA414111B8D1886DFE447410 | 0
+
+如果策略设置为“已禁用”或“未配置”，用户或“配置所有插件的启用状态”可以控制插件的启用状态。
+
+启用该策略后，你可以通过“配置所有插件的启用状态”策略，来控制列表外的其他插件的启用状态。
+
+注意：更改需要重新启动快捷启动器才能应用。
+</string>
+      <string id="ConfigureGlobalUtilityEnabledState">配置所有功能的启用状态</string>
       <string id="ConfigureEnabledUtilityAlwaysOnTop">窗口置顶: 启用该功能</string>
       <string id="ConfigureEnabledUtilityAwake">阻止睡眠: 启用该功能</string>
       <string id="ConfigureEnabledUtilityColorPicker">取色器: 启用该功能</string>
@@ -103,7 +146,16 @@
       <string id="SuspendNewUpdateToast">减少新版本更新推送</string>
       <string id="DisablePeriodicUpdateCheck">禁用自动检查更新</string>
       <string id="AllowExperimentation">允许功能测试</string>
+      <string id="PowerToysRunAllPluginsEnabledState">配置所有插件的启用状态</string>
+      <string id="PowerToysRunIndividualPluginEnabledState">配置特定插件的启用状态</string>
     </stringTable>
+	
+	<presentationTable>
+	  <presentation id="PowerToysRunIndividualPluginEnabledState">
+        <listBox refId="PowerToysRunIndividualPluginEnabledList">插件管理列表:</listBox>
+      </presentation>
+	</presentationTable>
+	
   </resources>
 </policyDefinitionResources>
 

@@ -24,7 +24,7 @@ namespace Microsoft.PowerToys.Run.Plugin.System
         private bool _confirmSystemCommands;
         private bool _showSuccessOnEmptyRB;
 
-        // [PCTMOD]
+        // [PowerToysCN]
         // private bool _localizeSystemCommands;
         private bool _reduceNetworkResultScore;
         private bool _separateEmptyRB;
@@ -32,6 +32,8 @@ namespace Microsoft.PowerToys.Run.Plugin.System
         public string Name => Resources.Microsoft_plugin_sys_plugin_name;
 
         public string Description => Resources.Microsoft_plugin_sys_plugin_description;
+
+        public static string PluginID => "CEA08895D2544B019B2E9C5009600DF4";
 
         public string IconTheme { get; set; }
 
@@ -52,7 +54,7 @@ namespace Microsoft.PowerToys.Run.Plugin.System
                 Value = false,
             },
 
-            // [PCTMOD]
+            // [PowerToysCN]
             // The original en-US resources are modified to Chinese.
             // No need for an option to switch.
             // new PluginAdditionalOption()
@@ -95,7 +97,7 @@ namespace Microsoft.PowerToys.Run.Plugin.System
         {
             List<Result> results = new List<Result>();
 
-            // [PCTMOD]
+            // [PowerToysCN]
             // CultureInfo culture = _localizeSystemCommands ? CultureInfo.CurrentUICulture : new CultureInfo("en-US");
             CultureInfo culture = CultureInfo.CurrentUICulture;
 
@@ -133,7 +135,7 @@ namespace Microsoft.PowerToys.Run.Plugin.System
             // {
             //    results.Add(new Result()
             //    {
-            //        Title = "Getting network informations. Please wait ...",
+            //        Title = "Getting network information. Please wait ...",
             //        IcoPath = $"Images\\networkAdapter.{IconTheme}.png",
             //        Score = StringMatcher.FuzzySearch("address", "ip address").Score,
             //    });
@@ -145,7 +147,7 @@ namespace Microsoft.PowerToys.Run.Plugin.System
         {
             List<Result> results = new List<Result>();
 
-            // [PCTMOD]
+            // [PowerToysCN]
             // CultureInfo culture = _localizeSystemCommands ? CultureInfo.CurrentUICulture : new CultureInfo("en-US");
             CultureInfo culture = CultureInfo.CurrentUICulture;
 
@@ -226,7 +228,7 @@ namespace Microsoft.PowerToys.Run.Plugin.System
             var confirmSystemCommands = false;
             var showSuccessOnEmptyRB = false;
 
-            // [PCTMOD]
+            // [PowerToysCN]
             // var localizeSystemCommands = true;
             var reduceNetworkResultScore = true;
             var separateEmptyRB = false;
@@ -239,7 +241,7 @@ namespace Microsoft.PowerToys.Run.Plugin.System
                 var optionEmptyRBSuccessMsg = settings.AdditionalOptions.FirstOrDefault(x => x.Key == "ShowSuccessOnEmptyRB");
                 showSuccessOnEmptyRB = optionEmptyRBSuccessMsg?.Value ?? showSuccessOnEmptyRB;
 
-                // [PCTMOD]
+                // [PowerToysCN]
                 // var optionLocalize = settings.AdditionalOptions.FirstOrDefault(x => x.Key == LocalizeSystemCommands);
                 // localizeSystemCommands = optionLocalize?.Value ?? true;
                 var optionNetworkScore = settings.AdditionalOptions.FirstOrDefault(x => x.Key == "ReduceNetworkResultScore");
@@ -252,7 +254,7 @@ namespace Microsoft.PowerToys.Run.Plugin.System
             _confirmSystemCommands = confirmSystemCommands;
             _showSuccessOnEmptyRB = showSuccessOnEmptyRB;
 
-            // [PCTMOD]
+            // [PowerToysCN]
             // _localizeSystemCommands = localizeSystemCommands;
             _reduceNetworkResultScore = reduceNetworkResultScore;
             _separateEmptyRB = separateEmptyRB;

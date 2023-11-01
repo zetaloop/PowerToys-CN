@@ -160,9 +160,9 @@
                 <ContentDialog
                     x:Name="ColorFormatDialog"
                     x:Uid="ColorFormatDialog"
+                    Closed="ColorFormatDialog_Closed"
                     IsPrimaryButtonEnabled="{Binding IsValid, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                    PrimaryButtonStyle="{ThemeResource AccentButtonStyle}"
-                    Closed="ColorFormatDialog_Closed">
+                    PrimaryButtonStyle="{ThemeResource AccentButtonStyle}">
                     <ContentDialog.DataContext>
                         <models:ColorFormatModel />
                     </ContentDialog.DataContext>

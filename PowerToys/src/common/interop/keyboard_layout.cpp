@@ -155,16 +155,16 @@ void LayoutMap::LayoutMapImpl::UpdateLayout()
     keyboardLayoutMap[VK_RWIN] = L"Win (右)";
     keyboardLayoutMap[VK_APPS] = L"Apps/Menu";
     keyboardLayoutMap[VK_SLEEP] = L"Sleep";
-    keyboardLayoutMap[VK_NUMPAD0] = L"小键盘 0";
-    keyboardLayoutMap[VK_NUMPAD1] = L"小键盘 1";
-    keyboardLayoutMap[VK_NUMPAD2] = L"小键盘 2";
-    keyboardLayoutMap[VK_NUMPAD3] = L"小键盘 3";
-    keyboardLayoutMap[VK_NUMPAD4] = L"小键盘 4";
-    keyboardLayoutMap[VK_NUMPAD5] = L"小键盘 5";
-    keyboardLayoutMap[VK_NUMPAD6] = L"小键盘 6";
-    keyboardLayoutMap[VK_NUMPAD7] = L"小键盘 7";
-    keyboardLayoutMap[VK_NUMPAD8] = L"小键盘 8";
-    keyboardLayoutMap[VK_NUMPAD9] = L"小键盘 9";
+    keyboardLayoutMap[VK_NUMPAD0] = L"0 (小键盘)";
+    keyboardLayoutMap[VK_NUMPAD1] = L"1 (小键盘)";
+    keyboardLayoutMap[VK_NUMPAD2] = L"2 (小键盘)";
+    keyboardLayoutMap[VK_NUMPAD3] = L"3 (小键盘)";
+    keyboardLayoutMap[VK_NUMPAD4] = L"4 (小键盘)";
+    keyboardLayoutMap[VK_NUMPAD5] = L"5 (小键盘)";
+    keyboardLayoutMap[VK_NUMPAD6] = L"6 (小键盘)";
+    keyboardLayoutMap[VK_NUMPAD7] = L"7 (小键盘)";
+    keyboardLayoutMap[VK_NUMPAD8] = L"8 (小键盘)";
+    keyboardLayoutMap[VK_NUMPAD9] = L"9 (小键盘)";
     keyboardLayoutMap[VK_SEPARATOR] = L"Separator";
     keyboardLayoutMap[VK_F1] = L"F1";
     keyboardLayoutMap[VK_F2] = L"F2";
@@ -238,6 +238,7 @@ void LayoutMap::LayoutMapImpl::UpdateLayout()
     keyboardLayoutMap[VK_NONCONVERT] = L"IME Non-Convert";
     keyboardLayoutMap[VK_ACCEPT] = L"IME Kana";
     keyboardLayoutMap[VK_MODECHANGE] = L"IME Mode Change";
+    keyboardLayoutMap[VK_DECIMAL] = L". (小键盘)";
     keyboardLayoutMap[CommonSharedConstants::VK_DISABLED] = L"空白";
 }
 
@@ -342,7 +343,7 @@ std::vector<std::pair<DWORD, std::wstring>> LayoutMap::LayoutMapImpl::GetKeyName
     // If it is a key list for the shortcut control then we add a "None" key at the start
     if (isShortcut)
     {
-        keyNames.push_back({ 0, L"无" });
+        keyNames.push_back({ 0, L"None" });
         for (int i = 1; i < keyCodes.size(); i++)
         {
             keyNames.push_back({ keyCodes[i], keyboardLayoutMap[keyCodes[i]] });

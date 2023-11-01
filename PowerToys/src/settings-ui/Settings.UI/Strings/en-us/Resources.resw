@@ -561,6 +561,9 @@
   <data name="VideoConference_ToolbarHideUnmuted.Content" xml:space="preserve">
     <value>摄像头、麦克风均开启时隐藏</value>
   </data>
+  <data name="VideoConference_ToolbarHideTimeout.Content" xml:space="preserve">
+    <value>延时隐藏</value>
+  </data>
   <data name="VideoConference.ModuleTitle" xml:space="preserve">
     <value>直播工具</value>
   </data>
@@ -576,6 +579,21 @@
   <data name="VideoConference_Toolbar.Header" xml:space="preserve">
     <value>工具栏</value>
   </data>
+  <data name="VideoConference_Behavior.Header" xml:space="preserve">
+    <value>功能</value>
+  </data>
+  <data name="VideoConference_StartupAction.Header" xml:space="preserve">
+    <value>启动操作</value>
+  </data>
+  <data name="VideoConference_StartupActionNothing.Content" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="VideoConference_StartupActionUnmute.Content" xml:space="preserve">
+    <value>取消静音</value>
+  </data>
+  <data name="VideoConference_StartupActionMute.Content" xml:space="preserve">
+    <value>静音</value>
+  </data>
   <data name="VideoConference_Shortcuts.Header" xml:space="preserve">
     <value>快捷键</value>
   </data>
@@ -589,7 +607,7 @@
     <value>清除</value>
   </data>
   <data name="Shell_General.Content" xml:space="preserve">
-    <value>常规设置</value>
+    <value>常规</value>
     <comment>Navigation view item name for General</comment>
   </data>
   <data name="Shell_Awake.Content" xml:space="preserve">
@@ -847,8 +865,8 @@
     <value>创建窗口布局，便于多任务处理。</value>
     <comment>windows refers to application windows</comment>
   </data>
-  <data name="FancyZones_DisplayChangeMoveWindowsCheckBoxControl.Content" xml:space="preserve">
-    <value>当屏幕分辨率变化时，自动调整窗口以维持布局</value>
+  <data name="FancyZones_DisplayOrWorkAreaChangeMoveWindowsCheckBoxControl.Content" xml:space="preserve">
+    <value>当屏幕分辨率或工作区变化时，自动调整窗口以维持布局</value>
     <comment>windows refers to application windows</comment>
   </data>
   <data name="FancyZones_EnableToggleControl_HeaderText.Header" xml:space="preserve">
@@ -911,6 +929,9 @@
   </data>
   <data name="FancyZones_ShiftDragCheckBoxControl_Header.Content" xml:space="preserve">
     <value>左键拖动窗口，按住 Shift 激活布局</value>
+  </data>
+  <data name="FancyZones_ActivationNoShiftDrag" xml:space="preserve">
+    <value>直接拖动窗口激活布局</value>
   </data>
   <data name="FancyZones_ShowZonesOnAllMonitorsCheckBoxControl.Content" xml:space="preserve">
     <value>拖动窗口时，在所有显示器上都显示布局区</value>
@@ -1002,7 +1023,7 @@
     <value>电脑开机时自动运行</value>
   </data>
   <data name="PowerRename.ModuleDescription" xml:space="preserve">
-    <value>通过简单的搜索替换来自动重命名文件。</value>
+    <value>通过简单的搜索替换来自动化重命名文件。</value>
   </data>
   <data name="PowerRename_ShellIntegration.Header" xml:space="preserve">
     <value>右键菜单集成</value>
@@ -1141,17 +1162,17 @@
     <value>闲置颜色</value>
   </data>
   <data name="ShortcutGuide.ModuleDescription" xml:space="preserve">
-    <value>显示一份系统快捷键指南图表。</value>
+    <value>显示一份系统快捷键表格。</value>
   </data>
   <data name="ShortcutGuide_PressTimeForGlobalWindowsShortcuts.Header" xml:space="preserve">
-    <value>显示图表的长按时间（毫秒）</value>
+    <value>显示表格的长按时间（毫秒）</value>
     <comment>ms = milliseconds</comment>
   </data>
   <data name="ShortcutGuide_ActivationMethod.Header" xml:space="preserve">
     <value>启动方式</value>
   </data>
   <data name="ShortcutGuide_ActivationMethod.Description" xml:space="preserve">
-    <value>打开快捷键图表的方式</value>
+    <value>打开快捷键表格的方式</value>
   </data>
   <data name="Radio_ShortcutGuide_ActivationMethod_CustomizedShortcut.Content" xml:space="preserve">
     <value>快捷键</value>
@@ -1169,7 +1190,7 @@
     <value>备份</value>
   </data>
   <data name="General_SettingsBackupAndRestore.Header" xml:space="preserve">
-    <value>设置备份</value>
+    <value>备份设置</value>
   </data>
   <data name="General_SettingsBackupAndRestore.Description" xml:space="preserve">
     <value>还原设置需要自动重启软件</value>
@@ -1964,7 +1985,7 @@
     <value>一个像素测量小工具，帮助设计师进行屏幕布局分析。</value>
   </data>
   <data name="Oobe_ShortcutGuide.Description" xml:space="preserve">
-    <value>显示一份系统快捷键图表，展示当前可用的系统快捷操作。</value>
+    <value>显示一份系统快捷键表格，展示当前可用的系统快捷操作。</value>
   </data>
   <data name="Oobe_VideoConference.Description" xml:space="preserve">
     <value>直播工具可以在直播、远程会议时一键关麦和关摄像头。</value>
@@ -2713,6 +2734,9 @@
   <data name="VideoConference_DeprecationWarningButton.Content" xml:space="preserve">
     <value>进一步学习</value>
   </data>
+  <data name="LearnMore.Content" xml:space="preserve">
+    <value>进一步学习</value>
+  </data>
   <data name="VideoConference_RunAsAdminRequired.Title" xml:space="preserve">
     <value>要启用此功能，请以管理员身份重新启动软件</value>
   </data>
@@ -2977,7 +3001,7 @@
     <value>字母助手</value>
   </data>
   <data name="QuickAccent.ModuleDescription" xml:space="preserve">
-    <value>助您顺利打出带标记的特殊字母，特别是键盘不支持的时候。
+    <value>用于输入带标记的特殊字母，当键盘上没有的时候特别方便。
 
 按住字母，按启动键，即可选择多种标记字母！</value>
     <comment>key refers to a physical key on a keyboard</comment>
@@ -2987,6 +3011,78 @@
   </data>
   <data name="QuickAccent.SecondaryLinksHeader" xml:space="preserve">
     <value>贡献</value>
+  </data>
+  <data name="AlwaysOnTop_ShortDescription" xml:space="preserve">
+    <value>置顶窗口</value>
+  </data>
+  <data name="Awake_ShortDescription" xml:space="preserve">
+    <value>阻止电脑睡眠</value>
+  </data>
+  <data name="ColorPicker_ShortDescription" xml:space="preserve">
+    <value>抓取颜色</value>
+  </data>
+  <data name="CropAndLock_Thumbnail" xml:space="preserve">
+    <value>投影窗口</value>
+  </data>
+  <data name="CropAndLock_Reparent" xml:space="preserve">
+    <value>重定向窗口</value>
+  </data>
+  <data name="FancyZones_OpenEditor" xml:space="preserve">
+    <value>启动布局编辑器</value>
+  </data>
+  <data name="FileLocksmith_ShortDescription" xml:space="preserve">
+    <value>在右键菜单中解除文件占用</value>
+  </data>
+  <data name="FindMyMouse_ShortDescription" xml:space="preserve">
+    <value>聚光灯</value>
+  </data>
+  <data name="ImageResizer_ShortDescription" xml:space="preserve">
+    <value>在右键菜单中裁剪图片</value>
+  </data>
+  <data name="MouseHighlighter_ShortDescription" xml:space="preserve">
+    <value>高亮鼠标点击</value>
+  </data>
+  <data name="MouseJump_ShortDescription" xml:space="preserve">
+    <value>小地图闪现</value>
+  </data>
+  <data name="MouseCrosshairs_ShortDescription" xml:space="preserve">
+    <value>十字准线</value>
+  </data>
+  <data name="MouseWithoutBorders_ShortDescription" xml:space="preserve">
+    <value>多设备共用键鼠</value>
+  </data>
+  <data name="PastePlain_ShortDescription" xml:space="preserve">
+    <value>去除格式并粘贴</value>
+  </data>
+  <data name="Peek_ShortDescription" xml:space="preserve">
+    <value>预览选中文件内容</value>
+  </data>
+  <data name="PowerRename_ShortDescription" xml:space="preserve">
+    <value>在右键菜单中自动化重命名文件</value>
+  </data>
+  <data name="Run_ShortDescription" xml:space="preserve">
+    <value>启动器</value>
+  </data>
+  <data name="PowerAccent_ShortDescription" xml:space="preserve">
+    <value>输入标记字母</value>
+  </data>
+  <data name="RegistryPreview_ShortDescription" xml:space="preserve">
+    <value>可视化编辑注册表文件</value>
+  </data>
+  <data name="ScreenRuler_ShortDescription" xml:space="preserve">
+    <value>打开标尺</value>
+  </data>
+  <data name="ShortcutGuide_ShortDescription" xml:space="preserve">
+    <value>显示系统快捷键表格</value>
+  </data>
+  <data name="PowerOcr_ShortDescription" xml:space="preserve">
+    <value>框选截图转文字</value>
+  </data>
+  <data name="Dashboard_Activation" xml:space="preserve">
+    <value>启动方式</value>
+  </data>
+  <data name="DashboardKBMShowMappingsButton.Content" xml:space="preserve">
+    <value>显示当前重映射</value>
   </data>
   <data name="Oobe_QuickAccent.Description" xml:space="preserve">
     <value>字母助手助您顺利打出带标记的特殊字母。</value>
@@ -3144,7 +3240,7 @@
     <value>备份路径无效</value>
   </data>
   <data name="TextExtractor.ModuleDescription" xml:space="preserve">
-    <value>框选截图，一键复制文本。</value>
+    <value>框选截图转文字。</value>
   </data>
   <data name="TextExtractor.ModuleTitle" xml:space="preserve">
     <value>文本提取</value>
@@ -3341,11 +3437,11 @@
     <comment>"Hosts" refers to the system hosts file, do not loc</comment>
   </data>
   <data name="Hosts_LaunchButtonControl.Header" xml:space="preserve">
-    <value>启动编辑器</value>
+    <value>启动域名表编辑器</value>
     <comment>"Host File Editor" is a product name</comment>
   </data>
   <data name="Hosts_LaunchButton_Accessible.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>启动编辑器</value>
+    <value>启动域名表编辑器</value>
     <comment>"Host File Editor" is a product name</comment>
   </data>
   <data name="Hosts_AdditionalLinesPosition.Header" xml:space="preserve">
@@ -3381,6 +3477,48 @@
   </data>
   <data name="Hosts_Toggle_LaunchAdministrator.Header" xml:space="preserve">
     <value>以管理员身份运行</value>
+  </data>
+  <data name="EnvironmentVariables.ModuleDescription" xml:space="preserve">
+    <value>管理系统的环境变量。</value>
+  </data>
+  <data name="EnvironmentVariables.ModuleTitle" xml:space="preserve">
+    <value>环境变量</value>
+  </data>
+  <data name="Shell_EnvironmentVariables.Content" xml:space="preserve">
+    <value>环境变量</value>
+  </data>
+  <data name="EnvironmentVariables_EnableToggleControl_HeaderText.Header" xml:space="preserve">
+    <value>启用环境变量工具</value>
+  </data>
+  <data name="EnvironmentVariables_Activation_GroupSettings.Header" xml:space="preserve">
+    <value>功能</value>
+  </data>
+  <data name="EnvironmentVariables_LaunchButtonControl.Description" xml:space="preserve">
+    <value>管理环境变量</value>
+  </data>
+  <data name="EnvironmentVariables_LaunchButtonControl.Header" xml:space="preserve">
+    <value>启动环境变量编辑器</value>
+  </data>
+  <data name="EnvironmentVariables_LaunchButton_Accessible.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>启动环境变量编辑器</value>
+  </data>
+  <data name="Launch_EnvironmentVariables.Content" xml:space="preserve">
+    <value>启动环境变量编辑器</value>
+  </data>
+  <data name="LearnMore_EnvironmentVariables.Text" xml:space="preserve">
+    <value>进一步学习环境变量工具</value>
+  </data>
+  <data name="Oobe_EnvironmentVariables.Description" xml:space="preserve">
+    <value>便捷的环境变量管理工具，可以编辑变量，也可以套用模板方便管理。</value>
+  </data>
+  <data name="Oobe_EnvironmentVariables.Title" xml:space="preserve">
+    <value>环境变量</value>
+  </data>
+  <data name="EnvironmentVariables_Toggle_LaunchAdministrator.Description" xml:space="preserve">
+    <value>修改系统级环境变量需要管理员权限</value>
+  </data>
+  <data name="EnvironmentVariables_Toggle_LaunchAdministrator.Header" xml:space="preserve">
+    <value>以管理员身份启动</value>
   </data>
   <data name="ShortcutGuide_PressTimeForTaskbarIconShortcuts.Header" xml:space="preserve">
     <value>显示任务栏指示标的长按时间（毫秒）</value>
@@ -3466,7 +3604,7 @@
     <comment>Product name: Navigation view item name for Paste as Plain Text</comment>
   </data>
   <data name="PastePlain.ModuleDescription" xml:space="preserve">
-    <value>一键粘贴纯文本，去除复制的文本中的格式。</value>
+    <value>一键粘贴纯文本，不带字体颜色。</value>
   </data>
   <data name="PastePlain.ModuleTitle" xml:space="preserve">
     <value>纯文本粘贴</value>
@@ -3478,13 +3616,13 @@
     <value>启用纯文本粘贴</value>
   </data>
   <data name="Oobe_PastePlain.Description" xml:space="preserve">
-    <value>一键把复制的带格式文本转换为纯文本进行粘贴。</value>
+    <value>把复制的带有颜色字体等格式的文本，不带格式进行粘贴。</value>
   </data>
   <data name="Oobe_PastePlain.Title" xml:space="preserve">
     <value>纯文本粘贴</value>
   </data>
   <data name="Oobe_PastePlain_HowToUse.Text" xml:space="preserve">
-    <value>以纯文本粘贴。注意：已经保存在剪贴板中的文字格式会被丢弃。</value>
+    <value>以纯文本粘贴。注意：当前剪贴板里带格式的这份文本，会被去除格式的纯文字版本代替。</value>
   </data>
   <data name="AllAppsTxt.Text" xml:space="preserve">
     <value>所有工具</value>
@@ -3538,7 +3676,7 @@
     <comment>"RAM" refers to random access memory; "size" refers to disk space; "bytes" refer to the measurement unit</comment>
   </data>
   <data name="RegistryPreview.ModuleDescription" xml:space="preserve">
-    <value>可视化查看、编辑注册表文件。</value>
+    <value>可视化查看、编辑 .reg 注册表文件。</value>
   </data>
   <data name="RegistryPreview.ModuleTitle" xml:space="preserve">
     <value>注册表预览</value>
@@ -3581,7 +3719,7 @@
     <comment>Refers to the utility name</comment>
   </data>
   <data name="MouseUtils_MouseJump_ActivationShortcut.Description" xml:space="preserve">
-    <value>自定义打开跳转小地图的快捷键</value>
+    <value>自定义打开闪现小地图的快捷键</value>
   </data>
   <data name="MouseUtils_MouseJump_ActivationShortcut.Header" xml:space="preserve">
     <value>启动快捷键</value>
@@ -3679,6 +3817,9 @@
   <data name="Run_PluginUseFindMorePlugins.Content" xml:space="preserve">
     <value>获取更多插件</value>
   </data>
+  <data name="Run_SomePluginsAreGpoManaged.Title" xml:space="preserve">
+    <value>组策略已控制插件启用状态</value>
+  </data>
   <data name="AlwaysOnTop_FrameOpacity.Header" xml:space="preserve">
     <value>不透明度（%）</value>
   </data>
@@ -3698,5 +3839,38 @@
   <data name="SettingsWindow_AdminTitle" xml:space="preserve">
     <value>管理员权限: PowerToys 设置</value>
     <comment>Title of the settings window when running as administrator</comment>
+  </data>
+  <data name="DashboardTitle.Text" xml:space="preserve">
+    <value>主页</value>
+  </data>
+  <data name="Shell_Dashboard.Content" xml:space="preserve">
+    <value>主页</value>
+  </data>
+  <data name="GPO_IsSettingForcedText.Text" xml:space="preserve">
+    <value>组策略已控制此设置</value>
+  </data>
+  <data name="DisabledModules.Text" xml:space="preserve">
+    <value>禁用的模块</value>
+  </data>
+  <data name="EnabledModules.Text" xml:space="preserve">
+    <value>启用的模块</value>
+  </data>
+  <data name="Peek_Preview_GroupSettings.Header" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="Peek_SourceCode_Header.Description" xml:space="preserve">
+    <value>.cpp .py .json .xml .csproj 等，由 Monaco 提供支持</value>
+  </data>
+  <data name="Peek_SourceCode_Header.Header" xml:space="preserve">
+    <value>程序代码</value>
+  </data>
+  <data name="Peek_SourceCode_TryFormat.Description" xml:space="preserve">
+    <value>针对 json 和 xml，不会修改原文件</value>
+  </data>
+  <data name="Peek_SourceCode_TryFormat.Header" xml:space="preserve">
+    <value>自动格式化代码</value>
+  </data>
+  <data name="Peek_SourceCode_WrapText.Content" xml:space="preserve">
+    <value>自动换行</value>
   </data>
 </root>

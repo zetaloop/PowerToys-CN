@@ -1,6 +1,6 @@
 @echo off
 :start0
-cd /d %~dp0..
+cd /d %~dp0..\..
 set pt=%cd%
 cd /d %~dp0
 
@@ -46,7 +46,12 @@ for /f "delims=" %%a in ('%~dp0bin\es -path %pt%-%ver% ext:user') do del /f /q "
 ::del /f /q "%pt%-%ver%\src\modules\imageresizer\dll\ImageResizerExt_i.c"
 ::del /f /q "%pt%-%ver%\src\modules\imageresizer\dll\ImageResizerExt_i.h"
 ::del /f /q "%pt%-%ver%\src\modules\imageresizer\dll\RCa11568"
-rmdir /s /q %pt%-%ver%\src\modules\videoconference\VideoConferenceProxyFilter\Win32
+rmdir /s /q %pt%-%ver%\src\modules\videoconference\VideoConferenceProxyFilter\Release
+rmdir /s /q %pt%-%ver%\src\modules\videoconference\VideoConferenceProxyFilter\Debug
+rmdir /s /q %pt%-%ver%\src\modules\videoconference\VideoConferenceShared\Release
+rmdir /s /q %pt%-%ver%\src\modules\videoconference\VideoConferenceShared\Debug
+rmdir /s /q %pt%-%ver%\src\common\version\Release
+rmdir /s /q %pt%-%ver%\src\common\version\Debug
 
 @echo off
 pause
@@ -54,8 +59,9 @@ pause
 
 :finddir
 echo ¡¤%i%
-set i=%i:~15%
-if "%i:~17,1%"=="-" goto :eof
+set i=%i:~11%
+if "%i:~27,1%"=="-" goto :eof
+if "%i:~27,1%"==" " goto :eof
 REM if "%i:~-5%"=="-orig" goto :eof
 REM if "%i:~-9%"=="-ORIGINAL" goto :eof
 REM if "%i:~-8%"=="-fullbak" goto :eof
@@ -63,7 +69,7 @@ REM if "%i:~-11%"=="-FULLBACKUP" goto :eof
 REM if "%i:~-8%"=="-FULLBAK" goto :eof
 REM if "%i:~-6%"=="-patch" goto :eof
 REM if "%i:~-6%"=="-PATCH" goto :eof
-set i=%i:~11%
+set i=%i:~21%
 set a=%i%
 echo [NEW] -- %a%
 goto :EOF
