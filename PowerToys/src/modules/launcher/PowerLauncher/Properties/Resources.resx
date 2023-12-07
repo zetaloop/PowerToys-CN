@@ -194,4 +194,7 @@
   <data name="ContextMenuItemsAvailable" xml:space="preserve">
     <value>控制按钮可用</value>
   </data>
+  <data name="PluginKeywords" xml:space="preserve">
+    <value>查将关键字</value>
+  </data>
 </root>

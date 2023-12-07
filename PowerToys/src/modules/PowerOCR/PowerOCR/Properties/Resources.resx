@@ -117,85 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="General_Description" xml:space="preserve">
-    <value>PowerToys add-ons for Windows File Explorer.</value>
+  <data name="Cancel" xml:space="preserve">
+    <value>关闭</value>
   </data>
-  <data name="Module_Name" xml:space="preserve">
-    <value>File Explorer</value>
+  <data name="CancelShortcut" xml:space="preserve">
+    <value>关闭 (Esc)</value>
+    <comment>(Esc) indicates the keyboard shortcut</comment>
   </data>
-  <data name="Icon_Key_Name" xml:space="preserve">
-    <value>pt-power-preview</value>
+  <data name="ResultTextSingleLine" xml:space="preserve">
+    <value>单行</value>
   </data>
-  <data name="Explr_Icons_Prev_Sttngs_Group_Desc" xml:space="preserve">
-    <value>Settings Group Header Text</value>
+  <data name="ResultTextSingleLineShortcut" xml:space="preserve">
+    <value>单行 (S)</value>
+    <comment>(S) indicates the keyboard shortcut</comment>
   </data>
-  <data name="Explr_Icons_Prev_Sttngs_Group_Text" xml:space="preserve">
-    <value>Explorer Icons</value>
+  <data name="ResultTextTable" xml:space="preserve">
+    <value>表格</value>
   </data>
-  <data name="Prvpane_File_Prev_Sttngs_Group_Desc" xml:space="preserve">
-    <value>Settings Group Header Text</value>
+  <data name="ResultTextTableShortcut" xml:space="preserve">
+    <value>表格 (T)</value>
+    <comment>(T) indicates the keyboard shortcut</comment>
   </data>
-  <data name="Prvpane_File_Prev_Sttngs_Group_Text" xml:space="preserve">
-    <value>Preview pane extensions</value>
+  <data name="SelectedLang" xml:space="preserve">
+    <value>当前语言</value>
   </data>
-  <data name="Prevpane_Md_Settings_Description" xml:space="preserve">
-    <value>Markdown Previewer</value>
-  </data>
-  <data name="Prevpane_Monaco_Settings_Description" xml:space="preserve">
-    <value>Developer files Previewer</value>
-  </data>  
-  <data name="Prevpane_Md_Settings_Displayname" xml:space="preserve">
-    <value>Markdown Previewer</value>
-  </data>
-  <data name="Prevpane_Svg_Settings_Description" xml:space="preserve">
-    <value>Svg Previewer</value>
-  </data>
-  <data name="Prevpane_Svg_Settings_Displayname" xml:space="preserve">
-    <value>SVG Previewer</value>
-  </data>
-  <data name="Svg_Thumbnail_Provider_Settings_Description" xml:space="preserve">
-    <value>Svg Thumbnail Provider</value>
-  </data>
-  <data name="Explr_Svg_Settings_Description" xml:space="preserve">
-    <value>Render SVG images</value>
-  </data>
-  <data name="FileExplorer_Admin_Restart_Warning_Description" xml:space="preserve">
-    <value>一些预览组件的更改不支持立即生效，请以管理员身份重启软件以生效。</value>
-  </data>
-  <data name="FileExplorer_Admin_Restart_Warning_Title" xml:space="preserve">
-    <value>预览增强组件更改</value>
-  </data>
-  <data name="FileExplorer_Admin_Restart_Warning_Open_Settings" xml:space="preserve">
-    <value>打开设置</value>
-  </data>
-  <data name="FileExplorer_Admin_Restart_Warning_Dont_Show_Again" xml:space="preserve">
-    <value>不再显示</value>
-  </data>
-  <data name="Prevpane_Pdf_Settings_Description" xml:space="preserve">
-    <value>PDF Previewer</value>
-  </data>
-  <data name="Prevpane_Pdf_Settings_Displayname" xml:space="preserve">
-    <value>PDF Previewer</value>
-  </data>
-  <data name="Pdf_Thumbnail_Provider_Settings_Description" xml:space="preserve">
-    <value>Pdf Thumbnail Provider</value>
-  </data>
-  <data name="Gcode_Thumbnail_Provider_Settings_Description" xml:space="preserve">
-    <value>G-code Thumbnail Provider</value>
-  </data>
-  <data name="Prevpane_Gcode_Settings_Description" xml:space="preserve">
-    <value>G-code Previewer</value>
-  </data>
-  <data name="Prevpane_Gcode_Settings_Displayname" xml:space="preserve">
-    <value>G-code Previewer</value>
-  </data>
-  <data name="Stl_Thumbnail_Provider_Settings_Description" xml:space="preserve">
-    <value>Stl Thumbnail Provider</value>
-  </data>
-  <data name="Prevpane_Qoi_Settings_Description" xml:space="preserve">
-    <value>Qoi Previewer</value>
-  </data>
-  <data name="Qoi_Thumbnail_Provider_Settings_Description" xml:space="preserve">
-    <value>Qoi Thumbnail Provider</value>
+  <data name="Settings" xml:space="preserve">
+    <value>设置</value>
   </data>
 </root>

@@ -289,6 +289,13 @@
     <value>按键下拉选择栏</value>
     <comment>Key on a keyboard</comment>
   </data>
+  <data name="Mapping_Type_DropDown_Text" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="Mapping_Type_DropDown_Key_Shortcut" xml:space="preserve">
+    <value>按键</value>
+    <comment>Key on a keyboard</comment>
+  </data>
   <data name="Add_Key_Remap_Button" xml:space="preserve">
     <value>添加单键重映射</value>
     <comment>Key on a keyboard</comment>

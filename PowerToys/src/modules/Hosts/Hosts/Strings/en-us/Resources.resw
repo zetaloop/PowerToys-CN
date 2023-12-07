@@ -228,6 +228,10 @@
     <value>无法保存域名表文件，需要管理员权限。</value>
     <comment>"Hosts" refers to the system hosts file, do not loc</comment>
   </data>
+  <data name="FileSaveError_ReadOnly" xml:space="preserve">
+    <value>无法保存域名表文件，文件不允许写入。</value>
+    <comment>"Hosts" refers to the system hosts file, do not loc</comment>
+  </data>
   <data name="FilterBtn.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>筛选</value>
   </data>
@@ -245,6 +249,9 @@
   <data name="HostsFilter.Header" xml:space="preserve">
     <value>域名</value>
     <comment>"Hosts" refers to the system hosts file, do not loc // 并不是</comment>
+  </data>
+  <data name="MakeWritable.Content" xml:space="preserve">
+    <value>获取写入权限</value>
   </data>
   <data name="MoveDown.Text" xml:space="preserve">
     <value>下移</value>

@@ -1135,6 +1135,21 @@
   <data name="FileExplorerPreview_Color_Thumbnail_STL.Header" xml:space="preserve">
     <value>模型颜色</value>
   </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Preview_QOI.Header" xml:space="preserve">
+    <value>QOI 图像</value>
+    <comment>File type, do not translate</comment>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Preview_QOI.Description" xml:space="preserve">
+    <value>.qoi</value>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_QOI.Header" xml:space="preserve">
+    <value>QOI 图像</value>
+    <comment>File type, do not translate</comment>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_QOI.Description" xml:space="preserve">
+    <value>.qoi</value>
+    <comment>File extension, should not be altered</comment>
+  </data>
   <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_PDF.Header" xml:space="preserve">
     <value>PDF 文档</value>
     <comment>File type, do not translate</comment>
@@ -1406,10 +1421,10 @@
     <value>取色器</value>
   </data>
   <data name="PowerLauncher.ModuleTitle" xml:space="preserve">
-    <value>快速启动器</value>
+    <value>快捷启动器</value>
   </data>
   <data name="PowerToys_Run_Image.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>快速启动器</value>
+    <value>快捷启动器</value>
   </data>
   <data name="PowerRename.ModuleTitle" xml:space="preserve">
     <value>批量重命名</value>
@@ -1601,7 +1616,7 @@
   </data>
   <data name="FancyZones_Editor_GroupSettings.Header" xml:space="preserve">
     <value>编辑器</value>
-    <comment>refers to the FancyZone editor</comment>
+    <comment>refers to the FancyZones editor</comment>
   </data>
   <data name="FancyZones_WindowBehavior_GroupSettings.Header" xml:space="preserve">
     <value>窗口功能</value>
@@ -2183,6 +2198,9 @@
     <value>入门指南</value>
     <comment>Don't loc "PowerToys"</comment>
   </data>
+	<data name="WhatIsNew_NavViewItem.Content" xml:space="preserve">
+    <value>更新日志</value>
+  </data>
   <data name="Feedback_NavViewItem.Content" xml:space="preserve">
     <value>问题反馈</value>
   </data>
@@ -2353,6 +2371,10 @@
   </data>
   <data name="LearnMore_Awake.Text" xml:space="preserve">
     <value>进一步学习阻止睡眠工具</value>
+    <comment>Awake is a product name, do not loc</comment>
+  </data>
+  <data name="SecondaryLink_Awake.Text" xml:space="preserve">
+    <value>Den Delimarsky 开发了该功能</value>
     <comment>Awake is a product name, do not loc</comment>
   </data>
   <data name="LearnMore_ColorPicker.Text" xml:space="preserve">
@@ -2530,6 +2552,14 @@
   <data name="InvalidShortcutWarningLabel.Text" xml:space="preserve">
     <value>正确的快捷键需要包含 **Win**、**Ctrl**、**Alt** 或 **Shift**</value>
     <comment>The ** sequences are used for text formatting of the key names. Don't remove them on translation.</comment>
+  </data>
+  <data name="WarningShortcutAltGr.Title" xml:space="preserve">
+    <value>Ctrl + Alt 可能会干扰 Alt Gr 按键</value>
+    <comment>Alt Gr refers to the right alt key on some international keyboards</comment>
+  </data>
+  <data name="WarningShortcutAltGr.ToolTipService.ToolTip" xml:space="preserve">
+    <value>对于一些国际和欧洲键盘布局，设置 Ctrl + Alt 的快捷键可能会导致一些需要按住 Alt Gr 来输入的字符打不出来，因为在这些键盘上 Ctrl + Alt = Alt Gr</value>
+    <comment>The ** sequences are used for text formatting of the key names. Don't remove them on translation.  // 你他喵的格式化没开！当前版本暂时先不要**</comment>
   </data>
   <data name="FancyZones_SpanZonesAcrossMonitors.Description" xml:space="preserve">
     <value>显示器的缩放比例需相同，且将视作一整个长方形</value>
@@ -3251,6 +3281,9 @@
   <data name="TextExtractor_SupportedLanguages.Title" xml:space="preserve">
     <value>文本提取功能由系统 OCR 识别包提供，可按需安装更多语言</value>
   </data>
+  <data name="TextExtractor_UseSnippingToolWarning.Title" xml:space="preserve">
+    <value>Win11 截图工具有更好的文本提取功能，推荐用那个</value>
+  </data>
   <data name="TextExtractor_SupportedLanguages_Link.Content" xml:space="preserve">
     <value>进一步学习多语言支持</value>
   </data>
@@ -3333,6 +3366,9 @@
   <data name="QuickAccent_SelectedLanguage_Czech.Content" xml:space="preserve">
     <value>捷克语</value>
   </data>
+  <data name="QuickAccent_SelectedLanguage_Danish.Content" xml:space="preserve">
+    <value>丹麦语</value>
+  </data>
   <data name="QuickAccent_SelectedLanguage_Gaeilge.Content" xml:space="preserve">
     <value>爱尔兰盖尔语</value>
     <comment>Gaelic language spoken in Ireland</comment>
@@ -3344,11 +3380,17 @@
   <data name="QuickAccent_SelectedLanguage_German.Content" xml:space="preserve">
     <value>德语</value>
   </data>
+  <data name="QuickAccent_SelectedLanguage_Greek.Content" xml:space="preserve">
+  <value>希腊语</value>
+  </data>
   <data name="QuickAccent_SelectedLanguage_Hebrew.Content" xml:space="preserve">
     <value>希伯来语</value>
   </data>
   <data name="QuickAccent_SelectedLanguage_French.Content" xml:space="preserve">
     <value>法语</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Finnish.Content" xml:space="preserve">
+    <value>芬兰语</value>
   </data>
   <data name="QuickAccent_SelectedLanguage_Estonian.Content" xml:space="preserve">
     <value>爱沙尼亚语</value>
@@ -3377,7 +3419,7 @@
   <data name="QuickAccent_SelectedLanguage_Portuguese.Content" xml:space="preserve">
     <value>葡萄牙语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Slovakian.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Slovak.Content" xml:space="preserve">
     <value>斯洛伐克语</value>
   </data>
   <data name="QuickAccent_SelectedLanguage_Spanish.Content" xml:space="preserve">

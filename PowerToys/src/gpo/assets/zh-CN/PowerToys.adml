@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (c) Microsoft Corporation.
      Licensed under the MIT License. -->
-<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.4" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.6" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
   <displayName>PowerToys</displayName>
   <description>PowerToys</description>
   <resources>
@@ -16,6 +16,7 @@
       <string id="SUPPORTED_POWERTOYS_0_70_0">PowerToys 版本 0.70.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_73_0">PowerToys 版本 0.73.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_75_0">PowerToys 版本 0.75.0 或更高版本</string>
+      <string id="SUPPORTED_POWERTOYS_0_76_0">PowerToys 版本 0.75.0 或更高版本</string>
 
             <string id="ConfigureGlobalUtilityEnabledStateDescription">此策略控制所有 PowerToys 功能的启用状态。
 
@@ -112,6 +113,7 @@
       <string id="ConfigureEnabledUtilityAwake">阻止睡眠: 启用该功能</string>
       <string id="ConfigureEnabledUtilityColorPicker">取色器: 启用该功能</string>
       <string id="ConfigureEnabledUtilityCropAndLock">窗口镜像: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityEnvironmentVariables">环境变量: 启用该功能</string>
       <string id="ConfigureEnabledUtilityFancyZones">窗口布局: 启用该功能</string>
       <string id="ConfigureEnabledUtilityFileLocksmith">文件师傅: 启用该功能</string>
       <string id="ConfigureEnabledUtilityFileExplorerSVGPreview">预览增强 - SVG 文件预览: 启用该功能</string>
@@ -148,6 +150,8 @@
       <string id="AllowExperimentation">允许功能测试</string>
       <string id="PowerToysRunAllPluginsEnabledState">配置所有插件的启用状态</string>
       <string id="PowerToysRunIndividualPluginEnabledState">配置特定插件的启用状态</string>
+      <string id="ConfigureEnabledUtilityFileExplorerQOIPreview">预览增强 - QOI 文件预览: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityFileExplorerQOIThumbnails">预览增强 - QOI 文件缩略图: 启用该功能</string>
     </stringTable>
 	
 	<presentationTable>

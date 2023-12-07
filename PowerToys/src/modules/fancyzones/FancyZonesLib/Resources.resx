@@ -215,7 +215,7 @@
   </data>
   <data name="FancyZones" xml:space="preserve">
     <value>窗口布局</value>
-    <comment>FancyZone is a product name, keep as is.</comment>
+    <comment>FancyZones is a product name, keep as is.</comment>
   </data>
   <data name="Cant_Drag_Elevated" xml:space="preserve">
     <value>检测到一个以管理员身份运行的程序窗口，窗口布局无法对它进行操作。</value>
@@ -243,19 +243,19 @@
   </data>
   <data name="FancyZones_Data_Error" xml:space="preserve">
     <value>窗口布局找不到数据储存路径。请将问题反馈到</value>
-    <comment>"Report bug to" will have a URL after. FancyZone is a product name, keep as is.</comment>
+    <comment>"Report bug to" will have a URL after. FancyZones is a product name, keep as is.</comment>
   </data>
   <data name="FancyZones_Editor_Launch_Error" xml:space="preserve">
     <value>布局编辑器启动失败。请将问题反馈到</value>
-    <comment>"Report bug to" will have a URL after. FancyZone is a product name, keep as is.</comment>
+    <comment>"Report bug to" will have a URL after. FancyZones is a product name, keep as is.</comment>
   </data>
   <data name="FancyZones_Settings_Load_Error" xml:space="preserve">
     <value>窗口布局配置加载失败。将使用默认配置。</value>
-    <comment>FancyZone is a product name, keep as is.</comment>
+    <comment>FancyZones is a product name, keep as is.</comment>
   </data>
   <data name="FancyZones_Settings_Save_Error" xml:space="preserve">
     <value>窗口布局配置保存失败，请过会儿再试。如果仍然不行，请将问题反馈到</value>
-    <comment>"Report bug to" will have a URL after. FancyZone is a product name, keep as is.</comment>
+    <comment>"Report bug to" will have a URL after. FancyZones is a product name, keep as is.</comment>
   </data>
   <data name="Setting_Description_QuickLayoutSwitch" xml:space="preserve">
     <value>Enable quick layout switch</value>
