@@ -8,13 +8,13 @@ PowerToys 简体中文翻译优化补丁
 
 - 反馈问题：Issue 或 zetaloop@outlook.com
 
-- 版本：20.2 for **PowerToys v0.75.1**
+- 版本：20.3 for **PowerToys v0.76.0**
 
 - 现已支持 x64 & ARM64（ARM64 请自行编译）
 
 下载 原版安装包：[PowerToys](https://github.com/microsoft/PowerToys)
 
-下载 汉化包：[Github Release](https://github.com/zetaloop/PowerToys-CN/releases/latest) | [蓝奏云 密码zeta](https://zeta.lanzouq.com/b01lljcej)
+下载 汉化包：[Github Release](https://github.com/zetaloop/PowerToys-CN/releases/latest) | [蓝奏云 密码zeta](https://zeta.lanzouq.com/b01lpehti)
 
 ## 使用方法
 
