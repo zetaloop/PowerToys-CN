@@ -2765,7 +2765,7 @@
     <value>进一步学习</value>
   </data>
   <data name="LearnMore.Content" xml:space="preserve">
-    <value>进一步学习</value>
+    <value>查看</value>
   </data>
   <data name="VideoConference_RunAsAdminRequired.Title" xml:space="preserve">
     <value>要启用此功能，请以管理员身份重新启动软件</value>
