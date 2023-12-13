@@ -8,7 +8,7 @@ PowerToys 简体中文翻译优化补丁
 
 - 反馈问题：Issue 或 zetaloop@outlook.com
 
-- 版本：20.4 for **PowerToys v0.76.1**
+- 版本：20.5 for **PowerToys v0.76.1** (上一版操作失误，输出版本不对，已修正)
 
 - 现已支持 x64 & ARM64（ARM64 请自行编译）
 
