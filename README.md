@@ -8,13 +8,13 @@ PowerToys 简体中文翻译优化补丁
 
 - 反馈问题：Issue 或 zetaloop@outlook.com
 
-- 版本：20.6 for **PowerToys v0.76.2**
+- 版本：20.7 for **PowerToys v0.77.0**
 
 - 现已支持 x64 & ARM64（ARM64 请自行编译）
 
 下载 原版安装包：[PowerToys](https://github.com/microsoft/PowerToys)
 
-下载 汉化包：[Github Release](https://github.com/zetaloop/PowerToys-CN/releases/latest) | [蓝奏云 密码zeta](https://zeta.lanzouq.com/b01lrg2pi)
+下载 汉化包：[Github Release](https://github.com/zetaloop/PowerToys-CN/releases/latest) | [蓝奏云 密码zeta](https://zeta.lanzouq.com/b01lvlllc)
 
 ## 使用方法
 
@@ -37,7 +37,7 @@ PowerToys 简体中文翻译优化补丁
 <img src="https://raw.githubusercontents.com/zetaloop/PowerToys-CN/master/to.pic/7.png"/>
 <img src="https://raw.githubusercontents.com/zetaloop/PowerToys-CN/master/to.pic/8.png"/>
 
-PowerToys 模块名称：窗口置顶 阻止睡眠 取色器 窗口镜像 环境变量 窗口布局 文件师傅 预览增强 域名表编辑 图像裁剪器 键盘修改器 鼠标工具箱 无界鼠标 纯文本粘贴 快速查看 批量重命名 快捷启动器 字母助手 注册表预览 屏幕标尺 快捷键指南 文本提取 直播工具
+PowerToys 模块名称：窗口置顶 阻止睡眠 未找到命令 取色器 窗口镜像 环境变量 窗口布局 文件师傅 预览增强 域名表编辑 图像裁剪器 键盘修改器 鼠标工具箱 无界鼠标 纯文本粘贴 快速查看 批量重命名 快捷启动器 字母助手 注册表预览 屏幕标尺 快捷键指南 文本提取 直播工具
 
 PowerToys 常规设置、主页（仪表盘）、快捷面板、各模块预设及设置界面
 
