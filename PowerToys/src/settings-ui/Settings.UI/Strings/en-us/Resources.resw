@@ -1022,6 +1022,12 @@
   <data name="GeneralPage_RunAtStartUp.Description" xml:space="preserve">
     <value>电脑开机时自动运行</value>
   </data>
+  <data name="GeneralPage_WarningsElevatedApps.Header" xml:space="preserve">
+    <value>显示管理员权限限制通知</value>
+  </data>
+  <data name="GeneralPage_WarningsElevatedApps.Description" xml:space="preserve">
+    <value>遇到具有管理员权限的软件时，PowerToys 的部分功能会被系统限制，是否需要弹出通知</value>
+  </data>
   <data name="PowerRename.ModuleDescription" xml:space="preserve">
     <value>通过简单的搜索替换来自动化重命名文件。</value>
   </data>
@@ -2096,7 +2102,7 @@
 
 例如，输入 `&lt;` 搜索运行中的程序进程，输入 `?` 搜索文件，输入 `.` 搜索已安装的应用。
 
-如果想要学习所有能用的关键字，请阅读在线帮助文档。</value>
+如果想要学习所有能用的唤醒词，请阅读在线帮助文档。</value>
   </data>
   <data name="Oobe_ShortcutGuide_HowToLaunch.Text" xml:space="preserve">
     <value>显示快捷键指南，再按一次或按 **Esc** 关闭。（也可设置为长按 Win 键显示）</value>
@@ -2372,6 +2378,10 @@
   <data name="LearnMore_Awake.Text" xml:space="preserve">
     <value>进一步学习阻止睡眠工具</value>
     <comment>Awake is a product name, do not loc</comment>
+  </data>
+  <data name="LearnMore_CmdNotFound.Text" xml:space="preserve">
+    <value>进一步学习未找到命令模块</value>
+    <comment> Command Not Found is the name of the module. </comment>
   </data>
   <data name="SecondaryLink_Awake.Text" xml:space="preserve">
     <value>Den Delimarsky 开发了该功能</value>
@@ -3011,6 +3021,12 @@
   <data name="PowerLauncher_WaitForSlowResults.Header" xml:space="preserve">
     <value>动态排序</value>
   </data>
+  <data name="PowerLauncher_ShowPluginKeywords.Header" xml:space="preserve">
+    <value>唤醒词提示</value>
+  </data>
+  <data name="PowerLauncher_ShowPluginKeywords.Description" xml:space="preserve">
+    <value>搜索框为空时显示一些可用的插件唤醒词</value>
+  </data>
   <data name="PowerLauncher_PluginWeightBoost.Description" xml:space="preserve">
     <value>权重越大，结果排在越前面，默认为 0</value>
   </data>
@@ -3381,7 +3397,7 @@
     <value>德语</value>
   </data>
   <data name="QuickAccent_SelectedLanguage_Greek.Content" xml:space="preserve">
-  <value>希腊语</value>
+    <value>希腊语</value>
   </data>
   <data name="QuickAccent_SelectedLanguage_Hebrew.Content" xml:space="preserve">
     <value>希伯来语</value>
@@ -3666,6 +3682,72 @@
   <data name="Oobe_PastePlain_HowToUse.Text" xml:space="preserve">
     <value>以纯文本粘贴。注意：当前剪贴板里带格式的这份文本，会被去除格式的纯文字版本代替。</value>
   </data>
+  <data name="Shell_CmdNotFound.Content" xml:space="preserve">
+    <value>未找到命令</value>
+    <comment>Product name: Navigation view item name for Command Not Found</comment>
+  </data>
+  <data name="CmdNotFound.ModuleDescription" xml:space="preserve">
+    <value>在 PowerShedll 命令报错后自动检测并推荐可能需要安装的 WinGet 包。</value>
+    <comment>"Command Not Found" is a product name</comment>
+  </data>
+  <data name="CmdNotFound.ModuleTitle" xml:space="preserve">
+    <value>未找到命令</value>
+    <comment>"Command Not Found" is a product name</comment>
+  </data>
+  <data name="InstalledLabel.Text" xml:space="preserve">
+    <value>已安装</value>
+  </data>
+  <data name="DetectedLabel.Text" xml:space="preserve">
+    <value>存在</value>
+  </data>
+  <data name="NotDetectedLabel.Text" xml:space="preserve">
+    <value>不存在</value>
+  </data>
+  <data name="CmdNotFound_RequirementsBar.Title" xml:space="preserve">
+    <value>需要安装以下组件</value>
+  </data>
+  <data name="CmdNotFound_PowerShellDetection.Header" xml:space="preserve">
+    <value>PowerShell 7.4 或更高版本</value>
+  </data>
+  <data name="CmdNotFound_WinGetClientDetection.Header" xml:space="preserve">
+    <value>WinGet 客户端 PowerShell 模块</value>
+  </data>
+  <data name="CmdNotFound_Enable.Header" xml:space="preserve">
+    <value>未找到命令模块</value>
+    <comment>"Command Not Found" is a product name</comment>
+  </data>
+  <data name="CmdNotFound_Enable.Description" xml:space="preserve">
+    <value>将本模块添加到 PowerShell 7 配置文件脚本，以在新的会话中启用</value>
+  </data>
+  <data name="CmdNotFound_ModuleInstallationLogs.Text" xml:space="preserve">
+    <value>安装日志</value>
+  </data>
+  <data name="CmdNotFound_CheckPowerShellVersionButtonControl.Description" xml:space="preserve">
+    <value>使用本模块需要 PowerShell 7</value>
+  </data>
+  <data name="CmdNotFound_CheckCompatibility.Content" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="CmdNotFound_CheckCompatibilityTooltip.Text" xml:space="preserve">
+    <value>请检查您的 PowerShell 配置文件是否兼容且正确</value>
+  </data>
+  <data name="CmdNotFound_InstallButton.Content" xml:space="preserve">
+    <value>安装</value>
+  </data>
+  <data name="CmdNotFound_UninstallButton.Content" xml:space="preserve">
+    <value>卸载</value>
+  </data>
+  <data name="Oobe_CmdNotFound.Description" xml:space="preserve">
+    <value>未找到命令是一个 PowerShell 模块，检测命令报错，然后推荐可能需要的 WinGet 包。</value>
+    <comment>"Command Not Found" is a product name</comment>
+  </data>
+  <data name="Oobe_CmdNotFound.Title" xml:space="preserve">
+    <value>未找到命令</value>
+    <comment>"Command Not Found" is a product name</comment>
+  </data>
+  <data name="Oobe_CmdNotFound_HowToUse.Text" xml:space="preserve">
+    <value>当某个命令产生错误，本模块将附上可能包含所需可执行文件的 WinGet 包的安装命令。</value>
+  </data>
   <data name="AllAppsTxt.Text" xml:space="preserve">
     <value>所有工具</value>
   </data>
@@ -3914,5 +3996,26 @@
   </data>
   <data name="Peek_SourceCode_WrapText.Content" xml:space="preserve">
     <value>自动换行</value>
+  </data>
+  <data name="ShowPluginsOverview_All.Content" xml:space="preserve">
+    <value>所有唤醒词</value>
+  </data>
+  <data name="ShowPluginsOverview_None.Content" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="ShowPluginsOverview_NonGlobal.Content" xml:space="preserve">
+    <value>不包含默认唤醒的</value>
+  </data>
+  <data name="PowerLauncher_TitleFontSize.Description" xml:space="preserve">
+    <value>输入框和搜索结果标题的字号</value>
+  </data>
+  <data name="PowerLauncher_TitleFontSize.Header" xml:space="preserve">
+    <value>字体大小（点）</value>
+  </data>
+  <data name="PowerLauncher_TextFontSizeSlider.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>搜索结果字号</value>
+  </data>
+  <data name="CmdNotFound_Arm64ArchBar.Title" xml:space="preserve">
+    <value>模块暂不支持 ARM64 架构，我们正在努力想办法</value>
   </data>
 </root>

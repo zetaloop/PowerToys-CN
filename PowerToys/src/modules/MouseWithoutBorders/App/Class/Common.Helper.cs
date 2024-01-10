@@ -313,7 +313,8 @@ namespace MouseWithoutBorders
                 HasSwitchedMachineSinceLastCopy = true;
 
                 // Common.CreateLowIntegrityProcess("\"" + Path.GetDirectoryName(Application.ExecutablePath) + "\\MouseWithoutBordersHelper.exe\"", string.Empty, 0, false, 0);
-                if (Process.GetProcessesByName(HelperProcessName)?.Any() != true)
+                var processes = Process.GetProcessesByName(HelperProcessName);
+                if (processes?.Length == 0)
                 {
                     Log("Unable to start helper process.");
                     Common.ShowToolTip("无法启动无界鼠标帮助模块，剪贴板共享功能失效!", 5000, ToolTipIcon.Error);
@@ -325,7 +326,8 @@ namespace MouseWithoutBorders
             }
             else
             {
-                if (Process.GetProcessesByName(HelperProcessName)?.Any() == true)
+                var processes = Process.GetProcessesByName(HelperProcessName);
+                if (processes?.Length > 0)
                 {
                     Log("Helper process found running.");
                 }
@@ -432,7 +434,7 @@ namespace MouseWithoutBorders
         {
             if (string.IsNullOrEmpty(Setting.Values.Username) && !Common.RunOnLogonDesktop)
             {
-                if (Program.User.ToLower(CultureInfo.CurrentCulture).Contains("system"))
+                if (Program.User.Contains("system", StringComparison.CurrentCultureIgnoreCase))
                 {
                     _ = Common.ImpersonateLoggedOnUserAndDoSomething(() =>
                     {

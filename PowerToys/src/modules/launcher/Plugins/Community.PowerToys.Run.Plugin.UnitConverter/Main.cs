@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.Text;
 using System.Threading;
 using System.Windows;
 using System.Windows.Input;
@@ -26,6 +27,8 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
         private PluginInitContext _context;
         private static string _icon_path;
         private bool _disposed;
+
+        private static readonly CompositeFormat CopyToClipboard = System.Text.CompositeFormat.Parse(Properties.Resources.copy_to_clipboard);
 
         public void Init(PluginInitContext context)
         {
@@ -76,7 +79,7 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
                 Title = result.ToString(null),
                 IcoPath = _icon_path,
                 Score = 300,
-                SubTitle = string.Format(CultureInfo.CurrentCulture, Properties.Resources.copy_to_clipboard, hack),
+                SubTitle = string.Format(CultureInfo.CurrentCulture, CopyToClipboard, hack),
                 Action = c =>
                 {
                     var ret = false;

@@ -2,6 +2,7 @@
 // The Microsoft Corporation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
@@ -105,7 +106,6 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
         /// <summary>
         /// Adds degree prefixes to degree units for shorthand notation. E.g. '10 c in fahrenheit' becomes '10 °c in DegreeFahrenheit'.
         /// </summary>
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("StyleCop.CSharp.LayoutRules", "SA1501:Statement should not be on a single line", Justification = "<挂起>")]
         public static void DegreePrefixer(ref string[] split)
         {
             switch (split[1].ToLower(CultureInfo.CurrentCulture))
@@ -152,6 +152,7 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
                     break;
             }
 
+#pragma warning disable SA1501 // Statement should not be on a single line
             // [Chinese Translator]
             // 前面的单位
             // Acceleration 加速度    【自由，无互相冲突】（其他单位由长度、时间合成）
@@ -274,18 +275,19 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
             // System.Diagnostics.Process proc;
             // proc = System.Diagnostics.Process.Start(info);
         }
+#pragma warning restore SA1501 // Statement should not be on a single line
 
         /// <summary>
         /// The plural form "feet" is not recognized by UniteNets. Replace it with "ft".
         /// </summary>
         public static void FeetToFt(ref string[] split)
         {
-            if (split[1].ToLowerInvariant() == "feet")
+            if (string.Equals(split[1], "feet", StringComparison.OrdinalIgnoreCase))
             {
                 split[1] = "ft";
             }
 
-            if (split[3].ToLowerInvariant() == "feet")
+            if (string.Equals(split[3], "feet", StringComparison.OrdinalIgnoreCase))
             {
                 split[3] = "ft";
             }
@@ -306,7 +308,8 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
         public static void GallonHandler(ref string[] split, CultureInfo culture)
         {
             HashSet<string> britishCultureNames = new HashSet<string>() { "en-AI", "en-VG", "en-GB", "en-KY", "en-MS", "en-AG", "en-DM", "en-GD", "en-KN", "en-LC", "en-VC", "en-IE", "en-GY", "en-AE" };
-            if (split[1].ToLowerInvariant() == "gal" || split[1].ToLowerInvariant() == "gallon")
+            if (string.Equals(split[1], "gal", StringComparison.OrdinalIgnoreCase) ||
+                string.Equals(split[1], "gallon", StringComparison.OrdinalIgnoreCase))
             {
                 if (britishCultureNames.Contains(culture.Name))
                 {
@@ -318,7 +321,8 @@ namespace Community.PowerToys.Run.Plugin.UnitConverter
                 }
             }
 
-            if (split[3].ToLowerInvariant() == "gal" || split[3].ToLowerInvariant() == "gallon")
+            if (string.Equals(split[3], "gal", StringComparison.OrdinalIgnoreCase) ||
+                string.Equals(split[3], "gallon", StringComparison.OrdinalIgnoreCase))
             {
                 if (britishCultureNames.Contains(culture.Name))
                 {
