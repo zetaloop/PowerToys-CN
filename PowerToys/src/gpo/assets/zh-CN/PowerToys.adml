@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (c) Microsoft Corporation.
      Licensed under the MIT License. -->
-<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.7" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.8" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
   <displayName>PowerToys</displayName>
   <description>PowerToys</description>
   <resources>
@@ -16,8 +16,9 @@
       <string id="SUPPORTED_POWERTOYS_0_70_0">PowerToys 版本 0.70.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_73_0">PowerToys 版本 0.73.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_75_0">PowerToys 版本 0.75.0 或更高版本</string>
-      <string id="SUPPORTED_POWERTOYS_0_76_0">PowerToys 版本 0.75.0 或更高版本</string>
+      <string id="SUPPORTED_POWERTOYS_0_76_0">PowerToys 版本 0.76.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_77_0">PowerToys 版本 0.77.0 或更高版本</string>
+      <string id="SUPPORTED_POWERTOYS_0_78_0">PowerToys 版本 0.78.0 或更高版本</string>
 
             <string id="ConfigureGlobalUtilityEnabledStateDescription">此策略控制所有 PowerToys 功能的启用状态。
 
@@ -58,11 +59,11 @@
 
 如果策略设置为“已禁用”或“未配置”，用户可以选择仅为单用户安装 PowerToys。
 </string>
-      <string id="DisableAutomaticUpdateDownloadDescription">此策略控制是否禁用自动下载更新。（不过，在按流量计费的网络上，永远不会自动下载更新。）
+      <string id="DisableAutomaticUpdateDownloadDescription">此策略控制是否禁用自动下载和安装更新。（不过，在按流量计费的网络上，永远不会自动下载更新。）
 
-如果策略设置为“已启用”，禁用自动下载更新。
+如果策略设置为“已启用”，禁用自动下载和安装更新。
 
-如果策略设置为“已禁用”或“未配置”，用户可以控制是否自动下载更新。
+如果策略设置为“已禁用”或“未配置”，用户可以在设置中自行选择。
 </string>
       <string id="SuspendNewUpdateToastDescription">此策略控制是否在两次小版本更新内，不显示更新通知。（示例：如果安装的版本为 v0.60.0，则下一次显示更新提示将会是版本 v0.63.*）
 
@@ -71,12 +72,20 @@
 如果策略设置为“已禁用”或“未配置”，正常显示所有更新通知。
 
 注意：大版本更新通知始终会显示。
+
+如果启用“禁用新版本更新消息推送”策略或者在软件设置中关闭了自动更新，则该策略无效。
 </string>
-      <string id="DisablePeriodicUpdateCheckDescription">此策略可以禁用后台自动检查更新。（PowerToys 设置中的手动检查更新按钮不受此策略控制）
+      <string id="DisableNewUpdateToastDescription">此策略控制是否禁用更新通知。
 
-如果策略设置为“已启用”，禁止自动检查更新。
+如果策略设置为“已启用”，不显示更新通知。
 
-如果策略设置为“已禁用”或“未配置”，启用自动检查更新。
+如果策略设置为“已禁用”或“未配置”，用户可以选择是否显示更新通知。
+</string>
+      <string id="DoNotShowWhatsNewAfterUpdatesDescription">此策略控制更新完成后是否显示更新日志窗口。
+
+如果策略设置为“已启用”，更新完成后不会自动打开更新日志。
+
+如果策略设置为“已禁用”或“未配置”，用户可以在设置中自行选择。
 </string>
       <string id="AllowExperimentationDescription">此策略控制是否允许进行 PowerToys 功能测试。如果允许测试，当用户被选中为测试组时，可以用到实验性的新功能。（功能测试只会在 Windows Insider 版本上进行。）
 
@@ -147,8 +156,9 @@
       <string id="ConfigureEnabledUtilityVideoConferenceMute">直播工具: 启用该功能</string>
       <string id="DisablePerUserInstallation">禁用单用户安装</string>
       <string id="DisableAutomaticUpdateDownload">禁用自动下载更新</string>
-      <string id="SuspendNewUpdateToast">减少新版本更新推送</string>
-      <string id="DisablePeriodicUpdateCheck">禁用自动检查更新</string>
+      <string id="DoNotShowWhatsNewAfterUpdates">禁用更新日志弹窗</string>
+      <string id="SuspendNewUpdateToast">减少新版本更新消息推送</string>
+      <string id="DisableNewUpdateToast">禁用新版本更新消息推送</string>
       <string id="AllowExperimentation">允许功能测试</string>
       <string id="PowerToysRunAllPluginsEnabledState">配置所有插件的启用状态</string>
       <string id="PowerToysRunIndividualPluginEnabledState">配置特定插件的启用状态</string>

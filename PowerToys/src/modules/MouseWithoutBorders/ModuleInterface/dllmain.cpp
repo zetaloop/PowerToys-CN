@@ -556,10 +556,10 @@ public:
 
         std::wstring executable_args = L"";
         executable_args.append(L"/S /c \"");
-        executable_args.append(L"echo 给 PowerToys.MouseWithoutBorders.exe 删除所有原有的入站规则");
+        executable_args.append(L"echo 为 PowerToys.MouseWithoutBorders.exe 删除所有原有的入站规则");
         executable_args.append(L" & netsh advfirewall firewall delete rule dir=in name=all program=\"");
         executable_args.append(executable_path);
-        executable_args.append(L"\" & echo 给 PowerToys.MouseWithoutBorders.exe 添加一条允许通过的入站规则");
+        executable_args.append(L"\" & echo 为 PowerToys.MouseWithoutBorders.exe 添加一条允许通过的入站规则");
         executable_args.append(L" & netsh advfirewall firewall add rule name=\"PowerToys.MouseWithoutBorders\" dir=in action=allow program=\"");
         executable_args.append(executable_path);
         executable_args.append(L"\" enable=yes remoteip=LocalSubnet profile=any protocol=tcp & echo 现在可以关掉这个窗口了 & pause\"");

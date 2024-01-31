@@ -975,7 +975,7 @@
     <comment>giving credit to the projects this utility was based on</comment>
   </data>
   <data name="General.ModuleTitle" xml:space="preserve">
-    <value>设置</value>
+    <value>常规</value>
   </data>
   <data name="GeneralPage_CheckForUpdates.Content" xml:space="preserve">
     <value>检查更新</value>
@@ -1022,11 +1022,8 @@
   <data name="GeneralPage_RunAtStartUp.Description" xml:space="preserve">
     <value>电脑开机时自动运行</value>
   </data>
-  <data name="GeneralPage_WarningsElevatedApps.Header" xml:space="preserve">
-    <value>显示管理员权限限制通知</value>
-  </data>
-  <data name="GeneralPage_WarningsElevatedApps.Description" xml:space="preserve">
-    <value>遇到具有管理员权限的软件时，PowerToys 的部分功能会被系统限制，是否需要弹出通知</value>
+  <data name="GeneralPage_WarningsElevatedApps.Content" xml:space="preserve">
+    <value>遇到管理员权限的软件时显示功能受限警告</value>
   </data>
   <data name="PowerRename.ModuleDescription" xml:space="preserve">
     <value>通过简单的搜索替换来自动化重命名文件。</value>
@@ -1069,7 +1066,7 @@
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Preview_MD.Description" xml:space="preserve">
     <value>.md, .markdown, .mdown, .mkdn, .mkd, .mdwn, .mdtxt, .mdtext</value>
-    <comment>File extensions, should not be altered</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Preview_Monaco.Header" xml:space="preserve">
     <value>程序代码</value>
@@ -1077,7 +1074,7 @@
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Preview_Monaco.Description" xml:space="preserve">
     <value>.cpp, .py, .json, .xml, .csproj 等，由 Monaco 编辑器提供支持</value>
-    <comment>File extensions should not be altered</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Preview_SVG.Header" xml:space="preserve">
     <value>矢量图</value>
@@ -1085,7 +1082,7 @@
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Preview_SVG.Description" xml:space="preserve">
     <value>.svg</value>
-    <comment>File extension, should not be altered</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="FileExplorerPreview_Preview_SVG_Color_Mode.Header" xml:space="preserve">
     <value>背景</value>
@@ -1116,53 +1113,54 @@
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Preview_PDF.Header" xml:space="preserve">
     <value>PDF 文档</value>
-    <comment>File type, do not translate</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Preview_PDF.Description" xml:space="preserve">
     <value>.pdf</value>
-    <comment>File extension, should not be altered</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_SVG.Header" xml:space="preserve">
     <value>矢量图</value>
-    <comment>File type, do not translate</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_SVG.Description" xml:space="preserve">
     <value>.svg</value>
-    <comment>File extension, should not be altered</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_STL.Header" xml:space="preserve">
     <value>3D 模型</value>
-    <comment>File type, do not translate</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_STL.Description" xml:space="preserve">
     <value>.stl</value>
-    <comment>File extension, should not be altered</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="FileExplorerPreview_Color_Thumbnail_STL.Header" xml:space="preserve">
     <value>模型颜色</value>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Preview_QOI.Header" xml:space="preserve">
     <value>QOI 图像</value>
-    <comment>File type, do not translate</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Preview_QOI.Description" xml:space="preserve">
     <value>.qoi</value>
+    <comment>{Locked}</comment>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_QOI.Header" xml:space="preserve">
     <value>QOI 图像</value>
-    <comment>File type, do not translate</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_QOI.Description" xml:space="preserve">
     <value>.qoi</value>
-    <comment>File extension, should not be altered</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_PDF.Header" xml:space="preserve">
     <value>PDF 文档</value>
-    <comment>File type, do not translate</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_PDF.Description" xml:space="preserve">
     <value>.pdf</value>
-    <comment>File extension, should not be altered</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="FileExplorerPreview.ModuleDescription" xml:space="preserve">
     <value>让文件管理器支持更多预览格式。</value>
@@ -1291,12 +1289,15 @@
   </data>
   <data name="ImageResizer_Encoding.Header" xml:space="preserve">
     <value>JPEG 压缩质量（%）</value>
+    <comment>{Locked="JPEG"}</comment>
   </data>
   <data name="ImageResizer_PNGInterlacing.Header" xml:space="preserve">
     <value>PNG 隔行扫描</value>
+    <comment>{Locked="PNG"}</comment>
   </data>
   <data name="ImageResizer_TIFFCompression.Header" xml:space="preserve">
     <value>TIFF 压缩格式</value>
+    <comment>{Locked="TIFF"}</comment>
   </data>
   <data name="File.Header" xml:space="preserve">
     <value>文件</value>
@@ -1307,47 +1308,53 @@
   </data>
   <data name="ImageResizer_ENCODER_TIFF_CCITT3.Content" xml:space="preserve">
     <value>CCITT3</value>
-    <comment>do not loc</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="ImageResizer_ENCODER_TIFF_CCITT4.Content" xml:space="preserve">
     <value>CCITT4</value>
-    <comment>do not loc</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="ImageResizer_ENCODER_TIFF_Default.Content" xml:space="preserve">
     <value>默认</value>
   </data>
   <data name="ImageResizer_ENCODER_TIFF_LZW.Content" xml:space="preserve">
     <value>LZW</value>
-    <comment>do not loc</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="ImageResizer_ENCODER_TIFF_None.Content" xml:space="preserve">
     <value>无</value>
   </data>
   <data name="ImageResizer_ENCODER_TIFF_RLE.Content" xml:space="preserve">
     <value>RLE</value>
-    <comment>do not loc</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="ImageResizer_ENCODER_TIFF_Zip.Content" xml:space="preserve">
     <value>Zip</value>
-    <comment>do not loc</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="ImageResizer_FallbackEncoder_BMP.Content" xml:space="preserve">
     <value>BMP 编码器</value>
+    <comment>{Locked="BMP"}</comment>
   </data>
   <data name="ImageResizer_FallbackEncoder_GIF.Content" xml:space="preserve">
     <value>GIF 编码器</value>
+    <comment>{Locked="GIF"}</comment>
   </data>
   <data name="ImageResizer_FallbackEncoder_JPEG.Content" xml:space="preserve">
     <value>JPEG 编码器</value>
+    <comment>{Locked="JPEG"}</comment>
   </data>
   <data name="ImageResizer_FallbackEncoder_PNG.Content" xml:space="preserve">
     <value>PNG 编码器</value>
+    <comment>{Locked="PNG"}</comment>
   </data>
   <data name="ImageResizer_FallbackEncoder_TIFF.Content" xml:space="preserve">
     <value>TIFF 编码器</value>
+    <comment>{Locked="TIFF"}</comment>
   </data>
   <data name="ImageResizer_FallbackEncoder_WMPhoto.Content" xml:space="preserve">
     <value>WMPhoto 编码器</value>
+    <comment>{Locked="WMPhoto"}</comment>
   </data>
   <data name="ImageResizer_Sizes_Fit_Fill.Content" xml:space="preserve">
     <value>填充</value>
@@ -1386,10 +1393,10 @@
   <data name="GeneralPage_ToggleSwitch_AlwaysRunElevated_Link.Content" xml:space="preserve">
     <value>进一步学习管理员模式</value>
   </data>
-  <data name="GeneralPage_ToggleSwitch_AutoDownloadUpdates.Header" xml:space="preserve">
-    <value>自动下载更新</value>
+  <data name="GeneralPage_AutoDownloadAndInstallUpdates.Header" xml:space="preserve">
+    <value>自动下载并安装更新</value>
   </data>
-  <data name="GeneralPage_ToggleSwitch_AutoDownloadUpdates.Description" xml:space="preserve">
+  <data name="GeneralPage_AutoDownloadAndInstallUpdates.Description" xml:space="preserve">
     <value>除非处于按流量计费的网络</value>
   </data>
   <data name="GeneralPage_ToggleSwitch_RunningAsAdminNote.Text" xml:space="preserve">
@@ -1449,7 +1456,7 @@
   <data name="General_Repository.Text" xml:space="preserve">
     <value>GitHub 库</value>
   </data>
-  <data name="General_Version.Header" xml:space="preserve">
+  <data name="General_VersionAndUpdate.Header" xml:space="preserve">
     <value>版本</value>
   </data>
   <data name="General_VersionLastChecked.Text" xml:space="preserve">
@@ -1467,7 +1474,7 @@
   <data name="General_SettingsBackupInfo_StatusHeader.Text" xml:space="preserve">
     <value>状态:</value>
   </data>
-  <data name="General_Version.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+  <data name="General_VersionAndUpdate.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>版本</value>
   </data>
   <data name="Admin_mode.Header" xml:space="preserve">
@@ -2660,7 +2667,20 @@
     <value>晃动距离</value>
   </data>
   <data name="MouseUtils_FindMyMouse_ShakingMinimumDistance.Description" xml:space="preserve">
-    <value>晃动鼠标的激活距离</value>
+    <value>晃动鼠标的最小激活距离</value>
+  </data>
+  <data name="MouseUtils_FindMyMouse_ShakingIntervalMs.Header" xml:space="preserve">
+    <value>晃动时长（毫秒）</value>
+    <comment>ms = milliseconds</comment>
+  </data>
+  <data name="MouseUtils_FindMyMouse_ShakingIntervalMs.Description" xml:space="preserve">
+    <value>晃动鼠标的最大时间跨度</value>
+  </data>
+  <data name="MouseUtils_FindMyMouse_ShakingFactor.Header" xml:space="preserve">
+    <value>晃动比例（%）</value>
+  </data>
+  <data name="MouseUtils_FindMyMouse_ShakingFactor.Description" xml:space="preserve">
+    <value>晃动比例=鼠标轨迹长度÷移动范围对角线，减少判定比例可提高敏感度</value>
   </data>
   <data name="MouseUtils_MouseHighlighter.Header" xml:space="preserve">
     <value>鼠标高亮</value>
@@ -3609,7 +3629,7 @@
     <value>右键菜单集成</value>
     <comment>This refers to directly integrating in with Windows</comment>
   </data>
-  <data name="GPO_IsSettingForced.Title" xml:space="preserve">
+  <data name="GPO_SettingIsManaged.Title" xml:space="preserve">
     <value>组策略已控制此设置</value>
   </data>
   <data name="Hosts_AdditionalLinesPosition.Description" xml:space="preserve">
@@ -3653,9 +3673,6 @@
   </data>
   <data name="GeneralPage_EnableExperimentation.Header" xml:space="preserve">
     <value>开启新功能测试</value>
-  </data>
-  <data name="GPO_ExperimentationIsDisallowed.Title" xml:space="preserve">
-    <value>组策略已禁止参与功能测试</value>
   </data>
   <data name="Shell_PastePlain.Content" xml:space="preserve">
     <value>纯文本粘贴</value>
@@ -3852,9 +3869,6 @@
     <value>启用鼠标跳转</value>
     <comment>"Mouse Jump" is the name of the utility.</comment>
   </data>
-  <data name="GPO_AutoDownloadUpdatesIsDisabled.Title" xml:space="preserve">
-    <value>组策略已禁止自动下载更新</value>
-  </data>
   <data name="Hosts_Toggle_LoopbackDuplicates.Description" xml:space="preserve">
     <value>127.0.0.1、::1 等</value>
     <comment>"127.0.0.1 and ::1" are well known loopback addresses, do not loc</comment>
@@ -3941,7 +3955,7 @@
   <data name="Run_PluginUseFindMorePlugins.Content" xml:space="preserve">
     <value>获取更多插件</value>
   </data>
-  <data name="Run_SomePluginsAreGpoManaged.Title" xml:space="preserve">
+  <data name="GPO_SomeRunPluginsAreManaged.Title" xml:space="preserve">
     <value>组策略已控制插件启用状态</value>
   </data>
   <data name="AlwaysOnTop_FrameOpacity.Header" xml:space="preserve">
@@ -3969,9 +3983,6 @@
   </data>
   <data name="Shell_Dashboard.Content" xml:space="preserve">
     <value>主页</value>
-  </data>
-  <data name="GPO_IsSettingForcedText.Text" xml:space="preserve">
-    <value>组策略已控制此设置</value>
   </data>
   <data name="DisabledModules.Text" xml:space="preserve">
     <value>禁用的模块</value>
@@ -4015,7 +4026,29 @@
   <data name="PowerLauncher_TextFontSizeSlider.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>搜索结果字号</value>
   </data>
+  <data name="GeneralPage_ShowWhatsNewAfterUpdates.Content" xml:space="preserve">
+    <value>更新完成后打开更新日志</value>
+  </data>
   <data name="CmdNotFound_Arm64ArchBar.Title" xml:space="preserve">
     <value>模块暂不支持 ARM64 架构，我们正在努力想办法</value>
+  </data>
+  <data name="QuickAccent_Prevent_Activation_On_Game_Mode.Content" xml:space="preserve">
+    <value>游戏模式中禁用</value>
+    <comment>"Game mode" is the Windows feature to prevent notification when playing a game.</comment>
+  </data>
+  <data name="GeneralPage_ShowNewUpdatesToast.Header" xml:space="preserve">
+    <value>显示版本更新通知</value>
+  </data>
+  <data name="GPO_SomeSettingsAreManaged.Title" xml:space="preserve">
+    <value>组策略已控制这些设置</value>
+  </data>
+  <data name="GPO_SettingIsManaged_ToolTip.Text" xml:space="preserve">
+    <value>组策略已控制此设置</value>
+  </data>
+  <data name="GPO_SomePreviewPanesAreManaged.Title" xml:space="preserve">
+    <value>组策略已控制预览窗格增强模块启用状态</value>
+  </data>
+  <data name="GPO_SomeThumbnailProvidersAreManaged.Title" xml:space="preserve">
+    <value>组策略已控制缩略图增强模块启用状态</value>
   </data>
 </root>
