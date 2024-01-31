@@ -14,7 +14,7 @@ PowerToys 简体中文翻译优化补丁
 
 下载 原版安装包：[PowerToys](https://github.com/microsoft/PowerToys)
 
-下载 汉化包：[Github Release](https://github.com/zetaloop/PowerToys-CN/releases/latest) | [蓝奏云 密码zeta](https://zeta.lanzouq.com/b01lvlllc)
+下载 汉化包：[Github Release](https://github.com/zetaloop/PowerToys-CN/releases/latest) | [蓝奏云 密码zeta](https://zeta.lanzouq.com/b01lxocah)
 
 ## 使用方法
 
