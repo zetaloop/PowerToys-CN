@@ -1,20 +1,20 @@
 # PowerToys Simplified Chinese Translation
 
-<img src="https://raw.githubusercontents.com/zetaloop/PowerToys-CN/master/to.pic/PowerToysCN-20.topic.png"/>
+<img src="https://raw.githubusercontents.com/zetaloop/PowerToys-CN/master/to.pic/PowerToysCN-21.topic.png"/>
 
 PowerToys 简体中文翻译优化补丁
 
-根据使用习惯精修，做说人话的翻译。 **汇报 bug 请用官方版本重现**
+根据日常使用习惯修改，做说人话的翻译。
 
-- 反馈问题：Issue 或 zetaloop@outlook.com
+- 反馈汉化问题：[议题](https://github.com/zetaloop/PowerToys-CN/issues) 或 zetaloop@outlook.com
 
-- 版本：20.8 for **PowerToys v0.78.0**
+- 版本：21.0 for **PowerToys v0.79.0**
 
-- 现已支持 x64 & ARM64（ARM64 请自行编译）
+- 现已支持 x64 & ARM64（ARM64 需自行编译）
 
 下载 原版安装包：[PowerToys](https://github.com/microsoft/PowerToys)
 
-下载 汉化包：[Github Release](https://github.com/zetaloop/PowerToys-CN/releases/latest) | [蓝奏云 密码zeta](https://zeta.lanzouq.com/b01lxocah)
+下载 汉化包：[Github Release](https://github.com/zetaloop/PowerToys-CN/releases/latest) | [蓝奏云 密码zeta](https://zeta.lanzouq.com/b01m62qra)
 
 ## 使用方法
 
@@ -26,7 +26,7 @@ PowerToys 简体中文翻译优化补丁
 
 　　下载 PowerToysCN-汉化版本号.7z，解压后运行“安装.CMD”，根据提示确定安装
 
-## 优化清单
+## 展示
 
 <img src="https://raw.githubusercontents.com/zetaloop/PowerToys-CN/master/to.pic/1.png"/>
 <img src="https://raw.githubusercontents.com/zetaloop/PowerToys-CN/master/to.pic/2.png"/>
