@@ -144,6 +144,15 @@
   <data name="EditShortcuts_WindowName" xml:space="preserve">
     <value>组合键重映射</value>
   </data>
+  <data name="Edit_This_Shortcut_WindowName" xml:space="preserve">
+    <value>编辑按键</value>
+  </data>
+  <data name="Browse_For_Program_Button" xml:space="preserve">
+    <value>选择程序</value>
+  </data>
+  <data name="Browse_For_Path_Button" xml:space="preserve">
+    <value>选择目录</value>
+  </data>
   <data name="Ok_Button" xml:space="preserve">
     <value>确定</value>
   </data>
@@ -166,6 +175,54 @@
   <data name="EditShortcuts_TargetAppHeader" xml:space="preserve">
     <value>目标程序</value>
   </data>
+  <data name="EditShortcuts_Label_Args" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="EditShortcuts_Label_Elevation" xml:space="preserve">
+    <value>权限</value>
+  </data>
+  <data name="EditShortcuts_Label_Start_As" xml:space="preserve">
+    <value>可见性</value>
+  </data>
+  <data name="EditShortcuts_Label_Program" xml:space="preserve">
+    <value>程序</value>
+  </data>
+  <data name="EditShortcuts_Label_Start_In" xml:space="preserve">
+    <value>起始目录</value>
+  </data>
+  <data name="EditShortcuts_Label_Action" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="EditShortcuts_Label_Path_URI" xml:space="preserve">
+    <value>网址</value>
+  </data>
+  <data name="EditShortcuts_Label_Shortcut" xml:space="preserve">
+    <value>按键</value>
+  </data>
+  <data name="EditShortcuts_Label_Keys" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="EditShortcuts_Visibility_Normal" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="EditShortcuts_Visibility_Hidden" xml:space="preserve">
+    <value>隐藏</value>
+  </data>
+  <data name="EditShortcuts_Label_If_Running" xml:space="preserve">
+    <value>若已运行</value>
+  </data>
+  <data name="EditShortcuts_Label_App_Running_Sound" xml:space="preserve">
+    <value>运行中音效</value>
+  </data>
+  <data name="EditShortcuts_LabelApp_Not_Running_Sound" xml:space="preserve">
+    <value>启动音效</value>
+  </data>
+  <data name="EditShortcuts_Bad_Key" xml:space="preserve">
+    <value>按键被占用</value>
+  </data>
+  <data name="EditShortcuts_BtnSelectFile" xml:space="preserve">
+    <value>选择文件</value>
+  </data>
   <data name="EditKeyboard_OrphanedDialogTitle" xml:space="preserve">
     <value>以下功能未分配：</value>
     <comment>Key on a keyboard</comment>
@@ -187,10 +244,14 @@
     <value>选择要修改的按键组合和按下后发送的功能</value>
     <comment>Key on a keyboard</comment>
   </data>
+  <data name="Edit_Single_Shortcut_Info" xml:space="preserve">
+    <value>选择要修改的按键组合和按下后发送的功能</value>
+    <comment>Key on a keyboard</comment>
+  </data>
   <data name="EditShortcuts_InfoExample" xml:space="preserve">
-    <value>例如，若要在 Edge 浏览器中把 Alt+T 变成 Ctrl+T，请把 Alt+T 映射为发送 Ctrl+T，目标程序 msedge。
-目标程序是指进程名称（msedge）而非应用名（Edge 浏览器），不区分大小写。
-设置好的重映射单键优先于组合键。</value>
+    <value>例如，若要在 Edge 浏览器中把 Alt+T 变成 Ctrl+T，请把 Alt+T 映射为发送 Ctrl+T，目标程序设为 MSEdge。
+目标程序是指 exe 文件名（MSEdge），而不是软件名（Microsoft Edge）。
+重映射单键优先于组合键生效。</value>
     <comment>Key on a keyboard</comment>
   </data>
   <data name="Type_Button" xml:space="preserve">
@@ -198,11 +259,11 @@
     <comment>verb, alternative to "type a key on a keyboard"</comment>
   </data>
   <data name="TypeKey_Title" xml:space="preserve">
-    <value>请按下按键</value>
+    <value>请按下单个按键</value>
     <comment>Key on a keyboard</comment>
   </data>
   <data name="TypeShortcut_Title" xml:space="preserve">
-    <value>请按下按键（组合）</value>
+    <value>请按下按键</value>
     <comment>Keys on a keyboard</comment>
   </data>
   <data name="TypeKey_Header" xml:space="preserve">
@@ -213,6 +274,9 @@
     <value>当前选择了：</value>
     <comment>Keys on a keyboard</comment>
   </data>
+  <data name="Type_HoldSpace" xml:space="preserve">
+    <value>长按空格切换和弦（依次按下两个键触发）</value>
+  </data>
   <data name="Type_HoldEnter" xml:space="preserve">
     <value>长按回车确定</value>
   </data>
@@ -221,6 +285,24 @@
   </data>
   <data name="EditShortcuts_AllApps" xml:space="preserve">
     <value>（全局生效）</value>
+  </data>
+  <data name="EditShortcuts_Allow_Chords" xml:space="preserve">
+    <value>启用和弦序列</value>
+  </data>
+  <data name="EditShortcuts_Path_To_Program" xml:space="preserve">
+    <value>程序文件路径</value>
+  </data>
+  <data name="EditShortcuts_Uri_Example" xml:space="preserve">
+    <value>例如 https://website.url</value>
+  </data>
+  <data name="EditShortcuts_What_Can_I_Use_Link" xml:space="preserve">
+    <value>更多高级操作</value>
+  </data>
+  <data name="EditShortcuts_Args_For_Program" xml:space="preserve">
+    <value>传入的参数</value>
+  </data>
+  <data name="EditShortcuts_Start_In_Dir_For_Program" xml:space="preserve">
+    <value>起始目录</value>
   </data>
   <data name="ErrorMessage_RemapSuccessful" xml:space="preserve">
     <value>成功映射</value>
@@ -290,11 +372,19 @@
     <comment>Key on a keyboard</comment>
   </data>
   <data name="Mapping_Type_DropDown_Text" xml:space="preserve">
-    <value>文本</value>
+    <value>输入文本</value>
   </data>
   <data name="Mapping_Type_DropDown_Key_Shortcut" xml:space="preserve">
-    <value>按键</value>
+    <value>发送按键</value>
     <comment>Key on a keyboard</comment>
+  </data>
+  <data name="Mapping_Type_DropDown_Run_Program" xml:space="preserve">
+    <value>运行程序</value>
+    <comment>Run Program</comment>
+  </data>
+  <data name="Mapping_Type_DropDown_Open_URI" xml:space="preserve">
+    <value>打开网址</value>
+    <comment>URI to open.</comment>
   </data>
   <data name="Add_Key_Remap_Button" xml:space="preserve">
     <value>添加单键重映射</value>
@@ -305,6 +395,33 @@
   </data>
   <data name="Delete_Remapping_Button" xml:space="preserve">
     <value>删除映射</value>
+  </data>
+  <data name="Already_Running_Do_Nothing" xml:space="preserve">
+    <value>不执行任何操作</value>
+  </data>
+  <data name="Already_Running_Show_Window" xml:space="preserve">
+    <value>打开窗口</value>
+  </data>
+  <data name="Already_Running_Start_Another" xml:space="preserve">
+    <value>再次运行</value>
+  </data>
+  <data name="Already_Running_Close" xml:space="preserve">
+    <value>关闭程序</value>
+  </data>
+  <data name="Already_Running_Terminate" xml:space="preserve">
+    <value>强制结束进程</value>
+  </data>
+  <data name="Already_Running_Close_And_Terminate" xml:space="preserve">
+    <value>关闭并强制结束</value>
+  </data>
+  <data name="Elevation_Type_Normal" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="Elevation_Type_Elevated" xml:space="preserve">
+    <value>管理员</value>
+  </data>
+  <data name="Elevation_Type_Different_User" xml:space="preserve">
+    <value>其他用户</value>
   </data>
   <data name="Delete_Remapping_Event" xml:space="preserve">
     <value>映射已删除</value>

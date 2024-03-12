@@ -1073,7 +1073,7 @@
     <comment>File type, do not translate</comment>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Preview_Monaco.Description" xml:space="preserve">
-    <value>.cpp, .py, .json, .xml, .csproj 等，由 Monaco 编辑器提供支持</value>
+    <value>.txt, .cpp, .py, .json, .xml, .csproj 等，由 Monaco 编辑器提供支持</value>
     <comment>{Locked}</comment>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Preview_SVG.Header" xml:space="preserve">
@@ -2382,6 +2382,10 @@
     <value>映射</value>
     <comment>as in: from x to y</comment>
   </data>
+  <data name="Starts.Text" xml:space="preserve">
+    <value>运行</value>
+    <comment>as in: doing x will start y</comment>
+  </data>
   <data name="LearnMore_Awake.Text" xml:space="preserve">
     <value>进一步学习阻止睡眠工具</value>
     <comment>Awake is a product name, do not loc</comment>
@@ -3458,6 +3462,9 @@
   <data name="QuickAccent_SelectedLanguage_Slovak.Content" xml:space="preserve">
     <value>斯洛伐克语</value>
   </data>
+  <data name="QuickAccent_SelectedLanguage_Slovenian.Content" xml:space="preserve">
+    <value>斯洛文尼亚语</value>
+  </data>
   <data name="QuickAccent_SelectedLanguage_Spanish.Content" xml:space="preserve">
     <value>西班牙语</value>
   </data>
@@ -3994,7 +4001,7 @@
     <value>预览</value>
   </data>
   <data name="Peek_SourceCode_Header.Description" xml:space="preserve">
-    <value>.cpp .py .json .xml .csproj 等，由 Monaco 提供支持</value>
+    <value>.txt .cpp .py .json .xml .csproj 等，由 Monaco 提供支持</value>
   </data>
   <data name="Peek_SourceCode_Header.Header" xml:space="preserve">
     <value>程序代码</value>

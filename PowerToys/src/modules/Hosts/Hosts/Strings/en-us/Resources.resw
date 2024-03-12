@@ -193,12 +193,19 @@
   <data name="DeleteDialogAreYouSure.Text" xml:space="preserve">
     <value>确定删除此条目？</value>
   </data>
+  <data name="DeleteEntryBtn.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="DeleteEntryBtn.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>删除 (Delete)</value>
+    <comment>"Delete" between parentheses refers to the Delete keyboard key</comment>
+  </data>
   <data name="Duplicate.Text" xml:space="preserve">
     <value>复制</value>
     <comment>Refers to the action of duplicate an existing entry</comment>
   </data>
   <data name="DuplicateEntryIcon.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
-    <value>重复条目</value>
+    <value>地址重复</value>
   </data>
   <data name="Edit.Text" xml:space="preserve">
     <value>编辑</value>
@@ -289,7 +296,7 @@
     <value>设置</value>
   </data>
   <data name="ShowOnlyDuplicates.Header" xml:space="preserve">
-    <value>仅显示重复条目</value>
+    <value>仅显示地址重复的条目</value>
   </data>
   <data name="TooManyHostsTeachingTip.Subtitle" xml:space="preserve">
     <value>每条最多填写九个域名，太长的条目已被拆分，保存后生效。</value>
@@ -298,6 +305,12 @@
   <data name="TooManyHostsTeachingTip.Title" xml:space="preserve">
     <value>域名数量过多</value>
     <comment>"Hosts" refers to the system hosts file, do not loc</comment>
+  </data>
+  <data name="EntryAddressIsInvalidWarning.Text" xml:space="preserve">
+    <value>地址不符合 IPv4 或 IPv6 格式</value>
+  </data>
+  <data name="EntryHostsIsInvalidWarning.Text" xml:space="preserve">
+    <value>域名列表不符合格式</value>
   </data>
   <data name="UpdateBtn" xml:space="preserve">
     <value>更新</value>

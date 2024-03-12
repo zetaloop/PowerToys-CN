@@ -161,4 +161,10 @@
   <data name="wox_plugin_calculator_division_by_zero" xml:space="preserve">
     <value>零不可以作为除数</value>
   </data>
+  <data name="wox_plugin_calculator_replace_input" xml:space="preserve">
+    <value>式子以等号结尾时，自动填入运算结果</value>
+  </data>
+  <data name="wox_plugin_calculator_replace_input_description" xml:space="preserve">
+    <value>使用唤醒词激活时，在式子后输入 "=" 就用运算结果替换整个式子（例如输入 '=5*3-2=' 就会变成 '=13'）</value>
+  </data>
 </root>

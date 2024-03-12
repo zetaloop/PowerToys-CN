@@ -121,7 +121,7 @@
     <value>历史记录</value>
   </data>
   <data name="wox_plugin_history_plugin_description" xml:space="preserve">
-    <value>搜索启动器的搜索记录</value>
+    <value>访问启动器的搜索记录</value>
   </data>
   <data name="wox_plugin_history_processing_failed" xml:space="preserve">
     <value>无法处理该输入</value>

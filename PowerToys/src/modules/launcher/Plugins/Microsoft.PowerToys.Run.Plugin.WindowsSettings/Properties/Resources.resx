@@ -1440,6 +1440,7 @@
   </data>
   <data name="PluginDescription" xml:space="preserve">
     <value>搜索 Windows 设置</value>
+	<comment>{Locked="Windows"}</comment>
   </data>
   <data name="PluginTitle" xml:space="preserve">
     <value>设置</value>

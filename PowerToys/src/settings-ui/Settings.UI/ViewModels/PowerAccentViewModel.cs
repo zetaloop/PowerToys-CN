@@ -48,6 +48,7 @@ namespace Microsoft.PowerToys.Settings.UI.ViewModels
             "SV",
             "SR",
             "SK",
+            "SL",
             "GD",
             "TK",
             "CY",

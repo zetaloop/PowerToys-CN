@@ -59,7 +59,10 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema id="root"
+    xmlns=""
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -117,62 +120,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="wox_plugin_cmd_plugin_name" xml:space="preserve">
-    <value>命令行</value>
+  <data name="File_Locksmith_Context_Menu_Entry" xml:space="preserve">
+    <value>查看文件占用</value>
+    <comment>This text will be shown when the user opens the context menu (right clicks) a file. File Locksmith is the product name, do not loc.</comment>
   </data>
-  <data name="wox_plugin_cmd_plugin_description" xml:space="preserve">
-    <value>执行命令（例如 “ping”、“cmd”）</value>
-  </data>
-  <data name="wox_plugin_cmd_cmd_has_been_executed_times" xml:space="preserve">
-    <value>此命令已经执行了 {0} 次</value>
-  </data>
-  <data name="wox_plugin_cmd_execute_through_shell" xml:space="preserve">
-    <value>执行此命令</value>
-  </data>
-  <data name="wox_plugin_cmd_run_as_administrator" xml:space="preserve">
-    <value>以管理员身份打开/执行(Ctrl+Shift+Enter)</value>
-  </data>
-  <data name="wox_plugin_cmd_command_failed" xml:space="preserve">
-    <value>命令执行错误</value>
-  </data>
-  <data name="wox_plugin_cmd_command_not_found" xml:space="preserve">
-    <value>命令不存在</value>
-  </data>
-  <data name="wox_plugin_cmd_run_as_user" xml:space="preserve">
-    <value>以管理员身份打开/执行(Ctrl+Shift+U)</value>
-  </data>
-  <data name="wox_leave_shell_open" xml:space="preserve">
-    <value>保持终端窗口打开</value>
-  </data>
-  <data name="wox_shell_command_execution" xml:space="preserve">
-    <value>命令执行方式</value>
-  </data>
-  <data name="run_command_in_command_prompt" xml:space="preserve">
-    <value>命令提示符 (cmd.exe)</value>
-  </data>
-  <data name="run_command_in_powershell" xml:space="preserve">
-    <value>PowerShell (PowerShell.exe)</value>
-  </data>
-  <data name="find_executable_file_and_run_it" xml:space="preserve">
-    <value>寻找并执行可执行文件</value>
-  </data>
-  <data name="run_command_in_powershell_seven" xml:space="preserve">
-    <value>PowerShell 7 (pwsh.exe)</value>
-  </data>
-  <data name="run_command_in_windows_terminal_cmd" xml:space="preserve">
-    <value>终端中打开命令提示符 (cmd.exe)</value>
-  </data>
-  <data name="run_command_in_windows_terminal_powershell" xml:space="preserve">
-    <value>终端中打开 PowerShell (PowerShell.exe)</value>
-  </data>
-  <data name="run_command_in_windows_terminal_powershell_seven" xml:space="preserve">
-    <value>终端中打开 PowerShell 7 (pwsh.exe)</value>
-  </data>
-  <data name="run_plugin_cmd_wait_message" xml:space="preserve">
-    <value>按下 Enter 继续</value>
-    <comment>"Enter" means the Enter key on the keyboard.</comment>
-  </data>
-  <data name="wox_shell_command_execution_description" xml:space="preserve">
-    <value>指定使用 Windows 终端来执行就会忽略默认终端应用程序设置</value>
+  <data name="File_Locksmith_App_Name" xml:space="preserve">
+    <value>文件师傅</value>
   </data>
 </root>

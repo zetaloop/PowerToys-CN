@@ -140,7 +140,7 @@
     <value>自定义</value>
   </data>
   <data name="Input_IgnoreOrientation" xml:space="preserve">
-    <value>自动适应图像长宽方向(_O)</value>
+    <value>自适应图像长宽方向(_O)</value>
   </data>
   <data name="Input_GifWarning" xml:space="preserve">
     <value>GIF 动画可能无法裁剪。</value>
@@ -152,7 +152,7 @@
     <value>执行</value>
   </data>
   <data name="Input_ShrinkOnly" xml:space="preserve">
-    <value>图像小于目标时不操作(_M)</value>
+    <value>不执行放大操作(_M)</value>
   </data>
   <data name="Large" xml:space="preserve">
     <value>大号</value>
@@ -189,33 +189,43 @@
   </data>
   <data name="Progress_TimeRemaining_HourMinute" xml:space="preserve">
     <value>剩余 {0} 小时 {1} 分。</value>
+    <comment>"About" = Approximately, not "on the subject of"</comment>
   </data>
   <data name="Progress_TimeRemaining_HourMinutes" xml:space="preserve">
     <value>剩余 {0} 小时 {1} 分。</value>
+    <comment>"About" = Approximately, not "on the subject of"</comment>
   </data>
   <data name="Progress_TimeRemaining_HoursMinute" xml:space="preserve">
     <value>剩余 {0} 小时 {1} 分。</value>
+    <comment>"About" = Approximately, not "on the subject of"</comment>
   </data>
   <data name="Progress_TimeRemaining_HoursMinutes" xml:space="preserve">
     <value>剩余 {0} 小时 {1} 分。</value>
+    <comment>"About" = Approximately, not "on the subject of"</comment>
   </data>
   <data name="Progress_TimeRemaining_MinuteSecond" xml:space="preserve">
     <value>剩余 {1} 分 {2} 秒。</value>
+    <comment>"About" = Approximately, not "on the subject of"</comment>
   </data>
   <data name="Progress_TimeRemaining_MinuteSeconds" xml:space="preserve">
     <value>剩余 {1} 分 {2} 秒。</value>
+    <comment>"About" = Approximately, not "on the subject of"</comment>
   </data>
   <data name="Progress_TimeRemaining_MinutesSecond" xml:space="preserve">
     <value>剩余 {1} 分 {2} 秒。</value>
+    <comment>"About" = Approximately, not "on the subject of"</comment>
   </data>
   <data name="Progress_TimeRemaining_MinutesSeconds" xml:space="preserve">
     <value>剩余 {1} 分 {2} 秒。</value>
+    <comment>"About" = Approximately, not "on the subject of"</comment>
   </data>
   <data name="Progress_TimeRemaining_Second" xml:space="preserve">
     <value>剩余 {2} 秒。</value>
+    <comment>"About" = Approximately, not "on the subject of"</comment>
   </data>
   <data name="Progress_TimeRemaining_Seconds" xml:space="preserve">
     <value>剩余 {2} 秒。</value>
+    <comment>"About" = Approximately, not "on the subject of"</comment>
   </data>
   <data name="ResizeFit_Fill" xml:space="preserve">
     <value>填充</value>
@@ -242,7 +252,7 @@
     <value>英寸</value>
   </data>
   <data name="ResizeUnit_Percent" xml:space="preserve">
-    <value>%</value>
+    <value>百分比</value>
   </data>
   <data name="ResizeUnit_Pixel" xml:space="preserve">
     <value>像素</value>
@@ -262,9 +272,6 @@
   <data name="Small" xml:space="preserve">
     <value>小号</value>
   </data>
-  <data name="Times_Symbol" xml:space="preserve">
-    <value>乘号</value>
-  </data>
   <data name="Unit" xml:space="preserve">
     <value>单位</value>
   </data>
@@ -281,14 +288,6 @@
     <value>设置</value>
   </data>
   <data name="Input_RemoveMetadata" xml:space="preserve">
-    <value>删除图片元数据</value>
-  </data>
-  <data name="HeightChar" xml:space="preserve">
-    <value>高</value>
-    <comment>First character of 'Height'</comment>
-  </data>
-  <data name="WidthChar" xml:space="preserve">
-    <value>宽</value>
-    <comment>First character of 'Width'</comment>
+    <value>删除图片元数据(_D)</value>
   </data>
 </root>
