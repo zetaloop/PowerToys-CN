@@ -632,7 +632,7 @@
   </data>
   <data name="Shell_FancyZones.Content" xml:space="preserve">
     <value>窗口布局</value>
-    <comment>Product name: Navigation view item name for FancyZones</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="Shell_ImageResizer.Content" xml:space="preserve">
     <value>图像裁剪器</value>
@@ -859,7 +859,7 @@
   </data>
   <data name="Fancyzones_ImageHyperlinkToDocs.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>布局窗口</value>
-    <comment>do not loc the Product name</comment>
+    <comment>{Locked="FancyZones"}</comment>
   </data>
   <data name="FancyZones.ModuleDescription" xml:space="preserve">
     <value>创建窗口布局，便于多任务处理。</value>
@@ -871,7 +871,7 @@
   </data>
   <data name="FancyZones_EnableToggleControl_HeaderText.Header" xml:space="preserve">
     <value>启用窗口布局</value>
-    <comment>do not loc the Product name.  Do you want this feature on / off</comment>
+    <comment>{Locked="FancyZones"}</comment>
   </data>
   <data name="FancyZones_ExcludeApps.Header" xml:space="preserve">
     <value>忽略应用列表</value>
@@ -960,6 +960,7 @@
   </data>
   <data name="FancyZones_ZoneBehavior_GroupSettings.Description" xml:space="preserve">
     <value>管理布局的功能</value>
+    <comment>{Locked="FancyZones"}</comment>
   </data>
   <data name="FancyZones_Zones.Header" xml:space="preserve">
     <value>布局</value>
@@ -1416,6 +1417,7 @@
   </data>
   <data name="FancyZones.ModuleTitle" xml:space="preserve">
     <value>窗口布局</value>
+    <comment>{Locked}</comment>
   </data>
   <data name="FileExplorerPreview.ModuleTitle" xml:space="preserve">
     <value>预览增强</value>
@@ -1578,7 +1580,7 @@
   </data>
   <data name="FancyZones_ExcludeApps_TextBoxControl.PlaceholderText" xml:space="preserve">
     <value>例如: outlook.exe</value>
-    <comment>Don't translate outlook.exe</comment>
+    <comment>{Locked="outlook.exe"}</comment>
   </data>
   <data name="ImageResizer_FilenameFormatPlaceholder.PlaceholderText" xml:space="preserve">
     <value>例如: %1 (%2)</value>
@@ -1636,10 +1638,11 @@
   </data>
   <data name="FancyZones_WindowBehavior_GroupSettings.Description" xml:space="preserve">
     <value>管理窗口的功能</value>
+    <comment>{Locked="FancyZones"}</comment>
   </data>
   <data name="FancyZones_Windows.Header" xml:space="preserve">
     <value>窗口</value>
-    <comment>Do translate: refers to a set of application windows, not the product name</comment>
+    <comment>Refers to a set of application windows, not the product name</comment>
   </data>
   <data name="PowerRename_BehaviorHeader.Header" xml:space="preserve">
     <value>附加功能</value>
@@ -1832,17 +1835,19 @@
   </data>
   <data name="FancyZones_MoveWindowBasedOnRelativePosition_Accessible.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win + ↑ ↓ ← → 按相对位置在布局内移动</value>
+    <comment>{Locked="Windows"}</comment>
   </data>
   <data name="FancyZones_MoveWindowLeftRightBasedOnZoneIndex_Accessible.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win + ← → 在布局内移动，↑ ↓ 全屏和最小化</value>
+    <comment>{Locked="Windows"}</comment>
   </data>
   <data name="FancyZones_MoveWindowBasedOnRelativePosition_Description.Text" xml:space="preserve">
     <value>Win +    </value>
-    <comment>Do not loc the icons (hex numbers)</comment>
+    <comment>{Locked="Windows key +   ",""}</comment>
   </data>
   <data name="FancyZones_MoveWindowLeftRightBasedOnZoneIndex_Description.Text" xml:space="preserve">
     <value>Win +  </value>
-    <comment>Do not loc the icons (hex numbers)</comment>
+    <comment>{Locked="Windows key + ",""}</comment>
   </data>
   <data name="FancyZones_MoveWindowBasedOnRelativePosition.Text" xml:space="preserve">
     <value>相对位置</value>
@@ -1987,6 +1992,7 @@
   </data>
   <data name="Oobe_FancyZones.Description" xml:space="preserve">
     <value>一个窗口管理器，可将窗口排列对齐到一定的布局中，便于多任务处理。</value>
+    <comment>{Locked="FancyZones"}</comment>
   </data>
   <data name="Oobe_FileLocksmith.Description" xml:space="preserve">
     <value>快速寻找文件被哪些程序占用，一键关闭占用文件的罪魁祸首。</value>
@@ -2044,6 +2050,7 @@
   </data>
   <data name="Oobe_FancyZones_HowToUse_Shortcut.Text" xml:space="preserve">
     <value>打开布局编辑器。</value>
+    <comment>{Locked="FancyZones"}</comment>
   </data>
   <data name="Oobe_FancyZones_TipsAndTricks.Text" xml:space="preserve">
     <value>按住 **Shift** + **Ctrl** 拖动窗口，可将窗口贴靠到多个布局区拼接。</value>
@@ -2149,10 +2156,10 @@
   </data>
   <data name="Oobe_FancyZones.Title" xml:space="preserve">
     <value>窗口布局</value>
-    <comment>Do not localize this string</comment>
+    <comment>{Locked="FancyZones"}</comment>
   </data>
   <data name="Oobe_FileLocksmith.Title" xml:space="preserve">
-    <value>文件师傅</value>
+    <value>文件开锁匠</value>
   </data>
   <data name="Oobe_ImageResizer.Title" xml:space="preserve">
     <value>图像裁剪器</value>
@@ -2404,10 +2411,10 @@
   </data>
   <data name="LearnMore_FancyZones.Text" xml:space="preserve">
     <value>进一步学习窗口布局</value>
-    <comment>FancyZones is a product name, do not loc</comment>
+    <comment>{Locked="FancyZones"}</comment>
   </data>
   <data name="LearnMore_FileLocksmith.Text" xml:space="preserve">
-    <value>进一步学习文件师傅</value>
+    <value>进一步学习文件开锁匠</value>
   </data>
   <data name="LearnMore_ImageResizer.Text" xml:space="preserve">
     <value>进一步学习图像裁剪器</value>
@@ -2887,11 +2894,11 @@
   </data>
   <data name="AlwaysOnTop.ModuleDescription" xml:space="preserve">
     <value>一键置顶当前窗口。</value>
-    <comment>"Always On Top" is the name of the utility</comment>
+    <comment>{Locked="Always On Top"}</comment>
   </data>
   <data name="AlwaysOnTop.ModuleTitle" xml:space="preserve">
     <value>窗口置顶</value>
-    <comment>"Always On Top" is the name of the utility</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="AlwaysOnTop_Activation_GroupSettings.Header" xml:space="preserve">
     <value>快捷键</value>
@@ -2901,7 +2908,7 @@
   </data>
   <data name="AlwaysOnTop_EnableToggleControl_HeaderText.Header" xml:space="preserve">
     <value>启用窗口置顶</value>
-    <comment>"Always On Top" is the name of the utility</comment>
+    <comment>{Locked="Always On Top"}</comment>
   </data>
   <data name="AlwaysOnTop_ExcludedApps.Description" xml:space="preserve">
     <value>填写忽略应用的名称，每行一个，这些应用程序将不会被置顶</value>
@@ -2927,7 +2934,7 @@
   </data>
   <data name="Shell_AlwaysOnTop.Content" xml:space="preserve">
     <value>窗口置顶</value>
-    <comment>"Always On Top" is the name of the utility</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="AlwaysOnTop_GameMode.Content" xml:space="preserve">
     <value>游戏模式中禁用</value>
@@ -2944,22 +2951,21 @@
   </data>
   <data name="LearnMore_AlwaysOnTop.Text" xml:space="preserve">
     <value>进一步学习窗口置顶</value>
-    <comment>"Always On Top" is the name of the utility</comment>
+    <comment>{Locked="Always On Top"}</comment>
   </data>
   <data name="AlwaysOnTop_ActivationShortcut.Header" xml:space="preserve">
     <value>启动快捷键</value>
   </data>
   <data name="AlwaysOnTop_ActivationShortcut.Description" xml:space="preserve">
     <value>自定义置顶窗口的快捷键</value>
-    <comment>"Always On Top" is the name of the utility</comment>
   </data>
   <data name="Oobe_AlwaysOnTop.Title" xml:space="preserve">
     <value>窗口置顶</value>
-    <comment>"Always On Top" is the name of the utility</comment>
+    <comment>{Locked}</comment>
   </data>
   <data name="Oobe_AlwaysOnTop.Description" xml:space="preserve">
     <value>窗口置顶工具可以一键固定窗口到顶层，显示在其他窗口之上，优化你的多任务工作流程。</value>
-    <comment>"Always On Top" is the name of the utility</comment>
+    <comment>{Locked="Always On Top"}</comment>
   </data>
   <data name="Oobe_AlwaysOnTop_HowToUse.Text" xml:space="preserve">
     <value>置顶和取消置顶当前窗口。</value>
@@ -2975,6 +2981,7 @@
   </data>
   <data name="AlwaysOnTop_Radio_Windows_Default.Content" xml:space="preserve">
     <value>系统主题色</value>
+    <comment>{Locked="Windows"}</comment>
   </data>
   <data name="FileExplorerPreview.SecondaryLinksHeader" xml:space="preserve">
     <value>贡献</value>
@@ -3138,12 +3145,14 @@
   </data>
   <data name="RegistryPreview_ShortDescription" xml:space="preserve">
     <value>可视化编辑注册表文件</value>
+    <comment>{Locked="Windows"}</comment>
   </data>
   <data name="ScreenRuler_ShortDescription" xml:space="preserve">
     <value>打开标尺</value>
   </data>
   <data name="ShortcutGuide_ShortDescription" xml:space="preserve">
     <value>显示系统快捷键表格</value>
+    <comment>{Locked="Windows"}</comment>
   </data>
   <data name="PowerOcr_ShortDescription" xml:space="preserve">
     <value>框选截图转文字</value>
@@ -3611,16 +3620,17 @@
   </data>
   <data name="FileLocksmith.ModuleDescription" xml:space="preserve">
     <value>查看、解除文件占用。</value>
+    <comment>{Locked="Windows"}</comment>
   </data>
   <data name="FileLocksmith.ModuleTitle" xml:space="preserve">
-    <value>文件师傅</value>
+    <value>文件开锁匠</value>
   </data>
   <data name="Shell_FileLocksmith.Content" xml:space="preserve">
-    <value>文件师傅</value>
+    <value>文件开锁匠</value>
     <comment>Product name: Navigation view item name for FileLocksmith</comment>
   </data>
   <data name="FileLocksmith_Enable_FileLocksmith.Header" xml:space="preserve">
-    <value>启用文件师傅</value>
+    <value>启用文件开锁匠</value>
     <comment>File Locksmith is the name of the utility</comment>
   </data>
   <data name="FileLocksmith_Toggle_StandardContextMenu.Content" xml:space="preserve">
@@ -3650,6 +3660,7 @@
   </data>
   <data name="Alternate_OOBE_AlwaysOnTop_Title.Text" xml:space="preserve">
     <value>窗口置顶</value>
+    <comment>{Locked}</comment>
   </data>
   <data name="Alternate_OOBE_ColorPicker_Description.Text" xml:space="preserve">
     <value>抓取屏幕颜色</value>
@@ -3677,6 +3688,7 @@
   </data>
   <data name="GeneralPage_EnableExperimentation.Description" xml:space="preserve">
     <value>无需加入测试组，现在打开即可享用新功能</value>
+    <comment>{Locked="Windows Insider"}</comment>
   </data>
   <data name="GeneralPage_EnableExperimentation.Header" xml:space="preserve">
     <value>开启新功能测试</value>
@@ -3809,7 +3821,7 @@
   <data name="SettingsTooltip.Text" xml:space="preserve">
     <value>设置</value>
   </data>
-  <data name="ShortcutsTxt.Text" xml:space="preserve">
+  <data name="QuickAccessTxt.Text" xml:space="preserve">
     <value>快捷面板</value>
   </data>
   <data name="UpdateAvailable.Title" xml:space="preserve">
@@ -3825,6 +3837,7 @@
   </data>
   <data name="RegistryPreview.ModuleDescription" xml:space="preserve">
     <value>可视化查看、编辑 .reg 注册表文件。</value>
+    <comment>{Locked="Windows"}</comment>
   </data>
   <data name="RegistryPreview.ModuleTitle" xml:space="preserve">
     <value>注册表预览</value>
@@ -3845,6 +3858,7 @@
   </data>
   <data name="Oobe_RegistryPreview.Description" xml:space="preserve">
     <value>一个可视化的注册表文件编辑器。</value>
+    <comment>{Locked="Windows"}</comment>
   </data>
   <data name="Oobe_RegistryPreview.Title" xml:space="preserve">
     <value>注册表预览</value>
@@ -3921,6 +3935,7 @@
   </data>
   <data name="Oobe_Peek.Description" xml:space="preserve">
     <value>给 Windows 系统也带来了雷雳般迅速的文件快速查看功能。</value>
+    <comment>{Locked="Windows"}</comment>
   </data>
   <data name="Oobe_Peek.Title" xml:space="preserve">
     <value>快速查看</value>

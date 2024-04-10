@@ -442,4 +442,7 @@
   <data name="Set_Layout_As_Vertical_Default" xml:space="preserve">
     <value>设置为竖屏下的默认布局方式</value>
   </data>
+  <data name="Error_Parsing_Editor_Parameters_Message" xml:space="preserve">
+    <value>解析编辑器参数时出现错误。</value>
+  </data>
 </root>

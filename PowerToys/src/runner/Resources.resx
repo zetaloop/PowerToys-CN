@@ -106,8 +106,13 @@
   <data name="TOAST_TITLE" xml:space="preserve">
     <value>PowerToys 更新</value>
   </data>
+  <data name="QUICK_ACCESS_MENU_TEXT" xml:space="preserve">
+    <value>快捷面板\t单击图标</value>
+    <comment>Don't localize "\t" as that is what separates the click portion to be right aligned in the menu.</comment>
+  </data>
   <data name="SETTINGS_MENU_TEXT" xml:space="preserve">
-    <value>设置</value>
+    <value>设置\t双击图标</value>
+    <comment>Don't localize "\t" as that is what separates the click portion to be right aligned in the menu.</comment>
   </data>
   <data name="DOCUMENTATION_MENU_TEXT" xml:space="preserve">
     <value>帮助</value>

@@ -184,7 +184,7 @@
     <value>新建变量</value>
   </data>
   <data name="WindowAdminTitle" xml:space="preserve">
-    <value>管理员权限：环境变量编辑器</value>
+    <value>管理员权限: 环境变量编辑器</value>
     <comment>Title of the window when running as administrator</comment>
   </data>
   <data name="CancelAddVariableBtn.Content" xml:space="preserve">

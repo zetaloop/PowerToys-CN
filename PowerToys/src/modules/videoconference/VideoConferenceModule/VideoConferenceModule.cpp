@@ -490,7 +490,7 @@ void VideoConferenceModule::updateControlledMicrophones(const std::wstring_view 
     _controlledMicrophones.clear();
     _microphoneTrackedInUI = nullptr;
     auto allMics = MicrophoneDevice::getAllActive();
-    if (new_mic == L"所有麦克风")
+    if (new_mic == L"鎵�鏈夐害鍏嬮")
     {
         _controllingAllMics = true;
         _controlledMicrophones = std::move(allMics);
@@ -611,6 +611,7 @@ void VideoConferenceModule::enable()
 #endif
         hook_handle = SetWindowsHookEx(WH_KEYBOARD_LL, LowLevelKeyboardProc, GetModuleHandle(NULL), NULL);
     }
+    Trace::EnableVideoConference(true);
 }
 
 void VideoConferenceModule::unmuteAll()
@@ -664,6 +665,7 @@ void VideoConferenceModule::disable()
 
         _enabled = false;
     }
+    Trace::EnableVideoConference(false);
 }
 
 bool VideoConferenceModule::is_enabled()

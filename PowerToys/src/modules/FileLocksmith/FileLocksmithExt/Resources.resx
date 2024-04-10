@@ -122,7 +122,7 @@
     <comment>This text will be shown when the user opens the context menu (right clicks) a file. File Locksmith is the product name, do not loc.</comment>
   </data>
   <data name="FileLocksmith_PowerToyName" xml:space="preserve">
-    <value>文件师傅</value>
+    <value>文件开锁匠</value>
     <comment>Localized name of the PowerToy.</comment>
   </data>
 </root>

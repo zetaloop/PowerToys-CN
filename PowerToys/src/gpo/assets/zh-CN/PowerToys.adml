@@ -126,7 +126,7 @@
       <string id="ConfigureEnabledUtilityCropAndLock">窗口镜像: 启用该功能</string>
       <string id="ConfigureEnabledUtilityEnvironmentVariables">环境变量: 启用该功能</string>
       <string id="ConfigureEnabledUtilityFancyZones">窗口布局: 启用该功能</string>
-      <string id="ConfigureEnabledUtilityFileLocksmith">文件师傅: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityFileLocksmith">文件开锁匠: 启用该功能</string>
       <string id="ConfigureEnabledUtilityFileExplorerSVGPreview">预览增强 - SVG 文件预览: 启用该功能</string>
       <string id="ConfigureEnabledUtilityFileExplorerMarkdownPreview">预览增强 - Markdown 文件预览: 启用该功能</string>
       <string id="ConfigureEnabledUtilityFileExplorerMonacoPreview">预览增强 - 代码文件预览: 启用该功能</string>
