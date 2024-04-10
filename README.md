@@ -107,4 +107,4 @@ Video Conference Mute 按键图片、虚拟摄像头设备名称
 
 ## 星标趋势
 
-[![Stargazers over time](https://starchart.cc/zetaloop/PowerToys-CN.svg)](https://starchart.cc/zetaloop/PowerToys-CN)
+[![Stargazers over time](https://starchart.cc/zetaloop/PowerToys-CN.svg?variant=adaptive)](https://starchart.cc/zetaloop/PowerToys-CN)
