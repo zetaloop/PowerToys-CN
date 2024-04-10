@@ -28,6 +28,7 @@ PowerToys 简体中文翻译优化补丁
 
 ## 展示
 你可以切换浏览器的亮色/暗色模式来查看两种模式的截图噢~
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontents.com/zetaloop/PowerToys-CN/master/to.pic/4bs.png">
   <img src="https://raw.githubusercontents.com/zetaloop/PowerToys-CN/master/to.pic/4ws.png" />
