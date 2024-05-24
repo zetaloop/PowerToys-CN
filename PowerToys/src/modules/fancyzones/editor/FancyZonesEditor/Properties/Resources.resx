@@ -349,7 +349,7 @@
   </data>
   <data name="MergeDescription" xml:space="preserve">
     <value>
-     拖动选择布局区，然后点击“合并”按钮合并。</value>
+	拖动选择布局区，然后点击“合并”按钮合并。</value>
     <comment>Click mouse, hold button down and drag across multiple zones in tool
 // 开头换行，否则最后断开不美观</comment>
   </data>
@@ -362,15 +362,24 @@
   </data>
   <data name="KeyboardControlsDescription" xml:space="preserve">
     <value>
-     - Ctrl+Tab	开始选择。
-     - Tab		切换选择。
-     - Shift+S	切分布局区。
-     - Delete	合并分界线。
-     - 方向键	移动分界线。</value>
+	Ctrl+Tab	开始选择。
+	Tab		切换选择。
+	Shift+S		切分布局区。
+	Delete		合并分界线。
+	方向键		移动分界线。</value>
+  </data>
+  <data name="KeyboardControlsDescriptionCanvas" xml:space="preserve">
+    <value>
+	Ctrl+Tab		开始选择。
+	Tab			切换选择。
+	方向键			移动 10 像素。
+	Ctrl+方向键		移动 1 像素。
+	Shift+方向键		拉伸 10 像素（两条边各 5 像素）。
+	Ctrl+Shift+方向键	拉伸 2 像素（两条边各 1 像素）。</value>
   </data>
   <data name="SplitterDescription" xml:space="preserve">
     <value>
-     单击切分布局区，按住 Shift 改变切分方向。</value>
+	单击切分布局区，按住 Shift 改变切分方向。</value>
     <comment>A segmenter visual for splitting one item into two.  This would be the vertical line. Shift key is referring to key on keyboard
 // 开头换行，否则最后断开不美观</comment>
   </data>

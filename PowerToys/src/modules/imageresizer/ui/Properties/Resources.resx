@@ -290,4 +290,10 @@
   <data name="Input_RemoveMetadata" xml:space="preserve">
     <value>删除图片元数据(_D)</value>
   </data>
+  <data name="Image_Sizes" xml:space="preserve">
+    <value>图像尺寸预设</value>
+  </data>
+  <data name="Input_ShrinkOnly.Content" xml:space="preserve">
+    <value>不执行放大操作(_M)</value>
+  </data>
 </root>

@@ -704,6 +704,24 @@
   <data name="Shortcut.Header" xml:space="preserve">
     <value>快捷键</value>
   </data>
+  <data name="AdvancedPaste_EnableAIButton.Content" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="AdvancedPaste_DisableAIButton.Content" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="AdvancedPaste_EnableAISettingsCard.Header" xml:space="preserve">
+    <value>启用 AI 粘贴</value>
+  </data>
+  <data name="AdvancedPaste_Clipboard_History_Enabled_SettingsCard.Header" xml:space="preserve">
+    <value>剪贴板历史记录</value>
+  </data>
+  <data name="AdvancedPaste_Clipboard_History_Enabled_SettingsCard.Description" xml:space="preserve">
+    <value>保留复制的历史记录，这是系统自带的功能，按 Win+V 打开</value>
+  </data>
+  <data name="AdvancedPaste_Direct_Access_Hotkeys_GroupSettings.Header" xml:space="preserve">
+    <value>快捷键</value>
+  </data>
   <data name="RemapKeysList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>当前单键重映射列表</value>
   </data>
@@ -995,6 +1013,9 @@
   </data>
   <data name="General_SettingsBackupAndRestore_ButtonRestore.Content" xml:space="preserve">
     <value>还原</value>
+  </data>
+  <data name="General_SettingsBackupAndRestore_ButtonSelectFolder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>选择</value>
   </data>
   <data name="General_SettingsBackupAndRestore_ButtonSelectLocation.Text" xml:space="preserve">
     <value>选择</value>
@@ -1392,7 +1413,7 @@
     <value>开</value>
   </data>
   <data name="GeneralPage_ToggleSwitch_AlwaysRunElevated_Link.Content" xml:space="preserve">
-    <value>进一步学习管理员模式</value>
+    <value>详细了解管理员模式</value>
   </data>
   <data name="GeneralPage_AutoDownloadAndInstallUpdates.Header" xml:space="preserve">
     <value>自动下载并安装更新</value>
@@ -1487,6 +1508,9 @@
   </data>
   <data name="ImageResizer_FallBackEncoderText.Header" xml:space="preserve">
     <value>备用编码器</value>
+  </data>
+  <data name="ImageResizer_FallBackEncoderText.Description" xml:space="preserve">
+    <value>不支持原文件的编码格式时备用的编码格式</value>
   </data>
   <data name="ImageResizer_FileFormatDescription.Text" xml:space="preserve">
     <value>可以使用以下参数：</value>
@@ -1626,7 +1650,7 @@
     <value>复制到剪贴板的颜色格式</value>
   </data>
   <data name="KBM_KeysCannotBeRemapped.Text" xml:space="preserve">
-    <value>进一步学习修改键盘所受到的限制</value>
+    <value>详细了解修改键盘的限制</value>
     <comment>This is a link that will discuss what is and is not possible for Keyboard manager to remap</comment>
   </data>
   <data name="FancyZones_Editor_GroupSettings.Header" xml:space="preserve">
@@ -1969,6 +1993,30 @@
   <data name="Activation_Shortcut.Description" xml:space="preserve">
     <value>自定义启动功能的快捷键</value>
   </data>
+  <data name="PasteAsPlainText_Shortcut.Header" xml:space="preserve">
+    <value>粘贴为纯文本</value>
+  </data>
+  <data name="AdvancedPasteUI_Shortcut.Header" xml:space="preserve">
+    <value>打开高级粘贴面板</value>
+  </data>
+  <data name="PasteAsMarkdown_Shortcut.Header" xml:space="preserve">
+    <value>粘贴为 Markdown</value>
+  </data>
+  <data name="PasteAsJson_Shortcut.Header" xml:space="preserve">
+    <value>粘贴为 JSON</value>
+  </data>
+  <data name="PasteAsCustom_Shortcut.Header" xml:space="preserve">
+    <value>粘贴为自定义 AI 格式</value>
+  </data>
+  <data name="AdvancedPaste_EnableAIDialogOpenAIApiKey.Text" xml:space="preserve">
+    <value>OpenAI API 密钥:</value>
+  </data>
+  <data name="EnableAIDialog_SaveBtnText" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="EnableAIDialog_CancelBtnText" xml:space="preserve">
+    <value>取消</value>
+  </data>
   <data name="Oobe_GetStarted.Text" xml:space="preserve">
     <value>让我们开始吧！</value>
   </data>
@@ -1985,7 +2033,7 @@
     <value>启动取色器</value>
   </data>
   <data name="Oobe_LearnMore.Text" xml:space="preserve">
-    <value>进一步学习</value>
+    <value>了解详情</value>
   </data>
   <data name="Oobe_ColorPicker.Description" xml:space="preserve">
     <value>一个简单好用的屏幕取色器，可以从任何软件上抓取颜色，并以指定格式复制到剪贴板。</value>
@@ -2034,7 +2082,7 @@
 这里是软件入门指南，在此可以快速了解各个功能。</value>
   </data>
   <data name="Oobe_Overview_DescriptionLinkText.Text" xml:space="preserve">
-    <value>进一步学习在线帮助文档</value>
+    <value>学习在线帮助文档</value>
   </data>
   <data name="ReleaseNotes.Content" xml:space="preserve">
     <value>版本公告</value>
@@ -2303,7 +2351,7 @@
     <value>立刻安装</value>
   </data>
   <data name="General_ReadMore.Text" xml:space="preserve">
-    <value>进一步学习</value>
+    <value>了解详情</value>
   </data>
   <data name="General_NewVersionAvailable.Title" xml:space="preserve">
     <value>有版本更新:</value>
@@ -2394,11 +2442,11 @@
     <comment>as in: doing x will start y</comment>
   </data>
   <data name="LearnMore_Awake.Text" xml:space="preserve">
-    <value>进一步学习阻止睡眠工具</value>
+    <value>详细了解阻止睡眠工具</value>
     <comment>Awake is a product name, do not loc</comment>
   </data>
   <data name="LearnMore_CmdNotFound.Text" xml:space="preserve">
-    <value>进一步学习未找到命令模块</value>
+    <value>详细了解未找到命令模块</value>
     <comment> Command Not Found is the name of the module. </comment>
   </data>
   <data name="SecondaryLink_Awake.Text" xml:space="preserve">
@@ -2406,62 +2454,62 @@
     <comment>Awake is a product name, do not loc</comment>
   </data>
   <data name="LearnMore_ColorPicker.Text" xml:space="preserve">
-    <value>进一步学习取色器</value>
+    <value>详细了解取色器</value>
     <comment>Color Picker is a product name, do not loc</comment>
   </data>
   <data name="LearnMore_FancyZones.Text" xml:space="preserve">
-    <value>进一步学习窗口布局</value>
+    <value>详细了解窗口布局</value>
     <comment>{Locked="FancyZones"}</comment>
   </data>
   <data name="LearnMore_FileLocksmith.Text" xml:space="preserve">
-    <value>进一步学习文件开锁匠</value>
+    <value>详细了解文件开锁匠</value>
   </data>
   <data name="LearnMore_ImageResizer.Text" xml:space="preserve">
-    <value>进一步学习图像裁剪器</value>
+    <value>详细了解图像裁剪器</value>
     <comment>Image Resizer is a product name, do not loc</comment>
   </data>
   <data name="LearnMore_KBM.Text" xml:space="preserve">
-    <value>进一步学习键盘修改器</value>
+    <value>详细了解键盘修改器</value>
     <comment>Keyboard Manager is a product name, do not loc</comment>
   </data>
   <data name="LearnMore_MouseUtils.Text" xml:space="preserve">
-    <value>进一步学习鼠标工具箱</value>
+    <value>详细了解鼠标工具箱</value>
     <comment>Mouse utilities is a product name, do not loc</comment>
   </data>
-  <data name="LearnMore_PastePlain.Text" xml:space="preserve">
-    <value>进一步学习纯文本粘贴</value>
-    <comment> Paste as Plain Text is the name of the module. </comment>
+  <data name="LearnMore_AdvancedPaste.Text" xml:space="preserve">
+    <value>详细了解高级粘贴</value>
+    <comment> Advanced Paste is the name of the module. </comment>
   </data>
   <data name="LearnMore_MouseWithoutBorders.Text" xml:space="preserve">
-    <value>进一步学习无界鼠标</value>
+    <value>详细了解无界鼠标</value>
     <comment>Mouse Without Borders is the name of the module. </comment>
   </data>
   <data name="LearnMore_PowerPreview.Text" xml:space="preserve">
-    <value>进一步学习预览增强组件</value>
+    <value>详细了解预览增强组件</value>
     <comment>File Explorer is a product name, localize as Windows does</comment>
   </data>
   <data name="LearnMore_Peek.Text" xml:space="preserve">
-    <value>进一步学习快速查看</value>
+    <value>详细了解快速查看</value>
     <comment>Peek is a product name, do not loc</comment>
   </data>
   <data name="LearnMore_PowerRename.Text" xml:space="preserve">
-    <value>进一步学习批量重命名</value>
+    <value>详细了解批量重命名</value>
     <comment>PowerRename is a product name, do not loc</comment>
   </data>
   <data name="LearnMore_Run.Text" xml:space="preserve">
-    <value>进一步学习启动器</value>
+    <value>详细了解启动器</value>
     <comment>PowerToys Run is a product name, do not loc</comment>
   </data>
   <data name="LearnMore_MeasureTool.Text" xml:space="preserve">
-    <value>进一步学习屏幕标尺</value>
+    <value>详细了解屏幕标尺</value>
     <comment>Screen Ruler is a product name, do not loc</comment>
   </data>
   <data name="LearnMore_ShortcutGuide.Text" xml:space="preserve">
-    <value>进一步学习快捷键指南</value>
+    <value>详细了解快捷键指南</value>
     <comment>Shortcut Guide is a product name, do not loc</comment>
   </data>
   <data name="LearnMore_VCM.Text" xml:space="preserve">
-    <value>进一步学习直播工具</value>
+    <value>详细了解直播工具</value>
     <comment>Video Conference Mute is a product name, do not loc</comment>
   </data>
   <data name="Oobe_FileExplorer.Title" xml:space="preserve">
@@ -2563,7 +2611,7 @@
   </data>
   <data name="Activation_Shortcut_With_Disable_Description" xml:space="preserve">
     <value>请按下你想要的快捷键
-点击右键清除快捷键，清除后关闭该功能</value>
+点击右键清除快捷键并禁用该功能</value>
   </data>
   <data name="Activation_Shortcut_Reset" xml:space="preserve">
     <value>重置</value>
@@ -2803,7 +2851,7 @@
     <value>此模块正在进入维护模式，也就是不再开发新的功能</value>
   </data>
   <data name="VideoConference_DeprecationWarningButton.Content" xml:space="preserve">
-    <value>进一步学习</value>
+    <value>了解详情</value>
   </data>
   <data name="LearnMore.Content" xml:space="preserve">
     <value>查看</value>
@@ -2859,7 +2907,7 @@
     <comment>"Crop And Lock" is the name of the utility</comment>
   </data>
   <data name="LearnMore_CropAndLock.Text" xml:space="preserve">
-    <value>进一步学习窗口镜像</value>
+    <value>详细了解窗口镜像</value>
     <comment>"Crop And Lock" is the name of the utility</comment>
   </data>
   <data name="CropAndLock_ReparentActivation_Shortcut.Header" xml:space="preserve">
@@ -2950,7 +2998,7 @@
     <value>功能</value>
   </data>
   <data name="LearnMore_AlwaysOnTop.Text" xml:space="preserve">
-    <value>进一步学习窗口置顶</value>
+    <value>详细了解窗口置顶</value>
     <comment>{Locked="Always On Top"}</comment>
   </data>
   <data name="AlwaysOnTop_ActivationShortcut.Header" xml:space="preserve">
@@ -3068,7 +3116,7 @@
     <value>圆角</value>
   </data>
   <data name="LearnMore_QuickAccent.Text" xml:space="preserve">
-    <value>进一步学习字母助手</value>
+    <value>详细了解字母助手</value>
     <comment>Quick Accent is a product name, do not loc</comment>
   </data>
   <data name="QuickAccent_EnableQuickAccent.Header" xml:space="preserve">
@@ -3128,8 +3176,14 @@
   <data name="MouseWithoutBorders_ShortDescription" xml:space="preserve">
     <value>多设备共用键鼠</value>
   </data>
-  <data name="PastePlain_ShortDescription" xml:space="preserve">
-    <value>去除格式并粘贴</value>
+  <data name="AdvancedPaste_ShortDescription" xml:space="preserve">
+    <value>An AI powered tool to put your clipboard content into any format you need, focused towards developer workflows.</value>
+  </data>
+  <data name="AdvancedPaste_EnableAISettingsCardDescription.Text" xml:space="preserve">
+    <value>让 AI 帮助你把文本转换为指定格式，需要 OpenAI API 密钥</value>
+  </data>
+  <data name="AdvancedPaste_EnableAISettingsCardDescriptionLearnMore.Content" xml:space="preserve">
+    <value>了解详情</value>
   </data>
   <data name="Peek_ShortDescription" xml:space="preserve">
     <value>预览选中文件内容</value>
@@ -3444,6 +3498,9 @@
   <data name="QuickAccent_SelectedLanguage_Estonian.Content" xml:space="preserve">
     <value>爱沙尼亚语</value>
   </data>
+  <data name="QuickAccent_SelectedLanguage_Esperanto.Content" xml:space="preserve">
+    <value>世界语</value>
+  </data>
   <data name="QuickAccent_SelectedLanguage_Lithuanian.Content" xml:space="preserve">
     <value>立陶宛语</value>
   </data>
@@ -3532,11 +3589,11 @@
   </data>
   <data name="Hosts_LaunchButtonControl.Header" xml:space="preserve">
     <value>启动域名表编辑器</value>
-    <comment>"Host File Editor" is a product name</comment>
+    <comment>"Hosts File Editor" is a product name</comment>
   </data>
   <data name="Hosts_LaunchButton_Accessible.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>启动域名表编辑器</value>
-    <comment>"Host File Editor" is a product name</comment>
+    <comment>"Hosts File Editor" is a product name</comment>
   </data>
   <data name="Hosts_AdditionalLinesPosition.Header" xml:space="preserve">
     <value>注释段位置</value>
@@ -3693,30 +3750,54 @@
   <data name="GeneralPage_EnableExperimentation.Header" xml:space="preserve">
     <value>开启新功能测试</value>
   </data>
-  <data name="Shell_PastePlain.Content" xml:space="preserve">
-    <value>纯文本粘贴</value>
-    <comment>Product name: Navigation view item name for Paste as Plain Text</comment>
+  <data name="Shell_AdvancedPaste.Content" xml:space="preserve">
+    <value>高级粘贴</value>
+    <comment>Product name: Navigation view item name for Advanced Paste</comment>
   </data>
-  <data name="PastePlain.ModuleDescription" xml:space="preserve">
-    <value>一键粘贴纯文本，不带字体颜色。</value>
+  <data name="AdvancedPaste.ModuleDescription" xml:space="preserve">
+    <value>AI 赋能剪贴板，将复制的文本内容转换为任何您需要的格式</value>
   </data>
-  <data name="PastePlain.ModuleTitle" xml:space="preserve">
-    <value>纯文本粘贴</value>
+  <data name="AdvancedPaste.ModuleTitle" xml:space="preserve">
+    <value>高级粘贴</value>
   </data>
-  <data name="PastePlain_Cancel" xml:space="preserve">
+  <data name="AdvancedPaste_Cancel" xml:space="preserve">
     <value>取消</value>
   </data>
-  <data name="PastePlain_EnableToggleControl_HeaderText.Header" xml:space="preserve">
-    <value>启用纯文本粘贴</value>
+  <data name="AdvancedPaste_EnableToggleControl_HeaderText.Header" xml:space="preserve">
+    <value>启用高级粘贴</value>
   </data>
-  <data name="Oobe_PastePlain.Description" xml:space="preserve">
-    <value>把复制的带有颜色字体等格式的文本，不带格式进行粘贴。</value>
+  <data name="AdvancedPaste_EnableAISettingsGroup.Header" xml:space="preserve">
+    <value>AI 粘贴</value>
   </data>
-  <data name="Oobe_PastePlain.Title" xml:space="preserve">
-    <value>纯文本粘贴</value>
+  <data name="AdvancedPaste_ClipboardHistorySettingsGroup.Header" xml:space="preserve">
+    <value>剪贴板历史记录</value>
   </data>
-  <data name="Oobe_PastePlain_HowToUse.Text" xml:space="preserve">
-    <value>以纯文本粘贴。注意：当前剪贴板里带格式的这份文本，会被去除格式的纯文字版本代替。</value>
+  <data name="AdvancedPaste_ShowCustomPreviewSettingsCard.Header" xml:space="preserve">
+    <value>预览结果</value>
+  </data>
+  <data name="AdvancedPaste_ShowCustomPreviewSettingsCard.Description" xml:space="preserve">
+    <value>粘贴前检查 AI 输出的格式化结果</value>
+  </data>
+  <data name="Oobe_AdvancedPaste.Description" xml:space="preserve">
+    <value>高级粘贴是一个为开发者准备的 AI 工具，可以将复制的文本内容转换为你需要的任何格式。注意：剪贴板里原本的文本会被新文本覆盖。</value>
+  </data>
+  <data name="Oobe_AdvancedPaste.Title" xml:space="preserve">
+    <value>高级粘贴</value>
+  </data>
+  <data name="Oobe_AdvancedPasteUI_HowToUse.Text" xml:space="preserve">
+    <value>打开高级粘贴面板，选择要粘贴的格式。</value>
+  </data>
+  <data name="Oobe_AdvancedPastePlain_HowToUse.Text" xml:space="preserve">
+    <value>直接以纯文本粘贴。</value>
+  </data>
+  <data name="Oobe_AdvancedPasteMarkdown_HowToUse.Text" xml:space="preserve">
+    <value>直接转换为 Markdown 格式粘贴。原内容需要是 HTML 格式的。</value>
+  </data>
+  <data name="Oobe_AdvancedPasteJson_HowToUse.Text" xml:space="preserve">
+    <value>直接转换为 JSON 格式粘贴。原内容需要是 XML 或 CSV 格式。</value>
+  </data>
+  <data name="Oobe_AdvancedPasteCustom_HowToUse.Text" xml:space="preserve">
+    <value>打开 AI 格式化对话框，用 AI 将内容转换为所需格式。</value>
   </data>
   <data name="Shell_CmdNotFound.Content" xml:space="preserve">
     <value>未找到命令</value>
@@ -3913,8 +3994,8 @@
     <value>双击打开 .reg 注册表文件时，使用注册表预览工具来打开</value>
     <comment>Registry Preview is app name. Do not localize.</comment>
   </data>
-  <data name="PastePlain_ShortcutWarning.Title" xml:space="preserve">
-    <value>覆盖 Ctrl+V 快捷键可能会导致图片、文件等无法粘贴</value>
+  <data name="AdvancedPaste_ShortcutWarning.Title" xml:space="preserve">
+    <value>覆盖 Ctrl+V 快捷键可能会导致图片、文件等无法粘贴，以及有些软件的格式化粘贴功能失效</value>
   </data>
   <data name="MouseUtils_MouseJump_ThumbnailSize.Header" xml:space="preserve">
     <value>小地图尺寸</value>
@@ -4051,9 +4132,6 @@
   <data name="GeneralPage_ShowWhatsNewAfterUpdates.Content" xml:space="preserve">
     <value>更新完成后打开更新日志</value>
   </data>
-  <data name="CmdNotFound_Arm64ArchBar.Title" xml:space="preserve">
-    <value>模块暂不支持 ARM64 架构，我们正在努力想办法</value>
-  </data>
   <data name="QuickAccent_Prevent_Activation_On_Game_Mode.Content" xml:space="preserve">
     <value>游戏模式中禁用</value>
     <comment>"Game mode" is the Windows feature to prevent notification when playing a game.</comment>
@@ -4072,5 +4150,49 @@
   </data>
   <data name="GPO_SomeThumbnailProvidersAreManaged.Title" xml:space="preserve">
     <value>组策略已控制缩略图增强模块启用状态</value>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Monaco_Sticky_Scroll.Content" xml:space="preserve">
+    <value>启用粘滞滚动</value>
+  </data>
+  <data name="Peek_SourceCode_StickyScroll.Content" xml:space="preserve">
+    <value>启用粘滞滚动</value>
+  </data>
+  <data name="PrivacyLink.Text" xml:space="preserve">
+    <value>OpenAI 隐私政策</value>
+  </data>
+  <data name="TermsLink.Text" xml:space="preserve">
+    <value>OpenAI 使用条款</value>
+  </data>
+  <data name="AdvancedPaste_EnableAIDialog_Description.Text" xml:space="preserve">
+    <value>利用 AI 的力量，您可以将复制的文本转换为任何需要的格式。点击了解 OpenAI 的相关条款：</value>
+  </data>
+  <data name="AdvancedPaste_EnableAIDialog_LoginIntoText.Text" xml:space="preserve">
+    <value>• 登录您的</value>
+  </data>
+  <data name="AdvancedPaste_EnableAIDialog_OpenAIApiKeysOverviewText.Text" xml:space="preserve">
+    <value>OpenAI API 密钥管理页面</value>
+  </data>
+  <data name="AdvancedPaste_EnableAIDialog_CreateNewKeyText.Text" xml:space="preserve">
+    <value>• 新建一个密钥，粘贴到这里</value>
+  </data>
+  <data name="FileExplorerPreview_Toggle_Monaco_Font_Size.Description" xml:space="preserve">
+    <value>编辑器字体大小，推荐 14 点</value>
+    <comment>{Locked="pt"}</comment>
+  </data>
+  <data name="FileExplorerPreview_Toggle_Monaco_Font_Size.Header" xml:space="preserve">
+    <value>字号</value>
+  </data>
+  <data name="Peek_SourceCode_FontSize.Description" xml:space="preserve">
+    <value>编辑器字体大小，推荐 14 点</value>
+    <comment>{Locked="pt"}</comment>
+  </data>
+  <data name="Peek_SourceCode_FontSize.Header" xml:space="preserve">
+    <value>字号</value>
+  </data>
+  <data name="AdvancedPaste_EnableAIDialog_NoteAICreditsText.Text" xml:space="preserve">
+    <value>• 注意：要使用该功能，您需要在 OpenAI 账户中有可用 API 额度。如果额度用尽，您将收到 “API 密钥额度已用尽” 错误</value>
+  </data>
+  <data name="AdvancedPaste_EnableAIDialog_NoteAICreditsErrorText.Text" xml:space="preserve">
+    <value>如果额度用尽，您将收到 “API 密钥额度已用尽” 错误</value>
   </data>
 </root>

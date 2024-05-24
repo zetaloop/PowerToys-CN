@@ -231,15 +231,15 @@
     <value>无法安装快捷键监听器。</value>
   </data>
   <data name="Window_Event_Listener_Error" xml:space="preserve">
-    <value>Failed to install Windows event listener.</value>
+    <value>无法安装 Windows 事件监听器。</value>
     <comment>Windows refers to the Operating system</comment>
   </data>
   <data name="Powertoys_FancyZones" xml:space="preserve">
-    <value>PowerToys - FancyZones</value>
+    <value>PowerToys - 窗口布局</value>
     <comment>do not loc.  Both are product names</comment>
   </data>
   <data name="Span_Across_Zones_Warning" xml:space="preserve">
-    <value>The 'Allow zones to span across monitors' option requires all monitors to have the same DPI scaling to work properly.</value>
+    <value>“允许布局跨显示器” 功能需要所有显示器的 DPI 缩放比例都相同。</value>
   </data>
   <data name="FancyZones_Data_Error" xml:space="preserve">
     <value>窗口布局找不到数据储存路径。请将问题反馈到</value>

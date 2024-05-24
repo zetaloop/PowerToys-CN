@@ -76,6 +76,7 @@
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Portuguese" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Swedish" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Serbian" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Esperanto" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Slovak" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Slovenian" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Gaidhlig" />

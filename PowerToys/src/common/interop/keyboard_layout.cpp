@@ -1,4 +1,4 @@
-#include "pch.h"
+ï»¿#include "pch.h"
 #include <array>
 #include <algorithm>
 
@@ -108,7 +108,7 @@ void LayoutMap::LayoutMapImpl::UpdateLayout()
         }
 
         // Store the virtual key code as string
-        std::wstring vk = L"ĞéÄâ¼üÖµ ";
+        std::wstring vk = L"è™šæ‹Ÿé”®å€¼ ";
         vk += std::to_wstring(i);
         keyboardLayoutMap[i] = vk;
         if (!isKeyCodeListGenerated)
@@ -143,39 +143,39 @@ void LayoutMap::LayoutMapImpl::UpdateLayout()
     keyboardLayoutMap[VK_END] = L"End";
     keyboardLayoutMap[VK_RETURN] = L"Enter";
 
-    keyboardLayoutMap[VK_LEFT | numpadOriginBit] = L"Left (Ğ¡¼üÅÌ)";
-    keyboardLayoutMap[VK_RIGHT | numpadOriginBit] = L"Right (Ğ¡¼üÅÌ)";
-    keyboardLayoutMap[VK_UP | numpadOriginBit] = L"Up (Ğ¡¼üÅÌ)";
-    keyboardLayoutMap[VK_DOWN | numpadOriginBit] = L"Down (Ğ¡¼üÅÌ)";
-    keyboardLayoutMap[VK_INSERT | numpadOriginBit] = L"Insert (Ğ¡¼üÅÌ)";
-    keyboardLayoutMap[VK_DELETE | numpadOriginBit] = L"Delete (Ğ¡¼üÅÌ)";
-    keyboardLayoutMap[VK_PRIOR | numpadOriginBit] = L"PgUp (Ğ¡¼üÅÌ)";
-    keyboardLayoutMap[VK_NEXT | numpadOriginBit] = L"PgDn (Ğ¡¼üÅÌ)";
-    keyboardLayoutMap[VK_HOME | numpadOriginBit] = L"Home (Ğ¡¼üÅÌ)";
-    keyboardLayoutMap[VK_END | numpadOriginBit] = L"End (Ğ¡¼üÅÌ)";
-    keyboardLayoutMap[VK_RETURN | numpadOriginBit] = L"Enter (Ğ¡¼üÅÌ)";
-    keyboardLayoutMap[VK_DIVIDE | numpadOriginBit] = L"/ (Ğ¡¼üÅÌ)";
+    keyboardLayoutMap[VK_LEFT | numpadOriginBit] = L"Left (å°é”®ç›˜)";
+    keyboardLayoutMap[VK_RIGHT | numpadOriginBit] = L"Right (å°é”®ç›˜)";
+    keyboardLayoutMap[VK_UP | numpadOriginBit] = L"Up (å°é”®ç›˜)";
+    keyboardLayoutMap[VK_DOWN | numpadOriginBit] = L"Down (å°é”®ç›˜)";
+    keyboardLayoutMap[VK_INSERT | numpadOriginBit] = L"Insert (å°é”®ç›˜)";
+    keyboardLayoutMap[VK_DELETE | numpadOriginBit] = L"Delete (å°é”®ç›˜)";
+    keyboardLayoutMap[VK_PRIOR | numpadOriginBit] = L"PgUp (å°é”®ç›˜)";
+    keyboardLayoutMap[VK_NEXT | numpadOriginBit] = L"PgDn (å°é”®ç›˜)";
+    keyboardLayoutMap[VK_HOME | numpadOriginBit] = L"Home (å°é”®ç›˜)";
+    keyboardLayoutMap[VK_END | numpadOriginBit] = L"End (å°é”®ç›˜)";
+    keyboardLayoutMap[VK_RETURN | numpadOriginBit] = L"Enter (å°é”®ç›˜)";
+    keyboardLayoutMap[VK_DIVIDE | numpadOriginBit] = L"/ (å°é”®ç›˜)";
 
-    keyboardLayoutMap[VK_SUBTRACT] = L"- (Ğ¡¼üÅÌ)";
+    keyboardLayoutMap[VK_SUBTRACT] = L"- (å°é”®ç›˜)";
     keyboardLayoutMap[VK_SELECT] = L"Select";
     keyboardLayoutMap[VK_PRINT] = L"Print";
     keyboardLayoutMap[VK_EXECUTE] = L"Execute";
     keyboardLayoutMap[VK_SNAPSHOT] = L"Print Screen";
     keyboardLayoutMap[VK_HELP] = L"Help";
-    keyboardLayoutMap[VK_LWIN] = L"Win (×ó)";
-    keyboardLayoutMap[VK_RWIN] = L"Win (ÓÒ)";
+    keyboardLayoutMap[VK_LWIN] = L"Win (å·¦)";
+    keyboardLayoutMap[VK_RWIN] = L"Win (å³)";
     keyboardLayoutMap[VK_APPS] = L"Apps/Menu";
     keyboardLayoutMap[VK_SLEEP] = L"Sleep";
-    keyboardLayoutMap[VK_NUMPAD0] = L"0 (Ğ¡¼üÅÌ)";
-    keyboardLayoutMap[VK_NUMPAD1] = L"1 (Ğ¡¼üÅÌ)";
-    keyboardLayoutMap[VK_NUMPAD2] = L"2 (Ğ¡¼üÅÌ)";
-    keyboardLayoutMap[VK_NUMPAD3] = L"3 (Ğ¡¼üÅÌ)";
-    keyboardLayoutMap[VK_NUMPAD4] = L"4 (Ğ¡¼üÅÌ)";
-    keyboardLayoutMap[VK_NUMPAD5] = L"5 (Ğ¡¼üÅÌ)";
-    keyboardLayoutMap[VK_NUMPAD6] = L"6 (Ğ¡¼üÅÌ)";
-    keyboardLayoutMap[VK_NUMPAD7] = L"7 (Ğ¡¼üÅÌ)";
-    keyboardLayoutMap[VK_NUMPAD8] = L"8 (Ğ¡¼üÅÌ)";
-    keyboardLayoutMap[VK_NUMPAD9] = L"9 (Ğ¡¼üÅÌ)";
+    keyboardLayoutMap[VK_NUMPAD0] = L"0 (å°é”®ç›˜)";
+    keyboardLayoutMap[VK_NUMPAD1] = L"1 (å°é”®ç›˜)";
+    keyboardLayoutMap[VK_NUMPAD2] = L"2 (å°é”®ç›˜)";
+    keyboardLayoutMap[VK_NUMPAD3] = L"3 (å°é”®ç›˜)";
+    keyboardLayoutMap[VK_NUMPAD4] = L"4 (å°é”®ç›˜)";
+    keyboardLayoutMap[VK_NUMPAD5] = L"5 (å°é”®ç›˜)";
+    keyboardLayoutMap[VK_NUMPAD6] = L"6 (å°é”®ç›˜)";
+    keyboardLayoutMap[VK_NUMPAD7] = L"7 (å°é”®ç›˜)";
+    keyboardLayoutMap[VK_NUMPAD8] = L"8 (å°é”®ç›˜)";
+    keyboardLayoutMap[VK_NUMPAD9] = L"9 (å°é”®ç›˜)";
     keyboardLayoutMap[VK_SEPARATOR] = L"Separator";
     keyboardLayoutMap[VK_F1] = L"F1";
     keyboardLayoutMap[VK_F2] = L"F2";
@@ -203,12 +203,12 @@ void LayoutMap::LayoutMapImpl::UpdateLayout()
     keyboardLayoutMap[VK_F24] = L"F24";
     keyboardLayoutMap[VK_NUMLOCK] = L"Num Lock";
     keyboardLayoutMap[VK_SCROLL] = L"Scroll Lock";
-    keyboardLayoutMap[VK_LSHIFT] = L"Shift (×ó)";
-    keyboardLayoutMap[VK_RSHIFT] = L"Shift (ÓÒ)";
-    keyboardLayoutMap[VK_LCONTROL] = L"Ctrl (×ó)";
-    keyboardLayoutMap[VK_RCONTROL] = L"Ctrl (ÓÒ)";
-    keyboardLayoutMap[VK_LMENU] = L"Alt (×ó)";
-    keyboardLayoutMap[VK_RMENU] = L"Alt (ÓÒ)";
+    keyboardLayoutMap[VK_LSHIFT] = L"Shift (å·¦)";
+    keyboardLayoutMap[VK_RSHIFT] = L"Shift (å³)";
+    keyboardLayoutMap[VK_LCONTROL] = L"Ctrl (å·¦)";
+    keyboardLayoutMap[VK_RCONTROL] = L"Ctrl (å³)";
+    keyboardLayoutMap[VK_LMENU] = L"Alt (å·¦)";
+    keyboardLayoutMap[VK_RMENU] = L"Alt (å³)";
     keyboardLayoutMap[VK_BROWSER_BACK] = L"Browser Back";
     keyboardLayoutMap[VK_BROWSER_FORWARD] = L"Browser Forward";
     keyboardLayoutMap[VK_BROWSER_REFRESH] = L"Browser Refresh";
@@ -236,7 +236,7 @@ void LayoutMap::LayoutMapImpl::UpdateLayout()
     keyboardLayoutMap[VK_ZOOM] = L"Zoom";
     keyboardLayoutMap[VK_PA1] = L"PA1";
     keyboardLayoutMap[VK_OEM_CLEAR] = L"Clear";
-    keyboardLayoutMap[0xFF] = L"Î´¶¨Òå";
+    keyboardLayoutMap[0xFF] = L"æœªå®šä¹‰";
     keyboardLayoutMap[CommonSharedConstants::VK_WIN_BOTH] = L"Win";
     keyboardLayoutMap[VK_KANA] = L"IME Kana";
     keyboardLayoutMap[VK_HANGEUL] = L"IME Hangeul";
@@ -249,8 +249,8 @@ void LayoutMap::LayoutMapImpl::UpdateLayout()
     keyboardLayoutMap[VK_NONCONVERT] = L"IME Non-Convert";
     keyboardLayoutMap[VK_ACCEPT] = L"IME Kana";
     keyboardLayoutMap[VK_MODECHANGE] = L"IME Mode Change";
-    keyboardLayoutMap[VK_DECIMAL] = L". (Ğ¡¼üÅÌ)";
-    keyboardLayoutMap[CommonSharedConstants::VK_DISABLED] = L"¿Õ°×";
+    keyboardLayoutMap[VK_DECIMAL] = L". (å°é”®ç›˜)";
+    keyboardLayoutMap[CommonSharedConstants::VK_DISABLED] = L"ç©ºç™½";
 }
 
 // Function to return the list of key codes in the order for the drop down. It creates it if it doesn't exist

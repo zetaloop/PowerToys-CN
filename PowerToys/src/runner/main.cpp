@@ -59,7 +59,7 @@
 namespace
 {
     const wchar_t PT_URI_PROTOCOL_SCHEME[] = L"powertoys://";
-    const wchar_t POWER_TOYS_MODULE_LOAD_FAIL[] = L"ÎÞ·¨¼ÓÔØ "; // Module name will be appended on this message and it is not localized.
+    const wchar_t POWER_TOYS_MODULE_LOAD_FAIL[] = L"æ— æ³•åŠ è½½ "; // Module name will be appended on this message and it is not localized.
 }
 
 void chdir_current_executable()
@@ -150,7 +150,7 @@ int runner(bool isProcessElevated, bool openSettings, std::string settingsWindow
             L"PowerToys.MousePointerCrosshairs.dll",
             L"PowerToys.PowerAccentModuleInterface.dll",
             L"PowerToys.PowerOCRModuleInterface.dll",
-            L"PowerToys.PastePlainModuleInterface.dll",
+            L"PowerToys.AdvancedPasteModuleInterface.dll",
             L"WinUI3Apps/PowerToys.FileLocksmithExt.dll",
             L"WinUI3Apps/PowerToys.RegistryPreviewExt.dll",
             L"WinUI3Apps/PowerToys.MeasureToolModuleInterface.dll",

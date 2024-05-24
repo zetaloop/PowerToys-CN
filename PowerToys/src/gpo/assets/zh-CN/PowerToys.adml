@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (c) Microsoft Corporation.
      Licensed under the MIT License. -->
-<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.8" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.9" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
   <displayName>PowerToys</displayName>
   <description>PowerToys</description>
   <resources>
@@ -19,8 +19,9 @@
       <string id="SUPPORTED_POWERTOYS_0_76_0">PowerToys 版本 0.76.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_77_0">PowerToys 版本 0.77.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_78_0">PowerToys 版本 0.78.0 或更高版本</string>
+      <string id="SUPPORTED_POWERTOYS_0_81_0">PowerToys 版本 0.81.0 或更高版本</string>
 
-            <string id="ConfigureGlobalUtilityEnabledStateDescription">此策略控制所有 PowerToys 功能的启用状态。
+      <string id="ConfigureGlobalUtilityEnabledStateDescription">此策略控制所有 PowerToys 功能的启用状态。
 
 如果策略设置为“已启用”，所有功能将始终启用，用户不可以禁用任何功能。
 
@@ -31,7 +32,7 @@
 特定某个功能的启用状态策略将会覆盖此策略。
 </string>
 
-	  <string id="ConfigureEnabledUtilityDescription">此策略控制一个 PowerToys 功能的启用状态。
+      <string id="ConfigureEnabledUtilityDescription">此策略控制一个 PowerToys 功能的启用状态。
 
 如果策略设置为“已启用”，该功能将始终启用，用户不可以禁用这个功能。
 
@@ -119,6 +120,7 @@
 注意：更改需要重新启动快捷启动器才能应用。
 </string>
       <string id="ConfigureGlobalUtilityEnabledState">配置所有功能的启用状态</string>
+      <string id="ConfigureEnabledUtilityAdvancedPaste">高级粘贴: 启用该功能</string>
       <string id="ConfigureEnabledUtilityAlwaysOnTop">窗口置顶: 启用该功能</string>
       <string id="ConfigureEnabledUtilityAwake">阻止睡眠: 启用该功能</string>
       <string id="ConfigureEnabledUtilityColorPicker">取色器: 启用该功能</string>
@@ -144,7 +146,6 @@
       <string id="ConfigureEnabledUtilityMouseJump">鼠标工具箱 - 鼠标跳转: 启用该功能</string>
       <string id="ConfigureEnabledUtilityMousePointerCrosshairs">鼠标工具箱 - 鼠标准心: 启用该功能</string>
       <string id="ConfigureEnabledUtilityMouseWithoutBorders">无界鼠标: 启用该功能</string>
-      <string id="ConfigureEnabledUtilityPastePlain">纯文本粘贴: 启用该功能</string>
       <string id="ConfigureEnabledUtilityPeek">快速查看: 启用该功能</string>
       <string id="ConfigureEnabledUtilityPowerRename">批量重命名: 启用该功能</string>
       <string id="ConfigureEnabledUtilityPowerLauncher">快捷启动器: 启用该功能</string>
@@ -165,13 +166,13 @@
       <string id="ConfigureEnabledUtilityFileExplorerQOIPreview">预览增强 - QOI 文件预览: 启用该功能</string>
       <string id="ConfigureEnabledUtilityFileExplorerQOIThumbnails">预览增强 - QOI 文件缩略图: 启用该功能</string>
     </stringTable>
-	
-	<presentationTable>
-	  <presentation id="PowerToysRunIndividualPluginEnabledState">
+
+    <presentationTable>
+      <presentation id="PowerToysRunIndividualPluginEnabledState">
         <listBox refId="PowerToysRunIndividualPluginEnabledList">插件管理列表:</listBox>
       </presentation>
-	</presentationTable>
-	
+    </presentationTable>
+
   </resources>
 </policyDefinitionResources>
 

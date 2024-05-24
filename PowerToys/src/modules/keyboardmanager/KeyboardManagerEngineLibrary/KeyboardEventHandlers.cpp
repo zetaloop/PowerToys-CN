@@ -1,4 +1,4 @@
-#include "pch.h"
+ï»¿#include "pch.h"
 #include <shellapi.h>
 #include "KeyboardEventHandlers.h"
 
@@ -357,7 +357,7 @@ namespace KeyboardEventHandlers
                             {
                                 // need access to text resources, maybe "convert-resx-to-rc.ps1" is not working to get
                                 // text from KeyboardManagerEditor to here in KeyboardManagerEngineLibrary land?
-                                toast(L"´íÎó", L"Óöµ½ÁËÎŞ·¨Àí½âµÄÂ·¾¶»òÍøÖ·");
+                                toast(L"é”™è¯¯", L"é‡åˆ°äº†æ— æ³•ç†è§£çš„è·¯å¾„æˆ–ç½‘å€");
                                 return 1;
                             }
                         }
@@ -370,7 +370,7 @@ namespace KeyboardEventHandlers
                             {
                                 // need access to text resources, maybe "convert-resx-to-rc.ps1" is not working to get
                                 // text from KeyboardManagerEditor to here in KeyboardManagerEngineLibrary land?
-                                toast(L"´íÎó", L"Óöµ½ÁËÎŞ·¨Àí½âµÄÂ·¾¶»òÍøÖ·");
+                                toast(L"é”™è¯¯", L"é‡åˆ°äº†æ— æ³•ç†è§£çš„è·¯å¾„æˆ–ç½‘å€");
                             }
                         };
 
@@ -1381,17 +1381,20 @@ namespace KeyboardEventHandlers
 
             if (dwAttrib == INVALID_FILE_ATTRIBUTES)
             {
-                std::wstring title = fmt::format(L"ÎŞ·¨ÔËĞĞ {}", fileNamePart);
-                std::wstring message = fmt::format(L"ÕÒ²»µ½¸Ã³ÌĞò¡£");
+                std::wstring title = fmt::format(L"æ— æ³•è¿è¡Œ {}", fileNamePart);
+                std::wstring message = fmt::format(L"æ‰¾ä¸åˆ°è¯¥ç¨‹åºã€‚");
                 toast(title, message);
                 return;
             }
 
-            std::wstring executable_and_args = fmt::format(L"\"{}\" {}", fullExpandedFilePath, shortcut.runProgramArgs);
+            std::wstring expandedArgs;
+            DWORD dwSize = ExpandEnvironmentStrings(shortcut.runProgramArgs.c_str(), nullptr, 0);
+            expandedArgs.resize(dwSize);
+            DWORD result = ExpandEnvironmentStrings(shortcut.runProgramArgs.c_str(), expandedArgs.data(), dwSize);
 
             WCHAR currentDir[MAX_PATH];
             WCHAR* currentDirPtr = currentDir;
-            DWORD result = ExpandEnvironmentStrings(shortcut.runProgramStartInDir.c_str(), currentDir, MAX_PATH);
+            result = ExpandEnvironmentStrings(shortcut.runProgramStartInDir.c_str(), currentDir, MAX_PATH);
 
             if (shortcut.runProgramStartInDir == L"")
             {
@@ -1403,8 +1406,8 @@ namespace KeyboardEventHandlers
 
                 if (dwAttrib == INVALID_FILE_ATTRIBUTES)
                 {
-                    std::wstring title = fmt::format(L"ÎŞ·¨ÔËĞĞ {}", fileNamePart);
-                    std::wstring message = fmt::format(L"ÆğÊ¼Ä¿Â¼ÎŞĞ§¡£", currentDir);
+                    std::wstring title = fmt::format(L"æ— æ³•è¿è¡Œ {}", fileNamePart);
+                    std::wstring message = fmt::format(L"èµ·å§‹ç›®å½•æ— æ•ˆã€‚", currentDir);
                     currentDirPtr = nullptr;
                     toast(title, message);
                     return;
@@ -1416,23 +1419,23 @@ namespace KeyboardEventHandlers
 
             if (shortcut.elevationLevel == Shortcut::ElevationLevel::Elevated)
             {
-                newProcessHandle = run_elevated(fullExpandedFilePath, shortcut.runProgramArgs, currentDirPtr, (shortcut.startWindowType == Shortcut::StartWindowType::Normal));
+                newProcessHandle = run_elevated(fullExpandedFilePath, expandedArgs, currentDirPtr, (shortcut.startWindowType == Shortcut::StartWindowType::Normal));
                 processId = GetProcessId(newProcessHandle);
             }
             else if (shortcut.elevationLevel == Shortcut::ElevationLevel::NonElevated)
             {
-                run_non_elevated(fullExpandedFilePath, shortcut.runProgramArgs, &processId, currentDirPtr, (shortcut.startWindowType == Shortcut::StartWindowType::Normal));
+                run_non_elevated(fullExpandedFilePath, expandedArgs, &processId, currentDirPtr, (shortcut.startWindowType == Shortcut::StartWindowType::Normal));
             }
             else if (shortcut.elevationLevel == Shortcut::ElevationLevel::DifferentUser)
             {
-                newProcessHandle = run_as_different_user(fullExpandedFilePath, shortcut.runProgramArgs, currentDirPtr, (shortcut.startWindowType == Shortcut::StartWindowType::Normal));
+                newProcessHandle = run_as_different_user(fullExpandedFilePath, expandedArgs, currentDirPtr, (shortcut.startWindowType == Shortcut::StartWindowType::Normal));
                 processId = GetProcessId(newProcessHandle);
             }
 
             if (processId == 0)
             {
-                std::wstring title = fmt::format(L"ÎŞ·¨ÔËĞĞ {}", fileNamePart);
-                std::wstring message = fmt::format(L"³ÌĞò¿ÉÄÜÆô¶¯Ê§°ÜÁË¡£");
+                std::wstring title = fmt::format(L"æ— æ³•è¿è¡Œ {}", fileNamePart);
+                std::wstring message = fmt::format(L"ç¨‹åºå¯èƒ½å¯åŠ¨å¤±è´¥äº†ã€‚");
                 toast(title, message);
                 return;
             }

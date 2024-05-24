@@ -58,6 +58,9 @@ namespace Microsoft.PowerToys.Settings.UI.ViewModels
                 _enabledStateIsGPOConfigured = true;
             }
 
+            // Update PATH environment variable to get pwsh.exe on further calls.
+            Environment.SetEnvironmentVariable("PATH", (Environment.GetEnvironmentVariable("PATH", EnvironmentVariableTarget.Machine) ?? string.Empty) + ";" + (Environment.GetEnvironmentVariable("PATH", EnvironmentVariableTarget.User) ?? string.Empty), EnvironmentVariableTarget.Process);
+
             CheckCommandNotFoundRequirements();
         }
 
@@ -127,11 +130,6 @@ namespace Microsoft.PowerToys.Settings.UI.ViewModels
         public bool IsEnabledGpoConfigured
         {
             get => _enabledStateIsGPOConfigured;
-        }
-
-        public bool IsArm64Arch
-        {
-            get => RuntimeInformation.OSArchitecture == System.Runtime.InteropServices.Architecture.Arm64;
         }
 
         public string RunPowerShellOrPreviewScript(string powershellExecutable, string powershellArguments, bool hidePowerShellWindow = false)
@@ -228,7 +226,7 @@ namespace Microsoft.PowerToys.Settings.UI.ViewModels
             {
                 IsWinGetClientModuleDetected = true;
             }
-            else if (result.Contains("未安装 WinGet 客户端模块."))
+            else if (result.Contains("未安装 WinGet 客户端模块.") || result.Contains("WinGet 客户端模块需要更新"))
             {
                 IsWinGetClientModuleDetected = false;
             }
@@ -237,7 +235,7 @@ namespace Microsoft.PowerToys.Settings.UI.ViewModels
             {
                 IsCommandNotFoundModuleInstalled = true;
             }
-            else if (result.Contains("未在配置文件中注册本模块."))
+            else if (result.Contains("未在配置文件中注册本模块.") || result.Contains("已在配置文件中注册旧版模块."))
             {
                 IsCommandNotFoundModuleInstalled = false;
             }
@@ -266,7 +264,7 @@ namespace Microsoft.PowerToys.Settings.UI.ViewModels
             var ps1File = AssemblyDirectory + "\\Assets\\Settings\\Scripts\\InstallWinGetClientModule.ps1";
             var arguments = $"-NoProfile -ExecutionPolicy Unrestricted -File \"{ps1File}\"";
             var result = RunPowerShellOrPreviewScript("pwsh.exe", arguments);
-            if (result.Contains("已安装 WinGet 客户端模块."))
+            if (result.Contains("已安装 WinGet 客户端模块.") || result.Contains("已更新 WinGet 客户端模块."))
             {
                 IsWinGetClientModuleDetected = true;
             }
@@ -284,7 +282,9 @@ namespace Microsoft.PowerToys.Settings.UI.ViewModels
             var arguments = $"-NoProfile -ExecutionPolicy Unrestricted -File \"{ps1File}\" -scriptPath \"{AssemblyDirectory}\\..\"";
             var result = RunPowerShellOrPreviewScript("pwsh.exe", arguments);
 
-            if (result.Contains("发现模块已经在配置文件中注册过了.") || result.Contains("成功在配置文件中注册模块."))
+            if (result.Contains("发现模块已经在配置文件中注册过了.")
+                || result.Contains("成功在配置文件中注册模块.")
+                || result.Contains("成功在配置文件中更新模块."))
             {
                 IsCommandNotFoundModuleInstalled = true;
                 PowerToysTelemetry.Log.WriteEvent(new CmdNotFoundInstallEvent());

@@ -325,7 +325,7 @@
     <value>退出</value>
   </data>
   <data name="WarningDialog_Text" xml:space="preserve">
-    <value>这是 Host 域名表文件编辑器。
+    <value>这是 Hosts 域名表文件编辑器。
 错误修改域名表可能会导致无法解析域名、访问网站，因此请谨慎使用。</value>
     <comment>"Hosts" refers to the system hosts file, do not loc</comment>
   </data>
