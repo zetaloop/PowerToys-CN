@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (c) Microsoft Corporation.
      Licensed under the MIT License. -->
-<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.9" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.10" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
   <displayName>PowerToys</displayName>
   <description>PowerToys</description>
   <resources>
@@ -9,6 +9,7 @@
       <string id="PowerToys">Microsoft PowerToys</string>
 	  <string id="InstallerUpdates">安装与更新</string>
 	  <string id="PowerToysRun">快捷启动器</string>
+      <string id="AdvancedPaste">高级粘贴</string>
 
       <string id="SUPPORTED_POWERTOYS_0_64_0">PowerToys 版本 0.64.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_68_0">PowerToys 版本 0.68.0 或更高版本</string>
@@ -20,6 +21,7 @@
       <string id="SUPPORTED_POWERTOYS_0_77_0">PowerToys 版本 0.77.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_78_0">PowerToys 版本 0.78.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_81_0">PowerToys 版本 0.81.0 或更高版本</string>
+      <string id="SUPPORTED_POWERTOYS_0_81_1">PowerToys 版本 0.81.1 或更高版本</string>
 
       <string id="ConfigureGlobalUtilityEnabledStateDescription">此策略控制所有 PowerToys 功能的启用状态。
 
@@ -119,6 +121,12 @@
 
 注意：更改需要重新启动快捷启动器才能应用。
 </string>
+      <string id="AllowPowerToysAdvancedPasteOnlineAIModelsDescription">此策略控制是否允许高级粘贴使用在线 AI 模型。
+
+如果策略设置为“已启用”或“未配置”，用户可以设置是否启用 AI 粘贴功能。
+
+如果策略设置为“已禁用”，用户不可以启用 AI 粘贴功能，不可以在粘贴面板中输入 AI 提示词，也不能配置 OpenAI 密钥。
+</string>
       <string id="ConfigureGlobalUtilityEnabledState">配置所有功能的启用状态</string>
       <string id="ConfigureEnabledUtilityAdvancedPaste">高级粘贴: 启用该功能</string>
       <string id="ConfigureEnabledUtilityAlwaysOnTop">窗口置顶: 启用该功能</string>
@@ -165,6 +173,7 @@
       <string id="PowerToysRunIndividualPluginEnabledState">配置特定插件的启用状态</string>
       <string id="ConfigureEnabledUtilityFileExplorerQOIPreview">预览增强 - QOI 文件预览: 启用该功能</string>
       <string id="ConfigureEnabledUtilityFileExplorerQOIThumbnails">预览增强 - QOI 文件缩略图: 启用该功能</string>
+      <string id="AllowPowerToysAdvancedPasteOnlineAIModels">高级粘贴: 允许使用在线 AI 模型</string>
     </stringTable>
 
     <presentationTable>

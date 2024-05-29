@@ -121,7 +121,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AIMistakeNote.Text" xml:space="preserve">
-    <value>注意 AI 也会犯错。</value>
+    <value>注意 AI 也会犯错</value>
   </data>
   <data name="ClipboardDataTypeMismatchWarning" xml:space="preserve">
     <value>剪贴板数据不是文本</value>
@@ -224,5 +224,8 @@
   </data>
   <data name="TermsLink.Text" xml:space="preserve">
     <value>OpenAI 使用条款</value>
+  </data>
+  <data name="OpenAIGpoDisabled" xml:space="preserve">
+    <value>组策略已禁止 AI 功能</value>
   </data>
 </root>

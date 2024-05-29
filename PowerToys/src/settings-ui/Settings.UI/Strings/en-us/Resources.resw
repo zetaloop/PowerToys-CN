@@ -3755,7 +3755,7 @@
     <comment>Product name: Navigation view item name for Advanced Paste</comment>
   </data>
   <data name="AdvancedPaste.ModuleDescription" xml:space="preserve">
-    <value>AI 赋能剪贴板，将复制的文本内容转换为任何您需要的格式</value>
+    <value>将复制的文本内容粘贴为纯文本、Markdown、JSON 等各种格式，也可以使用在线 AI 来为您执行自定义格式化。</value>
   </data>
   <data name="AdvancedPaste.ModuleTitle" xml:space="preserve">
     <value>高级粘贴</value>
@@ -3779,7 +3779,7 @@
     <value>粘贴前检查 AI 输出的格式化结果</value>
   </data>
   <data name="Oobe_AdvancedPaste.Description" xml:space="preserve">
-    <value>高级粘贴是一个为开发者准备的 AI 工具，可以将复制的文本内容转换为你需要的任何格式。注意：剪贴板里原本的文本会被新文本覆盖。</value>
+    <value>高级粘贴是一个为开发者准备的剪贴板工具，可以将复制的文本内容转换为任何需要的格式来粘贴。纯文本、Markdown、JSON 的格式化功能均在本地执行，AI 自定义格式化需要使用 OpenAI 的密钥来联网执行。注意，执行格式化后，剪贴板里原本的文本会被格式化后的文本覆盖。</value>
   </data>
   <data name="Oobe_AdvancedPaste.Title" xml:space="preserve">
     <value>高级粘贴</value>
