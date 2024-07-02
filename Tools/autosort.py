@@ -6,7 +6,7 @@ translations_directory = os.path.dirname(__file__)  # os.getcwd()
 translations_directory = os.path.abspath(os.path.join(translations_directory, "..\\.."))
 translations_directory = translations_directory.replace("\\", "/")  # 设置为当前目录的上一级目录
 print(translations_directory)
-initial_languages = ["All", "Currency", "Pinyin"]
+initial_languages = ["All", "IPA", "Currency", "Pinyin"]
 os.chdir(translations_directory)
 
 
@@ -99,7 +99,7 @@ def sort_label(dic):
     sorted_translations = sorted(
         (pinyin.get(cn, format="strip"), lab) for lab, cn in dic.items()
     )
-    lst = ["All", "Currency", "Pinyin"]
+    lst = ["All", "IPA", "Currency", "Pinyin"]
     lst += [
         original_text
         for _, original_text in sorted_translations
