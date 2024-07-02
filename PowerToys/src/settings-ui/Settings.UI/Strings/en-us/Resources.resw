@@ -2679,6 +2679,10 @@
     <value>晃动鼠标</value>
     <comment>Mouse is the hardware peripheral.</comment>
   </data>
+  <data name="MouseUtils_Include_Win_Key.Content" xml:space="preserve">
+    <value>按住 Win 键再按快捷键启动</value>
+    <comment>Specifies that the 'Find My Mouse' will only activate if the Windows key is held down while pressing the Ctrl key twice.</comment>
+  </data>
   <data name="MouseUtils_FindMyMouse_ExcludedApps.Description" xml:space="preserve">
     <value>填写忽略应用的名称，每行一个，防止在应用中误触而显示聚光灯</value>
   </data>
@@ -3460,6 +3464,9 @@
   <data name="QuickAccent_SelectedLanguage_Catalan.Content" xml:space="preserve">
     <value>加泰罗尼亚语</value>
   </data>
+  <data name="QuickAccent_SelectedLanguage_Crimean.Content" xml:space="preserve">
+    <value>克里米亚鞑靼语</value>
+  </data>
   <data name="QuickAccent_SelectedLanguage_Currency.Content" xml:space="preserve">
     <value>货币符号</value>
   </data>
@@ -3500,6 +3507,10 @@
   </data>
   <data name="QuickAccent_SelectedLanguage_Esperanto.Content" xml:space="preserve">
     <value>世界语</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_IPA.Content" xml:space="preserve">
+    <value>国际音标</value>
+    <comment>International Phonetic Alphabet</comment>
   </data>
   <data name="QuickAccent_SelectedLanguage_Lithuanian.Content" xml:space="preserve">
     <value>立陶宛语</value>
@@ -3605,7 +3616,7 @@
     <value>文件顶端</value>
   </data>
   <data name="Hosts_Behavior_GroupSettings.Header" xml:space="preserve">
-    <value>行为</value>
+    <value>功能</value>
   </data>
   <data name="Launch_Hosts.Content" xml:space="preserve">
     <value>启动编辑器</value>
@@ -3769,8 +3780,8 @@
   <data name="AdvancedPaste_EnableAISettingsGroup.Header" xml:space="preserve">
     <value>AI 粘贴</value>
   </data>
-  <data name="AdvancedPaste_ClipboardHistorySettingsGroup.Header" xml:space="preserve">
-    <value>剪贴板历史记录</value>
+  <data name="AdvancedPaste_BehaviorSettingsGroup.Header" xml:space="preserve">
+    <value>功能</value>
   </data>
   <data name="AdvancedPaste_ShowCustomPreviewSettingsCard.Header" xml:space="preserve">
     <value>预览结果</value>
@@ -4169,6 +4180,9 @@
   <data name="AdvancedPaste_EnableAIDialog_LoginIntoText.Text" xml:space="preserve">
     <value>• 登录您的</value>
   </data>
+  <data name="AdvancedPaste_EnableAIDialog_ConfigureOpenAIKey.Text" xml:space="preserve">
+    <value>配置 OpenAI 密钥</value>
+  </data>
   <data name="AdvancedPaste_EnableAIDialog_OpenAIApiKeysOverviewText.Text" xml:space="preserve">
     <value>OpenAI API 密钥管理页面</value>
   </data>
@@ -4194,5 +4208,9 @@
   </data>
   <data name="AdvancedPaste_EnableAIDialog_NoteAICreditsErrorText.Text" xml:space="preserve">
     <value>如果额度用尽，您将收到 “API 密钥额度已用尽” 错误</value>
+  </data>
+  <data name="AdvancedPaste_CloseAfterLosingFocus.Header" xml:space="preserve">
+    <value>失去焦点自动关闭（点击粘贴面板之外就会关闭）</value>
+    <comment>AdvancedPaste is a product name, do not loc</comment>
   </data>
 </root>

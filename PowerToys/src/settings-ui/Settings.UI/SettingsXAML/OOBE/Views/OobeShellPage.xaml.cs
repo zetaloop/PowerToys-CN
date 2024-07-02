@@ -5,7 +5,6 @@
 using System;
 using System.Collections.ObjectModel;
 using System.Globalization;
-using AllExperiments;
 using global::PowerToys.GPOWrapper;
 using Microsoft.PowerToys.Settings.UI.Library;
 using Microsoft.PowerToys.Settings.UI.OOBE.Enums;
@@ -52,12 +51,14 @@ namespace Microsoft.PowerToys.Settings.UI.OOBE.Views
 
         private static ISettingsUtils settingsUtils = new SettingsUtils();
 
+        // NOTE: Experimentation for OOBE is currently turned off on server side. Keeping this code in a comment to allow future experiments.
         private bool ExperimentationToggleSwitchEnabled { get; set; } = true;
 
         public OobeShellPage()
         {
             InitializeComponent();
 
+            // NOTE: Experimentation for OOBE is currently turned off on server side. Keeping this code in a comment to allow future experiments.
             ExperimentationToggleSwitchEnabled = SettingsRepository<GeneralSettings>.GetInstance(settingsUtils).SettingsConfig.EnableExperimentation;
             SetTitleBar();
             DataContext = ViewModel;
@@ -230,7 +231,8 @@ namespace Microsoft.PowerToys.Settings.UI.OOBE.Views
             {
                 switch (selectedItem.Tag)
                 {
-                    case "Overview":
+                    case "Overview": // NavigationFrame.Navigate(typeof(OobeOverview)); break;
+                    // NOTE: Experimentation for OOBE is currently turned off on server side. Keeping this code in a comment to allow future experiments.
                         if (ExperimentationToggleSwitchEnabled && GPOWrapper.GetAllowExperimentationValue() != GpoRuleConfigured.Disabled)
                         {
                             /*switch (AllExperiments.Experiments.LandingPageExperiment)

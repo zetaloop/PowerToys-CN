@@ -154,7 +154,7 @@
     <value>数字编号器用法</value>
   </data>
   <data name="CounterCheatSheet_Simple" xml:space="preserve">
-    <value>简单的递增</value>
+    <value>普通的递增计数器</value>
   </data>
   <data name="CounterCheatSheet_Start" xml:space="preserve">
     <value>自定义起始值</value>
@@ -362,5 +362,26 @@
   </data>
   <data name="RenameParts_ExtensionOnly.Content" xml:space="preserve">
     <value>仅扩展名</value>
+  </data>
+  <data name="RandomizerCheatSheet_Alnum" xml:space="preserve">
+    <value>所设长度的随机数字和大小写字母，0-9 A-z</value>
+  </data>
+  <data name="RandomizerCheatSheet_Alpha" xml:space="preserve">
+    <value>所设长度的随机大小写字母，A-z</value>
+  </data>
+  <data name="RandomizerCheatSheet_Digit" xml:space="preserve">
+    <value>所设长度的随机数字，0-9</value>
+  </data>
+  <data name="RandomizerCheatSheet_Title.Text" xml:space="preserve">
+    <value>随机字符生成器用法</value>
+  </data>
+  <data name="RandomizerCheatSheet_Uuid" xml:space="preserve">
+    <value>随机 UUID v4</value>
+  </data>
+  <data name="ToggleButton_RandItems.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>添加随机字符</value>
+  </data>
+  <data name="ToggleButton_RandItems.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>添加随机字符</value>
   </data>
 </root>

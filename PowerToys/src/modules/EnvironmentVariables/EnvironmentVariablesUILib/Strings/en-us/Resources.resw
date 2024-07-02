@@ -127,7 +127,7 @@
     <value>新建模板</value>
   </data>
   <data name="ProfilesDescriptionLbl.Text" xml:space="preserve">
-    <value>通过模板来快速应用一组预配置的环境变量</value>
+    <value>通过模板来快速应用一组预配置的环境变量，模板变量优先于用户和系统变量。</value>
   </data>
   <data name="ProfilesLbl.Text" xml:space="preserve">
     <value>模板</value>
@@ -194,7 +194,7 @@
     <value>添加</value>
   </data>
   <data name="AppliedVariablesDescriptionLbl.Text" xml:space="preserve">
-    <value>当前已应用的环境变量</value>
+    <value>当前所有环境变量，包括模板、用户和系统所设置的变量。</value>
   </data>
   <data name="AppliedVariablesLbl.Text" xml:space="preserve">
     <value>当前变量</value>
@@ -242,7 +242,7 @@
     <value>添加变量</value>
   </data>
   <data name="DefaultVariablesDescriptionLbl.Text" xml:space="preserve">
-    <value>更改用户和系统的环境变量</value>
+    <value>更改用户和系统的环境变量。</value>
   </data>
   <data name="EditItem.Text" xml:space="preserve">
     <value>编辑</value>

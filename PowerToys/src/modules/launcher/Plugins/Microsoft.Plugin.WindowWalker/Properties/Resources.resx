@@ -202,4 +202,7 @@
   <data name="wox_plugin_windowwalker_SettingSubtitleDesktopName_Description" xml:space="preserve">
     <value>若有多个虚拟桌面，程序在哪个虚拟桌面的信息</value>
   </data>
+  <data name="wox_plugin_windowwalker_NotResponding" xml:space="preserve">
+    <value>无响应</value>
+  </data>
 </root>
