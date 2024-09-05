@@ -797,6 +797,14 @@ namespace MouseWithoutBorders
                 checkBoxHideLogo.Enabled = false;
             }
 
+            // Note(@htcfreek): Disable checkboxes of settings that we don't support in the PowerToys implementation
+            checkBoxDisableCAD.Enabled = false;
+            checkBoxDisableCAD.Text = checkBoxDisableCAD.Text + " [不支持!]";
+            checkBoxHideLogo.Enabled = false;
+            checkBoxHideLogo.Text = checkBoxHideLogo.Text + " [不支持!]";
+            checkBoxSendLog.Enabled = false;
+            checkBoxSendLog.Text = checkBoxSendLog.Text + " [不支持!]";
+
             checkBoxShareClipboard.Checked = Setting.Values.ShareClipboard;
 
             if (!Setting.Values.ShareClipboard)
@@ -845,6 +853,56 @@ namespace MouseWithoutBorders
 
             comboBoxEasyMouse.Text = Setting.Values.HotKeyToggleEasyMouse == 0 ? "关闭" : new string(new char[] { (char)Setting.Values.HotKeyToggleEasyMouse });
 #endif
+
+            // Apply policy configuration on UI elements
+            // Has to be the last action
+            if (Setting.Values.ShareClipboardIsGpoConfigured)
+            {
+                checkBoxShareClipboard.Enabled = false;
+                checkBoxShareClipboard.Text += " [组策略控制]";
+
+                // transfer file setting depends on clipboard sharing
+                checkBoxTransferFile.Enabled = false;
+            }
+
+            if (Setting.Values.TransferFileIsGpoConfigured)
+            {
+                checkBoxTransferFile.Enabled = false;
+                checkBoxTransferFile.Text += " [组策略控制]";
+            }
+
+            if (Setting.Values.BlockScreenSaverIsGpoConfigured)
+            {
+                checkBoxBlockScreenSaver.Enabled = false;
+                checkBoxBlockScreenSaver.Text += " [组策略控制]";
+            }
+
+            if (Setting.Values.SameSubNetOnlyIsGpoConfigured)
+            {
+                checkBoxSameSubNet.Enabled = false;
+                checkBoxSameSubNet.Text += " [组策略控制]";
+            }
+
+            if (Setting.Values.ReverseLookupIsGpoConfigured)
+            {
+                checkBoxReverseLookup.Enabled = false;
+                checkBoxReverseLookup.Text += " [组策略控制]";
+            }
+
+            if (Setting.Values.Name2IpIsGpoConfigured)
+            {
+                textBoxMachineName2IP.Enabled = false;
+                groupBoxDNS.ForeColor = Color.DimGray;
+                groupBoxDNS.Text += " [组策略控制]";
+            }
+
+            if (Setting.Values.Name2IpPolicyListIsGpoConfigured)
+            {
+                pictureBoxMouseWithoutBorders.Visible = false;
+                groupBoxName2IPPolicyList.Visible = true;
+                textBoxMachineName2IPPolicyList.Visible = true;
+                textBoxMachineName2IPPolicyList.Text = Setting.Values.Name2IpPolicyList;
+            }
         }
 
         private void RadioButton_CheckedChanged(object sender, EventArgs e)

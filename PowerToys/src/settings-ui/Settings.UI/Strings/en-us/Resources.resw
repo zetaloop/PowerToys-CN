@@ -3461,6 +3461,9 @@
   <data name="QuickAccent_SelectedLanguage_All.Content" xml:space="preserve">
     <value>全部</value>
   </data>
+  <data name="QuickAccent_SelectedLanguage_Bulgarian.Content" xml:space="preserve">
+    <value>保加利亚语</value>
+  </data>
   <data name="QuickAccent_SelectedLanguage_Catalan.Content" xml:space="preserve">
     <value>加泰罗尼亚语</value>
   </data>
@@ -4212,5 +4215,11 @@
   <data name="AdvancedPaste_CloseAfterLosingFocus.Header" xml:space="preserve">
     <value>失去焦点自动关闭（点击粘贴面板之外就会关闭）</value>
     <comment>AdvancedPaste is a product name, do not loc</comment>
+  </data>
+  <data name="MouseWithoutBorders_PolicyIPAddressMappingInfo.Title" xml:space="preserve">
+    <value>由您的组织所设定的规则</value>
+  </data>
+  <data name="MouseWithoutBorders_PolicyIPAddressMappingInfo_TextBoxControl.Description" xml:space="preserve">
+    <value>这些强制性规则无法修改、删除或禁用。</value>
   </data>
 </root>

@@ -130,6 +130,13 @@
   <data name="Files.Text" xml:space="preserve">
     <value>占用文件</value>
   </data>
+  <data name="ProcessFilesListDialog.Title" xml:space="preserve">
+    <value>占用文件</value>
+  </data>
+  <data name="ProcessFilesListDialog.CloseButtonText" xml:space="preserve">
+    <value>关闭</value>
+    <comment>As in, close a dialog prompt.</comment>
+  </data>
   <data name="PathsTooltipDescription.Text" xml:space="preserve">
     <value>点击查看所有选中文件</value>
     <comment>Paths as in file paths that were selected for the utility to check.</comment>
@@ -163,5 +170,9 @@
   <data name="AppAdminTitle" xml:space="preserve">
     <value>管理员权限: 文件开锁匠</value>
     <comment>Title of the window when running as administrator.</comment>
+  </data>
+  <data name="ShowProcessFiles.Text" xml:space="preserve">
+    <value>查看</value>
+    <comment>Show files for the selected process</comment>
   </data>
 </root>

@@ -126,8 +126,62 @@
   <data name="error_title" xml:space="preserve">
     <value>编码生成器出错</value>
   </data>
+  <data name="generator_description_base64" xml:space="preserve">
+    <value>Base64 编码</value>
+  </data>
+  <data name="generator_description_base64d" xml:space="preserve">
+    <value>Base64 解码</value>
+  </data>
+  <data name="generator_description_esc_data" xml:space="preserve">
+    <value>百分号编码</value>
+  </data>
+  <data name="generator_description_esc_hex" xml:space="preserve">
+    <value>百分号编码，单个十六进制字符</value>
+  </data>
+  <data name="generator_description_hash" xml:space="preserve">
+    <value>计算 {0} 散列值</value>
+  </data>
+  <data name="generator_description_uesc_data" xml:space="preserve">
+    <value>百分号解码</value>
+  </data>
+  <data name="generator_description_uesc_hex" xml:space="preserve">
+    <value>百分号解码，单个十六进制字符</value>
+  </data>
+  <data name="generator_description_url" xml:space="preserve">
+    <value>URL 编码</value>
+  </data>
+  <data name="generator_description_urld" xml:space="preserve">
+    <value>URL 解码</value>
+  </data>
+  <data name="generator_description_uuid" xml:space="preserve">
+    <value>生成随机 UUID</value>
+  </data>
+  <data name="generator_description_uuidv1" xml:space="preserve">
+    <value>生成 UUID 版本 1，基于时间</value>
+  </data>
+  <data name="generator_description_uuidv3" xml:space="preserve">
+    <value>生成 UUID 版本 3，基于给定名称进行 MD5 散列计算</value>
+  </data>
+  <data name="generator_description_uuidv4" xml:space="preserve">
+    <value>生成 UUID 版本 4，随机数值</value>
+  </data>
+  <data name="generator_description_uuidv5" xml:space="preserve">
+    <value>生成 UUID 版本 5，基于给定名称进行 SHA1 散列计算</value>
+  </data>
+  <data name="generator_description_your_input" xml:space="preserve">
+    <value>输入内容</value>
+    <comment>Usage example: "md5 &lt;your input&gt;"</comment>
+  </data>
+  <data name="generator_example" xml:space="preserve">
+    <value>例如：{0}</value>
+    <comment>The arg following is the usage example</comment>
+  </data>
+  <data name="or" xml:space="preserve">
+    <value>或</value>
+    <comment>Used to indicate alternatives or options available</comment>
+  </data>
   <data name="plugin_description" xml:space="preserve">
-    <value>生成特定编码和计算哈希值</value>
+    <value>生成特定编码和计算散列值</value>
   </data>
   <data name="plugin_name" xml:space="preserve">
     <value>编码生成器</value>

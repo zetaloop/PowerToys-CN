@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (c) Microsoft Corporation.
      Licensed under the MIT License. -->
-<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.10" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.11" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
   <displayName>PowerToys</displayName>
   <description>PowerToys</description>
   <resources>
@@ -10,7 +10,10 @@
 	  <string id="InstallerUpdates">安装与更新</string>
 	  <string id="PowerToysRun">快捷启动器</string>
       <string id="AdvancedPaste">高级粘贴</string>
+      <string id="MouseWithoutBorders">无界鼠标</string>
+      <string id="GeneralSettings">常规设置</string>
 
+      <string id="SUPPORTED_POWERTOYS_0_64_0">PowerToys 版本 0.64.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_64_0">PowerToys 版本 0.64.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_68_0">PowerToys 版本 0.68.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_69_0">PowerToys 版本 0.69.0 或更高版本</string>
@@ -22,8 +25,9 @@
       <string id="SUPPORTED_POWERTOYS_0_78_0">PowerToys 版本 0.78.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_81_0">PowerToys 版本 0.81.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_81_1">PowerToys 版本 0.81.1 或更高版本</string>
+      <string id="SUPPORTED_POWERTOYS_0_83_0">PowerToys 版本 0.83.0 或更高版本</string>
 
-      <string id="ConfigureGlobalUtilityEnabledStateDescription">此策略控制所有 PowerToys 功能的启用状态。
+      <string id="ConfigureAllUtilityGlobalEnabledStateDescription">此策略控制所有 PowerToys 功能的启用状态。
 
 如果策略设置为“已启用”，所有功能将始终启用，用户不可以禁用任何功能。
 
@@ -68,7 +72,7 @@
 
 如果策略设置为“已禁用”或“未配置”，用户可以在设置中自行选择。
 </string>
-      <string id="SuspendNewUpdateToastDescription">此策略控制是否在两次小版本更新内，不显示更新通知。（示例：如果安装的版本为 v0.60.0，则下一次显示更新提示将会是版本 v0.63.*）
+      <string id="SuspendNewUpdateToastDescription">此策略控制是否在两次小版本更新内，不显示更新通知。（比如：如果安装的版本为 v0.60.0，则下一次显示更新提示将会是版本 v0.63.*）
 
 如果策略设置为“已启用”，减少更新通知。
 
@@ -121,13 +125,72 @@
 
 注意：更改需要重新启动快捷启动器才能应用。
 </string>
-      <string id="AllowPowerToysAdvancedPasteOnlineAIModelsDescription">此策略控制是否允许高级粘贴使用在线 AI 模型。
+      <string id="AllowPowerToysAdvancedPasteOnlineAIModelsDescription">此策略可以禁用高级粘贴的在线 AI 模型。
 
 如果策略设置为“已启用”或“未配置”，用户可以设置是否启用 AI 粘贴功能。
 
 如果策略设置为“已禁用”，用户不可以启用 AI 粘贴功能，不可以在粘贴面板中输入 AI 提示词，也不能配置 OpenAI 密钥。
 </string>
-      <string id="ConfigureGlobalUtilityEnabledState">配置所有功能的启用状态</string>
+      <string id="MwbClipboardSharingEnabledDescription">此策略控制是否允许在多台设备之间同步剪贴板。
+
+如果策略设置为“已启用”或“未配置”，用户可以自由地启用共享剪贴板功能。
+
+如果策略设置为“已禁用”，该功能将始终禁用，用户不可以启用这个功能。
+</string>
+      <string id="MwbFileTransferEnabledDescription">此策略控制是否允许在多台设备间传输剪贴板文件。
+
+如果策略设置为“已启用”或“未配置”，用户可以自由地启用共享文件功能。
+
+如果策略设置为“已禁用”，该功能将始终禁用，用户不可以启用这个功能。
+
+注意：共享文件需要开启共享剪贴板。如果禁用共享剪贴板，共享文件也将自动禁用。
+</string>
+      <string id="MwbUseOriginalUserInterfaceDescription">此策略控制是否允许使用旧版无界鼠标界面。
+
+如果策略设置为“已启用”或“未配置”，用户可以自由地启用旧版界面。
+
+如果策略设置为“已禁用”，用户不可以启用旧版界面。
+</string>
+      <string id="MwbDisallowBlockingScreensaverDescription">此策略控制是否允许关闭被控电脑上的屏幕保护程序。
+
+如果策略设置为“已启用”，用户无法启用阻止屏保功能，被控电脑的屏幕保护程序不会受到影响。
+
+如果策略设置为“已禁用”或“未配置”，用户可以自由地启用阻止屏保。
+</string>
+
+      <string id="MwbSameSubnetOnlyDescription">此策略控制是否仅允许同一内网的连接。
+
+如果策略设置为“已启用”，该功能将始终启用，只允许连接到同一内网的电脑。
+
+如果策略设置为“已禁用”，该功能将始终禁用，允许所有连接。
+
+如果策略设置为“未配置”，用户可以自由地启用和禁用这个功能。
+</string>
+      <string id="MwbValidateRemoteIpDescription">此策略控制是否通过反向 DNS 查找来验证被控设备 IP 地址。
+
+如果策略设置为“已启用”，该功能将始终启用，验证 IP 地址。
+
+如果策略设置为“已禁用”，该功能将始终禁用，不验证 IP 地址。
+
+如果策略设置为“未配置”，用户可以自由地启用和禁用这个功能。
+</string>
+      <string id="MwbDisableUserDefinedIpMappingRulesDescription">此策略控制是否允许用户设定 IP 地址映射。
+
+如果策略设置为“已启用”，该功能将始终禁用，用户无法设定和使用 IP 地址映射规则。
+
+如果策略设置为“已禁用”或“未配置”，用户可以自由地启用和禁用这个功能。
+
+注意：启用该策略并不会影响组策略的预设 IP 地址映射生效。
+</string>
+      <string id="MwbPolicyDefinedIpMappingRulesDescription">此策略可以设定 IP 地址映射规则。
+
+如果策略设置为“已启用”，可以设定强制的 IP 地址映射规则，用户无法改动或禁用。
+请按此格式输入，每行一个："hostname IP"
+
+如果策略设置为“已禁用”或“未配置”，不使用预设规则。
+</string>
+
+      <string id="ConfigureAllUtilityGlobalEnabledState">配置所有功能的启用状态</string>
       <string id="ConfigureEnabledUtilityAdvancedPaste">高级粘贴: 启用该功能</string>
       <string id="ConfigureEnabledUtilityAlwaysOnTop">窗口置顶: 启用该功能</string>
       <string id="ConfigureEnabledUtilityAwake">阻止睡眠: 启用该功能</string>
@@ -173,12 +236,23 @@
       <string id="PowerToysRunIndividualPluginEnabledState">配置特定插件的启用状态</string>
       <string id="ConfigureEnabledUtilityFileExplorerQOIPreview">预览增强 - QOI 文件预览: 启用该功能</string>
       <string id="ConfigureEnabledUtilityFileExplorerQOIThumbnails">预览增强 - QOI 文件缩略图: 启用该功能</string>
-      <string id="AllowPowerToysAdvancedPasteOnlineAIModels">高级粘贴: 允许使用在线 AI 模型</string>
+      <string id="AllowPowerToysAdvancedPasteOnlineAIModels">允许使用在线 AI 模型</string>
+      <string id="MwbClipboardSharingEnabled">启用共享剪贴板</string>
+      <string id="MwbFileTransferEnabled">启用文件传输</string>
+      <string id="MwbUseOriginalUserInterface">启用原版界面</string>
+      <string id="MwbDisallowBlockingScreensaver">禁用阻止屏保</string>
+      <string id="MwbSameSubnetOnly">仅允许内网控制</string>
+      <string id="MwbValidateRemoteIp">验证远程设备 IP 地址</string>
+      <string id="MwbDisableUserDefinedIpMappingRules">禁用自定义 IP 地址映射</string>
+      <string id="MwbPolicyDefinedIpMappingRules">预设 IP 地址映射规则</string>
     </stringTable>
 
     <presentationTable>
       <presentation id="PowerToysRunIndividualPluginEnabledState">
         <listBox refId="PowerToysRunIndividualPluginEnabledList">插件管理列表:</listBox>
+      </presentation>
+      <presentation id="MwbPolicyDefinedIpMappingRules">
+        <multiTextBox refId="MwbPolicyDefinedIpMappingsList">IP 地址映射列表:</multiTextBox>
       </presentation>
     </presentationTable>
 

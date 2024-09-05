@@ -128,7 +128,7 @@
     <value>日期和时间</value>
   </data>
   <data name="Microsoft_plugin_timedate_DateAndTimeUtc" xml:space="preserve">
-    <value>日期和时间 UTC</value>
+    <value>日期和时间（UTC）</value>
     <comment>'UTC' means here 'Universal Time Convention'</comment>
   </data>
   <data name="Microsoft_plugin_timedate_Day" xml:space="preserve">
@@ -138,13 +138,13 @@
     <value>月日</value>
   </data>
   <data name="Microsoft_plugin_timedate_DayOfMonth" xml:space="preserve">
-    <value>日（每月）</value>
+    <value>本月第几天</value>
   </data>
   <data name="Microsoft_plugin_timedate_DayOfWeek" xml:space="preserve">
-    <value>日（每星期）</value>
+    <value>本周第几天</value>
   </data>
   <data name="Microsoft_plugin_timedate_DayOfYear" xml:space="preserve">
-    <value>日（每年）</value>
+    <value>本年第几天</value>
   </data>
   <data name="Microsoft_plugin_timedate_Era" xml:space="preserve">
     <value>纪元</value>
@@ -165,18 +165,18 @@
     <value>ISO 8601</value>
   </data>
   <data name="Microsoft_plugin_timedate_Iso8601Utc" xml:space="preserve">
-    <value>ISO 8601 UTC</value>
+    <value>ISO 8601（UTC）</value>
     <comment>'UTC' means here 'Universal Time Convention'</comment>
   </data>
   <data name="Microsoft_plugin_timedate_Iso8601Zone" xml:space="preserve">
     <value>ISO 8601 +时区</value>
   </data>
   <data name="Microsoft_plugin_timedate_Iso8601ZoneUtc" xml:space="preserve">
-    <value>ISO 8601 UTC +时区</value>
+    <value>ISO 8601（UTC）+时区</value>
     <comment>'UTC' means here 'Universal Time Convention'</comment>
   </data>
   <data name="Microsoft_plugin_timedate_filename_compatible" xml:space="preserve">
-    <value>使用文件名支持的时间格式</value>
+    <value>文件名时间</value>
     <comment>The format allows for embedding in filenames</comment>
   </data>
   <data name="Microsoft_plugin_timedate_Millisecond" xml:space="preserve">
@@ -189,16 +189,16 @@
     <value>月份</value>
   </data>
   <data name="Microsoft_plugin_timedate_MonthOfYear" xml:space="preserve">
-    <value>月（每年）</value>
+    <value>本年第几月</value>
   </data>
   <data name="Microsoft_plugin_timedate_MonthYear" xml:space="preserve">
     <value>年月</value>
   </data>
   <data name="Microsoft_plugin_timedate_Now" xml:space="preserve">
-    <value>现在</value>
+    <value>当前时间</value>
   </data>
   <data name="Microsoft_plugin_timedate_NowUtc" xml:space="preserve">
-    <value>现在（UTC）</value>
+    <value>当前时间（UTC）</value>
     <comment>'UTC' means here 'Universal Time Convention'</comment>
   </data>
   <data name="Microsoft_plugin_timedate_plugin_description" xml:space="preserve">
@@ -301,10 +301,10 @@
     <value>Unix 纪元时间</value>
   </data>
   <data name="Microsoft_plugin_timedate_WeekOfMonth" xml:space="preserve">
-    <value>星期（每月）</value>
+    <value>本月第几周</value>
   </data>
   <data name="Microsoft_plugin_timedate_WeekOfYear" xml:space="preserve">
-    <value>星期（每年）</value>
+    <value>本年第几周</value>
   </data>
   <data name="Microsoft_plugin_timedate_WindowsFileTime" xml:space="preserve">
     <value>Windows 文件时间（64 位整数）</value>
@@ -314,5 +314,47 @@
   </data>
   <data name="Microsoft_plugin_timedate_Unix_Milliseconds" xml:space="preserve">
     <value>Unix 纪元毫秒时间</value>
+  </data>
+  <data name="Microsoft_plugin_timedate_SettingFirstDayOfWeek" xml:space="preserve">
+    <value>每周第一天</value>
+  </data>
+  <data name="Microsoft_plugin_timedate_SettingFirstDayOfWeek_Friday" xml:space="preserve">
+    <value>星期五</value>
+  </data>
+  <data name="Microsoft_plugin_timedate_SettingFirstDayOfWeek_Monday" xml:space="preserve">
+    <value>星期一</value>
+  </data>
+  <data name="Microsoft_plugin_timedate_SettingFirstDayOfWeek_Saturday" xml:space="preserve">
+    <value>星期六</value>
+  </data>
+  <data name="Microsoft_plugin_timedate_SettingFirstDayOfWeek_Sunday" xml:space="preserve">
+    <value>星期日</value>
+  </data>
+  <data name="Microsoft_plugin_timedate_SettingFirstDayOfWeek_Thursday" xml:space="preserve">
+    <value>星期四</value>
+  </data>
+  <data name="Microsoft_plugin_timedate_SettingFirstDayOfWeek_Tuesday" xml:space="preserve">
+    <value>星期二</value>
+  </data>
+  <data name="Microsoft_plugin_timedate_SettingFirstDayOfWeek_Wednesday" xml:space="preserve">
+    <value>星期三</value>
+  </data>
+  <data name="Microsoft_plugin_timedate_SettingFirstWeekRule" xml:space="preserve">
+    <value>每年第一周</value>
+  </data>
+  <data name="Microsoft_plugin_timedate_SettingFirstWeekRule_Description" xml:space="preserve">
+    <value>设置每年第一周的计算规则</value>
+  </data>
+  <data name="Microsoft_plugin_timedate_SettingFirstWeekRule_FirstDay" xml:space="preserve">
+    <value>每年第一天所在的一周</value>
+  </data>
+  <data name="Microsoft_plugin_timedate_SettingFirstWeekRule_FirstFourDayWeek" xml:space="preserve">
+    <value>每年第一个满四天的一周</value>
+  </data>
+  <data name="Microsoft_plugin_timedate_SettingFirstWeekRule_FirstFullWeek" xml:space="preserve">
+    <value>每年第一个完整的一周</value>
+  </data>
+  <data name="Microsoft_plugin_timedate_Setting_UseSystemSetting" xml:space="preserve">
+    <value>使用系统设置</value>
   </data>
 </root>

@@ -29,6 +29,7 @@ namespace Microsoft.PowerToys.Settings.UI.ViewModels
             "PI",
             "GA",
             "EST",
+            "BG",
             "IS",
             "PL",
             "DK",
