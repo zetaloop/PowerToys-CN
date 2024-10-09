@@ -13,6 +13,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Windows.Input;
+
 using ManagedCommon;
 using Microsoft.Plugin.Shell.Properties;
 using Microsoft.PowerToys.Settings.UI.Library;
@@ -20,6 +21,7 @@ using Wox.Infrastructure.Storage;
 using Wox.Plugin;
 using Wox.Plugin.Common;
 using Wox.Plugin.Logger;
+
 using Control = System.Windows.Controls.Control;
 
 namespace Microsoft.Plugin.Shell
@@ -360,13 +362,13 @@ namespace Microsoft.Plugin.Shell
             }
             catch (FileNotFoundException e)
             {
-                var name = "≤Âº˛: " + Properties.Resources.wox_plugin_cmd_plugin_name;
+                var name = "Êèí‰ª∂: " + Properties.Resources.wox_plugin_cmd_plugin_name;
                 var message = $"{Properties.Resources.wox_plugin_cmd_command_not_found}: {e.Message}";
                 _context.API.ShowMsg(name, message);
             }
             catch (Win32Exception e)
             {
-                var name = "≤Âº˛: " + Properties.Resources.wox_plugin_cmd_plugin_name;
+                var name = "Êèí‰ª∂: " + Properties.Resources.wox_plugin_cmd_plugin_name;
                 var message = $"{Properties.Resources.wox_plugin_cmd_command_failed}: {e.Message}";
                 _context.API.ShowMsg(name, message);
             }

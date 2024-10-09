@@ -139,6 +139,10 @@
     <value>环境变量编辑器</value>
     <comment>"Environment Variables" is the name of the utility</comment>
   </data>
+  <data name="Workspaces_Editor" xml:space="preserve">
+    <value>工作区编辑器</value>
+    <comment>"Workspaces" is the name of the utility</comment>
+  </data>
   <data name="FancyZones_Editor" xml:space="preserve">
     <value>窗口布局编辑器</value>
     <comment>"FancyZones" is the name of the utility</comment>

@@ -61,6 +61,7 @@ namespace Microsoft.PowerToys.Settings.UI.ViewModels
             "EL",
             "HU",
             "IT",
+            "ROM",
         };
 
         private readonly string[] _toolbarOptions =

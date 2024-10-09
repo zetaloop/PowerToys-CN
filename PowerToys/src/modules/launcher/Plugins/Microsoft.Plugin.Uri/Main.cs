@@ -4,11 +4,13 @@
 
 using System;
 using System.Collections.Generic;
+
 using ManagedCommon;
 using Microsoft.Plugin.Uri.UriHelper;
 using Wox.Infrastructure;
 using Wox.Infrastructure.Storage;
 using Wox.Plugin;
+
 using BrowserInfo = Wox.Plugin.Common.DefaultBrowserInfo;
 
 namespace Microsoft.Plugin.Uri
@@ -59,7 +61,7 @@ namespace Microsoft.Plugin.Uri
                     {
                         if (!Helper.OpenInShell(BrowserInfo.Path))
                         {
-                            var title = $"≤Âº˛: {Properties.Resources.Microsoft_plugin_uri_plugin_name}";
+                            var title = $"Êèí‰ª∂: {Properties.Resources.Microsoft_plugin_uri_plugin_name}";
                             var message = $"{Properties.Resources.Microsoft_plugin_uri_open_failed}: ";
                             Context.API.ShowMsg(title, message);
                             return false;
@@ -87,7 +89,7 @@ namespace Microsoft.Plugin.Uri
                         {
                             if (!Helper.OpenInShell(resultString))
                             {
-                                var title = $"Plugin: {Properties.Resources.Microsoft_plugin_uri_plugin_name}";
+                                var title = $"Êèí‰ª∂: {Properties.Resources.Microsoft_plugin_uri_plugin_name}";
                                 var message = $"{Properties.Resources.Microsoft_plugin_uri_open_failed}: {resultString}";
                                 Context.API.ShowMsg(title, message);
                                 return false;
@@ -110,7 +112,7 @@ namespace Microsoft.Plugin.Uri
                         {
                             if (!Helper.OpenInShell(resultString))
                             {
-                                var title = $"≤Âº˛: {Properties.Resources.Microsoft_plugin_uri_plugin_name}";
+                                var title = $"Êèí‰ª∂: {Properties.Resources.Microsoft_plugin_uri_plugin_name}";
                                 var message = $"{Properties.Resources.Microsoft_plugin_uri_open_failed}: {resultString}";
                                 Context.API.ShowMsg(title, message);
                                 return false;

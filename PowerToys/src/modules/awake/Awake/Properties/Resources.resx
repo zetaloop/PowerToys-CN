@@ -154,28 +154,28 @@
     <value>未选中</value>
   </data>
   <data name="AWAKE_CMD_HELP_CONFIG_OPTION" xml:space="preserve">
-    <value>Specifies whether Awake will be using the PowerToys configuration file for managing the state.</value>
+    <value>指定 Awake 是否使用 PowerToys 配置文件来管理状态。</value>
   </data>
   <data name="AWAKE_CMD_HELP_DISPLAY_OPTION" xml:space="preserve">
-    <value>Determines whether the display should be kept awake.</value>
+    <value>设定是否保持屏幕常亮。</value>
   </data>
   <data name="AWAKE_CMD_HELP_EXPIRE_AT_OPTION" xml:space="preserve">
-    <value>Determines the end date and time when Awake will back off and let the system manage the current sleep and display state.</value>
+    <value>设定阻止睡眠的结束时间，到时间后恢复默认的睡眠与屏幕设置。</value>
   </data>
   <data name="AWAKE_CMD_HELP_PID_OPTION" xml:space="preserve">
-    <value>Bind the execution of Awake to another process. When the process ends, the system will resume managing the current sleep and display state.</value>
+    <value>绑定某个进程来控制阻止睡眠功能。当该进程结束时，恢复默认的睡眠与屏幕设置。</value>
   </data>
   <data name="AWAKE_CMD_HELP_TIME_OPTION" xml:space="preserve">
-    <value>Determines the interval (in seconds) during which the computer is kept awake.</value>
+    <value>设定阻止睡眠的持续时长秒数。</value>
   </data>
   <data name="AWAKE_EXIT_BINDING_HOOK_MESSAGE" xml:space="preserve">
-    <value>Terminating from process binding hook.</value>
+    <value>进程绑定挂钩触发退出。</value>
   </data>
   <data name="AWAKE_EXIT_MESSAGE" xml:space="preserve">
-    <value>Exiting from the internal termination handler.</value>
+    <value>内部终止处理函数触发退出。</value>
   </data>
   <data name="AWAKE_EXIT_SIGNAL_MESSAGE" xml:space="preserve">
-    <value>Received a signal to end the process. Making sure we quit...</value>
+    <value>收到结束进程信号，正在确保安全退出...</value>
   </data>
   <data name="AWAKE_TRAY_TEXT_EXPIRATION" xml:space="preserve">
     <value>定时关闭</value>
@@ -204,5 +204,8 @@
   <data name="AWAKE_LABEL_SECONDS" xml:space="preserve">
     <value>s</value>
     <comment>Used to display number of seconds in the system tray tooltip.</comment>
+  </data>
+  <data name="AWAKE_CMD_PARENT_PID_OPTION" xml:space="preserve">
+    <value>使用父进程作为绑定目标 - 父进程结束时退出 Awake。</value>
   </data>
 </root>

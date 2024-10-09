@@ -90,6 +90,7 @@
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Greek" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Hungarian" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Italian" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Romanization" />
                         </ComboBox>
                     </tkcontrols:SettingsCard>
                 </controls:SettingsGroup>

@@ -86,10 +86,10 @@
     <value>PowerToys 已成功更新！</value>
   </data>
   <data name="STARTUP_DISABLED_BY_POLICY" xml:space="preserve">
-    <value>您的系统管理员已禁止此设置。</value>
+    <value>此功能已被管理员通过组策略禁止。</value>
   </data>
   <data name="STARTUP_DISABLED_BY_USER" xml:space="preserve">
-    <value>(此设置已在&lt;a href="https://ms_settings_startupapps" target="_blank"&gt;启动应用&lt;/a&gt;设置中禁止。)</value>
+    <value>此功能已在 &lt;a href=&quot;https://ms_settings_startupapps&quot; target=&quot;_blank&quot;&gt;启动应用&lt;/a&gt; 设置中被手动禁止。</value>
   </data>
   <data name="GITHUB_NEW_VERSION_AVAILABLE" xml:space="preserve">
     <value>PowerToys 有版本更新。</value>
@@ -98,7 +98,7 @@
     <value>立刻更新</value>
   </data>
   <data name="GITHUB_NEW_VERSION_AVAILABLE_OFFER_VISIT" xml:space="preserve">
-    <value>PowerToys 有版本更新。请访问 GitHub 页面下载。</value>
+    <value>PowerToys 有版本更新，请访问 GitHub 页面下载。</value>
   </data>
   <data name="GITHUB_NEW_VERSION_MORE_INFO" xml:space="preserve">
     <value>更多信息</value>
@@ -125,10 +125,10 @@
     <value>报告</value>
   </data>
   <data name="BUGREPORT_SUCCESS" xml:space="preserve">
-    <value>问题报告已打包，Zip 文件位于桌面。</value>
+    <value>问题报告已打包为 Zip 文件放在桌面上了。</value>
   </data>
   <data name="PT_VERSION_CHANGE_ASK_FOR_COMPUTER_RESTART" xml:space="preserve">
-    <value>PowerToys 新版本安装完成，由于程序文件路径变更，需要重启电脑，来重新加载系统集成功能。</value>
+    <value>PowerToys 新版本安装完成，由于程序文件路径变更，需要重启电脑，来重新加载文件管理器集成功能。</value>
     <comment>File Explorer refers to the Windows File Explorer application.</comment>
   </data>
   <data name="TRAY_ICON_ADMIN_TOOLTIP" xml:space="preserve">

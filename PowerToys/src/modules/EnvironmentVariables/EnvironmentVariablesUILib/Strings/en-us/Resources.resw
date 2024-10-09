@@ -127,7 +127,7 @@
     <value>新建模板</value>
   </data>
   <data name="ProfilesDescriptionLbl.Text" xml:space="preserve">
-    <value>通过模板来快速应用一组预配置的环境变量，模板变量优先于用户和系统变量。</value>
+    <value>通过模板来快速设定一组环境变量预设，模板变量优先于用户和系统变量。</value>
   </data>
   <data name="ProfilesLbl.Text" xml:space="preserve">
     <value>模板</value>
@@ -206,7 +206,7 @@
     <value>删除</value>
   </data>
   <data name="Delete_Dialog_Description" xml:space="preserve">
-    <value>确定删除此模板？如果该模板已启用，将删除该模板已添加的变量。</value>
+    <value>确定删除此模板？如果该模板已启用，它添加的变量也将被删除。</value>
   </data>
   <data name="EditSystemDefaultSetInfoBar.Text" xml:space="preserve">
     <value>编辑系统环境变量需要管理员权限</value>
@@ -242,7 +242,7 @@
     <value>添加变量</value>
   </data>
   <data name="DefaultVariablesDescriptionLbl.Text" xml:space="preserve">
-    <value>更改用户和系统的环境变量。</value>
+    <value>修改用户和系统的环境变量。</value>
   </data>
   <data name="EditItem.Text" xml:space="preserve">
     <value>编辑</value>

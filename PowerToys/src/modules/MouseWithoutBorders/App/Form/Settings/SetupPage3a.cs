@@ -5,6 +5,7 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+
 using MouseWithoutBorders.Class;
 using MouseWithoutBorders.Properties;
 
@@ -15,9 +16,9 @@ namespace MouseWithoutBorders
         private readonly Image[] _frames = { Images.copy_paste_example, Images.drag_example, Images.keyboard_example };
         private readonly string[] _messages =
         {
-                                                  "¿çµçÄÔ¸´ÖÆÕ³Ìù",
-                                                  "¿çµçÄÔÍÏ×§ÎÄ¼ş",
-                                                  "¹²ÏíÒ»Ì×Êó±ê¼üÅÌ",
+                                                  "è·¨ç”µè„‘å¤åˆ¶ç²˜è´´",
+                                                  "è·¨ç”µè„‘æ‹–æ‹½æ–‡ä»¶",
+                                                  "å…±äº«ä¸€å¥—é¼ æ ‡é”®ç›˜",
         };
 
         private readonly int[] _timing = { 1000, 1000, 2000 };
@@ -64,7 +65,7 @@ namespace MouseWithoutBorders
             SocketStuff.InvalidKeyFound = false;
             SocketStuff.InvalidKeyFoundOnClientSocket = false;
 
-            ShowStatus($"ÕıÔÚÁ¬½ÓÖĞ...");
+            ShowStatus($"æ­£åœ¨è¿æ¥ä¸­...");
 
             Common.SwitchToMultipleMode(false, false);
             Common.ReopenSockets(true);
@@ -79,7 +80,7 @@ namespace MouseWithoutBorders
 
                 if ((connectedClientSocket = Common.GetConnectedClientSocket()) != null)
                 {
-                    ShowStatus($"ÒÑÁ¬½Ó±¾µØ IP µØÖ·: {connectedClientSocket.Address}.");
+                    ShowStatus($"å·²è¿æ¥æœ¬åœ° IP åœ°å€: {connectedClientSocket.Address}.");
                     Common.UpdateMachineTimeAndID();
 
                     Common.MMSleep(1);
@@ -89,7 +90,7 @@ namespace MouseWithoutBorders
                 else if (SocketStuff.InvalidKeyFoundOnClientSocket)
                 {
                     invalidKey = true;
-                    ShowStatus("×´Ì¬: ÃÜÂëÎŞĞ§.");
+                    ShowStatus("çŠ¶æ€: å¯†ç æ— æ•ˆ.");
                     Common.MMSleep(3);
                     break;
                 }
@@ -132,15 +133,15 @@ namespace MouseWithoutBorders
                 if (invalidKey)
                 {
                     Common.ShowToolTip(
-                        "ÃÜÂë²»ÕıÈ·¡£\r\nÇë¼ì²éÊÇ·ñÔÚËùÓĞµçÄÔÉÏ¶¼ÊäÈëÁËÍ¬Ò»¸öÃÜÂë¡£\r\n²¢¼ì²éÄúÔËĞĞµÄÊÇ·ñ¶¼ÊÇÍ¬Ò»°æ±¾µÄ "
-                        + Application.ProductName + "¡£\r\n±¾Èí¼ş°æ±¾: " + FrmAbout.AssemblyVersion,
+                        "å¯†ç ä¸æ­£ç¡®ã€‚\r\nè¯·æ£€æŸ¥æ˜¯å¦åœ¨æ‰€æœ‰ç”µè„‘ä¸Šéƒ½è¾“å…¥äº†åŒä¸€ä¸ªå¯†ç ã€‚\r\nå¹¶æ£€æŸ¥æ‚¨è¿è¡Œçš„æ˜¯å¦éƒ½æ˜¯åŒä¸€ç‰ˆæœ¬çš„ "
+                        + Application.ProductName + "ã€‚\r\næœ¬è½¯ä»¶ç‰ˆæœ¬: " + FrmAbout.AssemblyVersion,
                         20000);
                 }
                 else
                 {
-                    string helpText = "Á¬½Ó³ö´í!";
-                    helpText += "\r\nÇë¼ì²éÄúµÄµçÄÔÊÇ·ñÁ¬½Óµ½Í¬Ò»¸öÍøÂç£¬Ò»°ãÍÆ¼ö²åÍøÏß¸üÎÈ¶¨¡£";
-                    helpText += "\r\nÔÙÈı¼ì²é " + Application.ProductName + " ÊÇ²»ÊÇ±»ÏµÍ³·À»ğÇ½×èÀ¹ÁË¡£";
+                    string helpText = "è¿æ¥å‡ºé”™!";
+                    helpText += "\r\nè¯·æ£€æŸ¥æ‚¨çš„ç”µè„‘æ˜¯å¦è¿æ¥åˆ°åŒä¸€ä¸ªç½‘ç»œï¼Œä¸€èˆ¬æ¨èæ’ç½‘çº¿æ›´ç¨³å®šã€‚";
+                    helpText += "\r\nå†ä¸‰æ£€æŸ¥ " + Application.ProductName + " æ˜¯ä¸æ˜¯è¢«ç³»ç»Ÿé˜²ç«å¢™é˜»æ‹¦äº†ã€‚";
                     Common.ShowToolTip(helpText, 30000);
                 }
             }

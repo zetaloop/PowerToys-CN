@@ -134,7 +134,7 @@
     <comment>Tooltip that describes a button that will copy a value to the user's clipboard</comment>
   </data>
   <data name="cp_editor" xml:space="preserve">
-    <value>拾色盘</value>
+    <value>调色板</value>
     <comment>Do not translate product name</comment>
   </data>
   <data name="Green_value" xml:space="preserve">
@@ -194,7 +194,7 @@
     <comment>Tooltip that shows the user what the selected color is</comment>
   </data>
   <data name="Selected_color_helptext" xml:space="preserve">
-    <value>可以对颜色进行调节</value>
+    <value>可以调整这个颜色</value>
     <comment>Narrator message that describes to the user that this color can be adjusted</comment>
   </data>
   <data name="Selected_color_tooltip" xml:space="preserve">

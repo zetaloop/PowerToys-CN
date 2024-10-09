@@ -250,7 +250,7 @@ void LayoutMap::LayoutMapImpl::UpdateLayout()
     keyboardLayoutMap[VK_ACCEPT] = L"IME Kana";
     keyboardLayoutMap[VK_MODECHANGE] = L"IME Mode Change";
     keyboardLayoutMap[VK_DECIMAL] = L". (小键盘)";
-    keyboardLayoutMap[CommonSharedConstants::VK_DISABLED] = L"空白";
+    keyboardLayoutMap[CommonSharedConstants::VK_DISABLED] = L"禁用";
 }
 
 // Function to return the list of key codes in the order for the drop down. It creates it if it doesn't exist
@@ -354,7 +354,7 @@ std::vector<std::pair<DWORD, std::wstring>> LayoutMap::LayoutMapImpl::GetKeyName
     // If it is a key list for the shortcut control then we add a "None" key at the start
     if (isShortcut)
     {
-        keyNames.push_back({ 0, L"None" });
+        keyNames.push_back({ 0, L"无" });
         for (int i = 1; i < keyCodes.size(); i++)
         {
             keyNames.push_back({ keyCodes[i], keyboardLayoutMap[keyCodes[i]] });

@@ -137,7 +137,7 @@
     <comment>reportWindow_file_bug + reportWindow_github_repo string</comment>
   </data>
   <data name="reportWindow_github_repo" xml:space="preserve">
-    <value>PowerToys GitHub 储存库</value>
+    <value>PowerToys GitHub 仓库</value>
     <comment>reportWindow_file_bug + reportWindow_github_repo string</comment>
   </data>
   <data name="reportWindow_upload_log" xml:space="preserve">
@@ -183,18 +183,27 @@
     <value>PowerToys 启动器反序列化错误</value>
   </data>
   <data name="deserialization_error_message" xml:space="preserve">
-    <value>重置设置为默认值，程序将继续运行。</value>
+    <value>设置将被重置为默认值，程序仍将继续运行。</value>
   </data>
   <data name="FailedToInitializePluginsDescription" xml:space="preserve">
-    <value>插件: {0} - 加载失败，已禁用，请联系插件作者以获取帮助</value>
+    <value>无法加载插件: {0}</value>
   </data>
   <data name="FailedToInitializePluginsTitle" xml:space="preserve">
-    <value>插件初始化失败</value>
+    <value>PowerToys 启动器 - 插件初始化失败</value>
+    <comment>Don't translate "PowerToys Run". This is a product name.</comment>
   </data>
   <data name="ContextMenuItemsAvailable" xml:space="preserve">
     <value>控制按钮可用</value>
   </data>
   <data name="PluginKeywords" xml:space="preserve">
-    <value>查将关键字</value>
+    <value>插件关键字</value>
+  </data>
+  <data name="RegisterHotkeyFailedTitle" xml:space="preserve">
+    <value>PowerToys 启动器 - 快捷键错误</value>
+    <comment>Don't translate "PowerToys Run". This is a product name.</comment>
+  </data>
+  <data name="FailedToInitializePluginsDescriptionPartTwo" xml:space="preserve">
+    <value>请将问题汇报到 https://aka.ms/powerToysReportBug。（第三方插件请联系插件作者）</value>
+    <comment>"https://aka.ms/powerToysReportBug" is a web uri.</comment>
   </data>
 </root>

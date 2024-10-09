@@ -59,7 +59,10 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema id="root"
+    xmlns=""
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -152,7 +155,7 @@
     <value>启动快捷键</value>
   </data>
   <data name="MeasureTool_ActivationShortcut.Description" xml:space="preserve">
-    <value>自定义打开标尺栏的快捷键</value>
+    <value>打开标尺栏的快捷键</value>
     <comment>"Screen Ruler" is the name of the utility</comment>
   </data>
   <data name="MeasureTool_DefaultMeasureStyle.Header" xml:space="preserve">
@@ -302,7 +305,7 @@
     <value>启用无界鼠标服务</value>
   </data>
   <data name="MouseWithoutBorders_UseService.Description" xml:space="preserve">
-    <value>以服务模式运行，在本电脑上拥有更高权限，可以控制锁屏的电脑，可以控制系统窗口和管理员权限的窗口</value>
+    <value>以服务模式运行，在本电脑上拥有更高的被控权限，电脑锁屏时也可控制，系统和管理员权限的窗口也可控制</value>
   </data>
   <data name="MouseWithoutBorders_MatrixOneRow.Header" xml:space="preserve">
     <value>单行排列</value>
@@ -720,7 +723,7 @@
     <value>保留复制的历史记录，这是系统自带的功能，按 Win+V 打开</value>
   </data>
   <data name="AdvancedPaste_Direct_Access_Hotkeys_GroupSettings.Header" xml:space="preserve">
-    <value>快捷键</value>
+    <value>操作</value>
   </data>
   <data name="RemapKeysList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>当前单键重映射列表</value>
@@ -1477,7 +1480,7 @@
     <value>快捷键指南</value>
   </data>
   <data name="General_Repository.Text" xml:space="preserve">
-    <value>GitHub 库</value>
+    <value>开源仓库</value>
   </data>
   <data name="General_VersionAndUpdate.Header" xml:space="preserve">
     <value>版本</value>
@@ -1991,13 +1994,47 @@
     <value>启动快捷键</value>
   </data>
   <data name="Activation_Shortcut.Description" xml:space="preserve">
-    <value>自定义启动功能的快捷键</value>
+    <value>启动此功能的快捷键</value>
   </data>
   <data name="PasteAsPlainText_Shortcut.Header" xml:space="preserve">
     <value>粘贴为纯文本</value>
   </data>
+  <data name="AdvancedPasteUI_Actions.Header" xml:space="preserve">
+    <value>自定义操作</value>
+  </data>
+  <data name="AdvancedPasteUI_Actions.Description" xml:space="preserve">
+    <value>创建自定义格式粘贴操作，需要启用 AI 粘贴</value>
+  </data>
+  <data name="AdvancedPasteUI_AddCustomActionButton.Content" xml:space="preserve">
+    <value>添加自定义操作</value>
+  </data>
   <data name="AdvancedPasteUI_Shortcut.Header" xml:space="preserve">
     <value>打开高级粘贴面板</value>
+  </data>
+  <data name="AdvancedPasteUI_NewCustomActionPrefix" xml:space="preserve">
+    <value>新建自定义操作</value>
+    <comment>First part of the default name of new custom action that can be added in PT's settings ui.</comment>
+  </data>
+  <data name="AdvancedPasteUI_CustomAction_Name.Header" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="AdvancedPasteUI_CustomAction_Prompt.Header" xml:space="preserve">
+    <value>提示词</value>
+  </data>
+  <data name="CustomActionDialog.SecondaryButtonText" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="AddCustomAction" xml:space="preserve">
+    <value>添加自定义操作</value>
+  </data>
+  <data name="CustomActionSave" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="EditCustomAction" xml:space="preserve">
+    <value>编辑自定义操作</value>
+  </data>
+  <data name="CustomActionUpdate" xml:space="preserve">
+    <value>更新</value>
   </data>
   <data name="PasteAsMarkdown_Shortcut.Header" xml:space="preserve">
     <value>粘贴为 Markdown</value>
@@ -2059,6 +2096,9 @@
   </data>
   <data name="Oobe_PowerRename.Description" xml:space="preserve">
     <value>一个简单的文件重命名工具，可以自动执行文件名搜索与替换。</value>
+  </data>
+  <data name="Oobe_Workspaces.Description" xml:space="preserve">
+    <value>在工作区中保存一组窗口布置，下次即可一键启动所有软件并恢复窗口位置。</value>
   </data>
   <data name="Oobe_Run.Description" xml:space="preserve">
     <value>一个趁手的启动器，通过快捷搜索来启动插件提供的丰富功能。</value>
@@ -2153,6 +2193,16 @@
   <data name="Oobe_PowerRename_HowToUse.Text" xml:space="preserve">
     <value>选中几个文件，单击 **右键** ，然后在右键菜单中选择 **批量重命名** 。</value>
   </data>
+  <data name="Oobe_Workspaces_HowToUse_Shortcut.Text" xml:space="preserve">
+    <value>打开工作区编辑器。</value>
+    <comment>{Locked="Workspaces"}</comment>
+  </data>
+  <data name="Oobe_Workspaces_HowToUse.Text" xml:space="preserve">
+    <value>在工作区编辑器中可以创建一个工作区——也就是一组按照特定布局排列的软件窗口。之后，您可以在编辑器中启动工作区，恢复所有打开的窗口，也可以创建一个桌面快捷方式来启动它。</value>
+  </data>
+  <data name="Oobe_Workspaces_TipsAndTricks.Text" xml:space="preserve">
+    <value>如果需要让工作区内的软件，在启动后自动打开某个文件、恢复上次的编辑状态，您可能需要添加一些命令行参数。</value>
+  </data>
   <data name="Oobe_PowerRename_TipsAndTricks.Text" xml:space="preserve">
     <value>可以使用正则表达式，进行高级操作。</value>
   </data>
@@ -2225,6 +2275,10 @@
     <value>批量重命名</value>
     <comment>Do not localize this string</comment>
   </data>
+  <data name="Oobe_Workspaces.Title" xml:space="preserve">
+    <value>工作区</value>
+    <comment>Do not localize this string</comment>
+  </data>
   <data name="Oobe_Run.Title" xml:space="preserve">
     <value>快捷启动器</value>
     <comment>Do not localize this string</comment>
@@ -2256,7 +2310,7 @@
     <value>您的代理服务器需要身份验证。</value>
   </data>
   <data name="Oobe_WhatsNew_DetailedReleaseNotesLink.Text" xml:space="preserve">
-    <value>访问我们的 GitHub 储存库以查看详细记录</value>
+    <value>访问我们的 GitHub 仓库以查看详细记录</value>
     <comment>Don't loc "GitHub", it's the name of a product</comment>
   </data>
   <data name="OOBE_Settings.Content" xml:space="preserve">
@@ -2266,7 +2320,7 @@
     <value>入门指南</value>
     <comment>Don't loc "PowerToys"</comment>
   </data>
-	<data name="WhatIsNew_NavViewItem.Content" xml:space="preserve">
+  <data name="WhatIsNew_NavViewItem.Content" xml:space="preserve">
     <value>更新日志</value>
   </data>
   <data name="Feedback_NavViewItem.Content" xml:space="preserve">
@@ -2299,10 +2353,10 @@
     <value>无限模式</value>
   </data>
   <data name="Awake_TemporaryKeepAwakeSelector.Content" xml:space="preserve">
-    <value>持续时长模式</value>
+    <value>倒计时模式</value>
   </data>
   <data name="Awake_ExpirableKeepAwakeSelector.Content" xml:space="preserve">
-    <value>定时结束模式</value>
+    <value>定时关闭模式</value>
   </data>
   <data name="Awake_DisplaySettingsCard.Header" xml:space="preserve">
     <value>保持屏幕常亮</value>
@@ -2723,8 +2777,8 @@
     <value>聚光灯出现、消失的时长</value>
     <comment>ms = milliseconds</comment>
   </data>
-  <data name="MouseUtils_FindMyMouse_AnimationDurationMs_Disabled.Message" xml:space="preserve">
-    <value>动画效果已被系统禁用，选项位于设置 &gt; 辅助功能 &gt; 视觉效果</value>
+  <data name="MouseUtils_FindMyMouse_AnimationDurationMs_Disabled.Title" xml:space="preserve">
+    <value>动画效果已被系统禁用</value>
   </data>
   <data name="MouseUtils_FindMyMouse_ShakingMinimumDistance.Header" xml:space="preserve">
     <value>晃动距离</value>
@@ -2761,7 +2815,7 @@
     <value>启动快捷键</value>
   </data>
   <data name="MouseUtils_MouseHighlighter_ActivationShortcut.Description" xml:space="preserve">
-    <value>自定义打开高亮的快捷键</value>
+    <value>打开高亮的快捷键</value>
     <comment>"Mouse Highlighter" is the name of the utility. Mouse is the hardware mouse.</comment>
   </data>
   <data name="MouseUtils_MouseHighlighter_PrimaryButtonClickColor.Header" xml:space="preserve">
@@ -2806,7 +2860,7 @@
     <value>启动快捷键</value>
   </data>
   <data name="MouseUtils_MousePointerCrosshairs_ActivationShortcut.Description" xml:space="preserve">
-    <value>自定义打开准心的快捷键</value>
+    <value>打开准心的快捷键</value>
   </data>
   <data name="MouseUtils_MousePointerCrosshairs_CrosshairsColor.Header" xml:space="preserve">
     <value>线条颜色</value>
@@ -3009,7 +3063,7 @@
     <value>启动快捷键</value>
   </data>
   <data name="AlwaysOnTop_ActivationShortcut.Description" xml:space="preserve">
-    <value>自定义置顶窗口的快捷键</value>
+    <value>置顶窗口的快捷键</value>
   </data>
   <data name="Oobe_AlwaysOnTop.Title" xml:space="preserve">
     <value>窗口置顶</value>
@@ -3129,6 +3183,32 @@
   <data name="Shell_QuickAccent.Content" xml:space="preserve">
     <value>字母助手</value>
   </data>
+  <data name="Shell_Workspaces.Content" xml:space="preserve">
+    <value>工作区</value>
+  </data>
+  <data name="Workspaces_EnableToggleControl_HeaderText.Header" xml:space="preserve">
+    <value>启用工作区</value>
+    <comment>"Workspaces" is the name of the utility</comment>
+  </data>
+  <data name="Workspaces_Activation_GroupSettings.Header" xml:space="preserve">
+    <value>快捷键</value>
+  </data>
+  <data name="Workspaces_ActivationShortcut.Description" xml:space="preserve">
+    <value>启动工作区编辑器的快捷键</value>
+  </data>
+  <data name="Workspaces_ActivationShortcut.Header" xml:space="preserve">
+    <value>启动快捷键</value>
+  </data>
+  <data name="Workspaces_LaunchEditorButtonControl.Description" xml:space="preserve">
+    <value>创建和管理工作区</value>
+  </data>
+  <data name="Workspaces_LaunchEditorButtonControl.Header" xml:space="preserve">
+    <value>启动工作区编辑器</value>
+  </data>
+  <data name="LearnMore_Workspaces.Text" xml:space="preserve">
+    <value>详细了解工作区</value>
+    <comment> Workspaces is the name of the module. </comment>
+  </data>
   <data name="QuickAccent.ModuleDescription" xml:space="preserve">
     <value>用于输入带标记的特殊字母，当键盘上没有的时候特别方便。
 
@@ -3196,7 +3276,7 @@
     <value>在右键菜单中自动化重命名文件</value>
   </data>
   <data name="Run_ShortDescription" xml:space="preserve">
-    <value>启动器</value>
+    <value>打开启动器</value>
   </data>
   <data name="PowerAccent_ShortDescription" xml:space="preserve">
     <value>输入标记字母</value>
@@ -3524,6 +3604,9 @@
   <data name="QuickAccent_SelectedLanguage_Maori.Content" xml:space="preserve">
     <value>毛利语</value>
   </data>
+  <data name="QuickAccent_SelectedLanguage_Romanization.Content" xml:space="preserve">
+    <value>中东语言罗马化</value>
+  </data>
   <data name="QuickAccent_SelectedLanguage_Dutch.Content" xml:space="preserve">
     <value>荷兰语</value>
   </data>
@@ -3580,15 +3663,15 @@
     <comment>"Hosts" refers to the system hosts file, do not loc</comment>
   </data>
   <data name="Hosts.ModuleTitle" xml:space="preserve">
-    <value>域名表编辑</value>
+    <value>域名表</value>
     <comment>"Hosts" refers to the system hosts file, do not loc</comment>
   </data>
   <data name="Shell_Hosts.Content" xml:space="preserve">
-    <value>域名表编辑</value>
+    <value>域名表</value>
     <comment>Products name: Navigation view item name for Hosts File Editor</comment>
   </data>
   <data name="Hosts_EnableToggleControl_HeaderText.Header" xml:space="preserve">
-    <value>启用域名表编辑工具</value>
+    <value>启用域名表工具</value>
     <comment>"Hosts File Editor" is the name of the utility</comment>
   </data>
   <data name="Hosts_Toggle_ShowStartupWarning.Header" xml:space="preserve">
@@ -3626,7 +3709,7 @@
     <comment>"Hosts File Editor" is the name of the utility</comment>
   </data>
   <data name="LearnMore_Hosts.Text" xml:space="preserve">
-    <value>进一步学习域名表编辑工具</value>
+    <value>进一步学习域名表工具</value>
     <comment>"Hosts File Editor" is the name of the utility</comment>
   </data>
   <data name="Oobe_Hosts.Description" xml:space="preserve">
@@ -3634,7 +3717,7 @@
     <comment>"Hosts File Editor" is the name of the utility</comment>
   </data>
   <data name="Oobe_Hosts.Title" xml:space="preserve">
-    <value>域名表编辑</value>
+    <value>域名表</value>
     <comment>"Hosts File Editor" is the name of the utility</comment>
   </data>
   <data name="Hosts_Toggle_LaunchAdministrator.Description" xml:space="preserve">
@@ -3976,7 +4059,7 @@
     <comment>Refers to the utility name</comment>
   </data>
   <data name="MouseUtils_MouseJump_ActivationShortcut.Description" xml:space="preserve">
-    <value>自定义打开闪现小地图的快捷键</value>
+    <value>打开闪现小地图的快捷键</value>
   </data>
   <data name="MouseUtils_MouseJump_ActivationShortcut.Header" xml:space="preserve">
     <value>启动快捷键</value>
@@ -4216,10 +4299,185 @@
     <value>失去焦点自动关闭（点击粘贴面板之外就会关闭）</value>
     <comment>AdvancedPaste is a product name, do not loc</comment>
   </data>
+  <data name="NewPlus.ModuleTitle" xml:space="preserve">
+    <value>新建+</value>
+    <comment>New+ is the name of the utility. Localize product name in accordance with Windows New</comment>
+  </data>
+  <data name="NewPlus.ModuleDescription" xml:space="preserve">
+    <value>从自定义模板新建文件与文件夹。</value>
+  </data>
+  <data name="NewPlus_Product_Name.Content" xml:space="preserve">
+    <value>新建+</value>
+    <comment>New+ is the name of the utility. Localize product name in accordance with Windows New</comment>
+  </data>
+  <data name="NewPlus_Product_Description.Description" xml:space="preserve">
+    <value>从模板新建文件与文件夹</value>
+    <comment>New+ product description</comment>
+  </data>
+  <data name="NewPlus_Learn_More.Text" xml:space="preserve">
+    <value>详细了解新建+</value>
+    <comment>New+ learn more link. Localize product name in accordance with Windows New</comment>
+  </data>
+  <data name="NewPlus_Enable_Toggle.Header" xml:space="preserve">
+    <value>启用新建+</value>
+    <comment>Localize product name in accordance with Windows New</comment>
+  </data>
+  <data name="NewPlus_NoWindows10SupportWarning.Title" xml:space="preserve">
+    <value>新建+不支持 Win10，它将无法运行</value>
+  </data>
+  <data name="NewPlus_TemplatesNotBackupAndRestoreWarning.Title" xml:space="preserve">
+    <value>目前 PowerToys 备份功能暂不支持新建+的模板，如需备份请手动复制模板</value>
+  </data>
+  <data name="NewPlus_Templates.Header" xml:space="preserve">
+    <value>模板</value>
+    <comment>Templates label</comment>
+  </data>
+  <data name="NewPlus_Templates_Location.Header" xml:space="preserve">
+    <value>模板文件夹位置</value>
+    <comment>Templates Location label</comment>
+  </data>
+  <data name="NewPlus_Templates_Location_Path.Text" xml:space="preserve">
+    <value>...</value>
+    <comment>Do not localize</comment>
+  </data>
+  <data name="NewPlus_Templates_Location_Learn_More.Content" xml:space="preserve">
+    <value>了解模板文件夹的高级用法</value>
+    <comment>Read more about templates location</comment>
+  </data>
+  <data name="NewPlus_Templates_Location_Change.Content" xml:space="preserve">
+    <value>更改</value>
+    <comment>Button where user can Change the location of New templates</comment>
+  </data>
+  <data name="NewPlus_Display_Options.Header" xml:space="preserve">
+    <value>显示</value>
+    <comment>Display options label</comment>
+  </data>
+  <data name="NewPlus_Hide_File_Extension_Toggle.Header" xml:space="preserve">
+    <value>隐藏模板文件扩展名</value>
+    <comment>Template file name extension settings toggle</comment>
+  </data>
+  <data name="NewPlus_Hide_Starting_Digits_Toggle.Header" xml:space="preserve">
+    <value>隐藏模板文件名开头的数字、空格、点</value>
+    <comment>Template filename starting digits settings toggle</comment>
+  </data>
+  <data name="NewPlus_Hide_Starting_Digits_Description.Text" xml:space="preserve">
+    <value>可以在文件名开头添加 1. 2. 这样的序号来控制模板的排列顺序</value>
+    <comment>Template filename starting digits settings toggle</comment>
+  </data>
+  <data name="NewPlus.SecondaryLinksHeader" xml:space="preserve">
+    <value>贡献</value>
+    <comment>giving credit</comment>
+  </data>
+  <data name="Oobe_NewPlus.Title" xml:space="preserve">
+    <value>新建+</value>
+    <comment>New+ is the name of the utility. Localize product name in accordance with Windows New</comment>
+  </data>
+  <data name="Oobe_NewPlus.Description" xml:space="preserve">
+    <value>从自定义模板新建文件与文件夹。</value>
+  </data>
+  <data name="Oobe_NewPlus_HowToUse.Text" xml:space="preserve">
+    <value>在文件夹中单击右键，在右键菜单中选择 "新建+"，然后就能选择要放置哪个新建模板了。选择 "打开模板文件夹" 可以添加新的模板。</value>
+  </data>
+  <data name="Oobe_NewPlus_TipsAndTricks.Text" xml:space="preserve">
+    <value>您可以为各种用途添加不同的模板，例如记录日常开支的 Excel 表格模板、制作宣传海报的 PSD 模板，甚至是一整个模板代码项目文件夹！只需放在模板文件夹内即可。</value>
+  </data>  
+  <data name="Workspaces.ModuleDescription" xml:space="preserve">
+    <value>保存一组窗口布置，一键恢复工作状态。</value>
+  </data>
+  <data name="Workspaces.ModuleTitle" xml:space="preserve">
+    <value>工作区</value>
+  </data>
+  <data name="Workspaces_ShortDescription" xml:space="preserve">
+    <value>创建与启动工作区</value>
+  </data>
   <data name="MouseWithoutBorders_PolicyIPAddressMappingInfo.Title" xml:space="preserve">
     <value>由您的组织所设定的规则</value>
   </data>
   <data name="MouseWithoutBorders_PolicyIPAddressMappingInfo_TextBoxControl.Description" xml:space="preserve">
     <value>这些强制性规则无法修改、删除或禁用。</value>
+  </data>
+  <data name="OpenSettings.Content" xml:space="preserve">
+    <value>打开设置</value>
+  </data>
+  <data name="LanguageHeader.Header" xml:space="preserve">
+    <value>软件语言</value>
+  </data>
+  <data name="LanguageHeader.Description" xml:space="preserve">
+    <value>在汉化版中，为了防止冲突，原版简体中文包已删除，英语就是汉化包</value>
+  </data>
+  <data name="LanguageRestartInfo.Title" xml:space="preserve">
+    <value>重启 PowerToys 来应用新的语言</value>
+  </data>
+  <data name="LanguageRestartInfoButton.Content" xml:space="preserve">
+    <value>重启软件</value>
+  </data>
+  <data name="Default_Language" xml:space="preserve">
+    <value>系统默认</value>
+  </data>
+  <data name="Arabic_Saudi_Arabia_Language" xml:space="preserve">
+    <value>阿拉伯语（沙特阿拉伯）</value>
+  </data>
+  <data name="Czech_Language" xml:space="preserve">
+    <value>捷克语</value>
+  </data>
+  <data name="German_Language" xml:space="preserve">
+    <value>德语</value>
+  </data>
+  <data name="English_Language" xml:space="preserve">
+    <value>英语（汉化包）</value>
+  </data>
+  <data name="Spanish_Language" xml:space="preserve">
+    <value>西班牙语</value>
+  </data>
+  <data name="Persian_Farsi_Language" xml:space="preserve">
+    <value>波斯语（伊朗）</value>
+  </data>
+  <data name="French_Language" xml:space="preserve">
+    <value>法语</value>
+  </data>
+  <data name="Hebrew_Israel_Language" xml:space="preserve">
+    <value>希伯来语（以色列）</value>
+  </data>
+  <data name="Hungarian_Language" xml:space="preserve">
+    <value>匈牙利语</value>
+  </data>
+  <data name="Italian_Language" xml:space="preserve">
+    <value>意大利语</value>
+  </data>
+  <data name="Japanese_Language" xml:space="preserve">
+    <value>日语</value>
+  </data>
+  <data name="Korean_Language" xml:space="preserve">
+    <value>韩语</value>
+  </data>
+  <data name="Dutch_Language" xml:space="preserve">
+    <value>荷兰语</value>
+  </data>
+  <data name="Polish_Language" xml:space="preserve">
+    <value>波兰语</value>
+  </data>
+  <data name="Portuguese_Brazil_Language" xml:space="preserve">
+    <value>葡萄牙语（巴西）</value>
+  </data>
+  <data name="Portuguese_Portugal_Language" xml:space="preserve">
+    <value>葡萄牙语（葡萄牙）</value>
+  </data>
+  <data name="Russian_Language" xml:space="preserve">
+    <value>俄语</value>
+  </data>
+  <data name="Swedish_Language" xml:space="preserve">
+    <value>瑞典语</value>
+  </data>
+  <data name="Turkish_Language" xml:space="preserve">
+    <value>土耳其语</value>
+  </data>
+  <data name="Ukrainian_Language" xml:space="preserve">
+    <value>乌克兰语</value>
+  </data>
+  <data name="Chinese_Simplified_Language" xml:space="preserve">
+    <value>中文（简体）</value>
+  </data>
+  <data name="Chinese_Traditional_Language" xml:space="preserve">
+    <value>中文（繁体）</value>
   </data>
 </root>

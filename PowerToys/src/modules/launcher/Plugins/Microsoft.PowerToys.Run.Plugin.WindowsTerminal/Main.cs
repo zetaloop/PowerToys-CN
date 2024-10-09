@@ -9,6 +9,7 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+
 using Microsoft.PowerToys.Run.Plugin.WindowsTerminal.Helpers;
 using Microsoft.PowerToys.Run.Plugin.WindowsTerminal.Properties;
 using Microsoft.PowerToys.Settings.UI.Library;
@@ -153,7 +154,7 @@ namespace Microsoft.PowerToys.Run.Plugin.WindowsTerminal
             }
             catch (Exception ex)
             {
-                var name = "≤Âº˛: " + Resources.plugin_name;
+                var name = "Êèí‰ª∂: " + Resources.plugin_name;
                 var message = Resources.run_terminal_failed;
                 Log.Exception("Failed to open Windows Terminal", ex, GetType());
                 _context.API.ShowMsg(name, message, string.Empty);
@@ -169,7 +170,7 @@ namespace Microsoft.PowerToys.Run.Plugin.WindowsTerminal
             }
             catch (Exception ex)
             {
-                var name = "≤Âº˛: " + Resources.plugin_name;
+                var name = "Êèí‰ª∂: " + Resources.plugin_name;
                 var message = Resources.run_terminal_failed;
                 Log.Exception("Failed to open Windows Terminal", ex, GetType());
                 _context.API.ShowMsg(name, message, string.Empty);

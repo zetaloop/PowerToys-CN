@@ -1,4 +1,4 @@
-#include "pch.h"
+ï»¿#include "pch.h"
 #include <interface/powertoy_module_interface.h>
 #include <common/SettingsAPI/settings_objects.h>
 #include <common/interop/shared_constants.h>
@@ -557,13 +557,14 @@ public:
 
         std::wstring executable_args = L"";
         executable_args.append(L"/S /c \"");
-        executable_args.append(L"echo Îª PowerToys.MouseWithoutBorders.exe É¾³ıËùÓĞÔ­ÓĞµÄÈëÕ¾¹æÔò");
+        executable_args.append(L"chcp 65001>nul");
+        executable_args.append(L" & echo ä¸º PowerToys.MouseWithoutBorders.exe åˆ é™¤æ‰€æœ‰åŸæœ‰çš„å…¥ç«™è§„åˆ™");
         executable_args.append(L" & netsh advfirewall firewall delete rule dir=in name=all program=\"");
         executable_args.append(executable_path);
-        executable_args.append(L"\" & echo Îª PowerToys.MouseWithoutBorders.exe Ìí¼ÓÒ»ÌõÔÊĞíÍ¨¹ıµÄÈëÕ¾¹æÔò");
+        executable_args.append(L"\" & echo ä¸º PowerToys.MouseWithoutBorders.exe æ·»åŠ ä¸€æ¡å…è®¸é€šè¿‡çš„å…¥ç«™è§„åˆ™");
         executable_args.append(L" & netsh advfirewall firewall add rule name=\"PowerToys.MouseWithoutBorders\" dir=in action=allow program=\"");
         executable_args.append(executable_path);
-        executable_args.append(L"\" enable=yes remoteip=LocalSubnet profile=any protocol=tcp & echo ÏÖÔÚ¿ÉÒÔ¹ØµôÕâ¸ö´°¿ÚÁË & pause\"");
+        executable_args.append(L"\" enable=yes remoteip=LocalSubnet profile=any protocol=tcp & echo ç°åœ¨å¯ä»¥å…³æ‰è¿™ä¸ªçª—å£äº† & pause\"");
 
         SHELLEXECUTEINFOW sei{ sizeof(sei) };
         sei.fMask = { SEE_MASK_NOCLOSEPROCESS | SEE_MASK_FLAG_NO_UI };
