@@ -1,6 +1,6 @@
 # PowerToys Simplified Chinese Translation
 
-<img src="https://raw.githubusercontents.com/zetaloop/PowerToys-CN/master/to.pic/PowerToysCN-21.topic.png"/>
+<img src="https://raw.gitmirror.com/zetaloop/PowerToys-CN/master/to.pic/PowerToysCN-22.topic.png"/>
 
 PowerToys 简体中文翻译优化补丁
 
@@ -8,13 +8,13 @@ PowerToys 简体中文翻译优化补丁
 
 - 反馈汉化问题：[议题](https://github.com/zetaloop/PowerToys-CN/issues) 或 zetaloop@outlook.com
 
-- 版本：21.7 for **PowerToys v0.83.0**
+- 版本：22.0 for **PowerToys v0.85.1**
 
 - 现已支持 x64 & ARM64（ARM64 需自行编译）
 
 下载 原版安装包：[PowerToys](https://github.com/microsoft/PowerToys)
 
-下载 汉化包：[Github Release](https://github.com/zetaloop/PowerToys-CN/releases/latest) | [蓝奏云 密码zeta](https://zeta.lanzouq.com/b0nyd5t9e)
+下载 汉化包：[Github Release](https://github.com/zetaloop/PowerToys-CN/releases/latest) | [蓝奏云 密码zeta](https://zeta.lanzouq.com/b0nyisjad)
 
 ## 使用方法
 
@@ -55,7 +55,7 @@ PowerToys 简体中文翻译优化补丁
 </picture>
 
 
-PowerToys 模块名称：高级粘贴 窗口置顶 阻止睡眠 未找到命令 取色器 窗口镜像 环境变量 窗口布局 文件开锁匠 预览增强 域名表编辑 图像裁剪器 键盘修改器 鼠标工具箱 无界鼠标 快速查看 批量重命名 快捷启动器 字母助手 注册表预览 屏幕标尺 快捷键指南 文本提取 直播工具
+PowerToys 模块名称：高级粘贴 窗口置顶 阻止睡眠 取色器 未找到命令 窗口镜像 环境变量 窗口布局 预览增强 文件开锁匠 域名表 图像裁剪器 键盘修改器 鼠标工具箱 无界鼠标 新建+ 快速查看 批量重命名 快捷启动器 字母助手 注册表预览 屏幕标尺 快捷键指南 文本提取 直播工具 工作区
 
 PowerToys 常规设置、主页（仪表盘）、快捷面板、Monaco 文本编辑器组件、各模块预设及设置界面
 
@@ -77,9 +77,9 @@ Environment Variables 操作界面
 
 FancyZones 操作界面
 
-File Locksmith 操作界面、右键菜单
-
 File Explorer Add-ons 操作界面、预览器错误提示
+
+File Locksmith 操作界面、右键菜单
 
 Hosts File Editor 操作界面
 
@@ -88,6 +88,8 @@ Image Resizer 操作界面、右键菜单
 Keyboard Manager 操作界面
 
 Mouse Without Borders 原版软件界面、通知消息、执行脚本
+
+New+ 右键菜单、模板文件
 
 Peek 操作界面
 
@@ -104,6 +106,8 @@ Shortcut Guide 操作界面、快捷键图片
 Text Extractor 操作界面
 
 Video Conference Mute 按键图片、虚拟摄像头设备名称
+
+Workspaces 操作界面
 
 实验功能已修改，移除测试组限制，打开即用
 
