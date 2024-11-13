@@ -118,9 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AIMistakeNote.Text" xml:space="preserve">
-    <value>注意 AI 也会犯错</value>
+    <value>注意 AI 也可能会犯错</value>
   </data>
-  <data name="ClipboardDataTypeMismatchWarning" xml:space="preserve">
+  <data name="ClipboardEmptyWarning" xml:space="preserve">
+    <value>剪贴板为空</value>
+  </data>
+  <data name="ClipboardDataNotTextWarning" xml:space="preserve">
     <value>剪贴板数据不是文本</value>
   </data>
   <data name="OpenAINotConfigured" xml:space="preserve">
@@ -135,6 +138,9 @@
   <data name="OpenAIApiKeyError" xml:space="preserve">
     <value>OpenAI 请求失败，返回状态码: </value>
   </data>
+  <data name="PasteError" xml:space="preserve">
+    <value>粘贴时出现问题</value>
+  </data>  
   <data name="ClipboardHistoryButton.Text" xml:space="preserve">
     <value>剪贴板历史记录</value>
   </data>
@@ -151,7 +157,7 @@
     <value>隐私政策</value>
   </data>
   <data name="LoadingText.Text" xml:space="preserve">
-    <value>正在连接 AI 服务生成结果..</value>
+    <value>正在生成结果..</value>
   </data>
   <data name="PasteAsJson" xml:space="preserve">
     <value>粘贴为 JSON</value>
@@ -162,6 +168,18 @@
   <data name="PasteAsPlainText" xml:space="preserve">
     <value>粘贴为纯文本</value>
   </data>
+  <data name="ImageToText" xml:space="preserve">
+    <value>图像转文本</value>
+  </data>
+  <data name="PasteAsTxtFile" xml:space="preserve">
+    <value>粘贴为 .txt 文件</value>
+  </data>
+  <data name="PasteAsPngFile" xml:space="preserve">
+    <value>粘贴为 .png 文件</value>
+  </data>
+  <data name="PasteAsHtmlFile" xml:space="preserve">
+    <value>粘贴为 .html 文件</value>
+  </data>  
   <data name="PasteButtonAutomation.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>粘贴</value>
   </data>
@@ -228,4 +246,7 @@
   <data name="CtrlKey" xml:space="preserve">
     <value>Ctrl</value>
   </data>
+  <data name="PasteAsFile_FilePrefix" xml:space="preserve">
+    <value>PowerToys_Paste_</value>
+  </data>  
 </root>

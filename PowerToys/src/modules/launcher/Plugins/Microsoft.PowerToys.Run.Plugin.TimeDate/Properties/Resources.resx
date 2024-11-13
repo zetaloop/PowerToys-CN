@@ -121,6 +121,9 @@
     <value>复制 (Ctrl+C)</value>
     <comment>'Ctrl+C' is a shortcut</comment>
   </data>
+  <data name="Microsoft_plugin_timedate_copy_failed" xml:space="preserve">
+    <value>复制失败</value>
+  </data>
   <data name="Microsoft_plugin_timedate_Date" xml:space="preserve">
     <value>日期</value>
   </data>

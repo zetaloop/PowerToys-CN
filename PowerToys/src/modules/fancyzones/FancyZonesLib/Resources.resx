@@ -218,7 +218,7 @@
     <comment>FancyZones is a product name, keep as is.</comment>
   </data>
   <data name="Cant_Drag_Elevated" xml:space="preserve">
-    <value>检测到一个以管理员身份运行的程序窗口，窗口布局无法对它进行操作。</value>
+    <value>检测到一个以管理员权限运行的软件窗口，窗口布局无法对它进行操作。</value>
     <comment>administrator is context of user account.</comment>
   </data>
   <data name="Cant_Drag_Elevated_Learn_More" xml:space="preserve">

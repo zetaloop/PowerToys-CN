@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (c) Microsoft Corporation.
      Licensed under the MIT License. -->
-<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.13" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.14" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
   <displayName>PowerToys</displayName>
   <description>PowerToys</description>
   <resources>
@@ -28,6 +28,7 @@
       <string id="SUPPORTED_POWERTOYS_0_83_0">PowerToys 版本 0.83.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_84_0">PowerToys 版本 0.84.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_85_0">PowerToys 版本 0.85.0 或更高版本</string>
+      <string id="SUPPORTED_POWERTOYS_0_86_0">PowerToys 版本 0.86.0 或更高版本</string>
 
       <string id="ConfigureAllUtilityGlobalEnabledStateDescription">此策略控制所有 PowerToys 功能的启用状态。
 
@@ -101,6 +102,12 @@
 如果策略设置为“已启用”，用户可以在 PowerToys 设置里选择是否参与功能测试。
 
 如果策略设置为“已禁用”或“未配置”，不允许参与功能测试。
+</string>
+      <string id="AllowDiagnosticDataDescription">此策略控制是否允许发送 PowerToys 诊断数据。发送诊断数据可以帮助修复错误和优化性能。
+
+如果策略设置为“已启用”或“未配置”，用户可以在 PowerToys 设置里选择是否发送诊断数据。
+
+如果策略设置为“已禁用”或“未配置”，不允许发送诊断数据。
 </string>
       <string id="PowerToysRunAllPluginsEnabledStateDescription">此策略控制所有快捷启动器插件的启用状态。所有插件将会拥有相同的启用状态。
 
@@ -258,6 +265,7 @@
       <string id="MwbDisableUserDefinedIpMappingRules">禁用自定义 IP 地址映射</string>
       <string id="MwbPolicyDefinedIpMappingRules">预设 IP 地址映射规则</string>
       <string id="NewPlusHideTemplateFilenameExtension">隐藏模板文件扩展名</string>
+      <string id="AllowDiagnosticData">允许发送诊断数据</string>
     </stringTable>
 
     <presentationTable>

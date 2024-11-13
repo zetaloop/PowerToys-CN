@@ -1,4 +1,4 @@
-﻿<Page
+<Page
     x:Class="Microsoft.PowerToys.Settings.UI.Views.PowerAccentPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -79,6 +79,7 @@
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Portuguese" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Swedish" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Serbian" />
+                            <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Serbian_Cyrillic" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Esperanto" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Slovak" />
                             <ComboBoxItem x:Uid="QuickAccent_SelectedLanguage_Slovenian" />
@@ -155,7 +156,7 @@
             <controls:PageLink x:Uid="LearnMore_QuickAccent" Link="https://aka.ms/PowerToysOverview_QuickAccent" />
         </controls:SettingsPageControl.PrimaryLinks>
         <controls:SettingsPageControl.SecondaryLinks>
-            <controls:PageLink Link="https://github.com/damienleroy/PowerAccent" Text="Damien Leroy 的软件 PowerAccent" />
+            <controls:PageLink Link="https://github.com/damienleroy/PowerAccent" Text="Damien Leroy's PowerAccent" />
         </controls:SettingsPageControl.SecondaryLinks>
     </controls:SettingsPageControl>
 </Page>

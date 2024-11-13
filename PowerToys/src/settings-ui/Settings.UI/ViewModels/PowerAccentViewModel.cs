@@ -4,6 +4,7 @@
 
 using System;
 using System.Runtime.CompilerServices;
+
 using global::PowerToys.GPOWrapper;
 using Microsoft.PowerToys.Settings.UI.Library;
 using Microsoft.PowerToys.Settings.UI.Library.Enumerations;
@@ -50,6 +51,7 @@ namespace Microsoft.PowerToys.Settings.UI.ViewModels
             "PT",
             "SV",
             "SR",
+            "SR_CYRL",
             "EPO",
             "SK",
             "SL",

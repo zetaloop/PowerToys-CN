@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -59,10 +59,7 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root"
-    xmlns=""
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-    xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -359,7 +356,7 @@
     <value>共享复制的内容，如果功能突然失效，按 Ctrl + Alt + Del 然后按 Esc 也许可以解决问题</value>
   </data>
   <data name="MouseWithoutBorders_TransferFile.Description" xml:space="preserve">
-    <value>共享剪贴板时，如果复制的是小于 100MB 的文件，自动传输到别的电脑的剪贴板</value>
+    <value>自动传输复制的文件，大小需小于 100MB（已修改为 500MB）</value>
   </data>
   <data name="MouseWithoutBorders_HideMouseAtScreenEdge.Description" xml:space="preserve">
     <value>鼠标移出屏幕后，把本设备光标隐藏在屏幕顶部，消除当前窗口焦点，使键盘输入转移到被控电脑</value>
@@ -724,6 +721,9 @@
   </data>
   <data name="AdvancedPaste_Direct_Access_Hotkeys_GroupSettings.Header" xml:space="preserve">
     <value>操作</value>
+  </data>
+  <data name="AdvancedPaste_Additional_Actions_GroupSettings.Header" xml:space="preserve">
+    <value>其他操作</value>
   </data>
   <data name="RemapKeysList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>当前单键重映射列表</value>
@@ -2045,6 +2045,21 @@
   <data name="PasteAsCustom_Shortcut.Header" xml:space="preserve">
     <value>粘贴为自定义 AI 格式</value>
   </data>
+  <data name="ImageToText.Header" xml:space="preserve">
+    <value>图像转文本</value>
+  </data>
+  <data name="PasteAsFile.Header" xml:space="preserve">
+    <value>粘贴为文件</value>
+  </data>
+  <data name="PasteAsTxtFile.Header" xml:space="preserve">
+    <value>粘贴为 .txt 文件</value>
+  </data>
+  <data name="PasteAsPngFile.Header" xml:space="preserve">
+    <value>粘贴为 .png 文件</value>
+  </data>
+  <data name="PasteAsHtmlFile.Header" xml:space="preserve">
+    <value>粘贴为 .html 文件</value>
+  </data>
   <data name="AdvancedPaste_EnableAIDialogOpenAIApiKey.Text" xml:space="preserve">
     <value>OpenAI API 密钥:</value>
   </data>
@@ -2123,6 +2138,51 @@
   </data>
   <data name="Oobe_Overview_DescriptionLinkText.Text" xml:space="preserve">
     <value>学习在线帮助文档</value>
+  </data>
+  <data name="Oobe_Overview_Telemetry_Title.Text" xml:space="preserve">
+    <value>帮助我们改进 PowerToys</value>
+  </data>
+  <data name="Oobe_Overview_Telemetry_Desc.Text" xml:space="preserve">
+    <value>通过收集和分析软件的运行状况，我们可以让它更加安全稳定。</value>
+  </data>
+  <data name="Oobe_Overview_DiagnosticsAndFeedback_Settings_Link.Content" xml:space="preserve">
+    <value>诊断数据设置</value>
+  </data>
+  <data name="Oobe_Overview_DiagnosticsAndFeedback_Link.Content" xml:space="preserve">
+    <value>详细了解我们收集的信息及其用途</value>
+  </data>
+  <data name="Oobe_Overview_EnableDataDiagnostics.Header" xml:space="preserve">
+    <value>发送诊断数据</value>
+  </data>
+  <data name="Oobe_Overview_EnableDataDiagnostics.Description" xml:space="preserve">
+    <value>帮助我们找到错误、优化性能、调整开发方向</value>
+  </data>
+  <data name="Oobe_WhatsNew_DataDiagnostics_InfoBar.Header" xml:space="preserve">
+    <value>您愿意发送诊断数据来帮助我们改进 PowerToys 吗？</value>
+  </data>
+  <data name="Oobe_WhatsNew_DataDiagnostics_InfoBar_Desc.Text" xml:space="preserve">
+    <value>该功能完全由您自主选择是否开启</value>
+  </data>
+  <data name="Oobe_WhatsNew_DataDiagnostics_InfoBar_Button_Enable.Content" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="Oobe_WhatsNew_DataDiagnostics_Yes_Click_InfoBar_Title" xml:space="preserve">
+    <value>感谢您的参与，让 PowerToys 更加出色！</value>
+  </data>
+  <data name="Oobe_WhatsNew_DataDiagnostics_No_Click_InfoBar_Title" xml:space="preserve">
+    <value>设置成功</value>
+  </data>
+  <data name="Oobe_WhatsNew_DataDiagnostics_Yes_Click_InfoBar_Desc.Text" xml:space="preserve">
+    <value>如果需要关闭的话，可以前往 </value>
+  </data>
+  <data name="Oobe_WhatsNew_DataDiagnostics_Yes_Click_OpenSettings_Text.Text" xml:space="preserve">
+    <value>设置页面</value>
+  </data>
+  <data name="Oobe_WhatsNew_DataDiagnostics_Button_Yes.Content" xml:space="preserve">
+    <value>好呀</value>
+  </data>
+  <data name="Oobe_WhatsNew_DataDiagnostics_Button_No.Content" xml:space="preserve">
+    <value>不要</value>
   </data>
   <data name="ReleaseNotes.Content" xml:space="preserve">
     <value>版本公告</value>
@@ -3390,7 +3450,7 @@
     <value>例如: Teams.exe</value>
   </data>
   <data name="LearnMore_TextExtractor.Text" xml:space="preserve">
-    <value>进一步学习文本提取工具</value>
+    <value>详细了解文本提取工具</value>
   </data>
   <data name="TextExtractor_Cancel" xml:space="preserve">
     <value>取消</value>
@@ -3472,7 +3532,7 @@
     <value>Win11 截图工具有更好的文本提取功能，推荐用那个</value>
   </data>
   <data name="TextExtractor_SupportedLanguages_Link.Content" xml:space="preserve">
-    <value>进一步学习多语言支持</value>
+    <value>详细了解多语言支持</value>
   </data>
   <data name="Shell_TextExtractor.Content" xml:space="preserve">
     <value>文本提取</value>
@@ -3505,7 +3565,7 @@
     <value>部分插件唤醒词与默认唤醒的插件有冲突</value>
   </data>
   <data name="Run_ConflictingKeywordInfo_Link.Content" xml:space="preserve">
-    <value>进一步学习唤醒词冲突</value>
+    <value>详细了解唤醒词冲突</value>
   </data>
   <data name="MeasureTool_ContinuousCapture_Information.Title" xml:space="preserve">
     <value>实时测量会增加系统开销，并且不支持录屏和截屏</value>
@@ -3646,6 +3706,9 @@
   <data name="QuickAccent_SelectedLanguage_Serbian.Content" xml:space="preserve">
     <value>塞尔维亚语</value>
   </data>
+  <data name="QuickAccent_SelectedLanguage_Serbian_Cyrillic.Content" xml:space="preserve">
+    <value>塞尔维亚语西里尔字母</value>
+  </data>
   <data name="QuickAccent_SelectedLanguage_Hungarian.Content" xml:space="preserve">
     <value>匈牙利语</value>
   </data>
@@ -3709,7 +3772,7 @@
     <comment>"Hosts File Editor" is the name of the utility</comment>
   </data>
   <data name="LearnMore_Hosts.Text" xml:space="preserve">
-    <value>进一步学习域名表工具</value>
+    <value>详细了解域名表工具</value>
     <comment>"Hosts File Editor" is the name of the utility</comment>
   </data>
   <data name="Oobe_Hosts.Description" xml:space="preserve">
@@ -3754,7 +3817,7 @@
     <value>启动环境变量编辑器</value>
   </data>
   <data name="LearnMore_EnvironmentVariables.Text" xml:space="preserve">
-    <value>进一步学习环境变量工具</value>
+    <value>详细了解环境变量工具</value>
   </data>
   <data name="Oobe_EnvironmentVariables.Description" xml:space="preserve">
     <value>便捷的环境变量管理工具，可以编辑变量，也可以套用模板方便管理。</value>
@@ -3841,11 +3904,38 @@
     <value>功能测试</value>
   </data>
   <data name="GeneralPage_EnableExperimentation.Description" xml:space="preserve">
-    <value>无需加入测试组，现在打开即可享用新功能</value>
+    <value>汉化版移除了内测检测，打开即可享用新功能</value>
     <comment>{Locked="Windows Insider"}</comment>
   </data>
   <data name="GeneralPage_EnableExperimentation.Header" xml:space="preserve">
     <value>开启新功能测试</value>
+  </data>
+  <data name="General_DiagnosticsAndFeedback.Header" xml:space="preserve">
+    <value>诊断数据</value>
+  </data>
+  <data name="GeneralPage_DiagnosticsAndFeedback_Link.Content" xml:space="preserve">
+    <value>详细了解我们收集的信息及其用途</value>
+  </data>
+  <data name="GeneralPage_EnableDataDiagnostics.Header" xml:space="preserve">
+    <value>发送诊断数据</value>
+  </data>
+  <data name="GeneralPage_EnableDataDiagnostics.Description" xml:space="preserve">
+    <value>帮助我们修复错误和优化性能</value>
+  </data>
+  <data name="GeneralPage_ViewDiagnosticData.Header" xml:space="preserve">
+    <value>查看诊断数据</value>
+  </data>
+  <data name="GeneralPage_EnableViewDiagnosticData.Header" xml:space="preserve">
+    <value>启用诊断数据查看器</value>
+  </data>
+  <data name="GeneralPage_EnableViewDiagnosticData.Description" xml:space="preserve">
+    <value>可能会占用大约 1GB 的空间</value>
+  </data>
+  <data name="GeneralPage_ViewDiagnosticDataViewer.Header" xml:space="preserve">
+    <value>查看诊断数据</value>
+  </data>
+  <data name="GeneralPage_ViewDiagnosticDataViewer.Description" xml:space="preserve">
+    <value>诊断数据查看器会创建可读的 XML 诊断数据，目录包含 .xml 和 .etl 文件</value>
   </data>
   <data name="Shell_AdvancedPaste.Content" xml:space="preserve">
     <value>高级粘贴</value>
@@ -4043,7 +4133,7 @@
     <comment>Do not localize this string</comment>
   </data>
   <data name="LearnMore_RegistryPreview.Text" xml:space="preserve">
-    <value>进一步学习注册表预览工具</value>
+    <value>详细了解注册表预览工具</value>
     <comment>Registry Preview is a product name, do not loc</comment>
   </data>
   <data name="Launch_RegistryPreview.Content" xml:space="preserve">
@@ -4380,7 +4470,7 @@
   </data>
   <data name="Oobe_NewPlus_TipsAndTricks.Text" xml:space="preserve">
     <value>您可以为各种用途添加不同的模板，例如记录日常开支的 Excel 表格模板、制作宣传海报的 PSD 模板，甚至是一整个模板代码项目文件夹！只需放在模板文件夹内即可。</value>
-  </data>  
+  </data>
   <data name="Workspaces.ModuleDescription" xml:space="preserve">
     <value>保存一组窗口布置，一键恢复工作状态。</value>
   </data>
@@ -4479,5 +4569,26 @@
   </data>
   <data name="Chinese_Traditional_Language" xml:space="preserve">
     <value>中文（繁体）</value>
+  </data>
+  <data name="GeneralPage_ViewDiagnosticDataViewerInfo.Title" xml:space="preserve">
+    <value>重启 PowerToys 生效。</value>
+  </data>
+  <data name="GeneralPage_ViewDiagnosticDataViewerInfoButton.Content" xml:space="preserve">
+    <value>重启</value>
+  </data>
+  <data name="Shell_TopLevelAdvanced.Content" xml:space="preserve">
+    <value>高级</value>
+  </data>
+  <data name="Shell_TopLevelFileManagement.Content" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="Shell_TopLevelInputOutput.Content" xml:space="preserve">
+    <value>外设</value>
+  </data>
+  <data name="Shell_TopLevelWindowsAndLayouts.Content" xml:space="preserve">
+    <value>窗口</value>
+  </data>
+  <data name="Shell_TopLevelSystemTools.Content" xml:space="preserve">
+    <value>工具</value>
   </data>
 </root>

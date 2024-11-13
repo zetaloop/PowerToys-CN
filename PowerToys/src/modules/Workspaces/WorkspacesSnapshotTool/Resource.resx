@@ -117,144 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="EditButton.Label" xml:space="preserve">
-    <value>编辑文本</value>
+  <data name="DefaultProjectNamePrefix" xml:space="preserve">
+    <value>工作区</value>
   </data>
-  <data name="ErrorDialogTitle" xml:space="preserve">
-    <value>错误</value>
+  <data name="Projects" xml:space="preserve">
+    <value>工作区</value>
   </data>
-  <data name="FileEditorError" xml:space="preserve">
-    <value>无法打开 .reg 注册表文件编辑器。</value>
+  <data name="System_Foreground_Elevated" xml:space="preserve">
+    <value>检测到一个以管理员权限运行的软件，工作区无法控制它。</value>
   </data>
-  <data name="FileNotFound" xml:space="preserve">
-    <value>文件不存在！</value>
+  <data name="System_Foreground_Elevated_Dialog_Dont_Show_Again" xml:space="preserve">
+    <value>不再显示</value>
   </data>
-  <data name="FileSaveError" xml:space="preserve">
-    <value>文件无法写入。</value>
-  </data>
-  <data name="FilterAllFiles" xml:space="preserve">
-    <value>所有文件 (*.*)</value>
-  </data>
-  <data name="FilterRegistryName" xml:space="preserve">
-    <value>注册表文件 (*.reg)</value>
-  </data>
-  <data name="InvalidBinary" xml:space="preserve">
-    <value>(无效二进制值)</value>
-  </data>
-  <data name="InvalidDword" xml:space="preserve">
-    <value>(无效 DWORD (32 位) 值)</value>
-  </data>
-  <data name="InvalidQword" xml:space="preserve">
-    <value>(无效 QWORD (64 位) 值)</value>
-  </data>
-  <data name="InvalidRegistryFile" xml:space="preserve">
-    <value> 不是有效的注册表文件！</value>
-  </data>
-  <data name="InvalidRegistryFileTitle" xml:space="preserve">
-    <value>非注册表文件</value>
-  </data>
-  <data name="InvalidString" xml:space="preserve">
-    <value>(无效字符串值)</value>
-  </data>
-  <data name="LargeRegistryFile" xml:space="preserve">
-    <value> 大于 10MB，注册表预览工具无法打开该文件。</value>
-  </data>
-  <data name="LargeRegistryFileTitle" xml:space="preserve">
-    <value>文件过大！</value>
-  </data>
-  <data name="NameColumn.Header" xml:space="preserve">
-    <value>名称</value>
-  </data>
-  <data name="NoNodesFoundInFile" xml:space="preserve">
-    <value>找不到有效的键</value>
-  </data>
-  <data name="OkButtonText" xml:space="preserve">
-    <value>好的</value>
-    <comment>as on the OK button</comment>
-  </data>
-  <data name="OpenButton.Label" xml:space="preserve">
-    <value>打开</value>
-  </data>
-  <data name="OpenDialogTitle" xml:space="preserve">
-    <value>打开注册表文件</value>
-  </data>
-  <data name="RefreshButton.Label" xml:space="preserve">
-    <value>重新加载文件</value>
-  </data>
-  <data name="RegistryButton.Label" xml:space="preserve">
-    <value>打开注册表编辑器</value>
-  </data>
-  <data name="RegistryJumpToKeyButton.Label" xml:space="preserve">
-    <value>打开键</value>
-  </data>
-  <data name="SaveDialogTitle" xml:space="preserve">
-    <value>另存为</value>
-  </data>
-  <data name="SaveAsButton.Label" xml:space="preserve">
-    <value>另存为</value>
-  </data>
-  <data name="SaveButton.Label" xml:space="preserve">
-    <value>保存</value>
-  </data>
-  <data name="SuggestFileName" xml:space="preserve">
-    <value>新建注册表文件</value>
-  </data>
-  <data name="titleBarText.ApplicationTitle" xml:space="preserve">
-    <value>注册表预览</value>
-  </data>
-  <data name="ToolTipAddedKey" xml:space="preserve">
-    <value>如果不存在，键将被自动创建</value>
-  </data>
-  <data name="ToolTipBinaryValue" xml:space="preserve">
-    <value>二进制值将写入到注册表</value>
-  </data>
-  <data name="ToolTipDeletedKey" xml:space="preserve">
-    <value>键将被删除</value>
-  </data>
-  <data name="ToolTipDeletedValue" xml:space="preserve">
-    <value>值将被删除</value>
-  </data>
-  <data name="ToolTipErrorKey" xml:space="preserve">
-    <value>键无法解析</value>
-  </data>
-  <data name="ToolTipErrorValue" xml:space="preserve">
-    <value>值存在语法错误</value>
-  </data>
-  <data name="ToolTipStringValue" xml:space="preserve">
-    <value>字符串值将写入到注册表</value>
-  </data>
-  <data name="TypeColumn.Header" xml:space="preserve">
-    <value>类型</value>
-    <comment>noun, as in "a type of..."</comment>
-  </data>
-  <data name="UACDialogError" xml:space="preserve">
-    <value>打开和写入系统注册表需要管理员权限，在刚才的弹窗中请点击允许。</value>
-  </data>
-  <data name="UACDialogTitle" xml:space="preserve">
-    <value>获取管理员权限</value>
-  </data>
-  <data name="ValueColumn.Header" xml:space="preserve">
-    <value>数据</value>
-  </data>
-  <data name="WriteButton.Label" xml:space="preserve">
-    <value>写入到注册表</value>
-  </data>
-  <data name="YesNoCancelDialogCloseButtonText" xml:space="preserve">
-    <value>取消</value>
-  </data>
-  <data name="YesNoCancelDialogContent" xml:space="preserve">
-    <value>文件有改动，现在保存吗？</value>
-  </data>
-  <data name="YesNoCancelDialogPrimaryButtonText" xml:space="preserve">
-    <value>保存</value>
-  </data>
-  <data name="YesNoCancelDialogSecondaryButtonText" xml:space="preserve">
-    <value>不保存</value>
-  </data>
-  <data name="YesNoCancelDialogTitle" xml:space="preserve">
-    <value>注册表预览</value>
-  </data>
-  <data name="ZeroLength" xml:space="preserve">
-    <value>(零长度二进制值)</value>
+  <data name="System_Foreground_Elevated_Learn_More" xml:space="preserve">
+    <value>了解更多</value>
   </data>
 </root>
