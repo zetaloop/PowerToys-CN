@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -177,16 +177,19 @@
     <value>垂直间距</value>
   </data>
   <data name="MeasureTool_UnitsOfMeasure.Header" xml:space="preserve">
-    <value>测量单位</value>
+    <value>额外测量单位</value>
   </data>
   <data name="MeasureTool_UnitsOfMeasure_Pixels.Content" xml:space="preserve">
-    <value>像素</value>
+    <value>仅显示像素</value>
   </data>
   <data name="MeasureTool_UnitsOfMeasure_Inches.Content" xml:space="preserve">
     <value>英寸</value>
   </data>
   <data name="MeasureTool_UnitsOfMeasure_Centimeters.Content" xml:space="preserve">
     <value>厘米</value>
+  </data>
+  <data name="MeasureTool_UnitsOfMeasure_Millimeters.Content" xml:space="preserve">
+    <value>毫米</value>
   </data>
   <data name="MeasureTool_PixelTolerance.Header" xml:space="preserve">
     <value>边缘像素检测容差</value>
@@ -717,7 +720,7 @@
     <value>剪贴板历史记录</value>
   </data>
   <data name="AdvancedPaste_Clipboard_History_Enabled_SettingsCard.Description" xml:space="preserve">
-    <value>保留复制的历史记录，这是系统自带的功能，按 Win+V 打开</value>
+    <value>保留复制的历史记录，这是系统自带的功能，按 Win+V 显示</value>
   </data>
   <data name="AdvancedPaste_Direct_Access_Hotkeys_GroupSettings.Header" xml:space="preserve">
     <value>操作</value>
@@ -3601,124 +3604,133 @@
   <data name="QuickAccent_SelectedLanguage_All.Content" xml:space="preserve">
     <value>全部</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Bulgarian.Content" xml:space="preserve">
+  <data name="QuickAccent_Group_Special" xml:space="preserve">
+    <value>符号</value>
+  </data>
+  <data name="QuickAccent_Group_Language" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Special" xml:space="preserve">
+    <value>特殊字符</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Bulgarian" xml:space="preserve">
     <value>保加利亚语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Catalan.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Catalan" xml:space="preserve">
     <value>加泰罗尼亚语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Crimean.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Crimean" xml:space="preserve">
     <value>克里米亚鞑靼语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Currency.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Currency" xml:space="preserve">
     <value>货币符号</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Croatian.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Croatian" xml:space="preserve">
     <value>克罗地亚语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Czech.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Czech" xml:space="preserve">
     <value>捷克语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Danish.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Danish" xml:space="preserve">
     <value>丹麦语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Gaeilge.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Gaeilge" xml:space="preserve">
     <value>爱尔兰盖尔语</value>
     <comment>Gaelic language spoken in Ireland</comment>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Gaidhlig.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Gaidhlig" xml:space="preserve">
     <value>苏格兰盖尔语</value>
     <comment>Scottish Gaelic</comment>
   </data>
-  <data name="QuickAccent_SelectedLanguage_German.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_German" xml:space="preserve">
     <value>德语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Greek.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Greek" xml:space="preserve">
     <value>希腊语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Hebrew.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Hebrew" xml:space="preserve">
     <value>希伯来语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_French.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_French" xml:space="preserve">
     <value>法语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Finnish.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Finnish" xml:space="preserve">
     <value>芬兰语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Estonian.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Estonian" xml:space="preserve">
     <value>爱沙尼亚语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Esperanto.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Esperanto" xml:space="preserve">
     <value>世界语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_IPA.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_IPA" xml:space="preserve">
     <value>国际音标</value>
     <comment>International Phonetic Alphabet</comment>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Lithuanian.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Lithuanian" xml:space="preserve">
     <value>立陶宛语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Macedonian.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Macedonian" xml:space="preserve">
     <value>马其顿语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Maori.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Maori" xml:space="preserve">
     <value>毛利语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Romanization.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Romanization" xml:space="preserve">
     <value>中东语言罗马化</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Dutch.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Dutch" xml:space="preserve">
     <value>荷兰语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Norwegian.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Norwegian" xml:space="preserve">
     <value>挪威语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Pinyin.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Pinyin" xml:space="preserve">
     <value>汉语拼音</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Polish.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Polish" xml:space="preserve">
     <value>波兰语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Portuguese.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Portuguese" xml:space="preserve">
     <value>葡萄牙语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Slovak.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Slovak" xml:space="preserve">
     <value>斯洛伐克语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Slovenian.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Slovenian" xml:space="preserve">
     <value>斯洛文尼亚语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Spanish.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Spanish" xml:space="preserve">
     <value>西班牙语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Swedish.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Swedish" xml:space="preserve">
     <value>瑞典语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Turkish.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Turkish" xml:space="preserve">
     <value>土耳其语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Icelandic.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Icelandic" xml:space="preserve">
     <value>冰岛语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Romanian.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Romanian" xml:space="preserve">
     <value>罗马尼亚语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Serbian.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Serbian" xml:space="preserve">
     <value>塞尔维亚语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Serbian_Cyrillic.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Serbian_Cyrillic" xml:space="preserve">
     <value>塞尔维亚语西里尔字母</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Hungarian.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Hungarian" xml:space="preserve">
     <value>匈牙利语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Italian.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Italian" xml:space="preserve">
     <value>意大利语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Kurdish.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Kurdish" xml:space="preserve">
     <value>库尔德语</value>
   </data>
-  <data name="QuickAccent_SelectedLanguage_Welsh.Content" xml:space="preserve">
+  <data name="QuickAccent_SelectedLanguage_Welsh" xml:space="preserve">
     <value>威尔士语</value>
   </data>
   <data name="Hosts.ModuleDescription" xml:space="preserve">
@@ -3965,6 +3977,12 @@
   <data name="AdvancedPaste_ShowCustomPreviewSettingsCard.Description" xml:space="preserve">
     <value>粘贴前检查 AI 输出的格式化结果</value>
   </data>
+  <data name="AdvancedPaste_EnableAdvancedAI.Header" xml:space="preserve">
+    <value>启用高级 AI</value>
+  </data>
+  <data name="AdvancedPaste_EnableAdvancedAI.Description" xml:space="preserve">
+    <value>使用 Semantic Kernel 框架和更强大的模型，它拥有更强的文件图像处理能力，并且可以进行链式操作，但注意它会消耗更多 API 额度</value>
+  </data>  
   <data name="Oobe_AdvancedPaste.Description" xml:space="preserve">
     <value>高级粘贴是一个为开发者准备的剪贴板工具，可以将复制的文本内容转换为任何需要的格式来粘贴。纯文本、Markdown、JSON 的格式化功能均在本地执行，AI 自定义格式化需要使用 OpenAI 的密钥来联网执行。注意，执行格式化后，剪贴板里原本的文本会被格式化后的文本覆盖。</value>
   </data>
@@ -4140,13 +4158,17 @@
     <value>启动注册表预览工具</value>
     <comment>"Registry Preview" is the name of the utility</comment>
   </data>
+  <data name="MouseUtils_MouseJump.Header" xml:space="preserve">
+    <value>鼠标跳转</value>
+    <comment>Refers to the utility name</comment>
+  </data>
   <data name="MouseUtils_MouseJump.Description" xml:space="preserve">
     <value>在小地图中快速移动鼠标光标</value>
     <comment>"Mouse Jump" is the name of the utility. Mouse is the hardware mouse.</comment>
   </data>
-  <data name="MouseUtils_MouseJump.Header" xml:space="preserve">
-    <value>鼠标跳转</value>
-    <comment>Refers to the utility name</comment>
+  <data name="MouseUtils_Enable_MouseJump.Header" xml:space="preserve">
+    <value>启用鼠标跳转</value>
+    <comment>"Mouse Jump" is the name of the utility.</comment>
   </data>
   <data name="MouseUtils_MouseJump_ActivationShortcut.Description" xml:space="preserve">
     <value>打开闪现小地图的快捷键</value>
@@ -4154,9 +4176,124 @@
   <data name="MouseUtils_MouseJump_ActivationShortcut.Header" xml:space="preserve">
     <value>启动快捷键</value>
   </data>
-  <data name="MouseUtils_Enable_MouseJump.Header" xml:space="preserve">
-    <value>启用鼠标跳转</value>
-    <comment>"Mouse Jump" is the name of the utility.</comment>
+  <data name="MouseUtils_MouseJump_ThumbnailSize.Header" xml:space="preserve">
+    <value>小地图尺寸</value>
+  </data>
+  <data name="MouseUtils_MouseJump_ThumbnailSize_Description_Prefix.Text" xml:space="preserve">
+    <value>限制小地图的图片尺寸为最大</value>
+  </data>
+  <data name="MouseUtils_MouseJump_ThumbnailSize_Description_Suffix.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="MouseUtils_MouseJump_ThumbnailSize_Edit_Height.Header" xml:space="preserve">
+    <value>最大高度（像素）</value>
+    <comment>px = pixels</comment>
+  </data>
+  <data name="MouseUtils_MouseJump_ThumbnailSize_Edit_Width.Header" xml:space="preserve">
+    <value>最大宽度（像素）</value>
+    <comment>px = pixels</comment>
+  </data>
+  <data name="MouseUtils_MouseJump_Appearance.Header" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="MouseUtils_MouseJump_PreviewType.Header" xml:space="preserve">
+    <value>小地图样式</value>
+  </data>
+  <data name="MouseUtils_MouseJump_PreviewType.Description" xml:space="preserve">
+    <value>选择一个模板或者自定义</value>
+  </data>
+  <data name="MouseUtils_MouseJump_PreviewType_Compact.Text" xml:space="preserve">
+    <value>简洁</value>
+  </data>
+  <data name="MouseUtils_MouseJump_PreviewType_Bezelled.Text" xml:space="preserve">
+    <value>边框</value>
+  </data>
+  <data name="MouseUtils_MouseJump_PreviewType_Custom.Text" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="MouseUtils_MouseJump_CopyStyle.Content" xml:space="preserve">
+    <value>用当前模板进行自定义</value>
+  </data>
+  <data name="MouseUtils_MouseJump_BackgroundColor1.Header" xml:space="preserve">
+    <value>背景色 1</value>
+  </data>
+  <data name="MouseUtils_MouseJump_BackgroundColor1.Description" xml:space="preserve">
+    <value>小地图背景的渐变开始色</value>
+  </data>
+  <data name="MouseUtils_MouseJump_BackgroundColor2.Header" xml:space="preserve">
+    <value>背景色 2</value>
+  </data>
+  <data name="MouseUtils_MouseJump_BackgroundColor2.Description" xml:space="preserve">
+    <value>小地图背景的渐变结束色</value>
+  </data>
+  <data name="MouseUtils_MouseJump_BorderThickness.Header" xml:space="preserve">
+    <value>外边框厚度（像素）</value>
+  </data>
+  <data name="MouseUtils_MouseJump_BorderThickness.Description" xml:space="preserve">
+    <value>整个小地图的边框的厚度</value>
+  </data>
+  <data name="MouseUtils_MouseJump_BorderColor.Header" xml:space="preserve">
+    <value>外边框颜色</value>
+  </data>
+  <data name="MouseUtils_MouseJump_BorderColor.Description" xml:space="preserve">
+    <value>小地图边框的颜色</value>
+  </data>
+  <data name="MouseUtils_MouseJump_Border3dDepth.Header" xml:space="preserve">
+    <value>外边框 3D 深度（像素）</value>
+  </data>
+  <data name="MouseUtils_MouseJump_Border3dDepth.Description" xml:space="preserve">
+    <value>小地图边框的 3D 效果的宽度</value>
+  </data>
+  <data name="MouseUtils_MouseJump_BorderPadding.Header" xml:space="preserve">
+    <value>外边框间距（像素）</value>
+  </data>
+  <data name="MouseUtils_MouseJump_BorderPadding.Description" xml:space="preserve">
+    <value>小地图边框与内容之间的间距</value>
+  </data>
+  <data name="MouseUtils_MouseJump_BezelThickness.Header" xml:space="preserve">
+    <value>内边框厚度（像素）</value>
+  </data>
+  <data name="MouseUtils_MouseJump_BezelThickness.Description" xml:space="preserve">
+    <value>每个屏幕的边框的厚度</value>
+  </data>
+  <data name="MouseUtils_MouseJump_BezelColor.Header" xml:space="preserve">
+    <value>内边框颜色</value>
+  </data>
+  <data name="MouseUtils_MouseJump_BezelColor.Description" xml:space="preserve">
+    <value>屏幕边框的颜色</value>
+  </data>
+  <data name="MouseUtils_MouseJump_Bezel3dDepth.Header" xml:space="preserve">
+    <value>内边框 3D 深度（像素）</value>
+  </data>
+  <data name="MouseUtils_MouseJump_Bezel3dDepth.Description" xml:space="preserve">
+    <value>屏幕边框的 3D 效果的宽度</value>
+  </data>
+  <data name="MouseUtils_MouseJump_ScreenMargin.Header" xml:space="preserve">
+    <value>屏幕间距（像素）</value>
+  </data>
+  <data name="MouseUtils_MouseJump_ScreenMargin.Description" xml:space="preserve">
+    <value>各个屏幕之间的间距</value>
+  </data>
+  <data name="MouseUtils_MouseJump_ScreenColor1.Header" xml:space="preserve">
+    <value>屏幕颜色 1</value>
+  </data>
+  <data name="MouseUtils_MouseJump_ScreenColor1.Description" xml:space="preserve">
+    <value>屏幕背景的渐变开始色</value>
+  </data>
+  <data name="MouseUtils_MouseJump_ScreenColor2.Header" xml:space="preserve">
+    <value>屏幕颜色 2</value>
+  </data>
+  <data name="MouseUtils_MouseJump_ScreenColor2.Description" xml:space="preserve">
+    <value>屏幕背景的渐变结束色</value>
+  </data>
+  <data name="MouseUtils_MouseJump_CopyToCustomStyle_MessageBox_Title" xml:space="preserve">
+    <value>用当前模板进行自定义</value>
+  </data>
+  <data name="MouseUtils_MouseJump_CopyToCustomStyle_MessageBox_Text" xml:space="preserve">
+    <value>原本的自定义样式将被覆盖。</value>
+  </data>
+  <data name="MouseUtils_MouseJump_CopyToCustomStyle_MessageBox_PrimaryButtonText" xml:space="preserve">
+    <value>确定</value>
   </data>
   <data name="Hosts_Toggle_LoopbackDuplicates.Description" xml:space="preserve">
     <value>127.0.0.1、::1 等</value>
@@ -4183,23 +4320,6 @@
   </data>
   <data name="AdvancedPaste_ShortcutWarning.Title" xml:space="preserve">
     <value>覆盖 Ctrl+V 快捷键可能会导致图片、文件等无法粘贴，以及有些软件的格式化粘贴功能失效</value>
-  </data>
-  <data name="MouseUtils_MouseJump_ThumbnailSize.Header" xml:space="preserve">
-    <value>小地图尺寸</value>
-  </data>
-  <data name="MouseUtils_MouseJump_ThumbnailSize_Description_Prefix.Text" xml:space="preserve">
-    <value>限制小地图的图片尺寸为最大</value>
-  </data>
-  <data name="MouseUtils_MouseJump_ThumbnailSize_Description_Suffix.Text" xml:space="preserve">
-    <value>像素</value>
-  </data>
-  <data name="MouseUtils_MouseJump_ThumbnailSize_Edit_Height.Header" xml:space="preserve">
-    <value>最大高度（像素）</value>
-    <comment>px = pixels</comment>
-  </data>
-  <data name="MouseUtils_MouseJump_ThumbnailSize_Edit_Width.Header" xml:space="preserve">
-    <value>最大宽度（像素）</value>
-    <comment>px = pixels</comment>
   </data>
   <data name="Oobe_Peek.Description" xml:space="preserve">
     <value>给 Windows 系统也带来了雷雳般迅速的文件快速查看功能。</value>
@@ -4412,9 +4532,6 @@
     <value>启用新建+</value>
     <comment>Localize product name in accordance with Windows New</comment>
   </data>
-  <data name="NewPlus_NoWindows10SupportWarning.Title" xml:space="preserve">
-    <value>新建+不支持 Win10，它将无法运行</value>
-  </data>
   <data name="NewPlus_TemplatesNotBackupAndRestoreWarning.Title" xml:space="preserve">
     <value>目前 PowerToys 备份功能暂不支持新建+的模板，如需备份请手动复制模板</value>
   </data>
@@ -4590,5 +4707,8 @@
   </data>
   <data name="Shell_TopLevelSystemTools.Content" xml:space="preserve">
     <value>工具</value>
+  </data>
+  <data name="Enable_Module.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>启用模块</value>
   </data>
 </root>

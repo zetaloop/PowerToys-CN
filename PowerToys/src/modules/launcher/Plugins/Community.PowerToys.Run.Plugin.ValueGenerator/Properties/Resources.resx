@@ -168,6 +168,9 @@
   <data name="generator_description_uuidv5" xml:space="preserve">
     <value>生成 UUID 版本 5，基于给定名称进行 SHA1 散列计算</value>
   </data>
+  <data name="generator_description_uuidv7" xml:space="preserve">
+    <value>生成 UUID 版本 7，当前时间+随机数值</value>
+  </data>
   <data name="generator_description_your_input" xml:space="preserve">
     <value>输入内容</value>
     <comment>Usage example: "md5 &lt;your input&gt;"</comment>

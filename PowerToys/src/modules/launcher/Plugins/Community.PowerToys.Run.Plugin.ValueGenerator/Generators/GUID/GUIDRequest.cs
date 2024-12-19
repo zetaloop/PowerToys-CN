@@ -4,7 +4,6 @@
 
 using System;
 using System.Security.Cryptography;
-
 using Wox.Plugin.Logger;
 
 namespace Community.PowerToys.Run.Plugin.ValueGenerator.GUID
@@ -19,34 +18,15 @@ namespace Community.PowerToys.Run.Plugin.ValueGenerator.GUID
 
         private int Version { get; set; }
 
-        public string Description
+        public string Description => Version switch
         {
-            get
-            {
-                switch (Version)
-                {
-                    case 1:
-                        return "UUID v1：基于当前时间和网卡 MAC 地址";
-                    case 3:
-                    case 5:
-                        string hashAlgorithm;
-                        if (Version == 3)
-                        {
-                            hashAlgorithm = HashAlgorithmName.MD5.ToString();
-                        }
-                        else
-                        {
-                            hashAlgorithm = HashAlgorithmName.SHA1.ToString();
-                        }
-
-                        return $"UUID v{Version}：基于给定名称进行 {hashAlgorithm} 散列计算";
-                    case 4:
-                        return "UUID v4：随机数值";
-                    default:
-                        return string.Empty;
-                }
-            }
-        }
+            1 => "UUID v1：基于当前时间和网卡 MAC 地址",
+            3 => $"UUID v3：基于给定名称进行 {HashAlgorithmName.MD5} 散列计算",
+            4 => "UUID v4：随机数值",
+            5 => $"UUID v5：基于给定名称进行 {HashAlgorithmName.SHA1} 散列计算",
+            7 => "UUID v7：当前时间+随机数值",
+            _ => string.Empty,
+        };
 
         private Guid? GuidNamespace { get; set; }
 
@@ -60,20 +40,19 @@ namespace Community.PowerToys.Run.Plugin.ValueGenerator.GUID
         {
             Version = version;
 
-            if (Version < 1 || Version > 5 || Version == 2)
+            if (Version is < 1 or > 7 or 2 or 6)
             {
-                throw new ArgumentException("不支持此 GUID 版本，目前仅支持版本 1、3、4、5");
+                throw new ArgumentException("不支持此 GUID 版本，目前仅支持版本 1、3、4、5、7");
             }
 
-            if (version == 3 || version == 5)
+            if (version is 3 or 5)
             {
                 if (guidNamespace == null)
                 {
                     throw new ArgumentNullException(null, NullNamespaceError);
                 }
 
-                Guid guid;
-                if (GUIDGenerator.PredefinedNamespaces.TryGetValue(guidNamespace.ToLowerInvariant(), out guid))
+                if (GUIDGenerator.PredefinedNamespaces.TryGetValue(guidNamespace.ToLowerInvariant(), out Guid guid))
                 {
                     GuidNamespace = guid;
                 }
@@ -108,20 +87,18 @@ namespace Community.PowerToys.Run.Plugin.ValueGenerator.GUID
             IsSuccessful = true;
             try
             {
-                switch (Version)
+                Guid guid = Version switch
                 {
-                    case 1:
-                        GuidResult = GUIDGenerator.V1();
-                        break;
-                    case 3:
-                        GuidResult = GUIDGenerator.V3(GuidNamespace.Value, GuidName);
-                        break;
-                    case 4:
-                        GuidResult = GUIDGenerator.V4();
-                        break;
-                    case 5:
-                        GuidResult = GUIDGenerator.V5(GuidNamespace.Value, GuidName);
-                        break;
+                    1 => GUIDGenerator.V1(),
+                    3 => GUIDGenerator.V3(GuidNamespace.Value, GuidName),
+                    4 => GUIDGenerator.V4(),
+                    5 => GUIDGenerator.V5(GuidNamespace.Value, GuidName),
+                    7 => GUIDGenerator.V7(),
+                    _ => default,
+                };
+                if (guid != default)
+                {
+                    GuidResult = guid;
                 }
 
                 Result = GuidResult.ToByteArray();

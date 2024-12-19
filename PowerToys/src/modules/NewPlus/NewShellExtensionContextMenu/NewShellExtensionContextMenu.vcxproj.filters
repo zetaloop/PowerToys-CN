@@ -31,6 +31,9 @@
     <ClCompile Include="trace.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="new_utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="template_folder.h">
@@ -123,9 +126,6 @@
     <None Include="AppxManifest.xml">
       <Filter>Source Files</Filter>
     </None>
-    <None Include="Assets\NewPlus\New.ico">
-      <Filter>Asset Files</Filter>
-    </None>
     <None Include="Assets\NewPlus\SmallTile.png">
       <Filter>Asset Files</Filter>
     </None>
@@ -190,14 +190,8 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="TemplateExamples\示例文件夹\另一个示例文本文件.txt">
-      <Filter>Template Examples\示例文件夹</Filter>
-    </Text>
-    <Text Include="TemplateExamples\示例文件夹\示例文本文件.txt">
-      <Filter>Template Examples\示例文件夹</Filter>
-    </Text>
-    <Text Include="TemplateExamples\模板文件夹里的一切都会出现在新建+菜单中.txt">
-      <Filter>Template Examples</Filter>
-    </Text>
+    <CopyFileToFolders Include="TemplateExamples\模板文件夹里的一切都会出现在新建+菜单中.txt" />
+    <CopyFileToFolders Include="TemplateExamples\示例文件夹\示例文本文件.txt" />
+    <CopyFileToFolders Include="TemplateExamples\示例文件夹\另一个示例文本文件.txt" />
   </ItemGroup>
 </Project>

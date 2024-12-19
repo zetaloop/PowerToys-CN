@@ -66,4 +66,16 @@
     <data name="BtnClosePanelTooltip.Text" xml:space="preserve">
         <value>关闭 (Esc)</value>
     </data>
+    <data name="MeasurementUnitAbbrPixel" xml:space="preserve">
+        <value>像素</value>
+    </data>
+    <data name="MeasurementUnitAbbrInch" xml:space="preserve">
+        <value>英寸</value>
+    </data>
+    <data name="MeasurementUnitAbbrCentimetre" xml:space="preserve">
+        <value>厘米</value>
+    </data>
+    <data name="MeasurementUnitAbbrMillimetre" xml:space="preserve">
+        <value>毫米</value>
+    </data>
 </root>

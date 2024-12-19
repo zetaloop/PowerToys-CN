@@ -123,10 +123,6 @@
   <data name="Admin" xml:space="preserve">
     <value>管理员权限</value>
   </data>
-  <data name="AlwaysLaunch" xml:space="preserve">
-    <value>Launch new app instances</value>
-    <comment>没用到</comment>
-  </data>
   <data name="App" xml:space="preserve">
     <value>个应用</value>
   </data>
@@ -163,6 +159,9 @@
   </data>
   <data name="CreateShortcut" xml:space="preserve">
     <value>在桌面上创建快捷方式</value>
+  </data>
+  <data name="Custom" xml:space="preserve">
+    <value>自定义</value>
   </data>
   <data name="DaysAgo" xml:space="preserve">
     <value>几天前</value>
@@ -238,7 +237,7 @@
     <value>个月前</value>
   </data>
   <data name="MoveIfExist" xml:space="preserve">
-    <value>若应用已存在则仅移动窗口</value>
+    <value>若应用已打开则仅移动窗口</value>
   </data>
   <data name="Name" xml:space="preserve">
     <value>名称</value>
@@ -330,6 +329,9 @@
   </data>
   <data name="Width" xml:space="preserve">
     <value>宽度</value>
+  </data>
+  <data name="WindowPosition" xml:space="preserve">
+    <value>窗口位置</value>
   </data>
   <data name="WriteArgs" xml:space="preserve">
     <value>Write arguments here</value>
