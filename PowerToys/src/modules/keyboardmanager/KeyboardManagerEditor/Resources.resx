@@ -277,6 +277,9 @@
   <data name="Type_HoldSpace" xml:space="preserve">
     <value>长按空格切换和弦（依次按下两个键触发）</value>
   </data>
+  <data name="Type_HoldBackSpace" xml:space="preserve">
+    <value>长按退格切换严格匹配</value>
+  </data>
   <data name="Type_HoldEnter" xml:space="preserve">
     <value>长按回车确定</value>
   </data>
@@ -288,6 +291,9 @@
   </data>
   <data name="EditShortcuts_Allow_Chords" xml:space="preserve">
     <value>启用和弦序列</value>
+  </data>
+  <data name="EditShortcuts_Exact_Match" xml:space="preserve">
+    <value>严格匹配</value>
   </data>
   <data name="EditShortcuts_Path_To_Program" xml:space="preserve">
     <value>程序文件路径</value>

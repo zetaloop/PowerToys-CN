@@ -117,47 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="PluginTitle" xml:space="preserve">
-    <value>VS Code 工作区</value>
+  <data name="context_menu_item_new" xml:space="preserve">
+    <value>新建+</value>
+    <comment>The main context menu item that users click on. This should be localized to match New in Windows. e.g. Danish it would become Ny+</comment>
   </data>
-  <data name="In" xml:space="preserve">
-    <value>位于</value>
-    <comment>Used to indicate the location where something is</comment>
+  <data name="context_menu_item_open_templates" xml:space="preserve">
+    <value>打开模板文件夹</value>
+    <comment>The menu item in the context menu that enables user to open the folder that contains their templates.</comment>
   </data>
-  <data name="PluginDescription" xml:space="preserve">
-    <value>打开 VS Code 的常用工作区、远程计算机（SSH、Codespaces）和容器，VS Code 路径须在 PATH 环境变量中</value>
-    <comment>VS Code is the name of a product. PATH is the name of an environment variable. Don't translate it.</comment>
-  </data>
-  <data name="SSHRemoteMachine" xml:space="preserve">
-    <value>SSH 远程机</value>
-  </data>
-  <data name="TypeWorkspaceContainer" xml:space="preserve">
-    <value>容器</value>
-    <comment>As in "Visual Studio Code workspace container type</comment>
-  </data>
-  <data name="TypeWorkspaceLocal" xml:space="preserve">
-    <value>本地</value>
-    <comment>As in "The workspace is on the local machine"</comment>
-  </data>
-  <data name="Workspace" xml:space="preserve">
-    <value>工作区</value>
-    <comment>It refers to the Visual Studio Code .code-workspace</comment>
-  </data>
-  <data name="TypeWorkspaceDevContainer" xml:space="preserve">
-    <value>开发容器</value>
-    <comment>As in "Visual Studio Code Dev Container workspace "</comment>
-  </data>
-  <data name="ProjectFolder" xml:space="preserve">
-    <value>项目文件夹</value>
-    <comment>It refers to the Visual Studio Code Project Folders</comment>
-  </data>
-  <data name="CopyPath" xml:space="preserve">
-    <value>复制路径</value>
-  </data>
-  <data name="OpenInConsole" xml:space="preserve">
-    <value>打开终端</value>
-  </data>
-  <data name="OpenInExplorer" xml:space="preserve">
-    <value>打开路径</value>
+  <data name="default_template_sub_folder_name_where_templates_are_stored" xml:space="preserve">
+    <value>模板</value>
+    <comment>Default subfolder name where templates are stored.</comment>
   </data>
 </root>

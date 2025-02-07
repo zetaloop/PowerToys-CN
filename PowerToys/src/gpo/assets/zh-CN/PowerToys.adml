@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (c) Microsoft Corporation.
      Licensed under the MIT License. -->
-<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.14" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.15" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
   <displayName>PowerToys</displayName>
   <description>PowerToys</description>
   <resources>
@@ -13,6 +13,7 @@
       <string id="MouseWithoutBorders">无界鼠标</string>
       <string id="GeneralSettings">常规设置</string>
       <string id="NewPlus">新建+</string>
+      <string id="DeprecatedPolicies">已弃用</string>
 
       <string id="SUPPORTED_POWERTOYS_0_64_0">PowerToys 版本 0.64.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_68_0">PowerToys 版本 0.68.0 或更高版本</string>
@@ -29,6 +30,8 @@
       <string id="SUPPORTED_POWERTOYS_0_84_0">PowerToys 版本 0.84.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_85_0">PowerToys 版本 0.85.0 或更高版本</string>
       <string id="SUPPORTED_POWERTOYS_0_86_0">PowerToys 版本 0.86.0 或更高版本</string>
+      <string id="SUPPORTED_POWERTOYS_0_88_0">PowerToys 版本 0.88.0 或更高版本</string>
+      <string id="SUPPORTED_POWERTOYS_0_64_0_TO_0_87_1">PowerToys 版本 0.64.0 至 0.87.1</string>
 
       <string id="ConfigureAllUtilityGlobalEnabledStateDescription">此策略控制所有 PowerToys 功能的启用状态。
 
@@ -245,6 +248,7 @@
       <string id="ConfigureEnabledUtilityShortcutGuide">快捷键指南: 启用该功能</string>
       <string id="ConfigureEnabledUtilityTextExtractor">文本提取: 启用该功能</string>
       <string id="ConfigureEnabledUtilityVideoConferenceMute">直播工具: 启用该功能</string>
+      <string id="ConfigureEnabledUtilityZoomIt">演示工具：启用该功能</string>
       <string id="DisablePerUserInstallation">禁用单用户安装</string>
       <string id="DisableAutomaticUpdateDownload">禁用自动下载更新</string>
       <string id="DoNotShowWhatsNewAfterUpdates">禁用更新日志弹窗</string>

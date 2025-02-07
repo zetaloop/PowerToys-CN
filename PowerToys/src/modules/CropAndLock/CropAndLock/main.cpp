@@ -145,7 +145,7 @@ int WINAPI wWinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ PWSTR lpCmdLine, _I
             } while (nullCharIndex != std::wstring::npos);
 
             std::wstringstream titleStream;
-            titleStream << targetInfo.Title << L" (窗口镜像)";
+            titleStream << targetInfo.Title << L" (镜像)";
             auto title = titleStream.str();
 
             std::shared_ptr<CropAndLockWindow> croppedWindow;

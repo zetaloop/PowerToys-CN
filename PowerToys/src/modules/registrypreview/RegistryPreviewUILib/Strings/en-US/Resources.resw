@@ -257,4 +257,28 @@
   <data name="ZeroLength" xml:space="preserve">
     <value>(零长度二进制值)</value>
   </data>
+  <data name="ContextMenu_CopyKeyPath.Text" xml:space="preserve">
+    <value>复制路径</value>
+    <comment>Like "Copy item"</comment>
+  </data>
+  <data name="ContextMenu_CopyName.Text" xml:space="preserve">
+    <value>复制名称</value>
+    <comment>Like "Copy item"</comment>
+  </data>
+  <data name="ContextMenu_CopyType.Text" xml:space="preserve">
+    <value>复制类型</value>
+    <comment>Like "Copy item"</comment>
+  </data>
+  <data name="ContextMenu_CopyData.Text" xml:space="preserve">
+    <value>复制数据</value>
+    <comment>Like "Copy item"</comment>
+  </data>
+  <data name="ContextMenu_CopyValue.Text" xml:space="preserve">
+    <value>复制此注册表值</value>
+    <comment>Like "Copy item"</comment>
+  </data>
+  <data name="ContextMenu_CopyValueWithPath.Text" xml:space="preserve">
+    <value>复制此注册表值与路径</value>
+    <comment>Like "Copy item"</comment>
+  </data>
 </root>

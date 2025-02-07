@@ -167,4 +167,24 @@
   <data name="wox_plugin_calculator_replace_input_description" xml:space="preserve">
     <value>使用唤醒词激活时，在式子后输入 "=" 就用运算结果替换整个式子（例如输入 '=5*3-2=' 就会变成 '=13'）</value>
   </data>
+  <data name="wox_plugin_calculator_trig_unit_mode" xml:space="preserve">
+    <value>三角函数单位</value>
+    <comment>Title text for trig unit mode.</comment>
+  </data>
+  <data name="wox_plugin_calculator_trig_unit_mode_description" xml:space="preserve">
+    <value>指定三角函数运算使用的角度单位制</value>
+    <comment>Description text for trig mode setting.</comment>
+  </data>
+  <data name="wox_plugin_calculator_trig_unit_radians" xml:space="preserve">
+    <value>弧度（圆=2π）</value>
+    <comment>Text for angle unit.</comment>
+  </data>
+  <data name="wox_plugin_calculator_trig_unit_degrees" xml:space="preserve">
+    <value>角度（圆=360）</value>
+    <comment>Text to use for angle unit.</comment>
+  </data>
+  <data name="wox_plugin_calculator_trig_unit_gradians" xml:space="preserve">
+    <value>梯度（圆=400）</value>
+    <comment>Text for angle unit.</comment>
+  </data>
 </root>

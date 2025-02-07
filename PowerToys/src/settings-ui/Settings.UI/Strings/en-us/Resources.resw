@@ -121,10 +121,6 @@
     <value>灵感来自软件 Rooler</value>
     <comment>Rooler is a name of the tool.</comment>
   </data>
-  <data name="Shell_VideoConference.Content" xml:space="preserve">
-    <value>直播工具</value>
-    <comment>Navigation view item name for Video Conference</comment>
-  </data>
   <data name="Shell_MeasureTool.Content" xml:space="preserve">
     <value>屏幕标尺</value>
     <comment>Product name: Navigation view item name for Screen Ruler</comment>
@@ -482,132 +478,6 @@
   <data name="MouseWithoutBorders_Switch2AllPcShortcut_Ctrl3.Content" xml:space="preserve">
     <value>按三下 Ctrl</value>
     <comment>This is the Ctrl keyboard key</comment>
-  </data>
-  <data name="VideoConference_Enable.Header" xml:space="preserve">
-    <value>启用直播工具</value>
-  </data>
-  <data name="VideoConference.ModuleDescription" xml:space="preserve">
-    <value>控制直播麦克风与摄像头。</value>
-  </data>
-  <data name="VideoConference_CameraAndMicrophoneMuteHotkeyControl_Header.Header" xml:space="preserve">
-    <value>关闭摄像头和麦克风</value>
-  </data>
-  <data name="VideoConference_MicrophoneMuteHotkeyControl_Header.Header" xml:space="preserve">
-    <value>关闭麦克风</value>
-  </data>
-  <data name="VideoConference_MicrophonePushToTalkHotkeyControl_Header.Header" xml:space="preserve">
-    <value>按住发言</value>
-  </data>
-  <data name="VideoConference_CameraMuteHotkeyControl_Header.Header" xml:space="preserve">
-    <value>关闭摄像头</value>
-  </data>
-  <data name="VideoConference_SelectedCamera.Header" xml:space="preserve">
-    <value>指定摄像头</value>
-  </data>
-  <data name="VideoConference_SelectedMicrophone.Header" xml:space="preserve">
-    <value>指定麦克风</value>
-  </data>
-  <data name="VideoConference_PushToReverse.Header" xml:space="preserve">
-    <value>按住发言改为按住切换</value>
-  </data>
-  <data name="VideoConference_PushToReverse.Description" xml:space="preserve">
-    <value>开启后，原本是按住打开麦克风，现在是按住变成相反状态</value>
-  </data>
-  <data name="VideoConference_CameraOverlayImagePathHeader.Header" xml:space="preserve">
-    <value>摄像头遮挡图像</value>
-  </data>
-  <data name="VideoConference_ToolbarPosition.Header" xml:space="preserve">
-    <value>工具栏位置</value>
-  </data>
-  <data name="VideoConference_ToolbarPosition_TopCenter.Content" xml:space="preserve">
-    <value>顶部中央</value>
-  </data>
-  <data name="VideoConference_ToolbarPosition_TopLeftCorner.Content" xml:space="preserve">
-    <value>左上角</value>
-  </data>
-  <data name="VideoConference_ToolbarPosition_TopRightCorner.Content" xml:space="preserve">
-    <value>右上角</value>
-  </data>
-  <data name="VideoConference_ToolbarPosition_BottomLeftCorner.Content" xml:space="preserve">
-    <value>左下角</value>
-  </data>
-  <data name="VideoConference_ToolbarPosition_BottomCenter.Content" xml:space="preserve">
-    <value>底部中央</value>
-  </data>
-  <data name="VideoConference_ToolbarPosition_BottomRightCorner.Content" xml:space="preserve">
-    <value>右下角</value>
-  </data>
-  <data name="VideoConference_ToolbarMonitor.Header" xml:space="preserve">
-    <value>选择显示器</value>
-  </data>
-  <data name="VideoConference_ToolbarMonitor_Main.Content" xml:space="preserve">
-    <value>主显示器</value>
-  </data>
-  <data name="VideoConference_ToolbarMonitor_UnderCursor.Content" xml:space="preserve">
-    <value>鼠标所在的显示器</value>
-  </data>
-  <data name="VideoConference_ToolbarMonitor_ActiveWindow.Content" xml:space="preserve">
-    <value>活动窗口所在的显示器</value>
-  </data>
-  <data name="VideoConference_ToolbarMonitor_All.Content" xml:space="preserve">
-    <value>所有显示器</value>
-  </data>
-  <data name="VideoConference_ToolbarHide.Header" xml:space="preserve">
-    <value>自动隐藏</value>
-  </data>
-  <data name="VideoConference_ToolbarHideMuted.Content" xml:space="preserve">
-    <value>摄像头、麦克风均关闭时隐藏</value>
-  </data>
-  <data name="VideoConference_ToolbarHideNever.Content" xml:space="preserve">
-    <value>保持显示</value>
-  </data>
-  <data name="VideoConference_ToolbarHideUnmuted.Content" xml:space="preserve">
-    <value>摄像头、麦克风均开启时隐藏</value>
-  </data>
-  <data name="VideoConference_ToolbarHideTimeout.Content" xml:space="preserve">
-    <value>延时隐藏</value>
-  </data>
-  <data name="VideoConference.ModuleTitle" xml:space="preserve">
-    <value>直播工具</value>
-  </data>
-  <data name="VideoConference_Camera.Header" xml:space="preserve">
-    <value>摄像头</value>
-  </data>
-  <data name="VideoConference_Camera.Description" xml:space="preserve">
-    <value>为了让功能生效，请在直播软件里把“直播工具虚拟摄像”选作摄像头</value>
-  </data>
-  <data name="VideoConference_Microphone.Header" xml:space="preserve">
-    <value>麦克风</value>
-  </data>
-  <data name="VideoConference_Toolbar.Header" xml:space="preserve">
-    <value>工具栏</value>
-  </data>
-  <data name="VideoConference_Behavior.Header" xml:space="preserve">
-    <value>功能</value>
-  </data>
-  <data name="VideoConference_StartupAction.Header" xml:space="preserve">
-    <value>启动操作</value>
-  </data>
-  <data name="VideoConference_StartupActionNothing.Content" xml:space="preserve">
-    <value>无</value>
-  </data>
-  <data name="VideoConference_StartupActionUnmute.Content" xml:space="preserve">
-    <value>取消静音</value>
-  </data>
-  <data name="VideoConference_StartupActionMute.Content" xml:space="preserve">
-    <value>静音</value>
-  </data>
-  <data name="VideoConference_Shortcuts.Header" xml:space="preserve">
-    <value>快捷键</value>
-  </data>
-  <data name="VideoConference_CameraOverlayImageAlt.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>摄像头关闭时显示的图像</value>
-  </data>
-  <data name="VideoConference_CameraOverlayImageBrowse.Content" xml:space="preserve">
-    <value>导入</value>
-  </data>
-  <data name="VideoConference_CameraOverlayImageClear.Content" xml:space="preserve">
-    <value>清除</value>
   </data>
   <data name="Shell_General.Content" xml:space="preserve">
     <value>常规</value>
@@ -1298,10 +1168,6 @@
   </data>
   <data name="ImageResizer_Size.Header" xml:space="preserve">
     <value>单位</value>
-  </data>
-  <data name="RemoveButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>删除</value>
-    <comment>Removes a user defined setting group for Image Resizer</comment>
   </data>
   <data name="RemoveItem.Text" xml:space="preserve">
     <value>删除</value>
@@ -2127,9 +1993,6 @@
   <data name="Oobe_ShortcutGuide.Description" xml:space="preserve">
     <value>显示一份系统快捷键表格，展示当前可用的系统快捷操作。</value>
   </data>
-  <data name="Oobe_VideoConference.Description" xml:space="preserve">
-    <value>直播工具可以在直播、远程会议时一键关麦和关摄像头。</value>
-  </data>
   <data name="Oobe_MouseUtils.Description" xml:space="preserve">
     <value>一系列关于鼠标的小工具。</value>
     <comment>Mouse as in the hardware peripheral</comment>
@@ -2285,18 +2148,6 @@
   <data name="Oobe_TipsAndTricks.Text" xml:space="preserve">
     <value>小技巧</value>
   </data>
-  <data name="Oobe_VideoConference_ToggleMicVid.Text" xml:space="preserve">
-    <value>同时切换麦克风和摄像头开关</value>
-  </data>
-  <data name="Oobe_VideoConference_ToggleMic.Text" xml:space="preserve">
-    <value>切换麦克风开关</value>
-  </data>
-  <data name="Oobe_VideoConference_PushToTalkMic.Text" xml:space="preserve">
-    <value>按住打开麦克风，松开关闭</value>
-  </data>
-  <data name="Oobe_VideoConference_ToggleVid.Text" xml:space="preserve">
-    <value>切换摄像头开关</value>
-  </data>
   <data name="Oobe_MeasureTool_Activation.Text" xml:space="preserve">
     <value>打开标尺栏。</value>
   </data>
@@ -2348,10 +2199,6 @@
   </data>
   <data name="Oobe_ShortcutGuide.Title" xml:space="preserve">
     <value>快捷键指南</value>
-    <comment>Do not localize this string</comment>
-  </data>
-  <data name="Oobe_VideoConference.Title" xml:space="preserve">
-    <value>直播工具</value>
     <comment>Do not localize this string</comment>
   </data>
   <data name="Oobe_Overview.Title" xml:space="preserve">
@@ -2515,11 +2362,28 @@
   <data name="ImageResizer_Unit_Pixel" xml:space="preserve">
     <value>像素</value>
   </data>
-  <data name="EditButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+  <data name="ImageResizer_EditButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>编辑</value>
   </data>
   <data name="ImageResizer_EditSize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>编辑</value>
+  </data>
+  <data name="ImageResizer_Presets.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>图像裁剪器预设</value>
+  </data>
+  <data name="ImageResizer_AddSizeButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>添加预设</value>
+  </data>
+  <data name="ImageResizer_RemoveButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="ImageResizer_EditButton_Accessibility_Name" xml:space="preserve">
+    <value>编辑预设 {0}</value>
+    <comment>Expands to the AutomationProperties.Name value for the Edit button. Example: "Edit the Small preset".</comment>
+  </data>
+  <data name="ImageResizer_RemoveButton_Accessibility_Name" xml:space="preserve">
+    <value>删除预设 {0}</value>
+    <comment>Expands to the AutomationProperties.Name value for the Remove button. Example: "Remove the Large preset".</comment>
   </data>
   <data name="No" xml:space="preserve">
     <value>否</value>
@@ -2624,10 +2488,6 @@
   <data name="LearnMore_ShortcutGuide.Text" xml:space="preserve">
     <value>详细了解快捷键指南</value>
     <comment>Shortcut Guide is a product name, do not loc</comment>
-  </data>
-  <data name="LearnMore_VCM.Text" xml:space="preserve">
-    <value>详细了解直播工具</value>
-    <comment>Video Conference Mute is a product name, do not loc</comment>
   </data>
   <data name="Oobe_FileExplorer.Title" xml:space="preserve">
     <value>预览增强</value>
@@ -2968,17 +2828,8 @@
   <data name="FancyZones_Zone_Appearance.Header" xml:space="preserve">
     <value>布局外观</value>
   </data>
-  <data name="VideoConference_DeprecationWarning.Title" xml:space="preserve">
-    <value>此模块正在进入维护模式，也就是不再开发新的功能</value>
-  </data>
-  <data name="VideoConference_DeprecationWarningButton.Content" xml:space="preserve">
-    <value>了解详情</value>
-  </data>
   <data name="LearnMore.Content" xml:space="preserve">
     <value>查看</value>
-  </data>
-  <data name="VideoConference_RunAsAdminRequired.Title" xml:space="preserve">
-    <value>要启用此功能，请以管理员身份重新启动软件</value>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Thumbnail_GCODE.Header" xml:space="preserve">
     <value>数控指令</value>
@@ -3406,7 +3257,7 @@
     <value>工具栏位置</value>
   </data>
   <data name="QuickAccent_ToolbarPosition_TopCenter.Content" xml:space="preserve">
-    <value>顶部中央</value>
+    <value>正上方</value>
   </data>
   <data name="QuickAccent_ToolbarPosition_TopLeftCorner.Content" xml:space="preserve">
     <value>左上角</value>
@@ -3418,7 +3269,7 @@
     <value>左下角</value>
   </data>
   <data name="QuickAccent_ToolbarPosition_BottomCenter.Content" xml:space="preserve">
-    <value>底部中央</value>
+    <value>正下方</value>
   </data>
   <data name="QuickAccent_ToolbarPosition_BottomRightCorner.Content" xml:space="preserve">
     <value>右下角</value>
@@ -3427,10 +3278,10 @@
     <value>正中央</value>
   </data>
   <data name="QuickAccent_ToolbarPosition_Left.Content" xml:space="preserve">
-    <value>中央左侧</value>
+    <value>左侧</value>
   </data>
   <data name="QuickAccent_ToolbarPosition_Right.Content" xml:space="preserve">
-    <value>中央右侧</value>
+    <value>右侧</value>
   </data>
   <data name="QuickAccent_Behavior.Header" xml:space="preserve">
     <value>功能</value>
@@ -3687,6 +3538,9 @@
   </data>
   <data name="QuickAccent_SelectedLanguage_Pinyin" xml:space="preserve">
     <value>汉语拼音</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Proto_Indo_European" xml:space="preserve">
+    <value>原始印欧语</value>
   </data>
   <data name="QuickAccent_SelectedLanguage_Polish" xml:space="preserve">
     <value>波兰语</value>
@@ -3982,7 +3836,7 @@
   </data>
   <data name="AdvancedPaste_EnableAdvancedAI.Description" xml:space="preserve">
     <value>使用 Semantic Kernel 框架和更强大的模型，它拥有更强的文件图像处理能力，并且可以进行链式操作，但注意它会消耗更多 API 额度</value>
-  </data>  
+  </data>
   <data name="Oobe_AdvancedPaste.Description" xml:space="preserve">
     <value>高级粘贴是一个为开发者准备的剪贴板工具，可以将复制的文本内容转换为任何需要的格式来粘贴。纯文本、Markdown、JSON 的格式化功能均在本地执行，AI 自定义格式化需要使用 OpenAI 的密钥来联网执行。注意，执行格式化后，剪贴板里原本的文本会被格式化后的文本覆盖。</value>
   </data>
@@ -4418,6 +4272,9 @@
   <data name="Peek_SourceCode_WrapText.Content" xml:space="preserve">
     <value>自动换行</value>
   </data>
+  <data name="Peek_SourceCode_Minimap.Content" xml:space="preserve">
+    <value>显示小地图</value>
+  </data>
   <data name="ShowPluginsOverview_All.Content" xml:space="preserve">
     <value>所有唤醒词</value>
   </data>
@@ -4449,6 +4306,9 @@
   <data name="GPO_SomeSettingsAreManaged.Title" xml:space="preserve">
     <value>组策略已控制这些设置</value>
   </data>
+  <data name="GPO_AdvancedPasteAi_SettingIsManaged.Title" xml:space="preserve">
+    <value>组策略已控制 AI 功能</value>
+  </data>
   <data name="GPO_SettingIsManaged_ToolTip.Text" xml:space="preserve">
     <value>组策略已控制此设置</value>
   </data>
@@ -4463,6 +4323,9 @@
   </data>
   <data name="Peek_SourceCode_StickyScroll.Content" xml:space="preserve">
     <value>启用粘滞滚动</value>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Monaco_Minimap.Content" xml:space="preserve">
+    <value>显示小地图</value>
   </data>
   <data name="PrivacyLink.Text" xml:space="preserve">
     <value>OpenAI 隐私政策</value>
@@ -4508,6 +4371,14 @@
   <data name="AdvancedPaste_CloseAfterLosingFocus.Header" xml:space="preserve">
     <value>失去焦点自动关闭（点击粘贴面板之外就会关闭）</value>
     <comment>AdvancedPaste is a product name, do not loc</comment>
+  </data>
+  <data name="GPO_CommandNotFound_ForceDisabled.Title" xml:space="preserve">
+    <value>组策略已禁用未找到命令模块</value>
+    <comment>"Command Not Found" is a product name</comment>
+  </data>
+  <data name="GPO_CommandNotFound_ForceEnabled.Title" xml:space="preserve">
+    <value>组策略已启用未找到命令模块</value>
+    <comment>"Command Not Found" is a product name</comment>
   </data>
   <data name="NewPlus.ModuleTitle" xml:space="preserve">
     <value>新建+</value>
@@ -4596,6 +4467,310 @@
   </data>
   <data name="Workspaces_ShortDescription" xml:space="preserve">
     <value>创建与启动工作区</value>
+  </data>
+  <data name="Shell_ZoomIt.Content" xml:space="preserve">
+    <value>演示工具</value>
+    <comment>{Locked="ZoomIt"}</comment>
+  </data>
+  <data name="ZoomIt_EnableToggleControl_HeaderText.Header" xml:space="preserve">
+    <value>启用演示工具</value>
+    <comment>{Locked="ZoomIt"}</comment>
+  </data>
+  <data name="ZoomIt.ModuleDescription" xml:space="preserve">
+    <value>在汇报和现场演示时，帮助你放大屏幕、批注打字、截图录屏。</value>
+    <comment>{Locked="ZoomIt"}</comment>
+  </data>
+  <data name="ZoomIt_ShortDescription" xml:space="preserve">
+    <value>可以放大、批注、截图录屏的演示工具。</value>
+  </data>
+  <data name="ZoomIt.ModuleTitle" xml:space="preserve">
+    <value>演示工具</value>
+    <comment>{Locked="ZoomIt"}</comment>
+  </data>
+  <data name="LearnMore_ZoomIt.Text" xml:space="preserve">
+    <value>详细了解演示工具</value>
+    <comment>{Locked="ZoomIt"}</comment>
+  </data>
+  <data name="ZoomIt.SecondaryLinksHeader" xml:space="preserve">
+    <value>贡献</value>
+    <comment>giving credit to the projects this utility was based on</comment>
+  </data>
+  <data name="ZoomIt_SimultaneousStandaloneZoomItWarning.Title" xml:space="preserve">
+    <value>原版 ZoomIt 软件不能和 PowerToys 版本同时使用，在开启前记得把原版软件退出哦</value>
+  </data>
+  <data name="ZoomIt_BehaviorGroup.Header" xml:space="preserve">
+    <value>功能</value>
+  </data>
+  <data name="ZoomIt_Toggle_ShowTrayIcon.Header" xml:space="preserve">
+    <value>显示托盘图标</value>
+  </data>
+  <data name="ZoomIt_ZoomGroup.Header" xml:space="preserve">
+    <value>放大</value>
+  </data>
+  <data name="ZoomIt_ZoomGroup.Description" xml:space="preserve">
+    <value>按下快捷键放大之后，滚动鼠标滚轮或按上下方向键可以缩放大小。
+按鼠标左键开始画图，按 Esc 键或鼠标右键退出放大。
+按 Ctrl+C 复制截图，Ctrl+Shift+C 框选并复制。
+按 Ctrl+S 保存截图，Ctrl+Shift+S 框选并保存。</value>
+  </data>
+  <data name="ZoomIt_Zoom_Shortcut.Header" xml:space="preserve">
+    <value>放大快捷键</value>
+  </data>
+  <data name="ZoomIt_Toggle_AnimateZoom.Header" xml:space="preserve">
+    <value>放大缩小动画</value>
+  </data>
+  <data name="ZoomIt_Slider_InitialMagnification.Header" xml:space="preserve">
+    <value>默认放大倍率</value>
+  </data>
+  <data name="ZoomIt_LiveZoomGroup.Header" xml:space="preserve">
+    <value>实时放大</value>
+  </data>
+  <data name="ZoomIt_LiveZoomGroup.Description" xml:space="preserve">
+    <value>这个模式下窗口能动。
+按 Ctrl+上下方向键 来缩放大小。
+按 画图快捷键 冻结画面开始画图，画完按 Esc 回到实时缩放中。
+按 Shift+实时放大快捷键 开始实时画图，画面不会冻结，按 Esc 返回。</value>
+  </data>
+  <data name="ZoomIt_LiveZoom_Shortcut.Header" xml:space="preserve">
+    <value>实时放大快捷键</value>
+  </data>
+  <data name="ZoomIt_DrawGroup.Header" xml:space="preserve">
+    <value>画图</value>
+  </data>
+  <data name="ZoomIt_DrawGroup.Description" xml:space="preserve">
+    <value>放大之后，点击左键开始画图，点击右键退出画图。按 Ctrl+Z 撤回，按 E 清空，按空格键将光标移到屏幕中央。
+
+粗细 - 按 Ctrl+鼠标滚轮或上下方向键 调整画笔粗细。
+颜色 - 按 R 红色、G 绿色、B 蓝色、O 橙色、Y 黄色、P 粉色。
+效果 - 按 Shift+颜色键 变成对应的半透明高光颜色。按 X 模糊，Shift+X 是更强力的模糊。
+形状 - 按住 Shift 画直线，按住 Ctrl 画矩形，按住 Tab 画椭圆，按住 Ctrl+Shift 画箭头。
+画板 - 按 W 清空全屏变成白色，K 变黑色。
+
+同样支持 Ctrl+C 复制和 Ctrl+S 保存等。</value>
+  </data>
+  <data name="ZoomIt_Draw_Shortcut.Header" xml:space="preserve">
+    <value>画图快捷键</value>
+  </data>
+  <data name="ZoomIt_TypeGroup.Header" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="ZoomIt_TypeGroup.Description" xml:space="preserve">
+    <value>在画图时，按 T 输入文本，Shift+T 输入右对齐的文本。按 Esc 或单击左键结束文本输入。
+用鼠标滚轮或上下方向键改变字体大小。文本颜色就是当前的画笔颜色。</value>
+  </data>
+  <data name="ZoomIt_Type_TextFont.Header" xml:space="preserve">
+    <value>字体</value>
+  </data>
+  <data name="ZoomIt_Type_Font_Button.Content" xml:space="preserve">
+    <value>选择字体</value>
+    <comment>Font refers to text font</comment>
+  </data>
+  <data name="ZoomIt_DemoTypeGroup.Header" xml:space="preserve">
+    <value>自动打字</value>
+  </data>
+  <data name="ZoomIt_DemoTypeGroup.Description" xml:space="preserve">
+    <value>选择一个文件作为输入文本，按快捷键后自动一个个字地打出来。
+也可以从剪贴板里输入文本，剪贴板文本需要以 [start] 开头。
+
+用 [end] 可以分段，每次只打一段，用 [pause:n] 可以等待 n 秒。
+用 [paste] 和 [/paste] 括起来的部分可以一次性粘贴出来，不会一个个字地打。
+用 [enter]、[up]、[down]、[left]、[right] 表示回车和上下左右按键。
+
+默认是自动输出，如果开启半自动模式，那就是手动按一下键盘它打一两个字。
+在自动打字的过程中，键盘将会被它控制。半自动模式下，打完一段之后需要按空格键来结束控制。全自动模式下会自动结束控制。
+
+整个文件打完之后，将会重新加载文件并回到开头继续。按 Shift+自动打字快捷键 可以往回倒带一段。</value>
+  </data>
+  <data name="ZoomIt_DemoType_Shortcut.Header" xml:space="preserve">
+    <value>自动打字快捷键</value>
+  </data>
+  <data name="ZoomIt_DemoType_File.Header" xml:space="preserve">
+    <value>输入文本</value>
+  </data>
+  <data name="ZoomIt_DemoType_File_BrowseButton.Content" xml:space="preserve">
+    <value>选择文件</value>
+  </data>
+  <data name="ZoomIt_DemoType_File_Picker_Dialog_Title" xml:space="preserve">
+    <value>选择自动打字文件...</value>
+  </data>
+  <data name="FilePicker_AllFilesFilter" xml:space="preserve">
+    <value>全部文件</value>
+  </data>
+  <data name="ZoomIt_DemoType_Toggle_UserDrivenMode.Header" xml:space="preserve">
+    <value>半自动模式</value>
+  </data>
+  <data name="ZoomIt_DemoType_SpeedSlider.Header" xml:space="preserve">
+    <value>打字速度</value>
+  </data>
+  <data name="ZoomIt_DemoType_SpeedSlider_Thumbnail_Explanation" xml:space="preserve">
+    <value>越大越快</value>
+  </data>
+  <data name="ZoomIt_BreakGroup.Header" xml:space="preserve">
+    <value>倒计时</value>
+  </data>
+  <data name="ZoomIt_BreakGroup.Description" xml:space="preserve">
+    <value>按快捷键或使用托盘菜单来开始倒计时。按方向键增减时间，按 Esc 退出。
+
+如果中途使用 Alt+Tab 切换到了其他窗口，单击托盘图标可以返回计时窗口。
+计时器颜色可以按画笔颜色键切换，字体是画图文本字体。</value>
+  </data>
+  <data name="ZoomIt_Break_Shortcut.Header" xml:space="preserve">
+    <value>倒计时快捷键</value>
+  </data>
+  <data name="ZoomIt_Break_Timeout.Header" xml:space="preserve">
+    <value>默认分钟数</value>
+  </data>
+  <data name="ZoomIt_Break_ShowExpiredTime.Header" xml:space="preserve">
+    <value>计时结束继续显示超出的时间</value>
+  </data>
+  <data name="ZoomIt_Break_PlaySoundsFile.Header" xml:space="preserve">
+    <value>计时结束播放声音</value>
+  </data>
+  <data name="ZoomIt_Break_SoundFile.Header" xml:space="preserve">
+    <value>声音文件</value>
+  </data>
+  <data name="ZoomIt_Break_SoundFile_BrowseButton.Content" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ZoomIt_Break_SoundFile_Picker_Dialog_Title" xml:space="preserve">
+    <value>选择音频文件...</value>
+  </data>
+  <data name="FilePicker_ZoomIt_SoundsFilter" xml:space="preserve">
+    <value>音频文件</value>
+  </data>
+  <data name="ZoomIt_Break_TimerOpacity.Header" xml:space="preserve">
+    <value>窗口不透明度</value>
+  </data>
+  <data name="ZoomIt_Break_TimerOpacity_10Percent.Content" xml:space="preserve">
+    <value>10%</value>
+  </data>
+  <data name="ZoomIt_Break_TimerOpacity_20Percent.Content" xml:space="preserve">
+    <value>20%</value>
+  </data>
+  <data name="ZoomIt_Break_TimerOpacity_30Percent.Content" xml:space="preserve">
+    <value>30%</value>
+  </data>
+  <data name="ZoomIt_Break_TimerOpacity_40Percent.Content" xml:space="preserve">
+    <value>40%</value>
+  </data>
+  <data name="ZoomIt_Break_TimerOpacity_50Percent.Content" xml:space="preserve">
+    <value>50%</value>
+  </data>
+  <data name="ZoomIt_Break_TimerOpacity_60Percent.Content" xml:space="preserve">
+    <value>60%</value>
+  </data>
+  <data name="ZoomIt_Break_TimerOpacity_70Percent.Content" xml:space="preserve">
+    <value>70%</value>
+  </data>
+  <data name="ZoomIt_Break_TimerOpacity_80Percent.Content" xml:space="preserve">
+    <value>80%</value>
+  </data>
+  <data name="ZoomIt_Break_TimerOpacity_90Percent.Content" xml:space="preserve">
+    <value>90%</value>
+  </data>
+  <data name="ZoomIt_Break_TimerOpacity_100Percent.Content" xml:space="preserve">
+    <value>100%</value>
+  </data>
+  <data name="ZoomIt_Break_TimerPosition.Header" xml:space="preserve">
+    <value>时间显示位置</value>
+  </data>
+  <data name="ZoomIt_Break_TimerPosition_TopLeftCorner.Content" xml:space="preserve">
+    <value>左上角</value>
+  </data>
+  <data name="ZoomIt_Break_TimerPosition_TopCenter.Content" xml:space="preserve">
+    <value>正上方</value>
+  </data>
+  <data name="ZoomIt_Break_TimerPosition_TopRightCorner.Content" xml:space="preserve">
+    <value>右上角</value>
+  </data>
+  <data name="ZoomIt_Break_TimerPosition_Left.Content" xml:space="preserve">
+    <value>左侧</value>
+  </data>
+  <data name="ZoomIt_Break_TimerPosition_Center.Content" xml:space="preserve">
+    <value>正中央</value>
+  </data>
+  <data name="ZoomIt_Break_TimerPosition_Right.Content" xml:space="preserve">
+    <value>右侧</value>
+  </data>
+  <data name="ZoomIt_Break_TimerPosition_BottomLeftCorner.Content" xml:space="preserve">
+    <value>左下角</value>
+  </data>
+  <data name="ZoomIt_Break_TimerPosition_BottomCenter.Content" xml:space="preserve">
+    <value>正下方</value>
+  </data>
+  <data name="ZoomIt_Break_TimerPosition_BottomRightCorner.Content" xml:space="preserve">
+    <value>右下角</value>
+  </data>
+  <data name="ZoomIt_Break_ShowBackgroundBitmap.Header" xml:space="preserve">
+    <value>背景图片</value>
+  </data>
+  <data name="ZoomIt_Break_ShowFadedDesktop.Content" xml:space="preserve">
+    <value>使用变暗的屏幕截图</value>
+  </data>
+  <data name="ZoomIt_Break_ShowImageFile.Content" xml:space="preserve">
+    <value>使用自定义图像文件</value>
+  </data>
+  <data name="ZoomIt_Break_BackgroundFile.Header" xml:space="preserve">
+    <value>自定义图像文件</value>
+  </data>
+  <data name="ZoomIt_Break_BackgroundFile_BrowseButton.Content" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ZoomIt_Break_BackgroundFile_Picker_Dialog_Title" xml:space="preserve">
+    <value>选择背景图片...</value>
+  </data>
+  <data name="FilePicker_ZoomIt_BitmapFilesFilter" xml:space="preserve">
+    <value>位图文件</value>
+  </data>
+  <data name="FilePicker_ZoomIt_AllPicturesFilter" xml:space="preserve">
+    <value>所有图像文件</value>
+  </data>
+  <data name="ZoomIt_Break_BackgroundStretch.Header" xml:space="preserve">
+    <value>拉伸填充全屏</value>
+  </data>
+  <data name="ZoomIt_RecordGroup.Header" xml:space="preserve">
+    <value>录屏</value>
+  </data>
+  <data name="ZoomIt_RecordGroup.Description" xml:space="preserve">
+    <value>按 录屏快捷键 可以开始录制全屏，再按一下 录屏快捷键 可以结束录屏。
+按 Shift+录屏快捷键 可以框选区域并录制。
+按 Alt+录屏快捷键 可以录制当前窗口。</value>
+  </data>
+  <data name="ZoomIt_Record_Shortcut.Header" xml:space="preserve">
+    <value>录屏快捷键</value>
+  </data>
+  <data name="ZoomIt_Record_Scaling.Header" xml:space="preserve">
+    <value>录屏分辨率倍率</value>
+  </data>
+  <data name="ZoomIt_Record_CaptureAudio.Header" xml:space="preserve">
+    <value>录制麦克风音频</value>
+  </data>
+  <data name="ZoomIt_Record_Microphone.Header" xml:space="preserve">
+    <value>麦克风</value>
+  </data>
+  <data name="ZoomIt_Record_Microphones_Default_Name" xml:space="preserve">
+    <value>默认麦克风</value>
+  </data>
+  <data name="ZoomIt_SnipGroup.Header" xml:space="preserve">
+    <value>截图</value>
+  </data>
+  <data name="ZoomIt_SnipGroup.Description" xml:space="preserve">
+    <value>按 截图快捷键 截图并复制，按 Shift+截图快捷键 截图并保存。</value>
+  </data>
+  <data name="ZoomIt_Snip_Shortcut.Header" xml:space="preserve">
+    <value>截图快捷键</value>
+  </data>
+  <data name="Oobe_ZoomIt.Description" xml:space="preserve">
+    <value>演示工具（原 ZoomIt 软件）是一个用于汇报演示的小工具，可以放大屏幕、批注、打字、截图、录屏等。</value>
+    <comment>{Locked="ZoomIt"}</comment>
+  </data>
+  <data name="Oobe_ZoomIt.Title" xml:space="preserve">
+    <value>演示工具</value>
+    <comment>{Locked="ZoomIt"}</comment>
+  </data>
+  <data name="Oobe_ZoomIt_HowToUse.Text" xml:space="preserve">
+    <value>在设置中启用演示工具，然后阅读各个功能的说明来进行操作。</value>
+    <comment>{Locked="ZoomIt"}</comment>
   </data>
   <data name="MouseWithoutBorders_PolicyIPAddressMappingInfo.Title" xml:space="preserve">
     <value>由您的组织所设定的规则</value>
@@ -4710,5 +4885,15 @@
   </data>
   <data name="Enable_Module.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>启用模块</value>
+  </data>
+  <data name="PowerLauncher_PluginVersion.Text" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="PowerLauncher_PluginWebsite.Text" xml:space="preserve">
+    <value>项目官网</value>
+  </data>
+  <data name="SettingsPage_NewInfoBadge.Text" xml:space="preserve">
+    <value>新功能</value>
+	<comment>Must be all caps</comment>
   </data>
 </root>

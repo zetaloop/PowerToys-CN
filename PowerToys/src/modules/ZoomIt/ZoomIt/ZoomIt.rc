@@ -1,0 +1,484 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+// version.h and branding.h are different in the Sysinternals repository,
+// keep the includes as such, here.
+// From $(MSBuildThisFileDirectory)..\..\..\common\version
+#include "version.h"
+// From $(MSBuildThisFileDirectory)PowerToys
+#include "branding.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Simplified) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#include ""binres.rc""\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+NULLCURSOR              CURSOR                  "cursor1.cur"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+APPICON                 ICON                    "appicon.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION FILE_VERSION
+ PRODUCTVERSION PRODUCT_VERSION
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", COMPANY_NAME
+            VALUE "FileDescription", FILE_DESCRIPTION
+            VALUE "FileVersion", FILE_VERSION_STRING
+            VALUE "InternalName", INTERNAL_NAME
+            VALUE "LegalCopyright", COPYRIGHT_NOTE
+            VALUE "OriginalFilename", ORIGINAL_FILENAME
+            VALUE "ProductName", ZOOMIT_PRODUCT_NAME
+            VALUE "ProductVersion", PRODUCT_VERSION_STRING
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+OPTIONS DIALOGEX 0, 0, 279, 325
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CLIPSIBLINGS | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTROLPARENT
+CAPTION "ZoomIt - Sysinternals: www.sysinternals.com"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,166,306,50,14
+    PUSHBUTTON      "取消",IDCANCEL,223,306,50,14
+    LTEXT           "ZoomIt v9.0",IDC_VERSION,42,7,73,10
+    LTEXT           "版权所有 � 2006-2024 Mark Russinovich",IDC_COPYRIGHT,42,17,176,8
+    CONTROL         "<a HREF=""https://www.sysinternals.com"">Sysinternals - www.sysinternals.com</a>",IDC_LINK,
+                    "SysLink",WS_TABSTOP,42,26,150,9
+    ICON            "APPICON",IDC_STATIC,12,9,20,20
+    CONTROL         "显示托盘图标",IDC_SHOW_TRAY_ICON,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,295,105,10
+    CONTROL         "",IDC_TAB,"SysTabControl32",TCS_MULTILINE | WS_TABSTOP,8,46,265,245
+    CONTROL         "开机自启",IDC_AUTOSTART,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,309,122,10
+END
+
+ADVANCED_BREAK DIALOGEX 0, 0, 209, 219
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "倒计时高级设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "计时结束播放声音:",IDC_CHECK_SOUND_FILE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,3,11,98,10,WS_EX_RIGHT
+    EDITTEXT        IDC_SOUND_FILE,61,38,125,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "&...",IDC_SOUND_BROWSE,187,38,13,11
+    COMBOBOX        IDC_OPACITY,62,58,38,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_TIMER_POS1,"Button",BS_AUTORADIOBUTTON,63,78,10,10
+    CONTROL         "",IDC_TIMER_POS2,"Button",BS_AUTORADIOBUTTON,79,78,10,10
+    CONTROL         "",IDC_TIMER_POS3,"Button",BS_AUTORADIOBUTTON,97,78,10,10
+    CONTROL         "",IDC_TIMER_POS4,"Button",BS_AUTORADIOBUTTON,63,93,10,10
+    CONTROL         "",IDC_TIMER_POS5,"Button",BS_AUTORADIOBUTTON,79,93,10,10
+    CONTROL         "",IDC_TIMER_POS6,"Button",BS_AUTORADIOBUTTON,97,93,10,10
+    CONTROL         "",IDC_TIMER_POS7,"Button",BS_AUTORADIOBUTTON,63,108,10,10
+    CONTROL         "",IDC_TIMER_POS8,"Button",BS_AUTORADIOBUTTON,79,108,10,10
+    CONTROL         "",IDC_TIMER_POS9,"Button",BS_AUTORADIOBUTTON,97,108,10,10
+    CONTROL         "显示背景图片:",IDC_CHECK_BACKGROUND_FILE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,3,122,99,10,WS_EX_RIGHT
+    CONTROL         "使用变暗的屏幕截图",IDC_STATIC_DESKTOP_BACKGROUND,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,46,135,125,10
+    CONTROL         "使用自定义图像文件",IDC_STATIC_BACKGROUND_FILE,
+                    "Button",BS_AUTORADIOBUTTON | WS_TABSTOP,46,149,109,10
+    EDITTEXT        IDC_BACKGROUND_FILE,62,164,125,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "&...",IDC_BACKGROUND_BROWSE,188,164,13,11
+    CONTROL         "拉伸填充全屏:",IDC_CHECK_BACKGROUND_STRETCH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,58,180,67,10,WS_EX_RIGHT
+    DEFPUSHBUTTON   "确定",IDOK,97,201,50,14
+    PUSHBUTTON      "取消",IDCANCEL,150,201,50,14
+    LTEXT           "音频文件:",IDC_STATIC_SOUND_FILE,61,26,56,8
+    LTEXT           "窗口不透明度:",IDC_STATIC,8,59,48,8
+    LTEXT           "时间显示位置:",IDC_STATIC,8,77,48,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,7,196,193,1,WS_EX_CLIENTEDGE
+END
+
+ZOOM DIALOGEX 0, 0, 260, 158
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | WS_CLIPSIBLINGS | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_HOTKEY,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,59,57,80,12
+    LTEXT           "按下快捷键放大之后，滚动鼠标滚轮或按上下方向键可以缩放大小，按 Esc 键或鼠标右键退出放大。",IDC_STATIC,7,6,246,26
+    LTEXT           "放大快捷键:",IDC_STATIC,7,59,51,8
+    CONTROL         "",IDC_ZOOM_SLIDER,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,53,104,150,15,WS_EX_TRANSPARENT
+    LTEXT           "默认放大倍率:",IDC_STATIC,7,91,215,10
+    LTEXT           "1.25",IDC_STATIC,52,122,16,8
+    LTEXT           "1.5",IDC_STATIC,82,122,12,8
+    LTEXT           "1.75",IDC_STATIC,108,122,16,8
+    LTEXT           "2.0",IDC_STATIC,138,122,12,8
+    LTEXT           "3.0",IDC_STATIC,164,122,12,8
+    LTEXT           "4.0",IDC_STATIC,190,122,12,8
+    CONTROL         "放大缩小动画:",IDC_ANIMATE_ZOOM,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,7,74,116,10
+    LTEXT           "按 Ctrl+C 复制截图，Ctrl+S 保存截图，Ctrl+Shift+C 框选并复制，Ctrl+Shift+S 框选并保存。",IDC_STATIC,7,34,246,17
+END
+
+DRAW DIALOGEX 0, 0, 260, 228
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "放大之后，点击左键开始画图，点击右键退出画图。按 Ctrl+Z 撤回，按 E 清空，按空格键将光标移到屏幕中央。",IDC_STATIC,7,7,246,24
+    LTEXT           "粗细",IDC_PEN_CONTROL,7,38,40,8
+    LTEXT           "按 Ctrl+鼠标滚轮或上下方向键 调整画笔粗细。",IDC_STATIC,19,48,233,16
+    LTEXT           "颜色",IDC_COLORS,7,70,21,8
+    LTEXT           "按 R 红色、G 绿色、B 蓝色、O 橙色、Y 黄色、P 粉色。",IDC_STATIC,19,80,233,16
+    LTEXT           "效果",IDC_HIGHLIGHT_AND_BLUR,7,102,58,8
+    LTEXT           "按 Shift+颜色键 变成对应的半透明高光颜色。按 X 模糊，Shift+X 是更强力的模糊。",IDC_STATIC,19,113,233,16
+    LTEXT           "形状",IDC_SHAPES,7,134,23,8
+    LTEXT           "按住 Shift 画直线，按住 Ctrl 画矩形，按住 Tab 画椭圆，按住 Ctrl+Shift 画箭头。",IDC_STATIC,19,144,233,16
+    LTEXT           "画板",IDC_SCREEN,7,166,22,8
+    LTEXT           "按 W 清空全屏变成白色，K 变黑色。同样支持 Ctrl+C 复制和 Ctrl+S 保存等。",IDC_STATIC,19,176,233,24
+    CONTROL         "",IDC_DRAW_HOTKEY,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,73,207,80,12
+    LTEXT           "画图快捷键:",IDC_STATIC,7,210,63,11
+END
+
+TYPE DIALOGEX 0, 0, 260, 104
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "在画图时，按 T 输入文本，Shift+T 输入右对齐的文本。按 Esc 或单击左键结束文本输入。用鼠标滚轮或上下方向键改变字体大小。",IDC_STATIC,7,7,246,32
+    LTEXT           "文本颜色就是当前的画笔颜色。",IDC_STATIC,7,47,211,9
+    PUSHBUTTON      "字体(&F)",IDC_FONT,112,69,41,14
+    GROUPBOX        "字体",IDC_TEXT_FONT,8,61,99,28
+END
+
+BREAK DIALOGEX 0, 0, 260, 123
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_BREAK_HOTKEY,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,52,67,80,12
+    EDITTEXT        IDC_TIMER,31,86,31,13,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPIN_TIMER,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,45,86,11,12
+    LTEXT           "分钟",IDC_STATIC,67,88,25,8
+    PUSHBUTTON      "高级(&A)",IDC_ADVANCED_BREAK,212,102,41,14
+    LTEXT           "按快捷键或使用托盘菜单来开始倒计时。按方向键增减时间，按 Esc 退出。如果中途使用 Alt+Tab 切换到了其他窗口，单击托盘图标可以返回计时窗口。",IDC_STATIC,7,7,246,33
+    LTEXT           "计时快捷键:",IDC_STATIC,7,70,39,8
+    LTEXT           "倒计时:",IDC_STATIC,7,88,27,8
+    LTEXT           "计时器颜色可以按画笔颜色键切换，字体是画图文本字体。",IDC_STATIC,7,45,219,20
+    CONTROL         "计时结束继续显示超出的时间:",IDC_CHECK_SHOW_EXPIRED,
+                    "Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,8,104,132,10
+END
+
+1543 DIALOGEX 100, 50, 216, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ZoomIt 字体"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "字体(&F):",1088,6,0,40,9
+    COMBOBOX        1136,6,10,94,64,CBS_SIMPLE | CBS_OWNERDRAWFIXED | CBS_AUTOHSCROLL | CBS_SORT | CBS_HASSTRINGS | CBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "风格(&Y):",1089,108,0,44,9
+    COMBOBOX        1137,108,10,64,64,CBS_SIMPLE | CBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "字号(&S):",1090,179,0,30,9
+    COMBOBOX        1138,179,10,32,64,CBS_SIMPLE | CBS_OWNERDRAWFIXED | CBS_SORT | CBS_HASSTRINGS | CBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "确定",IDOK,166,94,45,14,WS_GROUP
+    PUSHBUTTON      "取消",IDCANCEL,166,111,45,14,WS_GROUP
+    GROUPBOX        "Sample",1073,7,75,143,51,WS_GROUP
+    CTEXT           "AaBbYyZz",1092,16,88,127,31,SS_NOPREFIX | NOT WS_VISIBLE
+END
+
+LIVEZOOM DIALOGEX 0, 0, 260, 134
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIVE_HOTKEY,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,69,108,80,12
+    LTEXT           "该模式下窗口能动。至少需要 Windows 7。",IDC_STATIC,7,7,246,18
+    LTEXT           "实时放大快捷键:",IDC_STATIC,7,110,62,8
+    LTEXT           "按快捷键进入和退出实时放大。",IDC_STATIC,7,94,218,13
+    LTEXT           "按 Ctrl+上下方向键 来缩放大小。按 画图快捷键 冻结画面开始画图，画完按 Esc 回到实时缩放中。",IDC_STATIC,7,30,246,27
+    LTEXT           "按 Shift+实时放大快捷键 开始实时画图，画面不会冻结，按 Esc 返回。",IDC_STATIC,7,62,246,32
+END
+
+RECORD DIALOGEX 0, 0, 260, 169
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_RECORD_HOTKEY,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,61,96,80,12
+    LTEXT           "录屏快捷键:",IDC_STATIC,7,98,54,8
+    LTEXT           "按快捷键可以开始录制全屏，再按一下可以结束录屏。",IDC_STATIC,7,7,246,28
+    LTEXT           "录屏功能需要 Windows 10 版本 1903 及以上。",IDC_STATIC,7,77,246,19
+    LTEXT           "分辨率倍率:",IDC_STATIC,7,115,54,8
+    COMBOBOX        IDC_RECORD_SCALING,61,114,26,30,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | CBS_OEMCONVERT | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "刷新率:",IDC_STATIC,119,115,44,8,NOT WS_VISIBLE
+    COMBOBOX        IDC_RECORD_FRAME_RATE,166,114,42,30,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | CBS_OEMCONVERT | CBS_SORT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "按 Shift+录屏快捷键 可以框选区域并录制。",IDC_STATIC,7,32,246,19
+    LTEXT           "按 Alt+录屏快捷键 可以录制当前窗口。",IDC_STATIC,7,55,246,19
+    CONTROL         "录制麦克风音频(&C):",IDC_CAPTURE_AUDIO,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,7,137,83,10
+    COMBOBOX        IDC_MICROPHONE,81,152,172,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "麦克风:",IDC_STATIC,32,154,47,8
+END
+
+SNIP DIALOGEX 0, 0, 260, 68
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | WS_CLIPSIBLINGS | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SNIP_HOTKEY,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,55,32,80,12
+    LTEXT           "截图快捷键:",IDC_STATIC,7,33,45,8
+    LTEXT           "按 截图快捷键 截图并复制，按 Shift+截图快捷键 截图并保存。",IDC_STATIC,7,7,246,19
+END
+
+DEMOTYPE DIALOGEX 0, 0, 259, 249
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | WS_CLIPSIBLINGS | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_DEMOTYPE_HOTKEY,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,74,154,80,12
+    LTEXT           "自动打字快捷键:",IDC_STATIC,7,157,63,8
+    PUSHBUTTON      "&...",IDC_DEMOTYPE_BROWSE,231,137,16,13
+    CONTROL         "",IDC_DEMOTYPE_SPEED_SLIDER,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,52,202,150,11,WS_EX_TRANSPARENT
+    CONTROL         "半自动模式:",IDC_DEMOTYPE_USER_DRIVEN,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,7,173,88,10
+    LTEXT           "打字速度:",IDC_STATIC,7,189,215,10
+    LTEXT           "慢",IDC_DEMOTYPE_STATIC1,51,213,18,8
+    LTEXT           "快",IDC_DEMOTYPE_STATIC2,186,213,17,8
+    EDITTEXT        IDC_DEMOTYPE_FILE,44,137,187,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "输入文件:",IDC_STATIC,7,139,32,8
+    LTEXT           "整个文件打完之后，将会重新加载文件并回到开头继续。按 Shift+自动打字快捷键 可以往回倒带一段。",IDC_STATIC,7,108,248,24
+    LTEXT           "选择一个文件作为输入文本，按快捷键后自动一个个字地打出来。也可以从剪贴板里输入文本，剪贴板文本需要以 [start] 开头。",IDC_STATIC,7,7,248,24
+    LTEXT           "  - 用 [pause:n] 可以等待 n 秒。",IDC_STATIC,19,34,212,11
+    LTEXT           "默认是自动输出，如果开启半自动模式，那就是手动按一下键盘它打一两个字。在自动打字的过程中，键盘将会被它控制。",IDC_STATIC,7,68,248,16
+    LTEXT           "半自动模式下，打完一段之后需要按空格键来结束控制。全自动模式下会自动结束控制。",IDC_STATIC,7,88,248,16
+    LTEXT           "- 用 [paste] 和 [/paste] 括起来的部分可以一次性粘贴出来。",IDC_STATIC,23,45,178,8
+    LTEXT           "- 用 [enter]、[up]、[down]、[left]、[right] 表示回车和上下左右按键。",IDC_STATIC,23,56,211,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    "OPTIONS", DIALOG
+    BEGIN
+        RIGHTMARGIN, 273
+        BOTTOMMARGIN, 320
+    END
+
+    "ADVANCED_BREAK", DIALOG
+    BEGIN
+        RIGHTMARGIN, 207
+        BOTTOMMARGIN, 215
+    END
+
+    "ZOOM", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 253
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 151
+    END
+
+    "DRAW", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 253
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 221
+    END
+
+    "TYPE", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 253
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 97
+    END
+
+    "BREAK", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 253
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 116
+    END
+
+    1543, DIALOG
+    BEGIN
+        RIGHTMARGIN, 211
+        BOTTOMMARGIN, 127
+    END
+
+    "LIVEZOOM", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 253
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+    END
+
+    "RECORD", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 253
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 164
+    END
+
+    "SNIP", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 253
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 61
+    END
+
+    "DEMOTYPE", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 255
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 205
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+ACCELERATORS ACCELERATORS
+BEGIN
+    "C",            IDC_COPY,               VIRTKEY, CONTROL, NOINVERT
+    "S",            IDC_SAVE,               VIRTKEY, CONTROL, NOINVERT
+    "C",            IDC_COPY_CROP,           VIRTKEY, SHIFT, CONTROL, NOINVERT
+    "S",            IDC_SAVE_CROP,           VIRTKEY, SHIFT, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+OPTIONS AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+LIVEZOOM AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+DRAW AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+RECORD AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+TYPE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+ZOOM AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+SNIP AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+BREAK AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+DEMOTYPE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "binres.rc"
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

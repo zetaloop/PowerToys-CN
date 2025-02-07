@@ -51,7 +51,7 @@ std::vector<std::pair<DWORD, std::wstring>> LayoutMap::GetKeyNameList(const bool
 // Function to return the unicode string name of the key
 std::wstring LayoutMap::LayoutMapImpl::GetKeyName(DWORD key)
 {
-    std::wstring result = L"Undefined";
+    std::wstring result = L"未定义";
     std::lock_guard<std::mutex> lock(keyboardLayoutMap_mutex);
     UpdateLayout();
 
